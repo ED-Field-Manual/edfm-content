@@ -12,7 +12,7 @@ Latest package:
 
 Download from the release page:
 
-- `https://github.com/xplosivoctopus/edfm-content/releases/tag/media-current-2026-08-22`
+- `https://github.com/ED-Field-Manual/edfm-content/releases/tag/media-current-2026-08-22`
 
 ## Package layout
 

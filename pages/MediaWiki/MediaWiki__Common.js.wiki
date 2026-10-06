@@ -867,12 +867,12 @@ This is current wikitext only; no revision history, user database, logs, deleted
 
 		var repos = [
 			{
-				href: 'https://github.com/xplosivoctopus/edfm',
+				href: 'https://github.com/ED-Field-Manual/edfm',
 				alt: 'GitHub source repository',
 				src: 'https://img.shields.io/badge/GitHub-source-2ea44f?logo=github&labelColor=24292f&style=flat'
 			},
 			{
-				href: 'https://github.com/xplosivoctopus/edfm-content',
+				href: 'https://github.com/ED-Field-Manual/edfm-content',
 				alt: 'GitHub content archive repository',
 				src: 'https://img.shields.io/badge/GitHub-content%20archive-2ea44f?logo=github&labelColor=24292f&style=flat'
 			}

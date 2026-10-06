@@ -15,7 +15,7 @@ It is not intended to be a full operational backup.
 
 The source/config-example repository is:
 
-- `https://github.com/xplosivoctopus/edfm`
+- `https://github.com/ED-Field-Manual/edfm`
 
 This content archive pairs with that repository:
 
@@ -34,7 +34,7 @@ If the live site is unavailable and the maintainer cannot be reached:
 
 1. Clone this repository.
 2. Review `README.md` and `docs/importing-current-content.md`.
-3. Clone `https://github.com/xplosivoctopus/edfm` for source/config examples.
+3. Clone `https://github.com/ED-Field-Manual/edfm` for source/config examples.
 4. Decide whether the immediate goal is a static mirror or a new MediaWiki install.
 5. Preserve attribution and licensing information.
 6. If a trusted encrypted disaster-recovery package is available, use that for full restoration instead of this content-only archive.
