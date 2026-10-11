@@ -4,6 +4,11 @@ This repository contains a current-only public content export from [Elite Danger
 
 It is intended as a continuity archive so the public wiki content can survive if the live site becomes unavailable.
 
+## Support EDFM
+
+If you find EDFM useful and want to support its continued development and
+hosting, [support XplosivOctopus on Patreon](https://patreon.com/XplosivOctopus?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink).
+
 ## What is included
 
 - Current wikitext for public content namespaces.
