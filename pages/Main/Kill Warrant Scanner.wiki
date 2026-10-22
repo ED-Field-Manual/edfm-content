@@ -3,22 +3,129 @@ EDFM current-content archive export.
 Title: Kill Warrant Scanner
 Namespace: 0
 Page ID: 518
-Revision ID: 2161
-Timestamp: 2026-08-24T23:44:25Z
+Revision ID: 5218
+Timestamp: 2026-09-24T18:37:49Z
 Source URL: https://edfieldmanual.com/wiki/Kill_Warrant_Scanner
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Kill Warrant Scanner ship module.
+{{Article header|deck=A utility scanner that uncovers a targeted ship's active bounties beyond the current jurisdiction.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy module records
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Stock variants use commit-pinned community module data; operation and Engineering compatibility use maintained community references.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Kill Warrant Scanner''' is a Class 0 utility module used to check a targeted ship for active bounties outside the current jurisdiction. A completed scan can expose additional claims that become payable if the target is destroyed, increasing the potential return from a wanted ship.<ref name="edwiki-kws">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Kill_Warrant_Scanner Kill Warrant Scanner], accessed 16 September 2026.</ref>
+
+The scanner does not override local law. A ship shown as '''Clean''' in the current jurisdiction remains an illegal target there even when the scan reveals bounties elsewhere. The current jurisdiction's Wanted status must therefore be checked separately before opening fire.
+
+{{Callout|type=warning|label=Local law still applies|1=Do not treat a successful warrant scan as universal permission to attack. Firing on a locally Clean ship can make the attacking commander Wanted even when the target has claims in other jurisdictions.<ref name="edwiki-kws" />}}
+
+== Operation ==
+
+# Fit the scanner to a utility mount and assign it to a fire group.
+# Deploy hardpoints and target a ship.
+# Move within the scanner's rated range.
+# Hold the assigned trigger while keeping the target inside the scanning arc.
+# Wait for the scan to complete, then review the target's revealed bounty information.
+
+Every unengineered rating takes 10 seconds to finish. Moving out of range or losing the target interrupts progress; incomplete progress decays rather than always disappearing immediately. The target is notified that a warrant scan is under way, and deployed [[Chaff Launcher|chaff]] can interfere with initiating or completing it.<ref name="edwiki-kws" />
+
+The scan is most useful in two situations:
+
+* a ship is already Wanted locally and may carry additional bounties elsewhere; or
+* an Anarchy jurisdiction provides no local Wanted status, but the commander wants to identify claims issued elsewhere.
+
+In either case, the module reveals claims; it does not alter who issued them or where they can be redeemed.
+
+== Standard variants ==
+
+All standard variants occupy one utility mount, have Class 0 size, weigh 1.3 tonnes, and use a 10-second base scan. Higher ratings extend range while increasing power draw.<ref name="edcd-kws">EDCD Coriolis Data, [https://raw.githubusercontent.com/EDCD/coriolis-data/9e5273b56426596061e2b02a6ba53e3e4103c9ab/modules/hardpoints/kill_warrant_scanner.json Kill Warrant Scanner records], commit of 6 June 2024.</ref>
+
+{| class="wikitable sortable"
+! Variant
+! Integrity
+! Power draw
+! Scan range
+! Base scan time
+! Reference price
+|-
+| 0E
+| 32
+| 0.20 MW
+| 2,000 m
+| 10 s
+| 13,544 CR
+|-
+| 0D
+| 24
+| 0.40 MW
+| 2,500 m
+| 10 s
+| 40,633 CR
+|-
+| 0C
+| 40
+| 0.80 MW
+| 3,000 m
+| 10 s
+| 121,899 CR
+|-
+| 0B
+| 56
+| 1.60 MW
+| 3,500 m
+| 10 s
+| 365,698 CR
+|-
+| 0A
+| 48
+| 3.20 MW
+| 4,000 m
+| 10 s
+| 1,097,095 CR
+|}
+
+Reference prices are the unmodified module-record values. Local discounts and market conditions can change the actual purchase price.
+
+The rating does not determine which bounties are discovered. Its main stock benefit is increased range; the scan time remains the same until Engineering is applied.
+
+== Engineering ==
+
+Kill Warrant Scanners accept six blueprint families and no Experimental Effects:<ref name="inara-kws">INARA, [https://inara.cz/elite/blueprints/#outfittingslot2 Blueprints and upgrades — utility mounts], accessed 16 September 2026.</ref>
+
+* '''Fast Scan''' reduces scan time while reducing range and integrity.
+* '''Lightweight''' reduces mass while reducing integrity.
+* '''Long Range''' extends scan range while increasing power draw and narrowing the scanning angle.
+* '''Reinforced''' increases integrity while adding mass.
+* '''Shielded''' increases integrity while increasing power draw.
+* '''Wide Angle''' enlarges the scanning arc while adding mass and increasing scan time.
+
+Fast Scan suits close bounty-hunting engagements where a target may leave quickly. Long Range makes it easier to begin a scan before closing distance, while Wide Angle helps maintain lock on agile targets. A range-sensitive ship may instead prefer Lightweight.
+
+== Acquisition ==
+
+The E–A variants are ordinary credit-purchased utility modules. Availability depends on the current Outfitting stock at the station, port, or carrier service being used.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Combat]] [[Manifest Scanner]] [[Frame Shift Wake Scanner]] [[Chaff Launcher]] [[Engineering]] [[Law & Disorder]]}}
+
+{{Engineering nav}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Utility modules]]
+[[Category:Scanners]]
+[[Category:Engineering]]

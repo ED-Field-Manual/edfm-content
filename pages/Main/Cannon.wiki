@@ -3,22 +3,139 @@ EDFM current-content archive export.
 Title: Cannon
 Namespace: 0
 Page ID: 458
-Revision ID: 2213
-Timestamp: 2026-08-25T13:20:36Z
+Revision ID: 4230
+Timestamp: 2026-09-15T00:33:25Z
 Source URL: https://edfieldmanual.com/wiki/Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Cannon ship module.
+{{Article header|deck=A heavy kinetic projectile weapon built for high damage per shot, hull penetration, and internal-module strikes.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy; Force Impact is Live
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Base specifications are documented from current community module records; Engineering compatibility is corroborated by INARA and EDFM's canonical Engineer data.
+ |uncertainty=Outfitting stock is dynamic, and current Force Impact parameters should be checked in-game before committing Merc Coin or materials.
 }}
 
-{{#invoke:ShipModules|infobox}}
-
-{{Draft warning}}
+{{Ship module infobox}}
 
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Cannon''' is an ammunition-fed kinetic weapon that fires large-calibre shells. It trades sustained rate of fire for high damage per hit, strong armour piercing, and a high chance of breaching the hull to damage internal modules.<ref name="edwiki-cannon">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Cannon Cannon].</ref>
+
+Kinetic damage is most useful after shields have been removed. Against hull, the Cannon's armour-piercing value rises with weapon class, reducing the penalty against harder armour and making the larger variants more reliable against heavily armoured ships.
+
+A Cannon is not a [[Multi-Cannon]]. Multi-Cannons deliver damage through a rapid stream of small projectiles, while Cannons fire slowly and place more of their output into each individual impact. Missing a Cannon shot therefore costs more time and ammunition, but a well-placed hit can produce substantial hull or module damage.
+
+== Variants and specifications ==
+
+Cannons are available in fixed and gimballed mounts from classes 1–4. Turreted versions are available from classes 1–3.<ref name="edwiki-cannon" />
+
+{| class="wikitable sortable"
+! Class
+! Mount
+! Rating
+! Damage
+! Armour piercing
+! Projectile speed
+! Maximum range
+! Magazine / reserve
+|-
+| 1 || Fixed || D || 22.50 || 35 || 1,200 m/s || 3,000 m || 6 / 120
+|-
+| 1 || Gimballed || E || 15.90 || 35 || 1,000 m/s || 3,000 m || 5 / 100
+|-
+| 1 || Turreted || F || 12.80 || 35 || 1,000 m/s || 3,000 m || 5 / 100
+|-
+| 2 || Fixed || D || 36.90 || 50 || 1,051 m/s || 3,500 m || 6 / 120
+|-
+| 2 || Gimballed || D || 25.50 || 50 || 875 m/s || 3,500 m || 5 / 100
+|-
+| 2 || Turreted || E || 19.80 || 50 || 875 m/s || 3,500 m || 5 / 100
+|-
+| 3 || Fixed || C || 55.60 || 70 || 959 m/s || 4,000 m || 6 / 120
+|-
+| 3 || Gimballed || C || 37.40 || 70 || 800 m/s || 4,000 m || 5 / 100
+|-
+| 3 || Turreted || D || 30.30 || 70 || 800 m/s || 4,000 m || 5 / 100
+|-
+| 4 || Fixed || B || 83.10 || 90 || 900 m/s || 4,500 m || 6 / 120
+|-
+| 4 || Gimballed || B || 56.60 || 90 || 750 m/s || 4,500 m || 5 / 100
+|}
+
+The fixed versions deal the most damage and carry six rounds in the magazine with 120 in reserve. Gimballed and turreted versions trade damage and ammunition capacity for easier target tracking.
+
+=== Mount choice ===
+
+* '''Fixed''' Cannons ignore chaff and deliver the highest damage, but the ship must be aimed to lead the target.
+* '''Gimballed''' Cannons track within a forward arc, making deliberate subsystem shots easier against manoeuvring targets at the cost of damage and vulnerability to chaff.
+* '''Turreted''' Cannons cover a wider arc and can maintain fire while the ship turns, but have the lowest damage and no class 4 version.
+
+Projectile speed varies with both class and mount. Cannons of different sizes may therefore require different lead even when fired at the same target. Grouping weapons with substantially different velocities can make simultaneous hits difficult at longer range.
+
+== Range and damage delivery ==
+
+A standard Cannon's damage-falloff start is equal to its maximum range, so an impact retains full listed damage throughout the projectile's usable flight.<ref name="edwiki-cannon" /> The practical limit is therefore accuracy and projectile travel time rather than declining damage.
+
+Slow projectiles are easiest to land against large ships, predictable flight paths, or targets at close range. Fixed Cannons can also use their high per-shot output for deliberate power-plant, drive, or weapon strikes once a subsystem is targeted and presented to the firing arc.
+
+Cannons draw relatively little distributor energy compared with heavy energy weapons, but their low rate of fire and reload cycle limit sustained output. A build should be judged by hit rate and useful module damage rather than nominal damage per second alone.
+
+== Ammunition ==
+
+Standard ammunition is replenished through station services. In the field, '''Large Calibre Munitions''' synthesis refills one selected Cannon or Fragment Cannon; Standard and Premium recipes add temporary damage bonuses at higher material cost.<ref name="inara-synthesis">INARA, [https://inara.cz/elite/synthesis/ Synthesis].</ref>
+
+Because each weapon has its own reserve, ammunition endurance depends on the number of Cannons fitted and how consistently each one lands shots. High Capacity Engineering or the Auto Loader Experimental Effect can reduce reload and endurance pressure in different ways.
+
+== Engineering ==
+
+Standard Cannons support eight blueprint families:<ref name="inara-blueprints">INARA, [https://inara.cz/elite/blueprints/ Blueprints and upgrades].</ref>
+
+* Efficient;
+* High Capacity;
+* Lightweight;
+* Long Range;
+* Overcharged;
+* Rapid Fire;
+* Short Range; and
+* Sturdy.
+
+Available Experimental Effects are Auto Loader, Dispersal Field, [[Double Braced]], [[Flow Control]], Force Shell, High Yield Shell, [[Multi-servos]], [[Oversized]], Smart Rounds, [[Stripped Down]], and Thermal Cascade.<ref name="inara-blueprints" />
+
+Notable choices include:
+
+* '''Long Range''' increases maximum range and projectile velocity. The velocity increase can make long-range lead substantially easier even though an unmodified Cannon already has no damage falloff before maximum range.
+* '''Overcharged''' raises damage per hit at the cost of greater power draw and thermal load.
+* '''High Capacity''' increases both magazine and reserve ammunition, reducing reload interruptions and improving endurance.
+* '''Rapid Fire''' raises the firing rate and shortens reloads while reducing damage per shot and adding jitter.
+* '''Force Shell''' pushes struck ships off course but reduces projectile speed.
+* '''High Yield Shell''' converts part of the impact to explosive damage and can affect multiple internal modules after a hull breach, at a substantial direct-damage cost.
+* '''Dispersal Field''' disrupts the target's gimballed and turreted tracking after a successful hit.
+
+[[The Sarge]] and [[Marsha Hicks]] can engineer standard Cannons to Grade 5. [[Tod "The Blaster" McQuinn]] provides Cannon Engineering through Grade 2.
+
+=== Force Impact ===
+
+Current Live Engineering records list '''Force Impact''' as a separate Operations-era Cannon upgrade for eligible Merc equipment.<ref name="inara-force-impact">INARA, [https://inara.cz/elite/blueprint/225/ Cannon — Force Impact].</ref> It is not part of the eight conventional Cannon blueprint families and does not apply to Legacy equipment. The Sarge and Marsha Hicks provide it through Grade 5; Tod McQuinn provides it through Grade 2.
+
+== Acquisition ==
+
+Standard Cannons are normal credit purchases through Outfitting and require no unlock. Availability depends on station stock, weapon class, and mount. A station selling one Cannon variant does not necessarily stock every size or mounting.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Multi-Cannon]] [[Fragment Cannon]] [[Engineering]] [[The Sarge]] [[Marsha Hicks]] [[Tod "The Blaster" McQuinn]]}}
+
+{{Engineering nav}}
 
 [[Category:Modules]]
-[[Category:Ship modules]]
+[[Category:Weapons]]
+[[Category:Weapon Engineering]]
+[[Category:Engineering]]

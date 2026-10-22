@@ -3,22 +3,110 @@ EDFM current-content archive export.
 Title: Mining Multi Limpet Controller
 Namespace: 0
 Page ID: 533
-Revision ID: 2169
-Timestamp: 2026-08-24T23:44:34Z
+Revision ID: 4401
+Timestamp: 2026-09-16T03:56:30Z
 Source URL: https://edfieldmanual.com/wiki/Mining_Multi_Limpet_Controller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Mining Multi Limpet Controller ship module.
+{{Article header|deck=A Class 3 controller that programmes collector and prospector limpets from one shared active pool.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy
+ |notes=Standard 3E and 3C specifications are stable. The Type-11 Prospector's separate Mk II controller is summarised only for distinction.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Mining Multi Limpet Controller''' is an optional internal module that programmes both '''collector''' and '''prospector''' limpets. It combines those two mining-support functions in one Class 3 slot and can control up to four active limpets in total.<ref name="module-data">[https://raw.githubusercontent.com/EDCD/coriolis-data/6b26af015ebc270e935af3362fea48ad56056e59/modules/internal/multi_limpet_controllers.json EDCD Coriolis Data: Multi Limpet Controller records], commit pinned; accessed 16 September 2026.</ref><ref name="edwiki">[https://elite-dangerous.fandom.com/wiki/Mining_Multi_Limpet_Controller Elite Dangerous Wiki: Mining Multi Limpet Controller], accessed 16 September 2026.</ref>
 
-== Overview ==
+The four-limpet limit is shared. A combination such as one attached prospector and three autonomous collectors fills the controller's active pool; it does not provide four slots for each function.
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Specifications ==
+
+{| class="wikitable"
+! Module
+! Mass
+! Integrity
+! Power draw
+! Maximum active limpets
+! Prospector range
+! Collector range
+! Collector lifetime
+! Reference value
+|-
+| 3E || 12 t || 45 || 0.50 MW || 4 || 3,300 m || 770 m || 300 s || 14,630 Cr
+|-
+| 3C || 10 t || 68 || 0.35 MW || 4 || 5,000 m || 1,000 m || 510 s || 48,740 Cr
+|}
+
+Attached prospectors do not have a timed lifetime, but they still count toward the four active limpets while within the controller's operating limits. Collectors use the shorter range and finite lifetime listed for their function; an outfitting display that shows the largest value should not be read as though every limpet type receives the prospector's range or indefinite lifetime.<ref name="edwiki" />
+
+== Prospector function ==
+
+A prospector analyses a mineable asteroid, reports its composition and remaining ordinary resources, and marks deposits or fissures. The controller's rating also determines the documented ordinary laser-fragment multiplier:<ref name="edwiki" />
+
+{| class="wikitable"
+! Mining Multi Controller
+! Documented fragment multiplier
+|-
+| 3E || 1.5×
+|-
+| 3C || 2.5×
+|}
+
+The multiplier applies when the prospector is attached before fragments are removed. The controller does not create deposits or increase core and sub-surface targets that the asteroid did not already contain.
+
+A dedicated A-rated [[Prospector Limpet Controller]] provides the higher documented 3.5× multiplier. The multi-controller's slot consolidation therefore trades away maximum laser-mining yield when it is used for prospecting.
+
+== Collector function ==
+
+Collector limpets retrieve eligible cargo, materials, salvage, and mining fragments. Launching without an eligible object targeted creates an autonomous collector that can make repeated trips until its lifetime ends. Launching while an object is targeted creates a faster single-use collector that expires after delivering that object.
+
+The ship still requires suitable storage or processing:
+
+* mining commodity fragments require a powered [[Refinery]];
+* completed commodities and cargo canisters require cargo capacity; and
+* Engineering materials enter their dedicated material storage.
+
+The controller does not decide what should be collected and does not change cargo ownership or legality. Ignore-list use, positioning, and collection troubleshooting are covered by [[How to Use Collector Limpets]].
+
+== Fitting trade-offs ==
+
+The module's main advantage is controlling four limpets from one Class 3 slot while providing both mining functions. That can free another optional internal slot or supplement collectors on a mining ship.
+
+Its costs are mass and lower specialist performance. Both variants are heavier than common dedicated controllers, the collector range is short, and neither rating supplies the A-rated prospector's maximum laser-fragment multiplier. A fit that prioritises yield normally keeps a dedicated A-rated prospector even if the multi-controller is retained primarily for collectors.
+
+Only one multi-limpet controller can be installed on a ship. Dedicated controllers can be fitted alongside it, and their active limits are separate from the multi-controller's four-limpet pool.
+
+== Engineering ==
+
+No Engineer blueprints or Experimental Effects are currently documented for the Mining Multi Limpet Controller.<ref>[https://inara.cz/elite/blueprints/#tab_blueprintsequipmentstandard INARA: Blueprints and upgrades], accessed 16 September 2026.</ref>
+
+== Acquisition ==
+
+The standard 3E and 3C variants are ordinary credit purchases through Outfitting where stocked. No Technology Broker, Engineer, permit, naval rank, or Powerplay unlock is required.
+
+The module was introduced alongside the multi-controller family in Update 9 and is documented as available to both Odyssey and Horizons commanders.<ref>[https://forums.frontier.co.uk/threads/elite-dangerous-odyssey-update-9-notes.595180/ Frontier Developments: Odyssey Update 9 notes], 9 December 2021.</ref><ref name="edwiki" />
+
+== Mk II distinction ==
+
+The '''Mk II Mining Multi-Limpet Controller''' is a separate Class 5A module restricted to the Type-11 Prospector. Its fourteen-limpet capacity and ship restriction do not apply to the standard Class 3 module described here.
+
+== Field Procedures ==
+
+* [[How to Use a Prospector Limpet]] covers launch alignment, result interpretation, target selection, and active-prospector management.
+* [[How to Use Collector Limpets]] covers autonomous collection, targeted collection, ignore-list use, positioning, and common failures.
+* [[How to Laser Mine]], [[How to Sub-surface Mine]], and [[How to Core Mine]] integrate those functions into complete extraction runs.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Collector Limpet Controller]] [[Prospector Limpet Controller]] [[Refinery]] [[Mining]] [[How to Use Collector Limpets]] [[How to Use a Prospector Limpet]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Mining]]

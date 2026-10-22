@@ -3,15 +3,78 @@ EDFM current-content archive export.
 Title: Emissive Munitions
 Namespace: 0
 Page ID: 677
-Revision ID: 1570
-Timestamp: 2026-08-23T18:40:01Z
+Revision ID: 4069
+Timestamp: 2026-09-13T13:37:54Z
 Source URL: https://edfieldmanual.com/wiki/Emissive_Munitions
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|an experimental-effect reference for Emissive Munitions, including compatible weapons and tactical effects.}}
+{{Article header|deck=An Experimental Effect that makes struck targets easier to detect and track at the cost of higher weapon heat.}}
 
-'''Emissive Munitions''' is an Engineering experimental effect for weapons. This planned reference will document compatibility, combat use cases, and Engineer availability.
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy Engineering
+ |reviewer=Sythan
+ |reviewed=2026-09-13
+ |source_quality=Current INARA Engineering records cross-checked against the in-game description and maintained community references
+ |uncertainty=Frontier has not published the effect's exact active duration in the sources used here.
+}}
+
+'''Emissive Munitions''' is a weapon [[Experimental Effects|Experimental Effect]] that coats a struck target in energetic particles, sharply increasing its detectable heat signature. This makes cold or low-signature ships easier to keep on sensors and track with assisted weapons.
+
+== Effect ==
+
+A successful hit applies the target-signature effect. The weapon receives:
+
+* '''Target signature increased''' on hit
+* '''Thermal load:''' +100%
+
+The doubled thermal load applies to the modified weapon and increases the firing ship's heat generation. It does not directly increase the weapon's damage.<ref name="inara-effects">[https://inara.cz/elite/experimentaleffects/ INARA: Experimental effects], accessed 13 September 2026.</ref><ref name="fandom-emissive">[https://elite-dangerous.fandom.com/wiki/Emissive_Munitions Elite Dangerous Wiki: Emissive Munitions], accessed 13 September 2026.</ref>
+
+== Compatible weapons ==
+
+Emissive Munitions can be installed on:
+
+* [[Pulse Laser|Pulse Lasers]];
+* multi-cannons;
+* [[Seeker Missile Rack|Seeker Missiles]];
+* dumbfire missile racks;
+* [[Mine Launcher|Mine Launchers]].
+
+The effect can be installed by an [[Engineers|Engineer]] whose workshop supports Engineering for the receiving weapon. Experimental Effects must be applied at an Engineer workshop and cannot be pinned for [[Remote Engineering]].
+
+== Materials ==
+
+Applying Emissive Munitions requires:
+
+* 3 Manganese
+* 4 Mechanical Equipment
+* 3 Heat Exchangers
+* 3 Unexpected Emission Data
+
+The materials are consumed once when the effect is applied. Replacing it with another Experimental Effect consumes the new effect's materials.
+
+== Tactical use ==
+
+Emissive Munitions is most useful against ships that depend on a low heat signature, heat sinks, or Silent Running to reduce sensor detection. Keeping the effect active can preserve a usable target signature for gimballed and turreted weapons and make follow-up fire easier to place.
+
+A combat loadout normally needs the effect on only one suitable weapon because the signature increase does not multiply when several Emissive weapons hit the same target.<ref name="pve-weapons">[https://sites.google.com/view/ed-pve-combat/outfitting/weapons E:D PvE Combat Wiki: Weapons], accessed 13 September 2026.</ref> A Pulse Laser or multi-cannon offers repeated opportunities to refresh the effect, while a missile or mine applies it less continuously.
+
+The main cost is heat. The modified weapon can make a hot-running build harder to manage, especially during sustained fire. If the target-signature utility is not needed, a direct damage or efficiency effect may provide more value.
+
+== See also ==
+
+* [[Experimental Effects]]
+* [[Engineering]]
+* [[Engineers]]
+* [[Pulse Laser]]
+* [[Seeker Missile Rack]]
+* [[Mine Launcher]]
+
+== Sources ==
+
+<references />
 
 [[Category:Experimental Effects]]
 [[Category:Weapon Engineering]]

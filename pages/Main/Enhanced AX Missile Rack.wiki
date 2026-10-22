@@ -3,22 +3,124 @@ EDFM current-content archive export.
 Title: Enhanced AX Missile Rack
 Namespace: 0
 Page ID: 479
-Revision ID: 2146
-Timestamp: 2026-08-24T23:44:06Z
+Revision ID: 4260
+Timestamp: 2026-09-15T02:37:41Z
 Source URL: https://edfieldmanual.com/wiki/Enhanced_AX_Missile_Rack
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Enhanced AX Missile Rack ship module.
+{{Article header|deck=A faster human anti-xeno dumbfire missile weapon sold in fixed and turreted forms for combat against Thargoid vessels.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Live 4.4
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Frontier's official Enhanced AX weapon announcement, maintained module specifications, and current Anti-Xeno Initiative guidance
+ |uncertainty=Rescue Megaship locations and Outfitting stock can change; check a current outfitting search before travelling.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Enhanced AX Missile Rack''' is a Live-only human anti-xeno hardpoint that fires unguided missiles at a substantially higher velocity than the standard [[AX Missile Rack]]. It is sold in Class 2 and Class 3 fixed and turreted variants.<ref name="wiki">[https://elite-dangerous.fandom.com/wiki/Enhanced_AX_Missile_Rack Enhanced AX Missile Rack], Elite Dangerous Wiki, accessed 2026-09-15.</ref>
 
-== Overview ==
+Its direct Anti-Xeno damage bypasses most of the resistance that makes ordinary human weapons ineffective against Thargoid vessels. Because it is a human AX weapon, anti-Guardian fields do not disable it.
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Specifications ==
+
+{| class="wikitable"
+! Class
+! Mount
+! Mass
+! Damage
+! Rate of fire
+! Clip
+! Maximum ammunition
+! Projectile speed
+|-
+| 2
+| Fixed
+| 4 t
+| 32 AX
+| 0.5/s
+| 8
+| 64
+| 1,250 m/s
+|-
+| 2
+| Turreted
+| 4 t
+| 24.4 AX
+| 0.5/s
+| 8
+| 64
+| 1,250 m/s
+|-
+| 3
+| Fixed
+| 8 t
+| 32 AX
+| 0.5/s
+| 12
+| 128
+| 1,250 m/s
+|-
+| 3
+| Turreted
+| 8 t
+| 24.4 AX
+| 0.5/s
+| 12
+| 128
+| 1,250 m/s
+|}
+
+All four variants have 60 armour piercing and a listed maximum range of 5,000 metres.<ref name="wiki" /> The larger rack increases carried ammunition rather than per-missile damage.
+
+The Enhanced projectile travels at 1,250 m/s, compared with 750 m/s for the standard rack. The damage increase is small, but the higher speed shortens the lead required against a moving target and makes direct hits more practical.
+
+== Operation ==
+
+Enhanced AX missiles remain dumbfire weapons: they do not acquire a seeker lock. Lead the target and fire measured salvos when its movement is predictable.
+
+The rack is best suited to shield and hull damage against slower Thargoid targets. Current Anti-Xeno Initiative guidance does not treat it as a heart-damage weapon and instead recommends a precise weapon for an exposed Interceptor heart.<ref name="axi">[https://wiki.antixenoinitiative.com/en/weapons Weapons], Anti-Xeno Initiative Wiki, accessed 2026-09-15.</ref>
+
+The fixed mount delivers more damage per missile. The turreted version trades damage for automated tracking, but current specialist guidance reports poor practical performance from the turreted rack.<ref name="axi" />
+
+== Restrictions ==
+
+The Enhanced AX Missile Rack counts toward the ship's default limit of four experimental weapons. An Experimental Weapon Stabiliser can increase that limit at the cost of an optional-internal slot.
+
+The module cannot be modified through conventional [[Engineering]]. Its ammunition can be restocked normally or synthesised when the required materials are available.
+
+Like the standard rack, it is specialised for Thargoid combat and performs poorly as a replacement for a conventional missile rack against human ships.<ref name="wiki" />
+
+== Acquisition ==
+
+Frontier made Enhanced AX weapons available for credit purchase through Outfitting aboard Rescue Megaships after their development campaigns. The fixed and turreted missile racks were released in Medium and Large sizes.<ref name="frontier">[https://www.elitedangerous.com/en-US/news/galnet/enhanced-ax-weapon-project Enhanced AX Weapon Project], Frontier Developments, 15 December 2022, accessed 2026-09-15.</ref>
+
+No Technology Broker unlock or material payment is required. Rescue Megaships can be located with the Galaxy Map; confirm current stock before travelling.
+
+== Comparison with other AX missiles ==
+
+;[[AX Missile Rack]]
+:The standard credit-purchase weapon uses slower 750 m/s projectiles and is generally outclassed by the Enhanced rack.
+
+;Sirius AX Missile Rack
+:A separately pre-engineered fixed rack with much larger ammunition reserves and a higher rate of fire. It requires a per-module Technology Broker material exchange.
+
+The Enhanced rack is the straightforward credit-purchase option where projectile speed matters. The Sirius rack is normally preferred when its material cost is acceptable and sustained ammunition capacity is more important.<ref name="axi" />
+
+== Sources ==
+<references />
+
+{{Related articles
+ |[[AX Missile Rack]]
+ |[[Enhanced AX Multi-Cannon]]
+ |[[Thargoid]]
+ |[[Engineering]]
+}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]

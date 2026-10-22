@@ -3,22 +3,95 @@ EDFM current-content archive export.
 Title: Thargoid Pulse Neutraliser
 Namespace: 0
 Page ID: 612
-Revision ID: 2207
-Timestamp: 2026-08-24T23:45:20Z
+Revision ID: 4869
+Timestamp: 2026-09-20T21:32:08Z
 Source URL: https://edfieldmanual.com/wiki/Thargoid_Pulse_Neutraliser
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Thargoid Pulse Neutraliser ship module.
+{{Article header|deck=An Aegis utility module built to withstand the repulsion pulse that once guarded living Thargoid Titans.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Current Live specifications; introduced in Update 15 after the Live and Legacy split
+ |reviewed=2026-09-20
+ |reviewer=Sythan
+ |source_quality=Development, release, acquisition changes and mode availability are documented by Frontier; specifications and field behaviour are cross-checked against pinned EDSY data and maintained specialist references.
+ |notes=No living Titan or active Maelstrom currently provides the module's original repulsion-wave role. It remains usable as personal protection from an Interceptor shutdown field.
+ |uncertainty=Rescue Ship locations and stock can change. The length of an activation depends on the fitted ship's available SYS energy and recharge rate.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Thargoid Pulse Neutraliser''' is a class 0E utility module developed by Aegis to protect a ship from the energy wave that guarded the inner region of a Thargoid Maelstrom. It is an amplified derivative of the [[Shutdown Field Neutraliser]] and can also protect the equipped ship from a Thargoid Interceptor's shutdown field.<ref name="frontier-prototype">Frontier Developments, [https://community.elitedangerous.com/galnet/24-APR-3309 ''Aegis Trials Tech to Explore Maelstroms''], 24 April 3309.</ref><ref name="frontier-results">Frontier Developments, [https://community.elitedangerous.com/galnet/27-APR-3309 ''Positive Results from Maelstrom Probes''], 27 April 3309.</ref>
 
-== Overview ==
+{{Callout|type=info|label=Current role|1=The last living Titan, Cocijo, was destroyed on '''18 December 3310'''.<ref name="cocijo">Frontier Developments, [https://www.elitedangerous.com/news/galnet/titan-cocijo-destroyed-sol-liberated ''Titan Cocijo Destroyed, Sol Liberated''], 18 December 3310.</ref> No living Titans or active Maelstrom instances remain available, so there is currently no Titan repulsion wave to breach. The neutraliser still works as personal protection against an Interceptor shutdown field.<ref name="current-maelstrom">[https://wiki.antixenoinitiative.com/en/Maelstrom Maelstrom], Anti-Xeno Initiative, accessed 20 September 2026.</ref><ref name="frontier-results" />}}
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Operation ==
+
+Assign the neutraliser to a fire group or control binding. Hold the control before the incoming pulse reaches the ship and keep it held until the wave has passed. The module takes two seconds to charge; releasing it or exhausting the SYS capacitor ends the protection. It then has a ten-second cooldown before another activation.<ref name="specs">[https://github.com/taleden/EDSY/blob/9cd829062217036184ea9ec79ee30934d235aca8/eddb.js#L2931 EDSY module database: Thargoid Pulse Neutraliser], commit <code>9cd8290</code>; [https://elite-dangerous.fandom.com/wiki/Thargoid_Pulse_Neutraliser Thargoid Pulse Neutraliser], Elite Dangerous Wiki; accessed 20 September 2026.</ref>
+
+The active field protects only the ship carrying it. It has no protective radius for wingmates or other nearby vessels. By comparison, the standard [[Shutdown Field Neutraliser]] can protect ships within 3 km, is lighter and uses less passive power, but was not built to withstand the stronger Maelstrom wave.<ref name="axi-comparison">[https://wiki.antixenoinitiative.com/en/shipbuildtheory Ship Build Theory], Anti-Xeno Initiative, accessed 20 September 2026.</ref><ref name="frontier-results" />
+
+Activation draws rapidly from the SYS capacitor. Moving pips to SYS improves recharge, but careful timing remains important: activating too early can exhaust the capacitor before the pulse arrives. Historically, crossing a Maelstrom wave could also produce substantial ship heat. The [[Caustic Sink Launcher]] served a separate role by managing the corrosive contamination in the surrounding cloud.<ref name="specs" /><ref name="frontier-release">Frontier Developments, [https://www.elitedangerous.com/en-US/news/galnet/thargoid-pulse-neutraliser-becomes-available ''Thargoid Pulse Neutraliser Becomes Available''], 9 May 3309.</ref>
+
+== Specifications ==
+
+{| class="wikitable"
+! Property
+! Unmodified value
+|-
+| Class and rating
+| 0E
+|-
+| Slot
+| Utility mount
+|-
+| Mass
+| 3.00 t
+|-
+| Integrity
+| 70
+|-
+| Passive power draw
+| 0.40 MW
+|-
+| Protected radius
+| Equipped ship only (0 m)
+|-
+| Charge time
+| 2 seconds
+|-
+| Cooldown
+| 10 seconds
+|}
+
+== Acquisition ==
+
+Aegis released the module on 9 May 3309 through Technology Brokers aboard Rescue Ships. Update 15 also added it to Outfitting at all Rescue Ships.<ref name="frontier-release" /><ref name="update15">Frontier Developments, [https://www.elitedangerous.com/en-US/news/elite-dangerous-update-15-release-notes ''Elite Dangerous Update 15 Release Notes''], 9 May 2023.</ref>
+
+The original per-module material requirement was removed on 29 February 3310. It is now acquired for credits rather than by paying the former unclassified-relic and material recipe.<ref name="requirements-removed">Frontier Developments, [https://community.elitedangerous.com/en/galnet/uid/65e0d7aa7d2ef2dcc50210e7 ''Titan Taranis Under Siege''], 29 February 3310.</ref> Rescue Ship locations can change, so use the Galaxy Map or a current outfitting search before travelling.
+
+== Engineering ==
+
+The Thargoid Pulse Neutraliser cannot be engineered.<ref name="specs" /> Engineering the ship's [[Power Distributor]] can improve SYS capacity or recharge, but it does not modify the neutraliser itself.
+
+== Development and release ==
+
+Aegis based the neutraliser on the earlier design by [[Elvira Martuuk]]. Research into unclassified relics allowed technicians to tune the protective field to the Maelstrom pulse. Uncrewed probes passed through Taranis's energy wave during tests in April 3309, and crewed tests confirmed that the module could also resist Interceptor shutdown fields.<ref name="frontier-prototype" /><ref name="frontier-results" />
+
+Aegis placed the module into production the following month. It became part of the equipment used to enter Maelstrom cores during the Second Thargoid War.<ref name="frontier-release" />
+
+== Live and Legacy ==
+
+The Thargoid Pulse Neutraliser was introduced in Update 15 for the Live galaxy. Legacy remained on the separate 3.8 branch established before this later content and does not include the module.<ref name="update15" /><ref name="live-legacy">Frontier Developments, [https://www.elitedangerous.com/en-US/news/elite-dangerous-update-14-and-beyond-live-and-legacy-modes ''Elite Dangerous Update 14 and Beyond: Live and Legacy Modes''], 23 November 2022.</ref>
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Shutdown Field Neutraliser]] [[Caustic Sink Launcher]] [[Power Distributor]] [[Thargoid]] [[Ship Modules]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]

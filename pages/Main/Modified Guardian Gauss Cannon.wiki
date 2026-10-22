@@ -3,22 +3,128 @@ EDFM current-content archive export.
 Title: Modified Guardian Gauss Cannon
 Namespace: 0
 Page ID: 536
-Revision ID: 2170
-Timestamp: 2026-08-24T23:44:35Z
+Revision ID: 4404
+Timestamp: 2026-09-16T04:03:15Z
 Source URL: https://edfieldmanual.com/wiki/Modified_Guardian_Gauss_Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Modified Guardian Gauss Cannon ship module.
+{{Article header|deck=Salvation's pre-engineered Guardian Gauss Cannon, trading a single concentrated shot for a four-projectile burst and larger ammunition reserve.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy; Anti-Guardian field behavior differs because the supplied modifications cannot be combined with current Live resistance Engineering
+ |notes=Current acquisition is a per-copy material barter at Prospect's Deep in Mbooni.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Modified Guardian Gauss Cannon''' is a fixed pre-engineered [[Guardian Gauss Cannon]] produced from Salvation's designs. It is available in Class 1D and Class 2B. Instead of the standard cannon's single concentrated discharge, it fires a '''four-projectile burst''' and carries a larger ammunition reserve.<ref name="module-data">[https://raw.githubusercontent.com/EDCD/coriolis-data/d0f20ca17805588d77c1978fff99a01280dc2d22/modules/hardpoints/guardian_gauss_cannon.json EDCD Coriolis Data: Guardian Gauss Cannon records], commit pinned; accessed 16 September 2026.</ref><ref name="axi-weapons">[https://wiki.antixenoinitiative.com/en/weapons Anti-Xeno Initiative: AX Weapons], accessed 16 September 2026.</ref>
 
-== Overview ==
+The complete burst deals approximately the damage of one corresponding stock Gauss shot, but the damage is spread across four impacts. The weapon must therefore remain on target through the burst to deliver its full output. It is a sidegrade with a distinct handling profile, not a direct damage upgrade.<ref name="community-test">[https://forums.frontier.co.uk/threads/modified-gauss-cannon.592705/ Frontier Forums: Modified Gauss Cannon], community testing discussion; accessed 16 September 2026.</ref>
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Specifications ==
+
+{| class="wikitable"
+! Attribute
+! Class 1D modified
+! Class 2B modified
+|-
+| Mount || Fixed || Fixed
+|-
+| Mass || 2 t || 4 t
+|-
+| Integrity || 40 || 42
+|-
+| Power draw || 1.91 MW || 2.61 MW
+|-
+| Distributor draw || 3.80 MW || 7.20 MW
+|-
+| Thermal load || 15 || 25
+|-
+| Armour piercing || 140 || 140
+|-
+| Maximum range || 3,000 m || 3,000 m
+|-
+| Damage falloff begins || 1,200 m || 1,200 m
+|-
+| Ammunition reserve || 200 || 200
+|-
+| Burst sets before reload || 2 || 2
+|-
+| Reload time || 2.87 s || 2.87 s
+|}
+
+Both versions count toward the ship's experimental-weapon limit. An Experimental Weapon Stabiliser can raise that limit, but it does not change the cannon's burst, heat, ammunition, or aiming behavior.
+
+== Burst behavior ==
+
+The firing sequence requires the normal Gauss charge-up, followed by four rapid impacts. Missing part of the sequence loses the corresponding portion of the burst rather than concentrating all damage in the first projectile. This makes the modified cannon less forgiving against a small or rapidly changing target vector than the stock weapon's single shot.
+
+The Class 2 complete burst has been measured at approximately 38 damage compared with 38.5 for the stock Class 2 shot.<ref name="community-test" /> The primary gains are its increased ammunition supply and burst-fire cadence, while the main costs are sustained aim, greater heat over the sequence, a longer reload, and earlier damage falloff.
+
+The weapon retains 140 armour piercing, making landed shots effective against heavily armoured targets. High penetration does not compensate for missed projectiles; convergence and steady tracking remain important when several cannons fire together.
+
+== Comparison with the standard weapon ==
+
+{| class="wikitable"
+! Characteristic
+! Modified cannon
+! Standard Guardian Gauss Cannon
+|-
+| Discharge || Four-projectile burst || One concentrated shot
+|-
+| Ammunition reserve || 200 || 80
+|-
+| Damage falloff start || 1,200 m || 1,500 m
+|-
+| Reload || 2.87 s || 1.00 s
+|-
+| Aiming demand || Hold aim through full burst || Land one charged shot
+|-
+| Further Engineering || Not supported without losing supplied package || Anti-Guardian Zone Resistance available in Live
+|}
+
+The standard cannon is usually the more predictable precision weapon. The modified cannon offers more total ammunition and a different cadence, but its full burst is harder to place on a moving Thargoid heart or other small subsystem.<ref name="axi-weapons" />
+
+== Acquisition ==
+
+Modified Guardian weapons are obtained by '''per-copy material barter''', not a permanent account unlock. Each exchange provides one cannon in local storage, and every additional copy requires the full recipe again.<ref name="gauss-wiki">[https://elite-dangerous.fandom.com/wiki/Guardian_Gauss_Cannon Elite Dangerous Wiki: Guardian Gauss Cannon], accessed 16 September 2026.</ref>
+
+The current supplier is the Guardian Technology Broker at '''Prospect's Deep''' in the permit-locked '''Mbooni''' system. Frontier identified Prospect's Deep as the surviving supplier after the destruction of the Bright Sentinel.<ref>[https://www.elitedangerous.com/news/galnet/successful-mining-campaign-sustains-azimuth Frontier Developments: Successful Mining Campaign Sustains Azimuth], 7 September 3308.</ref> Current community guidance records the Mbooni permit as available by reaching Allied reputation with Azimuth Biotech and taking the permit mission from the Glorious Prospect megaship; check the megaship's current location before travelling.<ref name="axi-weapons" />
+
+=== Class 1D recipe ===
+
+* 1 Guardian Weapon Blueprint Fragment
+* 3 Guardian Power Conduits
+* 3 Guardian Wreckage Components
+* 4 Guardian Sentinel Weapon Parts
+* 2 Niobium
+
+=== Class 2B recipe ===
+
+* 1 Guardian Weapon Blueprint Fragment
+* 5 Guardian Power Cells
+* 5 Guardian Technology Components
+* 4 Niobium
+* 2 Thermal Cooling Units
+
+The recipes are corroborated by the current Technology Broker directory.<ref>[https://inara.cz/elite/techbroker/ INARA: Technology Broker unlocks and exchanges], accessed 16 September 2026.</ref>
+
+== Engineering and anti-Guardian fields ==
+
+The cannon arrives with a fixed pre-engineered High Capacity and Burst Fire package. Removing the supplied modifications is irreversible: an Engineer cannot restore them or apply an alternative ordinary weapon blueprint afterward.<ref name="gauss-wiki" />
+
+Current Live permits Anti-Guardian Zone Resistance on ordinary Guardian weapons without the former damage penalty.<ref>[https://www.elitedangerous.com/update-notes/4-0-18-07 Frontier Developments: Elite Dangerous 18.07 Update Notes], accessed 16 September 2026.</ref> The pre-engineered Modified Guardian Gauss Cannon cannot combine that resistance modification with its supplied package. It therefore remains vulnerable to anti-Guardian fields in environments where those fields are active.<ref name="axi-weapons" />
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Guardian Gauss Cannon]] [[Guardian Shard Cannon]] [[Guardian Plasma Charger]] [[Guardian]] [[Thargoid]] [[Heat Sink Launcher]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Weapons]]
+[[Category:Guardian]]

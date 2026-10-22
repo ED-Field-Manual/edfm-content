@@ -1,0 +1,21 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Universal Multi Limpet Controller
+Namespace: 828
+Page ID: 842
+Revision ID: 5078
+Timestamp: 2026-09-23T15:28:34Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Universal_Multi_Limpet_Controller
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Universal Multi Limpet Controller",
+	module_class = "Multi-limpet controller",
+	slot_type = "Optional internal",
+	mount = "Class 7; ratings C and A",
+	manufacturer = "",
+	availability = "Outfitting purchase",
+	engineering = "No documented Engineering support",
+	related_modules = "[[Mining Multi Limpet Controller]], [[Operations Multi Limpet Controller]], [[Rescue Multi Limpet Controller]], Xeno Multi Limpet Controller",
+}

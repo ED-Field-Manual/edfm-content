@@ -3,22 +3,94 @@ EDFM current-content archive export.
 Title: Module Reinforcement Package
 Namespace: 0
 Page ID: 542
-Revision ID: 2173
-Timestamp: 2026-08-24T23:44:39Z
+Revision ID: 5192
+Timestamp: 2026-09-24T15:19:14Z
 Source URL: https://edfieldmanual.com/wiki/Module_Reinforcement_Package
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Module Reinforcement Package ship module.
+{{Article header|deck=An optional internal package that redirects penetrating damage away from a ship's modules.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
 }}
 
-{{Ship module infobox}}
+{{Ship module infobox
+ |module_class=Module protection
+ |slot_type=Optional internal or military compartment
+ |availability=Standard outfitting stock
+ |engineering=No conventional ship-module Engineering
+}}
 
-{{Draft warning}}
+A '''Module Reinforcement Package''' ('''MRP''') is an optional internal module that redirects part of the damage that would otherwise reach a ship's modules after an attack penetrates the hull. The redirected damage is applied to the reinforcement package's own integrity until the package is depleted.<ref name="data">[https://raw.githubusercontent.com/EDCD/coriolis-data/d4efdee1808b45ae7c60b9b30223b670375e95a4/modules/internal/module_reinforcement_package.json EDCD Coriolis Data: Module Reinforcement Package records], revision d4efdee, accessed 16 September 2026.</ref>
 
-== Overview ==
+MRPs do not add hull integrity and do not reduce damage dealt directly to the hull. They protect the installed modules behind it, which makes them distinct from a [[Hull Reinforcement Package]].
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Ratings and protection ==
 
-[[Category:Modules]]
+E-rated packages redirect 30% of incoming module damage and have the larger integrity pool. D-rated packages redirect 60%, weigh half as much, and deplete more quickly because they have slightly less integrity and intercept a greater share of each hit.<ref name="mechanics">[https://elite-dangerous.fandom.com/wiki/Module_Reinforcement_Package Elite Dangerous Wiki: Module Reinforcement Package], accessed 16 September 2026.</ref>
+
+{| class="wikitable sortable"
+! Module
+! Integrity
+! Mass
+! Damage redirected
+! Reference value
+|-
+| 1E || 77 || 2 t || 30% || 5,000 Cr
+|-
+| 1D || 70 || 1 t || 60% || 15,000 Cr
+|-
+| 2E || 115 || 4 t || 30% || 12,000 Cr
+|-
+| 2D || 105 || 2 t || 60% || 36,000 Cr
+|-
+| 3E || 170 || 8 t || 30% || 28,000 Cr
+|-
+| 3D || 155 || 4 t || 60% || 84,000 Cr
+|-
+| 4E || 260 || 16 t || 30% || 65,000 Cr
+|-
+| 4D || 235 || 8 t || 60% || 195,000 Cr
+|-
+| 5E || 385 || 32 t || 30% || 150,000 Cr
+|-
+| 5D || 350 || 16 t || 60% || 450,000 Cr
+|}
+
+Standard MRPs draw no power. They can occupy ordinary optional-internal compartments and compatible military compartments.
+
+== Damage interception ==
+
+An active package intercepts its listed share of damage aimed at an internal module. The intended module takes the remainder, while the intercepted portion reduces the MRP's integrity. When the package reaches zero integrity, it stops protecting the ship until repaired.
+
+External modules such as hardpoints and utility mounts receive half the listed protection. A single D-rated package therefore redirects 60% of damage aimed at an internal module but 30% of damage aimed at an external module.<ref name="mechanics" />
+
+Multiple packages stack sequentially rather than adding their percentages together. Each package acts on the damage left after the previous protection is applied, producing diminishing returns. Only one package's integrity is consumed at a time; when that package is depleted, the next package becomes the active damage pool.<ref name="stacking">[https://forums.frontier.co.uk/threads/how-do-module-reinforcement-packages-stack.325791/ Frontier Forums: How do Module Reinforcement Packages stack?], 30 January 2017, accessed 16 September 2026.</ref>
+
+A larger package supplies more protective integrity, while smaller additional packages can raise the combined interception percentage without using another large compartment. The appropriate arrangement depends on the ship's available compartments and which other optional modules the build requires.
+
+== Repair ==
+
+An [[Auto Field-Maintenance Unit]] can repair a damaged MRP in flight. The reinforcement package must be selected for repair from the ship's module panel, and protection is unavailable while it is disabled for servicing.
+
+MRPs are repaired particularly efficiently: each unit of AFMU ammunition restores substantially more integrity to a reinforcement package than it restores to an ordinary module.<ref name="mechanics" /> This makes an AFMU useful for restoring the active damage pool between engagements or during a safe break in combat.
+
+== Guardian version ==
+
+The [[Guardian Module Reinforcement Package]] uses the same 30% and 60% interception values and is available in the same classes and ratings. Its variants have approximately 10% more integrity but require power and a Guardian Technology Broker unlock. That page owns its Guardian-specific acquisition, Thargoid-disruption behavior, and Anti-Guardian Zone Resistance details.
+
+== Engineering ==
+
+Standard ship MRPs do not accept conventional Engineering blueprints or Experimental Effects. A current INARA entry named “Module Reinforcement Package – Heavy duty” applies only to Merc modules and is not an upgrade for this ship module.<ref>[https://inara.cz/elite/blueprint/214/ INARA: Module Reinforcement Package – Heavy duty blueprint], accessed 16 September 2026.</ref>
+
+== See also ==
+
+* [[Guardian Module Reinforcement Package]]
+* [[Auto Field-Maintenance Unit]]
+* [[Hull Reinforcement Package]]
+
 [[Category:Ship modules]]
+[[Category:Optional internal modules]]
+[[Category:Defensive modules]]

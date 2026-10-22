@@ -1,0 +1,63 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Metallic Crystals
+Namespace: 828
+Page ID: 950
+Revision ID: 5996
+Timestamp: 2026-10-03T04:19:42Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Metallic_Crystals
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+    schema_version = 1,
+    family = {
+        title = 'Metallic Crystal',
+        codex_category = 'Biological and Geological',
+        codex_subcategory = 'Organic structures',
+        encounter = 'Notable Stellar Phenomena',
+        scanner = 'Composition Scanner',
+        known_types = 4,
+        image = nil,
+    },
+    order = {
+        'Prasinum Metallic Crystals',
+        'Purpureum Metallic Crystals',
+        'Rubeum Metallic Crystals',
+        'Flavum Metallic Crystals',
+    },
+    types = {
+        ['Prasinum Metallic Crystals'] = {
+            title = 'Prasinum Metallic Crystals',
+            page = 'Prasinum Metallic Crystals',
+            published = true,
+            entry_id = 2100801,
+            journal_name = '$Codex_Ent_L_Cry_MetCry_Gr_Name;',
+            image = nil,
+        },
+        ['Purpureum Metallic Crystals'] = {
+            title = 'Purpureum Metallic Crystals',
+            page = 'Purpureum Metallic Crystals',
+            published = true,
+            entry_id = 2100802,
+            journal_name = '$Codex_Ent_L_Cry_MetCry_Pur_Name;',
+            image = nil,
+        },
+        ['Rubeum Metallic Crystals'] = {
+            title = 'Rubeum Metallic Crystals',
+            page = nil,
+            published = false,
+            entry_id = 2100803,
+            journal_name = '$Codex_Ent_L_Cry_MetCry_Red_Name;',
+            image = nil,
+        },
+        ['Flavum Metallic Crystals'] = {
+            title = 'Flavum Metallic Crystals',
+            page = 'Flavum Metallic Crystals',
+            published = true,
+            entry_id = 2100804,
+            journal_name = '$Codex_Ent_L_Cry_MetCry_Yw_Name;',
+            image = nil,
+        },
+    },
+}

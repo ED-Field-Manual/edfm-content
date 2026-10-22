@@ -1,0 +1,159 @@
+<!--
+EDFM current-content archive export.
+Title: Vessel Hangar
+Namespace: 0
+Page ID: 485
+Revision ID: 4273
+Timestamp: 2026-09-15T03:13:29Z
+Source URL: https://edfieldmanual.com/wiki/Vessel_Hangar
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=The optional internal bay used by compatible ships to carry, launch, recover, and replenish ship-launched craft.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4; Legacy uses the former Fighter Hangar name and supports Ship-Launched Fighters only
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Current Frontier Nomad and hangar documentation, Frontier's original fighter introduction, and maintained module specifications
+ |uncertainty=The Nomad and Mk II hangar remain Live-only additions whose commercial availability can change after early access.
+}}
+
+{{Ship module infobox}}
+
+The '''Vessel Hangar''' is a ship-specific optional internal module that carries deployable craft. It was known as the '''Fighter Hangar''' or '''Fighter Bay''' before the Live Operations update expanded the module family to support the Nomad Ship-Launched Vessel as well as Ship-Launched Fighters.<ref name="vessel-wiki">[https://elite-dangerous.fandom.com/wiki/Vessel_Hangar Vessel Hangar], Elite Dangerous Wiki, accessed 2026-09-15.</ref>
+
+Only hulls designed for a launch bay can fit the module, even when another ship has an optional compartment of the same class. Ship-Launched Fighters and vessels are selected separately after the hangar is installed; buying the module does not include a craft.
+
+== Mk I specifications ==
+
+{| class="wikitable"
+! Class
+! Rating
+! Mass
+! Integrity
+! Power draw
+! Vehicle slots
+! Fighter replacements
+|-
+| 5
+| D
+| 20 t
+| 60
+| 0.25 MW
+| 1
+| 6
+|-
+| 6
+| D
+| 40 t
+| 80
+| 0.35 MW
+| 2
+| 8 per bay; 16 total
+|-
+| 7
+| D
+| 60 t
+| 120
+| 0.35 MW
+| 2
+| 15 per bay; 30 total
+|}
+
+All three Mk I modules have a five-second boot time.<ref name="vessel-wiki" /> Class 6 and Class 7 hangars can store two different craft or loadouts. A second stocked bay also provides another ready fighter while a destroyed fighter is being rebuilt.
+
+The module cannot be modified through [[Engineering]].
+
+== Fighter storage and replacement ==
+
+A hangar bay stores a selected fighter design and enough resources to manufacture a limited number of replacements. When a fighter is destroyed, its bay begins building another unit; maintained documentation records an 80-second rebuild delay.<ref name="vessel-wiki" /> Once the replacement allocation is exhausted, the hangar must be restocked through port services.
+
+A larger hangar increases the number of bays and replacement craft; it does not change the performance of the selected fighter. Fighter models, weapon loadouts, and handling are properties of the deployed craft rather than the Vessel Hangar.
+
+Frontier introduced Ship-Launched Fighters as lightly defended, heavily armed support craft operated through telepresence. They may be controlled by the host ship's Commander, a hired NPC pilot, or a participating multicrew Commander.<ref name="frontier-fighters">[https://community.elitedangerous.com/en/gamescom/2016/day-two Gamescom 2016: Day Two — Ship-Launched Fighters], Frontier Developments, accessed 2026-09-15.</ref>
+
+Normally only one fighter is active. Deploying two at once requires a two-bay Class 6 or Class 7 hangar and another player through multicrew.
+
+== Launch and recovery ==
+
+Craft are deployed and ordered through the Role Panel. The hangar needs power to launch a fighter, but an already deployed fighter can dock if the module is unpowered. If available power changes when hardpoints deploy, launch sequencing and module priorities can therefore determine whether a replacement fighter can be sent out.<ref name="vessel-wiki" />
+
+Ship-Launched Fighters cannot enter Supercruise or hyperspace, dock at a station, or collect cargo. They operate near the host ship and return through the launch bay. Charging the host ship's Frame Shift Drive while a fighter remains deployed warns that the craft will be left behind.
+
+== Mk II Vessel Hangar ==
+
+The '''Mk II Vessel Hangar''' is a Live-only lightweight version introduced with the Nomad. It carries the same kinds of craft but has half the mass of the corresponding Mk I module: 10 t in Class 5, 20 t in Class 6, and 30 t in Class 7.<ref name="vessel-wiki" />
+
+Mk II hangars are restricted to:
+
+* Caspian Explorer — Classes 5–7;
+* Panther Clipper Mk II — Classes 5–7;
+* Type-11 Prospector — Classes 5–6.
+
+The Mk I hangar supports the Nomad on a broader set of fighter-capable ships. Frontier published the full ship and class compatibility lists in the June 2026 Nomad update.<ref name="frontier-nomad">[https://www.elitedangerous.com/news/elite-dangerous-june-dev-log-2026 Elite Dangerous: June Dev Log 2026], Frontier Developments, accessed 2026-09-15.</ref>
+
+Legacy does not include the Nomad or Mk II hangar and retains the Fighter Hangar name.
+
+== Compatible Mk I ships ==
+
+{| class="wikitable sortable"
+! Ship
+! Supported classes
+|-
+| Alliance Crusader
+| 5–6
+|-
+| Anaconda
+| 5–7
+|-
+| Beluga Liner
+| 5–6
+|-
+| Caspian Explorer
+| 5–7
+|-
+| Federal Corvette
+| 5–7
+|-
+| Federal Gunship
+| 5–6
+|-
+| Imperial Cutter
+| 5–7
+|-
+| Keelback
+| 5
+|-
+| Krait Mk II
+| 5–6
+|-
+| Panther Clipper Mk II
+| 5–7
+|-
+| Type-9 Heavy
+| 5–7
+|-
+| Type-10 Defender
+| 5–7
+|-
+| Type-11 Prospector
+| 5–6
+|}
+
+This is hull compatibility, not a recommended build list. The installed class determines bay count and reserves, while the selected craft determines its weapons and flight characteristics.<ref name="frontier-nomad" />
+
+== Sources ==
+<references />
+
+{{Related articles
+ |[[Ships and Equipment]]
+ |[[Outfitting]]
+ |[[Planetary Vehicle Hangar]]
+ |[[Large Planetary Vehicle Hangar]]
+}}
+
+[[Category:Modules]]
+[[Category:Ship modules]]

@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/AX Missile Rack
 Namespace: 828
 Page ID: 437
-Revision ID: 1224
-Timestamp: 2026-08-20T23:58:49Z
+Revision ID: 4139
+Timestamp: 2026-09-14T03:19:26Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/AX_Missile_Rack
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "AX Missile Rack",
+	module_class = "Experimental weapon",
+	slot_type = "Hardpoint",
+	mount = "Fixed<br>Turreted",
+	manufacturer = "Aegis",
+	availability = "Purchased for credits through Outfitting; stock varies by station and class",
+	engineering = "Cannot be engineered",
+	related_modules = "Enhanced AX Missile Rack<br>Sirius AX Missile Rack<br>Advanced Missile Rack",
 }

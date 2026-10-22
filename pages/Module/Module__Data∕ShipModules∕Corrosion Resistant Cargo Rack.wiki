@@ -3,12 +3,20 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Corrosion Resistant Cargo Rack
 Namespace: 828
 Page ID: 464
-Revision ID: 1251
-Timestamp: 2026-08-20T23:59:08Z
+Revision ID: 4235
+Timestamp: 2026-09-15T00:56:29Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Corrosion_Resistant_Cargo_Rack
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Corrosion Resistant Cargo Rack",
+	module_class = "Corrosion-resistant cargo rack",
+	slot_type = "Optional internal",
+	mount = "Classes 1 and 4; limited Community Goal Classes 5 and 6",
+	manufacturer = "",
+	availability = "Class 1 from Abel Laboratory or Cinder Dock; Class 4 after a Human Technology Broker unlock; larger variants are limited past rewards",
+	engineering = "Not supported",
+	related_modules = "Cargo Rack<br>Caustic Sink Launcher<br>Auto Field-Maintenance Unit",
+	notes = "Automatically protects corrosive cargo up to the combined capacity of all fitted corrosion-resistant racks.",
 }

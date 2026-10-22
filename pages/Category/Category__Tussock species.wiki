@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Tussock species
+Namespace: 14
+Page ID: 925
+Revision ID: 5879
+Timestamp: 2026-10-02T04:28:15Z
+Source URL: https://edfieldmanual.com/wiki/Category:Tussock_species
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Biological species in the Tussock group.
+
+[[Category:Biological species]]

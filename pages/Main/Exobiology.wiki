@@ -3,19 +3,55 @@ EDFM current-content archive export.
 Title: Exobiology
 Namespace: 0
 Page ID: 182
-Revision ID: 2104
-Timestamp: 2026-08-24T21:27:32Z
+Revision ID: 5979
+Timestamp: 2026-10-03T00:28:08Z
 Source URL: https://edfieldmanual.com/wiki/Exobiology
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Index for surface bio-sampling content.}}
-{{Article status|status=Draft|mode=Both|noindex=yes}}
+{{Article header|deck=The study, sampling and sale of biological discoveries found on planetary surfaces.}}
 
-Index for exobiology (surface bio-sampling) content — see [[:Category:Exobiology]].
+'''Exobiology''' is an [[Exploration|exploration]] activity centred on locating biological signals, collecting genetic samples on foot and selling completed records to Vista Genomics. In [[Odyssey]], commanders sample organisms with an Artemis Suit and its Genetic Sampler; the Codex also includes surface life first encountered before Odyssey.<ref name="guide">[https://www.elitedangerous.com/en-US/news/odyssey-guide Odyssey Guide], Frontier Developments.</ref>
 
-{{Draft warning}}
-No individual exobiology articles exist yet.
+== Equipment ==
 
-{{Related articles|[[Exploration]] [[Game Reference]]}}
+An '''Artemis Suit''' provides the Genetic Sampler used for organic scans. A ship-mounted [[Detailed Surface Scanner]] is used to map a landable body and reveal its biological signal filters. A small exploration ship or an SRV can reduce travel time between colonies, but neither changes the organism's sampling distance.<ref name="guide" />
+
+== Field workflow ==
+
+# Use the Full Spectrum System Scanner to identify landable bodies with biological signals.
+# Map the body with a [[Detailed Surface Scanner]]. Select an available biological signal filter and descend into highlighted terrain.
+# Locate a colony on foot and scan it with the Genetic Sampler.
+# Move at least the organism's minimum sample distance before scanning the next colony.
+# Complete three accepted samples of the same organism, then continue to another organism or body.
+# Sell completed records at a Vista Genomics outlet.<ref name="guide" />
+
+The required separation varies by organism. Each species page lists the minimum distance to travel between accepted samples.
+
+== Biological signals and heat maps ==
+
+A Detailed Surface Scanner reports the number of biological signal types and provides a Signals Filter for a mapped body. Highlighted terrain indicates where the selected genus can occur; colour intensity should not be interpreted as specimen density, and the overlay does not identify an exact colony.<ref name="frontier-overlay">[https://issues.frontierstore.net/issue-detail/31345 Issue 31345: Detailed Surface Scanner heat map], Frontier Issue Tracker. The acknowledged design response describes areas where organics are likely to be found rather than a density heat map. Accessed 10 September 2026.</ref>
+
+For help interpreting the overlay and choosing a landing area, see [[How to Choose an Exobiology Search Area with a Detailed Surface Scanner]].
+
+== Values and Vista Genomics ==
+
+Completed genetic records are sold at Vista Genomics. Species pages and the organism index show base values; these figures do not include first-to-log bonuses. Frontier notes that first discoveries can pay substantially more, but does not document a universal bonus formula in the Odyssey guide.<ref name="guide" /><ref name="payouts">[https://www.elitedangerous.com/news/galnet/vista-genomics-boosts-biodata-payouts Vista Genomics Boosts Biodata Payouts], Frontier Developments.</ref>
+
+Unsold claims are at risk during exploration. Frontier's Odyssey guide states that losing the ship before returning causes the claims to be lost.<ref name="guide" />
+
+== Organism index ==
+
+The organism index lists the biological species currently catalogued by EDFM, including base Vista Genomics value, minimum sampling distance and known visual variants.
+
+Species names, values, sampling distances and known variants are maintained from Frontier's documented journal records and validated community datasets, including the Canonn Codex reference, EDMC-BioScan and EDMC-ExploData.<ref name="journal">[https://hosting.zaonce.net/community/journal/v38/Journal_Manual_v38.pdf Elite Dangerous Player Journal Manual, version 38], Frontier Developments. Accessed 28 September 2026.</ref><ref name="canonn">[https://us-central1-canonn-api-236217.cloudfunctions.net/query/codex/ref Canonn Codex reference], Canonn Research. Retrieved 28 September 2026.</ref><ref name="bioscan">[https://github.com/Silarn/EDMC-BioScan/blob/fc6b85c3de48c8fb79fa9e4f79ad780e48f56629/src/bio_scan/bio_data/species.py EDMC-BioScan species data], commit <code>fc6b85c</code>. Accessed 28 September 2026.</ref><ref name="explodata">[https://github.com/Silarn/EDMC-ExploData/blob/fd4e188defd6405e46398fb0a54ac8669c9e2189/src/ExploData/explo_data/bio_data/genus.py EDMC-ExploData genus data], commit <code>fd4e188</code>. Accessed 28 September 2026.</ref>
+
+{{#invoke:Exobiology|directory|published=Stratum Tectonicas;Amphora Plant;Concha Biconcavis;Bark Mounds;Radicoida Unica;Fumerola Carbosis;Albidum Sinuous Tubers;Aleoida Arcus;Aleoida Coronamus;Aleoida Gravis;Aleoida Laminiae;Aleoida Spica;Aureum Brain Tree;Bacterium Acies;Bacterium Alcyoneum;Bacterium Aurasus;Bacterium Bullaris;Bacterium Cerbrus;Bacterium Informem;Bacterium Nebulus;Bacterium Omentum;Bacterium Scopulum;Bacterium Tela;Bacterium Verrata;Bacterium Vesicula;Bacterium Volu;Blatteum Bioluminescent Anemone;Blatteum Sinuous Tubers;Cactoida Cortexum;Cactoida Lapis;Cactoida Peperatis;Fonticulua Campestris;Fonticulua Lapida;Frutexa Acus;Frutexa Flabellum;Fungoida Setisis;Stratum Laminamus;Tussock Cultro;Tussock Albata;Tubus Compagibus;Concha Labiata;Recepta Deltahedronix;Tussock Serrati;Tussock Ventusa}}
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Detailed Surface Scanner]] [[How to Choose an Exobiology Search Area with a Detailed Surface Scanner]]}}
+
 [[Category:Exobiology]]

@@ -1,0 +1,13 @@
+<!--
+EDFM current-content archive export.
+Title: File:Frontier News - anaconda-mk-ii-available-now-arx-early-access.jpg
+Namespace: 6
+Page ID: 996
+Revision ID: 7399
+Timestamp: 2026-10-21T09:17:05Z
+Source URL: https://edfieldmanual.com/wiki/File:Frontier_News_-_anaconda-mk-ii-available-now-arx-early-access.jpg
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+Frontier Developments article preview image for the auto-updating news module.

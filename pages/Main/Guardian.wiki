@@ -3,18 +3,70 @@ EDFM current-content archive export.
 Title: Guardian
 Namespace: 0
 Page ID: 188
-Revision ID: 921
-Timestamp: 2026-08-18T13:17:38Z
+Revision ID: 4319
+Timestamp: 2026-09-15T13:33:59Z
 Source URL: https://edfieldmanual.com/wiki/Guardian
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes}}
+{{Article header|deck=The extinct alien civilisation whose ruins, records, and surviving technology remain scattered through Guardian space.}}
 
-Index for Guardian ruins, technology, and related content — see [[:Category:Guardian]].
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current as of September 2026
+ |notes=The archaeological content is present in Live and Legacy. Current Anti-Guardian Zone Resistance is a Live-only Engineering development.
+}}
 
-{{Draft warning}}
-No individual Guardian articles exist yet.
+The '''Guardians''' were a technologically advanced, spacefaring alien species whose civilisation disappeared millions of years before the present era. Humanity knows them through archaeological sites, surviving machines, and records translated by [[Ram Tah]]. Their history is therefore reconstructed rather than directly observed; several conclusions, especially the final actions of their artificial intelligences, are Ram Tah's interpretation of incomplete records.<ref name="guardians-overview">[https://canonn.science/codex/the-guardians/ Canonn Research Group: The Guardians], accessed 15 September 2026.</ref><ref name="guardian-codex">[https://canonn.science/codex/guardians-codex/ Canonn Research Group: Guardians Codex], accessed 15 September 2026.</ref>
 
-{{Related articles|[[Thargoid]] [[Lore and History]] [[Engineering]]}}
+== Discovery and surviving sites ==
+
+The first known Guardian ruins were found in October 3302 in '''Synuefe XR-H d11-102'''. Later investigations identified three broad kinds of surviving installation:<ref name="bridging-gap">[https://www.elitedangerous.com/en-US/news/interstellar-initiative-bridging-gap-begins Frontier Developments: ''Interstellar Initiative — Bridging the Gap begins!''], accessed 15 September 2026.</ref>
+
+* '''Ancient Ruins''' preserve obelisks and artefacts associated with Guardian history, language, biology, culture, and technology.
+* '''Guardian Structures''' contain more active machinery, including energy pylons, data terminals, destructible components, and automated Sentinels. Different terminals provide weapon, module, or vessel blueprint segments.<ref name="guardian-structure">[https://canonn.science/codex/guardian-structure/ Canonn Research Group: Guardian Structure], accessed 15 September 2026.</ref>
+* '''Guardian Beacons''' are orbital installations that can identify structures associated with vessel blueprints.
+
+Many installations still respond to power, weapons fire, scans, and Guardian artefacts despite their age. Sentinels continue to protect some structures, while Guardian relics act as power sources, computers, and keys within the surviving network.<ref name="guardian-codex" /> These are separate archaeological systems rather than evidence that living Guardians remain at the sites.
+
+== Civilisation and history ==
+
+The decoded records describe a humanoid species organised around strongly communal, co-operative city-states. Guardian civilisation developed genetic engineering, an interstellar information system called the '''Monolith Network''', neural interfaces, advanced energy systems, and artificial intelligences known as '''Constructs'''.<ref name="guardians-overview" /><ref name="guardian-codex" />
+
+The Guardians also fought an ancient war with the [[Thargoid]]s. Ram Tah's recovered records indicate that the Guardians initially tried to communicate, then developed autonomous weapons able to identify Thargoid technology. Those machines eventually forced the Thargoids to retreat.<ref name="thargoid-report">[https://community.elitedangerous.com/en/galnet/uid/5ab383f5b709787d505dd1a2 GalNet: Aegis report on Ram Tah's Guardian-site findings], 23 March 3304; accessed 15 September 2026.</ref>
+
+A later ideological division formed between technologically progressive Guardians and traditionalists who rejected artificial intelligence and neural implants. The resulting civil war lasted more than a century and devastated their civilisation. Ram Tah concluded that the surviving Constructs ultimately used the Guardians' own automated arsenals to destroy them, but the records do not reveal what became of the Constructs afterward.<ref name="guardian-codex" />
+
+== Guardian technology in human service ==
+
+Human engineers have combined recovered Guardian designs with human technology. Guardian Technology Brokers use blueprint segments, Guardian materials, and other commodities to unlock related equipment. The resulting equipment includes:
+
+* anti-xeno weapons such as the [[Guardian Gauss Cannon]], [[Guardian Plasma Charger]], and [[Guardian Shard Cannon]];
+* travel and defence modules such as the [[Guardian Frame Shift Drive Booster]], [[Guardian Module Reinforcement Package]], [[Guardian Hull Reinforcement Package]], and [[Guardian Shield Reinforcement Package]];
+* Guardian-hybrid ship-launched fighters.
+
+Each item remains its own subject. Its reference page owns the module's classes, specifications, unlock requirements, and operating limitations.
+
+Guardian technology is especially relevant to anti-xeno work because its weapons were developed from designs used against the Thargoids. That connection also creates a vulnerability: anti-Guardian fields can disrupt Guardian-derived modules. In Live, eligible Guardian modules can receive '''Anti-Guardian Zone Resistance''', which provides full resistance without the earlier performance penalty.<ref>[https://www.elitedangerous.com/update-notes/4-0-18-07 Frontier Developments: Elite Dangerous 18.07 Update Notes], accessed 15 September 2026.</ref> This Engineering option is not part of Legacy.
+
+== Archaeological materials ==
+
+Guardian sites provide several categories of recoverable items:
+
+* physical artefacts such as relics, caskets, orbs, tablets, totems, and urns;
+* manufactured materials recovered from site machinery and destroyed Sentinels;
+* encoded data from obelisks and other systems;
+* weapon, module, and vessel blueprint segments from activated terminals.
+
+These categories serve different unlocks and research interactions. They should not be treated as interchangeable merely because they come from Guardian sites. Broader storage and material-handling rules are covered by [[Engineering Materials]].
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Ram Tah]] [[Thargoid]] [[Guardian Frame Shift Drive Booster]] [[Guardian Gauss Cannon]] [[Guardian Plasma Charger]] [[Guardian Shard Cannon]] [[Engineering Materials]]}}
+
 [[Category:Guardian]]
+[[Category:Lore and History]]
+[[Category:Alien life]]

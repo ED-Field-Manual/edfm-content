@@ -3,15 +3,79 @@ EDFM current-content archive export.
 Title: Improved Battery Capacity
 Namespace: 0
 Page ID: 680
-Revision ID: 1573
-Timestamp: 2026-08-23T18:40:03Z
+Revision ID: 4076
+Timestamp: 2026-09-13T13:50:52Z
 Source URL: https://edfieldmanual.com/wiki/Improved_Battery_Capacity
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|an Odyssey modification reference for Improved Battery Capacity, including compatible equipment and material planning notes.}}
+{{Article header|deck=An Odyssey suit modification that increases total battery energy by 50%.}}
 
-'''Improved Battery Capacity''' is an Odyssey Engineering modification. This planned reference will cover what equipment it applies to, what it changes, and how it fits into suit or weapon builds.
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Current Odyssey Engineering after the 18.08 recipe rebalance
+ |reviewer=Sythan
+ |reviewed=2026-09-13
+ |source_quality=Current INARA Engineer records cross-checked against maintained community references and Frontier's Engineering rebalance notes
+ |uncertainty=Actual operating time varies with shield state, tool use, environmental drain, and other suit activity.
+}}
+
+'''Improved Battery Capacity''' is an [[Odyssey Engineering]] modification for pilot suits. It increases the suit battery's total energy capacity by '''50%'''.<ref name="inara-rosa">[https://inara.cz/elite/engineer/37/ INARA: Rosa Dayette], accessed 13 September 2026.</ref>
+
+The modification increases the available energy pool. It does not reduce the rate at which individual suit systems or tools consume energy.
+
+== Compatibility and Engineers ==
+
+Improved Battery Capacity can be installed on Artemis, [[Dominator Suit|Dominator]], and Maverick suits with an open modification slot. It is provided by:
+
+* [[Wellington Beck]]
+* [[Oden Geiger]]
+* [[Rosa Dayette]]
+
+The Engineer must first be discovered, met, and unlocked. The suit and required materials must then be taken to that Engineer's workshop.
+
+== Cost ==
+
+The current modification recipe is:
+
+* 5 Reactor Output Review
+* 8 Maintenance Logs
+* 3 Ion Battery
+* 5 Micro Supercapacitor
+* 5 [[Electrical Wiring]]
+* 750,000 CR
+
+Frontier reduced Odyssey Engineering recipe quantities in the 18.08 Engineering rebalance; older guides may show larger material requirements.<ref name="frontier-type8">[https://www.elitedangerous.com/news/type-8-update-now-available Frontier Developments: Type-8 Update is Now Available], accessed 13 September 2026.</ref>
+
+== Operational effect ==
+
+Battery energy powers a suit's shields, life support, tools, and other active systems. Increasing capacity extends the time available before an energy-cell recharge or another power source is needed, but the gain depends on how the suit is being used.
+
+A shielded combat suit under fire drains energy differently from an unshielded exploration suit, and sustained tool operation creates a different load again. The 50% capacity increase therefore does not translate into one fixed number of additional minutes for every activity.
+
+== When to use it ==
+
+Improved Battery Capacity is broadly useful across all three specialist suits:
+
+* '''Artemis:''' extends unsupported exobiology and surface exploration away from a vehicle or building power source.
+* '''Dominator:''' offsets the combat suit's smaller standard battery and supports longer periods with shields active.
+* '''Maverick:''' extends settlement salvage and mission work that combines shields, the Arc Cutter, and the EnergyLink.
+
+It competes for a limited suit modification slot. A build used mainly for tool-heavy salvage can compare it with [[Reduced Tool Battery Consumption]], which reduces drain from supported tool functions instead of enlarging the entire energy pool. Improved Battery Capacity is the more general choice when several suit systems contribute to the drain.<ref name="fandom-battery">[https://elite-dangerous.fandom.com/wiki/Improved_Battery_Capacity Elite Dangerous Wiki: Improved Battery Capacity], accessed 13 September 2026.</ref>
+
+== See also ==
+
+* [[Odyssey Engineering]]
+* [[Odyssey Engineer Modifications]]
+* [[Reduced Tool Battery Consumption]]
+* [[Electrical Wiring]]
+* [[Dominator Suit]]
+
+== Sources ==
+
+<references />
 
 [[Category:Odyssey Engineering]]
+[[Category:Suit Engineering]]
 [[Category:Odyssey]]

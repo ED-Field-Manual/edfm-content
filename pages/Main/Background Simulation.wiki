@@ -3,19 +3,158 @@ EDFM current-content archive export.
 Title: Background Simulation
 Namespace: 0
 Page ID: 186
-Revision ID: 2105
-Timestamp: 2026-08-24T21:27:33Z
+Revision ID: 6147
+Timestamp: 2026-10-04T15:57:12Z
 Source URL: https://edfieldmanual.com/wiki/Background_Simulation
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Index for faction influence, states, and BGS content.}}
-{{Article status|status=Draft|mode=Both|noindex=yes}}
+{{Article header|deck=The persistent system that turns commander activity into changes in faction influence, states, assets, and local conditions.}}
 
-Index for the Background Simulation (BGS) — faction influence and states — see [[:Category:Background Simulation]].
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live mechanics; Legacy runs a separate galaxy
+ |reviewed=2026-09-14
+ |reviewer=Sythan
+ |source_quality=Current behavior is documented primarily from community testing, supported by Frontier's Live and Legacy announcement.
+ |uncertainty=Exact formulas, daily caps, and some activity weights are not published.
+}}
 
-{{Draft warning}}
-No individual Background Simulation articles exist yet.
+The '''Background Simulation''' ('''BGS''') is the persistent ruleset that governs political and economic change in populated systems. It tracks local factions, their influence and states, control of stations and settlements, and conditions such as security, economy, happiness, market supply, and mission availability.<ref name="sinc">Andrew van der Stock (CMDR Purrfect), [https://sinc.science/bgsguide.pdf ''The Complete Elite Dangerous Background Simulation Guide'', 2025 edition v3.0].</ref>
 
-{{Related articles|[[Powerplay]] [[Field Procedures]] [[Tools and Resources]]}}
+Commander activity supplies most of the inputs. Missions, trade, bounty hunting, combat, exploration, crime, and on-foot activity can all affect the factions connected to the transaction. The resulting changes are processed in regular server updates rather than appearing as a simple one-for-one response to each action.
+
+== Factions, influence, and reputation ==
+
+Each populated system contains several local factions. A faction has a separate '''influence''' value in every system where it is present, and the influence of all factions in that system totals 100%. Raising one faction therefore reduces the share available to the others.<ref name="sinc" />
+
+Influence represents a faction's position in the system. It is not the same as a commander's '''reputation''':
+
+* '''Influence''' belongs to the faction and affects local control, conflicts, expansion, and retreat.
+* '''Reputation''' belongs to the commander and affects how that faction treats the commander, including mission access and rewards.
+
+Mission reward choices marked with more influence provide greater relative BGS weight, but the issuer is not always the only affected faction. Multi-faction missions can record separate effects for a destination or target faction, and each influence entry is tied to a specific system. [[Mission Influence and BGS Effects]] explains how to verify the result. Reputation rewards improve the commander's relationship with the named faction instead.
+
+Influence movement is not linear. Population, current influence, competing activity, faction states, daily limits, and diminishing returns all affect the final result. A transaction that produces a visible change in a quiet low-population system may be lost among heavier traffic in a large or actively contested system. Exact formulas and caps are not published.
+
+== Assets and system control ==
+
+Stations, outposts, surface ports, settlements, and some installations are faction-owned assets. The faction that owns the system's designated controlling asset governs the system, setting its local allegiance, government, and jurisdiction.
+
+The faction with the largest influence share is not always the controlling faction. Control normally changes when a conflict transfers the controlling asset, not simply when another influence bar moves above it. Other assets can also change hands through conflicts between factions that meet at similar influence.
+
+A faction native to a system cannot normally be retreated from that system. A non-native faction arrived through expansion or invasion and may later leave through retreat.
+
+== Activities that affect the BGS ==
+
+The effect of an activity depends on which faction issued, owns, or receives the transaction and on any active state. Typical relationships include:<ref name="sinc" />
+
+{| class="wikitable"
+! Activity
+! Typical connection to a faction
+! Important qualification
+|-
+| Missions
+| The completion journal can record effects for the issuer and for other factions involved in the objective. Every influence entry is tied to a system address.
+| Check the mission type, target or destination faction, selected reward, affected system, and active states rather than assuming the issuer receives every effect.
+|-
+| Commodity trade and mined-goods sales
+| Profitable transactions at a market can support the market's owning faction and affect its economy.
+| Profit, demand, transaction size, repeated routes, and current state affect the result; unprofitable or illegal trade can behave differently.
+|-
+| Exploration and exobiology data
+| Selling data at an eligible service can support the faction that owns it.
+| Large dumps are subject to caps and diminishing returns; the receiving asset matters.
+|-
+| Bounty vouchers
+| Redeeming eligible vouchers supports the relevant faction and can improve security.
+| The issuing faction and redemption location determine who benefits.
+|-
+| Combat bonds and Conflict Zones
+| Support the selected side during War or Civil War.
+| Combat work is most important when a conflict is active; ordinary influence is locked between the contestants.
+|-
+| Odyssey settlement activity
+| Missions, trade, combat, theft, and settlement shutdowns can affect the owning and issuing factions.
+| The faction tied to the settlement or mission matters more than the physical system alone.
+|-
+| Crime, murder, smuggling, and failed work
+| Can harm factions, security, economy, or state sliders.
+| Crime-and-punishment consequences and BGS effects are related but not identical.
+|}
+
+Because ownership and state determine where a transaction goes, repeating a memorised activity without checking the target can support the wrong faction. Station services, the system map, the cockpit Status panel, and faction mission boards identify the relevant owners and states.
+
+== The daily tick ==
+
+Most influence, conflict, and state results are applied during an approximately daily server update known as the '''BGS tick'''. The exact time can drift. Data sources and in-game panels may also refresh at different times, so a station service, system map, and external tracker can briefly disagree after the tick.<ref name="frontier-forum">Frontier Forums, [https://forums.frontier.co.uk/threads/bgs-guide-2024-2-0-released.629028/ “BGS Guide 2024 2.0 released”], including continuing community testing and tick observations.</ref>
+
+The daily BGS tick is separate from the weekly maintenance and Powerplay cycle. Weekly maintenance does not serve as the normal influence update.<ref name="sinc" />
+
+A useful comparison therefore uses readings from consecutive completed ticks. A mid-cycle influence value is not a live score for unprocessed actions, and a single tick cannot always identify which commanders or activities caused the movement.
+
+== Faction states ==
+
+Faction states describe political, economic, security, and exceptional conditions. Several states can affect the same faction in different systems. Their consequences can include different mission selections, market behavior, signal sources, service conditions, and changes to which activities count most strongly.
+
+Common groups include:
+
+* '''Economic states''' — Boom, Bust, Investment, Famine, Outbreak, Drought, and Infrastructure Failure.
+* '''Security states''' — Civil Liberty, Civil Unrest, Lockdown, Pirate Attack, and Terrorist Attack.
+* '''Conflict states''' — War, Civil War, and Election.
+* '''Movement states''' — Expansion and Retreat.
+* '''Exceptional states''' — Public Holiday, Natural Disaster, Blight, and other event-driven conditions.
+
+States can be pending, active, or recovering. They have their own triggers, durations, priorities, and cooldowns. Treat state names shown in-game as operational conditions rather than flavour text.
+
+=== Conflicts ===
+
+When eligible factions converge at similar influence and an asset is at stake, they can enter War, Civil War, or Election. Their influence is locked together while the conflict is active, and the outcome is determined through daily victories rather than ordinary movement between their influence bars.<ref name="sinc" />
+
+* '''War''' and '''Civil War''' are combat conflicts. Conflict Zone victories, combat bonds, and appropriate combat missions support the chosen side.
+* '''Election''' is a non-combat conflict. Economic, trade, exploration, passenger, donation, and other eligible peaceful activity supports the chosen side; ordinary combat does not.
+
+Winning a conflict can transfer an asset from the loser to the winner. If that asset controls the system, system control changes with it. Exact activity weights within conflicts remain a continuing area of community testing, especially after game updates.<ref name="frontier-forum" />
+
+=== Expansion and retreat ===
+
+Influence and faction conditions drive movement between systems. Current community documentation identifies two important reference thresholds:<ref name="sinc" />
+
+* Influence above approximately 75% can place an eligible faction on the path to Expansion.
+* A non-native faction below approximately 2.5% can enter Retreat and may be removed if it is not recovered.
+
+Those thresholds do not by themselves guarantee the final result. Active conflicts, faction happiness, available nearby systems, faction counts, assets, and other eligibility rules can block or redirect movement. Expansion targeting is therefore not safely predicted from distance alone.
+
+== BGS and Powerplay ==
+
+The BGS and [[Powerplay]] are separate systems. The BGS governs local factions and assets; Powerplay governs Powers, loyalty, Merits, system acquisition, reinforcement, and undermining. They interact because local government, faction allegiance, markets, and states can affect Powerplay conditions, while Power effects can modify local activity.
+
+Supporting a local faction is not automatically the same as supporting the Power that currently occupies the system. Confirm both the BGS objective and the Powerplay objective before combining operations.
+
+== Live and Legacy galaxies ==
+
+Live and Legacy each retain a Background Simulation, but they are separate galaxies. Frontier split them with Update 14: actions performed in Legacy affect Legacy's galaxy and do not affect Live.<ref name="frontier-live-legacy">Frontier Developments, [https://www.elitedangerous.com/en-US/news/elite-dangerous-update-14-and-beyond-live-and-legacy-modes “Elite Dangerous Update 14 and Beyond: Live and Legacy Modes”], 18 November 2022.</ref>
+
+Within one galaxy, Open, Private Group, and Solo activity feeds the same BGS even though commanders in different session types may never instance together. Current development, new states, and integrations apply to Live; Legacy results can diverge.
+
+== Monitoring and interpretation ==
+
+In-game information should be the starting point:
+
+* use the system map or cockpit Status panel for faction influence and active states;
+* inspect station ownership before selling goods, data, bonds, or vouchers;
+* check conflict panels for daily victories and assets at stake;
+* compare values after complete daily ticks rather than after every transaction; and
+* record competing traffic, states, and unexpected activity before attributing a result to one action.
+
+Community trackers can preserve influence history and estimate tick timing, but they depend on commander-submitted journals and may be incomplete. Elite BGS provides faction graphs, state tracking, and tick monitoring, and INARA provides current faction, system, state, conflict, and asset views.<ref name="elitebgs">Elite BGS, [https://elitebgs.app/about About].</ref>
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Powerplay]] [[Field Procedures]] [[Law & Disorder]] [[Tools and Resources]]}}
+
 [[Category:Background Simulation]]
+[[Category:Game mechanics]]

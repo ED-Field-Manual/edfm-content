@@ -3,15 +3,94 @@ EDFM current-content archive export.
 Title: Oversized
 Namespace: 0
 Page ID: 683
-Revision ID: 1576
-Timestamp: 2026-08-23T18:40:05Z
+Revision ID: 4124
+Timestamp: 2026-09-14T02:39:05Z
 Source URL: https://edfieldmanual.com/wiki/Oversized
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|an experimental-effect reference for Oversized, including compatible modules, trade-offs, and Engineer availability.}}
+{{Article header|deck=A weapon Experimental Effect that increases damage by 3% at the cost of 5% higher power draw.}}
 
-'''Oversized''' is an Engineering experimental effect. This planned reference will document compatible blueprints, its performance trade-offs, and practical use cases.
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy Engineering
+ |reviewer=Sythan
+ |reviewed=2026-09-13
+ |source_quality=Current INARA compatibility data corroborated by the maintained Elite Dangerous Wiki reference
+ |uncertainty=Frontier does not publish a current machine-readable compatibility matrix for specialised weapon variants; confirm availability in the Engineer interface.
+}}
+
+'''Oversized''' is a weapon [[Experimental Effects|Experimental Effect]] that uses enlarged components and reinforced munition housings to increase damage. An [[Engineers|Engineer]] installs it after a compatible weapon has received a normal [[Engineering Blueprints|Engineering Blueprint]].
+
+== Effects ==
+
+{| class="wikitable"
+! Attribute
+! Modifier
+|-
+| Damage
+| +3%
+|-
+| Power draw
+| +5%
+|}
+
+The damage bonus increases each damaging shot without changing the weapon's firing cadence. It therefore raises theoretical damage per second by the same proportion while the weapon continues to fire.
+
+The penalty increases the weapon's demand on the ship's [[Power Plant]]. It does not directly alter distributor draw, thermal load, rate of fire, magazine size, reserve ammunition, reload speed, projectile speed, range, or armour piercing.
+
+== Compatibility ==
+
+Current Engineering references list Oversized for:<ref name="inara">[https://inara.cz/elite/experimentaleffects/ INARA: Engineering — Experimental effects], accessed 13 September 2026.</ref>
+
+* [[Beam Laser|Beam]], [[Burst Laser|Burst]], and [[Pulse Laser|Pulse Lasers]];
+* [[Multi-Cannon|Multi-cannons]];
+* [[Plasma Accelerator|Plasma Accelerators]];
+* [[Fragment Cannon|Fragment Cannons]];
+* [[Cannon|Cannons]];
+* [[Railgun|Railguns]];
+* [[Mine Launcher|Mine Launchers]];
+* [[Torpedo Pylon|Torpedo Pylons]];
+* seeker and dumbfire [[Missile Rack|Missile Racks]].
+
+Experimental weapons and mining tools do not accept Oversized.<ref name="wiki">[https://elite-dangerous.fandom.com/wiki/Oversized Elite Dangerous Wiki: Oversized], accessed 13 September 2026.</ref> Specialised weapon variants should be checked in the Engineer interface before gathering materials.
+
+== Materials ==
+
+Applying Oversized consumes:
+
+* 5 Mechanical Scrap;
+* 3 Mechanical Components;
+* 1 Ruthenium.<ref name="wiki" />
+
+Experimental Effects are installed once rather than progressed through Grades 1–5. The Engineer must support the receiving weapon family and be visited in person; [[Remote Engineering]] cannot add or replace an Experimental Effect.
+
+== Selection guidance ==
+
+Oversized is the straightforward damage choice when no specialised effect is more important and the ship has enough deployed power. Its fixed 3% bonus works without a target condition, ammunition type, heat threshold, or timing window.
+
+Check the complete build before applying it:
+
+* a power-limited ship may benefit more from [[Flow Control]] or a Power Plant change;
+* [[Multi-servos]] produces a similar theoretical damage-per-second increase through firing rate, but consumes ammunition faster;
+* status effects such as [[Emissive Munitions]] can contribute more to a coordinated or utility-focused loadout;
+* weapons constrained by distributor energy, heat, reloads, or ammunition may not sustain their theoretical output.
+
+Because only one Experimental Effect can be fitted at a time, choose Oversized for its measured contribution to the intended build rather than for the damage number in isolation.
+
+== See also ==
+
+* [[Engineering]]
+* [[Engineers]]
+* [[Experimental Effects]]
+* [[Multi-servos]]
+* [[Flow Control]]
+* [[Stripped Down]]
+
+== Sources ==
+
+<references />
 
 [[Category:Experimental Effects]]
 [[Category:Engineering]]

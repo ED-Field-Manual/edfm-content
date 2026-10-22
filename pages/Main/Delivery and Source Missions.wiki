@@ -1,0 +1,170 @@
+<!--
+EDFM current-content archive export.
+Title: Delivery and Source Missions
+Namespace: 0
+Page ID: 973
+Revision ID: 6129
+Timestamp: 2026-10-04T15:56:17Z
+Source URL: https://edfieldmanual.com/wiki/Delivery_and_Source_Missions
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=The difference between supplied-cargo deliveries and contracts that require commodities to be obtained.}}
+
+{{Article status
+| status = Partially verified
+| mode = Live
+| version = Current Live
+| reviewed = 2026-10-04
+| reviewer = Sythan
+| source_quality = Cargo and mission identifiers are documented by Frontier's current Player Journal Manual; variant-specific depot behaviour remains contract-dependent.
+| uncertainty = Depot rules, Team variants, and legal conditions depend on the individual contract.
+}}
+
+'''Delivery missions''' and '''source-and-return missions''' both move commodities, but they use different cargo rules.
+
+{| class="wikitable"
+! Field
+! Delivery or haulage
+! Source and return
+|-
+| Cargo origin
+| Supplied by the mission through its depot
+| Obtained by the commander
+|-
+| Cargo type
+| Mission-tagged cargo
+| Ordinary commodity matching the contract
+|-
+| Purchase cost
+| None for the supplied load
+| Paid by the commander when buying from a market
+|-
+| Can ordinary market cargo substitute?
+| Normally no
+| Yes, if it is the correct commodity and quantity
+|-
+| Main risk
+| Losing irreplaceable mission cargo
+| Failing to source the commodity profitably or before expiry
+|}
+
+== Delivery and haulage ==
+
+A delivery contract provides cargo that must be transported to a named destination. The commander collects it from the mission interface or mission depot, loads it into the ship, and delivers it to the specified contact.
+
+=== Before accepting ===
+
+Check:
+
+* total quantity and available cargo capacity;
+* whether the entire load must be carried at once;
+* origin depot and destination depot;
+* destination pad size and planetary access;
+* deadline and route distance;
+* legal status of the cargo and scan risk;
+* whether the mission is a Team contract;
+* hostile-response warnings.
+
+Mission-provided cargo is identified separately in the journal. The <code>MissionAccepted</code> event can record <code>Commodity</code> and <code>Count</code>, while cargo events can associate inventory with a mission ID.<ref name="journalv38">[https://hosting.zaonce.net/community/journal/v38/Journal_Manual_v38.pdf Elite Dangerous Player Journal Manual, version 38], Frontier Developments.</ref>
+
+=== Mission depot ===
+
+The depot can support partial loading and delivery for mission variants that expose those controls, including large Team deliveries. Read the depot values carefully:
+
+* cargo allocated by the mission;
+* cargo collected;
+* cargo aboard the ship;
+* cargo delivered;
+* cargo remaining.
+
+Do not confuse cargo still waiting at the origin with cargo lost after collection.
+
+=== Lost mission cargo ===
+
+Mission cargo is tagged to the contract. Buying the same named commodity from a market does not normally replace lost delivery cargo. If the mission interface does not offer a way to collect the missing allocation, the contract may no longer be completable.
+
+Avoid selling, abandoning, or jettisoning mission cargo. If cargo is accidentally jettisoned and remains recoverable, retrieve the same canisters before leaving the instance.
+
+== Source and return ==
+
+A source-and-return contract requires the commander to obtain the named commodity and return it to the issuer. The mission does not supply the load.
+
+The commodity can normally be:
+
+* purchased from a market;
+* taken from the commander's existing cargo where it matches;
+* acquired through another lawful source recognised by the contract.
+
+The mission reward is not pure profit. Subtract commodity purchase price, fuel, repair, and risk from the offered credits.
+
+=== Sourcing efficiently ===
+
+# Record the exact commodity name and quantity.
+# Check cargo capacity.
+# Locate a market that currently exports enough stock.
+# Confirm the market and pad are accessible to the selected ship.
+# Buy only the required commodity unless the extra cargo has another purpose.
+# Return to the original mission contact before expiry.
+
+Market data can become stale. Carry enough credits for price movement and keep an alternative supplier in mind.
+
+== Legal and hostile variants ==
+
+Cargo missions can create legal or combat risk through:
+
+* prohibited or stolen goods;
+* hostile ships sent to intercept the load;
+* mission updates that offer an alternate destination;
+* planetary or settlement access;
+* abandoning a contract while supplied cargo remains aboard.
+
+An alternate-delivery offer is a new decision. Read its faction, destination, reward, and legal consequences before accepting the change.
+
+== Team missions ==
+
+An explicitly marked Team delivery can be shared. Confirm that Team members have accepted it before moving cargo. The mission depot allows the group to coordinate collection and delivery, but cargo aboard one commander's ship remains subject to that ship's loss, capacity, and travel risk.
+
+Ordinary delivery and source missions are not automatically shared.
+
+== Stacking ==
+
+Delivery and source contracts usually provide route efficiency rather than shared objective progress. Several loads can be carried on one route when:
+
+* total cargo fits;
+* each load remains identifiable;
+* destinations and deadlines are compatible;
+* no contract's legal status endangers the others;
+* the combined BGS effects fit the campaign.
+
+See [[Mission Stacking]].
+
+== BGS considerations ==
+
+Record the issuer, origin, destination faction, destination system, and selected reward for every contract. Do not assume that all delivery variants distribute faction effects like a courier mission. Check the completed <code>FactionEffects</code> array and its system addresses before repeating a route for BGS work.
+
+== Common mistakes ==
+
+* Accepting more supplied cargo than the ship can carry or the route can finish.
+* Assuming market-bought cargo can replace mission-tagged delivery cargo.
+* Forgetting the purchase cost of a source-and-return mission.
+* Loading the wrong commodity with a similar name.
+* Delivering to the right system but the wrong station.
+* Selling mission cargo with ordinary trade stock.
+* Ignoring the BGS effect of an alternate destination.
+
+== Related Field Manual entries ==
+
+* [[Cargo Rack]]
+* [[:Category:Commodities|Commodities]]
+* [[Trade|Trading]]
+* [[Mission Stacking]]
+* [[Mission Influence and BGS Effects]]
+
+== References ==
+
+<references />
+
+[[Category:Missions]]
+[[Category:Mission types]]
+[[Category:Transportation missions]]

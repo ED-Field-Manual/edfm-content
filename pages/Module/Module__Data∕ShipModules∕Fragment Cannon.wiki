@@ -3,19 +3,22 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Fragment Cannon
 Namespace: 828
 Page ID: 488
-Revision ID: 2254
-Timestamp: 2026-08-25T14:14:16Z
+Revision ID: 4278
+Timestamp: 2026-09-15T03:58:57Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Fragment_Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Fragment Cannon",
-	module_class = "Kinetic weapon",
-	slot_type = "Hardpoint",
-	mount = "Fixed, gimballed, and turreted variants",
+	module_class = "Kinetic hardpoint weapon",
+	slot_type = "Weapon hardpoint",
+	mount = "Fixed, gimballed, or turreted; classes 1–3",
 	manufacturer = "",
-	availability = "",
-	engineering = "",
-	related_modules = "[[Cannon]], [[Multi-Cannon]]",
+	availability = "Standard credit purchase through Outfitting; Merc variants through Operations rewards",
+	tech_broker = "Not required",
+	engineering = "Fragment Cannon blueprints and compatible Experimental Effects; Double Screaming for eligible Merc variants",
+	powerplay = "",
+	related_modules = "[[Cannon]]<br>[[Multi-Cannon]]<br>[[Pacifier Frag-Cannon]]",
+	notes = "Fires twelve kinetic pellets per shot; three-round magazine, 1,800 m falloff, and 2,000 m maximum range."
 }

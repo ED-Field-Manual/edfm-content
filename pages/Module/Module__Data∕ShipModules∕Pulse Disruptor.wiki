@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Pulse Disruptor
 Namespace: 828
 Page ID: 566
-Revision ID: 1353
-Timestamp: 2026-08-21T00:00:23Z
+Revision ID: 4475
+Timestamp: 2026-09-16T15:25:21Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Pulse_Disruptor
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Pulse Disruptor",
+	module_class = "Powerplay pulse laser",
+	slot_type = "Hardpoint",
+	mount = "Class 2 fixed",
+	manufacturer = "Multiple manufacturers",
+	availability = "Unlocked through Powerplay loyalty ranks; purchased at an allied Stronghold Carrier",
+	engineering = "Supports Pulse Laser blueprints and Experimental Effects",
+	related_modules = "[[Pulse Laser]]; [[Burst Laser]]; [[Beam Laser]]; [[Cytoscrambler]]",
 }

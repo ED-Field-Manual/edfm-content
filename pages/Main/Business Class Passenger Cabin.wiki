@@ -3,22 +3,111 @@ EDFM current-content archive export.
 Title: Business Class Passenger Cabin
 Namespace: 0
 Page ID: 456
-Revision ID: 2137
-Timestamp: 2026-08-24T23:43:54Z
+Revision ID: 4256
+Timestamp: 2026-09-15T02:21:51Z
 Source URL: https://edfieldmanual.com/wiki/Business_Class_Passenger_Cabin
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Business Class Passenger Cabin ship module.
+{{Article header|deck=A mid-tier passenger cabin that carries Economy or Business Class travellers while retaining more seats than First or Luxury accommodation.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Frontier Lynx Highliner update notes and current community-maintained passenger-cabin databases
+ |uncertainty=Outfitting stock and passenger-mission availability vary by station and system state.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Business Class Passenger Cabin''' is a D-rated optional internal module for carrying passengers whose missions require Economy or Business Class accommodation. It offers more comfort than an [[Economy Class Passenger Cabin]] but fewer seats in the same compartment, making it the standard middle tier between bulk capacity and premium accommodation.
 
-== Overview ==
+Business cabins can be fitted to any ship with an ordinary optional internal compartment of the required size. They cannot be installed in Military Compartments.
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Classes and capacity ==
+
+{| class="wikitable sortable"
+! Module
+! Rating
+! Seats
+! Mass
+! Power draw
+|-
+| Class 3
+| D
+| 3
+| 5 t
+| 0 MW
+|-
+| Class 4
+| D
+| 6
+| 10 t
+| 0 MW
+|-
+| Class 5
+| D
+| 10
+| 20 t
+| 0 MW
+|-
+| Class 6
+| D
+| 16
+| 40 t
+| 0 MW
+|}
+
+Cabin mass is fixed. Boarding passengers does not increase it, and an empty cabin weighs the same as an occupied one. Higher classes provide more seats but can make a noticeable difference to jump range, especially when several cabins are fitted.
+
+Business cabins draw no power and cannot be engineered.
+
+== Accommodation quality ==
+
+A passenger can be placed in a cabin that meets or exceeds the class stated by the mission:
+
+* Economy passengers can use Economy, Business, First or Luxury accommodation.
+* Business passengers can use Business, First or Luxury accommodation.
+* First Class and Luxury passengers cannot use a Business cabin.
+
+Using Business accommodation for Economy passengers is valid but carries fewer passengers than an Economy cabin of the same size. The higher-quality cabin does not change the mission's contract, destination or passenger count.
+
+== Passenger occupancy ==
+
+Passenger cabins use seats rather than cargo capacity. Passengers cannot be moved into a Cargo Rack, and cabin seats cannot carry commodities.
+
+For bulk passenger contracts, groups can share available seats and may be divided among multiple cabins of the same qualifying class. VIP parties behave differently: one VIP mission reserves an entire cabin for its party, even when unused seats remain. That cabin stays assigned until the contract is completed, failed or abandoned.
+
+A Business cabin can therefore be efficient for several ordinary groups requiring Business accommodation, while a small VIP party may leave much of a larger cabin unusable for other contracts.
+
+== Acquisition and compatibility ==
+
+Standard Business Class Passenger Cabins are sold for credits through Outfitting. Availability depends on local stock, but no permit, Engineer or Technology Broker unlock is intrinsic to the module.
+
+Classes 3–6 fit ordinary optional internal compartments of the same or greater size. A larger cabin can be placed in an oversized compartment, but it keeps its original seat count; the unused compartment size provides no additional capacity.
+
+== Mk II Business Passenger Cabins ==
+
+The Live game also has Mk II Business Passenger Cabins with 50% more capacity than their standard counterparts. Frontier introduced them with the Lynx Highliner in update 4.3.3.0, and they can only be fitted to that ship.
+
+Mk II cabins are a separate ship-specific line. Their extra seats do not change Business accommodation rules, and they are not available in Legacy.
+
+== Choosing a cabin ==
+
+A Business cabin is appropriate when a contract explicitly requires Business accommodation or when a commander wants to keep capacity available for both Economy and Business missions. Economy cabins remain more space-efficient for Economy-only bulk transport, while [[First Class Passenger Cabin|First Class]] and [[Luxury Passenger Cabin|Luxury cabins]] are required when a contract specifies those higher tiers.
+
+Before accepting a mission, compare its passenger count, minimum accommodation and VIP status with the actual free cabin configuration. Total empty seats alone do not guarantee that the party can be assigned.
+
+== Sources ==
+
+* [https://www.elitedangerous.com/news/updates/4-3-3-0 Elite Dangerous — 4.3.3.0 Update Notes] — Frontier's introduction of Mk II Business and Economy cabins, their 1.5× capacity, and the Lynx Highliner.
+* [https://elite-dangerous.fandom.com/wiki/Passenger_Cabin Elite Dangerous Wiki: Passenger Cabin] — accommodation hierarchy, occupancy behavior, classes, capacities, mass, power draw and compartment restrictions.
+* [https://www.edsm.net/en/faq/outfitting/index/id/5/name/Optional+Internal/sub/Passenger+Cabins EDSM: Passenger Cabins] — independent class, rating, capacity, mass and power cross-check.
+
+{{Related articles|[[Passenger Cabin]] [[Economy Class Passenger Cabin]] [[First Class Passenger Cabin]] [[Luxury Passenger Cabin]] [[Ships]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]

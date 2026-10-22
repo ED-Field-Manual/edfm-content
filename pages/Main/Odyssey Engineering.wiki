@@ -3,15 +3,150 @@ EDFM current-content archive export.
 Title: Odyssey Engineering
 Namespace: 0
 Page ID: 671
-Revision ID: 1564
-Timestamp: 2026-08-23T18:07:34Z
+Revision ID: 4086
+Timestamp: 2026-09-13T14:29:51Z
 Source URL: https://edfieldmanual.com/wiki/Odyssey_Engineering
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|A central guide to Odyssey suit and handheld-weapon Engineering, equipment grades, modification slots, materials, and Engineer access.}}
+{{Article header|deck=A practical guide to upgrading and modifying Odyssey suits and handheld weapons.}}
 
-'''Odyssey Engineering''' covers on-foot suit and handheld-weapon upgrades in Live. This planned guide will explain equipment grades, modification slots, material planning, Engineer unlocks, and how Odyssey Engineering differs from ship Engineering.
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Operations era
+ |reviewed=2026-09-13
+ |reviewer=Sythan
+ |source_quality=Current Frontier guidance supported by maintained INARA and Elite Dangerous Wiki references
+ |uncertainty=Exact recipes and material costs can change with game updates; verify them in the live upgrade or modification screen.
+}}
 
-[[Category:Odyssey Engineering]]
-[[Category:Odyssey]]
+'''Odyssey Engineering''' is the progression system for improving personal suits and handheld weapons. It has two connected parts: raising an item's grade at [[Pioneer Supplies]], and installing permanent modifications at specialist [[Engineers]]. Frontier's Odyssey guide describes both equipment upgrades and Engineer modifications as separate services.<ref name="FrontierOdysseyGuide">[https://www.elitedangerous.com/news/odyssey-guide ''Odyssey Guide''], Frontier Developments (accessed 13 September 2026).</ref>
+
+This procedure covers the complete workflow. Use [[Odyssey Engineer Modifications]] to look up a specific modification and the Engineers who provide it, and [[Engineer Unlock Guide]] for unlock routes.
+
+== Upgrade grades and modification slots ==
+
+Every standard suit and handheld weapon starts at Grade 1. A Pioneer Supplies technician upgrades an individual item as far as Grade 5. Each grade improves the item's base performance and opens one additional modification slot.
+
+{| class="wikitable"
+! Equipment grade
+! Available modification slots
+|-
+| Grade 1
+| 0
+|-
+| Grade 2
+| 1
+|-
+| Grade 3
+| 2
+|-
+| Grade 4
+| 3
+|-
+| Grade 5
+| 4
+|}
+
+A grade upgrade and an Engineer modification are different transactions:
+
+* '''Grade upgrades''' are available through Pioneer Supplies and use a grade-specific recipe.
+* '''Modifications''' are installed by an unlocked Engineer who offers that particular effect.
+
+Installing a modification does not raise the equipment's grade. Raising the grade does not automatically choose a modification, although some higher-grade store stock may already have one installed.
+
+== Preparation ==
+
+Before spending materials:
+
+# '''Choose the item and role.''' Decide which suit model or weapon will perform the job. A combat suit, stealth suit and exploration suit often need different priorities.
+# '''Check Pioneer Supplies stock.''' A branch may occasionally sell a higher-grade item or one with a pre-installed modification. Availability varies by location, so inspect the item before buying it.<ref name="PioneerSupplies">[https://elite-dangerous.fandom.com/wiki/Pioneer_Supplies ''Pioneer Supplies''], Elite Dangerous Wiki, Fandom (accessed 13 September 2026).</ref>
+# '''Plan all modification slots.''' Installed Odyssey modifications cannot be removed or replaced. A different build therefore requires another copy of the suit or weapon.<ref name="OdysseyEngineers">[https://elite-dangerous.fandom.com/wiki/Engineers ''Engineers''], Elite Dangerous Wiki, Fandom (accessed 13 September 2026).</ref>
+# '''Identify the providers.''' Check [[Odyssey Engineer Modifications]], then confirm that the required Engineer has been discovered and unlocked.
+# '''Record the current recipe.''' The upgrade or modification screen is authoritative for the items and credits required by the current game build.
+
+== Procedure ==
+
+# Travel to a station, port or settlement with a Pioneer Supplies branch.
+# Disembark and speak to the Pioneer Supplies technician.
+# Select the suit or weapon and apply the next grade upgrade when all required items and credits are available.
+# Repeat the grade upgrade until the item has the performance and number of modification slots needed for the build.
+# Unlock the Engineer who provides the chosen modification. Follow that Engineer's discovery, meeting and unlock requirements exactly.
+# Travel to the Engineer's workshop and disembark.
+# Select the suit or weapon, choose an empty modification slot, and install the modification.
+# Verify the finished item's grade and installed effects before committing materials to another copy.
+
+A modification can be installed as soon as the item has a free slot; the item does not need to reach Grade 5 first. Later grade upgrades retain modifications already installed.
+
+== Materials and recipes ==
+
+Odyssey equipment uses personal-inventory items rather than ship Engineering materials. The main groups are:
+
+* '''Data''', downloaded from settlement ports or received as mission rewards.
+* '''Goods''', carried as physical items and recovered from lockers, containers and missions.
+* '''Assets''', divided into chemical, circuit and technology items. Assets can be bartered within their categories at participating concourse Bartenders.
+
+Specific upgrades also use key items such as Suit Schematics, Weapon Schematics and Power Regulators. [[Engineering Materials]] explains the broader material system; this page keeps the focus on the Engineering workflow.
+
+Frontier reduced many suit and weapon upgrade requirements in Update 18.08, including the number of schematics and other assets needed at higher grades.<ref name="Frontier1808">[https://www.elitedangerous.com/news/updates/4-0-18-08 ''Elite Dangerous Update 18.08''], Frontier Developments (accessed 13 September 2026).</ref> Older recipe charts may therefore overstate the cost. Always compare an external planner with the recipe shown in game before starting a long collection run.
+
+Useful sources include:
+
+* on-foot mission rewards;
+* settlement lockers, containers and data ports;
+* crashed craft and other surface points of interest;
+* mission-specific rewards such as Power Regulators;
+* asset barter at concourse Bartenders.
+
+Some goods are marked as stolen or illegal when removed without authorization. Check the settlement state, mission terms and item status before leaving with them.
+
+== Engineers and unlocks ==
+
+Odyssey suit and weapon Engineers operate in the core systems and the Colonia region. Their workshops, unlock conditions and available services are listed on [[Engineers]]. The current provider directory can also be checked against INARA's Engineer reference.<ref name="InaraEngineers">[https://inara.cz/elite/engineers/ ''Engineers''], INARA (accessed 13 September 2026).</ref>
+
+Unlike ship Engineering Blueprints, Odyssey equipment does not use repeated Grade 1–5 crafting to build Engineer reputation. Once an Engineer has been unlocked, the modifications listed for that Engineer are available whenever the commander has compatible equipment, a free slot and the required payment.
+
+Engineer access still follows discovery and referral chains. Completing a meeting requirement does not always mean the workshop has been unlocked; confirm each stage in the Engineer panel before travelling.
+
+== Choosing modifications ==
+
+Treat every suit or weapon as a finished build rather than a container for interchangeable effects:
+
+* prioritize effects that support the item's main role;
+* avoid filling a slot only because a modification is immediately available;
+* account for modifications already present on higher-grade store stock;
+* keep separate copies when one weapon model is needed for different roles;
+* check compatibility at the Engineer before travelling with a full material set.
+
+[[Odyssey Engineer Modifications]] separates suit and weapon effects and lists providers in the core systems and Colonia. Individual modification pages explain their effects, costs and practical limitations where EDFM has a dedicated reference.
+
+== Troubleshooting ==
+
+;The Engineer is not visible
+:Check the Engineer panel for an unmet discovery or referral requirement. Some referrals depend on unlocking or working with another Engineer first.
+
+;The workshop is visible but will not offer services
+:Confirm that the Engineer's meeting and unlock requirements have both been completed. Relogging after satisfying a newly completed requirement can refresh the panel when the update is delayed.
+
+;The modification is unavailable for the selected item
+:Check that the Engineer offers that effect, that the equipment type is compatible, and that the item has a free modification slot.
+
+;Materials shown by a planner do not match the game
+:Use the in-game recipe. Recipe reductions and other balance changes can make older guides inaccurate.
+
+;A modification was installed on the wrong build
+:It cannot be swapped to another slot or replaced. Obtain and upgrade another copy of the item for a different build.
+
+== Related pages ==
+
+* [[Engineers]] — Engineer directory and access information
+* [[Engineer Unlock Guide]] — ordered unlock routes
+* [[Odyssey Engineer Modifications]] — modification-to-provider lookup
+* [[Suit Engineering]] — suit-specific reference
+* [[Weapon Engineering (Odyssey)]] — handheld weapon Engineering reference
+* [[Pioneer Supplies]] — equipment purchasing and grade-upgrade service
+
+== References ==
+
+<references />

@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Xeno Multi Limpet Controller
 Namespace: 828
 Page ID: 617
-Revision ID: 1404
-Timestamp: 2026-08-21T00:01:00Z
+Revision ID: 5087
+Timestamp: 2026-09-23T16:06:59Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Xeno_Multi_Limpet_Controller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Xeno Multi Limpet Controller",
+	module_class = "Multi-limpet controller",
+	slot_type = "Optional internal",
+	mount = "Class 3; ratings C and B",
+	manufacturer = "",
+	availability = "Outfitting purchase",
+	engineering = "No documented Engineering support",
+	related_modules = "[[Decontamination Limpet Controller]], [[Repair Limpet Controller]], [[Research Limpet Controller]], [[Universal Multi Limpet Controller]]",
 }

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Operations Multi Limpet Controller
 Namespace: 828
 Page ID: 546
-Revision ID: 2245
-Timestamp: 2026-08-25T14:14:08Z
+Revision ID: 4450
+Timestamp: 2026-09-16T13:06:16Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Operations_Multi_Limpet_Controller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -13,9 +13,9 @@ return {
 	name = "Operations Multi Limpet Controller",
 	module_class = "Multi-limpet controller",
 	slot_type = "Optional internal",
-	mount = "",
-	manufacturer = "",
-	availability = "",
-	engineering = "",
+	mount = "Class 3C and 3B variants",
+	manufacturer = "Multiple manufacturers",
+	availability = "Standard Outfitting stock",
+	engineering = "No documented Engineer blueprints or Experimental Effects",
 	related_modules = "[[Collector Limpet Controller]], [[Hatch Breaker Limpet Controller]], [[Recon Limpet Controller]]",
 }

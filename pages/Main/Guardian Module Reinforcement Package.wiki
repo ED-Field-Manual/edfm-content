@@ -3,22 +3,96 @@ EDFM current-content archive export.
 Title: Guardian Module Reinforcement Package
 Namespace: 0
 Page ID: 507
-Revision ID: 2158
-Timestamp: 2026-08-24T23:44:20Z
+Revision ID: 4324
+Timestamp: 2026-09-15T13:46:15Z
 Source URL: https://edfieldmanual.com/wiki/Guardian_Module_Reinforcement_Package
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Guardian Module Reinforcement Package ship module.
+{{Article header|deck=The powered Guardian-derived optional module that redirects penetrating damage away from ship modules.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current as of September 2026
+ |notes=Base variants and the Technology Broker unlock apply in Live and Legacy. The exact strength of protection from Thargoid disruption effects is not documented by Frontier. Current Anti-Guardian Zone Resistance is a Live development.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Guardian Module Reinforcement Package''' is an optional internal module derived from [[Guardian]] technology. While it retains integrity, it redirects part of the penetrating damage that would otherwise reach a ship's modules into its own integrity pool. E-rated packages redirect '''30%''' of that damage; D-rated packages redirect '''60%'''.<ref name="module-data">[https://raw.githubusercontent.com/EDCD/coriolis-data/c228adb6c0425fc2c3a606be96114ed7a369f27a/modules/internal/guardian_module_reinforcement_package.json EDCD Coriolis Data: Guardian Module Reinforcement Package records], commit pinned; accessed 15 September 2026.</ref><ref name="gmrp-wiki">[https://elite-dangerous.fandom.com/wiki/Guardian_Module_Reinforcement_Package Elite Dangerous Wiki: Guardian Module Reinforcement Package], accessed 15 September 2026.</ref>
 
-== Overview ==
+Its protective percentages match those of the equivalent human Module Reinforcement Package, but the Guardian variants have about 10% more integrity and draw power. They are available in Classes 1–5 with E- and D-rated versions. E-rated units are heavier and retain a larger integrity pool; D-rated units are lighter and redirect twice as much damage per hit.
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Specifications ==
+
+{| class="wikitable sortable"
+! Module
+! Integrity
+! Mass
+! Power draw
+! Damage redirected
+! Reference value
+|-
+| 1E || 85 || 2 t || 0.27 MW || 30% || 10,000 Cr
+|-
+| 1D || 77 || 1 t || 0.34 MW || 60% || 30,000 Cr
+|-
+| 2E || 127 || 4 t || 0.41 MW || 30% || 24,000 Cr
+|-
+| 2D || 116 || 2 t || 0.47 MW || 60% || 72,000 Cr
+|-
+| 3E || 187 || 8 t || 0.54 MW || 30% || 57,600 Cr
+|-
+| 3D || 171 || 4 t || 0.61 MW || 60% || 172,800 Cr
+|-
+| 4E || 286 || 16 t || 0.68 MW || 30% || 138,240 Cr
+|-
+| 4D || 259 || 8 t || 0.74 MW || 60% || 414,720 Cr
+|-
+| 5E || 424 || 32 t || 0.81 MW || 30% || 331,776 Cr
+|-
+| 5D || 385 || 16 t || 0.88 MW || 60% || 995,328 Cr
+|}
+
+The two maintained community datasets used here disagree by 2 Cr on each Class 5 reference value; the table follows the current Elite Dangerous Wiki values. This minor discrepancy does not affect module performance.<ref name="module-data" /><ref name="gmrp-wiki" />
+
+== Damage interception ==
+
+A Module Reinforcement Package does not increase the ship's hull integrity. Instead, it intercepts a share of module damage after an attack penetrates the hull. The intercepted portion damages the reinforcement package, while the remainder continues to the intended module. Once the package's integrity reaches zero, it no longer redirects damage.
+
+Multiple packages protect the same ship and combine sequentially: each additional package acts on the damage left after the preceding one. This produces diminishing returns rather than a simple sum of their listed percentages. External modules such as hardpoints receive only half the listed protection; internal modules receive the full value.<ref name="mrp-wiki">[https://elite-dangerous.fandom.com/wiki/Module_Reinforcement_Package Elite Dangerous Wiki: Module Reinforcement Package], accessed 15 September 2026.</ref>
+
+A damaged package can be repaired by an [[Auto Field-Maintenance Unit]]. The reinforcement's own integrity pool is therefore different from the flat hull integrity supplied by a [[Hull Reinforcement Package]] or [[Guardian Hull Reinforcement Package]].
+
+== Thargoid disruption ==
+
+The in-game description states that the Guardian version has resistance to Thargoid-specific disruption technology. Community references associate this with HUD scrambling and forced module reboots from a Thargoid Interceptor's lightning attack, but neither Frontier nor the outfitting statistics state a protection percentage. It should not be treated as guaranteed immunity.<ref name="gmrp-wiki" />
+
+== Unlock and acquisition ==
+
+The module requires one permanent unlock at a '''Guardian Technology Broker'''. The recorded unlock cost is:<ref name="gmrp-wiki" />
+
+* 1 Guardian Module Blueprint Fragment
+* 18 Guardian Sentinel Wreckage Components
+* 15 Pattern Epsilon Obelisk Data
+* 20 Guardian Power Conduits
+* 9 Reinforced Mounting Plates
+
+After the unlock, additional packages are purchased for credits through outfitting where stocked; the materials are not paid again for every ordinary copy. Broker locations and station stock are dynamic.<ref>[https://inara.cz/elite/techbroker/ INARA: Technology Broker unlocks], accessed 15 September 2026.</ref>
+
+== Engineering ==
+
+Neither the standard nor Guardian Module Reinforcement Package accepts conventional multi-grade Engineering blueprints or Experimental Effects.
+
+In Live, the single-grade '''Anti-Guardian Zone Resistance''' modification can be applied to the Guardian Module Reinforcement Package. It prevents anti-Guardian fields from degrading the module and has no performance penalty.<ref>[https://www.elitedangerous.com/update-notes/4-0-18-07 Frontier Developments: Elite Dangerous 18.07 Update Notes], accessed 15 September 2026.</ref> It is not available in Legacy.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Guardian]] [[Guardian Hull Reinforcement Package]] [[Hull Reinforcement Package]] [[Auto Field-Maintenance Unit]] [[Engineering Materials]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Guardian]]

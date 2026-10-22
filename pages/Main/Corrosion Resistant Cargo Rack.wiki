@@ -3,22 +3,124 @@ EDFM current-content archive export.
 Title: Corrosion Resistant Cargo Rack
 Namespace: 0
 Page ID: 465
-Revision ID: 2140
-Timestamp: 2026-08-24T23:43:58Z
+Revision ID: 4237
+Timestamp: 2026-09-15T01:01:33Z
 Source URL: https://edfieldmanual.com/wiki/Corrosion_Resistant_Cargo_Rack
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Corrosion Resistant Cargo Rack ship module.
+{{Article header|deck=A specialised optional internal rack that prevents corrosive cargo from damaging a ship's modules.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy; some listed cargo and past reward variants are Live-specific or no longer obtainable
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Current function, specifications, and acquisition use maintained module and Technology Broker records; historical development uses archived Frontier-linked reporting.
+ |uncertainty=Engineer-base access and station stocking can change, and the limited Class 5 and 6 variants cannot be reproduced through normal acquisition.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Corrosion Resistant Cargo Rack''' ('''CRCR'''), also shown in-game as the '''Anti-Corrosion Cargo Rack''', is an optional internal module for safely carrying corrosive commodities. These are primarily Thargoid objects and tissue samples that would otherwise cause repeated damage to random ship modules while held in an ordinary [[Cargo Rack]].<ref name="edwiki-crcr">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Corrosion_Resistant_Cargo_Rack Corrosion Resistant Cargo Rack].</ref>
+
+The rack provides less capacity than a standard Cargo Rack of the same class, but has no mass or power draw of its own. Its purpose is containment rather than general freight efficiency.
+
+== Containment behavior ==
+
+Corrosive cargo is assigned automatically to fitted corrosion-resistant capacity. The Commander does not select a rack for each item.
+
+* Protected cargo causes no corrosion while it fits within the combined CRCR capacity.
+* If the amount of corrosive cargo exceeds that protected capacity, the excess occupies ordinary cargo space and resumes damaging ship modules.
+* Installing a CRCR while corrosive cargo is already aboard automatically moves eligible units into protected capacity.
+* Removing the excess cargo, or providing enough protected capacity for it, stops the ongoing corrosion without a separate decontamination action.<ref name="edwiki-crcr" />
+
+The protection applies to cargo, not to caustic contamination already attached to the hull. A [[Caustic Sink Launcher]] or another decontamination method is required for that separate effect.
+
+== Corrosive cargo ==
+
+Known uses include carrying Thargoid Sensors, Thargoid Probes, Thargoid Links, Thargoid Interceptor tissue samples, Titan tissue samples, and Titan Drive Components.<ref name="edwiki-crcr" />
+
+[[Meta-Alloys]] are associated with Thargoid technology and are part of the Class 4 unlock, but they are not themselves corrosive and can be transported in an ordinary Cargo Rack.
+
+Capacity is measured in one-tonne cargo units. A Class 1F rack therefore protects two corrosive commodities, while a Class 4E protects sixteen. Carrying additional ordinary racks does not increase the amount of corrosive cargo protected.
+
+== Specifications ==
+
+{| class="wikitable sortable"
+! Class
+! Rating
+! Mass
+! Power draw
+! Capacity
+! Price
+! Current availability
+|-
+| 1 || E || 0 t || 0 MW || 1 t || 6,250 CR || Engineer workshop purchase
+|-
+| 1 || F || 0 t || 0 MW || 2 t || 12,563 CR || Engineer workshop purchase
+|-
+| 4 || E || 0 t || 0 MW || 16 t || 91,970 CR || Human Technology Broker unlock and purchase
+|-
+| 5 || E || 0 t || 0 MW || 32 t || Not normally sold || Limited past Community Goal reward
+|-
+| 6 || E || 0 t || 0 MW || 64 t || Not normally sold || Limited past Community Goal reward
+|}
+
+The ordinary purchaseable variants and their prices are also recorded by Roguey.<ref name="roguey-crcr">Roguey, [https://roguey.co.uk/elite-dangerous/equipment/internal/corrosion-resistant-cargo-rack/ Corrosion Resistant Cargo Rack].</ref>
+
+== Acquisition ==
+
+=== Class 1 ===
+
+The 1E and 1F racks are sold at two Engineer workshops:<ref name="edwiki-crcr" />
+
+* '''Abel Laboratory''' on Arque 4 e, the workshop of [[Professor Palin]]; and
+* '''Cinder Dock''' on Shenve A 6, the workshop of [[Chloe Sedesi]].
+
+Landing at an Engineer workshop still depends on having the required access to that Engineer. These racks are direct credit purchases rather than Technology Broker unlocks.
+
+=== Class 4 ===
+
+The 4E rack is a permanent Human Technology Broker unlock. The current recipe is:<ref name="inara-techbroker">INARA, [https://inara.cz/elite/techbroker/ Technology Broker unlocks].</ref>
+
+* 16 [[Meta-Alloys]];
+* 22 Radiation Baffles;
+* 12 Neofabric Insulation;
+* 26 Iron; and
+* 18 Chemical Manipulators.
+
+After the one-time unlock, 4E racks can be purchased for credits where the unlocked experimental module is stocked. The cargo commodities required for the unlock occupy normal cargo space; Iron and Chemical Manipulators are Engineering materials and do not.
+
+=== Limited variants ===
+
+Class 5 and Class 6 racks were distributed through past Community Goals. They remain usable by Commanders who received them, but they are not part of normal current purchasing or Technology Broker acquisition.<ref name="edwiki-crcr" />
+
+== Engineering ==
+
+Corrosion Resistant Cargo Racks cannot be engineered. Their protected capacity, mass, and power characteristics are fixed by the variant.
+
+Because a CRCR sacrifices capacity compared with a standard rack, fitting one is a role decision. A ship collecting only one or two samples may need no more than a Class 1F; sustained tissue sampling or Titan-component recovery can justify the Class 4E or an owned limited reward variant.
+
+== Development history ==
+
+The first corrosion-resistant racks were produced through a 3302 campaign to counter the damage then caused by Unknown Artefacts, now called Thargoid Sensors. The containment material was developed from Meta-Alloys by Professor Lea Tantaga.<ref name="edwiki-crcr" />
+
+The Class 4 version was later added to Human Technology Brokers. Class 5 and 6 examples were distributed in limited Community Goal rewards rather than becoming standard modules.
+
+In 3304, Aegis neutralised the disruptive effect that selling Thargoid Sensors had on station systems. This changed the old station-disruption activity, but it did not remove the corrosive damage that protected cargo capacity prevents aboard a ship.<ref name="edwiki-crcr" />
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Cargo Rack]] [[Meta-Alloys]] [[Caustic Sink Launcher]] [[Professor Palin]] [[Chloe Sedesi]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Optional internal modules]]
+[[Category:Technology Broker modules]]
+[[Category:Anti-Xeno equipment]]

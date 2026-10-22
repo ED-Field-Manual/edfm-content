@@ -1,0 +1,20 @@
+<!--
+EDFM current-content archive export.
+Title: File:Advanced docking computer.png
+Namespace: 6
+Page ID: 836
+Revision ID: 4148
+Timestamp: 2026-09-14T04:06:06Z
+Source URL: https://edfieldmanual.com/wiki/File:Advanced_docking_computer.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |description = In-game image of the [[Advanced Docking Computer]] in Elite Dangerous.
+ |subject = [[Advanced Docking Computer]]
+ |captured_by = [[User:Sythan|Sythan]]
+ |intended_use = Identification and illustration on the [[Advanced Docking Computer]] article and related Engineering pages.
+}}
+
+[[Category:Equipment images]]

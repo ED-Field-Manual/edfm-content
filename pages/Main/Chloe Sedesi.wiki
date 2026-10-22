@@ -3,15 +3,15 @@ EDFM current-content archive export.
 Title: Chloe Sedesi
 Namespace: 0
 Page ID: 128
-Revision ID: 3804
-Timestamp: 2026-09-11T04:04:37Z
+Revision ID: 5176
+Timestamp: 2026-09-24T15:18:20Z
 Source URL: https://edfieldmanual.com/wiki/Chloe_Sedesi
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 {{Article status
  |status=Partially verified
- |mode=Live and Legacy
+ |mode=Both
  |version=Elite Dangerous 4.4.1.1
  |reviewed=2026-09-11
  |reviewer=Sythan

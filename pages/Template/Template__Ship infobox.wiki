@@ -1,0 +1,62 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Ship infobox
+Namespace: 10
+Page ID: 852
+Revision ID: 5243
+Timestamp: 2026-09-24T23:24:57Z
+Source URL: https://edfieldmanual.com/wiki/Template:Ship_infobox
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{#invoke:Ships|infobox}}<noinclude>
+== Usage ==
+Infobox for [[Ships|starship]] articles.
+
+The template uses structured ship data stored at <code>Module:Data/Ships/&lt;Page name&gt;</code>:
+
+<pre>{{Ship infobox}}</pre>
+
+The current page title selects the structured record automatically. Article parameters may override structured defaults when necessary. Empty or unknown values are hidden.
+
+<templatedata>
+{
+	"description": "Data-backed infobox for starship articles. Article parameters override structured ship data defaults only when needed.",
+	"format": "block",
+	"params": {
+		"name": { "label": "Name", "description": "Ship display name. Defaults to structured data or the page title.", "type": "string" },
+		"image": { "label": "Image", "description": "Image filename without the File: prefix. Defaults to structured data.", "type": "wiki-file-name" },
+		"manufacturer": { "label": "Manufacturer", "type": "string" },
+		"ship_type": { "label": "Type", "type": "string" },
+		"primary_role": { "label": "Primary role", "type": "string" },
+		"status": { "label": "Release status", "type": "string" },
+		"release": { "label": "Release", "type": "string" },
+		"availability": { "label": "Availability", "type": "string" },
+		"landing_pad": { "label": "Landing pad", "type": "string" },
+		"crew": { "label": "Crew", "type": "string" },
+		"confirmed_hardpoints": { "label": "Confirmed hardpoints", "type": "string" },
+		"utility_mounts": { "label": "Utility mounts", "type": "string" },
+		"supercruise_overcharge": { "label": "SCO compatibility", "type": "string" },
+		"cargo_capacity": { "label": "Cargo capacity", "type": "string" }
+	},
+	"paramOrder": [
+		"name",
+		"image",
+		"manufacturer",
+		"ship_type",
+		"primary_role",
+		"status",
+		"release",
+		"availability",
+		"landing_pad",
+		"crew",
+		"confirmed_hardpoints",
+		"utility_mounts",
+		"supercruise_overcharge",
+		"cargo_capacity"
+	]
+}
+</templatedata>
+
+[[Category:Templates]]
+</noinclude>

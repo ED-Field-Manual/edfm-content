@@ -3,12 +3,22 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Luxury Passenger Cabin
 Namespace: 828
 Page ID: 521
-Revision ID: 1308
-Timestamp: 2026-08-20T23:59:49Z
+Revision ID: 4390
+Timestamp: 2026-09-16T03:04:11Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Luxury_Passenger_Cabin
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Luxury Passenger Cabin",
+	module_class = "Passenger cabin",
+	slot_type = "Optional internal",
+	mount = "Classes 5–6, B-rated",
+	manufacturer = "",
+	availability = "Standard Outfitting purchase; compatible only with Dolphin, Orca, and Beluga Liner",
+	tech_broker = "Not required",
+	engineering = "Not compatible with Engineering",
+	powerplay = "",
+	related_modules = "[[Passenger Cabin]]<br>[[First Class Passenger Cabin]]<br>[[Business Class Passenger Cabin]]",
+	notes = "The highest accommodation tier; carries Economy, Business, First Class, or Luxury passengers."
 }

@@ -3,22 +3,108 @@ EDFM current-content archive export.
 Title: Pack-Hound Missile Rack
 Namespace: 0
 Page ID: 551
-Revision ID: 2177
-Timestamp: 2026-08-24T23:44:43Z
+Revision ID: 4458
+Timestamp: 2026-09-16T13:23:22Z
 Source URL: https://edfieldmanual.com/wiki/Pack-Hound_Missile_Rack
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Pack-Hound Missile Rack ship module.
+{{Article header|deck=A fixed Class 2 Powerplay seeker launcher that releases four swarming micro-missiles per trigger pull.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live specifications and Powerplay 2.0 acquisition; Legacy acquisition differs
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Commit-pinned EDCD module data, Frontier's Ascendancy release notes, and maintained community mechanics documentation
+ |uncertainty=Live Powerplay rank order depends on the pledged Power; consult the in-game loyalty rewards before beginning a module unlock.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Pack-Hound Missile Rack''' is a Powerplay variant of the seeker [[Missile Rack]]. Each trigger pull releases four individually guided micro-missiles along spreading, irregular paths before they converge on the locked target. An individual missile is weaker than a standard seeker, but the salvo distributes the attack across several projectiles and is more difficult for a single [[Point Defence Turret]] to intercept completely.<ref name="wiki">[https://elite-dangerous.fandom.com/wiki/Pack-Hound_Missile_Rack Pack-Hound Missile Rack], Elite Dangerous Wiki, accessed 16 September 2026.</ref>
 
-== Overview ==
+== Specifications ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+{| class="wikitable"
+! Attribute
+! Value
+|-
+| Class and rating || 2B
+|-
+| Mount || Fixed seeker
+|-
+| Mass || 4 t
+|-
+| Integrity || 51
+|-
+| Power draw || 1.20 MW
+|-
+| Damage per micro-missile || 7.5 explosive
+|-
+| Micro-missiles per trigger pull || 4
+|-
+| Armour piercing || 60
+|-
+| Firing interval || 0.5 s
+|-
+| Magazine / reserve || 12 / 120 trigger pulls
+|-
+| Reload time || 5 s
+|-
+| Distributor draw || 0.24 MW
+|-
+| Projectile speed || 600 m/s
+|-
+| Thermal load || 3.6 per trigger pull
+|-
+| Base price || 768,600 CR
+|}
+
+The ammunition figures count trigger pulls rather than individual micro-missiles. An unmodified full magazine therefore produces twelve four-missile salvos.<ref name="data">[https://raw.githubusercontent.com/EDCD/coriolis-data/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/hardpoints/missile_rack.json Missile Rack module data], EDCD Coriolis Data, commit-pinned record.</ref>
+
+== Operation ==
+
+Like other seeker weapons, the Pack-Hound requires a valid target lock before firing. The four projectiles initially separate and follow erratic routes, then turn towards the target. This makes the salvo harder for point defence to erase than a single missile on a direct approach, though overlapping defensive coverage can still destroy part or all of it.
+
+Pack-Hounds have an arming distance of approximately 500 metres. Impacts inside that distance inflict sharply reduced damage, so they are not intended for point-blank firing.<ref name="wiki" /> Their guidance and dispersal also need room to develop; a longer approach reduces the chance of the salvo colliding with itself.
+
+Explosive damage is most effective against unshielded hulls and exposed external modules. Each micro-missile has a smaller blast than a conventional seeker, concentrating practical results on a narrower area rather than reproducing a standard missile's larger individual explosion.
+
+The weapon produces substantial heat when fired continuously. Multiple racks can raise ship temperature quickly, especially with Engineering that increases firing rate. Sustained use should be tested against the complete build's heat capacity rather than assessed from one launcher in isolation.
+
+== Acquisition ==
+
+In the current Live game, the Pack-Hound is unlocked through [[Powerplay]] loyalty progression. Powerplay 2.0 gives every Power access to the same set of Powerplay modules in a different reward order.<ref name="ascendancy">[https://www.elitedangerous.com/update-notes/4-0-19-0 Elite Dangerous: Ascendancy — Available Now], Frontier Developments, 31 October 2024.</ref> Li Yong-Rui offers the Pack-Hound as his first module unlock; other Powers place it later in their sequence. The in-game loyalty rewards show the applicable rank.
+
+Once unlocked, the launcher is purchased for credits through eligible Powerplay outfitting. The reward provides purchase access rather than a free stored module.
+
+In Legacy, the older Powerplay system associates the Pack-Hound exclusively with Li Yong-Rui and uses the former pledge-time and rating requirements. Live commanders should not follow those Legacy conditions.
+
+== Engineering ==
+
+The Pack-Hound accepts four conventional weapon Blueprint families:
+
+* High Capacity;
+* Lightweight;
+* Rapid Fire; and
+* Sturdy.
+
+Compatible Experimental Effects include Drag Munitions, [[Emissive Munitions]], [[Flow Control]], [[Multi-servos]], Overload Munitions, [[Oversized]], [[Stripped Down]] and Thermal Cascade.<ref name="wiki" />
+
+High Capacity extends endurance and enlarges the magazine but adds mass and power demand. Rapid Fire increases launch cadence and reduces reload time while raising heat and ammunition consumption. Experimental Effects can shift the launcher towards target control, signature support, altered damage composition, heat pressure, or reduced module cost. Only one Blueprint and one Experimental Effect may be fitted to each launcher.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Missile Rack]] [[Point Defence Turret]] [[Powerplay]] [[Engineering]]}}
+
+{{Engineering nav}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Weapons]]
+[[Category:Powerplay modules]]
+[[Category:Weapon Engineering]]

@@ -3,48 +3,64 @@ EDFM current-content archive export.
 Title: How to Ignore Unwanted Mining Commodities
 Namespace: 0
 Page ID: 713
-Revision ID: 1680
-Timestamp: 2026-08-24T00:22:59Z
+Revision ID: 4331
+Timestamp: 2026-09-15T14:07:34Z
 Source URL: https://edfieldmanual.com/wiki/How_to_Ignore_Unwanted_Mining_Commodities
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Procedure draft based on current mining collection and refinery workflow|uncertainty=Exact cockpit menu wording still needs final in-game verification.}}
-__NOINDEX__
-{{Field procedure|summary=Use the contacts and refinery workflow to stop collector limpets from repeatedly bringing in fragments you do not want to keep.}}
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1.1; the same contact-based ignore control is documented in Legacy
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Current EDFM module references supported by established community documentation
+ |uncertainty=Panel bindings and some control labels vary by platform and custom control scheme.
+}}
+{{Field procedure|summary=Mark unwanted resources in the Contacts panel so autonomous collector limpets leave them in space.}}
 
-Use this procedure during a mining run when collectors keep retrieving fragments that are not part of the current cargo plan.
+Use this procedure during a [[Mining|mining]] run when autonomous collector limpets are retrieving fragments or canisters that do not fit the current cargo plan. Collector limpets do not retrieve contacts marked '''Ignored'''.<ref name="collector">[https://elite-dangerous.fandom.com/wiki/Collector_Limpet_Controller Collector Limpet Controller], Elite Dangerous Wiki. Accessed 15 September 2026.</ref>
 
-{{Draft warning}}
+The ignore list filters collection. It does not remove cargo already aboard or clear partial [[Refinery|refinery]] bins. A mixed fragment may still be collected when it also contains a wanted resource.
 
 == Before you start ==
 
-* Know which commodity or material the run is trying to keep.
-* Have active fragments, chunks, or canisters visible in the contacts list.
-* Check the [[Refinery]] before discarding anything valuable.
+* Decide which mined commodities and Engineering materials the run should keep.
+* Make sure at least one fragment, chunk, material, or canister of the unwanted resource is within sensor range and visible in the Contacts panel.
+* If possible, set the filters before deploying autonomous collectors; an active collector may retrieve a nearby object before the new setting is made.
+* Do not ignore raw Engineering materials merely to save cargo space. Materials use separate storage and do not occupy refinery bins or cargo racks.
 
 == Procedure ==
 
 {{Procedure steps|
-# Open the contacts list while fragments or chunks are nearby.
-# Identify a fragment type that is not wanted for the current run.
-# Add that fragment or commodity to the ignore list using the available contact/refinery controls.
-# Check the refinery for existing partial bins of the same unwanted resource.
-# Vent or clear unwanted refinery bins if they are blocking useful fragments.
-# Relaunch or continue collectors only after the ignore choice is set.
-# Recheck the contacts list after the next asteroid, because a different unwanted commodity may need its own ignore action.
+# Open the ship's left-hand panel and select the '''Contacts''' tab.
+# Select a nearby fragment, chunk, material, or canister containing a resource that should not be collected.
+# Choose the unwanted named resource, then select '''Add to Ignore List'''. A fragment can contain more than one resource, so check which component the action applies to.<ref name="inara-mining">[https://inara.cz/elite/squadron-document/7746/2315 Empire Tech and Trade Institute — Mining Guide], INARA. Accessed 15 September 2026.</ref>
+# Repeat the action for each unwanted resource currently present.
+# Launch or continue autonomous collector limpets with no individual collectable targeted. They will leave contacts containing only ignored resources in space.<ref name="collector" />
+# Check the refinery after the collectors resume. Vent unwanted partial bins separately if they are occupying space needed for the intended commodities.<ref name="refinery">[https://elite-dangerous.fandom.com/wiki/Refinery Refinery], Elite Dangerous Wiki. Accessed 15 September 2026.</ref>
 }}
 
 == Completion check ==
 
-The procedure is complete when collector limpets stop prioritizing the unwanted fragment type and useful refinery bins can continue filling.
+The filter is working when autonomous collectors stop selecting contacts that contain only ignored resources while continuing to retrieve wanted fragments, materials, or canisters.
+
+A mixed fragment can still be collected when it contains a wanted component. If an unwanted refinery bin continues to gain progress, inspect the collected fragments for mixed contents rather than assuming that the ignore setting failed.
+
+== Removing an ignore setting ==
+
+When a resource becomes useful again, select a dimmed contact containing it in the Contacts panel and use the same contact control to remove it from the ignore list.<ref name="frontier-thread">[https://forums.frontier.co.uk/threads/materials-ignore-list-is-there-any-way-to-reset-the-entire-list.456906/ Materials Ignore List: is there any way to reset the entire list?], Frontier Forums community discussion. Accessed 15 September 2026.</ref>
+
+If no matching contact is present, create or locate one before trying to change that resource's setting. Review old ignore choices when changing the objective of a mining or material-collection run.
 
 == Common problems ==
 
-* '''Collectors still bring the wrong resource:''' verify the correct contact type was ignored and repeat the process for other unwanted commodities.
-* '''The refinery remains full:''' ignoring future fragments does not clear existing bins; vent or clear blocked bins separately.
-* '''A useful commodity was ignored by mistake:''' remove it from the ignore list before continuing the run.
-* '''The run target changes:''' review the ignore list before switching commodities or moving to a new hotspot.
+* '''Add to Ignore List is unavailable:''' select the collectable contact itself rather than the asteroid, prospector limpet, or refinery bin. The object must be detected and shown in Contacts.
+* '''Collectors still retrieve an unwanted component:''' the fragment may also contain a wanted resource. The collector retrieves the whole fragment when any eligible component remains.
+* '''The refinery remains blocked:''' ignoring future collections does not vent existing bins or move completed tonnes into a full cargo hold. Continue with [[How to Resolve a Full Refinery]].
+* '''A collector expires after one delivery:''' it was launched while a collectable object was targeted and entered single-target mode. Deselect collectable contacts before launching autonomous collectors; see [[How to Use Collector Limpets]].
+* '''A needed material is not being collected:''' select a nearby dimmed contact for that material and remove it from the ignore list.
 
 == Related Reference Pages ==
 {{#invoke:Procedures|referenceLinks|procedure=How to Ignore Unwanted Mining Commodities}}
@@ -52,4 +68,9 @@ The procedure is complete when collector limpets stop prioritizing the unwanted 
 == Related Field Procedures ==
 {{#invoke:Procedures|list|page=How to Ignore Unwanted Mining Commodities}}
 
+== Sources ==
+
+<references />
+
+[[Category:Field Procedures]]
 [[Category:Mining]]

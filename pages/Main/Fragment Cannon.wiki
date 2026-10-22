@@ -3,22 +3,130 @@ EDFM current-content archive export.
 Title: Fragment Cannon
 Namespace: 0
 Page ID: 489
-Revision ID: 2151
-Timestamp: 2026-08-24T23:44:11Z
+Revision ID: 4279
+Timestamp: 2026-09-15T03:59:37Z
 Source URL: https://edfieldmanual.com/wiki/Fragment_Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Fragment Cannon ship module.
+{{Article header|deck=A short-range kinetic weapon that delivers twelve-projectile spreads from fixed, gimballed, or turreted hardpoints.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy specifications; Double Screaming is Live
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Standard module specifications are cross-checked between maintained community module datasets; the Operations-era Merc upgrade is supported by Frontier's release notes and current INARA records.
+ |uncertainty=Outfitting stock and eligible Merc-variant availability vary; exact Merc upgrade costs and modifiers can change with Live balancing.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Fragment Cannon''' is an ammunition-fed kinetic hardpoint weapon that fires twelve projectiles in a spreading pattern with each shot. Its three-round magazine can be discharged quickly, giving it very high theoretical damage at close range when most or all pellets strike the target.<ref name="edwiki-frag">[https://elite-dangerous.fandom.com/wiki/Fragment_Cannon Fragment Cannon], Elite Dangerous Wiki, accessed 2026-09-15.</ref>
 
-== Overview ==
+Spread, five degrees of jitter and a projectile speed of 667 metres per second make that output increasingly difficult to deliver as distance grows. The weapon is therefore defined by short engagement range rather than its nominal two-kilometre projectile limit.
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Variants and specifications ==
+
+Standard Fragment Cannons are available in fixed, gimballed and turreted mounts in classes 1–3. Every unmodified variant carries three shots in the magazine and 180 in reserve, reloads in five seconds, begins damage falloff at 1,800 metres and has a maximum range of 2,000 metres.<ref name="coriolis-data">[https://raw.githubusercontent.com/EDCD/coriolis-data/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/hardpoints/fragment_cannon.json Fragment Cannon module data], EDCD Coriolis Data.</ref>
+
+{| class="wikitable sortable"
+! Class
+! Mount
+! Rating
+! Mass
+! Power draw
+! Damage per pellet
+! Armour piercing
+! Fire rate
+! Price
+|-
+| 1 || Fixed || E || 2 t || 0.45 MW || 1.43 || 20 || 5.56/s || 36,000 CR
+|-
+| 1 || Gimballed || E || 2 t || 0.59 MW || 1.01 || 20 || 5.88/s || 54,720 CR
+|-
+| 1 || Turreted || E || 2 t || 0.42 MW || 0.69 || 20 || 4.76/s || 182,400 CR
+|-
+| 2 || Fixed || A || 4 t || 0.74 MW || 2.99 || 30 || 5.00/s || 291,840 CR
+|-
+| 2 || Gimballed || D || 4 t || 1.03 MW || 2.27 || 30 || 5.26/s || 437,760 CR
+|-
+| 2 || Turreted || D || 4 t || 0.79 MW || 1.67 || 30 || 4.35/s || 1,459,200 CR
+|-
+| 3 || Fixed || C || 8 t || 1.02 MW || 4.57 || 45 || 4.55/s || 1,167,360 CR
+|-
+| 3 || Gimballed || C || 8 t || 1.55 MW || 3.77 || 45 || 4.76/s || 1,751,040 CR
+|-
+| 3 || Turreted || C || 8 t || 1.29 MW || 2.99 || 45 || 4.00/s || 5,836,800 CR
+|}
+
+The damage column is per pellet, not per complete twelve-projectile shot. Paper damage per second assumes that every pellet lands; spread means actual output can be much lower.
+
+=== Mount choice ===
+
+* '''Fixed''' Fragment Cannons deliver the highest damage and ignore chaff, but the ship must be aimed manually and account for projectile travel time.
+* '''Gimballed''' versions track within a forward arc. They trade damage for easier close-range tracking and are vulnerable to chaff.
+* '''Turreted''' versions cover a wider firing arc and have the lowest damage. They are substantially more expensive and have no class 4 variant.
+
+== Damage and range ==
+
+Unmodified Fragment Cannons deal kinetic damage. They are less effective against shields than against hull, and their armour-piercing value rises from 20 in class 1 to 45 in class 3. Larger or harder-armoured targets can reduce the effective hull damage of smaller variants even when the spread lands cleanly.
+
+Although numerical falloff does not begin until 1,800 metres, the five-degree spread is usually the more important range limit. Distance opens gaps between pellets, while lateral target motion makes the 667 m/s projectiles harder to lead. Large targets retain more of the weapon's theoretical output at a given distance because they present a wider surface.
+
+The three-shot magazine creates a separate limitation. A commander can apply a short burst of damage, but an unmodified weapon then requires a five-second reload. Several Fragment Cannons fired together magnify both the burst and the interruption.
+
+== Ammunition ==
+
+Ammunition is replenished through normal station rearming. In the field, '''Large Calibre Munitions''' synthesis refills one selected Cannon or Fragment Cannon; Standard and Premium recipes add temporary damage bonuses at additional material cost.<ref name="inara-synthesis">[https://inara.cz/elite/synthesis/ Synthesis], INARA.</ref>
+
+Each fitted weapon has its own magazine and reserve. Engineering that increases clip size or reserve ammunition therefore applies to the selected module rather than a shared ship-wide supply.
+
+== Engineering ==
+
+Standard Fragment Cannons support seven blueprint families:<ref name="inara-blueprints">[https://inara.cz/elite/blueprints/ Blueprints and upgrades], INARA.</ref>
+
+* Double Shot;
+* Efficient;
+* High Capacity;
+* Lightweight;
+* Overcharged;
+* Rapid Fire; and
+* Sturdy.
+
+Compatible Experimental Effects include Corrosive Shell, Dazzle Shell, [[Double Braced]], Drag Munition, [[Flow Control]], Incendiary Rounds, [[Multi-servos]], [[Oversized]], Screening Shell and [[Stripped Down]].
+
+Double Shot increases the number of projectiles released during a firing cycle but reduces maximum range. High Capacity improves both the magazine and reserve, while Overcharged increases direct damage at the cost of greater power and thermal demand. Screening Shell shortens reload time and improves effectiveness against munitions; Corrosive Shell, Drag Munition and Incendiary Rounds change the weapon's support or damage role.
+
+[[Zacariah Nemo]] and [[Marsha Hicks]] can engineer standard Fragment Cannons to Grade 5. [[Tod "The Blaster" McQuinn]] provides the weapon's conventional blueprints through Grade 3.
+
+=== Double Screaming Merc upgrade ===
+
+The Live game's Operations update added '''Double Screaming Fragment Cannon''' as an upgrade for eligible Merc equipment. Frontier describes it as increasing ammunition capacity, magazine size and burst size while reducing reload time, with trade-offs to maximum range, rate of fire, mass and power draw.<ref name="operations">Frontier Developments, [https://www.elitedangerous.com/news/updates/4-4-0-0 Elite Dangerous: Operations — Available Now], 30 June 2026.</ref>
+
+Double Screaming is separate from the seven conventional blueprint families and can only be applied to a compatible Merc Fragment Cannon. Current Engineering records show it through Grade 5, with Tod McQuinn limited to Grade 3 and Zacariah Nemo and Marsha Hicks reaching Grade 5.<ref name="double-screaming">[https://inara.cz/elite/blueprint/215/ Fragment Cannon — Double Screaming], INARA.</ref>
+
+== Acquisition ==
+
+Standard Fragment Cannons are normal credit purchases through Outfitting and require no permit, Engineer, Technology Broker or Powerplay unlock. Station stock varies by class and mounting.<ref name="edsm-frag">[https://www.edsm.net/en/faq/outfitting/index/id/2/name/Weapon+Hardpoint/sub/Fragment+Cannons Fragment Cannons], EDSM.</ref>
+
+Merc variants use the separate Operations reward path and Merc Coins. Owning a standard Fragment Cannon does not make that ordinary module eligible for Double Screaming.
+
+== Pacifier Frag-Cannon ==
+
+The [[Pacifier Frag-Cannon]] is a distinct Powerplay class 3C fixed variant. It narrows jitter to 1.7 degrees, raises projectile speed to 1,000 m/s and extends maximum range to 3,000 metres, but deals less damage per pellet than the standard class 3 fixed weapon.<ref name="coriolis-data" /> Its acquisition and complete specifications belong to the dedicated variant page.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Cannon]] [[Multi-Cannon]] [[Pacifier Frag-Cannon]] [[Engineering]] [[Zacariah Nemo]] [[Marsha Hicks]] [[Tod "The Blaster" McQuinn]]}}
+
+{{Engineering nav}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Weapons]]
+[[Category:Weapon Engineering]]
+[[Category:Engineering]]

@@ -3,22 +3,137 @@ EDFM current-content archive export.
 Title: Imperial Hammer
 Namespace: 0
 Page ID: 516
-Revision ID: 2160
-Timestamp: 2026-08-24T23:44:23Z
+Revision ID: 4382
+Timestamp: 2026-09-16T02:26:40Z
 Source URL: https://edfieldmanual.com/wiki/Imperial_Hammer
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Imperial Hammer ship module.
+{{Article header|deck=A three-round Powerplay railgun whose complete burst delivers more damage than one standard medium rail shot at the cost of sustained aim, heat, and distributor demand.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live Powerplay 2.0 and Legacy; the acquisition systems differ
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Live acquisition is documented by Frontier and current community guidance; stock specifications are cross-checked against current EDSY data and maintained module references.
+ |uncertainty=The loyalty rank at which a Power awards this module can change; check the in-game Powerplay interface before committing to a progression route.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Imperial Hammer''' is a class 2B fixed [[Railgun]] variant obtained through [[Powerplay]]. Instead of releasing one high-damage projectile after charging, it releases three lower-damage projectiles in quick succession. Each projectile can hit or miss independently, so the weapon rewards a pilot who can hold a fixed firing solution through the whole burst.<ref name="edwiki-hammer">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Imperial_Hammer Imperial Hammer].</ref>
+
+All three unengineered projectiles deliver 45 damage, compared with 41.53 from one stock class 2B Railgun shot. The Hammer therefore gains damage only when enough of its burst connects. Its complete burst also consumes more WEP energy and produces considerably more heat than the standard weapon.<ref name="edsy">EDSY, [https://edsy.org/ stock outfitting data], accessed 16 September 2026.</ref>
+
+The module was originally Arissa Lavigny-Duval's unique Powerplay reward. Under current Live rules, every Power eventually grants every Powerplay module, although the order differs.<ref name="frontier-ppqa">Frontier Developments, [https://www.elitedangerous.com/news/powerplay-20-qa Powerplay 2.0 Q&A], 26 September 2024.</ref>
+
+== Specifications ==
+
+{| class="wikitable"
+! Property
+! Unengineered value
+|-
+| Class and rating || 2B
+|-
+| Mount || Fixed
+|-
+| Damage type || Thermal and kinetic
+|-
+| Mass || 4 t
+|-
+| Integrity || 51
+|-
+| Power draw || 1.63 MW
+|-
+| Damage per projectile || 15
+|-
+| Projectiles per burst || 3
+|-
+| Complete-burst damage || 45
+|-
+| Rate of fire || 4.09 projectiles/s
+|-
+| Theoretical damage per second || 61.36
+|-
+| Distributor draw per projectile || 2 MW
+|-
+| Thermal load per projectile || 11
+|-
+| Armour piercing || 100
+|-
+| Magazine || 3
+|-
+| Ammunition reserve || 240
+|-
+| Reload time || 1.2 seconds
+|-
+| Damage falloff begins || 1,000 m
+|-
+| Maximum range || 3,000 m
+|-
+| Purchase price || 619,200 CR
+|}
+
+Distributor draw and thermal load are listed per projectile. A complete stock burst therefore draws 6 MW from the WEP capacitor and produces 33 thermal load. The displayed damage-per-second figure is theoretical: it assumes continuous firing, sufficient capacitor energy, and all three projectiles striking the target.<ref name="edsy" />
+
+== Operation ==
+
+Hold the trigger until the weapon completes its charge. The first projectile is followed automatically by the other two while the trigger remains held. Releasing early or moving off target can forfeit part of the burst.
+
+Like the standard Railgun, the Imperial Hammer fires effectively instantaneous projectiles and combines thermal and kinetic damage. Its armour-piercing value of 100 prevents ordinary ship armour hardness from reducing the base hull damage, although the target's thermal and kinetic resistances still apply.<ref name="edwiki-hammer" />
+
+The three-projectile pattern changes how brief firing opportunities are used:
+
+* '''Complete burst''' — produces slightly more raw damage than one stock medium Railgun shot.
+* '''Two hits''' — produces 30 damage, less than one stock medium Railgun shot.
+* '''One hit''' — produces 15 damage.
+
+This makes the Hammer effective when a target can be tracked for the full burst, but less forgiving when only a momentary firing window is available. Targeted module damage also depends on which individual projectiles intersect the selected subsystem.
+
+=== Heat, distributor, and ammunition ===
+
+A full stock burst produces 33 thermal load, compared with 20 for one stock medium Railgun shot, and its distributor demand is also higher. Ships with limited heat capacity or WEP recharge can be forced to pause well before the ammunition supply becomes the limiting factor. Fitting several Hammers multiplies that pressure.<ref name="edsy" />
+
+The reserve contains 240 projectiles, but each normal firing cycle consumes three. This provides 80 complete bursts—the same number of firing cycles as the standard medium Railgun's 80 single-shot reserve. Missing part of a burst therefore costs both damage and ammunition efficiency.
+
+== Engineering ==
+
+The Imperial Hammer accepts Rail Gun Engineering. Current Rail Gun blueprint families include Enduring Feedback, High Capacity, Lightweight, Long Range, Short Range, and Sturdy.<ref name="inara-rail-blueprints">INARA, [https://inara.cz/elite/blueprints/#tab_blueprintsequipmentstandard Blueprints and upgrades — standard equipment].</ref>
+
+Compatible Experimental Effects include Double Braced, Feedback Cascade, Flow Control, Multi-Servos, Oversized, Plasma Slug, Stripped Down, and Super Penetrator.<ref name="edwiki-railgun">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Railgun Railgun].</ref>
+
+Engineering should account for the whole burst rather than one projectile. Long Range improves distant accuracy by removing normal falloff, while Short Range increases close-range damage but adds thermal pressure. Super Penetrator reduces the weapon's thermal load as part of its effect and supports subsystem attacks; Plasma Slug replaces ordinary ammunition consumption with fuel use. Exact modifiers and material costs belong to the corresponding blueprint and Experimental Effect references.
+
+== Acquisition ==
+
+=== Live ===
+
+# Pledge to a Power and earn Merits to increase its loyalty rank.
+# Reach the rank at which that Power awards the Imperial Hammer. Arissa Lavigny-Duval grants her signature module first, at loyalty rank 34; other Powers grant it later in their reward tracks.<ref name="fatherhood-pp">The Fatherhood, [https://thefatherhoodwing.space/codex/powerplay-modules-and-you/ Powerplay Modules and You].</ref>
+# Visit an allied Stronghold Carrier after the reward is unlocked.
+# Purchase the class 2B fixed weapon through Outfitting.<ref name="fatherhood-pp" />
+
+Leaving a Power resets that Power's loyalty progression. Imperial Hammers already purchased remain normal stored or fitted modules, but further purchases require access to the reward again.<ref name="frontier-ppqa" />
+
+=== Legacy ===
+
+Legacy retains the original Powerplay system. The Imperial Hammer is exclusive to Arissa Lavigny-Duval there and becomes purchasable after at least four weeks pledged while holding Rating 3 or higher.<ref name="legacy-hammer">Frontier Forums community discussion, [https://forums.frontier.co.uk/threads/imperial-hammer.603548/ Imperial Hammer], 20 May 2022.</ref>
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Railgun]] [[Powerplay]] [[Engineering]] [[Power Distributor]] [[Heat Sink Launcher]]}}
+
+{{Engineering nav}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Weapons]]
+[[Category:Powerplay modules]]
+[[Category:Weapon Engineering]]
+[[Category:Engineering]]

@@ -3,12 +3,18 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Shock Mine Launcher
 Namespace: 828
 Page ID: 599
-Revision ID: 1386
-Timestamp: 2026-08-21T00:00:47Z
+Revision ID: 4831
+Timestamp: 2026-09-20T16:17:54Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Shock_Mine_Launcher
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Shock Mine Launcher",
+	module_class = "Concussive mine weapon",
+	slot_type = "Weapon hardpoint",
+	mount = "Class 1I, fixed",
+	availability = "Standard credit purchase through Outfitting",
+	engineering = "Mine Launcher blueprints and compatible Experimental Effects",
+	related_modules = "[[Mine Launcher]]",
 }

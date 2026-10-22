@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Bulkheads
 Namespace: 828
 Page ID: 452
-Revision ID: 2221
-Timestamp: 2026-08-25T14:13:48Z
+Revision ID: 4251
+Timestamp: 2026-09-15T02:16:50Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Bulkheads
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -13,9 +13,10 @@ return {
 	name = "Bulkheads",
 	module_class = "Armour module",
 	slot_type = "Core internal",
-	mount = "",
+	mount = "One mandatory, ship-specific installation",
 	manufacturer = "",
-	availability = "Standard core module family",
-	engineering = "",
+	availability = "Standard outfitting; each module is specific to one ship model",
+	engineering = "Armour blueprints and Experimental Effects",
 	related_modules = "[[Hull Reinforcement Package]], [[Module Reinforcement Package]], [[Shield Generator]]",
+	notes = "Defines hull integrity and kinetic, thermal, and explosive resistance."
 }

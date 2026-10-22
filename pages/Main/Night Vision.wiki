@@ -3,15 +3,94 @@ EDFM current-content archive export.
 Title: Night Vision
 Namespace: 0
 Page ID: 682
-Revision ID: 1575
-Timestamp: 2026-08-23T18:40:04Z
+Revision ID: 4080
+Timestamp: 2026-09-13T14:01:20Z
 Source URL: https://edfieldmanual.com/wiki/Night_Vision
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|an Odyssey suit modification reference for Night Vision and low-light on-foot operations.}}
+{{Article header|deck=The low-light visual mode built into ships and SRVs and available to Odyssey suits through Engineering.}}
 
-'''Night Vision''' is an Odyssey Engineering modification. This planned reference will cover compatible equipment, tactical use, and planning considerations for dark settlements and surface sites.
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy for ships and SRVs; Odyssey for suits
+ |reviewer=Sythan
+ |reviewed=2026-09-13
+ |source_quality=Current Frontier Odyssey guidance with maintained INARA and Elite Dangerous Wiki equipment data
+ |uncertainty=Frontier does not publish complete numeric range or suit-energy-drain values for Night Vision.
+}}
+
+'''Night Vision''' is a low-light visual mode that highlights terrain, structures, ships, vehicles, people, and other nearby geometry. Ships and SRVs include it as a standard function. A Commander on foot needs the Night Vision suit modification before the mode appears in the suit controls.
+
+Night Vision is a visibility aid rather than a weapon sensor. It does not reveal objects through solid surfaces, replace radar contacts, or remove the need to identify legal and hostile targets.
+
+== Ships and SRVs ==
+
+Ship and SRV Night Vision requires no module or [[Engineering]]. It can be toggled through the vehicle's systems controls and is useful when:
+
+* approaching an unlit planetary surface;
+* landing on the dark side of a body;
+* navigating asteroid fields or ring shadows;
+* operating around dark structures and surface sites.
+
+Frontier's Odyssey guide specifically recommends activating ship Night Vision before descending toward a settlement on the dark side of a planet.<ref name="frontier-guide">[https://www.elitedangerous.com/news/odyssey-guide Frontier Developments: Odyssey Guide], accessed 13 September 2026.</ref>
+
+== Suit modification ==
+
+The Odyssey '''Night Vision''' modification adds a toggleable visual overlay to the Artemis Suit, [[Dominator Suit]], or Maverick Suit. It occupies one of the suit's modification slots and draws energy from the suit battery while active.<ref name="wiki">[https://elite-dangerous.fandom.com/wiki/Night_Vision Elite Dangerous Wiki: Night Vision], accessed 13 September 2026.</ref>
+
+The modification is useful for:
+
+* moving through unpowered or damaged settlements;
+* identifying doors, cover, equipment, and people in deep shadow;
+* combat and salvage work on the dark side of a body;
+* surface exploration when local lighting obscures terrain detail.
+
+Night Vision can be toggled independently of the suit flashlight. It provides a broad overlay rather than a directed beam, but strong lights and bright surfaces can reduce visual clarity. Switch it off when the overlay makes a scene harder to read.
+
+=== Engineers ===
+
+The suit modification is available from:
+
+* [[Oden Geiger]] in the Bubble;
+* [[Yi Shen]] in Colonia.<ref name="inara-oden">[https://inara.cz/elite/engineer/34/ INARA: Oden Geiger], accessed 13 September 2026.</ref>
+
+=== Materials and credits ===
+
+Applying Night Vision consumes:
+
+* 5 Surveillance Equipment;
+* 3 Surveillance Logs;
+* 3 Radioactivity Data;
+* 3 NOC Data;
+* 5 Circuit Switches;
+* 1,000,000 credits.<ref name="inara-oden" />
+
+The modification is applied directly by an Engineer after the required Odyssey Engineer has been unlocked. It cannot be installed through [[Remote Engineering]].
+
+== Selection guidance ==
+
+Night Vision is broadly useful because darkness affects combat, salvage, missions, and exploration. Its opportunity cost is the suit-modification slot:
+
+* an Artemis build may compare it with mobility and battery modifications;
+* a Dominator build may prioritise defensive, ammunition, or weapon-handling support;
+* a Maverick build may need backpack, tool-efficiency, or movement modifications first.
+
+For suits expected to work regularly at unpowered settlements or on dark planetary surfaces, Night Vision is usually more flexible than relying entirely on the flashlight.
+
+== See also ==
+
+* [[Odyssey Engineering]]
+* [[Odyssey Engineer Modifications]]
+* [[Improved Battery Capacity]]
+* [[Reduced Tool Battery Consumption]]
+* [[Engineers]]
+
+== Sources ==
+
+<references />
 
 [[Category:Odyssey Engineering]]
 [[Category:Odyssey]]
+[[Category:Ship Systems]]

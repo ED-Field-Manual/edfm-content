@@ -1,0 +1,58 @@
+<!--
+EDFM current-content archive export.
+Title: Stratum Tectonicas
+Namespace: 0
+Page ID: 864
+Revision ID: 5550
+Timestamp: 2026-09-28T23:56:15Z
+Source URL: https://edfieldmanual.com/wiki/Stratum_Tectonicas
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=A field reference for Stratum Tectonicas, including value, sampling distance, environmental profiles and known visual variants.}}
+
+{{Exobiology species infobox}}
+
+'''Stratum Tectonicas''' is a low-growing Stratum species protected by a thick, rock-like outer shell. A contrasting lattice of brighter cells across the surface performs photosynthesis.<ref name="canonn">[https://us-central1-canonn-api-236217.cloudfunctions.net/query/codex/ref Canonn Codex reference], snapshot retrieved 28 September 2026.</ref>
+
+== Classification ==
+
+{{#invoke:Exobiology|classification|title=Stratum Tectonicas}}
+
+== Value ==
+
+{{#invoke:Exobiology|value|title=Stratum Tectonicas}}<ref name="canonn" />
+
+== Sampling ==
+
+{{#invoke:Exobiology|sampling|title=Stratum Tectonicas}}<ref name="guide">[https://www.elitedangerous.com/en-US/news/odyssey-guide Odyssey Guide], Frontier Developments.</ref><ref name="explodata">[https://github.com/Silarn/EDMC-ExploData/blob/fd4e188defd6405e46398fb0a54ac8669c9e2189/src/ExploData/explo_data/bio_data/genus.py EDMC-ExploData genus data], commit fd4e188d.</ref>
+
+== Environmental requirements ==
+
+The profiles below come from a maintained community prediction model. They are useful search constraints, but observational limits should not be read as official guarantees or proof that unlisted conditions are impossible.<ref name="bioscan">[https://github.com/Silarn/EDMC-BioScan/blob/fc6b85c3de48c8fb79fa9e4f79ad780e48f56629/src/bio_scan/bio_data/rulesets/stratum.py EDMC-BioScan Stratum rules], commit fc6b85c3.</ref>
+
+{{#invoke:Exobiology|environment|title=Stratum Tectonicas}}
+
+== Identification ==
+
+In the field, look for broad, flat growths with a stony surface and a brighter irregular cellular lattice. Their low profile can make individual colonies blend into uneven ground when viewed from a shallow angle.
+
+== Variants ==
+
+The named variants below follow the current Codex reference.<ref name="canonn" />
+
+{{#invoke:Exobiology|variants|title=Stratum Tectonicas}}
+
+== Practical notes ==
+
+The 500-metre sampling separation is large enough that travelling by ship or SRV is usually faster than walking between colonies.
+
+== Related organisms ==
+
+See [[Exobiology#Stratum|Stratum]] for the complete group listing.
+
+== Sources ==
+
+<references />
+
+[[Category:Stratum species]]

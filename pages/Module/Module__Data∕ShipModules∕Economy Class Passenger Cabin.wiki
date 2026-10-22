@@ -3,12 +3,20 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Economy Class Passenger Cabin
 Namespace: 828
 Page ID: 473
-Revision ID: 1260
-Timestamp: 2026-08-20T23:59:14Z
+Revision ID: 4245
+Timestamp: 2026-09-15T01:33:37Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Economy_Class_Passenger_Cabin
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Economy Class Passenger Cabin",
+	module_class = "Passenger cabin",
+	slot_type = "Optional internal",
+	mount = "Classes 2–6, E-rated",
+	manufacturer = "",
+	availability = "Standard credit purchase through Outfitting",
+	engineering = "Not supported",
+	related_modules = "Passenger Cabin<br>Business Class Passenger Cabin<br>First Class Passenger Cabin<br>Luxury Passenger Cabin",
+	notes = "The highest-capacity standard cabin tier; carries passengers whose minimum requirement is Economy Class.",
 }

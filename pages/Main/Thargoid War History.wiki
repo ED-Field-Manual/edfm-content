@@ -3,31 +3,162 @@ EDFM current-content archive export.
 Title: Thargoid War History
 Namespace: 0
 Page ID: 179
-Revision ID: 2035
-Timestamp: 2026-08-24T21:24:15Z
+Revision ID: 5066
+Timestamp: 2026-09-23T13:15:41Z
 Source URL: https://edfieldmanual.com/wiki/Thargoid_War_History
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=A structural placeholder for the Thargoid War's history — proving the Archive content family, not yet populated with verified events.}}
-{{Article status|status=Draft|mode=Historical|version=Not yet researched|reviewed=2026-08-07|reviewer=Structural placeholder only — no historical claims have been researched or verified for this pass|source_quality=Unassessed|uncertainty=Every event, date, and outcome on this page is a placeholder until independently researched — see Editorial Policy on not inventing facts}}
+{{Article header|deck=The recorded history of humanity's two wars with the Thargoids, from INRA and the mycoid weapon to the eight-Titan invasion and Battle of Sol.}}
 
-{{Historical warning|No specific Thargoid War events are documented on this page yet — see the Draft notice below.}}
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live; Legacy 3.8
+ |notes=The First Thargoid War and the renewed encounters through the 3303–3308 period exist in both modes. The eight-Titan invasion and its aftermath developed only in Live after Update 14.
+ |source_quality=Frontier and in-game GalNet chronology, supported by recovered settlement records and current specialist references from Canonn and the Anti-Xeno Initiative.
+ |uncertainty=Much of the First Thargoid War survives through incomplete records, later historical summaries and abandoned-site logs. These sources establish the broad sequence but do not settle every date, motive or disputed interpretation.
+ |reviewed=2026-09-23
+ |reviewer=Sythan
+}}
 
-{{Draft warning}}
-This page exists to prove EDFM's Galactic Archive structure (see [[Elite Dangerous Field Manual:Engineering Architecture]]-style content architecture documentation), not as a researched account of the Thargoid War. No dates, battles, or outcomes below have been verified — do not treat anything on this page as settled fact until it carries real sourcing and a non-Draft status.
+'''Humanity has fought two recorded wars with the [[Thargoid]]s.''' The First Thargoid War began in the 32nd century and ended after the Intergalactic Naval Reserve Arm deployed the mycoid biological weapon. Active Thargoid vessels returned to human notice in 3303, followed by years of attacks, counter-offensives and failed attempts to contain the conflict. The eight-Titan invasion of 3308–3310 is commemorated in Sol as the '''Second Thargoid War'''.<ref name="historical-thargoids">[https://community.elitedangerous.com/galnet/12-AUG-3302 Galactic News: The Thargoids], GalNet, Frontier Developments, 12 August 3302.</ref><ref name="second-war-memorial">[https://canonn.science/codex/memorial-the-second-thargoid-war/ Memorial: The Second Thargoid War], Canonn Research Group, accessed 20 September 2026.</ref>
 
-== What belongs here ==
-A chronological account of the Thargoid War: its opening incursions, major fleet actions, the Titans, human/Guardian counter-technology, and its eventual resolution — covering what happened and when, for readers who want the history rather than current-play instructions. Current Thargoid gameplay mechanics (combat, technology, materials) belong on [[Thargoid]] instead; this page is specifically the historical timeline.
+This page follows the chronology of those conflicts. [[Thargoid]] covers the species, vessels and encounter mechanics, while [[Lore and History]] provides the wider setting.
 
-== Overview ==
-To be researched.
+{{Callout|type=info|label=Current status|1=The eight-Titan invasion ended when Cocijo was destroyed in Sol on '''18 December 3310'''. The core systems entered a period of reconstruction, and HIP 22460 was declared free of Thargoid activity in January 3311. Thargoids were not exterminated: encounters continue elsewhere in Live, while no living Titan or active Maelstrom is currently accessible.<ref name="cocijo-destroyed">[https://www.elitedangerous.com/news/galnet/titan-cocijo-destroyed-sol-liberated Titan Cocijo Destroyed, Sol Liberated], GalNet, Frontier Developments, 18 December 3310.</ref><ref name="hip-22460-cleared">[https://community.elitedangerous.com/galnet/16-JAN-3311 HIP 22460 Declared Free of Thargoids], GalNet, Frontier Developments, 16 January 3311.</ref><ref name="postwar">[https://community.elitedangerous.com/galnet/18-JUN-3311 Rebuilding and Renewal After the Thargoid War], GalNet, Frontier Developments, 18 June 3311.</ref><ref name="current-encounters">[https://wiki.antixenoinitiative.com/en/finding-thargoids Finding Thargoids], Anti-Xeno Initiative Wiki, accessed 20 September 2026.</ref><ref name="maelstrom-current">[https://wiki.antixenoinitiative.com/en/Maelstrom Maelstrom], Anti-Xeno Initiative Wiki, accessed 20 September 2026.</ref>}}
+
+== First Thargoid War ==
+
+=== Encounters in 3125 ===
+
+The earliest widely circulated reports date to '''3125'''. Pilots described being pulled from witch-space and attacked by fast, octagonal vessels. A later GalNet historical summary also repeated leaked Federal intelligence alleging that colonists in the Veliaze system had attacked an extraterrestrial deputation shortly before the interdictions began. That account is evidence of what human authorities recorded, not a complete explanation of Thargoid motives or responsibility for the war.<ref name="historical-thargoids" />
+
+The Alliance, Empire and Federation later described the Intergalactic Naval Reserve Arm, or '''INRA''', as an organisation formed in 3125 during the conflict. Recovered INRA facilities show that it operated as a covert Federation–Empire effort with linked research, production, transfer and weapons-testing sites.<ref name="azimuth-two">[https://community.elitedangerous.com/en/galnet/uid/62b49caeba65b6062b6ef8f3 Azimuth: A Historical Perspective (Part Two)], GalNet, Frontier Developments, 24 June 3308.</ref><ref name="inra-sites">[https://canonn.science/codex/inra-settlements/ INRA Settlements], Canonn Research Group, accessed 20 September 2026.</ref>
+
+=== INRA, mycoid and Commander Jameson ===
+
+INRA research found that a fungal agent later called '''mycoid''' could incapacitate Thargoid technology. Settlement records document the development and mass production of a weaponised form, experiments on captured Thargoid material and a final delivery mission assigned to Commander John Jameson.<ref name="inra-sites" /><ref name="taylor-keep">[https://canonn.science/codex/taylor-keep/ Taylor Keep], Canonn Research Group, accessed 20 September 2026.</ref>
+
+Jameson was told that the payload would target Thargoid hyperdrives and could end the war. Records at Taylor Keep reveal that INRA expected him to approach a Thargoid hive ship at close range and installed undisclosed contingencies on his Cobra Mk III in case he survived. He delivered the payload, then crashed in HIP 12099 while attempting to return. His wreck carries traces of mycoid, and the recovered logs show that he realised the weapon had a wider biological effect than INRA had disclosed.<ref name="taylor-keep" /><ref name="jameson">[https://canonn.science/codex/cmdr-john-jameson-crashed-cobra-mkiii/ CMDR John Jameson Crashed Cobra MkIII], Canonn Research Group, accessed 20 September 2026.</ref>
+
+The mycoid attack broke the Thargoid campaign and ended the first war. INRA then disappeared from public life. When its abandoned facilities and Jameson's wreck were uncovered centuries later, Imperial and Alliance leaders condemned the organisation's methods and its treatment of Jameson.<ref name="canonn-thargoids">[https://canonn.science/codex/thargoids The Thargoids], Canonn Research Group, accessed 20 September 2026.</ref><ref name="inra-condemned">[https://community.elitedangerous.com/galnet/14-DEC-3303 Galactic News: Galactic Leaders Condemn INRA], GalNet, Frontier Developments, 14 December 3303.</ref>
+
+== Return and renewed hostilities ==
+
+=== 3303: hyperdictions, Aegis and the Pleiades attacks ===
+
+On '''5 January 3303''', commanders began reporting live alien vessels pulling ships from hyperspace, disabling them, scanning them and departing. These early hyperdictions were not always attacks, but they confirmed that active Thargoid craft had returned after centuries without credible sightings.<ref name="canonn-thargoids" />
+
+The three superpowers created '''Aegis''' in August 3303 to coordinate xenological research and defence. The release of ''Elite Dangerous: Horizons 2.4 – The Return'' in September marked the open return of the Thargoids to the contemporary galaxy.<ref name="aegis-founded">[https://community.elitedangerous.com/galnet/uid/59844fbe301ce614455222a1 Galactic News: Joint Superpower Initiative Announced], GalNet, Frontier Developments, 5 August 3303.</ref><ref name="the-return">[https://frontier.co.uk/news/press-releases/elite-dangerous-horizons-24-%E2%80%93-return-available-now Elite Dangerous: Horizons 2.4 – The Return Available Now], Frontier Developments, 27 September 2017.</ref>
+
+By December, the conflict had moved beyond isolated ship encounters. Medusa Interceptors attacked Titan's Daughter, Liman Legacy and the Oracle in the Pleiades, using shutdown fields to disable the stations before striking their reactors. The attacks killed hundreds or possibly thousands and established damaged-starport rescue as a recurring part of the conflict.<ref name="pleiades-attacks">[https://community.elitedangerous.com/galnet/uid/5a328aebaac37e273a5d4ea8 Galactic News: Starports Attacked by Thargoids], GalNet, Frontier Developments, 15 December 3303.</ref>
+
+=== 3305–3307: shifting fronts and Salvation ===
+
+Thargoid pressure moved between the core systems and nearby nebulae. In July 3305 the main forces withdrew from the core systems as humanity established an enclave around meta-alloy sources in the Witch Head Nebula. Later attacks struck human positions in both the Witch Head and Coalsack Nebulas, tying the fighting to expansion into regions with established Thargoid activity.<ref name="withdrawal">[https://community.elitedangerous.com/galnet/11-JUL-3305 Thargoids Withdraw from Core Systems], GalNet, Frontier Developments, 11 July 3305.</ref><ref name="nebula-attacks">[https://www.elitedangerous.com/news/galnet/thargoids-attack-coalsack-and-witch-head-nebulas Thargoids Attack Coalsack and Witch Head Nebulas], GalNet, Frontier Developments, 31 December 3306.</ref>
+
+In 3307, the anonymous strategist known as '''Salvation''' accurately warned that Cornsar would be attacked when Aegis could not verify the threat. His Guardian-derived anti-xeno weapons then repelled further invasions and attracted support from the superpowers. By May 3308, three Salvation superweapons had forced Thargoid fleets out of Didio, Novas and Sosong.<ref name="cornsar">[https://community.elitedangerous.com/galnet/16-SEP-3307 Thargoid Strike Follows Salvation's Prediction], GalNet, Frontier Developments, 16 September 3307.</ref><ref name="salvation-victory">[https://community.elitedangerous.com/galnet/12-MAY-3308 Salvation Triggers Superweapon Victory], GalNet, Frontier Developments, 12 May 3308.</ref>
+
+== Second Thargoid War ==
+
+=== Proteus Wave disaster ===
+
+The Alliance, Empire and Federation committed fleets and resources to Salvation's largest weapon, the '''Proteus Wave''', in HIP 22460. The superpowers backed the operation despite accusations about Salvation and Azimuth Biotech, expecting it to diminish or end the Thargoid threat.<ref name="superpowers-salvation">[https://community.elitedangerous.com/galnet/02-AUG-3308 Superpowers Commit to Salvation], GalNet, Frontier Developments, 2 August 3308.</ref>
+
+The weapon fired on '''9 August 3308'''. It disabled the Thargoids only briefly. An alien counter-pulse then shut down human ships throughout the system, leaving the coalition fleet defenceless. Thargoid forces destroyed the Bright Sentinel, the Heart of Taurus and much of the assembled fleet, and HIP 22460 became Thargoid-held space.<ref name="proteus-failure">[https://www.elitedangerous.com/news/galnet/thargoids-conquer-hip-22460 Thargoids Conquer HIP 22460], GalNet, Frontier Developments, 10 August 3308.</ref>
+
+=== Stargoids and the eight Maelstroms ===
+
+Weeks after the Proteus Wave disaster, a fast-moving anomaly was detected approaching human space. Commanders nicknamed it a '''Stargoid'''; official reports described it as a rogue signal source. By early November, eight such anomalies were converging on the core systems.<ref name="destination">[https://www.elitedangerous.com/news/galnet/destination-humanity Destination: Humanity], GalNet, Frontier Developments, 4 November 3308.</ref>
+
+Taranis arrived on '''29 November 3308''' and formed a vast corrosive Maelstrom from which invasion fleets spread into surrounding systems. Indra, Leigong, Cocijo, Oya, Thor, Raijin and Hadad followed in successive waves. By 16 December all eight Maelstroms were established, each anchoring an expanding occupation zone.<ref name="taranis-arrival">[https://www.elitedangerous.com/news/galnet/taranis-unleashes-thargoid-invasion-fleets Taranis Unleashes Thargoid Invasion Fleets], GalNet, Frontier Developments, 29 November 3308.</ref><ref name="eight-maelstroms">[https://www.elitedangerous.com/news/galnet/final-maelstroms-advance-thargoid-occupation Final Maelstroms Advance Thargoid Occupation], GalNet, Frontier Developments, 16 December 3308.</ref>
+
+This invasion began with Update 14, when the evolving galaxy split from Legacy. All Maelstrom, Titan, spire-site and postwar developments therefore belong to Live.<ref name="live-legacy">[https://www.elitedangerous.com/en-US/news/elite-dangerous-update-14-and-beyond-live-and-legacy-modes Elite Dangerous Update 14 and Beyond: Live and Legacy Modes], Frontier Developments, 23 November 2022.</ref>
+
+=== Entering the Maelstroms ===
+
+The Maelstrom interiors initially blocked direct investigation with extreme caustic conditions and a repulsion pulse. Aegis-developed equipment, including the [[Caustic Sink Launcher]] and [[Thargoid Pulse Neutraliser]], eventually allowed commanders to reach the cores. In May 3309 the objects inside were identified as enormous Thargoid motherships called '''Titans'''.<ref name="pulse-neutraliser">[https://www.elitedangerous.com/en-US/news/galnet/thargoid-pulse-neutraliser-becomes-available Thargoid Pulse Neutraliser Becomes Available], GalNet, Frontier Developments, 9 May 3309.</ref><ref name="titan-discovery">[https://www.elitedangerous.com/news/galnet/thargoid-war-update-may-3309 Thargoid War Update: May 3309], GalNet, Frontier Developments, 29 May 3309.</ref>
+
+Fighting continued throughout 3309. Humanity recovered occupied systems, learned that the Titans held abducted humans and attacked the spire network supporting Thargoid operations. The reformed Aegis coordinated research and new anti-xeno equipment, but the Titans remained operational at the end of the year.<ref name="war-update-3309">[https://www.elitedangerous.com/news/galnet/thargoid-war-update-december-3309 Thargoid War Update: December 3309], GalNet, Frontier Developments, 29 December 3309.</ref>
+
+=== Destruction of the Titans ===
+
+In February 3310, Aegis placed the '''Guardian Nanite Torpedo''' into production. Its nanites disrupted a Titan's heat regulation, exposing the thermal core to conventional attack. Commanders used this method first against Taranis, which was officially reported destroyed on 4 March.<ref name="nanite-torpedo">[https://www.elitedangerous.com/news/galnet/guardian-nanite-torpedoes-enter-production Guardian Nanite Torpedoes Enter Production], GalNet, Frontier Developments, 15 February 3310.</ref><ref name="taranis-destroyed">[https://www.elitedangerous.com/news/galnet/thargoid-war-bulletin-titan-destroyed Thargoid War Bulletin: Titan Destroyed], GalNet, Frontier Developments, 4 March 3310.</ref>
+
+The following table gives the live destruction times recorded by Canonn. GalNet confirmation reports sometimes appeared after the observed destruction event.<ref name="second-war-memorial" />
+
+{| class="wikitable sortable"
+! Titan
+! Final system
+! Destroyed
+|-
+| Taranis
+| Hyades Sector FB-N b7-6
+| 2 March 3310, 18:55 UTC
+|-
+| Leigong
+| HIP 8887
+| 17 March 3310, 21:09 UTC
+|-
+| Oya
+| Cephei Sector BV-Y b4
+| 21 April 3310, 15:37 UTC
+|-
+| Hadad
+| HIP 30377
+| 26 May 3310, 02:39 UTC
+|-
+| Indra
+| HIP 20567
+| 9 July 3310, 21:50 UTC
+|-
+| Thor
+| Col 285 Sector IG-O c6-5
+| 19 August 3310, 18:22 UTC
+|-
+| Raijin
+| Pegasi Sector IH-U b3-3
+| 24 October 3310, 05:12 UTC
+|-
+| Cocijo
+| Sol
+| 18 December 3310, 06:46 UTC
+|}
+
+Thor's loss left Raijin and Cocijo as the only active Titans. Raijin was destroyed in October, leaving Cocijo as the final mothership.<ref name="two-titans">[https://www.elitedangerous.com/news/galnet/thargoid-war-bulletin-two-active-titans-remain Thargoid War Bulletin: Two Active Titans Remain], GalNet, Frontier Developments, 20 August 3310.</ref><ref name="last-mothership">[https://www.elitedangerous.com/news/galnet/thargoid-war-bulletin-last-mothership Thargoid War Bulletin: The Last Mothership], GalNet, Frontier Developments, 25 October 3310.</ref>
+
+=== Battle of Sol ===
+
+Cocijo abandoned its former front and reached Sol on '''5 December 3310''', taking position above Earth. Its fleet disabled most ports in the system and attacked nearby systems, beginning the final concentrated battle of the invasion.<ref name="cocijo-sol">[https://www.elitedangerous.com/news/galnet/titan-cocijo-devastates-sol-system Titan Cocijo Devastates Sol System], GalNet, Frontier Developments, 5 December 3310.</ref>
+
+Anti-xeno forces cleared Cocijo's supporting systems and attacked its thermal core until the Titan entered meltdown. Cocijo detonated on '''18 December 3310'''. GalNet declared Sol liberated and reported that no Thargoid vessels remained in the system. This ended the eight-Titan invasion, not the wider existence of Thargoids in known space.<ref name="cocijo-destroyed" />
+
+== Aftermath ==
+
+Cocijo's wreck remained above Earth as rescue, repair and resettlement work began across the affected systems. By January 3311 its caustic cloud had weakened enough to attract researchers, salvagers and visitors, and a memorial beacon had been deployed nearby for those lost in the Second Thargoid War and Battle of Sol.<ref name="cocijo-wreck">[https://community.elitedangerous.com/galnet/29-JAN-3311 Titan Wreckage In Sol Draws Keen Interest], GalNet, Frontier Developments, 29 January 3311.</ref>
+
+A final anti-xeno blockade removed the residual Thargoid presence from HIP 22460, closing the front where the Proteus Wave had failed. By June 3311, damaged stations in the core systems had restored full services and local economies were recovering. Aegis and the superpowers continued watching for new Thargoid signals.<ref name="hip-22460-cleared" /><ref name="postwar" />
+
+The living Titans, active Maelstroms and invasion conflict states are no longer accessible. Titan wrecks remain as historical sites, and Thargoid encounters continue through non-human signal sources, hyperdictions and static locations. Current encounter locations can change and should be checked before travel.<ref name="maelstrom-current" /><ref name="current-encounters" />
+
+== Live and Legacy ==
+
+Legacy 3.8 separated from the evolving galaxy when Update 14 launched on 29 November 2022. It retains the earlier Thargoid encounter environment but does not receive the later narrative, Community Goals or galaxy-state changes. The Proteus Wave disaster is part of the shared pre-split history, while the arrival of the eight Maelstroms, the Titan campaign, Battle of Sol and postwar state are Live-only.<ref name="live-legacy" />
+
+Locations from the First Thargoid War, including INRA settlements and Commander Jameson's crash site, can exist in both modes, although planetary coordinates may differ between Live 4.0 and Legacy 3.8.<ref name="inra-sites" /><ref name="jameson" />
+
+== Related articles ==
+
+* [[Thargoid]]
+* [[Guardian]]
+* [[Lore and History]]
+* [[Caustic Sink Launcher]]
+* [[Thargoid Pulse Neutraliser]]
 
 == Sources ==
-None yet — to be added once this page has real content.
 
-{{Related articles|[[Thargoid]] [[Guardian]] [[Lore and History]]}}
+<references />
 
-[[Category:Galactic Archive]]
 [[Category:History]]
 [[Category:Thargoid]]

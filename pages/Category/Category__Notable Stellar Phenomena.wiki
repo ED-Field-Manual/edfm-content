@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Notable Stellar Phenomena
+Namespace: 14
+Page ID: 947
+Revision ID: 5993
+Timestamp: 2026-10-03T04:19:24Z
+Source URL: https://edfieldmanual.com/wiki/Category:Notable_Stellar_Phenomena
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Reference articles about locations, structures and entities associated with Notable Stellar Phenomena signal sources.
+
+[[Category:Exploration]]

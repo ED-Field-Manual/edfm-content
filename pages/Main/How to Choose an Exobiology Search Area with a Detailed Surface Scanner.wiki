@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: How to Choose an Exobiology Search Area with a Detailed Surface Scanner
 Namespace: 0
 Page ID: 833
-Revision ID: 3758
-Timestamp: 2026-09-10T20:19:11Z
+Revision ID: 4507
+Timestamp: 2026-09-16T17:43:05Z
 Source URL: https://edfieldmanual.com/wiki/How_to_Choose_an_Exobiology_Search_Area_with_a_Detailed_Surface_Scanner
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -46,7 +46,9 @@ Use this procedure after a body with biological signals has been mapped with a [
 
 == Reading the overlay ==
 
-{| class="wikitable" style="width:100%;"
+[[File:DSS_planet.png|thumb|right|250px|The biological heatmap highlights terrain where the selected genus may occur.]]
+
+{| class="wikitable" style="width:75%;"
 ! Display !! Meaning
 |-
 | Blue terrain || The selected genus can occur in that region.

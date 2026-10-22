@@ -3,19 +3,170 @@ EDFM current-content archive export.
 Title: Combat
 Namespace: 0
 Page ID: 183
-Revision ID: 2103
-Timestamp: 2026-08-24T21:27:31Z
+Revision ID: 5213
+Timestamp: 2026-09-24T18:34:58Z
 Source URL: https://edfieldmanual.com/wiki/Combat
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Index for ship-to-ship and on-foot combat content.}}
-{{Article status|status=Draft|mode=Both|noindex=yes}}
+{{Article header|deck=The systems, activities, equipment, and consequences involved in ship, vehicle, and on-foot fighting.}}
 
-Index for ship-to-ship and on-foot combat content — see [[:Category:Combat]].
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy; on-foot combat and Operations are Live only
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Core flight, targeting, shield, damage, and legal mechanics use Frontier documentation; current activity coverage is checked against Frontier and maintained community references.
+ |uncertainty=Detailed rank weights, NPC behavior, activity balance, and reward values are not fully published and may change between updates.
+}}
 
-{{Draft warning}}
-No individual combat articles exist yet.
+'''Combat''' covers fighting between Commanders, non-player ships, ground personnel, vehicles, and non-human vessels in ''Elite Dangerous''. It is both a Pilots' Federation career and a component of missions, faction conflicts, [[Powerplay]], piracy, security work, anti-xeno activity, and [[Operations]].<ref name="edwiki-combat">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Combat Combat].</ref>
 
-{{Related articles|[[Operations]] [[Engineering]] [[Tools and Resources]]}}
+This page explains the shared combat model and the main contexts in which it is used. Individual ships, modules, weapons, Engineering modifications, and activity procedures remain on their own pages.
+
+== Forms of combat ==
+
+{| class="wikitable"
+! Form
+! Where it occurs
+! Typical objective or reward
+! Availability
+|-
+| Ship-to-ship PvE || Missions, signal sources, navigation beacons, resource extraction sites, installations, and faction conflicts || Bounties, combat bonds, mission rewards, materials, and Combat-rank progress || Live and Legacy
+|-
+| Ship-to-ship PvP || Open play, organised events, faction or Powerplay activity, piracy, and consensual engagements || Strategic objectives, event results, or player-defined goals; legal consequences depend on jurisdiction || Live and Legacy
+|-
+| Anti-xeno combat || Thargoid signal sources, conflict areas, installations, and other active encounters || Combat bonds, mission objectives, and defence of human systems || Live and Legacy, with different available content
+|-
+| On-foot combat || Settlements, missions, surface conflict zones, and Operations || Mission rewards, combat bonds, materials, and Mercenary-rank progress || Live only
+|-
+| Vehicle combat || Planetary surfaces and combined-arms encounters || Support for surface missions, exploration, settlement attacks, or defence || Live and Legacy, with vehicle availability differing
+|-
+| Operations || Bespoke staged scenarios reached through an Operation Runner || Credits, materials, [[Merc Coin|Merc Coins]], and—when eligible—Powerplay Merits || Live only
+|}
+
+Bounty hunting and conflict zones use the same flight and damage systems but have different legal and reward rules. Anti-xeno combat also requires equipment chosen for the target: ordinary human weapons are not interchangeable with purpose-built AX weapons against every Thargoid vessel.
+
+== Ship combat model ==
+
+=== Targeting and identification ===
+
+A ship's sensors first resolve nearby contacts. Locking a contact and keeping it within sensor view completes a basic scan, revealing information such as shield and hull condition, local criminal status, and available subsystems.<ref name="frontier-manual">Frontier Developments, [https://hosting.zaonce.net/elite/website/assets/ELITE-DANGEROUS-GAME-MANUAL.pdf ''Elite Dangerous Players Guide'', version 1.05], pp. 44–58.</ref>
+
+Criminal status is jurisdiction-specific. In lawful space, opening fire before confirming that a target may legally be attacked can make the attacker wanted and turn local security against them. A mission target, hostile contact, or opposing combat-zone vessel is not automatically governed by the same rules as a locally wanted ship.
+
+Subsystem targeting allows fire to be directed at exposed or vulnerable modules rather than only reducing hull integrity. Thrusters, a Frame Shift Drive, weapons, or the power plant may be targeted when disabling or preventing escape is more important than raw hull damage.
+
+=== Shields, hull, and modules ===
+
+A conventional engagement usually passes through three defensive layers:
+
+# '''Shields''' absorb damage until depleted. More power assigned to SYS increases shield resistance, while the SYS capacitor also supports shield recharge and defensive modules.
+# '''Hull''' integrity falls after shields are down or when damage bypasses them. A ship is destroyed when hull integrity reaches zero.
+# '''Modules''' have their own integrity and may malfunction or fail independently of the hull. [[Module Reinforcement Package|Module Reinforcement Packages]] reduce the damage reaching protected internals.
+
+[[Shield Generator|Shield Generators]], [[Bi-Weave Shield Generator|Bi-Weave Shield Generators]], [[Shield Booster|Shield Boosters]], and [[Shield Cell Bank|Shield Cell Banks]] support different shield strategies. [[Armour]] and [[Hull Reinforcement Package|Hull Reinforcement Packages]] strengthen hull defences. These modules do not replace one another: a build balances shield endurance, hull survival, module protection, mass, power, heat, and available compartments.
+
+=== Damage types ===
+
+{| class="wikitable"
+! Damage type
+! General characteristic
+! Common examples
+|-
+| Thermal || Usually favours shield stripping over hull damage || [[Pulse Laser]], [[Burst Laser]], [[Beam Laser]]
+|-
+| Kinetic || Usually favours hull damage and requires ammunition || [[Multi-Cannon]], [[Cannon]], [[Fragment Cannon]]
+|-
+| Explosive || Strong against hull and exposed external modules but poor against shields || Missile racks, torpedoes, and mines
+|-
+| Absolute || Ignores normal thermal, kinetic, and explosive resistance values || A portion of [[Plasma Accelerator]] damage
+|-
+| Caustic || Specialised corrosive damage associated primarily with Thargoid attacks and environments || Thargoid weapons and caustic clouds
+|-
+| Anti-xeno || Special damage used by purpose-built weapons against Thargoid targets || [[AX Multi-Cannon]] and [[AX Missile Rack]]
+|}
+
+Actual damage also depends on resistances, armour hardness, weapon piercing, range, accuracy, module geometry, and Engineering. A weapon's stated damage alone does not determine how quickly it will defeat a particular target.<ref name="newp-pve">New Pilots Initiative, [https://newp.io/pve PvE Combat Guide].</ref>
+
+=== Power distribution and heat ===
+
+The [[Power Distributor]] divides recharge among three capacitors:
+
+* '''SYS''' supports defensive systems and increases shield resistance;
+* '''ENG''' supports boosting and affects available speed and manoeuvrability; and
+* '''WEP''' supplies weapon cooling and sustained fire.
+
+Pip allocation is temporary and can be changed throughout an engagement. A ship under concentrated fire may need more SYS, one pursuing or escaping may need more ENG, and an energy-heavy weapon group may need more WEP. Leaving one fixed distribution for an entire fight wastes part of the distributor's purpose.
+
+Weapons and defensive modules also produce heat. Excessive heat can damage modules and hull, while an empty WEP capacitor may prevent weapons from maintaining fire. Distributor draw, thermal load, ammunition, and reload time therefore matter alongside theoretical damage.
+
+=== Movement and firing solutions ===
+
+The blue region of the throttle indicator marks the range in which a ship has its best manoeuvrability. Lateral and vertical thrusters can change the firing geometry without relying only on pitch and yaw.<ref name="frontier-manual" />
+
+Disabling Flight Assist decouples a ship's facing from its velocity, allowing the pilot to rotate while continuing along the existing flight vector. It provides more control over advanced manoeuvres but also removes automatic counter-thrust and rotational stabilisation. It is a technique rather than a requirement for beginning combat.
+
+Weapon mounts change how a firing solution is maintained:
+
+* '''fixed''' weapons fire along a fixed axis and generally reward precise manual aim;
+* '''gimballed''' weapons track a selected target within a limited arc and can be disrupted by chaff; and
+* '''turreted''' weapons cover wider arcs and can be assigned automated firing behavior, at the cost of reduced direct performance compared with an equivalent fixed mount.
+
+Fire groups determine which weapons, scanners, and active utilities use the primary and secondary triggers. A practical group keeps simultaneous weapons compatible in range, projectile speed, distributor demand, and intended target layer.
+
+== Combat activities and consequences ==
+
+=== Bounties and security response ===
+
+Destroying a locally wanted ship can award a bounty voucher. A [[Kill Warrant Scanner]] may reveal additional claims, but it does not make an otherwise illegal attack lawful in the current jurisdiction. Unredeemed vouchers can be lost when a Commander is destroyed.
+
+Friendly fire can create fines or bounties and can turn allied security or combat-zone participants hostile. Fire discipline matters most around dense formations, installations, and moving targets crossed by clean vessels.
+
+=== Faction conflicts ===
+
+Space and on-foot conflict zones are generated by active faction conflicts. A participant chooses a side, fights the opposing force, and receives combat bonds for eligible victories. Conflict outcomes can affect the [[Background Simulation]], where combat bonds and daily conflict victories support the selected faction.
+
+=== Operations ===
+
+Current Live Operations combine ship and on-foot objectives in isolated, staged scenarios. They may be played in Mercenary Mode without Powerplay consequences or, when eligible, in Powerplay Mode for strategic effects and Merits. Defeated participants are redeployed through the Operation Runner, reducing the normal loss cycle within the scenario.<ref name="frontier-operations">Frontier Developments, [https://www.elitedangerous.com/news/updates/4-4-0-0 “Elite Dangerous: Operations — Available Now”], 30 June 2026.</ref>
+
+=== Anti-xeno combat ===
+
+Thargoid vessels use mechanics and resistances that differ from ordinary human ships. A suitable loadout may require AX weapons, a Xeno Scanner, thermal-management equipment, and protection from shutdown or caustic effects. [[Caustic Sink Launcher|Caustic Sink Launchers]] manage contamination; they do not replace the need for target-appropriate weapons or defensive flying.
+
+== Preparation and survival ==
+
+Before entering an engagement, a Commander should confirm:
+
+* the ship's rebuy cost can be covered;
+* hull, modules, ammunition, and consumables are repaired and restocked;
+* power priorities keep thrusters, life support, and essential defences online after damage;
+* fire groups and utility bindings match the loadout;
+* the target's legal status and the local jurisdiction are understood; and
+* an escape method remains available if the fight turns unfavorable.
+
+Survival is often more valuable than finishing one target. Extending hardpoints, boosting, charging a Frame Shift Drive, using defensive utilities, and managing mass lock all compete for attention. Breaking contact before shields, drives, or canopy fail preserves both the ship and any unredeemed vouchers or bonds.
+
+== Engineering and progression ==
+
+[[Engineering]] can change weapon damage, range, ammunition, thermal behavior, distributor draw, shield strength, resistances, hull integrity, module protection, and flight performance. A combat build should be engineered around a role rather than treating Grade 5 as a substitute for power management, target selection, or piloting.
+
+Eligible kills advance the Pilots' Federation Combat rank, with higher-ranked targets generally providing more progress than weaker opponents relative to the Commander.<ref name="edwiki-combat" /> On-foot careers also use the separate Mercenary rank for relevant activities. Exact hidden progression weights are not reproduced here because they are neither fully exposed in-game nor consistently documented.
+
+== Training ==
+
+Frontier's training menu includes Target Practice, Basic Combat, Skirmish, and more advanced combat scenarios. These simulations allow controls, targeting, fire groups, distributor management, and manoeuvring to be practised without risking a live ship or rebuy.<ref name="frontier-training">Frontier Developments, [https://community.elitedangerous.com/en/tutorial-videos Pilot Training].</ref>
+
+A small, inexpensive ship makes a useful next step because mistakes cost less and agility makes positioning easier to observe. Progress comes from recognising why a shield failed, why a weapon stopped firing, why a target escaped, or why an attack became illegal—not simply from moving into a more expensive hull.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Ships]] [[Engineering]] [[Power Distributor]] [[Shield Generator]] [[Armour]] [[Dominator Suit]] [[Operations]] [[Background Simulation]] [[Law & Disorder]]}}
+
 [[Category:Combat]]
+[[Category:Careers]]
+[[Category:Gameplay mechanics]]

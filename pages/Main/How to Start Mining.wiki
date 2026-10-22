@@ -3,54 +3,70 @@ EDFM current-content archive export.
 Title: How to Start Mining
 Namespace: 0
 Page ID: 703
-Revision ID: 1637
-Timestamp: 2026-08-23T23:51:54Z
+Revision ID: 6384
+Timestamp: 2026-10-07T11:21:44Z
 Source URL: https://edfieldmanual.com/wiki/How_to_Start_Mining
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-23|reviewer=Sythan|source_quality=Procedure draft based on current mining workflow and EDFM mining data modules|uncertainty=Commodity choices, sell markets, and exact ship builds remain intentionally unspecific until separately verified.}}
-{{Field procedure|summary=Prepare a ship for a first mining run and complete the basic loop of finding, extracting, refining, and selling mined commodities.}}
+{{Article header|deck=A first-run laser-mining procedure covering preparation, extraction, refining, and sale.}}
 
-This procedure gives a first-run mining checklist. It assumes a commander wants a practical loop rather than a perfect profit build.
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1.1; standard ship-mining workflow also applies to Legacy
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Frontier documentation and current module references verify the mining methods and equipment; the ordered first-run workflow is practical guidance
+ |scope_note=Starter laser-mining workflow only; specialist extraction methods have separate procedures
+}}
 
-{{Draft warning}}
+'''How to Start Mining''' covers a commander's first ship-based mining run. [[Laser Mining|Laser mining]] is the most direct starting method because it uses the fewest specialist tools. Core, subsurface and surface-deposit mining require different hardpoints and are better approached after learning this basic collection loop.<ref>[https://www.elitedangerous.com/en-US/news/elite-dangerous-beyond-chapter-four-out-now Elite Dangerous: Beyond – Chapter Four – Out Now]. Frontier Developments. Accessed 16 September 2026.</ref>
 
-== Before you undock ==
+== Before departure ==
 
-* Choose a method: [[Laser Mining]] is the simplest starting point; [[Core Mining]], [[Sub-surface Mining]], and [[Surface Deposit Mining]] require more specialized handling.
-* Fit the extraction tool for that method.
-* Fit a [[Refinery]], [[Collector Limpet Controller]], cargo racks, and limpets.
-* Fit a [[Prospector Limpet Controller]] unless the procedure for the chosen method says otherwise.
-* Leave cargo room for mined commodities after loading limpets.
+# Prepare the starter mining fit. At minimum, carry a [[Mining Laser]], [[Refinery]], [[Cargo Rack]], [[Prospector Limpet Controller]] and [[Collector Limpet Controller]]. Add a [[Detailed Surface Scanner]] when using mapped ring hotspots.
+# Buy limpets from '''Advanced Maintenance → Restock''' before leaving the station. Limpets occupy cargo space as one-tonne units but are consumed during the trip, freeing that space for mined commodities.
+# Choose a commodity and identify a suitable planetary ring. Check the receiving market before departure; prices and demand can change before the return trip.
+
+A prospector identifies an asteroid's contents and increases the number of fragments released while the limpet remains attached, so it is part of the normal laser-mining loop rather than an optional scanner.<ref>[https://elite-dangerous.fandom.com/wiki/Prospector_Limpet_Controller Prospector Limpet Controller]. ''Elite Dangerous Wiki''. Accessed 16 September 2026.</ref>
 
 == Procedure ==
 
-{{Procedure steps|
-# Pick a target ring, hotspot, or known mining location.
-# Travel to the location and drop into the ring safely.
-# Prospect candidate asteroids before spending time extracting from them.
-# Extract with the method-specific tool: mining laser, seismic charges, sub-surface displacement missile, or abrasion blaster.
-# Keep collector limpets active while fragments or chunks are available.
-# Watch the refinery and clear unwanted blocked bins if necessary.
-# When the hold is ready, check current market demand and sell prices before choosing a station or carrier.
-}}
+# Travel to the chosen ring. If targeting a hotspot, follow [[How to Scan Planetary Rings for Mining Hotspots]] and drop within the hotspot's highlighted area.
+# Move clear of the arrival point and assess local contacts before deploying equipment. Resource Extraction Sites and ordinary hotspots are not the same thing; a hotspot does not require entering a RES.
+# Deploy hardpoints and open the cargo scoop. Launch a prospector at an asteroid, target the attached limpet and inspect the listed commodities.
+# If the asteroid contains the wanted resource, bring the mining lasers into range and fire until fragments are released.
+# Launch collector limpets with no fragment targeted. An untargeted collector continues gathering nearby valid cargo, whereas a collector launched with a fragment targeted retrieves that item and then expires.<ref>[https://elite-dangerous.fandom.com/wiki/Collector_Limpet_Controller Collector Limpet Controller]. ''Elite Dangerous Wiki''. Accessed 16 September 2026.</ref>
+# Allow the collectors to deliver fragments through the cargo scoop. The refinery sorts the contents into bins and moves each completed tonne into the cargo hold automatically.<ref>[https://elite-dangerous.fandom.com/wiki/Refinery Refinery]. ''Elite Dangerous Wiki''. Accessed 16 September 2026.</ref>
+# Repeat the prospecting, extraction and collection cycle until the cargo hold is full, limpets run low or the planned session is complete.
+# Return to a station with a commodities market and sell the refined cargo. Compare demand as well as the displayed unit price before committing a large load.
 
-== Completion check ==
+== During the run ==
 
-The run is complete when refined commodities have been sold or stored and the ship has enough fuel, limpets, and cargo space for the next decision.
+* Ignore low-value resources through the Contacts panel by following [[How to Ignore Unwanted Mining Commodities]]. Filtering prevents collectors from repeatedly retrieving unwanted fragments.
+* If every refinery bin is occupied or a completed tonne cannot enter the hold, follow [[How to Resolve a Full Refinery]].
+* Raw engineering materials do not use refinery bins or cargo capacity; the material-storage notification is separate from refined commodity cargo.
+* A hotspot increases the likelihood of its named commodity but does not guarantee that every asteroid will contain it.
+* Stop before the final limpet is consumed if one is needed to retrieve the last fragments already in space.
 
-== Common problems ==
+== Choosing another mining method ==
 
-* '''No cargo is appearing:''' check that a refinery is installed and powered, and that cargo space is available.
-* '''Collectors are not bringing the right fragments:''' use the ignore workflow for unwanted commodities and clear refinery bins.
-* '''The refinery is stuck:''' see [[How to Resolve a Full Refinery]].
-* '''The sell station changed:''' mining prices and demand are time-sensitive; re-check current market data before travelling far.
+Laser mining removes surface material directly with mining lasers. Other deposit types use the tools revealed by a prospector:<ref>[https://elite-dangerous.fandom.com/wiki/Miner Miner]. ''Elite Dangerous Wiki''. Accessed 16 September 2026.</ref>
 
-== Related Reference Pages ==
-{{#invoke:Procedures|referenceLinks|procedure=How to Start Mining}}
+* [[How to Mine Surface Deposits|Surface deposits]] require an [[Abrasion Blaster]].
+* Subsurface deposits require a [[Sub-surface Displacement Missile]].
+* Asteroid cores require a [[Seismic Charge Launcher]], followed by an abrasion blaster for the exposed deposits.
 
-== Related Field Procedures ==
-{{#invoke:Procedures|list|page=How to Start Mining}}
+These methods can share the same refinery and collection support modules, but their search and extraction steps are distinct from the starter laser-mining procedure.
 
+== Related procedures ==
+
+* [[How to Scan Planetary Rings for Mining Hotspots]]
+* [[How to Resolve a Full Refinery]]
+* [[How to Ignore Unwanted Mining Commodities]]
+
+<references />
+
+[[Category:Field Procedures]]
 [[Category:Mining]]

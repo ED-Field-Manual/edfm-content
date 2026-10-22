@@ -3,22 +3,109 @@ EDFM current-content archive export.
 Title: Shock Mine Launcher
 Namespace: 0
 Page ID: 600
-Revision ID: 2200
-Timestamp: 2026-08-24T23:45:12Z
+Revision ID: 4833
+Timestamp: 2026-09-20T16:19:08Z
 Source URL: https://edfieldmanual.com/wiki/Shock_Mine_Launcher
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Shock Mine Launcher ship module.
+{{Article header|deck=A fixed class 1 mine launcher whose concussive charges trade some direct damage for a blast that can push ships off course.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live specifications; the module and its core role also exist in Legacy
+ |reviewed=2026-09-20
+ |reviewer=Sythan
+ |source_quality=Specifications are cross-checked between current EDSY and EDSM records; behavior and Engineering compatibility use maintained community references.
+ |uncertainty=The displacement caused by a detonation varies with the target's mass and flight state.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Shock Mine Launcher''' is a fixed class 1 hardpoint weapon that releases proximity mines behind the ship. A detonation deals less direct damage than a standard [[Mine Launcher]] and adds a concussive impulse intended to push nearby ships off their trajectories.<ref name="edsm-mines">[https://www.edsm.net/en/faq/outfitting/index/id/2/name/Weapon+Hardpoint/sub/Mines Mines], EDSM, accessed 2026-09-20.</ref>
 
-== Overview ==
+== Operation ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+Each trigger pull deploys one mine. The unmodified launcher carries one mine in its magazine, reloads in two seconds, and holds 36 rounds in reserve. Because every stock shot empties the magazine, continuous fire is limited by that reload even though the module data lists a nominal rate of 1/s. It has no gimballed, turreted, or larger-class variant.<ref name="edsy-data">[https://github.com/taleden/EDSY/blob/9cd829062217036184ea9ec79ee30934d235aca8/eddb.js#L2848 EDSY module database: Shock Mine Launcher], commit <code>9cd8290</code>, accessed 2026-09-20.</ref>
+
+The mine does not track a target. It is most likely to affect a ship that follows the launcher's path through the deployed charge. The concussive movement is more noticeable on lower-mass ships; heavier ships resist the impulse more effectively.<ref name="wiki-shock">[https://elite-dangerous.fandom.com/wiki/Shock_Mine_Launcher Shock Mine Launcher], Elite Dangerous Wiki, accessed 2026-09-20.</ref>
+
+A shock mine still inflicts weapon damage. Current module data gives it 32 damage and 60 armour piercing, compared with 44 damage for the class 1 standard Mine Launcher.<ref name="edsy-data" /> Its distinguishing feature is the added displacement, not higher direct damage.
+
+== Specifications ==
+
+{| class="wikitable"
+! Property
+! Unmodified value
+|-
+| Class and rating
+| 1I
+|-
+| Mount
+| Fixed
+|-
+| Mass
+| 2 t
+|-
+| Integrity
+| 40
+|-
+| Power draw
+| 0.40 MW
+|-
+| Damage
+| 32
+|-
+| Primary damage type
+| Explosive
+|-
+| Armour piercing
+| 60
+|-
+| Nominal rate of fire
+| 1/s before reload
+|-
+| Thermal load
+| 5
+|-
+| Magazine
+| 1 mine
+|-
+| Reserve ammunition
+| 36 mines
+|-
+| Reload time
+| 2 seconds
+|-
+| Base price
+| 36,390 CR
+|}
+
+The listed price is the base module value in the current EDSY record. Station discounts and other pricing modifiers can change the purchase price shown in Outfitting.
+
+== Acquisition ==
+
+The Shock Mine Launcher is ordinary Outfitting equipment. It requires no Powerplay rank or Technology Broker unlock, but individual stations may not stock it. EDSM's outfitting search can be used to locate a recently reported 1I fixed launcher.<ref name="edsm-mines" />
+
+== Engineering ==
+
+The launcher supports four [[Engineering]] blueprint families: High Capacity, Lightweight, Rapid Fire, and Sturdy.<ref name="inara-engineering">INARA: [https://inara.cz/elite/blueprint/28/ Mine Launcher — High Capacity], [https://inara.cz/elite/blueprint/93/ Lightweight], [https://inara.cz/elite/blueprint/29/ Rapid Fire], and [https://inara.cz/elite/blueprint/31/ Sturdy], accessed 2026-09-20.</ref>
+
+Compatible [[Experimental Effects]] include Double Braced, Emissive Munitions, Flow Control, Ion Disruption, Overload Munitions, Oversized, Radiant Canister, Reverberating Cascade, Shift-Lock Canister, and Stripped Down.<ref name="inara-engineering" /> These effects can change the launcher's durability, mass, power demand, damage profile, or the effect applied by its mines.
+
+Reverberating Cascade directly damages a struck ship's shield generator. Controlled community testing measured 11.2 integrity damage per unmodified shock-mine detonation, equal to 35% of the launcher's 32 base damage.<ref name="canonn-reverb">[https://canonn.science/codex/reverberating-cascade-effect-on-shield-generators/ Reverberating Cascade Effect on Shield Generators], Canonn Research Group, 1 October 2022.</ref> This is community-tested behavior rather than a figure published by Frontier.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Mine Launcher]] [[Engineering]] [[Experimental Effects]]}}
+
+{{Engineering nav}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Weapons]]
+[[Category:Weapon Engineering]]
+[[Category:Engineering]]

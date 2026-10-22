@@ -1,0 +1,26 @@
+<!--
+EDFM current-content archive export.
+Title: File:Tussock Ventusa — Lime - Wregoe SP-S c19-0 4 c - 2026-10-02 19-25-37.png
+Namespace: 6
+Page ID: 945
+Revision ID: 5977
+Timestamp: 2026-10-03T00:26:49Z
+Source URL: https://edfieldmanual.com/wiki/File:Tussock_Ventusa_%E2%80%94_Lime_-_Wregoe_SP-S_c19-0_4_c_-_2026-10-02_19-25-37.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |description = In-game image of Tussock Ventusa in Elite Dangerous.
+ |subject = Tussock Ventusa
+ |source = Elite Dangerous, captured in-game
+ |media_type = In-game screenshot
+ |captured_by = [[User:Sythan|Sythan]]
+ |intended_use = Identification and illustration on the Tussock Ventusa article and related Exobiology pages.
+ |copyright_holder = Frontier Developments plc
+}}
+
+[[Category:Exobiology images]]
+
+== Licensing ==
+{{License-ED screenshot}}

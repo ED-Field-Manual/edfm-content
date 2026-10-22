@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Biological species
+Namespace: 14
+Page ID: 857
+Revision ID: 5543
+Timestamp: 2026-09-28T23:55:09Z
+Source URL: https://edfieldmanual.com/wiki/Category:Biological_species
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Canonical reference pages for biological species encountered during planetary exploration.
+
+[[Category:Exobiology]]

@@ -3,12 +3,25 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Modified Guardian Gauss Cannon
 Namespace: 828
 Page ID: 535
-Revision ID: 1322
-Timestamp: 2026-08-20T23:59:59Z
+Revision ID: 4403
+Timestamp: 2026-09-16T04:03:06Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Modified_Guardian_Gauss_Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Modified Guardian Gauss Cannon",
+	module_class = "Guardian anti-xeno weapon",
+	slot_type = "Hardpoint",
+	mount = "Fixed Class 1D or 2B",
+	manufacturer = "Azimuth Biotech (Salvation design)",
+	availability = "Per-copy material barter at Prospect's Deep in permit-locked Mbooni",
+	engineering = "Supplied pre-engineered; further modification is not supported",
+	related_modules = {
+		"[[Guardian Gauss Cannon]]",
+		"[[Guardian Shard Cannon]]",
+		"[[Guardian Plasma Charger]]",
+		"[[Heat Sink Launcher]]",
+	},
+	notes = "Fires a four-projectile burst with greater ammunition capacity and shorter damage-falloff distance than the standard Guardian Gauss Cannon.",
 }

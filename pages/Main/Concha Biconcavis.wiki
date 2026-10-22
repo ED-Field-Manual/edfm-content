@@ -1,0 +1,60 @@
+<!--
+EDFM current-content archive export.
+Title: Concha Biconcavis
+Namespace: 0
+Page ID: 866
+Revision ID: 5552
+Timestamp: 2026-09-28T23:56:34Z
+Source URL: https://edfieldmanual.com/wiki/Concha_Biconcavis
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=A field reference for Concha Biconcavis, including value, sampling distance, environmental profiles and known visual variants.}}
+
+{{Exobiology species infobox}}
+
+'''Concha Biconcavis''' is a shell-like Concha species. It begins as a ridged, biconcave form that splits open and exposes a thin stalk carrying ring-shaped pods used for chemical exchange.<ref name="canonn">[https://us-central1-canonn-api-236217.cloudfunctions.net/query/codex/ref Canonn Codex reference], snapshot retrieved 28 September 2026.</ref>
+
+== Classification ==
+
+{{#invoke:Exobiology|classification|title=Concha Biconcavis}}
+
+== Value ==
+
+{{#invoke:Exobiology|value|title=Concha Biconcavis}}<ref name="canonn" />
+
+{{Callout|type=note|label=Value source note|1=The current Codex reference records a base value of '''19,010,800 credits'''. The pinned BioScan ruleset still records '''16,777,215 credits'''; EDFM uses the current Codex-reference value and preserves the discrepancy in the mapping provenance.<ref name="canonn" /><ref name="bioscan">[https://github.com/Silarn/EDMC-BioScan/blob/fc6b85c3de48c8fb79fa9e4f79ad780e48f56629/src/bio_scan/bio_data/rulesets/concha.py EDMC-BioScan Concha rules], commit fc6b85c3.</ref>}}
+
+== Sampling ==
+
+{{#invoke:Exobiology|sampling|title=Concha Biconcavis}}<ref name="guide">[https://www.elitedangerous.com/en-US/news/odyssey-guide Odyssey Guide], Frontier Developments.</ref><ref name="explodata">[https://github.com/Silarn/EDMC-ExploData/blob/fd4e188defd6405e46398fb0a54ac8669c9e2189/src/ExploData/explo_data/bio_data/genus.py EDMC-ExploData genus data], commit fd4e188d.</ref>
+
+== Environmental requirements ==
+
+The profiles below come from a maintained community prediction model. They are useful search constraints, but observational limits should not be read as official guarantees or proof that unlisted conditions are impossible.<ref name="bioscan" />
+
+{{#invoke:Exobiology|environment|title=Concha Biconcavis}}
+
+== Identification ==
+
+Unopened specimens resemble ridged, bisected shells; mature growths are easier to recognise by the central stalk and its ringed pods.
+
+== Variants ==
+
+The named variants below follow the current Codex reference.<ref name="canonn" />
+
+{{#invoke:Exobiology|variants|title=Concha Biconcavis}}
+
+== Practical notes ==
+
+The species is valuable, but its six colour variants share the same sampling mechanics and base value.
+
+== Related organisms ==
+
+See [[Exobiology#Concha|Concha]] for the complete group listing.
+
+== Sources ==
+
+<references />
+
+[[Category:Concha species]]

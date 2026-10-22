@@ -3,12 +3,21 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Passenger Cabin
 Namespace: 828
 Page ID: 552
-Revision ID: 1339
-Timestamp: 2026-08-21T00:00:12Z
+Revision ID: 4459
+Timestamp: 2026-09-16T13:29:44Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Passenger_Cabin
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Passenger Cabin",
+	module_class = "Passenger accommodation",
+	slot_type = "Optional internal",
+	mount = "Standard classes 2–6; availability depends on accommodation tier",
+	manufacturer = "Multiple manufacturers",
+	tech = "Human",
+	introduced = "Elite Dangerous 2.2: The Guardians",
+	acquisition = "Purchased through Outfitting; Luxury cabins require a compatible Saud Kruger passenger ship",
+	description = "An optional internal module family that provides seats at Economy, Business, First, or Luxury accommodation levels for passenger contracts.",
+	related_modules = "[[Economy Class Passenger Cabin]], [[Business Class Passenger Cabin]], [[First Class Passenger Cabin]], [[Luxury Passenger Cabin]]",
 }

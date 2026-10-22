@@ -3,22 +3,101 @@ EDFM current-content archive export.
 Title: Railgun
 Namespace: 0
 Page ID: 572
-Revision ID: 2186
-Timestamp: 2026-08-24T23:44:55Z
+Revision ID: 4483
+Timestamp: 2026-09-16T15:57:51Z
 Source URL: https://edfieldmanual.com/wiki/Railgun
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Railgun ship module.
+{{Article header|deck=A fixed, charge-fired weapon that delivers precise thermal and kinetic damage with high armour piercing.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Specifications use commit-pinned EDCD data and maintained module references; Engineering is cross-checked against INARA.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Railgun''' is a fixed hardpoint weapon that accelerates a slug electromagnetically after a short charge. Its effectively instantaneous shot, high single-hit damage, and armour-piercing value of 100 reward accurate firing during brief target openings. The weapon is available only in small and medium sizes.<ref name="wiki-rail">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Railgun Railgun].</ref>
+
+A stock shot deals two-thirds thermal and one-third kinetic damage. This mixed profile remains subject to the target's thermal and kinetic resistances. The piercing value prevents ordinary hull hardness from reducing the base hull hit, but it does not bypass resistances or guarantee damage to the selected internal module.
+
+== Standard variants ==
+
+{| class="wikitable sortable"
+! Class
+! Rating
+! Mass
+! Integrity
+! Power draw
+! Damage
+! Distributor draw
+! Thermal load
+! Price
+|-
+| 1 || D || 2 t || 40 || 1.15 MW || 23.25 || 2.69 MW || 12 || 51,600 CR
+|-
+| 2 || B || 4 t || 51 || 1.63 MW || 41.5 || 5.11 MW || 20 || 412,800 CR
+|}
+
+Both weapons are fixed mounts with a 1.2-second charge, one-round magazine, 80-round reserve, one-second reload, 1,000-metre falloff start, 3,000-metre maximum range, and armour piercing of 100.<ref name="data-rail">EDCD Coriolis Data, [https://raw.githubusercontent.com/EDCD/coriolis-data/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/hardpoints/rail_gun.json Rail Gun module record], commit-pinned.</ref>
+
+The medium weapon delivers substantially more damage per hit but also doubles the mass and nearly doubles the distributor and thermal load. Multiple railguns fired together can exhaust the WEP capacitor or overheat a ship quickly.
+
+== Operation ==
+
+Hold the trigger to begin charging. The weapon fires automatically when the charge completes; releasing the trigger early cancels the shot. Because the projectile is effectively hitscan, the pilot aims at the target's current position rather than leading it like a cannon or plasma projectile.<ref name="wiki-rail" />
+
+The charge delay makes timing as important as aim. Begin charging before the expected firing window, then keep the fixed reticle on target when the weapon releases. Cancelling a bad solution before discharge preserves ammunition and avoids the heat spike.
+
+Railguns are particularly effective against exposed subsystems. Select the intended module and fire when the sight line passes through its position. A successful hull strike still undergoes the normal breach and module-damage checks; the selected module is not automatically hit simply because the target marker was selected.
+
+=== Range and heat ===
+
+Stock damage begins falling beyond 1,000 metres and reaches zero at the 3,000-metre maximum range. The instantaneous shot remains easy to place at distance, but stock damage declines through most of that envelope. Long Range Engineering moves the falloff start with the maximum range and is therefore especially relevant to railguns.<ref name="inara-long">INARA, [https://inara.cz/elite/blueprint/62 Rail Gun — Long range blueprint].</ref>
+
+Heat and capacitor use normally limit sustained fire before the nominal firing interval does. Ships carrying several railguns benefit from adequate WEP capacity, strong thermal performance, disciplined volleys, and heat-sink planning where the fit requires it.
+
+== Engineering ==
+
+Railguns accept Enduring Feedback, High Capacity, Lightweight, Long Range, Short Range, and Sturdy blueprints. Compatible Experimental Effects include Double Braced, Feedback Cascade, Flow Control, Multi-Servos, Oversized, Plasma Slug, Stripped Down, and Super Penetrator.<ref name="inara-long" /><ref name="inara-exp">INARA, [https://inara.cz/elite/experimentaleffects Engineering — Experimental Effects].</ref>
+
+Notable choices include:
+
+* '''Long Range''' extends maximum range and shifts falloff to the modified maximum, at the cost of mass and power draw.
+* '''Short Range''' increases close-range damage and heat while reducing reach.
+* '''Feedback Cascade''' reduces shield-cell restoration when a shot hits during shield-cell operation, while reducing the railgun's damage and heat.
+* '''Super Penetrator''' allows a slug to damage modules along its trajectory and reduces thermal load, at the cost of a longer reload.
+* '''Plasma Slug''' draws ammunition from the ship's fuel supply and reduces damage and thermal load.
+
+Exact modifiers and material costs belong to the individual blueprint and Experimental Effect references.
+
+== Related weapons ==
+
+The [[Imperial Hammer]] is a class 2 Powerplay railgun variant that fires a three-projectile burst after charging. Landing the entire burst produces more raw damage than one standard medium shot, but demands sustained aim and greater total heat and distributor energy.
+
+A pre-engineered medium Railgun combining High Capacity, Long Range, and Feedback Cascade also exists as a special Community Goal reward in outfitting data. It is not part of normal station stock and cannot be recreated by applying multiple Grade 5 blueprints to an ordinary module.<ref name="data-rail" />
+
+== Acquisition ==
+
+Standard Railguns are purchased with credits through Outfitting where local stock includes the required class. They require no Powerplay pledge, Engineer unlock, or Technology Broker unlock. Engineering access is separate from purchasing the stock weapon.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Imperial Hammer]] [[Plasma Accelerator]] [[Engineering]] [[Power Distributor]] [[Heat Sink Launcher]]}}
+
+{{Engineering nav}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Weapons]]
+[[Category:Weapon Engineering]]
+[[Category:Engineering]]

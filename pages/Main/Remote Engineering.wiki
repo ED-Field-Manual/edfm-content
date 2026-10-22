@@ -3,14 +3,114 @@ EDFM current-content archive export.
 Title: Remote Engineering
 Namespace: 0
 Page ID: 665
-Revision ID: 1557
-Timestamp: 2026-08-23T17:51:07Z
+Revision ID: 4127
+Timestamp: 2026-09-14T02:43:47Z
 Source URL: https://edfieldmanual.com/wiki/Remote_Engineering
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|Remote Engineering is planned as a focused guide to pinning engineer blueprints, applying remote modifications at stations, and understanding which experimental effects still require visiting an engineer base.}}
+{{Article header|deck=Applying a pinned ship-module Blueprint away from an Engineer's workshop.}}
 
-Remote Engineering is the process of applying a pinned engineer blueprint from a station outfitting screen instead of travelling back to the engineer who offers that blueprint.
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy Engineering
+ |reviewer=Sythan
+ |reviewed=2026-09-14
+ |source_quality=Current maintained Remote Workshop reference supported by current Engineer databases
+ |uncertainty=Frontier does not currently publish a detailed Remote Workshop manual; operational limits are documented from maintained community references.
+}}
 
-This placeholder exists so current engineer pages can link to one consistent topic while the full guide is being written. The finished article should explain pinned blueprints, material use, reputation limits, experimental effects, and practical reasons to visit an engineer in person.
+'''Remote Engineering''' uses the '''Remote Workshop''' service to apply a pinned ship-module [[Engineering Blueprints|Blueprint]] without returning to the [[Engineers|Engineer]] who provides it. The service is available at stations and Drake-Class Carriers that expose Remote Workshop through their service menu.<ref name="remote-workshop">[https://elite-dangerous.fandom.com/wiki/Remote_Workshop Elite Dangerous Wiki: Remote Workshop], accessed 14 September 2026.</ref>
+
+Remote Engineering is limited to ship modules. Odyssey suit and handheld-weapon modifications must be installed in person; see [[Odyssey Engineering]].
+
+== Prerequisites ==
+
+A Blueprint can be used remotely only after:
+
+# the Engineer who provides it has been discovered and unlocked;
+# the Commander has gained access to the required Blueprint grade;
+# the Blueprint has been pinned while visiting that Engineer's workshop;
+# the module and required [[Engineering Materials]] are available at a location with Remote Workshop service.
+
+Each Engineer can have '''one pinned Blueprint'''. Pinning a different Blueprint at that Engineer replaces the previous pin. Different Engineers can pin different Blueprints, allowing a Commander to build a wider remote selection.<ref name="remote-workshop" />
+
+== Procedure ==
+
+# Dock at a station or carrier with Remote Workshop service.
+# Open '''Starport Services''' and select '''Remote Workshop'''.
+# Choose the module to modify.
+# Select the applicable pinned Blueprint.
+# Review the attribute changes and material cost.
+# Apply the Blueprint until the desired progress for the current grade is reached.
+# Advance to the next grade when it becomes available, then repeat as required.
+
+Remote crafting uses the normal material cost for each application. It does not consume credits or require the Engineer's unlock commodity again.
+
+The highest grade available remotely is limited by the grade already unlocked with the Engineer and by that Engineer's maximum grade for the Blueprint. If a higher grade is unavailable, return to the workshop and increase [[Engineer Reputation]] before relying on the pin.
+
+== Restrictions ==
+
+Remote Engineering does not reproduce every workshop service:
+
+* '''No Experimental Effects.''' [[Experimental Effects]] cannot be pinned, added, or replaced through Remote Workshop. Visit an Engineer who works on that module family.
+* '''No Engineer reputation gain.''' Remote crafting does not improve reputation with the Engineer whose Blueprint is pinned.<ref name="remote-workshop" />
+* '''No Blueprint changes at a distance.''' A different Blueprint can be pinned only while visiting the Engineer who provides it.
+* '''No Odyssey equipment modifications.''' Suit and handheld-weapon Engineering uses the separate Odyssey workshop system.
+* '''No access beyond the unlocked grade.''' A pin does not bypass reputation or the Engineer's maximum capability.
+
+A remotely completed module can later receive an Experimental Effect at a suitable Engineer workshop. The Engineer applying the Experimental Effect does not need to be the one whose Blueprint was pinned, but must offer Engineering for that module family.
+
+== Choosing pinned Blueprints ==
+
+Pins are most valuable for Blueprints used on many ships or on modules frequently bought far from an Engineer. Consider:
+
+* how often the Blueprint appears across planned builds;
+* the highest grade each available Engineer can provide;
+* whether the same Blueprint can be pinned through a more convenient Engineer;
+* whether a distant core-system or [[Colonia]] Engineer offers a rare maximum grade;
+* how often the module will still need an in-person Experimental Effect.
+
+A useful pin plan spreads common Blueprints across different Engineers instead of duplicating the same service unnecessarily. INARA's current Engineer directory can be used to compare maximum grades and workshop locations.<ref name="inara">[https://inara.cz/elite/engineers/ INARA: Engineers], accessed 14 September 2026.</ref>
+
+== When an in-person visit is still required ==
+
+Travel to an Engineer workshop when:
+
+* unlocking the Engineer or raising reputation;
+* pinning or changing a Blueprint;
+* applying or replacing an Experimental Effect;
+* using an unpinned Blueprint;
+* reaching a grade not yet unlocked for remote use.
+
+When several newly engineered modules need Experimental Effects, completing their Blueprints remotely first and carrying them to one suitable workshop can reduce repeated travel.
+
+== Troubleshooting ==
+
+;The Blueprint does not appear
+:Confirm that it is still pinned to the Engineer and that the selected module accepts that Blueprint.
+
+;The next grade is locked
+:Check Engineer reputation and the Engineer's maximum grade. Remote rolls do not raise reputation.
+
+;Remote Workshop is absent
+:Use another station or carrier with the service, or travel directly to an Engineer workshop.
+
+;The Experimental Effect option is missing
+:This is expected. Experimental Effects require an in-person Engineer visit.
+
+== See also ==
+
+* [[Engineering]]
+* [[Engineers]]
+* [[Engineering Blueprints]]
+* [[Experimental Effects]]
+* [[Engineer Reputation]]
+* [[Odyssey Engineering]]
+
+== Sources ==
+
+<references />
+
+[[Category:Engineering]]

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Beam Laser
 Namespace: 828
 Page ID: 449
-Revision ID: 2251
-Timestamp: 2026-08-25T14:14:14Z
+Revision ID: 5168
+Timestamp: 2026-09-24T15:02:26Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Beam_Laser
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -15,7 +15,7 @@ return {
 	slot_type = "Hardpoint",
 	mount = "Fixed, gimballed, and turreted variants",
 	manufacturer = "",
-	availability = "Standard outfitting module family",
-	engineering = "",
-	related_modules = "[[Pulse Laser]], [[Burst Laser]]",
+	availability = "Standard Outfitting module family",
+	engineering = "Efficient, Lightweight, Long Range, Overcharged, Short Range, and Sturdy; compatible Experimental Effects; Live adds Overloaded for Merc modules and Plasma Conversion",
+	related_modules = "[[Pulse Laser]], [[Burst Laser]], [[Retributor Beam Laser]]",
 }

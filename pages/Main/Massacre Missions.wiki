@@ -1,0 +1,161 @@
+<!--
+EDFM current-content archive export.
+Title: Massacre Missions
+Namespace: 0
+Page ID: 971
+Revision ID: 6151
+Timestamp: 2026-10-04T16:01:21Z
+Source URL: https://edfieldmanual.com/wiki/Massacre_Missions
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=Contracts to destroy a specified number of mission-valid targets belonging to a named faction.}}
+
+{{Article status
+| status = Partially verified
+| mode = Live
+| version = Current Live
+| reviewed = 2026-10-04
+| reviewer = Sythan
+| source_quality = Core mission handling is supported by the current journal schema; stacking rules are current community-tested behaviour.
+| uncertainty = Target eligibility, legal status, stacking, and BGS effects depend on the exact mission variant.
+}}
+
+'''Massacre missions''' require a commander to destroy a stated number of valid targets belonging to a specified faction. A target's ship type or bounty is not enough: the mission must recognise the kill as belonging to the named target faction and location or activity.
+
+{| class="wikitable"
+! Field
+! Information
+|-
+| Category
+| Combat
+|-
+| Cargo required
+| No
+|-
+| Combat expected
+| Yes
+|-
+| Can be illegal
+| Yes; depends on the target, jurisdiction, and mission wording
+|-
+| Team version
+| Available for some variants
+|-
+| Can be stacked
+| Pirate massacre missions can share kill progress under specific community-tested conditions
+|-
+| BGS relevance
+| Yes; both the issuing and target factions can matter
+|-
+| Typical risks
+| Wrong target faction, clean targets, high-threat wings, mission deadline, rebuy, hostile reputation
+|-
+| Related guides
+| [[Mission Stacking]], [[Mission Influence and BGS Effects]], [[Combat|Combat]]
+|}
+
+== Read the target line ==
+
+Before accepting, record:
+
+* the issuing faction;
+* the named target faction;
+* the target system or other location restriction;
+* whether the target is described as a pirate, deserter, civilian, criminal, or conflict participant;
+* the required number of kills;
+* the deadline;
+* whether the mission is a Team mission;
+* the legal warning and expected threat.
+
+Two missions that both say “massacre” are not necessarily compatible. A pirate massacre, wartime massacre, deserter hunt, and settlement extermination can use different target and progress rules.
+
+== Finding valid targets ==
+
+The mission description or Transactions panel points to the target system or activity. Depending on the variant, mission-valid targets may appear in:
+
+* mission signal sources;
+* Resource Extraction Sites;
+* navigation-beacon traffic;
+* supercruise encounters;
+* conflict-related locations;
+* settlements or surface sites for on-foot variants.
+
+Scan the target before firing. Confirm the faction name and mission-target marker. A wanted ship from the wrong pirate faction can award a bounty without advancing the mission.
+
+== Legal status ==
+
+'''Pirate''' does not mean every ship in the target system is a legal target. Legality depends on the scanned ship, jurisdiction, and mission authorisation.
+
+* Wait for the scan to resolve before attacking when operating under ordinary bounty law.
+* Do not attack a clean member of the target faction unless the contract and jurisdiction make the consequences acceptable.
+* Check whether a wartime or illegal contract will create bounties or hostile reputation.
+* Remember that mission authority does not excuse collateral damage against unrelated ships.
+
+== Kill credit ==
+
+A kill normally counts only when the game attributes a valid mission target's destruction to the commander or Team under the applicable rules. Watch the Transactions-panel counter after the first engagement.
+
+Stop and re-check the contract if:
+
+* the target was wanted but the counter did not move;
+* the ship belonged to a similarly named faction;
+* the kill occurred outside the required system or site;
+* another activity supplied the target but not the mission tag;
+* a Team member's kill did not produce expected shared progress.
+
+== Stacking ==
+
+Current community tools and guides consistently implement pirate-massacre stacking by grouping contracts from '''different issuing factions''' against the '''same target faction'''. One qualifying kill can then advance one active mission from each compatible issuer. Multiple contracts from the same issuer are normally completed in sequence rather than all advancing from the same kill.<ref name="warboard">[https://github.com/Mirooz/EliteDangerousWarboard Elite Dangerous Warboard], current community journal-tracking tool, accessed 4 October 2026.</ref><ref name="edmcmassacres">[https://github.com/CMDR-WDX/EDMC-Massacres EDMC Massacres], community mission-tracking plugin, accessed 4 October 2026.</ref>
+
+This is a community-tested rule, not a guarantee that every contract with “massacre” in its title stacks. Test the first kill and check every counter. See [[Mission Stacking]].
+
+== Team missions ==
+
+A Team massacre mission must be shared through the Team interface. Confirm that each participant has accepted the shared contract before hunting. Progress and reward eligibility depend on the mission's Team state; travelling together does not automatically share an ordinary solo mission.
+
+Team contracts often have larger kill totals and stronger opposition. Plan ammunition, repair, shield recovery, and rebuys for the full quota rather than a single engagement.
+
+== Failure and abandonment ==
+
+Massacre missions fail when the deadline expires or another explicit failure condition is met. Ship destruction does not necessarily fail the mission, but it can make the remaining quota impractical and costs a rebuy.
+
+Abandonment or failure can reduce reputation and may create negative mission effects. Finish or deliberately unwind the stack before its earliest deadline rather than accepting more quotas than the group can complete.
+
+== BGS considerations ==
+
+For BGS work, examine both sides of the contract:
+
+* The issuing faction may receive a positive completion effect.
+* The named target faction identifies who the objective is directed against, but it does not by itself prove an exact influence loss.
+* Bounty vouchers, crimes, and the mission completion are separate BGS inputs and should not be treated as one combined effect.
+* The displayed INF reward is not a galaxy-wide value.
+* A profitable stack can conflict with a campaign if the target or issuing factions are wrong.
+
+Do not extrapolate the courier example in [[Mission Influence and BGS Effects]] to massacre contracts. Record and compare massacre completion journals separately, and avoid claiming a precise target-faction influence effect without mission-specific evidence.
+
+== Common mistakes ==
+
+* Taking missions against similarly named but different factions.
+* Assuming every wanted ship counts.
+* Mixing pirate, deserter, war, and on-foot massacre variants in one quota.
+* Taking several contracts from one issuer and expecting every counter to advance at once.
+* Firing before the legal scan resolves.
+* Ignoring the earliest deadline in a large stack.
+* Sharing a Team mission after other commanders have already begun the kills.
+
+== Related Field Manual entries ==
+
+* [[Mission Stacking]]
+* [[Mission Influence and BGS Effects]]
+* [[Combat|Bounty hunting and combat]]
+* [[Combat]]
+* [[Background Simulation#Factions, influence, and reputation|Minor factions]]
+
+== References ==
+
+<references />
+
+[[Category:Missions]]
+[[Category:Mission types]]
+[[Category:Combat missions]]

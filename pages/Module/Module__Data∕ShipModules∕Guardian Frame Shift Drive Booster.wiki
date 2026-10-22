@@ -3,12 +3,22 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Guardian Frame Shift Drive Booster
 Namespace: 828
 Page ID: 501
-Revision ID: 1288
-Timestamp: 2026-08-20T23:59:34Z
+Revision ID: 4281
+Timestamp: 2026-09-15T04:06:12Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Guardian_Frame_Shift_Drive_Booster
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Guardian Frame Shift Drive Booster",
+	module_class = "Guardian hybrid travel module",
+	slot_type = "Optional internal",
+	mount = "Classes 1–5, H-rated; one per ship",
+	manufacturer = "Ram Tah / Guardian-human hybrid technology",
+	availability = "Permanent Guardian Technology Broker unlock, then credit purchase through Outfitting",
+	tech_broker = "Guardian Technology Broker",
+	engineering = "No conventional blueprints; Anti-Guardian Zone Resistance is available in Live",
+	powerplay = "",
+	related_modules = "[[Frame Shift Drive]]",
+	notes = "Adds a fixed 4–10.5 ly jump-range bonus according to module class."
 }

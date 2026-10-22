@@ -1,0 +1,70 @@
+<!--
+EDFM current-content archive export.
+Title: Metallic Crystal
+Namespace: 0
+Page ID: 956
+Revision ID: 6003
+Timestamp: 2026-10-03T04:25:03Z
+Source URL: https://edfieldmanual.com/wiki/Metallic_Crystal
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{SEO
+ |description=Metallic Crystals in Elite Dangerous: Codex classification, Notable Stellar Phenomena, scanning, known types and confirmed field observations.
+}}
+{{Article header
+ |section=Exploration
+ |deck=Codex-classified organic crystal structures encountered in Notable Stellar Phenomena.
+}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Current Live
+ |reviewed=2026-10-03
+ |reviewer=[[User:Sythan|Sythan]]
+ |source_quality=Frontier documentation and maintained Canonn and EDSM catalogues
+ |uncertainty=Complete generation requirements are not publicly documented.
+ |notes=Catalogue, classification and scanning were reviewed; occurrence and Research Limpet limits rely partly on community records.
+}}
+
+{{#invoke:Metallic Crystals|familyInfobox}}
+
+'''Metallic Crystals''' are spaceborne crystalline structures recorded by the Codex. The game places them in the '''Biological and Geological''' category under '''Organic structures''', and they are encountered within Notable Stellar Phenomena.<ref name="canonn-codex">[https://us-central1-canonn-api-236217.cloudfunctions.net/query/codex/ref Canonn Codex reference], Canonn Research, accessed 2026-10-03.</ref> The in-game description identifies a metallic lustre on their outer surfaces and attributes their formation to huge numbers of primordial microorganisms.<ref name="edwiki">[https://elite-dangerous.fandom.com/wiki/Metallic_Crystal Metallic Crystal], Elite Dangerous Wiki, accessed 2026-10-03. Community transcription of the in-game description.</ref>
+
+Metallic Crystals are Codex discoveries rather than Odyssey surface organisms. They are recorded with a ship, fighter or SRV Composition Scanner; they are not sampled with the Genetic Sampler or sold to Vista Genomics.<ref name="frontier-codex">[https://customersupport.frontier.co.uk/hc/en-us/articles/360012196999-Codex-FAQ-Xbox Codex FAQ], Frontier Support, accessed 2026-10-03.</ref>
+
+== Classification ==
+
+Frontier's journal specification records Codex discoveries through the <code>CodexEntry</code> event, including an entry ID, name, category and subcategory.<ref name="journal">[https://hosting.zaonce.net/community/journal/v38/Journal_Manual_v38.pdf Elite Dangerous Player Journal Manual, version 38], Frontier Developments, accessed 2026-10-03.</ref> Canonn's maintained reference supplies the current journal identifiers used by the catalogue below, while EDSM independently lists the same four type names.<ref name="edsm-types">[https://github.com/EDSM-NET/Alias/blob/7c5dae785c1dc1af8b84fd4bc89899ebbf3c1338/Codex/Type.php EDSM Codex type aliases], EDSM, commit <code>7c5dae7</code>, accessed 2026-10-03.</ref>
+
+== Known types ==
+
+Four Metallic Crystal types are currently catalogued.
+
+{{#invoke:Metallic Crystals|catalogue}}
+
+== Occurrence ==
+
+Metallic Crystals are documented inside Notable Stellar Phenomena. Those signal sources occur at stellar or planetary Lagrange points and in planetary ring systems.<ref name="nsp">[https://elite-dangerous.fandom.com/wiki/Notable_Stellar_Phenomena Notable Stellar Phenomena], Elite Dangerous Wiki, accessed 2026-10-03.</ref> A recorded occurrence is not a universal generation rule. Canonn's route catalogue, for example, records all four types together in a Proto-Lagrange Cloud at Col 285 Sector GG-N c7-34, alongside a Croceum Gourd Mollusc.<ref name="canonn-challenge">[https://canonn.science/codex/canonn-challenge Canonn Challenge], Canonn Research, accessed 2026-10-03.</ref>
+
+The contents of an individual signal can include other crystal families, mineral spheres, molluscs or anomalies. Their appearance in the same report establishes co-occurrence at that site, not a fixed dependency between phenomena.
+
+== Discovery and scanning ==
+
+Approach closely enough for the Composition Scanner to acquire the structure, keep it targeted and complete the scan. Frontier describes the scanner as standard ship equipment that is also usable in fighters and SRVs; completing a discovery scan records it in the Codex.<ref name="frontier-codex" /> No universal numeric acquisition distance for Metallic Crystals is documented in the sources used here.
+
+A Codex scan is the relevant discovery interaction. Canonn's Research Limpet testing lists Metallic Crystals as invalid Research Limpet targets, so the controller does not extract a sample from them.<ref name="canonn-limpets">[https://canonn.science/codex/research-limpets Research Limpets], Canonn Research, accessed 2026-10-03.</ref>
+
+== Limitations and common confusion ==
+
+Metallic Crystals should not be treated as Odyssey surface Exobiology or as a source of Vista Genomics samples. The sources reviewed document Codex scanning, not a mining or biological-sample collection workflow. Similarly named surface mineral or crystalline formations are separate subjects.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Exploration]] [[Research Limpet Controller]]}}
+
+[[Category:Notable Stellar Phenomena]]
+[[Category:Metallic Crystal pages needing images]]

@@ -3,54 +3,90 @@ EDFM current-content archive export.
 Title: How to Use Collector Limpets
 Namespace: 0
 Page ID: 711
-Revision ID: 1679
-Timestamp: 2026-08-24T00:22:59Z
+Revision ID: 4373
+Timestamp: 2026-09-16T01:28:25Z
 Source URL: https://edfieldmanual.com/wiki/How_to_Use_Collector_Limpets
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Procedure draft based on current collector limpet mining workflow and EDFM Mining metadata|uncertainty=Exact limpet lifetime and controller variant statistics are left to module reference data.}}
-__NOINDEX__
-{{Field procedure|summary=Deploy collector limpets efficiently and avoid common mistakes that destroy limpets or slow collection.}}
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1.1; dedicated-controller mechanics also apply to Legacy
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Current in-game module description supported by established community documentation
+ |uncertainty=Exact lifetime, range and active-limpet limits vary by controller and belong to the module reference.
+}}
+{{Field procedure|summary=Launch collector limpets in autonomous or single-target mode and keep their delivery path clear.}}
 
-Use this procedure when fragments, chunks, cargo, or materials are floating near the ship and a [[Collector Limpet Controller]] is fitted.
+Use this procedure when cargo canisters, materials or mining fragments are floating near a ship fitted with a powered [[Collector Limpet Controller]]. Each launch consumes one limpet from cargo. The collector's behaviour is set at the moment it is launched.<ref name="collector">[https://elite-dangerous.fandom.com/wiki/Collector_Limpet_Controller Collector Limpet Controller], ''Elite Dangerous Wiki''. Accessed 16 September 2026.</ref>
 
-{{Draft warning}}
+== Choose the collection mode ==
+
+{| class="wikitable"
+! At launch !! Result !! Best use
+|-
+| An eligible object is targeted || The collector retrieves that object quickly, delivers it and expires. || One urgent or isolated canister
+|-
+| No eligible object is targeted || The collector repeatedly gathers eligible objects until its lifetime ends, it is destroyed or the ship leaves it behind. || Mining and multi-object salvage
+|}
+
+For routine mining, use autonomous mode. Targeting an asteroid or attached prospector is not the same as targeting a collectable fragment, but clearing the target before launch is the safest habit when learning the system.
 
 == Before you start ==
 
-* Fit and power a [[Collector Limpet Controller]].
-* Carry limpets in cargo.
-* Make sure the cargo hatch can open and the ship has room for what collectors bring back.
-* Position the ship so limpets do not have to fly through asteroid surfaces or other obstacles.
+* Carry limpets in the ship's cargo hold and assign the controller to a fire group.
+* Open the cargo scoop and make sure the controller and cargo hatch are powered.
+* For mined commodity fragments, fit and power a [[Refinery]]. For canisters, leave free [[Cargo Rack|cargo capacity]]. Engineering materials use their separate material storage.
+* Check the Contacts panel for unwanted or illegal salvage before using autonomous collection. Collectors do not judge value or legality.
+* Position the ship so the route between the floating objects and the cargo hatch is clear of asteroid surfaces, wreckage and other ships.
 
-== Procedure ==
+== Autonomous collection ==
 
 {{Procedure steps|
-# Stop targeting individual fragments unless you deliberately want a single-use pickup.
-# Open the cargo hatch if it is not already open.
-# Launch collector limpets after useful fragments or chunks are available.
-# Keep the ship steady and close enough that collectors have a short, clear path.
-# Continue extraction while collectors return items to the ship and refinery.
-# Watch the refinery and cargo hold so collectors do not waste time on blocked or unwanted fragments.
-# Move carefully when repositioning; give active limpets space to follow without hitting rock.
+# Produce or locate the objects to be collected, then stop the ship or maintain a slow, predictable course.
+# Deselect any fragment, material or cargo canister. Check the target panel rather than relying only on the centre reticle.
+# Open the cargo scoop and launch a collector with the controller's assigned fire control.
+# Launch additional collectors only up to the active limit supported by the fitted controller or controllers.
+# Keep the cargo hatch accessible and remain within the controller's operating range while the collectors retrieve objects.
+# Watch the Contacts panel, refinery, cargo hold and material storage. Correct a blocked destination before launching replacement limpets.
+# When collection is complete, allow returning collectors to deliver their carried objects before closing the scoop or leaving the area.
 }}
 
-== Completion check ==
+An autonomous collector with no valid object in range waits near the ship until something eligible appears or its lifetime expires.<ref name="collector" />
 
-The procedure is complete when useful fragments have been collected and are either processed by the [[Refinery]] or stored as cargo or materials.
+== Single-target collection ==
+
+Target one eligible object before launch when that specific item is worth retrieving quickly. The collector delivers only that object and then expires by design. This mode is useful for an isolated mission canister or urgent salvage, but it wastes limpets when many mining fragments are present.
+
+== Filtering objects ==
+
+Use [[How to Ignore Unwanted Mining Commodities]] to mark resources or canisters that autonomous collectors should leave in space. The setting applies to collector selection; it does not clear cargo or refinery contents already aboard.
+
+For salvage, inspect ownership and legal status before collection. A collector can retrieve stolen or illegal cargo just as readily as legal cargo.<ref name="collector" />
 
 == Common problems ==
 
-* '''A collector dies after one pickup:''' the ship probably had a fragment or cargo canister targeted when the limpet launched.
-* '''Collectors keep dying:''' move farther from asteroid surfaces and avoid dragging limpets through rock.
-* '''Collectors bring unwanted fragments:''' use [[How to Ignore Unwanted Mining Commodities]] and clear unnecessary refinery bins.
-* '''Collectors stop working:''' check cargo space, refinery space, cargo hatch status, controller power, and remaining limpets.
+* '''The collector expires after one delivery:''' an eligible object was targeted at launch, so the limpet entered single-target mode. Clear the collectable target before launching the next one.
+* '''A collector waits below the ship without delivering:''' confirm that the scoop is open, the cargo hatch is powered, and the destination has capacity. Mining fragments can also wait when the refinery is blocked; follow [[How to Resolve a Full Refinery]].
+* '''Collectors ignore visible objects:''' check whether the object is marked '''Ignored''', beyond controller range or ineligible because its destination is full.
+* '''Collectors repeatedly collide:''' move to give them a clear path. Broken asteroid sections, rotating rock and wreckage can obstruct their routes.
+* '''A new collector will not remain active:''' the fitted controller may already be at its active-limpet limit. Additional controllers can add capacity, but each controller's limits are listed on [[Collector Limpet Controller]].
+* '''Collectors are lost while repositioning:''' excessive distance, collision, hostile fire, ECM or elapsed lifetime can destroy them. Move slowly until all carried objects have been delivered.
+* '''Nothing launches:''' verify that limpets remain in cargo, the correct controller is powered and its fire group is active.
 
-== Related Reference Pages ==
-{{#invoke:Procedures|referenceLinks|procedure=How to Use Collector Limpets}}
+== Related procedures ==
 
-== Related Field Procedures ==
-{{#invoke:Procedures|list|page=How to Use Collector Limpets}}
+* [[How to Start Mining]]
+* [[How to Ignore Unwanted Mining Commodities]]
+* [[How to Resolve a Full Refinery]]
+* [[How to Laser Mine]]
+* [[How to Core Mine]]
 
+== Sources ==
+
+<references />
+
+[[Category:Field Procedures]]
 [[Category:Mining]]

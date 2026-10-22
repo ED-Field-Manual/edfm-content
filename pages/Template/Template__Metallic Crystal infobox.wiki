@@ -1,0 +1,24 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Metallic Crystal infobox
+Namespace: 10
+Page ID: 952
+Revision ID: 5999
+Timestamp: 2026-10-03T04:23:02Z
+Source URL: https://edfieldmanual.com/wiki/Template:Metallic_Crystal_infobox
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{#invoke:Metallic Crystals|infobox|title={{{title|<includeonly>{{PAGENAME}}</includeonly><noinclude>Prasinum Metallic Crystals</noinclude>}}}}}<noinclude>
+== Usage ==
+
+Displays the canonical Metallic Crystal subtype record maintained in [[Module:Data/Metallic Crystals]].
+
+<pre>
+{{Metallic Crystal infobox}}
+</pre>
+
+The title normally resolves from the current page. Use <code>|title=</code> only for documentation or testing.
+
+[[Category:Templates]]
+</noinclude>

@@ -3,22 +3,114 @@ EDFM current-content archive export.
 Title: Economy Class Passenger Cabin
 Namespace: 0
 Page ID: 474
-Revision ID: 2144
-Timestamp: 2026-08-24T23:44:03Z
+Revision ID: 4246
+Timestamp: 2026-09-15T01:34:32Z
 Source URL: https://edfieldmanual.com/wiki/Economy_Class_Passenger_Cabin
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Economy Class Passenger Cabin ship module.
+{{Article header|deck=The highest-capacity standard passenger cabin tier, intended for bulk transport and passengers requiring Economy Class accommodation.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy; Mk II cabins are Live-only
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Cabin behavior and standard specifications use maintained equipment references; the Live-only Mk II distinction is documented by Frontier.
+ |uncertainty=Outfitting stock and mission availability vary by station and system state.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+An '''Economy Class Passenger Cabin''' is an optional internal module used to carry passengers whose contract requires Economy Class accommodation. It is the lowest comfort tier and provides the greatest number of seats among standard cabins of the same size.<ref name="edwiki-cabins">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Passenger_Cabin Passenger Cabin].</ref>
+
+Standard Economy cabins are available in classes 2–6 and can be fitted to any ship with a compatible ordinary or passenger cabin compartment. They cannot be installed in Military Compartments.
+
+A cabin is required before contracts can be accepted from a station's Passenger Lounge. The cabin class must be large enough for the required party, and its quality must meet or exceed the contract's minimum accommodation.
+
+== Specifications ==
+
+{| class="wikitable sortable"
+! Class
+! Rating
+! Mass
+! Power draw
+! Capacity
+|-
+| 2 || E || 2.5 t || 0 MW || 2 passengers
+|-
+| 3 || E || 5 t || 0 MW || 4 passengers
+|-
+| 4 || E || 10 t || 0 MW || 8 passengers
+|-
+| 5 || E || 20 t || 0 MW || 16 passengers
+|-
+| 6 || E || 40 t || 0 MW || 32 passengers
+|}
+
+The standard cabin's capacity doubles with each class. Its mass also doubles, and that mass remains constant whether the cabin is empty or full.<ref name="edwiki-cabins" /> Roguey's equipment records independently corroborate the capacity, mass, and zero power draw of the five variants.<ref name="roguey-economy">Roguey, [https://roguey.co.uk/elite-dangerous/equipment/internal/economy-class-passenger-cabin/ Economy Class Passenger Cabin].</ref>
+
+The module does not behave like a [[Cargo Rack]]. Passenger occupancy does not consume commodity cargo space, and an empty cabin cannot carry commodities.
+
+== Accommodation rules ==
+
+Passenger contracts specify both a party size and a minimum cabin quality.
+
+* '''Economy requirement''' — can be placed in Economy, Business, First, or Luxury accommodation when the chosen cabin has enough seats.
+* '''Business, First, or Luxury requirement''' — cannot be placed in an Economy cabin even if it has enough seats.
+* '''VIP contract''' — reserves an entire cabin for that party until the contract is completed, abandoned, or failed.
+* '''Bulk contract''' — uses individual seats; multiple compatible non-VIP groups can share capacity, and a group may be divided between cabins of the same quality.<ref name="edwiki-cabins" />
+
+The Passenger Lounge's cabin-selection screen enforces these rules before boarding. A small VIP party can therefore occupy all of a large Economy cabin, while bulk contracts can use otherwise empty seats more efficiently.
+
+== Role and fitting ==
+
+Economy cabins are primarily suited to bulk passenger transport, refugee evacuation, workforce movement, and other contracts where capacity matters more than comfort. Their high seat count also makes them useful when the available missions list Economy as the minimum class.
+
+The trade-off is optional-internal space and fixed mass. Replacing a Cargo Rack, shield, fuel scoop, or other module with a cabin changes the ship's capacity and operating margin. Passenger missions can also impose deadlines, destination requirements, risk levels, or passenger traits that the cabin itself does not mitigate.
+
+Any compatible ship can use standard Economy cabins; a dedicated passenger hull is not required. Saud Kruger passenger ships are distinguished by access to Luxury cabins, not by exclusive access to Economy accommodation.
+
+== Standard and Mk II cabins ==
+
+The standard E-rated Economy cabin documented here exists in both Live and Legacy.
+
+The Live game also has Mk II Economy Passenger Cabins with 50% more seats at the same class and mass. Frontier introduced those cabins with the Lynx Highliner, and they can only be fitted to that ship.<ref name="frontier-4330">Frontier Developments, [https://www.elitedangerous.com/news/updates/4-3-3-0 Elite Dangerous — 4.3.3.0 Update Notes], 28 April 2026.</ref>
+
+{| class="wikitable"
+! Class
+! Standard Economy capacity
+! Mk II Economy capacity
+|-
+| 2 || 2 || 3
+|-
+| 3 || 4 || 6
+|-
+| 4 || 8 || 12
+|-
+| 5 || 16 || 24
+|-
+| 6 || 32 || 48
+|}
+
+Mk II cabins are a separate Live-only equipment line rather than an Engineering modification to a standard Economy cabin.
+
+== Acquisition and Engineering ==
+
+Standard Economy Class Passenger Cabins are purchased for credits through Outfitting and require no rank, permit, Engineer, Technology Broker, or Powerplay unlock. Stock varies by station.
+
+Passenger Cabins cannot be engineered. Their quality, mass, power draw, and seating capacity are fixed by the module variant.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Passenger Cabin]] [[Business Class Passenger Cabin]] [[First Class Passenger Cabin]] [[Luxury Passenger Cabin]] [[Ships]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Optional internal modules]]
+[[Category:Passenger cabins]]

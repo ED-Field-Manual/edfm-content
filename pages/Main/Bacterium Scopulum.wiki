@@ -1,0 +1,61 @@
+<!--
+EDFM current-content archive export.
+Title: Bacterium Scopulum
+Namespace: 0
+Page ID: 896
+Revision ID: 5708
+Timestamp: 2026-09-30T16:14:57Z
+Source URL: https://edfieldmanual.com/wiki/Bacterium_Scopulum
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=A verified field reference for Bacterium Scopulum, including classification, value, sampling requirements, environmental profiles and known variants.}}
+
+{{Exobiology species infobox}}
+
+'''Bacterium Scopulum''' is a biological species in the '''Bacterium''' group.<ref name="canonn">[https://us-central1-canonn-api-236217.cloudfunctions.net/query/codex/ref Canonn Codex reference], snapshot retrieved 28 September 2026.</ref>
+
+== Classification ==
+
+{{#invoke:Exobiology|classification|title=Bacterium Scopulum}}
+
+== Value ==
+
+{{#invoke:Exobiology|value|title=Bacterium Scopulum}}<ref name="canonn" />
+
+== Sampling ==
+
+{{#invoke:Exobiology|sampling|title=Bacterium Scopulum}}<ref name="guide">[https://www.elitedangerous.com/en-US/news/odyssey-guide Odyssey Guide], Frontier Developments.</ref><ref name="explodata">[https://github.com/Silarn/EDMC-ExploData/blob/fd4e188defd6405e46398fb0a54ac8669c9e2189/src/ExploData/explo_data/bio_data/genus.py EDMC-ExploData genus data], commit fd4e188d.</ref>
+
+== Environmental requirements ==
+
+The profiles below come from a maintained community prediction model. They are useful search constraints, but observational limits should not be read as official guarantees or proof that unlisted conditions are impossible.<ref name="bioscan">[https://github.com/Silarn/EDMC-BioScan/blob/fc6b85c3de48c8fb79fa9e4f79ad780e48f56629/src/bio_scan/bio_data/rulesets/bacterium.py EDMC-BioScan bacterium rules], commit fc6b85c3.</ref>
+
+{{#invoke:Exobiology|environment|title=Bacterium Scopulum}}
+
+== Identification ==
+
+Field identification notes have not yet been contributed.
+
+== Variants ==
+
+Variant information below follows the current mapped Codex records.<ref name="canonn" />
+
+{{#invoke:Exobiology|variants|title=Bacterium Scopulum}}
+
+== Practical notes ==
+
+Practical field notes have not yet been contributed.
+
+== Related organisms ==
+
+See [[Exobiology#Bacterium|Bacterium]] for the complete group listing.
+
+== Sources ==
+
+<references />
+
+[[Category:Bacterium species]]
+[[Category:Exobiology species needing images]]
+[[Category:Exobiology species needing field notes]]
+[[Category:Exobiology species needing identification notes]]

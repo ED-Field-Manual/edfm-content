@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: Bark Mound
+Namespace: 0
+Page ID: 870
+Revision ID: 5557
+Timestamp: 2026-09-28T23:57:26Z
+Source URL: https://edfieldmanual.com/wiki/Bark_Mound
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+#REDIRECT [[Bark Mounds]]

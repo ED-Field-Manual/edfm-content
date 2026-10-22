@@ -1,0 +1,26 @@
+<!--
+EDFM current-content archive export.
+Title: File:Aleoida Coronamus - Turquois.png
+Namespace: 6
+Page ID: 911
+Revision ID: 5767
+Timestamp: 2026-10-01T05:18:34Z
+Source URL: https://edfieldmanual.com/wiki/File:Aleoida_Coronamus_-_Turquois.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |description = In-game image of [[Aleoida Coronamus]] in Elite Dangerous.
+ |subject = [[Aleoida Coronamus]]
+ |source = Elite Dangerous, captured in-game
+ |media_type = In-game screenshot
+ |captured_by = [[User:Sythan|Sythan]]
+ |intended_use = Identification and illustration on the [[Aleoida Coronamus]] article and related Exobiology pages.
+ |copyright_holder = Frontier Developments plc
+}}
+
+[[Category:Exobiology images]]
+
+== Licensing ==
+{{License-ED screenshot}}

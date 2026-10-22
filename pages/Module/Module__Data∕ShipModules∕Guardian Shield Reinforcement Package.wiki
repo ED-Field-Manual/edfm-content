@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Guardian Shield Reinforcement Package
 Namespace: 828
 Page ID: 510
-Revision ID: 1297
-Timestamp: 2026-08-20T23:59:40Z
+Revision ID: 4325
+Timestamp: 2026-09-15T13:50:39Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Guardian_Shield_Reinforcement_Package
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Guardian Shield Reinforcement Package",
+	module_class = "Guardian shield-reinforcement module",
+	slot_type = "Optional internal or compatible military compartment",
+	mount = "Classes 1–5, ratings E and D",
+	manufacturer = "Human–Guardian hybrid technology",
+	availability = "Permanent Guardian Technology Broker unlock; subsequent copies purchased with credits",
+	engineering = "Anti-Guardian Zone Resistance in Live; no ordinary shield blueprints",
+	notes = "Adds a flat 44–215 MJ to an active shield; multiple packages stack additively",
 }

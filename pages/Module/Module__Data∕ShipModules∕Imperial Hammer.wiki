@@ -3,12 +3,20 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Imperial Hammer
 Namespace: 828
 Page ID: 515
-Revision ID: 1302
-Timestamp: 2026-08-20T23:59:44Z
+Revision ID: 4381
+Timestamp: 2026-09-16T02:25:59Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Imperial_Hammer
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Imperial Hammer",
+	module_class = "Powerplay Railgun variant",
+	slot_type = "Weapon hardpoint",
+	mount = "Class 2B, fixed",
+	manufacturer = "",
+	availability = "Powerplay loyalty-rank reward in Live; Arissa Lavigny-Duval reward in Legacy",
+	engineering = "Rail Gun blueprints and Experimental Effects",
+	related_modules = "Railgun<br>Power Distributor<br>Heat Sink Launcher",
+	notes = "Fires three lower-damage rail projectiles per charged burst; a complete burst trades greater damage for greater heat and distributor demand.",
 }

@@ -3,12 +3,121 @@ EDFM current-content archive export.
 Title: Unlocking Yi Shen
 Namespace: 0
 Page ID: 658
-Revision ID: 1600
-Timestamp: 2026-08-23T19:22:47Z
+Revision ID: 4136
+Timestamp: 2026-09-14T03:11:11Z
 Source URL: https://edfieldmanual.com/wiki/Unlocking_Yi_Shen
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|Planned unlock guide for Yi Shen, covering unlock prerequisites, invite steps, required items or reputation, and verification notes for commanders once source-backed details are added.}}
+{{Article header|deck=Complete the separate referral tasks from Baltanos, Eleanor Bresa, and Rosa Dayette to unlock Yi Shen.}}
 
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Current Odyssey Engineering
+ |reviewer=Sythan
+ |reviewed=2026-09-14
+ |source_quality=Current INARA Engineer records, EDFM canonical Engineer data, and corroborating Colonia community reports
+ |uncertainty=Frontier does not publish a current first-party unlock checklist; station services may require a new game session after the third referral task is completed.
+}}
+
+This Field Procedure covers the steps required to unlock [[Yi Shen]]. For his location and available suit and handheld-weapon modifications, see the Engineer reference page.
+
+== Objective ==
+
+Gain access to Yi Shen's Odyssey Engineering services at '''Eidolon Hold''' on '''Einheriar 1''' in the [[Colonia]] region.
+
+== Requirements ==
+
+{{Prerequisites|
+* Unlock [[Baltanos]], [[Eleanor Bresa]], and [[Rosa Dayette]].
+* Provide '''10 Faction Associates''' to Baltanos.
+* Provide '''10 Digital Designs''' to Eleanor Bresa.
+* Provide '''10 Manufacturing Instructions''' to Rosa Dayette.
+}}
+
+All three referral tasks are required, but they are independent and may be completed in any order. Finishing the third task discovers Yi and grants access; Yi has no additional commodity, rank, reputation, or payment requirement of his own.<ref name="inara">[https://inara.cz/elite/engineer/36/ INARA: Yi Shen], accessed 14 September 2026.</ref><ref name="forum">[https://forums.frontier.co.uk/threads/on-my-way-to-colonia-to-unlock-engineers.599989/ Frontier Forums: Colonia Engineer requirements], community report accessed 14 September 2026.</ref>
+
+== Preparation ==
+
+Collect the following Odyssey data assets:
+
+{| class="wikitable"
+! Quantity
+! Data
+! Recipient
+|-
+| 10
+| Faction Associates
+| [[Baltanos]]
+|-
+| 10
+| Digital Designs
+| [[Eleanor Bresa]]
+|-
+| 10
+| Manufacturing Instructions
+| [[Rosa Dayette]]
+|}
+
+These are three different data types. One recipient's donation does not advance either of the other tasks.
+
+Faction Associates and Digital Designs can appear in habitat data ports at Odyssey settlements. Manufacturing Instructions can be obtained from settlement data ports and mission rewards. Because random settlement loot is not guaranteed, check mission reward choices while completing the prerequisite Engineers' local activities.
+
+== Unlock the three referring Engineers ==
+
+Each referral task appears only after its Engineer is available:
+
+* [[Unlocking Baltanos|Baltanos]] — reach Friendly reputation with the Colonia Council.
+* [[Unlocking Eleanor Bresa|Eleanor Bresa]] — visit five distinct settlements in the Colonia system.
+* [[Unlocking Rosa Dayette|Rosa Dayette]] — sell ten total Culinary Recipes and/or Cocktail Recipes to bartenders in the Colonia system.
+
+Complete those procedures before trying to hand over the corresponding referral data.
+
+== Procedure ==
+
+{{Procedure steps|
+# At [[Baltanos]]' workshop, provide 10 Faction Associates and confirm that his Yi Shen referral task is complete.
+# At [[Eleanor Bresa]]'s workshop, provide 10 Digital Designs and confirm that her Yi Shen referral task is complete.
+# At [[Rosa Dayette]]'s workshop, provide 10 Manufacturing Instructions and confirm that her Yi Shen referral task is complete.
+# After the third task, check the Engineers panel for Yi Shen.
+# If Yi or the workshop services do not appear, return to the main menu and begin a new session.
+# Travel to the '''Einheriar''' system and land at '''Eidolon Hold''' on '''Einheriar 1'''.
+# Enter the workshop and confirm that Yi's modification services are available.
+}}
+
+The first three steps can be performed in any order. Check each Engineer's panel entry after the handover rather than assuming that carrying the data is enough.
+
+== Expected result ==
+
+{{Expected result|[[Yi Shen]] is unlocked at Eidolon Hold and his Night Vision, Quieter Footsteps, Audio Masking, and Headshot Damage modification services are available.}}
+
+Yi is an Odyssey Engineer. He does not use the Grade 1–5 reputation progression of ship Engineers; each modification can be installed once the equipment has a free modification slot and the required materials and credits are available.
+
+== Troubleshooting ==
+
+;Yi remains undiscovered after two tasks
+:All three referrals are mandatory. Recheck Baltanos, Eleanor Bresa, and Rosa Dayette separately.
+
+;A referring Engineer will not accept the data
+:Confirm that the Engineer has been unlocked, the correct data type and full quantity are available, and the referral task is active. Faction Associates go to Baltanos, Digital Designs to Eleanor, and Manufacturing Instructions to Rosa.
+
+;All three tasks show complete but Eidolon Hold has no Engineer services
+:Begin a new game session. INARA notes that station services may not update immediately after an Engineer unlock.<ref name="inara" />
+
+== Related pages ==
+
+* [[Yi Shen]] — workshop, services, and reference details
+* [[Unlocking Baltanos]], [[Unlocking Eleanor Bresa]], and [[Unlocking Rosa Dayette]] — prerequisite procedures
+* [[Engineer Unlock Guide]] — wider unlock order
+* [[Odyssey Engineering]] — suit and handheld-weapon Engineering mechanics
+* [[Colonia]] — regional travel and service context
+
+== Sources ==
+
+<references />
+
+[[Category:Field Procedures]]
 [[Category:Engineers]]
+[[Category:Engineering]]
+[[Category:Odyssey Engineering]]

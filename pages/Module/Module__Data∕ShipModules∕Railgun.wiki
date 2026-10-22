@@ -3,19 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Railgun
 Namespace: 828
 Page ID: 571
-Revision ID: 2255
-Timestamp: 2026-08-25T14:14:17Z
+Revision ID: 4482
+Timestamp: 2026-09-16T15:57:48Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Railgun
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Railgun",
-	module_class = "Hybrid weapon",
+	module_class = "Electromagnetic projectile weapon",
 	slot_type = "Hardpoint",
-	mount = "Fixed",
-	manufacturer = "",
-	availability = "",
-	engineering = "",
-	related_modules = "[[Plasma Accelerator]]",
+	mount = "Fixed; classes 1 and 2",
+	manufacturer = "Multiple manufacturers",
+	availability = "Standard Outfitting stock, subject to station inventory",
+	engineering = "Rail Gun blueprints and Experimental Effects",
+	related_modules = "[[Imperial Hammer]]; [[Plasma Accelerator]]",
 }

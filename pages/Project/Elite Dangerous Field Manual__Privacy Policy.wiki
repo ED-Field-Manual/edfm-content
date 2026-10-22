@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Privacy Policy
 Namespace: 4
 Page ID: 47
-Revision ID: 3528
-Timestamp: 2026-09-08T15:20:09Z
+Revision ID: 5795
+Timestamp: 2026-10-01T11:36:39Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Privacy_Policy
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -18,7 +18,7 @@ How EDFM handles visitor and contributor data. This page is intended to describe
 * EDFM does not use Google Analytics as an account/user tracking system and does not intentionally send EDFM usernames, CMDR names, Frontier identifiers, email addresses, account IDs, authentication tokens, or equivalent user-linked identifiers to Google Analytics.
 * Anonymous reading normally does not require a persistent EDFM account cookie, though Google Analytics may use its own analytics cookies where analytics is allowed and consented.
 * EDFM offers optional third-party sign-in/linking through Frontier and Discord; those providers process their own login pages under their own policies.
-* Account, editing, upload, anti-abuse, security, analytics, and optional site-improvement features do involve limited data collection as described below.
+* Account, editing, upload, Commander Journal, anti-abuse, security, search-improvement, analytics, and optional site-improvement features do involve limited data collection as described below.
 
 {{EDFM policy commitments}}
 
@@ -54,9 +54,28 @@ Public wiki search remains eligible for Analytics because search-term trends are
 == Accounts ==
 If you create or use a local EDFM account, MediaWiki stores account information needed to operate the wiki, including username, password hash, registration timestamp, edit count, account preferences, and, if provided or later enabled, an email address and email verification status.
 
-Account creation may also offer an optional '''CMDR Name''' field. EDFM stores this in MediaWiki's real-name/profile field. A CMDR Name is optional game-facing identity data, but EDFM treats it as personal data because it may identify a commander or be associated with an account. If provided, it may be used for attribution or account/profile display depending on MediaWiki behavior and EDFM site configuration. Do not enter a real-world name in this field unless you intentionally want that name associated with your EDFM account.
+EDFM does not collect a CMDR Name during account creation and does not use MediaWiki's real-name/profile field. Optional Commander-name verification is handled separately through Frontier after sign-in, as described in [[#Frontier OAuth and CAPI]].
 
 Email may be used for account recovery, account notices, optional notifications, and possible future newsletters or announcements if EDFM enables those features. Newsletter or marketing-style email, if added later, should be optional.
+
+== Commander Journal and Companion synchronization ==
+Logged-in users can choose to synchronize derived Companion activity to [[Special:CommanderJournal]]. This is separate from the one-time Frontier CAPI Commander-name verification described below. Commander Journal synchronization is optional and does not depend on Google Analytics or optional cookie consent.
+
+Depending on the settings and activity supplied by a compatible Companion client, EDFM may store:
+* the local EDFM user ID that owns the journal;
+* journal visibility, an optional display name, a stable public identifier, an optional unlisted-share identifier, and profile creation, update, and last-synchronization timestamps;
+* synchronization-token metadata, including a public token identifier, scope, optional device label, a server-side digest of the token secret, and issued, last-used, expiry, and revocation timestamps; the raw secret is displayed only when a token is issued or rotated;
+* synchronization sessions, including client-provided identifiers and labels and start/end timestamps;
+* derived activity entries, including category, activity kind and time, system and celestial-body names where supplied, client and schema versions, integrity metadata, and structured activity data; and
+* operational audit records such as token, synchronization, sharing, visibility, and deletion actions, their outcome and count, request identifiers, and timestamps.
+
+Synchronization tokens are credentials for the Commander Journal REST interface. They authorize journal status checks and batch synchronization only; they do not authorize wiki editing or account administration. Tokens currently expire after 365 days unless revoked or rotated sooner. EDFM stores a digest rather than the raw token secret after the one-time display.
+
+Journals are '''Private''' by default. A private journal is available only to its logged-in owner. An '''Unlisted''' journal can be viewed without signing in by anyone who has its share link. A '''Public''' journal can be viewed without signing in at its stable public URL. Unlisted and Public journal pages are currently marked not to be indexed by search engines, but recipients can still copy or redistribute information they can view. Owners can change visibility and rotate or revoke an Unlisted link. The journal display name and synchronized activity visible through a shared journal should not contain personal or private information that the owner does not intend to share.
+
+Journal profiles, sessions, and synchronized entries do not currently have an automatic expiry period. The owner can delete an individual entry, a session and its entries, or the entire Commander Journal. Deleting the entire journal removes synchronized entries, sessions, the journal profile, and its visibility/sharing settings, and revokes active synchronization tokens so the journal cannot silently repopulate. Revoked or expired token metadata and operational audit records may remain for security and accountability; they do not currently have an automatic expiry period. Deleted data may also remain in an already-created backup until that backup expires under [[#Backups|the backup schedule]].
+
+A logged-in owner can export synchronized journal activity in JSON or CSV, with optional category and date filters. Exports omit synchronization credentials, operational audit records, and internal database identifiers.
 
 == Public wiki activity ==
 If you edit the wiki, upload files, or post on discussion pages, that activity may be public. Public wiki records can include your username, edit summaries, page histories, uploaded files, comments, timestamps, and other contribution metadata. Public contribution history is part of how a wiki preserves attribution and accountability.
@@ -78,6 +97,13 @@ The Trending Guides tables are designed to store page IDs, normalized search ter
 
 Search-to-landing attribution uses a short-lived first-party cookie only when site-improvement/analytics cookies are accepted. Page-view counts may continue as aggregate, first-party site functionality even if optional cookies are rejected.
 
+== Missed search queries ==
+Independently of Google Analytics and the consent-gated <code>edfmPopularSearch</code> cookie, EDFM keeps a first-party digest of MediaWiki “Go” searches that do not match an existing page. For each distinct miss, the digest stores the full query text, the number of misses, and the last time the query was seen. This collection happens on the server whether or not optional Analytics cookies are accepted and does not require or set a search-digest cookie.
+
+The digest helps administrators identify missing articles, useful redirects, and common spelling variations. Access to the digest is restricted to site administrators. The digest table itself does not store visitor IP addresses, account IDs, or usernames, and EDFM does not deliberately link these records to a visitor or account. Search text can nevertheless contain personal or sensitive information entered by a visitor.
+
+Missed-query records are retained until an administrator clears them; no automatic expiry is currently applied. Do not enter passwords, authentication tokens, private messages, or other sensitive information into site search. To request review or removal of a stored query, contact <code>contact@edfieldmanual.com</code>.
+
 == Frontier OAuth and CAPI ==
 EDFM supports Frontier OAuth login as an alternative sign-in/register method. Frontier Auth is handled through an OAuth2 authorization-code flow: the visitor is sent to Frontier to approve sign-in, then Frontier returns the visitor to EDFM's authentication callback.
 
@@ -92,7 +118,7 @@ EDFM does not intentionally make Frontier customer IDs, OAuth codes, access toke
 
 Frontier states that real names, email addresses, commander names, gamertags, Steam nicknames, Online IDs, and similar game/platform identities are personally identifiable information. EDFM therefore treats Frontier account, commander, and linked-platform identity data as personal data, even when the identifier is game-facing rather than a real-world name.
 
-EDFM's current Frontier login requests the minimal <code>auth</code> scope for account sign-in/linking only. EDFM does not request the <code>capi</code> scope during normal login and does not query Frontier's Companion API as part of signing in. Commander-name verification through CAPI is a separate opt-in Preferences action. If a logged-in user chooses '''Attach CMDR Name''', EDFM requests <code>auth capi</code>, queries Frontier's Companion API once to read the Commander name, and stores the verified Commander name plus a verification timestamp. The Commander name is private by default unless the user later enables the public display preference. EDFM does not store ship data, location data, or other Companion API content for this verification flow. See [[Elite Dangerous Field Manual:Verified Commanders]] for what verification does and does not mean.
+EDFM's current Frontier login requests the minimal <code>auth</code> scope for account sign-in/linking only. EDFM does not request the <code>capi</code> scope during normal login and does not query Frontier's Companion API as part of signing in. Commander-name verification through CAPI is a separate opt-in Preferences action. If a logged-in user chooses '''Attach CMDR Name''', EDFM requests <code>auth capi</code>, queries Frontier's Companion API once to read the Commander name, and stores the verified Commander name plus a verification timestamp. The Commander name remains private. A separate optional preference can display a Verified Commander badge beside links to the user's EDFM username; it does not publish the Commander name. EDFM does not store ship data, location data, or other Companion API content for this verification flow. See [[Elite Dangerous Field Manual:Verified Commanders]] for what verification does and does not mean.
 
 EDFM does not currently store Frontier refresh tokens for CAPI sync. If EDFM later stores refresh tokens, they should be stored only server-side, protected from public access, replaced when Frontier rotates them, and removed when the user disconnects Frontier access or when continued refresh is no longer authorized.
 
@@ -111,7 +137,7 @@ Users can disconnect or change linked account providers through the available ac
 See [[Elite Dangerous Field Manual:Cookie Policy]] for the cookie categories, current cookies, Analytics cookies, and consent controls. Necessary cookies are always on; the optional Analytics category can be changed later through Cookie Preferences.
 
 == Backups ==
-EDFM takes a full backup (database, uploaded files, and site configuration) once daily. Backups are retained for the last 7 daily backups plus one older snapshot from each of the preceding 4 weeks, then are automatically deleted &mdash; backups are not kept indefinitely. Backup archives are stored on the same server with access restricted to server administrators; they are not published, shared, or sent to a third party. An offsite/secondary-location backup copy is not currently configured. Data removed from the live site (for example, as part of an account-removal request) may still exist in an already-taken backup until that specific backup ages out under this retention schedule.
+EDFM takes an application-level backup (database, uploaded files, and site configuration) once daily and may take additional application backups before maintenance work. Retention keeps the newest application archive from each of up to the 7 most recent UTC calendar dates represented; additional same-day archives do not displace older daily restore points. It also keeps the newest older snapshot from each of up to 4 recent ISO weeks. Archives outside those daily and weekly slots are automatically deleted &mdash; backups are not kept indefinitely. The Proxmox host also takes a complete VM backup once daily to a separate local disk and retains the latest 7 VM backups. Both backup locations are on the same physical Proxmox host and are restricted to server administrators; the backups are not published, shared, or sent to a third party. An offsite backup copy is not currently configured. Data removed from the live site (for example, as part of an account-removal request) may still exist in an already-taken application or VM backup until that copy ages out under its retention schedule.
 
 == Third parties ==
 EDFM may link to external websites such as Frontier, Discord, Creative Commons, MediaWiki, community tools, and source references. Visiting external links is governed by those sites' own policies. If you choose a third-party sign-in provider, your browser is sent to that provider for authorization and then returned to EDFM. Eligible public pages may also load Google Analytics from Google as described above.

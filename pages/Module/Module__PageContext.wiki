@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:PageContext
 Namespace: 828
 Page ID: 729
-Revision ID: 2935
-Timestamp: 2026-09-02T14:17:14Z
+Revision ID: 6370
+Timestamp: 2026-10-07T11:19:08Z
 Source URL: https://edfieldmanual.com/wiki/Module:PageContext
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -111,6 +111,20 @@ local function pageInShips(title)
 	return listContains(index, title)
 end
 
+local function pageInSRVs(title)
+	local index = loadLuaData('Module:Data/SRVs/index')
+	return listContains(index, title)
+end
+
+local function pageInExobiologySpecies(title)
+	local data = loadJsonPage('Module:Data/Exobiology/Species')
+	if type(data) ~= 'table' or type(data.species) ~= 'table' then return false end
+	for _, record in ipairs(data.species) do
+		if type(record) == 'table' and sameTitle(record.title, title) then return true end
+	end
+	return false
+end
+
 local function pageInShipModules(title)
 	local index = loadLuaData('Module:Data/ShipModules/index')
 	return listContains(index, title)
@@ -145,12 +159,17 @@ local function pageInMiningDataset(title, dataTitle, field)
 	return findRecordInLuaList(title, dataTitle, field and { field, 'page', 'label', 'title' } or nil) ~= nil
 end
 
-local function miningProcedureRecord(title)
-	return findRecordInLuaList(title, 'Module:Data/Procedures/Mining', { 'page', 'title' })
+local function procedureRecord(title)
+	local sources = config.procedureDataSources or { 'Module:Data/Procedures/Mining' }
+	for _, dataTitle in ipairs(sources) do
+		local record = findRecordInLuaList(title, dataTitle, { 'page', 'title' })
+		if record then return record end
+	end
+	return nil
 end
 
 local function guardianLike(title)
-	return title:find('Guardian', 1, true) ~= nil or title:find('Nanite Torpedo', 1, true) ~= nil
+	return title:find('Guardian', 1, true) ~= nil
 end
 
 local function thargoidLike(title)
@@ -210,13 +229,20 @@ function p.getPageTypeValue(pageName)
 	local key = 'type:' .. title
 	if cache[key] ~= nil then return cache[key] ~= '' and cache[key] or nil end
 	local pageType = nil
+	local overrides = config.pageTypeOverrides or {}
 
-	if pageInEngineers(title) then
+	if overrides[title] then
+		pageType = overrides[title]
+	elseif pageInEngineers(title) then
 		pageType = 'engineer'
 	elseif engineeringBlueprintRecord(title) then
 		pageType = 'engineering_blueprint'
 	elseif experimentalEffectRecord(title) then
 		pageType = 'experimental_effect'
+	elseif pageInExobiologySpecies(title) then
+		pageType = 'exobiology_species'
+	elseif pageInSRVs(title) then
+		pageType = 'srv'
 	elseif pageInShips(title) then
 		pageType = 'ship'
 	elseif pageInMiningDataset(title, 'Module:Data/Mining/Methods') then
@@ -227,7 +253,7 @@ function p.getPageTypeValue(pageName)
 		pageType = 'mining_location'
 	elseif pageInMiningDataset(title, 'Module:Data/Mining/Commodities') then
 		pageType = 'mining_commodity'
-	elseif miningProcedureRecord(title) then
+	elseif procedureRecord(title) then
 		pageType = 'field_procedure'
 	else
 		local unlockTarget = afterPrefix(title, 'Unlocking ')
@@ -265,7 +291,7 @@ function p.getContentTypeValue(pageName, override)
 	local overrides = config.contentTypeOverrides or {}
 	if overrides[title] then
 		contentType = overrides[title]
-	elseif miningProcedureRecord(title) then
+	elseif procedureRecord(title) then
 		contentType = config.defaultFieldProcedureContentType or 'Field Procedures'
 	else
 		local unlockTarget = afterPrefix(title, 'Unlocking ')
@@ -295,8 +321,12 @@ function p.getPrimarySectionValue(pageName, override)
 	local exact = config.exactPrimarySections or config.exactSections or {}
 	local overrides = config.primarySectionOverrides or {}
 
-	local proc = miningProcedureRecord(title)
-	if proc and isNonEmpty(proc.topic) then
+	if exact[title] then
+		section = exact[title]
+	end
+
+	local proc = procedureRecord(title)
+	if not section and proc and isNonEmpty(proc.topic) then
 		section = normalizeProcedureTopic(proc.topic)
 	end
 
@@ -312,10 +342,6 @@ function p.getPrimarySectionValue(pageName, override)
 	if not section then
 		local pageType = p.getPageTypeValue(title)
 		section = typeToPrimarySection(pageType)
-	end
-
-	if not section and exact[title] then
-		section = exact[title]
 	end
 
 	if not section then

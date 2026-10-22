@@ -1,0 +1,120 @@
+<!--
+EDFM current-content archive export.
+Title: Mission Rewards
+Namespace: 0
+Page ID: 967
+Revision ID: 6123
+Timestamp: 2026-10-04T15:55:54Z
+Source URL: https://edfieldmanual.com/wiki/Mission_Rewards
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=Credits, reputation, influence, materials, commodities, and reward selection.}}
+
+{{Article status
+| status = Partially verified
+| mode = Live
+| version = Current Live
+| reviewed = 2026-10-04
+| reviewer = Sythan
+| source_quality = Reward fields are supported by Frontier's current Player Journal Manual; influence scale interpretation uses current community BGS documentation.
+| uncertainty = Reward values and available packages vary by contract, reputation, faction state, location, and balance changes.
+}}
+
+Most completed [[Missions|missions]] offer one or more reward packages. The packages can trade credits against reputation, influence, engineering materials, or commodities. Choose according to the reason for taking the mission rather than assuming that the first or largest credit offer is always best.
+
+== Reward types ==
+
+{| class="wikitable"
+! Reward
+! Affects
+! Practical use
+|-
+| Credits
+| Commander balance
+| Ships, modules, rebuys, repairs, cargo, and other purchases.
+|-
+| Reputation
+| The commander's relationship with a faction
+| Unlocking better mission offers and improving local standing. Reputation is not faction influence.
+|-
+| Influence
+| A faction's standing in a particular star system
+| [[Background Simulation|BGS]] work. Influence is system-specific and the affected faction or system should be verified.
+|-
+| Materials
+| Engineering-material inventory
+| [[Engineering]], synthesis, Technology Brokers, and other material costs. Material grade and quantity can outweigh a credit difference.
+|-
+| Commodities
+| Ship cargo
+| Trade, unlocks, donations, or later mission requirements. Cargo capacity is needed before selecting the package.
+|-
+| Merc Coin
+| Operations currency
+| Earned through [[Operations]] and spent through eligible existing vendors; it is not an ordinary Mission Board reward.<ref name="operations4400">[https://www.elitedangerous.com/news/updates/4-4-0-0 Elite Dangerous: Operations – Available Now], Frontier Developments, 30 June 2026.</ref>
+|}
+
+== Reputation and influence are different ==
+
+'''Reputation''' describes the relationship between the commander and a faction. Raising it can move the commander toward Cordial, Friendly, or Allied standing and can make additional offers available.
+
+'''Influence''' belongs to a minor faction within one star system. It is used by the BGS to compare resident factions in that system. Influence gained for a faction in System B does not automatically increase the same faction's influence in System A.
+
+A package can include both. The journal's <code>MissionCompleted</code> event records top-level reward values and may contain a <code>FactionEffects</code> array that identifies the factions and systems affected.<ref name="journalv38">[https://hosting.zaonce.net/community/journal/v38/Journal_Manual_v38.pdf Elite Dangerous Player Journal Manual, version 38], Frontier Developments, pp. 68–70.</ref>
+
+== What the plus signs mean ==
+
+Labels such as '''REP+''', '''REP+++''', '''INF+''', and '''INF+++''' are relative effect indicators. More plus signs indicate a stronger effect than a lower-rated package for the same offer. They are not a guaranteed percentage-point change.
+
+The visible movement after a BGS update depends on the total eligible activity in the system and the system's population. Current community BGS documentation therefore treats the influence label as a relative mission value rather than a direct percentage promise.<ref name="sincbgs">[https://sinc.science/guides/sinc/The%20Complete%20BGS%20Guide%202025.pdf The Complete BGS Guide 2025, version 3.0], SINC, pp. 31–33.</ref>
+
+== Choosing a package ==
+
+=== For credits ===
+
+Compare the cash reward with travel time, fuel, ammunition, repair, cargo purchase, and rebuy exposure. A high headline reward can be poor value if the route or risk is disproportionate.
+
+=== For reputation ===
+
+Choose the higher REP package when access to better local offers or stronger standing with the issuer matters more than immediate income. Verify which faction's reputation appears in the completion journal when a mission involves more than one faction.
+
+=== For BGS influence ===
+
+Choose the higher INF package only after identifying the affected faction and system. In multi-faction contracts, the destination or target can receive a recorded faction effect. The reward label does not make influence galaxy-wide and does not transfer it to every system where that faction is present. See [[Mission Influence and BGS Effects]].
+
+=== For materials ===
+
+Consider material grade, current inventory, storage limits, and how difficult the material is to obtain by other methods. Do not select a package that would exceed a useful cap without a reason.
+
+=== For commodities ===
+
+Confirm free cargo space and legality before selecting the reward. Commodity rewards enter the ship's hold and can expose the commander to scans, piracy, or storage problems.
+
+== Reward collection and verification ==
+
+Some missions complete immediately at the objective; others require returning to a contact, Mission Board, or Passenger Lounge to choose and collect a package. Do not treat the objective update as proof that rewards have been issued.
+
+For a completed mission, search the player journal for its <code>MissionCompleted</code> event. Useful fields include:
+
+* <code>Reward</code> for credits;
+* <code>PermitsAwarded</code> where applicable;
+* <code>CommodityReward</code> and <code>MaterialsReward</code>;
+* <code>FactionEffects</code> for reputation, influence, system address, and state trends.
+
+The journal documents the recorded result more precisely than the compact reward icons on the mission board.<ref name="journalv38" />
+
+== Related Field Manual entries ==
+
+* [[Reading a Mission]]
+* [[Mission Influence and BGS Effects]]
+* [[Reputation]]
+* [[Background Simulation#Factions, influence, and reputation|Influence]]
+* [[Background Simulation]]
+* [[Engineering]]
+
+== References ==
+
+<references />
+
+[[Category:Missions]]

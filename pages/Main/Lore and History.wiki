@@ -3,18 +3,74 @@ EDFM current-content archive export.
 Title: Lore and History
 Namespace: 0
 Page ID: 62
-Revision ID: 2106
-Timestamp: 2026-08-24T21:27:35Z
+Revision ID: 4388
+Timestamp: 2026-09-16T02:59:23Z
 Source URL: https://edfieldmanual.com/wiki/Lore_and_History
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Index for in-universe lore and background content.}}
-{{Article status|status=Draft|mode=Historical|noindex=yes}}
+{{Article header|deck=The entry point for EDFM's coverage of galactic civilizations, political powers, settlements, conflicts, and in-universe records.}}
 
-Index for in-universe lore and background content — see [[:Category:Lore]] and [[:Category:Galactic Archive]].
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current EDFM reference index
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+}}
 
-{{Draft warning}}
-No individual lore articles exist yet.
+'''Lore and History''' is the navigation hub for the people, cultures, places, and events that shape the setting of ''Elite Dangerous''. It connects historical reference articles with the current systems and equipment affected by that history.
 
-{{Related articles|[[Elite Dangerous Field Manual:About the Field Manual]]}}
+Historical context and game mechanics are kept distinct. A history article explains what happened and why it matters; the relevant activity, module, location, or procedure page owns current instructions and specifications.
+
+== Alien civilizations and conflicts ==
+
+; [[Guardian]]
+: The extinct alien civilization known through archaeological sites, recovered records, surviving machines, and human adaptations of Guardian technology.
+
+; [[Thargoid]]
+: The non-human civilization encountered throughout the series, including its vessels, technology, sites, and interactions with humanity.
+
+; [[Thargoid War History]]
+: The chronological archive for the modern conflict between humanity and the Thargoids.
+
+== Human powers and settlements ==
+
+; [[Empire]]
+: One of humanity's three major superpowers, with its own government, institutions, naval progression, and political history.
+
+; [[Colonia]]
+: The remote settlement founded around Jaques Station and the centre of the largest permanent human enclave outside the core systems.
+
+; [[Powerplay]]
+: The current strategic system through which galactic Powers compete for influence and reward their pledged commanders.
+
+== The continuing record ==
+
+'''[[GalNet]]''' is Frontier Developments' in-universe news service. EDFM's GalNet archive provides official headlines, publication dates, short excerpts, and links to the complete reports. Together, those reports form a chronological record of political developments, discoveries, conflicts, and public announcements during the live narrative.
+
+GalNet reports are written from within the setting. Statements attributed to governments, corporations, researchers, or other participants represent what those sources reported at the time; they are not automatically an objective account of every disputed event.
+
+== Using historical dates ==
+
+Most modern events use the in-universe calendar, which is 1,286 years ahead of the corresponding real-world year. A report published in 2026 therefore normally bears a date in 3312. EDFM retains in-universe dates for chronology and gives the source publication date where it helps identify the original record.
+
+Live and Legacy share much of the same historical foundation, but newer Live developments may not be present in Legacy. Articles identify version-dependent events when that distinction affects a commander.
+
+== Browse the archive ==
+
+* [[:Category:Galactic Archive|Galactic Archive]] — chronological records of major events and conflicts.
+* [[:Category:Lore|Lore]] — the broader lore index.
+
+{{Related articles
+ |[[GalNet]]
+ |[[Guardian]]
+ |[[Thargoid]]
+ |[[Colonia]]
+ |[[Empire]]
+ |[[Powerplay]]
+ |[[Game Reference]]
+}}
+
+[[Category:Lore]]
+[[Category:Reference Entries]]

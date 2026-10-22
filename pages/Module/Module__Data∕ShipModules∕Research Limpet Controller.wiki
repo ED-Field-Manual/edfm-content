@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Research Limpet Controller
 Namespace: 828
 Page ID: 585
-Revision ID: 1372
-Timestamp: 2026-08-21T00:00:37Z
+Revision ID: 4573
+Timestamp: 2026-09-17T13:10:26Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Research_Limpet_Controller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Research Limpet Controller",
+	module_class = "Limpet controller",
+	slot_type = "Optional internal",
+	mount = "Class 1E",
+	manufacturer = "Multiple manufacturers",
+	availability = "Outfitting purchase",
+	engineering = "No documented Engineering support",
+	related_modules = "[[Xeno Multi Limpet Controller]], [[Corrosion Resistant Cargo Rack]]",
 }

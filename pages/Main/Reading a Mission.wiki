@@ -1,0 +1,153 @@
+<!--
+EDFM current-content archive export.
+Title: Reading a Mission
+Namespace: 0
+Page ID: 966
+Revision ID: 6122
+Timestamp: 2026-10-04T15:55:50Z
+Source URL: https://edfieldmanual.com/wiki/Reading_a_Mission
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=How to interpret a mission contract before accepting it.}}
+
+{{Article status
+| status = Partially verified
+| mode = Live
+| version = Current Live
+| reviewed = 2026-10-04
+| reviewer = Sythan
+| source_quality = Contract fields are supported by Frontier's current Player Journal Manual and in-game documentation.
+| uncertainty = The available fields and wording vary by mission type and game state.
+}}
+
+A mission contract is more than its title. Before accepting it, identify who is issuing it, what counts as completion, where the work occurs, what can make it illegal or fail, and which reward package supports the commander's actual goal.
+
+== Contract checklist ==
+
+{| class="wikitable"
+! Field
+! What to check
+|-
+| Issuing faction
+| The faction offering the contract. This is recorded as <code>Faction</code> in the journal's <code>MissionAccepted</code> event.<ref name="journalv38">[https://hosting.zaonce.net/community/journal/v38/Journal_Manual_v38.pdf Elite Dangerous Player Journal Manual, version 38], Frontier Developments, pp. 67–70.</ref>
+|-
+| Mission name and objective
+| Read the full objective rather than inferring the task from a broad board category.
+|-
+| Destination
+| Check the system, station, settlement, body, signal source, or beacon. Confirm landing-pad and access requirements.
+|-
+| Target or destination faction
+| A named target faction can determine valid kills, legal consequences, or a secondary BGS effect. It is not automatically the same as the issuer.
+|-
+| Quantity
+| Cargo, passengers, kills, items, or data units required. Confirm that the ship or suit can carry the requirement.
+|-
+| Reputation requirement
+| Higher-reputation contacts can offer different contracts and rewards. A locked offer shows the standing needed to accept it.
+|-
+| Threat
+| A relative warning, not a promise that every encounter will be equally difficult. Mission updates and hostile responses can raise the practical risk.
+|-
+| Deadline
+| The expiry shown in the contract. Some stages also create shorter timers after the mission begins.
+|-
+| Legal status
+| Look for an illegal-mission warning and read each objective. Trespass, theft, prohibited cargo, scans, and attacks can still create crimes.
+|-
+| Team status
+| A Team mission is explicitly marked and can be shared under its own rules. Ordinary missions do not become Team missions merely because several commanders travel together.
+|-
+| Reward choices
+| Compare credits, reputation, influence, materials, and commodities. The largest credit value is not always the useful choice.
+|-
+| Failure and abandonment
+| Note the explicit failure conditions, possible fines, cargo consequences, reputation loss, and any BGS concern.
+|}
+
+== Issuer, destination, and target ==
+
+Three identities are commonly confused:
+
+* The '''issuing faction''' offered the mission.
+* The '''destination contact or faction''' receives a delivery, passenger group, or other objective where the contract specifies one.
+* The '''target faction''' is the faction whose ships, personnel, property, or activity the mission directs the commander to affect.
+
+A contract can involve more than one faction. Do not assume that every positive effect belongs to the issuer or that every destination receives influence. [[Mission Influence and BGS Effects]] explains how the completion journal records each affected faction and system.
+
+== Requirements ==
+
+=== Ship and cargo ===
+
+Check cargo capacity before accepting a delivery mission. Mission-provided cargo is collected from the mission depot and is distinct from ordinary market cargo. Source-and-return missions instead require the commander to obtain the named commodity.
+
+Passenger contracts require enough seats of the stated class in compatible [[Passenger Cabin|Passenger Cabins]]. VIP parties reserve a complete cabin even when they do not use every seat.
+
+=== Odyssey equipment ===
+
+On-foot contracts may require [[Odyssey#Suits and handheld weapons|Maverick]], [[Dominator Suit|Dominator]], or [[Odyssey#Suits and handheld weapons|Artemis]] equipment, an Arc Cutter, an Energy Link, a Profile Analyser, suitable weapons, or an e-breach. The legal objective does not authorise unrelated theft, cloning, trespass, or assault.
+
+=== Distance and access ===
+
+The mission summary may show jump distance without making the final supercruise distance obvious. Check the destination body or station before committing to a route. Also confirm pad size, permit access, planetary-landing capability, and whether [[Odyssey]] is required.
+
+== Threats and mission updates ==
+
+Threat level is a screening tool. Ship strength, engineering, settlement security, local authority, wing size, and mission-generated opponents can make two contracts with the same displayed threat feel different.
+
+After acceptance, the Transactions panel is the commander's primary task list. Updates may:
+
+* reveal a target or mission signal source;
+* change or add a destination;
+* offer an optional time bonus;
+* warn that hostile ships have been sent;
+* add a passenger request;
+* begin a short stage timer.
+
+An optional update should be read independently. Declining or missing an optional objective does not necessarily fail the main mission, but the contract text governs the result.
+
+== Deadlines, failure, and abandonment ==
+
+The journal writes separate events when a mission is accepted, completed, abandoned, or failed. <code>MissionAccepted</code> can include the destination, target faction, count, expiry, passenger information, and a displayed reputation or influence value. <code>MissionCompleted</code> records the final rewards and can include detailed faction effects. <code>MissionAbandoned</code> and <code>MissionFailed</code> identify the affected mission but do not provide the same faction-effect detail.<ref name="journalv38" />
+
+Common failure paths include:
+
+* missing the deadline;
+* losing irreplaceable mission-provided cargo;
+* destroying or losing the objective;
+* killing a person who must remain alive;
+* allowing passenger satisfaction to collapse;
+* failing a timed defence, rescue, or combat stage;
+* completing the action at the wrong site or against the wrong faction.
+
+Abandoning a mission is deliberate failure. Return unused mission cargo where the interface permits it and read the confirmation carefully: fines, reputation loss, and negative mission consequences can apply.
+
+== Legal and illegal work ==
+
+A legal mission does not grant blanket immunity. A commander can still receive fines or bounties by:
+
+* carrying prohibited cargo through a scan;
+* assaulting a neutral or clean target;
+* trespassing in a restricted area;
+* stealing items outside the authorised objective;
+* cloning or using credentials unlawfully;
+* damaging authority ships or settlement personnel.
+
+An illegal mission should be evaluated before acceptance. Check the jurisdiction, target, scan risk, detention or rebuy risk, and whether the mission is compatible with the commander's BGS objective.
+
+== Reward and BGS decision ==
+
+Before selecting a contract, separate two questions:
+
+# '''What does the mission ask me to do?'''
+# '''What outcome do I want from the reward?'''
+
+Credits fund the commander. Reputation changes standing with a faction. Influence contributes to a faction's position in a particular system. Materials and commodities supply inventory. See [[Mission Rewards]] and [[Mission Influence and BGS Effects]].
+
+== References ==
+
+<references />
+
+[[Category:Missions]]
+[[Category:Mission guides]]

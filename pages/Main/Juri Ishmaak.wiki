@@ -3,15 +3,15 @@ EDFM current-content archive export.
 Title: Juri Ishmaak
 Namespace: 0
 Page ID: 119
-Revision ID: 3874
-Timestamp: 2026-09-11T16:52:19Z
+Revision ID: 5183
+Timestamp: 2026-09-24T15:18:43Z
 Source URL: https://edfieldmanual.com/wiki/Juri_Ishmaak
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 {{Article status
  |status=Partially verified
- |mode=Live and Legacy
+ |mode=Both
  |version=Elite Dangerous 4.4.1.1
  |reviewed=2026-09-11
  |reviewer=Sythan

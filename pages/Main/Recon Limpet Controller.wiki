@@ -3,22 +3,102 @@ EDFM current-content archive export.
 Title: Recon Limpet Controller
 Namespace: 0
 Page ID: 574
-Revision ID: 2187
-Timestamp: 2026-08-24T23:44:56Z
+Revision ID: 4493
+Timestamp: 2026-09-16T16:39:03Z
 Source URL: https://edfieldmanual.com/wiki/Recon_Limpet_Controller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Recon Limpet Controller ship module.
+{{Article header|deck=An optional internal controller that programmes limpets to hack supported data points on megaships and installations.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Specifications use commit-pinned EDCD module data and maintained equipment references; operation is cross-checked against the established multi-controller reference.
+ |uncertainty=Hackable target availability and legal consequences depend on the installation, mission, and jurisdiction.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Recon Limpet Controller''' is an optional internal module that programmes ordinary limpets to hack supported data points on megaships and installations. The pilot scans the structure and relevant transmitter with a Data Link Scanner, selects the transmitter's hackable subtarget, and launches a recon limpet from within the controller's range.<ref name="wiki-recon">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Recon_Limpet_Controller Recon Limpet Controller].</ref>
+
+A recon limpet performs the intrusion after it reaches and attaches to the target. It does not replace the initial data-link scan, make an unsupported object hackable, collect cargo, or breach an ordinary ship's cargo hatch. Those cargo-release tasks belong to the [[Hatch Breaker Limpet Controller]].
+
+== Specifications ==
+
+{| class="wikitable sortable"
+! Class
+! Rating
+! Mass
+! Integrity
+! Power draw
+! Active limpets
+! Range
+! Hack time
+! Reference price
+|-
+| 1 || E || 1.3 t || 24 || 0.18 MW || 1 || 1,200 m || 22 s || 2,600 CR
+|-
+| 3 || E || 2 t || 51 || 0.20 MW || 1 || 1,400 m || 17 s || 8,200 CR
+|-
+| 5 || E || 20 t || 96 || 0.50 MW || 1 || 1,700 m || 13 s || 75,800 CR
+|-
+| 7 || E || 128 t || 157 || 0.97 MW || 1 || 2,000 m || 10 s || 612,200 CR
+|}
+
+Every dedicated Recon Limpet Controller supports one active limpet. Larger classes extend range and shorten the hack, but the Class 5 and 7 modules become dramatically heavier and consume larger optional internal compartments.<ref name="data-recon">EDCD Coriolis Data, [https://raw.githubusercontent.com/EDCD/coriolis-data/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/internal/recon_limpet_controllers.json Recon Limpet Controller records], commit-pinned.</ref>
+
+Published community references differ on some displayed hack times and prices. The table follows the commit-pinned EDCD record, including 22 seconds for Class 1 and 17 seconds for Class 3. Commanders comparing an older reference should use the current Outfitting panel as the final in-game check.
+
+== Operation ==
+
+The controller consumes limpets from the ship's cargo hold. A working interaction normally follows this sequence:
+
+# approach the megaship or installation and scan it with the Data Link Scanner;
+# identify and scan a supported transmitter or array;
+# select the exposed hackable subtarget;
+# move within the controller's operating range and launch a recon limpet; and
+# remain close enough for the limpet to attach and complete the hack.
+
+The controller's listed hack time begins after the limpet reaches the target and starts its work. Travel time is additional. Moving beyond control range, losing the limpet to defensive fire, or otherwise interrupting the interaction can destroy the limpet before completion.
+
+Recon limpets are single-use. A ship therefore needs a [[Cargo Rack]] holding enough limpets for the planned number of attempts. The controller itself does not manufacture limpets, provide cargo space, or recover the drone after the hack.
+
+== Targets and results ==
+
+Recon limpets are used against supported hackable data transmitters, communications arrays, and related data points on large space structures. The exact result depends on the target: a completed intrusion can provide encoded data or advance an objective associated with that data point.<ref name="wiki-recon" />
+
+Scanning a megaship for a mission objective and hacking one of its data points are separate interactions. Some objectives require only a Data Link Scanner. Fit and deploy the recon controller only when the selected subtarget actually accepts a recon limpet.
+
+Hacking can be treated as an illegal or hostile act. Jurisdiction, target ownership, detection, and mission context determine the consequences; the module provides no immunity from fines, bounties, defensive turrets, or security response.
+
+== Class choice ==
+
+The Class 1 controller has the strongest slot and mass efficiency. Larger versions do not increase the number of simultaneously controlled limpets; they pay heavily for more range and a shorter attached hack.
+
+This makes Class 1 the usual baseline when optional-internal space matters. A larger controller is useful only when its faster completion or extra standoff range is worth the compartment and mass cost. Fitting two dedicated controllers can support separate active recon limpets because each has its own one-limpet limit, subject to the target encounter accepting parallel tasks.
+
+The [[Operations Multi Limpet Controller]] provides recon, collector, and hatch-breaker programmes from one Class 3 module and shares four active slots between those functions. It offers broader utility, while the dedicated Recon Limpet Controller provides a lighter Class 1 option and access to the larger dedicated ranges and hack times.
+
+== Engineering ==
+
+Recon Limpet Controllers do not accept Engineering blueprints or Experimental Effects. Their performance changes only with the purchased class. Engineering support for other dedicated limpet-controller families must not be assumed to apply to recon controllers.
+
+== Acquisition ==
+
+All four dedicated variants are ordinary credit purchases through Outfitting where stocked. They require no Engineer, Technology Broker, naval rank, permit, or Powerplay unlock.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Operations Multi Limpet Controller]] [[Hatch Breaker Limpet Controller]] [[Collector Limpet Controller]] [[Prospector Limpet Controller]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Limpet controllers]]

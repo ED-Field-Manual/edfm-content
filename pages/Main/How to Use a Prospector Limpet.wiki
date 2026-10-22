@@ -3,54 +3,83 @@ EDFM current-content archive export.
 Title: How to Use a Prospector Limpet
 Namespace: 0
 Page ID: 710
-Revision ID: 1678
-Timestamp: 2026-08-24T00:22:58Z
+Revision ID: 4375
+Timestamp: 2026-09-16T01:32:47Z
 Source URL: https://edfieldmanual.com/wiki/How_to_Use_a_Prospector_Limpet
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Procedure draft based on current mining limpet workflow and EDFM Mining metadata|uncertainty=Exact cockpit labels and prospector-yield edge cases still need final in-game verification.}}
-__NOINDEX__
-{{Field procedure|summary=Launch and read prospector limpets to identify asteroid contents before committing time and collector limpets.}}
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1.1; dedicated-controller mechanics also apply to Legacy
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Frontier's mining overview and current community-maintained module documentation
+ |uncertainty=Frontier has not published the current laser-fragment multipliers; exact values remain community documented.
+}}
+{{Field procedure|summary=Launch and read a prospector limpet before committing mining time, ammunition or collector capacity to an asteroid.}}
 
-Use this procedure whenever a mining run needs to choose worthwhile asteroids instead of extracting blindly.
+A prospector limpet analyses one mineable asteroid. After it attaches, targeting the limpet displays the asteroid's contents, remaining ordinary resources and any exposed deposits, sub-surface deposits, fissures or core resource. For laser mining, prospecting before extraction also increases the number of fragments available; the controller rating determines that increase.<ref name="prospector">[https://elite-dangerous.fandom.com/wiki/Prospector_Limpet_Controller Prospector Limpet Controller], ''Elite Dangerous Wiki''. Accessed 16 September 2026.</ref>
 
-{{Draft warning}}
+The prospector identifies what is inside the selected asteroid. It does not locate a profitable market, search an entire ring or decide whether a result fits the current run.
 
 == Before you start ==
 
-* Fit and power a [[Prospector Limpet Controller]].
-* Load limpets into cargo before leaving a station or carrier.
-* Decide what the run is looking for: a commodity, a core asteroid, sub-surface deposits, or general learning practice.
-* Keep enough distance from the asteroid that the limpet has a clear path.
+* Fit and power a [[Prospector Limpet Controller]], assign it to a fire group and carry limpets in the cargo hold.
+* Decide what the run is seeking: ordinary laser-mined composition, surface deposits, sub-surface deposits or a core.
+* Use the appropriate search method before prospecting. A [[Detailed Surface Scanner]] reveals ring hotspots, while a [[Pulse Wave Analyser]] helps locate anomalous candidates for deposit and core mining. Neither replaces the prospector's asteroid-scale report.<ref name="frontier">[https://forums.frontier.co.uk/threads/content-recap-beyond-chapter-four-livestream-mining-and-squadrons.454587/ Content Recap: Beyond — Chapter Four Livestream — Mining and Squadrons]. Frontier Developments, 1 November 2018. Accessed 16 September 2026.</ref>
+* Approach within the controller's range and leave a clear path between the ship and the candidate asteroid.
 
 == Procedure ==
 
 {{Procedure steps|
-# Select a candidate asteroid visually, by hotspot position, or by the search pattern for the chosen method.
-# Point the ship so the prospector limpet has a clear launch path.
-# Launch one prospector limpet at the asteroid.
-# Wait for the limpet to attach and complete its scan.
-# Read the asteroid contents, deposit information, and any method-specific signals shown by the prospector result.
-# Decide whether the asteroid is worth mining before deploying collectors or spending ammunition.
-# Move to another asteroid if the contents do not match the run's goal.
+# Select a candidate asteroid using the ring, hotspot and search method appropriate to the intended commodity.
+# Enter Analysis Mode and align the ship so the limpet's path does not cross another asteroid or a fast-moving projection on the target.
+# Fire one prospector at the asteroid. Each launch consumes one limpet from cargo.
+# Wait for the limpet to strike and attach, then target the attached prospector.
+# Read the target-information panel. Check the ordinary commodity percentages and resources remaining, then look for any listed surface deposits, sub-surface deposits, fissures or core resource.
+# Compare the result with the objective set for the run. There is no universal percentage threshold: the useful minimum depends on the commodity, travel time, extraction method and commander's priorities.
+# If the asteroid is unsuitable, launch at another candidate. If it is suitable, keep its result available while positioning for the appropriate extraction procedure.
 }}
 
-== Completion check ==
+For [[Laser Mining|laser mining]], attach the prospector before firing mining lasers. The fragment-yield increase is not retroactive, so fragments removed first do not receive the later bonus.<ref name="prospector" /> An A-rated dedicated controller provides the highest documented laser-fragment multiplier; the full rating table belongs to [[Prospector Limpet Controller]].
 
-The procedure is complete when the commander has a prospector result and has either committed to mining the asteroid or moved on deliberately.
+== Reading the result ==
+
+* '''Commodity percentages''' identify the ordinary resources available to mining lasers. They do not report sale prices or guarantee a profitable trip.
+* '''Resources remaining''' tracks the ordinary laser-minable supply. It is not a measure of unworked surface deposits, sub-surface deposits or fissures.
+* '''Surface and sub-surface deposits''' become targetable for an [[Abrasion Blaster]] or [[Sub-surface Displacement Missile]].
+* '''Fissures and core resource''' confirm a core asteroid and identify the targets used by a [[Seismic Charge Launcher]].
+* '''Material content''' describes the asteroid's potential raw Engineering-material output; raw materials use material storage rather than refinery bins or cargo racks.
+
+== Managing active prospectors ==
+
+A controller supports only a limited number of active prospectors. Launching another after that limit is reached expires the oldest one. Do not replace the prospector attached to an asteroid still being worked if its result or deposit markers are needed.<ref name="prospector" />
+
+Higher controller classes can keep more prospectors active and may have greater range. Rating affects the laser-fragment multiplier and other module characteristics. Check the fitted module rather than assuming that every dedicated or multi-limpet controller behaves identically.
 
 == Common problems ==
 
-* '''The limpet misses or dies:''' slow down, face the asteroid more cleanly, and avoid launching into nearby rock.
-* '''The asteroid has low-value contents:''' skip it; the prospector is doing its job by saving time.
-* '''The controller will not launch:''' check module power, fire group assignment, available limpets, and whether another active prospector is already using the controller's capacity.
-* '''Collectors are launched too early:''' prospect first, then collect after the asteroid is worth working.
+* '''The limpet misses or breaks:''' reduce ship motion, align with a broad face of the asteroid and avoid firing across nearby rock. Rotation can move a projection into the flight path after launch.
+* '''The controller will not fire:''' verify module power, the active fire group, Analysis Mode, limpet stock and controller range.
+* '''A result disappears after another launch:''' the controller reached its active-prospector limit and expired the oldest limpet.
+* '''No useful composition appears:''' the asteroid does not match the run's target. Move on rather than spending extraction time and collector capacity on it.
+* '''A deposit tool has nothing to target:''' confirm that the prospector reports the matching deposit type. A bright Pulse Wave return alone does not provide the deposit targets.
+* '''Laser yield is lower than expected:''' attach the prospector before extraction and verify the controller rating. The module's class number is not the documented yield multiplier.
 
-== Related Reference Pages ==
-{{#invoke:Procedures|referenceLinks|procedure=How to Use a Prospector Limpet}}
+== Related procedures ==
 
-== Related Field Procedures ==
-{{#invoke:Procedures|list|page=How to Use a Prospector Limpet}}
+* [[How to Start Mining]]
+* [[How to Laser Mine]]
+* [[How to Core Mine]]
+* [[How to Sub-surface Mine]]
+* [[How to Mine Surface Deposits]]
+* [[How to Use Collector Limpets]]
 
+== Sources ==
+
+<references />
+
+[[Category:Field Procedures]]
 [[Category:Mining]]

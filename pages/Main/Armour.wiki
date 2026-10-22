@@ -3,40 +3,137 @@ EDFM current-content archive export.
 Title: Armour
 Namespace: 0
 Page ID: 365
-Revision ID: 1871
-Timestamp: 2026-08-24T21:20:27Z
+Revision ID: 4252
+Timestamp: 2026-09-15T02:17:11Z
 Source URL: https://edfieldmanual.com/wiki/Armour
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=The core internal Bulkheads module — referred to as "Armour" in Engineering, where it governs hull integrity and damage resistance.
+{{Article header|deck=The mandatory core armour installation that determines a ship's hull integrity and its kinetic, thermal and explosive resistance profile.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Elite Dangerous 4.4.1.1
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Frontier Caspian Explorer update notes, current INARA Armour Engineering records, and community-maintained module data
+ |uncertainty=Bulkhead mass and price are specific to each ship model; current Mk II Ablative statistics are incompletely documented outside the game.
 }}
 
-{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established core mechanic, unchanged since launch; no citation-dependent figures asserted}}
+'''Armour''', commonly called '''Bulkheads''', is the mandatory core internal installation that defines a ship's hull integrity and its resistance to kinetic, thermal and explosive damage. Every ship is delivered with Lightweight Alloy armour and can replace it with heavier or damage-specialised variants through Outfitting.
 
-'''Armour''' is the Engineering-blueprint name for a ship's '''Bulkheads''', the core internal module that sets a ship's base hull integrity and its resistance to kinetic, thermal, and explosive damage. Every ship comes fitted with a base Bulkheads option and can be upgraded to progressively heavier variants before any Engineering is applied.
+Bulkheads scale from the ship's own hull design. Their mass and price therefore differ by ship rather than following the ordinary module-class progression used by interchangeable core internals.
 
-== Overview ==
+== Function ==
 
-Bulkheads scale a ship's hull integrity by a percentage rather than a flat amount, and heavier variants add mass, which affects jump range and handling. Because of this tradeoff, Armour choice — and Armour Engineering on top of it — is usually made around a ship's intended role rather than always taking the heaviest available option.
+Hull protection has three distinct parts:
 
-Armour is separate from the [[Hull Reinforcement Package]], an optional internal module that adds flat hull integrity instead of a percentage bonus; the two are commonly used together.
+* '''Hull integrity''' is the ship's remaining structural health. Reaching zero destroys the ship.
+* '''Damage resistances''' change the effective kinetic, thermal and explosive damage applied to that integrity. A negative value is a vulnerability.
+* '''Armour hardness''' belongs to the ship model itself. It is compared with a weapon's armour-piercing value and cannot be changed by replacing or engineering the Bulkheads.
+
+Bulkheads protect the hull as a whole. They do not stop a penetrating hit from damaging an internal module; [[Module Reinforcement Package|Module Reinforcement Packages]] provide that separate protection. [[Hull Reinforcement Package|Hull Reinforcement Packages]] occupy optional internal compartments and add further hull integrity and resistances on top of the fitted Bulkheads.
+
+== Standard variants ==
+
+The five standard armour types are available across the ship catalogue. The hull-point figure is the game's Bulkheads boost value; it is not a universal number of hit points, because the final integrity still depends on the ship.
+
+{| class="wikitable sortable"
+! Variant
+! Hull-point boost
+! Kinetic resistance
+! Thermal resistance
+! Explosive resistance
+! Character
+|-
+| '''Lightweight Alloy'''
+| +80%
+| -20%
+| 0%
+| -40%
+| Stock baseline; zero added mass
+|-
+| '''Reinforced Alloy'''
+| +152%
+| -20%
+| 0%
+| -40%
+| 40% more total integrity than Lightweight Alloy without changing its damage profile
+|-
+| '''Military Grade Composite'''
+| +250%
+| -20%
+| 0%
+| -40%
+| Maximum standard raw integrity with the baseline resistance profile
+|-
+| '''Mirrored Surface Composite'''
+| +250%
+| -75%
+| +50%
+| -50%
+| Thermal specialist with severe kinetic and explosive vulnerabilities
+|-
+| '''Reactive Surface Composite'''
+| +250%
+| +25%
+| -40%
+| +20%
+| Kinetic and explosive specialist with a severe thermal vulnerability
+|}
+
+Military Grade, Mirrored and Reactive armour provide the same unengineered hull-point boost. Their distinction is the resistance profile: Military Grade is the neutral maximum-integrity option, while Mirrored and Reactive exchange broad balance for strong protection against selected damage types.
+
+The game applies percentage resistance rather than subtracting a fixed amount of damage. Negative resistance increases damage of that type. Engineering and Hull Reinforcement Packages can alter the final profile, but an extreme vulnerability should be considered alongside the expected threats before a specialised armour type is selected.
+
+== Mass, price and compatibility ==
+
+Each ship has one mandatory Bulkheads installation. Armour made for one hull cannot be transferred to another ship model, even where both entries appear as class 1 in Outfitting.
+
+Lightweight Alloy adds no mass in its standard form. Reinforced Alloy adds a ship-specific mass; Military Grade, Mirrored and Reactive armour are heavier still. The additional mass can reduce jump range and affect flight performance, particularly when the ship is already near its Thrusters' optimal or maximum mass thresholds.
+
+Prices also scale with the hull and can form a substantial part of a combat ship's purchase and rebuy value. The exact current mass, price and availability should therefore be checked in Outfitting for the intended ship instead of applying a figure from another hull.
 
 == Engineering ==
 
-{| class="wikitable"
-! Engineer !! Maximum grade
-|-
-| [[Liz Ryder]] || Grade 1
-|}
+Bulkheads use the '''Armour''' Engineering family. The available blueprint families are:
 
-[[Liz Ryder]], based at [[Demolition Unlimited]] in [[Eurybia]], is EDFM's currently documented Armour Engineer, offering coverage through Grade 1.
+* Blast Resistant;
+* Heavy Duty;
+* Kinetic Resistant;
+* Lightweight; and
+* Thermal Resistant.
 
-=== Related Engineering Guides ===
-{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Hull Reinforcement Package]]}}
+Compatible Experimental Effects include Angled Plating, Deep Plating, Layered Plating and Reflective Plating. These exchange hull boost and individual resistances rather than creating a universally superior result.
+
+Heavy Duty increases hull boost and all three resistances while adding mass. The mass increase does not apply to stock Lightweight Alloy because that module has zero mass, allowing its integrity to be improved without a mass penalty from the blueprint itself.
+
+[[Liz Ryder]] provides Armour Engineering through Grade 1. [[Selene Jean]] and [[Petra Olmanova]] provide it through Grade 5. Blueprint effects, crafting materials and workshop use belong to [[Engineering]] and the individual blueprint references.
+
+Frontier introduced a 75% cap for engineered resistance values in update 4.3.0.1. A displayed build should not be expected to gain additional effective engineered resistance beyond that limit.
+
+== Mk II Ablative armour ==
+
+The Live game also has Mk II Ablative versions of all five standard armour types for the Caspian Explorer. Frontier introduced them with update 4.3.0.0 to permit faster and steeper planetary entries. They are a ship-specific atmospheric-flight line rather than replacements for the standard armour fitted across other ships.
+
+The Mk II Ablative Mirrored Surface Composite was temporarily withheld at release for balancing. Update 4.3.0.1 enabled it at markets for the Caspian Explorer.
+
+Mk II Ablative armour is part of the Live game and is not available in Legacy.
+
+== Sources ==
+
+* [https://www.elitedangerous.com/news/updates/4-3-0-0 Elite Dangerous: Caspian Explorer Update] — Frontier's introduction of the five Mk II Ablative armour variants and their planetary-entry purpose.
+* [https://www.elitedangerous.com/news/updates/4-3-0-1 Elite Dangerous: Caspian Explorer Update 1] — activation of Mk II Ablative Mirrored Surface Composite and the 75% engineered-resistance cap.
+* [https://elite-dangerous.fandom.com/wiki/Bulkheads Elite Dangerous Wiki: Bulkheads] — standard armour variants, hull boosts, resistances, ship-specific mass and acquisition behavior.
+* [https://inara.cz/elite/blueprint/38/ INARA: Armour — Heavy Duty] — current blueprint modifiers, the zero-mass Lightweight Alloy exception, offering Engineers and compatible Experimental Effects.
+
+{{Related articles|[[Hull Reinforcement Package]] [[Module Reinforcement Package]] [[Shield Generator]] [[Engineering]] [[Ships]]}}
 
 {{Engineering nav}}
 
 [[Category:Modules]]
+[[Category:Ship modules]]
 [[Category:Core Internal Engineering]]
+[[Category:Defensive Engineering]]
 [[Category:Engineering]]

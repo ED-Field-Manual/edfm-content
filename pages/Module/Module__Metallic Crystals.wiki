@@ -1,0 +1,93 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Metallic Crystals
+Namespace: 828
+Page ID: 951
+Revision ID: 5998
+Timestamp: 2026-10-03T04:22:56Z
+Source URL: https://edfieldmanual.com/wiki/Module:Metallic_Crystals
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+local p = {}
+local data = mw.loadData('Module:Data/Metallic Crystals')
+
+local function esc(value)
+    return mw.text.nowiki(tostring(value or ''))
+end
+
+local function requestedRecord(frame)
+    local parent = frame:getParent()
+    local title = frame.args.title or frame.args[1] or (parent and (parent.args.title or parent.args[1])) or mw.title.getCurrentTitle().text
+    title = mw.text.trim(title)
+    local record = data.types[title]
+    if not record then
+        return nil, '<strong class="error">No Metallic Crystal record exists for ' .. esc(title) .. '.</strong>'
+    end
+    return record
+end
+
+function p.infobox(frame)
+    local record, problem = requestedRecord(frame)
+    if not record then return problem end
+    local family = data.family
+    return frame:expandTemplate {
+        title = 'Infobox',
+        args = {
+            name = record.title,
+            image = record.image,
+            group1 = 'CODEX',
+            label1 = 'Family', row1 = '[[Metallic Crystal]]',
+            label2 = 'Category', row2 = family.codex_category,
+            label3 = 'Subcategory', row3 = family.codex_subcategory,
+            label4 = 'Entry ID', row4 = tostring(record.entry_id),
+            group5 = 'ENCOUNTER',
+            label5 = 'Encounter type', row5 = family.encounter,
+            label6 = 'Scanner', row6 = family.scanner,
+        }
+    }
+end
+
+function p.familyInfobox(frame)
+    local family = data.family
+    return frame:expandTemplate {
+        title = 'Infobox',
+        args = {
+            name = family.title,
+            image = family.image,
+            group1 = 'CODEX',
+            label1 = 'Type', row1 = 'Organic structure',
+            label2 = 'Category', row2 = family.codex_category,
+            label3 = 'Subcategory', row3 = family.codex_subcategory,
+            label4 = 'Known types', row4 = tostring(family.known_types),
+            group5 = 'ENCOUNTER',
+            label5 = 'Encounter type', row5 = family.encounter,
+            label6 = 'Scanner', row6 = family.scanner,
+        }
+    }
+end
+
+function p.catalogue(frame)
+    local out = {
+        '{| class="wikitable"',
+        '! Type',
+        '! Codex entry ID',
+    }
+    for _, key in ipairs(data.order) do
+        local record = data.types[key]
+        local label = esc(record.title)
+        if record.published and record.page then
+            local page = mw.title.new(record.page)
+            if page and page.exists then
+                label = '[[' .. record.page .. '|' .. label .. ']]'
+            end
+        end
+        table.insert(out, '|-')
+        table.insert(out, '| ' .. label)
+        table.insert(out, '| <code>' .. tostring(record.entry_id) .. '</code>')
+    end
+    table.insert(out, '|}')
+    return frame:preprocess(table.concat(out, '\n'))
+end
+
+return p

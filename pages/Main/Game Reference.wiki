@@ -3,19 +3,37 @@ EDFM current-content archive export.
 Title: Game Reference
 Namespace: 0
 Page ID: 55
-Revision ID: 851
-Timestamp: 2026-08-16T04:05:41Z
+Revision ID: 6383
+Timestamp: 2026-10-07T11:21:40Z
 Source URL: https://edfieldmanual.com/wiki/Game_Reference
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
+{{Article header|deck=Lookup-style reference material for Elite Dangerous systems, activities, ships, equipment, and mechanics.}}
+
 {{Article status|status=Draft|mode=Both}}
 
-Index of lookup-style reference material — see [[:Category:Reference Entries]] for the full list as it grows.
+Index of lookup-style reference material — see [[:Category:Reference Entries]] for the complete category listing.
 
-No individual reference entries have been written yet in this initial deployment.
+== Core systems ==
+
+* [[Missions]] — mission types, rewards, faction effects, and links to practical guides.
+* [[Background Simulation]] — faction influence, states, assets, and local conditions.
+* [[Powerplay]] — Powers, loyalty, Merits, acquisition, reinforcement, and undermining.
+* [[Colonisation]] — system and facility construction.
+* [[Operations]] — multi-stage cooperative scenarios and their rewards.
+
+== Activities and equipment ==
+
+* [[Ships and Equipment]]
+* [[Engineering]]
+* [[Mining]]
+* [[Combat]]
+* [[Exploration]]
+* [[Exobiology]]
+* [[Odyssey]]
 
 == What belongs here ==
 Value/specification lookups rather than step-by-step instructions. Anything not from the article author's own direct testing should carry {{tl|Source citation}}.
 
-{{Related articles|[[Ships and Equipment]] [[Engineering]] [[:Category:Comparisons]]}}
+{{Related articles|[[Missions]] [[Ships and Equipment]] [[Engineering]] [[:Category:Comparisons]]}}

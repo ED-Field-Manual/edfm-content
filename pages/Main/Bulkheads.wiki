@@ -3,22 +3,10 @@ EDFM current-content archive export.
 Title: Bulkheads
 Namespace: 0
 Page ID: 453
-Revision ID: 2136
-Timestamp: 2026-08-24T23:43:53Z
+Revision ID: 4253
+Timestamp: 2026-09-15T02:17:21Z
 Source URL: https://edfieldmanual.com/wiki/Bulkheads
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Bulkheads ship module.
-}}
-
-{{Ship module infobox}}
-
-{{Draft warning}}
-
-== Overview ==
-
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
-
-[[Category:Modules]]
-[[Category:Ship modules]]
+#REDIRECT [[Armour]]

@@ -3,15 +3,15 @@ EDFM current-content archive export.
 Title: Elvira Martuuk
 Namespace: 0
 Page ID: 108
-Revision ID: 3800
-Timestamp: 2026-09-11T03:55:53Z
+Revision ID: 5172
+Timestamp: 2026-09-24T15:18:07Z
 Source URL: https://edfieldmanual.com/wiki/Elvira_Martuuk
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 {{Article status
  |status=Partially verified
- |mode=Live and Legacy
+ |mode=Both
  |version=Elite Dangerous 4.4.1.1
  |reviewed=2026-09-11
  |reviewer=Sythan

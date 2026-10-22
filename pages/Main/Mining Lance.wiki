@@ -3,22 +3,96 @@ EDFM current-content archive export.
 Title: Mining Lance
 Namespace: 0
 Page ID: 529
-Revision ID: 2166
-Timestamp: 2026-08-24T23:44:30Z
+Revision ID: 4398
+Timestamp: 2026-09-16T03:22:23Z
 Source URL: https://edfieldmanual.com/wiki/Mining_Lance
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Mining Lance ship module.
+{{Article header|deck=A long-range Class 1 Powerplay mining laser that can also deal limited thermal combat damage.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy acquisition distinguished
+ |notes=The module's specifications and mining behavior are unchanged; Powerplay 2.0 changed how it is unlocked in Live.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Mining Lance''' is a fixed Class 1D [[Mining Laser]] variant and thermal beam weapon. It extracts ordinary asteroid fragments at the same rate as a standard Class 1 Mining Laser, but extends mining range from 500 metres to '''2,000 metres'''. It can also damage ships, although its combat output is below that of a dedicated Beam Laser.<ref name="module-data">[https://raw.githubusercontent.com/EDCD/coriolis-data/d0f20ca17805588d77c1978fff99a01280dc2d22/modules/hardpoints/mining_laser.json EDCD Coriolis Data: Mining Laser records], commit pinned; accessed 16 September 2026.</ref><ref name="edwiki">[https://elite-dangerous.fandom.com/wiki/Mining_Lance Elite Dangerous Wiki: Mining Lance], accessed 16 September 2026.</ref>
 
-== Overview ==
+The Mining Lance does not identify asteroid composition, increase the asteroid's fragment supply, collect released fragments, or refine them. Those roles remain with the [[Prospector Limpet Controller]], [[Collector Limpet Controller]], and [[Refinery]].
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Specifications ==
+
+{| class="wikitable"
+! Attribute
+! Mining Lance
+! Standard 1D fixed Mining Laser
+|-
+| Mining range || 2,000 m || 500 m
+|-
+| Thermal damage rate || 8 || 2
+|-
+| Damage falloff start || 400 m || 300 m
+|-
+| Mass || 2 t || 2 t
+|-
+| Integrity || 40 || 40
+|-
+| Power draw || 0.70 MW || 0.50 MW
+|-
+| Distributor draw || 1.75 MW || 1.50 MW
+|-
+| Thermal load || 6.0 || 2.0
+|-
+| Armour piercing || 18 || 18
+|-
+| Reference value || 13,600 Cr || 6,800 Cr
+|}
+
+The Lance pays for its additional reach and combat output with higher power, distributor demand, and heat. It has no ammunition requirement.
+
+== Mining behavior ==
+
+The beam must remain on the asteroid within range. Fragment quality and the asteroid's total ordinary fragment supply are governed by the rock and any attached prospector; the Lance does not improve either figure. Its extraction rate matches the small standard Mining Laser rather than the faster Class 2 tool.<ref name="edwiki" />
+
+The 2 km reach can begin extraction before the ship closes to ordinary laser range. It does not remove the need to approach the rock for efficient collection: fragments released far from the ship increase collector-limpet travel time and can reduce complete-run throughput. The Lance is therefore a range option, not a direct upgrade to every mining fit.
+
+Its weapon capability permits one fire group to cut fragments and apply thermal damage. The low armour piercing and Class 1 damage output make it supplementary rather than a substitute for a combat loadout.
+
+== Engineering ==
+
+The Mining Lance does not accept ordinary Mining Laser or Beam Laser blueprints and has no Experimental Effects. Its stock range, combat characteristics, distributor demand, and thermal load cannot be reconfigured by an Engineer.
+
+== Acquisition ==
+
+=== Live ===
+
+# Pledge to a Power and earn Merits to increase its loyalty rank.
+# Reach the rank at which that Power awards the Mining Lance. Zemina Torval grants her signature module first, at loyalty rank 34; other Powers grant it later in their reward tracks.<ref name="fatherhood-pp">The Fatherhood, [https://thefatherhoodwing.space/codex/powerplay-modules-and-you/ Powerplay Modules and You], accessed 16 September 2026.</ref>
+# Visit an allied Stronghold Carrier after the reward is unlocked.
+# Purchase the Class 1D fixed module through Outfitting.<ref name="fatherhood-pp" />
+
+Powerplay 2.0 makes every Powerplay module available through each Power's loyalty track, rather than permanently restricting it to one leader. Leaving a Power resets that Power's loyalty progression. Already purchased modules remain usable, but further purchases require reward access again.<ref name="frontier-ppqa">Frontier Developments, [https://www.elitedangerous.com/news/powerplay-qa Powerplay 2.0 Q&A], 26 September 2024.</ref>
+
+=== Legacy ===
+
+Legacy retains the original Powerplay system. The Mining Lance is exclusive to Zemina Torval there and becomes purchasable after at least four weeks pledged while holding Rating 3 or higher.<ref name="edwiki" />
+
+== Field Procedure ==
+
+[[How to Laser Mine]] covers prospecting, positioning, capacitor management, fragment collection, refinery operation, and completion checks. The Mining Lance replaces only the extraction beam in that workflow.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Mining Laser]] [[Laser Mining]] [[How to Laser Mine]] [[Powerplay]] [[Power Distributor]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Weapons]]
+[[Category:Mining]]
+[[Category:Powerplay modules]]

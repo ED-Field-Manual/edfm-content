@@ -3,15 +3,120 @@ EDFM current-content archive export.
 Title: Stripped Down
 Namespace: 0
 Page ID: 673
-Revision ID: 1566
-Timestamp: 2026-08-23T18:07:36Z
+Revision ID: 4128
+Timestamp: 2026-09-14T02:46:19Z
 Source URL: https://edfieldmanual.com/wiki/Stripped_Down
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|A ship Engineering experimental-effect reference for Stripped Down, including compatible modules, weight trade-offs, and Engineer availability.}}
+{{Article header|deck=An Experimental Effect that reduces a compatible module's mass by 10%.}}
 
-'''Stripped Down''' is a ship Engineering experimental effect. This planned reference will cover compatible modules, mass reduction considerations, and common build-planning uses.
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy Engineering
+ |reviewer=Sythan
+ |reviewed=2026-09-14
+ |source_quality=Current INARA modifier, compatibility, and recipe data corroborated by the maintained Elite Dangerous Wiki reference
+ |uncertainty=Frontier does not publish a current machine-readable compatibility matrix for specialised module and weapon variants; confirm availability in the Engineer interface.
+}}
+
+'''Stripped Down''' is a ship [[Experimental Effects|Experimental Effect]] that replaces components with lighter alternatives and removes non-essential parts. It reduces the receiving module's mass by '''10%'''.<ref name="inara">[https://inara.cz/elite/experimentaleffects/ INARA: Engineering — Experimental effects], accessed 14 September 2026.</ref>
+
+== Effect ==
+
+{| class="wikitable"
+! Attribute
+! Modifier
+|-
+| Module mass
+| -10%
+|}
+
+The modifier applies only to the module, not to the ship's total mass. Its practical effect therefore depends on how much of the ship's mass that module represents. Removing 10% from a heavy Power Plant or set of Thrusters can matter more than the same percentage on a light weapon.
+
+Stripped Down has no direct listed penalty to module integrity, power draw, heat, distributor use, capacity, or output. Its cost is the Experimental Effect slot: fitting it prevents the module from using a competing effect.
+
+== Compatible modules ==
+
+Stripped Down is available for:<ref name="inara" />
+
+* [[Shield Generator|Shield Generators]];
+* [[Thrusters]];
+* [[Frame Shift Drive|Frame Shift Drives]];
+* [[Power Plant|Power Plants]];
+* [[Power Distributor|Power Distributors]];
+* [[Shield Cell Bank|Shield Cell Banks]];
+* conventional Engineer-compatible weapons, including [[Beam Laser|Beam]], [[Burst Laser|Burst]], and [[Pulse Laser|Pulse Lasers]], [[Multi-Cannon|Multi-cannons]], [[Plasma Accelerator|Plasma Accelerators]], [[Fragment Cannon|Fragment Cannons]], [[Cannon|Cannons]], [[Railgun|Railguns]], [[Mine Launcher|Mine Launchers]], [[Torpedo Pylon|Torpedo Pylons]], and seeker or dumbfire [[Missile Rack|Missile Racks]].
+
+Mining tools and experimental weapons do not normally accept the effect. Specialised variants should be checked in the Engineer interface.
+
+== Materials ==
+
+The recipe depends on the receiving module family:
+
+{| class="wikitable"
+! Module family
+! Required materials
+|-
+| Shield Generator
+| 5 Worn Shield Emitters; 3 Flawed Focus Crystals; 1 Proto Light Alloy
+|-
+| Thrusters
+| 5 Iron; 3 Hybrid Capacitors; 1 Proto Light Alloy
+|-
+| Frame Shift Drive
+| 5 Atypical Disrupted Wake Echoes; 3 Galvanising Alloys; 1 Proto Light Alloy
+|-
+| Power Plant
+| 5 Grid Resistors; 3 Vanadium; 1 Proto Light Alloy
+|-
+| Power Distributor
+| 5 Phosphorus; 3 Heat Resistant Ceramics; 1 Proto Light Alloy
+|-
+| Shield Cell Bank
+| 5 Chemical Storage Units; 3 Chromium; 1 Proto Light Alloy
+|-
+| Weapon
+| 5 Salvaged Alloys; 5 Carbon; 1 Tin
+|}
+
+Current values are recorded by INARA and the maintained Elite Dangerous Wiki.<ref name="wiki">[https://elite-dangerous.fandom.com/wiki/Stripped_Down Elite Dangerous Wiki: Stripped Down], accessed 14 September 2026.</ref>
+
+Experimental Effects are installed once rather than progressed through Grades 1–5. The appropriate Engineer must support the module family and be visited in person; [[Remote Engineering]] cannot add or replace an Experimental Effect.
+
+== Selection guidance ==
+
+Stripped Down is useful when lowering total ship mass supports the build's primary goal:
+
+* improving jump range on an exploration or transport ship;
+* reducing the mass carried by a racing or high-performance ship;
+* helping a mass-sensitive set of Thrusters operate farther down its performance curve;
+* trimming several heavy modules after their primary Engineering Blueprints are complete.
+
+The effect is less compelling when the modified module is already light or when a competing effect directly improves the ship's mission. For example:
+
+* an FSD may gain more useful range from [[Mass Manager]];
+* Thrusters may favour Drag Drives or Drive Distributors;
+* a Power Plant may need thermal or output changes;
+* a weapon may gain more from damage, ammunition, thermal, or utility effects;
+* a defensive module may favour integrity or shield-performance effects.
+
+Use an outfitting planner to compare the change to total laden and unladen mass. A 10% module reduction should not be interpreted as a 10% increase in jump range, speed, or manoeuvrability.
+
+== See also ==
+
+* [[Engineering]]
+* [[Engineers]]
+* [[Experimental Effects]]
+* [[Double Braced]]
+* [[Flow Control]]
+* [[Mass Manager]]
+* [[Thermal Spread]]
+
+== Sources ==
+
+<references />
 
 [[Category:Engineering]]
 [[Category:Experimental Effects]]

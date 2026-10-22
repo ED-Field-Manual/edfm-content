@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Recepta species
+Namespace: 14
+Page ID: 941
+Revision ID: 5961
+Timestamp: 2026-10-02T22:38:28Z
+Source URL: https://edfieldmanual.com/wiki/Category:Recepta_species
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Biological species in the Recepta group.
+
+[[Category:Biological species]]

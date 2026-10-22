@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Surface Mining with the Rhino
 Namespace: 0
 Page ID: 793
-Revision ID: 3792
-Timestamp: 2026-09-11T03:16:27Z
+Revision ID: 4155
+Timestamp: 2026-09-14T04:53:00Z
 Source URL: https://edfieldmanual.com/wiki/Surface_Mining_with_the_Rhino
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -63,7 +63,12 @@ For carrier compatibility and supported hangar classes, see [[Large Planetary Ve
 
 === 3. Locate a deposit ===
 
-{{Context media|align=left|image=Planetary_mining_deposits_scan.png|caption=Deposit highlighting produced by the Rhino's scanner.|
+{{Context media
+ |align=left
+ |image=Planetary_mining_deposits_scan.png
+ |caption=Deposit highlighting produced by the Rhino's scanner.
+ |alt=Planetary mining deposits highlighted by the Rhino's scanner
+ |
 Frontier describes the Rhino's scanner as marking mineral-rich deposits on both the terrain and the vehicle's sensors.<ref name="frontier-dev-log" /> The release notes call it the '''Planetary Mining Deposit Scanner'''; the Rhino announcement and store use '''Planetary Mineral Scanner'''.<ref name="frontier-4410" /><ref name="frontier-release">[https://www.elitedangerous.com/news/rhino-available-now-arx-early-access Rhino – Available Now Via ARX Early Access], Frontier Developments, 2 September 2026. Accessed 11 September 2026.</ref>
 }}
 
@@ -78,8 +83,12 @@ If the scan returns nothing, confirm that the Rhino is inside a Planetary Mining
 
 === 4. Deploy and manage mining rigs ===
 
-[[File:Mining_rig.png|thumb|right|300px|A deployed Rhino mining rig extracting material from a planetary deposit.]]
-
+{{Context media
+ |align=right
+ |image=Mining_rig.png
+ |caption=A deployed Rhino mining rig extracting material from a planetary deposit.
+ |alt=Deployed Rhino mining rig extracting material from a planetary deposit
+ |
 {{Procedure steps|
 # Stop inside the deposit's highlighted footprint.
 # Activate the Mining Rig Deployment Module.
@@ -87,6 +96,7 @@ If the scan returns nothing, confirm that the Rhino is inside a Planetary Mining
 # Scan for another deposit while the first rig works.
 # Repeat until the available rigs are active or no worthwhile placement remains.
 # Monitor deployed rigs through the Contacts panel.
+}}
 }}
 
 The Rhino can operate several rigs at once; recorded demonstrations show a maximum of six active rigs.<ref name="buur-guide" /><ref name="mile13-guide" /><ref name="slamscape-guide">[https://youtu.be/zBvg8SDV2F4 First Impressions – Rhino & Surface Mining Preview], Slamscape-X, 2026. Accessed 11 September 2026.</ref> Rigs require separation, and a large deposit can sometimes accept more than one rig when the valid footprints are far enough apart. The exact minimum spacing is not documented.

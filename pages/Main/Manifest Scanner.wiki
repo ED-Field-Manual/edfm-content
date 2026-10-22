@@ -3,22 +3,131 @@ EDFM current-content archive export.
 Title: Manifest Scanner
 Namespace: 0
 Page ID: 524
-Revision ID: 2164
-Timestamp: 2026-08-24T23:44:28Z
+Revision ID: 5217
+Timestamp: 2026-09-24T18:37:09Z
 Source URL: https://edfieldmanual.com/wiki/Manifest_Scanner
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Manifest Scanner ship module.
+{{Article header|deck=A utility scanner that reveals the commodities and passenger-cabin contents carried by a targeted ship.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy module records
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Stock variants use commit-pinned community module data; operating behavior and Engineering compatibility use maintained community references.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Manifest Scanner''', historically called the '''Cargo Scanner''', is a Class 0 utility module used to inspect a targeted ship's manifest. A completed scan identifies commodities in its cargo hold and occupants recorded in its passenger cabins.<ref name="edwiki-manifest">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Manifest_Scanner Manifest Scanner], accessed 2026-09-16.</ref>
+
+The module provides information only. It does not transfer cargo, open the target's hatch, establish that an attack is legal, or change the legal status of anything it discovers. A [[Hatch Breaker Limpet Controller]] is the separate module used to force cargo from another ship.
+
+A manifest scan is not covert: the target is notified as soon as the scan begins.<ref name="edwiki-manifest" />
+
+== Operation ==
+
+# Install the scanner in a utility mount and assign it to a fire group.
+# Deploy hardpoints and select the ship to inspect.
+# Move within the fitted scanner's range and keep the target in front of the ship.
+# Hold the assigned trigger until the scan completes.
+# Review the revealed cargo and passenger information in the target display.
+
+Stock scanners take 10 seconds to complete a scan. Moving outside range or losing the required angle interrupts the process; an incomplete manifest scan must be started again.<ref name="edwiki-manifest" />
+
+The module is commonly used to:
+
+* identify valuable cargo before attempting ship-to-ship piracy;
+* confirm whether a ship carries commodities relevant to a mission or encounter;
+* inspect a passenger carrier for a named or mission-relevant occupant; and
+* detect cargo or passengers that may be stolen or illegal in the current jurisdiction.
+
+Discovering contraband does not give an independent commander the authority of a system-security vessel. Local crime rules still determine whether interdiction, hatch breaking, or weapons fire will produce fines or bounties.
+
+== Standard variants ==
+
+Every stock variant occupies one utility mount, has Class 0 size, weighs 1.3 tonnes, uses a 15-degree scanning angle, and requires 10 seconds to scan. Higher ratings increase range and power draw.<ref name="edcd-manifest">EDCD Coriolis Data, [https://raw.githubusercontent.com/EDCD/coriolis-data/9e5273b56426596061e2b02a6ba53e3e4103c9ab/modules/hardpoints/cargo_scanner.json Cargo Scanner records], commit of 6 June 2024.</ref>
+
+{| class="wikitable sortable"
+! Variant
+! Integrity
+! Power draw
+! Scan range
+! Base scan time
+! Reference price
+|-
+| 0E
+| 32
+| 0.20 MW
+| 2,000 m
+| 10 s
+| 13,544 CR
+|-
+| 0D
+| 24
+| 0.40 MW
+| 2,500 m
+| 10 s
+| 40,633 CR
+|-
+| 0C
+| 40
+| 0.80 MW
+| 3,000 m
+| 10 s
+| 121,899 CR
+|-
+| 0B
+| 56
+| 1.60 MW
+| 3,500 m
+| 10 s
+| 365,698 CR
+|-
+| 0A
+| 48
+| 3.20 MW
+| 4,000 m
+| 10 s
+| 1,097,095 CR
+|}
+
+EDSM's current outfitting records independently list the same ranges, scan times, mass, integrity, and power draw.<ref name="edsm-manifest">EDSM, [https://www.edsm.net/en/faq/outfitting/index/id/3/name/Utility+Mount/sub/Manifest+Scanners Manifest Scanners].</ref> The rating changes how far away the scan can begin; it does not change what the completed scan reveals.
+
+== Engineering ==
+
+Manifest Scanners accept six blueprint families and have no documented Experimental Effects:<ref name="inara-manifest">INARA, [https://inara.cz/elite/blueprints/#tab_blueprintsequipmentstandard Blueprints and upgrades], accessed 2026-09-16.</ref>
+
+* '''Fast Scan''' reduces scan time at the cost of range and integrity.
+* '''Lightweight''' reduces mass while reducing integrity.
+* '''Long Range''' extends range while increasing power draw and narrowing the scanning angle.
+* '''Reinforced''' increases integrity while adding mass.
+* '''Shielded''' increases integrity while increasing power draw.
+* '''Wide Angle''' enlarges the scanning arc while adding mass and increasing scan time.
+
+Fast Scan is useful when a target may escape or become hostile before the stock ten-second cycle finishes. Long Range allows inspection to begin sooner, while Wide Angle makes it easier to keep a moving target inside the scan cone. The best choice depends on whether time, stand-off distance, aiming tolerance, or ship mass is the main constraint.
+
+== Acquisition ==
+
+Manifest Scanners are ordinary credit-purchased utility modules. Ratings E through A require no permit, Engineer, Technology Broker unlock, or Powerplay reward. The ratings available at a particular port depend on its current Outfitting stock.
+
+== Sources ==
+
+<references />
+
+{{Related articles
+ |1=[[Hatch Breaker Limpet Controller]] [[Passenger Cabin]] [[Kill Warrant Scanner]] [[Frame Shift Wake Scanner]] [[Engineering]] [[Law & Disorder]]
+}}
+
+{{Engineering nav}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Utility modules]]
+[[Category:Scanners]]
+[[Category:Engineering]]

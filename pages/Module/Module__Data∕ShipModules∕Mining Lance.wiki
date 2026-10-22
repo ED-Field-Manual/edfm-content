@@ -3,12 +3,23 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Mining Lance
 Namespace: 828
 Page ID: 528
-Revision ID: 1315
-Timestamp: 2026-08-20T23:59:54Z
+Revision ID: 4397
+Timestamp: 2026-09-16T03:22:10Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Mining_Lance
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Mining Lance",
+	module_class = "Mining laser and beam weapon",
+	slot_type = "Hardpoint",
+	mount = "Class 1D fixed",
+	manufacturer = "",
+	availability = "Powerplay loyalty reward; purchased at allied Stronghold Carriers after unlock in Live",
+	engineering = "Not supported",
+	related_modules = {
+		"[[Mining Laser]]",
+		"[[Power Distributor]]",
+	},
+	notes = "Mines with Class 1 Mining Laser performance at 2,000 m and can deal limited thermal combat damage.",
 }

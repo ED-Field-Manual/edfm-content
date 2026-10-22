@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: How Mission Influence Actually Works
+Namespace: 0
+Page ID: 988
+Revision ID: 6145
+Timestamp: 2026-10-04T15:57:07Z
+Source URL: https://edfieldmanual.com/wiki/How_Mission_Influence_Actually_Works
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+#REDIRECT [[Mission Influence and BGS Effects]]

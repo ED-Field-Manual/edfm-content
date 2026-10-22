@@ -3,22 +3,108 @@ EDFM current-content archive export.
 Title: Decontamination Limpet Controller
 Namespace: 0
 Page ID: 469
-Revision ID: 2142
-Timestamp: 2026-08-24T23:44:00Z
+Revision ID: 4241
+Timestamp: 2026-09-15T01:10:22Z
 Source URL: https://edfieldmanual.com/wiki/Decontamination_Limpet_Controller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Decontamination Limpet Controller ship module.
+{{Article header|deck=An optional internal controller that programs limpets to remove caustic contamination and perform limited hull repair.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Purpose and original availability are documented by Aegis through Frontier's Galnet; current operation and specifications use maintained module databases.
+ |uncertainty=Outfitting stock changes by station and should be checked in-game.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Decontamination Limpet Controller''' is an optional internal module that programs limpets to remove caustic contamination from a ship's hull. Each deployed limpet also restores a limited amount of hull integrity, although a dedicated [[Repair Limpet Controller]] provides more repair capacity.<ref name="edwiki-decon">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Decontamination_Limpet_Controller Decontamination Limpet Controller].</ref>
+
+Aegis introduced the controller to counter the corrosive enzymes carried by Thargoid missiles. It remains useful wherever a ship risks caustic contamination, including anti-xeno combat and travel through persistent caustic environments.<ref name="aegis-decon">Aegis, via Frontier Developments, [https://community.elitedangerous.com/galnet/uid/5a58d5548a640c755a2c2b62 “Aegis Introduces Decontamination Limpet”], 13 January 3304.</ref>
+
+The module requires ordinary limpets stored in a [[Cargo Rack]]. The controller does not carry drones by itself and cannot launch one when no limpet inventory remains.
+
+== Operation ==
+
+The controller must be assigned to a fire group and powered. Firing while a friendly ship is targeted launches a decontamination limpet toward that ship. Firing with no target selected applies a limpet to the launching ship.
+
+After attachment, the limpet strips the active caustic effect and then continues its limited hull repair. The process takes time, and external damage to the affected ship cancels the operation.<ref name="edwiki-decon" /> A successful decontamination stops the ongoing corrosive damage; it cannot restore modules already damaged by the effect.
+
+The controller's class determines four practical limits:
+
+* how many decontamination limpets it can control at once;
+* maximum target range;
+* repair capacity per limpet; and
+* repair rate and resulting active time.
+
+A larger controller can support more ships and deliver more repair per limpet, but it also occupies a much larger compartment. A ship using the controller only for self-decontamination may need less simultaneous-limpet capacity than a wing support vessel.
+
+== Specifications ==
+
+{| class="wikitable sortable"
+! Class
+! Rating
+! Mass
+! Integrity
+! Power draw
+! Max active limpets
+! Target range
+! Repair capacity
+! Repair rate
+! Active time
+! Price
+|-
+| 1 || E || 1.30 t || 24 || 0.18 MW || 1 || 600 m || 30 || 1/s || 30 s || 3,600 CR
+|-
+| 3 || E || 2.00 t || 51 || 0.20 MW || 2 || 880 m || 70 || 2/s || 35 s || 16,200 CR
+|-
+| 5 || E || 20.00 t || 96 || 0.50 MW || 3 || 1,300 m || 120 || 3/s || 40 s || 145,800 CR
+|-
+| 7 || E || 128.00 t || 157 || 0.97 MW || 4 || 2,040 m || 180 || 4/s || 45 s || 1,312,200 CR
+|}
+
+Module mass, power draw, and prices are corroborated by Roguey's equipment records.<ref name="roguey-decon">Roguey, [https://roguey.co.uk/elite-dangerous/equipment/internal/decontamination-limpet-controller/ Decontamination Limpet Controller].</ref>
+
+Repair capacity is an absolute hull-integrity value rather than a percentage. The same limpet therefore restores a smaller fraction of a heavily reinforced hull than of a light hull.
+
+== Limpet supply ==
+
+Limpets are blank cargo-borne drones until a controller programs them during launch. They are consumed when deployed and cannot be recovered afterward.
+
+They can be purchased through Advanced Maintenance. In the field, basic limpet synthesis converts 10 units of Iron and 10 units of Nickel into four limpets. Because limpets occupy cargo space, fitting a controller without a Cargo Rack leaves no way to carry its ammunition.
+
+For wing support, remaining within the controller's range matters throughout the operation. A limpet that loses its target or exceeds control conditions is destroyed without returning to cargo.
+
+== Alternatives and related controllers ==
+
+* A [[Caustic Sink Launcher]] automatically absorbs caustic contamination without cargo-borne limpets, but occupies a utility mount and does not repair existing hull damage.
+* A [[Repair Limpet Controller]] repairs more hull but cannot remove caustic contamination.
+* A [[Xeno Multi Limpet Controller]] combines decontamination, repair, and research functions in one module, trading the specialised controller's range of class choices for flexibility.
+* A [[Universal Limpet Controller]] combines a broader set of limpet functions but has substantial slot and mass costs.
+
+A ship can also burn off caustic contamination by deliberately reaching extreme heat, but doing so risks further hull and module damage. A decontamination limpet or caustic sink is the controlled option.
+
+== Engineering and acquisition ==
+
+Decontamination Limpet Controllers cannot be engineered. All four variants are E-rated and use their fixed specifications.
+
+They are normal credit purchases through Outfitting where stocked and require no Engineer, Technology Broker, Powerplay, or material unlock. Aegis originally announced distribution from planetary bases in military, high-tech, refinery, industrial, and extraction economies; current stock is dynamic and should be checked before travel.<ref name="aegis-decon" />
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Repair Limpet Controller]] [[Xeno Multi Limpet Controller]] [[Universal Limpet Controller]] [[Caustic Sink Launcher]] [[Cargo Rack]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Optional internal modules]]
+[[Category:Limpet controllers]]
+[[Category:Anti-Xeno equipment]]

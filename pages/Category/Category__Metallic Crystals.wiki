@@ -1,0 +1,16 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Metallic Crystals
+Namespace: 14
+Page ID: 948
+Revision ID: 5994
+Timestamp: 2026-10-03T04:19:30Z
+Source URL: https://edfieldmanual.com/wiki/Category:Metallic_Crystals
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Reference articles for the documented Metallic Crystal family and its published types.
+
+{{Main|Metallic Crystal}}
+
+[[Category:Notable Stellar Phenomena]]

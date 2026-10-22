@@ -3,22 +3,158 @@ EDFM current-content archive export.
 Title: Auto Field-Maintenance Unit
 Namespace: 0
 Page ID: 448
-Revision ID: 2134
-Timestamp: 2026-08-24T23:43:50Z
+Revision ID: 4217
+Timestamp: 2026-09-14T23:19:06Z
 Source URL: https://edfieldmanual.com/wiki/Auto_Field-Maintenance_Unit
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Auto Field-Maintenance Unit ship module.
+{{Article header|deck=An internal repair module that restores damaged ship modules by consuming a dedicated supply of repair material.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy
+ |reviewed=2026-09-14
+ |reviewer=Sythan
+ |source_quality=Repair behavior and specifications are documented from maintained community references; current Engineering and synthesis data are corroborated by INARA.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Auto Field-Maintenance Unit''' ('''AFMU''') repairs damaged modules installed on its ship. It consumes an internal supply of repair material rather than cargo or limpets, and can restore a module that has reached 0% integrity. The commander must select each repair manually despite the word ''Auto'' in its name.<ref name="edwiki-afmu">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Auto_Field-Maintenance_Unit Auto Field-Maintenance Unit].</ref>
+
+AFMUs are especially useful on exploration vessels exposed to repeated Frame Shift Drive damage from neutron-star boosts, and on ships expected to operate far from station repair services. They do not repair hull integrity; that is the role of a [[Repair Limpet Controller]] or a station's repair service.
+
+== Repair limits ==
+
+An AFMU can repair most installed modules, weapons, and utilities, including a damaged cockpit canopy that has not yet breached. It cannot repair:<ref name="edwiki-afmu" />
+
+* the ship's hull;
+* the [[Power Plant]], because the plant cannot be switched off while supplying the AFMU;
+* itself while it is the only AFMU aboard; or
+* a canopy after the canopy has completely breached.
+
+Two AFMUs can repair one another: power one unit and use it to repair the other while the damaged unit is offline. Multiple powered units can also contribute repair capacity when maintaining other modules.
+
+== Using an AFMU ==
+
+# Leave supercruise and move to a safe location away from active combat.
+# Open the ship's Modules panel.
+# Power the AFMU if it is normally disabled through power priorities.
+# Select the damaged module and choose '''Repair'''.
+# Wait for the repair to reach the required integrity or for the AFMU's repair material to run out.
+# Re-enable the repaired module manually when the repair finishes.
+# Disable the AFMU again if its power was budgeted only for maintenance.
+
+The target module is switched off during repair and remains off afterward. Repairing Thrusters or the Frame Shift Drive while in supercruise forces the ship out of supercruise and can cause additional damage. Repairing Life Support starts the ship's emergency-oxygen timer, so confirm that enough reserve remains before beginning.<ref name="edwiki-afmu" />
+
+An AFMU should not normally be used under fire. The target module is unavailable during the repair, and incoming damage can undo the work or destroy equipment before the process finishes.
+
+== Classes and ratings ==
+
+AFMUs are available in classes 1–8 and ratings E–A. Every version has zero mass. Higher classes carry more repair material, while higher ratings use each unit of material more efficiently. Within a given class, B-rated units carry the largest raw material pool, but A-rated units provide the greatest total repair capacity because they restore more integrity per unit.<ref name="edwiki-afmu" />
+
+{| class="wikitable sortable"
+! A-rated class
+! Module integrity
+! Power draw
+! Repair-material capacity
+! Total integrity repair capacity
+! Typical value
+|-
+| 1A
+| 46
+| 1.26 MW
+| 1,100
+| 30.8
+| 810,000 CR
+|-
+| 2A
+| 59
+| 1.58 MW
+| 2,500
+| 70
+| 1,458,000 CR
+|-
+| 3A
+| 74
+| 1.89 MW
+| 4,000
+| 112
+| 2,624,400 CR
+|-
+| 4A
+| 92
+| 2.31 MW
+| 5,400
+| 151.2
+| 4,723,920 CR
+|-
+| 5A
+| 110
+| 2.73 MW
+| 6,700
+| 187.6
+| 8,503,056 CR
+|-
+| 6A
+| 130
+| 3.26 MW
+| 8,100
+| 226.8
+| 15,305,501 CR
+|-
+| 7A
+| 151
+| 3.68 MW
+| 9,600
+| 268.8
+| 27,549,900 CR
+|-
+| 8A
+| 173
+| 4.20 MW
+| 11,000
+| 308
+| 49,589,820 CR
+|}
+
+A-rated units maximise total repairs and repair efficiency. Lower-rated or smaller units remain useful when compartment size, purchase cost, or power draw matters more than maximum capacity. Because every AFMU has zero mass, selecting a smaller class does not directly improve jump range; it frees the larger compartment for other equipment.
+
+== Repair material and synthesis ==
+
+Repair material can be replenished through station services. It can also be restored remotely with '''AFM Refill''' synthesis, which refills one selected AFMU.<ref name="inara-synthesis">INARA, [https://inara.cz/elite/synthesis/ Synthesis].</ref>
+
+The basic AFM Refill recipe requires:
+
+* 2 Nickel;
+* 2 Zinc;
+* 2 Chromium; and
+* 3 Vanadium.
+
+Carry those raw materials before a long expedition if the planned route may require repeated repairs. Synthesis applies to one AFMU at a time, so ships carrying several units must refill each separately.
+
+== Engineering ==
+
+The AFMU supports only the [[Shielded]] blueprint and has no Experimental Effects. Shielded increases module integrity while increasing passive power draw; Grade 5 reaches +300% integrity and +100% power draw.<ref name="inara-shielded">INARA, [https://inara.cz/elite/blueprint/125/ Auto Field-Maintenance Unit — Shielded].</ref>
+
+Shielded does not increase the amount of damage the AFMU can repair. Its purpose is to make the AFMU itself harder to disable or destroy, which matters most on ships expected to take module damage while deployed.
+
+== Acquisition ==
+
+AFMUs are purchased for credits through Outfitting. No rank, permit, Engineer, or Technology Broker unlock is required. Stock varies by station and class, so use a current outfitting finder when seeking a particular size and rating.
+
+== Related modules ==
+
+* [[Repair Limpet Controller]] — repairs hull integrity rather than internal modules.
+* [[Module Reinforcement Package]] — absorbs a portion of incoming module damage but performs no repair.
+
+== Sources ==
+
+<references />
 
 [[Category:Modules]]
 [[Category:Ship modules]]

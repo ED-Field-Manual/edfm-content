@@ -3,12 +3,22 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/First Class Passenger Cabin
 Namespace: 828
 Page ID: 486
-Revision ID: 1273
-Timestamp: 2026-08-20T23:59:23Z
+Revision ID: 4274
+Timestamp: 2026-09-15T03:17:02Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/First_Class_Passenger_Cabin
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "First Class Passenger Cabin",
+	module_class = "Passenger cabin",
+	slot_type = "Optional internal",
+	mount = "Classes 4–6, C-rated",
+	manufacturer = "",
+	availability = "Standard credit purchase through Outfitting",
+	tech_broker = "Not required",
+	engineering = "Not compatible with Engineering",
+	powerplay = "",
+	related_modules = "[[Passenger Cabin]]<br>[[Business Class Passenger Cabin]]<br>[[Luxury Passenger Cabin]]",
+	notes = "Carries Economy, Business, or First Class passengers; cannot satisfy Luxury accommodation."
 }

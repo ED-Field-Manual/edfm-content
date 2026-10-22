@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: CMDR Fima
 Namespace: 0
 Page ID: 765
-Revision ID: 2631
-Timestamp: 2026-08-29T23:33:56Z
+Revision ID: 6372
+Timestamp: 2026-10-07T11:21:00Z
 Source URL: https://edfieldmanual.com/wiki/CMDR_Fima
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|section=EDFM|context=Community|deck=Discord information, moderation, onboarding, and community-management bot for EDFM.}}
+{{Article header|deck=Discord information, moderation, onboarding, and community-management bot for EDFM.}}
 
 '''CMDR Fima''' is the Discord companion to the ''Elite Dangerous Field Manual'' (EDFM). It provides EDFM information lookup, supported ''Elite Dangerous'' data integrations, moderation tools, verification, role management, onboarding, and other community-management functions for the official EDFM Discord.
 

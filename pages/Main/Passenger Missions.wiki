@@ -1,0 +1,173 @@
+<!--
+EDFM current-content archive export.
+Title: Passenger Missions
+Namespace: 0
+Page ID: 974
+Revision ID: 6130
+Timestamp: 2026-10-04T15:56:21Z
+Source URL: https://edfieldmanual.com/wiki/Passenger_Missions
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=Contracts to transport groups or VIP parties in Passenger Cabins.}}
+
+{{Article status
+| status = Partially verified
+| mode = Live
+| version = Current Live through update 4.4.1.1
+| reviewed = 2026-10-04
+| reviewer = Sythan
+| source_quality = Cabin rules reuse EDFM's cited Passenger Cabin reference; current variants are supported by Frontier's 4.3.3.0 notes and journal schema.
+| uncertainty = Passenger offers and traits vary by contract, location, faction state, and current Live balance.
+}}
+
+'''Passenger missions''' are accepted through a station's '''Passenger Lounge'''. They require suitable [[Passenger Cabin|Passenger Cabins]] and can involve one-way transport, VIP travel, sightseeing, long-range journeys, or evacuation.
+
+Passenger '''mission types''' describe the journey. Passenger '''traits and modifiers''' describe how the people aboard react to danger, delay, scans, damage, crimes, or optional requests. Do not treat traits as separate mission types.
+
+{| class="wikitable"
+! Field
+! Information
+|-
+| Interface
+| Passenger Lounge
+|-
+| Required module
+| Passenger Cabin of sufficient class and capacity
+|-
+| Cargo required
+| No cargo rack for the passengers themselves
+|-
+| Combat expected
+| Usually avoidable, but hostile ships may pursue valuable or wanted passengers
+|-
+| Can create legal risk
+| Yes, especially with wanted passengers or prohibited actions
+|-
+| Team version
+| Passenger contracts are normally individual
+|-
+| BGS relevance
+| Yes; verify issuer and completed faction effects
+|-
+| Typical risks
+| Scans, passenger dissatisfaction, cabin mismatch, long distance, hull damage, deadline
+|}
+
+== Contract types ==
+
+=== Bulk transport ===
+
+Bulk contracts move a group to a destination, usually one way. Compatible non-VIP groups use seats and can be distributed across multiple cabins of the same qualifying class.
+
+=== VIP transport ===
+
+A VIP party reserves one entire cabin. Empty seats in that cabin cannot be used by another group until the contract ends. VIP contracts can include behavioural traits, attacks, requests, and several destinations.
+
+=== Sightseeing ===
+
+Sightseeing passengers visit one or more tourist beacons and normally return to the origin. At each stop, enter the beacon's instance, target the tourist beacon, and complete its scan before continuing.
+
+=== Long-range sightseeing and exploration ===
+
+Long-range contracts use the same basic passenger rules but can require thousands of light-years of travel. Check total route length, return requirement, fuel-scoop plan, hull-repair capability, and deadline before accepting.
+
+=== Evacuation ===
+
+Evacuation contracts move passengers away from a threatened or damaged location. Current Live includes additional bulk evacuation variants and passenger offers designed for medium landing pads, introduced with update 4.3.3.0.<ref name="update4330">[https://www.elitedangerous.com/update-notes/4-3-3-0 Elite Dangerous 4.3.3.0 Update Notes], Frontier Developments, 28 April 2026.</ref>
+
+== Cabin requirements ==
+
+A contract specifies passenger count and minimum cabin class. A higher-class cabin can accept a lower-class requirement when enough compatible seats exist, but premium cabins provide fewer seats for the same module size.
+
+Luxury cabins can only be fitted to compatible Saud Kruger ships. VIP occupancy and bulk occupancy use different sharing rules. See [[Passenger Cabin]] before building a passenger ship.
+
+== Passenger traits and modifiers ==
+
+The passenger profile can describe conditions such as:
+
+* '''secretive''' — scanning reduces satisfaction and can threaten the contract;
+* '''wanted or criminal''' — a successful authority scan can expose the ship to legal and hostile consequences;
+* '''high-value target''' — hostile pursuit is more likely;
+* '''sensitive to hull damage''' — combat or rough handling lowers satisfaction;
+* '''impatient''' — delays and missed requests are less tolerated;
+* '''demanding''' — optional requests are more likely;
+* '''law-abiding or crime-sensitive''' — unlawful actions can reduce satisfaction.
+
+The exact wording on the profile controls. Traits can combine, and a passenger who is both secretive and wanted requires a stricter low-scan route than an ordinary bulk group.
+
+== Scans and wanted passengers ==
+
+Read the scan warning before boarding. Risk can come from station security, system authority, checkpoints, or mission-generated pursuers.
+
+Practical precautions include:
+
+* use a cool-running ship and efficient docking approach;
+* request docking only when ready to enter;
+* use heatsinks where legal and useful;
+* avoid lingering near authority traffic;
+* abandon unnecessary detours;
+* carry shields and enough speed to survive a failed approach.
+
+A scan does not have one universal consequence for every passenger. It can reduce satisfaction, trigger mission failure under the stated conditions, or expose wanted passengers and create legal danger. Follow the specific profile.
+
+== Passenger requests ==
+
+VIPs can ask for a commodity, route change, additional destination, or other optional action. Read the update before accepting or declining it.
+
+The main contract can often continue after a request is declined, but declining may reduce satisfaction. Never accept a detour without checking the new distance and remaining deadline.
+
+== Failure conditions ==
+
+Passenger contracts can fail through:
+
+* missing the deadline;
+* losing the ship and passengers;
+* allowing satisfaction to fall to the contract's failure point;
+* triggering a prohibited scan or damage condition;
+* failing to scan a required tourist beacon;
+* not returning a round-trip VIP to the correct origin.
+
+Monitor the Transactions panel throughout the journey.
+
+== Rewards and BGS effects ==
+
+Passenger contracts can offer credits, reputation, influence, materials, or commodities. The issuing faction and reward choice matter, but do not assume all passenger variants distribute faction effects identically.
+
+Frontier's journal records passenger information in <code>MissionAccepted</code> and the passenger manifest, including count, type, VIP status, and wanted status. Completion uses the same <code>MissionCompleted</code> structure as other missions and can include faction effects.<ref name="journalv38">[https://hosting.zaonce.net/community/journal/v38/Journal_Manual_v38.pdf Elite Dangerous Player Journal Manual, version 38], Frontier Developments.</ref>
+
+== Stacking passengers ==
+
+Several groups can share a route when cabin rules, destinations, traits, and deadlines are compatible. Check all groups before accepting:
+
+* A single wanted passenger can change the scan risk for the whole ship.
+* A VIP can block an entire cabin despite unused seats.
+* Sightseeing parties may require different beacon sequences and a return to origin.
+* Long-range contracts can trap short-range passengers aboard for an impractical time.
+
+See [[Mission Stacking]].
+
+== Common mistakes ==
+
+* Counting total seats without checking cabin class and VIP occupancy.
+* Treating secretive or criminal as a mission type instead of a trait.
+* Accepting a sightseeing contract without noticing the required return trip.
+* Ignoring supercruise distance at tourist destinations.
+* Letting one risky passenger endanger several otherwise safe contracts.
+* Assuming a higher-class cabin increases reward or satisfaction.
+
+== Related Field Manual entries ==
+
+* [[Passenger Cabin]]
+* [[Ships]]
+* [[Exploration]]
+* [[Mission Rewards]]
+* [[Mission Influence and BGS Effects]]
+
+== References ==
+
+<references />
+
+[[Category:Missions]]
+[[Category:Mission types]]
+[[Category:Passenger missions]]

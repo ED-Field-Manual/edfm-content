@@ -1,0 +1,26 @@
+<!--
+EDFM current-content archive export.
+Title: File:AnacondaMk2.jpg
+Namespace: 6
+Page ID: 849
+Revision ID: 5237
+Timestamp: 2026-09-24T23:13:50Z
+Source URL: https://edfieldmanual.com/wiki/File:AnacondaMk2.jpg
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |description = Official Frontier image of the [[Anaconda Mk II]] in Elite Dangerous.
+ |subject = [[Anaconda Mk II]]
+ |source = Official Frontier Developments / Elite Dangerous media
+ |media_type = Official promotional media
+ |captured_by = [[User:Sythan|Sythan]]
+ |intended_use = Identification and illustration on the [[Anaconda Mk II]] article and related ship pages.
+ |copyright_holder = Frontier Developments plc
+}}
+
+[[Category:Ship images]]
+
+== Licensing ==
+{{License-Official Frontier media}}

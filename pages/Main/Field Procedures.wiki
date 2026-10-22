@@ -3,11 +3,13 @@ EDFM current-content archive export.
 Title: Field Procedures
 Namespace: 0
 Page ID: 54
-Revision ID: 1692
-Timestamp: 2026-08-24T02:05:08Z
+Revision ID: 6381
+Timestamp: 2026-10-07T11:21:33Z
 Source URL: https://edfieldmanual.com/wiki/Field_Procedures
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
+
+{{Article header|section=Reference|type=Field Procedures|deck=Step-by-step procedures for completing practical tasks in Elite Dangerous.}}
 
 {{Article status|status=Draft|mode=Both}}
 

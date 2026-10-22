@@ -3,22 +3,143 @@ EDFM current-content archive export.
 Title: Cytoscrambler
 Namespace: 0
 Page ID: 467
-Revision ID: 2141
-Timestamp: 2026-08-24T23:43:59Z
+Revision ID: 4239
+Timestamp: 2026-09-15T01:06:39Z
 Source URL: https://edfieldmanual.com/wiki/Cytoscrambler
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Cytoscrambler ship module.
+{{Article header|deck=A close-range Powerplay Burst Laser variant built for exceptional shield damage at the cost of almost all effectiveness against armour.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live Powerplay 2.0 and Legacy; the acquisition systems differ
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Current Live Powerplay behavior is documented by Frontier; weapon specifications and Engineering compatibility use maintained community references.
+ |uncertainty=The loyalty rank at which a particular Power awards the module can be rebalanced and differs between Powers.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Cytoscrambler''' is a Powerplay variant of the [[Burst Laser]]. It is available only as a class 1 fixed hardpoint and fires thermal bursts at very high damage and rate of fire for its size. In exchange, it has an armour-piercing value of 1, a maximum range of 1,000 metres, and 1.7 degrees of inherent jitter.<ref name="edwiki-cyto">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Cytoscrambler Cytoscrambler].</ref>
+
+Against shields, one unengineered Cytoscrambler produces substantially more raw damage per second than a standard class 1 fixed Burst Laser. Against hull, the armour-piercing penalty normally reduces each hit to the minimum hardness multiplier before resistances are applied. It is therefore a specialised shield-stripper rather than a complete weapon by itself.
+
+The module was originally the signature Powerplay reward associated with Archon Delaine. Under the current Live Powerplay system, every Power eventually offers the same module set through its loyalty ranks, although the order differs.<ref name="frontier-ascendancy">Frontier Developments, [https://www.elitedangerous.com/news/updates/4-0-19-0 “Elite Dangerous: Ascendancy — Available Now”], 31 October 2024.</ref>
+
+== Specifications ==
+
+{| class="wikitable"
+! Property
+! Unengineered value
+|-
+| Class and rating || 1F
+|-
+| Mount || Fixed
+|-
+| Damage type || Thermal
+|-
+| Mass || 2 t
+|-
+| Integrity || 40
+|-
+| Power draw || 0.80 MW
+|-
+| Damage per pulse || 3.60
+|-
+| Rate of fire || 7.62/s
+|-
+| Damage per second || 27.43/s
+|-
+| Distributor draw || 0.31 MW
+|-
+| Thermal load || 0.28
+|-
+| Armour piercing || 1
+|-
+| Damage falloff start || 600 m
+|-
+| Maximum range || 1,000 m
+|-
+| Jitter || 1.7°
+|-
+| Purchase price || 8,800 CR
+|}
+
+The listed damage-per-second figure assumes every pulse connects and the WEP capacitor can sustain fire. In practice, range, jitter, target size, time on target, Engineering, and distributor condition determine the result.<ref name="edwiki-cyto" />
+
+== Combat use ==
+
+=== Shields ===
+
+The weapon's thermal damage and unusually high output make it most effective while a target's shields are active. Several Cytoscramblers can concentrate large shield damage in small hardpoint slots, leaving larger hardpoints available for weapons chosen to attack armour.
+
+The short range is not optional: unengineered fire stops at 1,000 metres, and damage begins falling after 600 metres. The fixed mount and built-in jitter also reward large targets or close tracking. A fast, manoeuvrable ship can usually maintain the required position more easily than a slow ship.
+
+=== Hull and modules ===
+
+An armour-piercing value of 1 leaves the Cytoscrambler heavily penalised against ship hardness. A target whose shields collapse should normally be engaged with a weapon that has suitable armour penetration or explosive capability.
+
+Engineering can alter the damage mix or improve armour piercing, but it does not turn the base weapon into an efficient general-purpose hull weapon. Inertial Impact adds damage and converts part of it to kinetic while also adding severe jitter; Focused increases armour piercing; and an external Corrosive Shell effect can improve damage received by a hull. Each approach retains other practical limitations.
+
+=== Power and heat ===
+
+Cytoscramblers carry no ammunition. They draw from the [[Power Distributor]]'s WEP capacitor, so sustained fire still depends on distributor capacity and recharge. Their low base power draw, distributor draw, and thermal load make several mounts practical on some ships, but aggressive Engineering can materially change those demands.
+
+== Engineering ==
+
+Cytoscramblers accept the standard Burst Laser blueprint set:<ref name="edwiki-cyto" />
+
+* Efficient;
+* Focused;
+* Lightweight;
+* Long Range;
+* Overcharged;
+* Rapid Fire;
+* Short Range; and
+* Sturdy.
+
+Available Experimental Effects are Concordant Sequence, [[Double Braced]], [[Flow Control]], Inertial Impact, [[Multi-servos]], [[Oversized]], Phasing Sequence, Scramble Spectrum, [[Stripped Down]], and Thermal Shock.<ref name="edwiki-cyto" />
+
+Common role-driven choices include:
+
+* '''Efficient''' reduces distributor and thermal demand while increasing damage, supporting sustained multi-weapon use.
+* '''Long Range''' extends the unusually short maximum range and moves the falloff start outward, but cannot remove the weapon's inherent jitter.
+* '''Short Range''' increases damage further while shortening an already limited engagement envelope.
+* '''Focused''' increases armour piercing and range, but the weapon remains constrained by jitter and its specialised design.
+* '''Inertial Impact''' adds substantial close-range damage and changes part of the damage to kinetic, at the cost of enough additional jitter to make small targets difficult to hit.
+
+[[Broo Tarquin]] and [[Mel Brandon]] can engineer Burst Lasers to Grade 5. [[The Dweller]] reaches Grade 3.
+
+== Acquisition ==
+
+=== Live ===
+
+Powerplay 2.0 uses permanent loyalty-rank progression. A Commander pledges to a Power, earns Merits through eligible activities, and unlocks Powerplay modules as rank rewards. Every Power offers all Powerplay modules in Live, but each Power awards them in a different order.<ref name="frontier-ascendancy" />
+
+The Cytoscrambler remains thematically associated with Archon Delaine, whose current rank rewards include access to all Powerplay weapon modules.<ref name="inara-delaine">INARA, [https://inara.cz/elite/power/10/ Archon Delaine].</ref> The in-game Powerplay interface is the authoritative place to check the precise rank required by the currently pledged Power.
+
+Once unlocked, the module can be bought through Outfitting where Powerplay reward modules are available. Purchased copies remain in the Commander's inventory after changing allegiance, although changing Power resets current loyalty progression.
+
+=== Legacy ===
+
+Legacy retains the original Powerplay acquisition system. The Commander must be pledged to Archon Delaine for at least four weeks and hold Rating 3 or higher before purchasing the Cytoscrambler. This requirement does not describe the current Live loyalty-rank system.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Burst Laser]] [[Pulse Laser]] [[Beam Laser]] [[Power Distributor]] [[Powerplay]] [[Engineering]] [[Broo Tarquin]] [[The Dweller]] [[Mel Brandon]]}}
+
+{{Engineering nav}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Weapons]]
+[[Category:Powerplay modules]]
+[[Category:Weapon Engineering]]
+[[Category:Engineering]]

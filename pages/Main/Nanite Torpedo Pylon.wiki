@@ -3,22 +3,123 @@ EDFM current-content archive export.
 Title: Nanite Torpedo Pylon
 Namespace: 0
 Page ID: 545
-Revision ID: 2174
-Timestamp: 2026-08-24T23:44:40Z
+Revision ID: 4445
+Timestamp: 2026-09-16T12:54:51Z
 Source URL: https://edfieldmanual.com/wiki/Nanite_Torpedo_Pylon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Nanite Torpedo Pylon ship module.
+{{Article header|deck=A specialised Aegis torpedo launcher that disrupts a Thargoid Titan's thermal vents and forces its vulnerable heat core to open.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Current Live specifications
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Purpose, operation, and initial distribution are confirmed by Frontier; specifications are documented from current EDCD module data.
+ |uncertainty=Supplier locations and the availability of suitable Titan targets can change with the live narrative.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Nanite Torpedo Pylon''', formally the '''Guardian Nanite Torpedo Pylon''', is a fixed Aegis hardpoint designed for attacks on Thargoid Titans. Its torpedoes deliver Guardian-derived nanites to a Titan's thermal vents, disrupting the vessel's heat regulation rather than dealing ordinary weapon damage.<ref name="frontier-release">Frontier Developments, [https://www.elitedangerous.com/news/galnet/target-titans-guardian-nanite-torpedoes-released Target the Titans — Guardian Nanite Torpedoes Released], 26 February 3310.</ref>
+
+After enough vents are affected during a heat cycle, the Titan exposes its internal thermal core to discharge accumulated heat. Conventional anti-xeno weapons can then damage the core. The Pylon's role ends with vent disruption; it is not a substitute for the weapons used during the core-damage window.
+
+The launcher is insulated against the anti-Guardian field encountered around Titans. It is ineffective as a general-purpose torpedo weapon and records no direct damage in current module data.<ref name="edcd">EDCD, [https://raw.githubusercontent.com/EDCD/coriolis-data/6b26af015ebc270e935af3362fea48ad56056e59/modules/hardpoints/nanite_torpedo_pylon.json Nanite Torpedo Pylon module data], accessed 2026-09-16.</ref>
+
+== Variants and specifications ==
+
+{| class="wikitable"
+! Property
+! Class 2
+! Class 3
+|-
+! Rating
+| I
+| I
+|-
+! Mount
+| Fixed
+| Fixed
+|-
+! Mass
+| 3 t
+| 5 t
+|-
+! Integrity
+| 50
+| 80
+|-
+! Power draw
+| 0.40 MW
+| 0.70 MW
+|-
+! Distributor draw
+| None
+| None
+|-
+! Direct damage
+| None
+| None
+|-
+! Projectile speed
+| 1,000 m/s
+| 1,000 m/s
+|-
+! Firing interval
+| 2 seconds
+| 2 seconds
+|-
+! Magazine
+| 1
+| 1
+|-
+! Reserve ammunition
+| 64
+| 125
+|-
+! Reload time
+| 3 seconds
+| 3 seconds
+|-
+! Reference price
+| 843,170 CR
+| 1,627,419 CR
+|}
+
+Both variants perform the same vent-disruption function. The class 3 version is heavier, draws more power, has greater integrity, and carries a larger ammunition reserve.<ref name="edcd" />
+
+== Operation ==
+
+A Titan's thermal vents become valid targets during its heat-dissipation cycle. The pilot must approach the hull, identify an open vent, and deliver a nanite torpedo into it. A successful hit contaminates that vent for the current cycle.<ref name="frontier-release" />
+
+The Titan reacts after commanders contaminate enough vents by retracting them and exposing its thermal core. The number of successful vent strikes affects the opportunity that follows, so inaccurate shots and missed vents reduce the group's contribution even though the Pylon carries a substantial reserve.
+
+The launcher produces high thermal load when fired and holds only one torpedo in the magazine. Pilots must therefore account for the three-second reload, their ship's heat state, the Titan's defensive response, and the limited time for reaching additional vents.
+
+A complete Titan assault requires equipment and tactics beyond this module. The surrounding caustic environment, the Titan's pulse and defensive vessels, and the subsequent core-damage pass are separate concerns; the [[Caustic Sink Launcher]] and suitable anti-xeno weapons address some of those requirements.
+
+== Engineering ==
+
+The Pylon is supplied for operation inside an anti-Guardian field. It does not offer a conventional set of Engineer blueprints or Experimental Effects. INARA records its anti-Guardian resistance as a fixed Grade 1 property and lists no Engineer or compatible Experimental Effect for that property.<ref name="inara">INARA, [https://inara.cz/elite/blueprint/191/ Guardian Nanite Torpedo Pylon — Anti-Guardian Zone Resistance], accessed 2026-09-16.</ref>
+
+== Acquisition ==
+
+Frontier introduced the weapon through Aegis and initially stocked it at Rescue Megaships for direct purchase.<ref name="frontier-release" /><ref name="frontier-stock">Frontier Developments, [https://www.elitedangerous.com/news/titan-combat-rewards-changes Titan Combat Rewards & Changes], 29 February 2024.</ref> It requires no per-module material barter in that distribution model.
+
+Current community records also list Stronghold Carriers and a limited number of starports as suppliers.<ref name="edwiki">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Guardian_Nanite_Torpedo_Pylon Guardian Nanite Torpedo Pylon], accessed 2026-09-16.</ref> Confirm current stock before travelling, particularly when no active Titan campaign is directing commanders to a nearby Rescue Megaship.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Caustic Sink Launcher]] [[AX Missile Rack]] [[AX Multi-Cannon]] [[Enhanced AX Multi-Cannon]] [[Thargoid]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Weapons]]
+[[Category:Anti-xeno modules]]

@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Geological feature images
+Namespace: 14
+Page ID: 908
+Revision ID: 5763
+Timestamp: 2026-10-01T05:07:25Z
+Source URL: https://edfieldmanual.com/wiki/Category:Geological_feature_images
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Images of geological formations and surface features encountered during planetary exploration.
+
+[[Category:Media]]

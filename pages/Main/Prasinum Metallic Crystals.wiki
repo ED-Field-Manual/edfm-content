@@ -1,0 +1,60 @@
+<!--
+EDFM current-content archive export.
+Title: Prasinum Metallic Crystals
+Namespace: 0
+Page ID: 953
+Revision ID: 6000
+Timestamp: 2026-10-03T04:24:43Z
+Source URL: https://edfieldmanual.com/wiki/Prasinum_Metallic_Crystals
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{SEO
+ |description=Prasinum Metallic Crystals in Elite Dangerous: identification, Codex classification, scanning and confirmed Notable Stellar Phenomena observations.
+}}
+{{Article header
+ |section=Exploration
+ |deck=A Codex-listed Metallic Crystal type found in Notable Stellar Phenomena.
+}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Current Live
+ |reviewed=2026-10-03
+ |reviewer=[[User:Sythan|Sythan]]
+ |source_quality=Frontier Codex guidance and maintained Canonn and EDSM records
+ |uncertainty=Complete generation requirements are not publicly documented.
+ |notes=Classification, identifier, scanning and a confirmed occurrence example were reviewed.
+}}
+
+{{Metallic Crystal infobox}}
+
+'''Prasinum Metallic Crystals''' are one of the four documented [[Metallic Crystal]] types. The Codex classifies the family as Organic structures within the Biological and Geological category, encountered in Notable Stellar Phenomena.<ref name="canonn-codex">[https://us-central1-canonn-api-236217.cloudfunctions.net/query/codex/ref Canonn Codex reference], Canonn Research, accessed 2026-10-03.</ref>
+
+== Identification ==
+
+Metallic Crystals share the crystalline form and metallic outer lustre described by the Codex.<ref name="edwiki">[https://elite-dangerous.fandom.com/wiki/Metallic_Crystal Metallic Crystal], Elite Dangerous Wiki, accessed 2026-10-03. Community transcription of the in-game description.</ref> Use the Composition Scanner result as the positive subtype identification rather than relying on the name alone.
+
+== Occurrence ==
+
+Canonn records Prasinum Metallic Crystals in a Proto-Lagrange Cloud at Col 285 Sector GG-N c7-34.<ref name="canonn-challenge">[https://canonn.science/codex/canonn-challenge Canonn Challenge], Canonn Research, accessed 2026-10-03.</ref> This is a confirmed field example, not a deterministic spawn requirement.
+
+== Discovery and scanning ==
+
+Bring the structure within Composition Scanner acquisition range and complete the scan to record the discovery in the Codex. Frontier states that the scanner is fitted to ships by default and is also usable from fighters and SRVs.<ref name="frontier-codex">[https://customersupport.frontier.co.uk/hc/en-us/articles/360012196999-Codex-FAQ-Xbox Codex FAQ], Frontier Support, accessed 2026-10-03.</ref> This is a Codex scan, not a Genetic Sampler or Vista Genomics workflow.
+
+Research Limpets do not provide an additional collection method. Canonn testing lists Metallic Crystals as invalid Research Limpet targets.<ref name="canonn-limpets">[https://canonn.science/codex/research-limpets Research Limpets], Canonn Research, accessed 2026-10-03.</ref>
+
+== Related phenomena ==
+
+At the cited occurrence, all three other Metallic Crystal types and a Croceum Gourd Mollusc were also recorded. That co-occurrence is local to the recorded signal and should not be treated as a universal rule.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Metallic Crystal]] [[Exploration]] [[Research Limpet Controller]]}}
+
+[[Category:Metallic Crystals]]
+[[Category:Metallic Crystal pages needing images]]

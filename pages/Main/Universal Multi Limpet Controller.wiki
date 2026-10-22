@@ -1,0 +1,102 @@
+<!--
+EDFM current-content archive export.
+Title: Universal Multi Limpet Controller
+Namespace: 0
+Page ID: 616
+Revision ID: 5082
+Timestamp: 2026-09-23T15:31:42Z
+Source URL: https://edfieldmanual.com/wiki/Universal_Multi_Limpet_Controller
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=A Class 7 controller that programmes eight standard limpet functions from one shared active pool.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy
+ |reviewed=2026-09-23
+ |reviewer=Sythan
+ |source_quality=Frontier confirms the module family's introduction and cross-version release; current specifications use maintained module datasets and references.
+ |uncertainty=Outfitting stock can change, and each limpet programme has its own range, lifetime, speed, and output despite the module's combined summary display.
+}}
+
+{{Ship module infobox}}
+
+The '''Universal Multi Limpet Controller''' is an optional internal module that programmes ordinary limpets for '''collector''', '''decontamination''', '''fuel transfer''', '''hatch breaker''', '''prospector''', '''recon''', '''repair''', or '''research''' work. Frontier introduced it with the multi-limpet controller family in Update 9.<ref name="update9">Frontier Developments, [https://forums.frontier.co.uk/threads/elite-dangerous-odyssey-update-9-notes.595180/ Elite Dangerous: Odyssey Update 9 notes], 9 December 2021.</ref><ref name="edwiki">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Universal_Multi_Limpet_Controller Universal Multi Limpet Controller], accessed 23 September 2026.</ref>
+
+It is available only in Class 7C and 7A variants. Either rating can control up to eight active limpets in total, shared between every programme.<ref name="edcd">EDCD, [https://raw.githubusercontent.com/EDCD/coriolis-data/6b26af015ebc270e935af3362fea48ad56056e59/modules/internal/multi_limpet_controllers.json Multi Limpet Controller data], commit pinned; accessed 23 September 2026.</ref>
+
+== Specifications ==
+
+{| class="wikitable"
+! Module
+! Mass
+! Integrity
+! Power draw
+! Maximum active limpets
+|-
+| 7C || 125 t || 150 || 0.80 MW || 8
+|-
+| 7A || 140 t || 200 || 1.10 MW || 8
+|}
+
+The 7C module is lighter and draws less power. The 7A module has greater integrity and provides longer range for several programmes, but it is heavier and requires more power.<ref name="edcd" /><ref name="edwiki" /> Both occupy a Class 7 optional compartment, so only ships with a Class 7 or larger compatible compartment can fit one.
+
+A multi-controller's summary panel combines values from different limpet programmes. The 7A module's displayed 9,100-metre range belongs to its prospector function, not to its collectors, and an indefinite displayed lifetime does not make every programmed limpet permanent. Check the relevant function rather than applying one displayed maximum to all eight.<ref name="pool">Frontier Forums community discussion, [https://forums.frontier.co.uk/threads/7a-multi-limpet-controller.632907/ 7A Multi-limpet Controller], 13 January 2025.</ref>
+
+== Limpet programmes ==
+
+All eight programmes use ordinary limpets carried in a [[Cargo Rack]]. The controller determines their function when they are launched.
+
+{| class="wikitable"
+! Programme
+! Direct purpose
+|-
+| [[Collector Limpet Controller|Collector]] || Retrieves eligible cargo canisters, materials, salvage, and mining fragments.
+|-
+| [[Decontamination Limpet Controller|Decontamination]] || Removes caustic contamination and performs limited hull repair.
+|-
+| [[Fuel Transfer Limpet Controller|Fuel transfer]] || Delivers fuel from the launching ship to a targeted ship.
+|-
+| [[Hatch Breaker Limpet Controller|Hatch breaker]] || Attempts to force cargo from a targeted cargo hatch.
+|-
+| [[Prospector Limpet Controller|Prospector]] || Analyses a mineable asteroid and marks its resources and deposits.
+|-
+| [[Recon Limpet Controller|Recon]] || Hacks supported data points on megaships and installations.
+|-
+| [[Repair Limpet Controller|Repair]] || Restores hull integrity on the launching ship or another valid ship.
+|-
+| [[Research Limpet Controller|Research]] || Extracts a tissue sample from a supported biological or xeno target.
+|}
+
+Each programme keeps its own targeting rules and operating characteristics. The Universal controller does not make a Collector limpet behave like a Prospector, extend every function to the Prospector's range, or give every function the same lifetime.<ref name="edwiki" /><ref name="pool" /> The linked controller pages cover those mechanics in detail.
+
+== Shared active-limpet pool ==
+
+The eight-limpet maximum is one shared pool, not eight limpets per programme. One active prospector and seven collectors fill the controller's capacity; active repair, research, or other programmed limpets consume slots from the same total.<ref name="pool" />
+
+This matters when several functions are used during one sortie. Long-lived prospectors or limpets attached to distant targets can occupy capacity needed for a different programme. A dedicated controller fitted alongside the Universal controller maintains its own active-limpet limit, which can reserve capacity for a frequently used function.
+
+== Fitting trade-offs ==
+
+The module's advantage is access to every standard limpet programme from one optional-internal slot. It can support an adaptable vessel that needs several functions occasionally, while its eight-limpet pool can also supply a large group of collectors.
+
+The cost is a Class 7 compartment and substantial mass. A specialist ship may receive better slot use, lower mass, or clearer control of active capacity from dedicated controllers. Function-specific output still follows the programmed limpet's own characteristics, so the Universal controller should not be judged from its largest displayed range or lifetime alone.
+
+== Engineering and acquisition ==
+
+No Engineer blueprints or Experimental Effects are currently documented for the Universal Multi Limpet Controller. Blueprints available for dedicated limpet controllers should not be assumed to apply to it.<ref name="inara-blueprints">INARA, [https://inara.cz/elite/blueprints/#tab_blueprintsequipmentstandard Blueprints and upgrades — standard equipment], accessed 23 September 2026.</ref>
+
+The 7C and 7A variants are ordinary credit purchases through Outfitting where stocked.<ref name="inara-outfitting">INARA, [https://inara.cz/elite/outfitting/ Outfitting — optional internals], accessed 23 September 2026.</ref> Current maintained references disagree slightly on the modules' reference prices, so confirm the displayed price before purchase.
+
+Frontier released the family to both Odyssey and Horizons commanders before the Live and Legacy galaxies separated.<ref name="update9" /><ref name="horizons9">Frontier Developments, [https://forums.frontier.co.uk/threads/elite-dangerous-horizons-only-pc-console-update-09-12-2021-notes.595181/ Elite Dangerous: Horizons Only PC & Console Update 09/12/2021 notes], 9 December 2021.</ref><ref name="modes">Frontier Developments, [https://www.elitedangerous.com/en-US/news/elite-dangerous-update-14-and-beyond-live-and-legacy-modes Elite Dangerous Update 14 and Beyond: Live and Legacy Modes], 29 November 2022.</ref> The controller therefore exists in both modes, although their outfitting markets and wider galaxy states are separate.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Mining Multi Limpet Controller]] [[Operations Multi Limpet Controller]] [[Rescue Multi Limpet Controller]] [[Cargo Rack]]}}
+
+[[Category:Modules]]
+[[Category:Ship modules]]

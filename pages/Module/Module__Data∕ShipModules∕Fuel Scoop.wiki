@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Fuel Scoop
 Namespace: 828
 Page ID: 496
-Revision ID: 2223
-Timestamp: 2026-08-25T14:13:49Z
+Revision ID: 4314
+Timestamp: 2026-09-15T13:17:26Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Fuel_Scoop
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -13,9 +13,10 @@ return {
 	name = "Fuel Scoop",
 	module_class = "Fuel collection module",
 	slot_type = "Optional internal",
-	mount = "",
+	mount = "Classes 1–8, ratings E–A; one per ship",
 	manufacturer = "",
-	availability = "Standard outfitting module family",
-	engineering = "",
-	related_modules = "[[Fuel Tank]], [[Frame Shift Drive]]",
+	availability = "Standard credit purchase through Outfitting; eligible Merc variants through Operations in Live",
+	engineering = "Shielded; Scoop Rate Enhanced for eligible Merc variants in Live",
+	related_modules = "[[Fuel Tank]]<br>[[Frame Shift Drive]]<br>[[Exploration]]",
+	notes = "Massless module that collects fuel from O-, B-, A-, F-, G-, K-, and M-class stars while in supercruise.",
 }

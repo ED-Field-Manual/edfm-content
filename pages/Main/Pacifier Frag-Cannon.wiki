@@ -3,22 +3,114 @@ EDFM current-content archive export.
 Title: Pacifier Frag-Cannon
 Namespace: 0
 Page ID: 549
-Revision ID: 2176
-Timestamp: 2026-08-24T23:44:42Z
+Revision ID: 4456
+Timestamp: 2026-09-16T13:20:16Z
 Source URL: https://edfieldmanual.com/wiki/Pacifier_Frag-Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Pacifier Frag-Cannon ship module.
+{{Article header|deck=A fixed Class 3 Powerplay Fragment Cannon variant with a tighter spread, faster projectiles, and extended range.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live specifications and Powerplay 2.0 acquisition; Legacy acquisition differs
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Commit-pinned EDCD module data, Frontier's Ascendancy release notes, and maintained community reference material
+ |uncertainty=Live Powerplay rank order depends on the pledged Power; consult the in-game loyalty rewards before beginning a module unlock.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Pacifier Frag-Cannon''' is a Powerplay variant of the [[Fragment Cannon]]. It is available only as a fixed Class 3C weapon. Its twelve-projectile spread is substantially tighter than that of the standard Fragment Cannon, and its projectiles travel faster and retain full damage over a longer distance. Each pellet deals less damage in exchange for those improvements.<ref name="coriolis">[https://raw.githubusercontent.com/EDCD/coriolis-data/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/hardpoints/fragment_cannon.json Fragment Cannon module data], EDCD Coriolis Data, commit-pinned record.</ref>
 
-== Overview ==
+== Specifications ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+{| class="wikitable"
+! Attribute
+! Pacifier Frag-Cannon
+! Standard Class 3 fixed Fragment Cannon
+|-
+| Class and rating || 3C || 3C
+|-
+| Mount || Fixed || Fixed
+|-
+| Mass || 8 t || 8 t
+|-
+| Integrity || 64 || 80
+|-
+| Power draw || 1.02 MW || 1.02 MW
+|-
+| Damage per pellet || 3.96 kinetic || 4.57 kinetic
+|-
+| Projectiles per shot || 12 || 12
+|-
+| Armour piercing || 45 || 45
+|-
+| Fire interval || 0.22 s || 0.22 s
+|-
+| Magazine / reserve || 3 / 180 || 3 / 180
+|-
+| Reload time || 5 s || 5 s
+|-
+| Projectile speed || 1,000 m/s || 667 m/s
+|-
+| Jitter || 1.7° || 5°
+|-
+| Damage falloff begins || 2,800 m || 1,800 m
+|-
+| Maximum range || 3,000 m || 2,000 m
+|-
+| Base price || 1,751,040 CR || 1,167,360 CR
+|}
+
+Damage is listed per pellet. A complete unmodified shot launches twelve pellets, so practical damage depends on how much of the spread strikes the target.
+
+== Performance ==
+
+The Pacifier's defining benefit is concentration. Its 1.7-degree jitter keeps more pellets together, while the 1,000 m/s projectile speed reduces lead compared with the standard weapon. Damage falloff begins only 200 metres before its 3,000-metre maximum range. These traits make partial and full-spread hits possible from distances where a normal Fragment Cannon's wider, slower pattern has already dispersed heavily.<ref name="wiki">[https://elite-dangerous.fandom.com/wiki/Pacifier_Frag-Cannon Pacifier Frag-Cannon], Elite Dangerous Wiki, accessed 16 September 2026.</ref>
+
+That reach does not turn the Pacifier into a hitscan or long-range precision weapon. It still fires a spread of projectiles with travel time, and a small or rapidly manoeuvring target can evade part of the pattern. Its fixed mount also requires the ship itself to maintain the firing solution.
+
+At very short range, the standard Class 3 fixed Fragment Cannon has the higher theoretical damage because each of its pellets deals more damage. The Pacifier gains value when the tighter pattern converts more of its lower-damage pellets into actual hits.
+
+The weapon retains the standard three-shot magazine and five-second reload. Firing several Pacifiers together creates a strong burst followed by the same reload interruption as ordinary Fragment Cannons.
+
+== Acquisition ==
+
+In the current Live game, the Pacifier is unlocked through [[Powerplay]] loyalty progression. Powerplay 2.0 gives every Power access to the same set of Powerplay modules in a different reward order.<ref name="ascendancy">[https://www.elitedangerous.com/update-notes/4-0-19-0 Elite Dangerous: Ascendancy — Available Now], Frontier Developments, 31 October 2024.</ref> Jerome Archer offers the Pacifier as his first module unlock; commanders pledged elsewhere receive it later in their Power's sequence. The in-game loyalty rewards show the applicable rank.
+
+After the reward has been unlocked, the weapon is purchased through eligible Powerplay outfitting. The unlock grants purchase access rather than placing a free module in storage.
+
+In Legacy, the older Powerplay system associates the Pacifier with Zachary Hudson and uses the former pledge-time and rating requirements. Live commanders should not follow those Legacy conditions.
+
+== Engineering ==
+
+The Pacifier accepts the conventional Fragment Cannon Blueprint families:
+
+* Double Shot;
+* Efficient;
+* High Capacity;
+* Lightweight;
+* [[Overcharged]];
+* Rapid Fire; and
+* Sturdy.
+
+Its compatible Experimental Effects include Corrosive Shell, Dazzle Shell, [[Double Braced]], Drag Munition, [[Flow Control]], Incendiary Rounds, [[Multi-servos]], [[Oversized]], Screening Shell and [[Stripped Down]].
+
+Engineering alters the selected weapon and does not change its fixed-only Class 3 mounting. Blueprint and Experimental Effect choice should account for the complete build's ammunition use, distributor demand, heat, reload cycle, intended range, and the role of any other Fragment Cannons fitted to the ship.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Fragment Cannon]] [[Powerplay]] [[Engineering]] [[Overcharged]]}}
+
+{{Engineering nav}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Weapons]]
+[[Category:Powerplay modules]]
+[[Category:Weapon Engineering]]

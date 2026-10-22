@@ -3,15 +3,90 @@ EDFM current-content archive export.
 Title: Reduced Tool Battery Consumption
 Namespace: 0
 Page ID: 685
-Revision ID: 1578
-Timestamp: 2026-08-23T18:40:06Z
+Revision ID: 4126
+Timestamp: 2026-09-14T02:41:24Z
 Source URL: https://edfieldmanual.com/wiki/Reduced_Tool_Battery_Consumption
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|an Odyssey suit modification reference for Reduced Tool Battery Consumption and energy management.}}
+{{Article header|deck=An Odyssey suit modification that halves the battery energy consumed by suit tools.}}
 
-'''Reduced Tool Battery Consumption''' is an Odyssey Engineering modification. This planned reference will cover compatible equipment, energy-management value, and how it compares with other utility modifications.
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Current Odyssey Engineering after Update 18.08
+ |reviewer=Sythan
+ |reviewed=2026-09-14
+ |source_quality=Current INARA Engineer data corroborated by the maintained Elite Dangerous Wiki reference
+ |uncertainty=Frontier does not publish a current numeric reference for the tool-energy multiplier; the 50% reduction is supported by maintained community data.
+}}
+
+'''Reduced Tool Battery Consumption''' is an [[Odyssey Engineering]] suit modification that reduces the battery energy used by personal tools by '''50%'''. It occupies one modification slot on the receiving suit.
+
+== Effect ==
+
+{| class="wikitable"
+! Attribute
+! Modifier
+|-
+| Tool energy drain
+| -50%
+|}
+
+The reduction applies while using:
+
+* the EnergyLink in transfer and overload modes;
+* the Profile Analyser;
+* the Maverick suit's Arc Cutter;
+* the Artemis suit's Genetic Sampler.<ref name="wiki">[https://elite-dangerous.fandom.com/wiki/Reduced_Tool_Battery_Consumption Elite Dangerous Wiki: Reduced Tool Battery Consumption], accessed 14 September 2026.</ref>
+
+It does not reduce the suit's normal background drain or the energy used by shields, life support, [[Night Vision]], the flashlight, or environmental protection. The modification therefore extends working time only when tool use is a significant part of the battery load.
+
+== Compatibility and providers ==
+
+Reduced Tool Battery Consumption can be installed on Artemis, [[Dominator Suit|Dominator]], or Maverick suits with an open modification slot. It is provided by:
+
+* [[Domino Green]] in the core systems;
+* [[Wellington Beck]] in the core systems;
+* [[Rosa Dayette]] in [[Colonia]].<ref name="inara-rosa">[https://inara.cz/elite/engineer/37/ INARA: Rosa Dayette], accessed 14 September 2026.</ref>
+
+The modification has the same effect regardless of which Engineer installs it. Choose a provider by unlock progress, travel distance, and the other modifications needed for the same suit.
+
+== Cost ==
+
+The current recipe is:
+
+* 5 Reactor Output Reviews;
+* 3 Electrical Fuses;
+* 5 Micro Transformers;
+* 8 [[Electrical Wiring]];
+* 500,000 CR.<ref name="inara-rosa" />
+
+The cost is paid once when the modification is installed. Odyssey suit modifications do not progress through Grades 1–5, but the suit must have a free modification slot. Installed modifications cannot be removed or replaced, so plan the complete suit before committing the materials.
+
+== Selection guidance ==
+
+Reduced Tool Battery Consumption is most useful on builds that operate tools repeatedly away from a recharge point:
+
+* a Maverick suit used for cutting panels, restoring settlements, salvage, and repeated EnergyLink overloads;
+* an Artemis suit used for long exobiology sessions with the Genetic Sampler;
+* a covert or utility build that relies heavily on the Profile Analyser.
+
+It offers little benefit to a combat-focused Dominator suit when tools are used only occasionally. It also does not offset the energy drain from shields or Night Vision.
+
+[[Improved Battery Capacity]] increases the energy available to every suit system, while Reduced Tool Battery Consumption targets only tool use. Improved Battery Capacity is broader; Reduced Tool Battery Consumption can be stronger during sustained tool operation. Both can be installed together when the role justifies using two slots.
+
+== See also ==
+
+* [[Odyssey Engineering]]
+* [[Odyssey Engineer Modifications]]
+* [[Improved Battery Capacity]]
+* [[Night Vision]]
+* [[Electrical Wiring]]
+
+== Sources ==
+
+<references />
 
 [[Category:Odyssey Engineering]]
 [[Category:Odyssey]]

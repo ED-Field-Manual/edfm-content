@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Double Braced
 Namespace: 0
 Page ID: 667
-Revision ID: 4033
-Timestamp: 2026-09-13T02:13:14Z
+Revision ID: 4075
+Timestamp: 2026-09-13T13:48:53Z
 Source URL: https://edfieldmanual.com/wiki/Double_Braced
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -37,7 +37,7 @@ The [[Frame Shift Drive]] version provides a larger '''+25% integrity''' modifie
 
 Double Braced is available for:
 
-* [[Frame Shift Drive|Frame Shift Drives]], [[Power Plant|Power Plants]], [[Thrusters]], [[Shield Generator|Shield Generators]], and [[Shield Booster|Shield Boosters]];
+* [[Frame Shift Drive|Frame Shift Drives]], [[Power Plant|Power Plants]], [[Power Distributor|Power Distributors]], [[Thrusters]], [[Shield Generator|Shield Generators]], [[Shield Booster|Shield Boosters]], and [[Shield Cell Bank|Shield Cell Banks]];
 * [[Beam Laser|Beam Lasers]], [[Burst Laser|Burst Lasers]], [[Pulse Laser|Pulse Lasers]], multi-cannons, [[Plasma Accelerator|Plasma Accelerators]], [[Fragment Cannon|Fragment Cannons]], [[Cannon|Cannons]], and [[Railgun|Rail Guns]];
 * [[Mine Launcher|Mine Launchers]], [[Torpedo Pylon|Torpedo Pylons]], [[Seeker Missile Rack|Seeker Missiles]], and dumbfire missiles.
 

@@ -3,22 +3,106 @@ EDFM current-content archive export.
 Title: Passenger Cabin
 Namespace: 0
 Page ID: 553
-Revision ID: 2178
-Timestamp: 2026-08-24T23:44:45Z
+Revision ID: 4460
+Timestamp: 2026-09-16T13:29:52Z
 Source URL: https://edfieldmanual.com/wiki/Passenger_Cabin
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Passenger Cabin ship module.
+{{Article header|deck=Optional internal accommodation used to carry passenger groups under Economy, Business, First Class, or Luxury contracts.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy; Mk II cabins are Live-only
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Cabin specifications and occupancy rules cross-checked against current community-maintained equipment references; Mk II cabins are documented by Frontier
+ |uncertainty=Outfitting stock and passenger-contract availability vary by station and system state.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+A '''Passenger Cabin''' is an optional internal module that provides seats for contracts accepted through a station's Passenger Lounge. Cabins are divided into four accommodation tiers: Economy, Business, First Class, and Luxury. A contract can only be boarded when the available cabin has enough seats and meets or exceeds the requested accommodation level.<ref name="wiki">[https://elite-dangerous.fandom.com/wiki/Passenger_Cabin Passenger Cabin], Elite Dangerous Wiki, accessed 16 September 2026.</ref>
 
-== Overview ==
+Passenger seats are separate from commodity cargo space. Passengers cannot be placed in a [[Cargo Rack]], and an empty cabin cannot carry commodities.
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Accommodation hierarchy ==
+
+The four tiers form a one-way compatibility hierarchy:
+
+{| class="wikitable"
+! Contract requirement
+! Qualifying accommodation
+|-
+| Economy || Economy, Business, First Class, or Luxury
+|-
+| Business || Business, First Class, or Luxury
+|-
+| First Class || First Class or Luxury
+|-
+| Luxury || Luxury only
+|}
+
+Installing better accommodation than a contract requires does not change its destination, party size, deadline, reward, or passenger traits. Higher-quality cabins provide fewer seats than lower tiers of the same module class, so using premium accommodation for Economy passengers trades capacity for broader contract compatibility.
+
+== Standard cabin family ==
+
+{| class="wikitable sortable"
+! Accommodation
+! Rating
+! Available classes
+! Seats by class
+! Ship restriction
+|-
+| [[Economy Class Passenger Cabin|Economy]] || E || 2–6 || C2: 2; C3: 4; C4: 8; C5: 16; C6: 32 || Any compatible ship
+|-
+| [[Business Class Passenger Cabin|Business]] || D || 3–6 || C3: 3; C4: 6; C5: 10; C6: 16 || Any compatible ship
+|-
+| [[First Class Passenger Cabin|First Class]] || C || 4–6 || C4: 3; C5: 6; C6: 12 || Any compatible ship
+|-
+| [[Luxury Passenger Cabin|Luxury]] || B || 5–6 || C5: 4; C6: 8 || Dolphin, Orca, or Beluga Liner
+|}
+
+Standard cabins have the same fixed mass progression within their available classes: Class 2 weighs 2.5 tonnes, Class 3 weighs 5 tonnes, Class 4 weighs 10 tonnes, Class 5 weighs 20 tonnes, and Class 6 weighs 40 tonnes. Boarding passengers does not add further mass. Cabins draw no power and cannot be modified through [[Engineering]].<ref name="wiki" />
+
+Passenger cabins fit ordinary optional compartments of the same class or larger. Installing a smaller cabin in an oversized compartment does not increase its seat count. They cannot be installed in Military Compartments.
+
+Luxury cabins have an additional hull restriction. Only the Saud Kruger Dolphin, Orca, and Beluga Liner can install them; other ships remain limited to Economy, Business, and First Class accommodation.
+
+== Passenger occupancy ==
+
+Passenger contracts are divided between VIP and non-VIP occupancy rules.
+
+;VIP parties
+:A VIP contract reserves one complete cabin. Any unused seats in that cabin remain unavailable to other contracts until the VIP mission is completed, failed, or abandoned. A small party can therefore occupy an otherwise much larger cabin.
+
+;Non-VIP groups
+:Compatible groups can share seats, and a group may be distributed among multiple cabins of the same qualifying accommodation. This allows bulk transport to use capacity more efficiently.<ref name="wiki" />
+
+The Passenger Lounge's assignment interface enforces accommodation, seat count, and occupancy restrictions before boarding. Total free seats across the ship are not sufficient if they are divided among cabins that cannot legally accept the group.
+
+Passengers also carry contract-specific conditions independent of the cabin. These can include deadlines, destination sequences, fear of hull damage or scanning, wanted status, secrecy, or requests during the journey. The fitted cabin provides accommodation but does not remove those conditions.
+
+== Mk II cabins ==
+
+Current Live includes ship-specific Mk II Economy and Business Passenger Cabins introduced with the Lynx Highliner. They provide 50% more seats than the corresponding standard cabin while retaining the same class and mass, but they can only be fitted to the Lynx.<ref name="frontier">[https://www.elitedangerous.com/news/updates/4-3-3-0 Elite Dangerous 4.3.3.0 Update Notes], Frontier Developments, 28 April 2026.</ref>
+
+Mk II cabins are separate module variants rather than Engineering modifications. There are no Mk II First Class or Luxury cabins, and the Mk II equipment line is not present in Legacy.
+
+== Acquisition and fitting ==
+
+Passenger Cabins are purchased for credits through Outfitting. Standard Economy, Business, and First Class cabins require no permit, naval rank, Engineer, Technology Broker, or Powerplay unlock. Luxury cabins use the same purchase model but can only be installed on their compatible Saud Kruger hulls.
+
+A cabin must be installed before accepting a passenger contract. Choose accommodation and size from the actual Passenger Lounge offers: an Economy-heavy route favours seat density, while mixed or premium missions require spare cabins at their stated quality. VIP status should be checked separately because it changes how much of each cabin remains usable.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Economy Class Passenger Cabin]] [[Business Class Passenger Cabin]] [[First Class Passenger Cabin]] [[Luxury Passenger Cabin]] [[Cargo Rack]] [[Ships]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Optional internal modules]]
+[[Category:Passenger cabins]]

@@ -3,35 +3,138 @@ EDFM current-content archive export.
 Title: Burst Laser
 Namespace: 0
 Page ID: 376
-Revision ID: 1881
-Timestamp: 2026-08-24T21:20:40Z
+Revision ID: 4225
+Timestamp: 2026-09-14T23:38:47Z
 Source URL: https://edfieldmanual.com/wiki/Burst_Laser
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=A burst-fire energy weapon balancing heat, power draw, and damage between the Pulse Laser and Beam Laser.
+{{Article header|deck=A three-pulse thermal weapon that balances sustained damage, heat, and distributor demand between pulse and beam lasers.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy; Operations-only upgrades are Live
+ |reviewed=2026-09-14
+ |reviewer=Sythan
+ |source_quality=Base weapon specifications and Engineering compatibility are documented from maintained community databases; Operations additions are supported by Frontier's release notes.
+ |uncertainty=Station stock changes and eligible Merc-variant availability must be checked in-game.
 }}
 
-{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles}}
-
-'''Burst Lasers''' fire a short burst of several shots per trigger pull, sitting between the single-shot [[Pulse Laser]] and the continuous [[Beam Laser]] in both heat generation and sustained damage output.
+{{Ship module infobox}}
 
 == Overview ==
 
-Because each trigger pull fires multiple rounds, Burst Lasers can land more total damage per pull than a Pulse Laser without the constant capacitor and thermal load of a Beam Laser, making them a common middle-ground choice for Commanders balancing sustained damage against heat management. As a thermal weapon, ammunition is unlimited and governed by the ship's Power Distributor rather than a physical magazine.
+The '''Burst Laser''' is a thermal energy weapon that fires three closely spaced pulses in each burst. It carries no ammunition and instead draws energy from the [[Power Distributor]]'s WEP capacitor. Its damage, capacitor demand, and heat normally sit between the lighter [[Pulse Laser]] and the continuous [[Beam Laser]].<ref name="edwiki-burst">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Burst_Laser Burst Laser].</ref>
+
+The weapon is strongest against shields because nearly all unmodified damage is thermal. Its usefulness against armour falls as target hardness exceeds the weapon's armour-piercing value, although larger burst lasers penetrate tougher hulls better than smaller ones.
+
+A burst deals its full listed output only when all three pulses hit. This makes the weapon forgiving when a target remains under the reticle but less efficient during very short tracking windows where only part of the burst connects.
+
+== Variants and specifications ==
+
+Burst Lasers are sold in fixed and gimballed mounts from classes 1–4. Turreted versions are available from classes 1–3.<ref name="edwiki-burst" />
+
+{| class="wikitable"
+! Class
+! Mount
+! Rating
+! Mass
+! Power draw
+! Damage per pulse
+! Armour piercing
+! Rate of fire
+! Damage per second
+! Thermal load
+|-
+| 1 || Fixed || F || 2 t || 0.650 MW || 1.70 || 20 || 4.70/s || 8.10/s || 0.40/s
+|-
+| 1 || Gimballed || G || 2 t || 0.640 MW || 1.20 || 20 || 5.30/s || 6.40/s || 0.30/s
+|-
+| 1 || Turreted || G || 2 t || 0.600 MW || 0.90 || 20 || 4.80/s || 4.20/s || 0.20/s
+|-
+| 2 || Fixed || E || 4 t || 1.050 MW || 3.50 || 35 || 3.70/s || 13.00/s || 0.80/s
+|-
+| 2 || Gimballed || F || 4 t || 1.040 MW || 2.50 || 35 || 4.20/s || 10.30/s || 0.70/s
+|-
+| 2 || Turreted || F || 4 t || 0.980 MW || 1.70 || 35 || 3.90/s || 6.80/s || 0.40/s
+|-
+| 3 || Fixed || D || 8 t || 1.660 MW || 7.70 || 52 || 2.70/s || 20.80/s || 1.70/s
+|-
+| 3 || Gimballed || E || 8 t || 1.650 MW || 5.20 || 52 || 3.20/s || 16.60/s || 1.40/s
+|-
+| 3 || Turreted || E || 8 t || 1.570 MW || 3.50 || 52 || 3.10/s || 11.00/s || 0.80/s
+|-
+| 4 || Fixed || E || 16 t || 2.580 MW || 20.60 || 65 || 1.60/s || 32.30/s || 4.50/s
+|-
+| 4 || Gimballed || E || 16 t || 2.590 MW || 12.10 || 65 || 2.10/s || 25.90/s || 3.30/s
+|}
+
+The rate-of-fire figure counts individual pulses rather than complete three-pulse trigger cycles. Actual sustained fire also depends on available WEP energy.
+
+=== Mount choice ===
+
+* '''Fixed''' Burst Lasers deliver the highest damage and ignore chaff, but require the pilot to keep the hardpoint aligned manually.
+* '''Gimballed''' versions track within a forward arc, making complete bursts easier to land against moving targets at the cost of damage and vulnerability to chaff.
+* '''Turreted''' versions cover a wider arc and can maintain fire while the ship manoeuvres, but have the lowest damage and are unavailable in class 4.
+
+== Range and falloff ==
+
+An unengineered Burst Laser has a maximum range of 3,000 metres. Damage begins falling after 500 metres and continues to decline toward maximum range.<ref name="edwiki-burst" />
+
+The short falloff start means a target can remain inside the reticle while receiving substantially less than the paper damage-per-second figure. Close engagement range, Long Range Engineering, or Focused Engineering can reduce that practical loss in different ways.
+
+Because lasers have no projectile travel time, they do not require lead against a moving target. The firing solution still has to remain on target through the complete burst.
+
+== Distributor demand and heat ==
+
+Burst Lasers stop firing when the WEP capacitor cannot supply the next pulse. Adding WEP pips increases capacitor recharge, while a stronger distributor increases both capacity and recharge. Neither change reduces the weapon's inherent draw per pulse.
+
+A build should therefore be judged by sustained firing time, not only by nominal damage per second. Several large or huge Burst Lasers can empty an undersized distributor rapidly even though each weapon is less demanding than an equivalent Beam Laser.
+
+Heat also accumulates during sustained fire. Efficient or thermal-management choices can extend firing time, while Overcharged, Rapid Fire, and some Experimental Effects increase the demand placed on the ship.
 
 == Engineering ==
 
-{| class="wikitable"
-! Engineer !! Maximum grade
-|-
-| [[Broo Tarquin]] || Grade 5
-|-
-| [[The Dweller]] || Grade 3
-|}
+Standard Burst Lasers support these blueprints:<ref name="inara-blueprints">INARA, [https://inara.cz/elite/blueprints/#tab_blueprintsequipmentstandard Blueprints and upgrades — standard equipment].</ref>
 
-=== Related Engineering Guides ===
-{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+* Efficient;
+* Focused;
+* Lightweight;
+* Long Range;
+* Overcharged;
+* Rapid Fire;
+* Short Range; and
+* Sturdy.
+
+Available Experimental Effects include Concordant Sequence, [[Double Braced]], [[Flow Control]], Inertial Impact, [[Multi-servos]], [[Oversized]], Phasing Sequence, Scramble Spectrum, [[Stripped Down]], and Thermal Shock.
+
+Notable choices include:
+
+* '''Long Range''' extends both maximum range and the falloff start, preserving damage at distance.
+* '''Efficient''' reduces distributor draw and thermal load while increasing damage, improving sustained fire.
+* '''Focused''' improves armour piercing and extends range, but does not move the original falloff start as aggressively as Long Range.
+* '''Inertial Impact''' increases damage and converts part of it to kinetic at the cost of severe aiming jitter, making it a close-range effect.
+* '''Concordant Sequence''' allows hits on a wingmate to improve that ship's shield regeneration temporarily, at the cost of additional weapon heat.
+* '''Phasing Sequence''' permits a small amount of damage to pass through an active shield in exchange for lower weapon damage.
+
+[[Broo Tarquin]] and [[Mel Brandon]] can engineer Burst Lasers to Grade 5. [[The Dweller]] reaches Grade 3.
+
+=== Operations and Merc upgrades ===
+
+The Live game's Operations update added MercGear and Merc Coin purchases, including new laser upgrades. Eligible Merc Burst Lasers can receive Plasma Conversion and Regenerative upgrades that are separate from the standard blueprint list.<ref name="operations">Frontier Developments, [https://www.elitedangerous.com/en-US/news/updates/4-4-0-0 “Elite Dangerous: Operations — Available Now”], 30 June 2026.</ref><ref name="inara-regenerative">INARA, [https://inara.cz/elite/blueprint/228/ Burst Laser — Regenerative].</ref>
+
+Frontier describes Thermal Plasma Conversion as increasing power draw while converting part of a beam, pulse, or burst laser's damage to plasma. These additions do not apply to ordinary Legacy equipment, and the compatible Merc module must be obtained before the Merc upgrade is selected.
+
+== Acquisition ==
+
+Standard Burst Lasers are normal credit purchases through Outfitting and require no unlock. Stock depends on the station, class, and mount. MercGear variants and their special upgrades use the separate Operations reward path and [[Merc Coin]].
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Pulse Laser]] [[Beam Laser]] [[Power Distributor]] [[Engineering]] [[Broo Tarquin]] [[The Dweller]] [[Mel Brandon]] [[Merc Coin]]}}
 
 {{Engineering nav}}
 

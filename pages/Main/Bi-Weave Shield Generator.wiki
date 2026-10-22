@@ -3,22 +3,133 @@ EDFM current-content archive export.
 Title: Bi-Weave Shield Generator
 Namespace: 0
 Page ID: 451
-Revision ID: 2135
-Timestamp: 2026-08-24T23:43:52Z
+Revision ID: 4223
+Timestamp: 2026-09-14T23:33:15Z
 Source URL: https://edfieldmanual.com/wiki/Bi-Weave_Shield_Generator
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Bi-Weave Shield Generator ship module.
+{{Article header|deck=A fast-regenerating shield generator that gives up raw capacity to recover more quickly between and during engagements.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy
+ |reviewed=2026-09-14
+ |reviewer=Sythan
+ |source_quality=Module specifications and Engineering compatibility are documented from maintained community databases.
+ |uncertainty=Exact shield capacity depends on the hull and complete build rather than the generator alone.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Bi-Weave Shield Generator''' is an alternative [[Shield Generator]] designed around regeneration rather than maximum shield capacity. It is sold only as a C-rated module in classes 1–8, but its unengineered shield strength is comparable to a D-rated standard generator of the same class. In exchange, it restores shield energy substantially faster.<ref name="edwiki-biweave">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Bi-Weave_Shield_Generator Bi-Weave Shield Generator].</ref>
+
+This makes a bi-weave useful when a ship can repeatedly create short breaks in incoming damage. It is less suited to a build that must survive one uninterrupted burst entirely on its initial shield pool. A [[Prismatic Shield Generator]] occupies the opposite end of that trade-off, while a standard generator sits between them.
+
+Only one shield generator can be installed on a ship.
+
+== Specifications ==
+
+{| class="wikitable"
+! Class
+! Rating
+! Mass
+! Integrity
+! Power draw
+! Active regeneration
+! Broken regeneration
+! Optimal hull mass
+! Maximum hull mass
+|-
+| 1 || C || 1.3 t || 40 || 1.2 MW || 1.8 MJ/s || 2.4 MJ/s || 25 t || 63 t
+|-
+| 2 || C || 2.5 t || 51 || 1.5 MW || 1.8 MJ/s || 2.4 MJ/s || 55 t || 138 t
+|-
+| 3 || C || 5 t || 64 || 1.8 MW || 1.8 MJ/s || 2.8 MJ/s || 165 t || 413 t
+|-
+| 4 || C || 10 t || 80 || 2.2 MW || 1.8 MJ/s || 3.8 MJ/s || 285 t || 713 t
+|-
+| 5 || C || 20 t || 96 || 2.6 MW || 2.2 MJ/s || 5.6 MJ/s || 405 t || 1,013 t
+|-
+| 6 || C || 40 t || 113 || 3.1 MW || 3.2 MJ/s || 8.0 MJ/s || 540 t || 1,350 t
+|-
+| 7 || C || 80 t || 131 || 3.5 MW || 4.4 MJ/s || 11.0 MJ/s || 1,060 t || 2,650 t
+|-
+| 8 || C || 160 t || 150 || 4.0 MW || 5.8 MJ/s || 14.4 MJ/s || 1,800 t || 4,500 t
+|}
+
+The active regeneration rate is approximately 1.8 to 2.46 times that of a standard generator of the same class. Once the shield has collapsed, the bi-weave's broken regeneration rate is approximately 1.5 times the standard rate.<ref name="edwiki-biweave" /><ref name="edwiki-shield">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Shield_Generator Shield Generator].</ref>
+
+=== Hull mass and capacity ===
+
+Shield capacity is calculated from the ship's base shield strength and hull mass together with the generator's minimum, optimal, and maximum mass characteristics. A larger class does not provide one universal megajoule value across every ship. It changes the mass range used by the shield calculation, and the same generator produces different capacity on different hulls.<ref name="edwiki-shield" />
+
+A generator cannot establish a shield around a hull above its maximum supported mass. Below that limit, capacity falls as hull mass rises relative to the generator's optimal mass. Compare the complete build in Outfitting rather than judging a bi-weave from class alone.
+
+=== Base resistances ===
+
+An unengineered bi-weave uses the normal shield-generator resistances:<ref name="edwiki-shield" />
+
+* 50% explosive resistance;
+* 40% kinetic resistance; and
+* −20% thermal resistance.
+
+The negative thermal resistance is why thermal resistance is often addressed through generator or [[Shield Booster]] Engineering. Resistance changes effective durability against each damage type without changing the displayed regeneration rate.
+
+== Regeneration behavior ==
+
+A raised shield begins regenerating after it has gone without damage for the required delay. If it collapses completely, the generator uses its broken regeneration rate until enough energy has accumulated to reform the shield; the field returns at half of its total capacity.<ref name="edwiki-shield" />
+
+Regeneration consumes energy from the [[Power Distributor]]'s SYS capacitor. More SYS pips help the distributor replenish that capacitor, but they do not raise the generator's fixed MJ-per-second rate once enough energy is available. If SYS is exhausted, regeneration slows or stops until the capacitor recovers.
+
+This relationship matters more for high-class bi-weaves because their faster regeneration demands more SYS energy per second. A build can therefore carry a fast generator without achieving its listed rate continuously if the distributor cannot sustain it.
+
+[[Shield Booster]] modules increase total capacity but do not increase the generator's fixed regeneration rate. More capacity can improve survival under fire while also increasing the time needed to refill the complete shield. Shield Cell Banks can restore a raised shield in bursts, but they do not replace the bi-weave's normal regeneration behavior.
+
+== Engineering ==
+
+Bi-weaves accept the standard shield-generator blueprints:<ref name="inara-blueprints">INARA, [https://inara.cz/elite/blueprints/#tab_blueprintsequipmentstandard Blueprints and upgrades — standard equipment].</ref>
+
+* Enhanced Low Power;
+* Kinetic Resistant;
+* Reinforced; and
+* Thermal Resistant.
+
+They also accept shield-generator Experimental Effects, including Fast Charge, Hi-Cap, Lo-Draw, Multi-weave, Force Block, Thermo Block, [[Double Braced]], and [[Stripped Down]].
+
+The blueprint and Experimental Effect determine whether a build leans further into regeneration, resistance, raw capacity, distributor efficiency, power efficiency, or module integrity:
+
+* '''Thermal Resistant''' offsets the generator's native thermal weakness and is commonly paired with resistance-oriented boosters.
+* '''Reinforced''' increases raw capacity and can suit a bi-weave expected to endure heavier uninterrupted pressure.
+* '''Fast Charge''' increases active and broken regeneration, but slightly reduces all three damage resistances.
+* '''Lo-Draw''' reduces power and SYS draw, helping a distributor that cannot sustain the maximum recharge demand.
+* '''Hi-Cap''' increases shield capacity while also increasing the amount of energy that must be restored after damage.
+
+There is no universally strongest combination. Hull mass, expected incoming damage, booster configuration, SYS capacity and recharge, and the time available between hits all change the result. Use [[Engineering]] to compare the finished shield rather than treating the generator blueprint in isolation.
+
+== Operational use ==
+
+A bi-weave performs best when the ship can control incoming pressure:
+
+* break line of sight or extend range long enough for regeneration to begin;
+* keep sufficient SYS charge available instead of exhausting the capacitor on every pass;
+* balance boosters and resistances against the time needed to refill the larger shield pool; and
+* avoid treating fast regeneration as a substitute for hull and module protection after a collapse.
+
+Sustained fire prevents normal regeneration from delivering its advantage. In that situation, a stronger standard or prismatic shield may survive longer on its initial capacity. In repeated engagements with recovery windows, a bi-weave can restore more total effective shield over time.
+
+== Acquisition ==
+
+Bi-Weave Shield Generators are normal credit purchases through Outfitting. They require no Engineer, Technology Broker, permit, or Powerplay unlock. Availability varies by station and class.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Shield Generator]] [[Prismatic Shield Generator]] [[Shield Booster]] [[Shield Cell Bank]] [[Power Distributor]] [[Engineering]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]

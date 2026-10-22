@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: Surface Recon Vehicles
 Namespace: 0
 Page ID: 741
-Revision ID: 3665
-Timestamp: 2026-09-09T20:28:33Z
+Revision ID: 6379
+Timestamp: 2026-10-07T11:21:27Z
 Source URL: https://edfieldmanual.com/wiki/Surface_Recon_Vehicles
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|section=Ships & Equipment|context=Ships|deck=Player-operated ground vehicles used by Commanders on planetary surfaces.}}
+{{Article header|deck=Player-operated ground vehicles used by Commanders on planetary surfaces.}}
 
 A '''Surface Recon Vehicle''' ('''SRV''') is a player-operated ground vehicle used by Commanders for activities on planetary surfaces. SRVs are transported aboard compatible ships using vehicle hangars and can be deployed after landing on suitable terrain.<ref name="frontier-equipment">[https://www.elitedangerous.com/equipment Equipment], Frontier Developments.</ref>
 

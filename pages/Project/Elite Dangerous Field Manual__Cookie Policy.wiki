@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Cookie Policy
 Namespace: 4
 Page ID: 330
-Revision ID: 3529
-Timestamp: 2026-09-08T15:20:10Z
+Revision ID: 5796
+Timestamp: 2026-10-01T11:36:42Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Cookie_Policy
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -57,6 +57,8 @@ These help improve navigation, search, public content, and trending/sidebar beha
 |}
 
 If the Analytics category is rejected, EDFM should not set <code>edfmPopularSearch</code>. Aggregate page-view counts for Trending Guides may still be collected as first-party site functionality without storing visitor IP, username, or account ID in the Trending Guides tables.
+
+The server-side missed-search digest described in [[Elite Dangerous Field Manual:Privacy Policy#Missed search queries|the Privacy Policy]] is not a cookie and is not controlled by the optional Analytics setting. When a MediaWiki “Go” search does not match an existing page, EDFM may store the full query text, miss count, and last-seen timestamp for editorial use even when optional cookies are rejected.
 
 == Google Analytics scope ==
 Google Analytics is used only for eligible public pages and public search analytics. It may collect ordinary page/event data such as page URL, page title, referrer, traffic source, browser/device information, scrolls, outbound clicks, downloads, and public search engagement.

@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Guardian Hull Reinforcement Package
 Namespace: 828
 Page ID: 504
-Revision ID: 1291
-Timestamp: 2026-08-20T23:59:36Z
+Revision ID: 4320
+Timestamp: 2026-09-15T13:39:08Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Guardian_Hull_Reinforcement_Package
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Guardian Hull Reinforcement Package",
+	module_class = "Guardian hull reinforcement module",
+	slot_type = "Optional internal",
+	mount = "Classes 1–5, ratings E and D",
+	manufacturer = "Human–Guardian hybrid technology",
+	availability = "Permanent Guardian Technology Broker unlock; subsequent copies purchased with credits",
+	engineering = "Anti-Guardian Zone Resistance in Live; no ordinary Hull Reinforcement blueprints",
+	notes = "Adds flat hull integrity plus 2% thermal and 5% caustic resistance; draws power",
 }

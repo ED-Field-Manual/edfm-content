@@ -3,15 +3,89 @@ EDFM current-content archive export.
 Title: Odyssey Engineer Modifications
 Namespace: 0
 Page ID: 672
-Revision ID: 1565
-Timestamp: 2026-08-23T18:07:35Z
+Revision ID: 4083
+Timestamp: 2026-09-13T14:19:11Z
 Source URL: https://edfieldmanual.com/wiki/Odyssey_Engineer_Modifications
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|A reference matrix for Odyssey Engineer modifications, including which Engineers provide each suit or handheld-weapon modification.}}
+{{Article header|deck=A modification-by-modification lookup showing which Odyssey Engineers can upgrade suits and handheld weapons.}}
 
-'''Odyssey Engineer Modifications''' is planned as a lookup page for on-foot modification availability. It will connect Odyssey modifications to the Engineers who provide them and to practical suit or weapon planning notes.
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Current Odyssey Engineering after the Type-8 Update 18.08 material and access changes
+ |reviewer=Sythan
+ |reviewed=2026-09-13
+ |source_quality=Current Engineer records cross-checked against INARA and Frontier's Engineering update notes
+ |uncertainty=Frontier does not publish one current first-party matrix covering every Odyssey modification and provider; check the Engineer workshop before committing rare materials.
+}}
+
+'''Odyssey Engineer Modifications''' is a lookup directory for the modifications installed on suits and handheld weapons by Odyssey Engineers. It answers which Engineers provide each modification and whether an alternative provider is available in the core inhabited systems or [[Colonia]].
+
+For equipment grades, modification slots, materials, and the installation process, see [[Odyssey Engineering]]. For discovery, unlock requirements, workshops, and referral chains, see [[Engineers]].
+
+{{Related articles
+ |label=Odyssey Engineering
+ |[[Odyssey Engineering]]
+ |[[Engineers]]
+ |[[Engineer Unlock Guide]]
+ |[[Pioneer Supplies]]
+}}
+
+== Using the directory ==
+
+The '''Core systems''' column covers Engineers in and around the Bubble. The '''Colonia''' column covers the four Odyssey Engineers in the Colonia region. A dash means that no Engineer in that region currently provides the modification.
+
+Multiple Engineers can provide the same modification. Choose a provider by access, travel distance, and the other modifications needed for the same loadout; the effect itself does not become stronger when installed by a later Engineer in an unlock chain.
+
+The tables list '''14 suit modifications''' and '''11 handheld-weapon modifications''' from the current 13-Engineer roster.<ref name="inara-engineers">[https://inara.cz/elite/engineers/ INARA: Engineers], accessed 13 September 2026.</ref>
+
+== Suit modifications ==
+
+Suit modifications affect movement, survivability, energy, storage, tools, tracking, or visibility. They can be installed on an Artemis, Dominator, or Maverick suit when the item has an open modification slot. The value of a modification depends on the suit's role: for example, [[Extra Ammo Capacity]] serves sustained combat, [[Extra Backpack Capacity]] serves collection and salvage, and [[Night Vision]] serves work in darkness.
+
+{{#invoke:Engineers|odysseyModificationDirectory|type=suit}}
+
+== Handheld-weapon modifications ==
+
+Weapon modifications affect handling, ammunition, range, accuracy, sound, reload behaviour, or damage conditions. A modification changes only the weapon on which it is installed. Suit-level Extra Ammo Capacity is therefore separate from Magazine Size, which changes the weapon's magazine rather than the reserve carried by the suit.
+
+{{#invoke:Engineers|odysseyModificationDirectory|type=weapon}}
+
+== Installation rules ==
+
+* Odyssey modifications are available only in Live and require the Odyssey equipment system.
+* The Engineer must be discovered and unlocked before their workshop services can be used.
+* A suit or weapon must have an unused modification slot.
+* Odyssey modifications are installed directly; they do not use the Grade 1–5 Engineer-reputation progression used for ship modules.
+* [[Remote Engineering]] does not install Odyssey suit or handheld-weapon modifications.
+* Each installation consumes the listed Odyssey materials and credits. Frontier reduced many Engineering material requirements and removed Power Regulators from recipes in Update 18.08.<ref name="frontier-1808">[https://www.elitedangerous.com/news/updates/4-0-18-08 Frontier Developments: Type-8 Update Release Notes (18.08)], accessed 13 September 2026.</ref>
+
+Higher-grade equipment provides more modification capacity. [[Pioneer Supplies]] can also sell upgraded equipment with modifications already installed, but its local stock does not replace the Engineer directory when a specific combination is required.
+
+== Planning a loadout ==
+
+# Decide the suit or weapon's role before spending materials.
+# Count the item's available modification slots.
+# Select modifications that address actual limits in the build rather than filling every slot with small statistical gains.
+# Identify an Engineer who provides all or most of the required work.
+# Check that Engineer's individual page for current access and unlock requirements.
+# Confirm the live recipe and effect in the workshop before installation.
+
+Suit and weapon pages own their equipment-specific capabilities and limits. Individual modification pages own effect values, recipes, compatibility, and practical trade-offs. This directory remains focused on provider lookup.
+
+== See also ==
+
+* [[Odyssey Engineering]]
+* [[Suit Engineering]]
+* [[Weapon Engineering (Odyssey)]]
+* [[Engineers]]
+* [[Engineering Materials]]
+
+== Sources ==
+
+<references />
 
 [[Category:Odyssey Engineering]]
 [[Category:Odyssey]]

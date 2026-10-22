@@ -3,22 +3,103 @@ EDFM current-content archive export.
 Title: Repair Limpet Controller
 Namespace: 0
 Page ID: 582
-Revision ID: 2192
-Timestamp: 2026-08-24T23:45:02Z
+Revision ID: 4500
+Timestamp: 2026-09-16T16:55:30Z
 Source URL: https://edfieldmanual.com/wiki/Repair_Limpet_Controller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Repair Limpet Controller ship module.
+{{Article header|deck=An optional internal controller that programmes limpets to repair damaged ship hulls.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Module fitting specifications use commit-pinned EDCD data; repair behavior and capacities use maintained module references.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Repair Limpet Controller''' is an optional internal module that programmes ordinary limpets to restore hull integrity on the launching ship or another targeted ship. Firing without a target applies the limpet to the launching ship; firing with a valid friendly ship targeted sends the limpet to that vessel.<ref name="wiki-repair">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Repair_Limpet_Controller Repair Limpet Controller].</ref>
+
+Repair limpets restore hull and can repair a damaged canopy while it remains intact. They do not repair internal modules or restore a canopy that has completely failed. Internal modules require an [[Auto Field-Maintenance Unit]] or station service.
+
+== Repair capacity by class ==
+
+{| class="wikitable sortable"
+! Controller class
+! Maximum active limpets
+! Repair capacity per limpet
+! Repair rate
+! Active time
+! Rating range
+|-
+| 1 || 1 || 60 integrity || 1.5/s || 40 s || E–A
+|-
+| 3 || 2 || 180 integrity || 2/s || 90 s || E–A
+|-
+| 5 || 3 || 310 integrity || 3.1/s || 100 s || E–A
+|-
+| 7 || 4 || 450 integrity || 4.5/s || 100 s || E–A
+|}
+
+Repair capacity is an absolute hull-integrity value rather than a percentage. One Class 5 limpet therefore restores 310 points to both a light hull and a heavily reinforced hull, but represents a smaller percentage of the larger hull.<ref name="wiki-repair" />
+
+Class determines repair amount, repair rate, active-limpet limit, and the optional-internal compartment required. Rating does not change the amount or speed of a repair within the same class. It changes module mass, integrity, power draw, range, and price.<ref name="data-repair">EDCD Coriolis Data, [https://raw.githubusercontent.com/EDCD/coriolis-data/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/internal/repair_limpet_controller.json Repair Limpet Controller records], commit-pinned.</ref>
+
+== Rating trade-offs ==
+
+Every class is sold in E through A ratings. The normal rating pattern applies:
+
+* '''D-rated''' controllers are the lightest and have low power draw, making them useful where jump range or ship mass matters.
+* '''A-rated''' controllers provide the longest operating range for their class while retaining less mass than the B-rated version.
+* '''B-rated''' controllers have strong integrity and long range but are the heaviest.
+* '''C- and E-rated''' controllers provide intermediate or low-cost choices.
+
+For example, a Class 5 controller always repairs 310 integrity per limpet and supports three active limpets. Its range rises from 780 m at 5E to 1,820 m at 5A, while the lightweight 5D version has a 1,040 m range and 8 t mass. A larger rating letter does not make the limpet repair more integrity.
+
+== Operation ==
+
+The controller must be powered, assigned to a fire group, and supplied with limpets in a [[Cargo Rack]]. The controller contains no drones itself.
+
+To repair the launching ship, clear the current target and fire the controller. To repair another ship, target it, move within controller range, and fire. The programmed limpet travels to the ship, attaches, and steadily spends its repair capacity until the cycle completes.
+
+Any external damage to the affected ship cancels the repair and destroys the limpet. The ships must also remain within control conditions throughout the cycle. Stable positioning and a break from incoming fire therefore matter more than launching several replacement limpets in rapid succession.
+
+A controller can manage the number of active limpets listed for its class, but only one repair limpet can work on the same ship at a time. Launching another at that target replaces the earlier limpet rather than stacking repair rate.<ref name="wiki-repair" /> Multiple active slots are useful when supporting several ships or when other compatible repair tasks are present.
+
+Repair limpets can also repair designated hull breaches on damaged megaships. That interaction uses the same disposable limpet supply but is separate from ordinary ship-hull repair.
+
+== Limpet supply ==
+
+Limpets occupy cargo space and are consumed when launched. They are purchased through Advanced Maintenance or synthesised in the field. Basic synthesis uses 10 Iron and 10 Nickel to produce four limpets.
+
+A controller without a Cargo Rack cannot carry its ammunition. Repair endurance therefore depends on both the repair capacity of each limpet and the cargo space allocated to replacements.
+
+== Alternatives ==
+
+* The [[Decontamination Limpet Controller]] removes caustic contamination and provides limited hull repair, but has lower repair capacity than the dedicated controller.
+* The [[Rescue Multi Limpet Controller]] combines repair with fuel-transfer and hatch-breaker functions.
+* The Xeno and Universal multi-controller families also include repair functions at greater slot or mass cost.
+* An [[Auto Field-Maintenance Unit]] repairs most internal modules but not the ship's hull.
+
+The dedicated Repair Limpet Controller provides the broadest class and rating choice when hull restoration is the primary task.
+
+== Engineering and acquisition ==
+
+Repair Limpet Controllers do not accept Engineering blueprints or Experimental Effects. All classes and ratings are ordinary credit purchases through Outfitting where stocked. They require no Engineer, Technology Broker, Powerplay, permit, or material unlock.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Decontamination Limpet Controller]] [[Rescue Multi Limpet Controller]] [[Auto Field-Maintenance Unit]] [[Cargo Rack]] [[Engineering Materials]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Optional internal modules]]
+[[Category:Limpet controllers]]

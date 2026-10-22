@@ -1,0 +1,22 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/Ships/Anaconda Mk II
+Namespace: 828
+Page ID: 850
+Revision ID: 5241
+Timestamp: 2026-09-24T23:23:08Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/Ships/Anaconda_Mk_II
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Anaconda Mk II",
+	image = "AnacondaMk2.jpg",
+	manufacturer = "Faulcon DeLacy",
+	ship_type = "[[Ships|Starship]]",
+	status = "Upcoming content",
+	release = "October 2026",
+	availability = "ARX Early Access",
+	confirmed_hardpoints = "4 Large; 1 Huge",
+	supercruise_overcharge = "Native compatibility",
+}

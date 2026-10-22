@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Engineers/Jude Navarro
 Namespace: 828
 Page ID: 417
-Revision ID: 1205
-Timestamp: 2026-08-20T23:54:16Z
+Revision ID: 4082
+Timestamp: 2026-09-13T14:17:09Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Engineers/Jude_Navarro
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -51,10 +51,10 @@ This is current wikitext only; no revision history, user database, logs, deleted
 	"modifications": {
 		"suit": [
 			"Added Melee Damage",
-			"Damage Resistance"
+			"Damage Resistance",
+			"Extra Ammo Capacity"
 		],
 		"weapon": [
-			"Extra Ammo Capacity",
 			"Magazine Size",
 			"Reload Speed"
 		]

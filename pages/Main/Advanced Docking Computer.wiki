@@ -3,22 +3,89 @@ EDFM current-content archive export.
 Title: Advanced Docking Computer
 Namespace: 0
 Page ID: 444
-Revision ID: 2132
-Timestamp: 2026-08-24T23:43:48Z
+Revision ID: 4145
+Timestamp: 2026-09-14T03:33:44Z
 Source URL: https://edfieldmanual.com/wiki/Advanced_Docking_Computer
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Advanced Docking Computer ship module.
+{{Article header|deck=A class 1 flight-assist module that automates both docking and departure from supported ports.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy
+ |reviewed=2026-09-14
+ |reviewer=Sythan
+ |source_quality=The launch function is documented in Frontier's April Update notes; activation behavior and module specifications are corroborated by a maintained community reference.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Advanced Docking Computer''' is an optional class 1 module that can fly a ship through automated docking and launch sequences. It extends the [[Standard Docking Computer]] by adding automatic departure from a landing pad.<ref name="frontier-april">Frontier Developments, [https://forums.frontier.co.uk/threads/april-update-patch-notes.509331/ April Update — Patch Notes], 23 April 2019.</ref>
+
+The module assists only around a station, outpost, or surface port. It does not navigate through supercruise, plot routes, avoid interdictions, or replace the pilot during ordinary flight; those functions are outside its subject. [[Supercruise Assist]] is a separate module.
+
+== Specifications ==
+
+{| class="wikitable"
+! Class
+! Rating
+! Mass
+! Integrity
+! Power draw
+! Typical value
+|-
+| 1
+| E
+| 0 t
+| 10
+| 0.45 MW
+| 13,509 CR
+|}
+
+The module occupies a class 1 optional internal compartment despite having no mass. It cannot be engineered.<ref name="edwiki-adc">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Advanced_Docking_Computer Advanced Docking Computer].</ref>
+
+== Automatic docking ==
+
+# Approach within docking-request range of the port; the normal maximum is 7.5 km.
+# Request docking permission through the Contacts panel.
+# After permission is granted, reduce the throttle to zero.
+# Keep Flight Assist enabled and allow the computer to guide the ship to its assigned pad.
+
+The module controls thrust, orientation, landing gear, and the final approach while active. Raising the throttle interrupts the sequence and immediately returns flight control to the pilot.<ref name="edwiki-adc" />
+
+Automatic docking can also be disabled in the ship's Flight Assistance settings or by removing power from the module. If it fails to engage, confirm that docking permission was granted, the throttle is exactly at zero, the module is powered, and automatic docking is enabled.
+
+== Automatic launch ==
+
+When automatic launch is enabled, the station-services menu offers '''Auto Launch''' while the ship is on a pad. Selecting it lets the module lift off, leave the pad, and follow the port's departure path. Control returns to the pilot after the ship has cleared the immediate port area.<ref name="frontier-april" /><ref name="edwiki-adc" />
+
+Increasing the throttle or disabling the module interrupts the launch sequence. The pilot remains responsible for observing traffic, the access corridor, mass-lock conditions, and the time remaining before the port treats the ship as obstructing a pad or entrance.
+
+== Limitations and safety ==
+
+The Advanced Docking Computer is an aid rather than a guarantee of safe passage. Automated paths can be disrupted by congestion, unusual station geometry, nearby ships, or damaged flight systems. Collisions can still cause fines, damage, or destruction, and the commander remains responsible for the ship.<ref name="edwiki-adc" />
+
+Remain at the controls during both sequences. Take over if the ship approaches another vessel or structure unsafely, waits too long in a hazardous position, or cannot find a valid route.
+
+The module also consumes an optional internal slot and 0.45 MW of power. On a tightly specialised build, manual docking may be worth learning so that the compartment can hold other equipment.
+
+== Acquisition ==
+
+The module is purchased for credits through Outfitting and requires no rank, permit, Engineer, or Technology Broker unlock. It is also fitted by default to newly purchased small ships.<ref name="edwiki-adc" />
+
+== Related modules ==
+
+* [[Standard Docking Computer]] — automates docking but not launch.
+* [[Supercruise Assist]] — assists travel to a selected destination within a system.
+* [[Docking Computer]] — overview of the docking-assistance module family.
+
+== Sources ==
+
+<references />
 
 [[Category:Modules]]
 [[Category:Ship modules]]

@@ -3,22 +3,89 @@ EDFM current-content archive export.
 Title: Xeno Scanner
 Namespace: 0
 Page ID: 620
-Revision ID: 2210
-Timestamp: 2026-08-24T23:45:24Z
+Revision ID: 5161
+Timestamp: 2026-09-24T14:26:30Z
 Source URL: https://edfieldmanual.com/wiki/Xeno_Scanner
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Xeno Scanner ship module.
+{{Article header|deck=A utility-mounted sensor that identifies Thargoid vessels and exposes targetable internal subtargets after a close-range active scan.}}
+
+{{Article status
+ |status=Verified
+ |mode=Both
+ |version=Current Live and Legacy 3.8
+ |reviewed=2026-09-24
+ |reviewer=Sythan
+ |notes=The original Xeno Scanner remains available in both branches. The longer-ranged Enhanced Xeno Scanner was introduced later for the Live branch.
+ |source_quality=Specifications are supported by a commit-pinned maintained module dataset; operation is cross-checked against current specialist anti-xeno guidance and Frontier's current branch documentation.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Xeno Scanner''' is a utility-mounted sensor designed to identify [[Thargoid]] vessels and reveal information that ordinary ship sensors do not provide. A passive target lock supplies basic identification data, while a completed active scan identifies the vessel more precisely and exposes targetable subtargets on applicable Thargoid craft.<ref name="axi-internals">[https://wiki.antixenoinitiative.com/en/optionals Optional Internals & Utility Modules], Anti-Xeno Initiative, accessed 23 September 2026.</ref>
 
-[[Category:Modules]]
+== Specifications ==
+
+{| class="wikitable"
+! Characteristic
+! Value
+|-
+| Class and rating
+| 0E
+|-
+| Mount
+| Utility mount
+|-
+| Mass
+| 1.3 t
+|-
+| Integrity
+| 56
+|-
+| Power draw
+| 0.20 MW
+|-
+| Active-scan range
+| 500 m
+|-
+| Active-scan time
+| 10 s
+|-
+| Boot time
+| 2 s
+|-
+| Engineering
+| No documented support
+|}
+
+The stock specification data is current for the standard scanner. The module is distinct from the [[Enhanced Xeno Scanner]], which extends active-scan range to 2,000 m in the Live branch.<ref name="edcd-data">[https://raw.githubusercontent.com/EDCD/coriolis-data/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/hardpoints/xeno_scanner.json Coriolis data: Xeno scanners], Elite Dangerous Community Developers, commit 0db9234b5b9c, accessed 23 September 2026.</ref>
+
+== Operation ==
+
+Assign the scanner to a fire group, select the Thargoid vessel, approach within 500 metres, and hold the scanner on target until the ten-second active scan completes. The target must remain within the scanner's forward cone and range throughout the scan.<ref name="edcd-data" /><ref name="xeno-wiki">[https://elite-dangerous.fandom.com/wiki/AX_Xeno_Scanner AX Xeno Scanner], Elite Dangerous Wiki, accessed 23 September 2026.</ref>
+
+A completed scan reveals the exact target variant and its available subtargets. On a [[Thargoid]] Interceptor, this includes heart subtargets and their status, allowing compatible gimballed and turreted weapons to lock onto an exerted heart directly.<ref name="axi-internals" /><ref name="xeno-wiki" /> The scan provides targeting information; it does not damage the target or exert a heart. A completed scan is not required to inflict damage with fixed weapons.
+
+The standard scanner's short range and scan duration require the ship to remain close to the target. Commanders who need more stand-off distance in Live can use the [[Enhanced Xeno Scanner]], which Frontier introduced in January 3309.<ref name="frontier-enhanced">[https://www.elitedangerous.com/news/galnet/xeno-scanner-upgrade Xeno Scanner Upgrade], Frontier Developments, 27 January 2023.</ref>
+
+== Acquisition and availability ==
+
+The Xeno Scanner is a standard Outfitting purchase at stations that stock the module. It does not require a Technology Broker unlock.<ref name="xeno-wiki" />
+
+The original scanner predates the Live and Legacy split and remains available in both branches. The Enhanced Xeno Scanner and later developments belong to the continuing Live branch; Legacy remains on version 3.8.<ref name="frontier-live-legacy">[https://www.elitedangerous.com/en-US/news/elite-dangerous-update-14-and-beyond-live-and-legacy-modes Elite Dangerous Update 14 and Beyond: Live and Legacy Modes], Frontier Developments, 29 November 2022.</ref>
+
+== See also ==
+
+* [[Enhanced Xeno Scanner]]
+* [[AX Multi-Cannon]]
+* [[Thargoid]]
+
+== References ==
+
+<references />
+
 [[Category:Ship modules]]
+[[Category:Modules]]

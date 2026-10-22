@@ -3,12 +3,27 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Xeno Scanner
 Namespace: 828
 Page ID: 619
-Revision ID: 1406
-Timestamp: 2026-08-21T00:01:02Z
+Revision ID: 5158
+Timestamp: 2026-09-24T14:23:16Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Xeno_Scanner
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Xeno Scanner",
+	module_class = "Anti-xeno scanner",
+	slot_type = "Utility mount",
+	mount = "Class 0, rating E",
+	manufacturer = "Professor Palin / Aegis programme",
+	availability = "Outfitting purchase; stock varies by station",
+	tech_broker = "Not required",
+	engineering = "Not compatible with conventional Engineering",
+	mode = "Live and Legacy",
+	related_modules = "[[Enhanced Xeno Scanner]]",
+	notes = "500 m active range; 10-second scan; reveals detailed Thargoid vessel and subtarget information.",
+	sources = {
+		"https://raw.githubusercontent.com/EDCD/coriolis-data/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/hardpoints/xeno_scanner.json",
+		"https://wiki.antixenoinitiative.com/en/optionals",
+		"https://elite-dangerous.fandom.com/wiki/AX_Xeno_Scanner",
+	},
 }

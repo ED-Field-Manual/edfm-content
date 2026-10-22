@@ -3,18 +3,86 @@ EDFM current-content archive export.
 Title: Odyssey
 Namespace: 0
 Page ID: 58
-Revision ID: 2100
-Timestamp: 2026-08-24T21:27:27Z
+Revision ID: 4446
+Timestamp: 2026-09-16T12:58:25Z
 Source URL: https://edfieldmanual.com/wiki/Odyssey
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Index for Odyssey-specific on-foot content.}}
-{{Article status|status=Draft|mode=Live|noindex=yes}}
+{{Article header|deck=The Live expansion that lets commanders disembark, explore thin-atmosphere worlds, work in settlements, and pursue on-foot combat and Exobiology.}}
 
-Index for Odyssey-specific (on-foot) content — see [[:Category:Odyssey]].
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Current Live
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Expansion scope and release are documented by Frontier; EDFM's dedicated activity and Engineering pages own the detailed mechanics.
+ |uncertainty=Individual missions, settlements, equipment balance, and Engineering recipes can change with Live updates.
+}}
 
-{{Draft warning}}
-No individual Odyssey articles exist yet.
+'''''Elite Dangerous: Odyssey''''' is the expansion that introduced first-person, on-foot play to ''Elite Dangerous''. It launched for PC on 19 May 2021 and forms part of the actively developed Live game.<ref name="frontier-launch">Frontier Developments, [https://www.elitedangerous.com/en-US/news/prepare-disembark-commander-your-odyssey-begins-pc-19-may Prepare to disembark, Commander. Your Odyssey begins on PC, 19 May], 22 April 2021.</ref>
 
-{{Related articles|[[Field Procedures]] [[Game Reference]]}}
+Odyssey does not replace the ship and vehicle game. It adds disembarkation, social spaces, surface settlements, personal equipment, on-foot missions and combat, and biological sampling to the same commander career. Its on-foot features are unavailable in Legacy.
+
+== Major features ==
+
+=== Disembarkation and social spaces ===
+
+Commanders can leave their ship or [[Surface Recon Vehicles|SRV]] on suitable planetary surfaces and at supported ports. Station concourses provide services such as [[Pioneer Supplies]], mission terminals, Apex Interstellar transport, Frontline Solutions, Vista Genomics, and bartenders where those services are installed.<ref name="frontier-guide">Frontier Developments, [https://www.elitedangerous.com/news/odyssey-guide Odyssey Guide], accessed 2026-09-16.</ref>
+
+Apex Interstellar books shuttle travel without requiring the commander to fly a ship. Frontline Solutions signs commanders up for surface conflict zones. These services supplement ordinary ship travel and mission boards rather than replacing them.
+
+=== Planetary environments and settlements ===
+
+Odyssey expanded landable worlds to include planets and moons with thin atmospheres. Their lighting, terrain, and atmospheric colours affect surface exploration but do not make them Earth-like environments.
+
+Surface settlements contain buildings, power systems, access controls, personnel, storage, data ports, and mission objectives. Settlement states and faction control connect on-foot activity to the wider [[Background Simulation]]. Detailed infiltration, restoration, salvage, and combat workflows belong in their own Field Procedures.
+
+=== Suits and handheld weapons ===
+
+Three standard suit families support different roles:
+
+* the '''Artemis Suit''' carries the Genetic Sampler for [[Exobiology]];
+* the [[Dominator Suit]] emphasizes on-foot combat and weapon capacity; and
+* the '''Maverick Suit''' carries the Arc Cutter for access, salvage, and technical work.
+
+Handheld weapons cover kinetic, laser, plasma, and explosive roles. Suits and weapons use an equipment system separate from ship modules. They are purchased and grade-upgraded through [[Pioneer Supplies]], while permanent modifications are installed through [[Odyssey Engineering]].<ref name="frontier-guide" />
+
+=== Exobiology ===
+
+[[Exobiology]] uses the Artemis Suit's Genetic Sampler to collect complete biological records from organisms on landable worlds. Completed records are sold through Vista Genomics and advance the Exobiologist career rank.
+
+The [[Detailed Surface Scanner]] identifies broad habitat for biological genera before landing. It does not mark individual organisms; locating and sampling them remains an on-foot exploration activity.
+
+=== On-foot missions and combat ===
+
+Odyssey missions can involve delivery, retrieval, settlement restoration, sabotage, covert work, scavenging, and combat. Mission legality and authorization matter: taking an item, cloning access credentials, disabling settlement systems, or attacking personnel can create fines or bounties when the action is not authorized.
+
+On-foot conflict zones are joined through Frontline Solutions and use their own combat loadouts and reward loop. They are distinct from ship conflict zones even when both affect faction activity in the same system.
+
+== Equipment and Engineering ==
+
+Odyssey suits and weapons have five equipment grades and up to four permanent modification slots. Grade upgrades and Engineer modifications are separate transactions, and installed modifications cannot normally be removed or exchanged.
+
+See:
+
+* [[Odyssey Engineering]] for the complete grade, material, and installation workflow;
+* [[Odyssey Engineer Modifications]] for the current modification-to-provider directory;
+* [[Engineers]] for workshops, discovery conditions, and unlock requirements; and
+* [[Engineering Materials]] for the distinction between personal equipment items and ship Engineering materials.
+
+== Live and Legacy ==
+
+Odyssey content belongs to the Live galaxy. Legacy is a separate, frozen galaxy state and does not provide disembarkation or Odyssey's on-foot systems. Commander progress, markets, faction states, and Fleet Carrier locations can therefore differ between Live and Legacy.
+
+Current PC installations use Live by default, with Legacy available separately through the launcher.<ref name="frontier-live">Frontier Developments, [https://www.elitedangerous.com/en-US/news/changes-elite-dangerous-default-download Changes To Elite Dangerous Default Download], accessed 2026-09-16.</ref>
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Exobiology]] [[Odyssey Engineering]] [[Odyssey Engineer Modifications]] [[Pioneer Supplies]] [[Dominator Suit]] [[Surface Recon Vehicles]]}}
+
+[[Category:Odyssey]]
+[[Category:Game reference]]

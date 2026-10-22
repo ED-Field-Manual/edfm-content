@@ -1,0 +1,15 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Combat missions
+Namespace: 14
+Page ID: 961
+Revision ID: 6116
+Timestamp: 2026-10-04T15:55:31Z
+Source URL: https://edfieldmanual.com/wiki/Category:Combat_missions
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Mission types whose primary objective is ship or on-foot combat.
+
+[[Category:Mission types]]
+[[Category:Combat]]

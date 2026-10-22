@@ -3,12 +3,93 @@ EDFM current-content archive export.
 Title: Unlocking Tiana Fortune
 Namespace: 0
 Page ID: 641
-Revision ID: 1596
-Timestamp: 2026-08-23T19:22:43Z
+Revision ID: 4134
+Timestamp: 2026-09-14T03:04:08Z
 Source URL: https://edfieldmanual.com/wiki/Unlocking_Tiana_Fortune
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|Planned unlock guide for Tiana Fortune, covering unlock prerequisites, invite steps, required items or reputation, and verification notes for commanders once source-backed details are added.}}
+{{Article header|deck=Earn Hera Tani's referral, Imperial access, and 50 Decoded Emission Data to unlock Tiana Fortune.}}
 
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy Engineering
+ |reviewer=Sythan
+ |reviewed=2026-09-14
+ |source_quality=Current INARA requirements and in-game material description corroborated by the maintained Elite Dangerous Wiki
+ |uncertainty=Frontier does not publish a current first-party unlock checklist; confirm the referral, major-faction reputation, and Achenar permit independently before travelling.
+}}
+
+This Field Procedure covers the steps required to unlock [[Tiana Fortune]]. For her workshop, supported modules, Blueprint grades, and Experimental Effects, see the Engineer reference page.
+
+== Objective ==
+
+Gain access to Tiana Fortune's ship-module Engineering services at '''Fortune's Loss''' in the permit-locked '''Achenar''' system.
+
+== Prerequisites ==
+
+{{Prerequisites|
+* '''Referral:''' Gain sufficient reputation with [[Hera Tani]] to receive Tiana Fortune's referral.
+* '''Reputation:''' Reach '''Friendly''' or higher reputation with the [[Empire]].
+* '''Permit:''' Reach the Imperial Navy rank of '''Squire''' or higher to obtain the Achenar system permit.
+* '''Material:''' Hold '''50 units of Decoded Emission Data'''.
+}}
+
+Imperial reputation and Imperial Navy rank are separate progress tracks. Friendly reputation satisfies Tiana's meeting condition, while Squire rank provides the permit needed to enter Achenar and reach her workshop.<ref name="inara">[https://inara.cz/elite/engineer/16/ INARA: Tiana Fortune], accessed 14 September 2026.</ref><ref name="wiki">[https://elite-dangerous.fandom.com/wiki/Tiana_Fortune Elite Dangerous Wiki: Tiana Fortune], accessed 14 September 2026.</ref>
+
+The maintained references place Hera Tani's referral during Grade 3 access, after roughly one-third of the progress towards Grade 4. Reaching Grade 4 also satisfies that condition.<ref name="inara" />
+
+== Collecting Decoded Emission Data ==
+
+Decoded Emission Data is a Grade 4 encoded material, not ship cargo. It does not require a cargo rack and is retained after ship destruction.
+
+The in-game description identifies combat-oriented ship scans and signal-source salvage as sources. Missions can also offer it as a reward.<ref name="data">[https://elite-dangerous.fandom.com/wiki/Decoded_Emission_Data Elite Dangerous Wiki: Decoded Emission Data], accessed 14 September 2026.</ref> An encoded Material Trader can exchange other encoded data for it when direct collection is slower.
+
+Target and complete passive scans of combat and authority vessels while travelling, then check encoded mission rewards and Material Traders to complete the stock of 50. Wake scans are not the primary direct source for this emission-data item.
+
+== Procedure ==
+
+{{Procedure steps|
+# Increase reputation with [[Hera Tani]] until Tiana Fortune's referral appears in the Engineers panel.
+# Complete missions for Empire-aligned minor factions until major-faction reputation with the Empire reaches '''Friendly'''.
+# Complete Imperial Navy rank-up missions until the rank of '''Squire''' is awarded and the '''Achenar permit''' appears.
+# Collect or trade for 50 units of '''Decoded Emission Data'''.
+# Verify the referral, Friendly Imperial reputation, Achenar permit, and material quantity before departure.
+# Plot a route to '''Achenar''' and land at '''Fortune's Loss'''.
+# Open Engineer Workshop services and donate all 50 units of Decoded Emission Data.
+# Confirm that Tiana's Engineering services are available before leaving the base.
+}}
+
+== Expected result ==
+
+{{Expected result|[[Tiana Fortune]] is unlocked at Fortune's Loss and her scanner, limpet-controller, sensor, and other supported ship-module Engineering services are available.}}
+
+Unlocking the workshop does not immediately grant every Blueprint grade. Apply modifications or sell commodities at Fortune's Loss to increase [[Engineer Reputation]] and open the higher grades she offers.
+
+== Troubleshooting ==
+
+;Tiana does not appear in the Engineers panel
+:Confirm that Hera Tani's referral threshold has been crossed and that Imperial major-faction reputation is Friendly or higher. Begin a new game session if either condition was completed recently.
+
+;Achenar rejects the route
+:Check the permits panel for the Achenar system permit. Friendly Imperial reputation alone does not award it; the Commander must also reach Imperial Navy rank Squire.
+
+;The donation option is unavailable
+:Verify that the material inventory contains 50 units of '''Decoded Emission Data''', not another emission-data material with a similar name.
+
+== Related pages ==
+
+* [[Tiana Fortune]] — workshop, services, and reference details
+* [[Hera Tani]] — the referral Engineer
+* [[Engineer Unlock Guide]] — wider unlock order
+* [[Engineering]] — ship-module Engineering mechanics
+* [[Engineer Reputation]] — opening higher Blueprint grades
+
+== Sources ==
+
+<references />
+
+[[Category:Field Procedures]]
 [[Category:Engineers]]
+[[Category:Engineering]]

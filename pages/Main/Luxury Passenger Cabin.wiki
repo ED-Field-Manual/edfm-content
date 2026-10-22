@@ -3,22 +3,104 @@ EDFM current-content archive export.
 Title: Luxury Passenger Cabin
 Namespace: 0
 Page ID: 522
-Revision ID: 2163
-Timestamp: 2026-08-24T23:44:27Z
+Revision ID: 4391
+Timestamp: 2026-09-16T03:04:21Z
 Source URL: https://edfieldmanual.com/wiki/Luxury_Passenger_Cabin
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Luxury Passenger Cabin ship module.
+{{Article header|deck=The highest passenger-accommodation tier, restricted to the Dolphin, Orca, and Beluga Liner.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy passenger-cabin specifications
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Cabin specifications are cross-checked against commit-pinned EDCD data and current EDSM records; compatible ships are corroborated by Frontier ship references and the maintained passenger-cabin reference.
+ |uncertainty=Outfitting stock and passenger-mission availability vary by station and system state.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Luxury Passenger Cabin''' is a B-rated optional internal module and the highest accommodation tier used by passenger missions. It can carry travellers requiring Economy, Business, First Class, or Luxury accommodation, but its specialized fitting is limited to the Dolphin, Orca, and Beluga Liner.<ref name="passenger-cabin">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Passenger_Cabin Passenger Cabin], accessed 2026-09-16.</ref><ref name="frontier-dolphin">Frontier Developments, [https://www.elitedangerous.com/en-US/equipment/starships/dolphin Dolphin], accessed 2026-09-16.</ref>
 
-== Overview ==
+Luxury cabins are the only option for a contract that explicitly requires Luxury accommodation. Fitting one does not increase the reward or alter the requirements of a mission that accepts a lower cabin class; it only provides a qualifying seat at the highest comfort tier.
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Classes and capacity ==
+
+{| class="wikitable sortable"
+! Module
+! Rating
+! Seats
+! Mass
+! Power draw
+|-
+| Class 5
+| B
+| 4
+| 20 t
+| 0 MW
+|-
+| Class 6
+| B
+| 8
+| 40 t
+| 0 MW
+|}
+
+The two variants use the same mass as other standard passenger cabins of their respective module class but provide fewer seats in exchange for Luxury compatibility. These specifications are recorded in the current EDCD Coriolis dataset and independently reflected by EDSM's outfitting reference.<ref name="edcd-luxury">EDCD Coriolis Data, [https://raw.githubusercontent.com/EDCD/coriolis-data/9e5273b56426596061e2b02a6ba53e3e4103c9ab/modules/internal/luxury_passenger_cabin.json Luxury Passenger Cabin dataset].</ref><ref name="edsm-cabins">EDSM, [https://www.edsm.net/en/faq/outfitting/index/id/5/name/Optional+Internal/sub/Passenger+Cabins Passenger Cabins].</ref>
+
+Cabin mass is constant. Boarding passengers does not add further ship mass, and an occupied cabin weighs the same as an empty one.<ref name="passenger-cabin" />
+
+== Ship and compartment restrictions ==
+
+Only three Saud Kruger passenger ships accept Luxury Passenger Cabins:
+
+* Dolphin;
+* Orca; and
+* Beluga Liner.
+
+Other ships may install Economy, Business, or First Class cabins in suitable optional compartments, but cannot fit the Luxury variant. Passenger cabins also cannot be installed in Military Compartments.<ref name="passenger-cabin" />
+
+The Class 5 and Class 6 versions require an ordinary optional compartment of at least the corresponding size. Placing a Class 5 cabin in a larger compatible compartment does not increase its four-seat capacity.
+
+== Passenger compatibility ==
+
+A Luxury cabin satisfies every standard accommodation requirement:
+
+* Economy passengers may use it;
+* Business passengers may use it;
+* First Class passengers may use it; and
+* Luxury passengers require it.
+
+This flexibility comes with low capacity. A Class 5 Luxury cabin carries four passengers where the same-size First Class cabin carries six, and the Class 6 version carries eight where First Class carries twelve. Use Luxury accommodation when the mission requires it or when keeping the broadest possible mission compatibility matters more than maximum seat count.
+
+Generic occupancy rules belong to [[Passenger Cabin]]. In particular, a VIP party reserves an entire cabin even when the party does not use every seat; spare seats in that module remain unavailable until the contract is completed, failed, or abandoned.<ref name="passenger-cabin" />
+
+== Engineering and newer cabin variants ==
+
+Luxury Passenger Cabins draw no power and cannot be modified through [[Engineering]]. They have no blueprint or Experimental Effect support.
+
+Current Live also includes Mk II Economy and Business Passenger Cabins introduced with the Lynx Highliner. Those modules increase capacity within their own accommodation tiers; Frontier did not introduce a Mk II Luxury cabin, and they do not satisfy a Luxury requirement.<ref name="frontier-mkii">Frontier Developments, [https://www.elitedangerous.com/news/updates/4-3-3-0 Elite Dangerous 4.3.3.0 Update Notes], accessed 2026-09-16.</ref> The Mk II cabins and Lynx Highliner are not part of Legacy.
+
+== Acquisition ==
+
+Luxury Passenger Cabins are purchased for credits through Outfitting. They require no permit, naval rank, Engineer, Technology Broker unlock, or Powerplay reward. Stock varies by port, so a current outfitting search is useful when the required class is not available locally.
+
+Purchasing the module is separate from ship compatibility: a Luxury cabin can only be installed when the active ship is a Dolphin, Orca, or Beluga Liner with a suitable optional compartment.
+
+== Sources ==
+
+<references />
+
+{{Related articles
+ |[[Passenger Cabin]]
+ |[[First Class Passenger Cabin]]
+ |[[Business Class Passenger Cabin]]
+ |[[Economy Class Passenger Cabin]]
+ |[[Ships]]
+}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]

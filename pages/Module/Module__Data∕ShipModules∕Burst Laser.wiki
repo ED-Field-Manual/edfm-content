@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Burst Laser
 Namespace: 828
 Page ID: 454
-Revision ID: 2250
-Timestamp: 2026-08-25T14:14:13Z
+Revision ID: 4224
+Timestamp: 2026-09-14T23:35:02Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Burst_Laser
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -13,9 +13,10 @@ return {
 	name = "Burst Laser",
 	module_class = "Energy weapon",
 	slot_type = "Hardpoint",
-	mount = "Fixed, gimballed, and turreted variants",
+	mount = "Fixed<br>Gimballed<br>Turreted",
 	manufacturer = "",
-	availability = "Standard outfitting module family",
-	engineering = "",
-	related_modules = "[[Pulse Laser]], [[Beam Laser]]",
+	availability = "Standard Outfitting module; fixed and gimballed classes 1–4, turreted classes 1–3",
+	engineering = "Efficient<br>Focused<br>Lightweight<br>Long Range<br>Overcharged<br>Rapid Fire<br>Short Range<br>Sturdy<br>Experimental Effects available; Merc variants also support Plasma Conversion and Regenerative upgrades",
+	related_modules = "Pulse Laser<br>Beam Laser",
+	notes = "Thermal energy weapon that fires three-pulse bursts and uses the WEP capacitor instead of ammunition.",
 }

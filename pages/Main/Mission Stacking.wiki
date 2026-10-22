@@ -1,0 +1,162 @@
+<!--
+EDFM current-content archive export.
+Title: Mission Stacking
+Namespace: 0
+Page ID: 972
+Revision ID: 6128
+Timestamp: 2026-10-04T15:56:13Z
+Source URL: https://edfieldmanual.com/wiki/Mission_Stacking
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=Combining compatible missions without confusing route efficiency with shared objective progress.}}
+
+{{Article status
+| status = Partially verified
+| mode = Live
+| version = Current Live
+| reviewed = 2026-10-04
+| reviewer = Sythan
+| source_quality = Route stacking follows ordinary contract behaviour; pirate-massacre stacking is supported by current community journal tools.
+| uncertainty = Shared-progress rules vary by mission family and can change. Verify the first objective update in the Transactions panel.
+}}
+
+'''Mission stacking''' means accepting several missions that can be completed efficiently during the same trip or activity. It can describe two different advantages:
+
+* '''Route stacking''' — several independent missions use the same route or nearby destinations.
+* '''Shared-progress stacking''' — one qualifying action advances more than one mission counter.
+
+Most convenient groups are route stacks. Do not assume shared progress unless the specific mission type supports it.
+
+== Route stacking ==
+
+Examples include:
+
+* several [[Courier Missions|courier missions]] to the same station;
+* deliveries and source-and-return contracts along one market route;
+* passenger groups with compatible destinations and cabin requirements;
+* several missions that can be completed in the same target system.
+
+Each contract remains independent. It has its own issuer, deadline, destination, legal status, failure conditions, reward, and BGS effect. Route stacking saves travel time; it does not merge the contracts.
+
+== Shared-progress stacking ==
+
+The best-known example is pirate massacre stacking. Current community mission trackers group contracts from different issuing factions that all name the same pirate target faction. One qualifying kill can advance one compatible active contract from each issuer. Additional contracts from the same issuer normally wait behind that issuer's active quota rather than all receiving the same kill.<ref name="warboard">[https://github.com/Mirooz/EliteDangerousWarboard Elite Dangerous Warboard], current community journal-tracking tool, accessed 4 October 2026.</ref><ref name="edmcmassacres">[https://github.com/CMDR-WDX/EDMC-Massacres EDMC Massacres], community mission-tracking plugin, accessed 4 October 2026.</ref>
+
+{{Warning|Mission titles are not enough to prove compatibility. Pirate massacre, deserter, wartime, on-foot, and other kill missions can use different target rules. Check the target faction, system, variant, and counter after the first kill.}}
+
+== Building a pirate-massacre stack ==
+
+# Choose one target faction and target system.
+# Visit boards where several different factions offer valid pirate massacre missions against that target.
+# Record each issuing faction separately.
+# Check every contract's target faction, location, deadline, legal status, and Team status.
+# Prefer quotas that can be completed before the earliest deadline.
+# Travel to a mission-valid hunting location.
+# Destroy one scanned mission target.
+# Check every Transactions-panel counter before continuing.
+
+For a stack with three different issuers, one qualifying kill may advance three missions. If one issuer supplied two contracts, that issuer's second quota normally begins receiving progress after the first is complete.
+
+== Planning table ==
+
+{| class="wikitable"
+! Issuer
+! Target faction
+! Target system
+! Kills required
+! Team
+! Deadline
+! Counter after test kill
+|-
+| Faction 1
+| Target faction
+| Target system
+| 20
+| No
+| Time
+| Check
+|-
+| Faction 2
+| Target faction
+| Target system
+| 30
+| Yes/No
+| Time
+| Check
+|}
+
+Tracking by issuer prevents the most common arithmetic mistake: adding every mission quota when the actual number of kills needed is closer to the largest compatible quota per issuer grouping.
+
+== Team considerations ==
+
+Only explicitly marked Team missions can be shared as Team missions. Share them and have each commander accept before progress begins. Ordinary solo missions do not become shared because commanders are in the same Team.
+
+A Team should agree on:
+
+* who owns and shares each contract;
+* which target faction is valid;
+* whether everyone has accepted the share;
+* when to return for turn-in;
+* how reward choices support the group's goal.
+
+== BGS safety ==
+
+A large stack multiplies consequences as well as rewards. Before acceptance, check:
+
+* every issuing faction;
+* the target faction;
+* the system in which ship losses or crimes occur;
+* every chosen influence reward;
+* whether any issuer or target conflicts with the campaign.
+
+Do not take a contract merely because it fits the route. A single wrong issuer or target can make a profitable stack counterproductive.
+
+== Capacity and deadlines ==
+
+The mission limit, cargo capacity, cabin layout, ammunition, repair endurance, travel time, and the earliest expiry all constrain a stack. Leave room for mission updates and recovery from mistakes.
+
+For transport stacks:
+
+* distinguish mission-provided cargo from commodities that must be sourced;
+* confirm total cargo or cabin capacity;
+* do not count VIP cabin spare seats as available to other groups;
+* check pad size and supercruise distance at every stop.
+
+For combat stacks:
+
+* plan for the largest issuer quota, not only the smallest contract;
+* carry enough ammunition or synthesis materials;
+* include travel and turn-in time before expiry;
+* stop accepting work when completion confidence falls.
+
+== Verification ==
+
+After the first objective action, open Transactions and check each mission. If expected counters did not move, stop and diagnose the target, location, variant, or share state before investing more time.
+
+After hand-in, use the <code>MissionCompleted</code> journal entries to verify rewards and faction effects. See [[Mission Influence and BGS Effects]].
+
+== Common mistakes ==
+
+* Calling every group of missions a shared-progress stack.
+* Mixing target factions with similar names.
+* Expecting contracts from the same issuer to progress in parallel.
+* Assuming a wanted ship is a mission target.
+* Starting a Team mission before every participant accepts the share.
+* Ignoring cargo, cabin, mission-count, or deadline limits.
+* Optimising income while overlooking BGS consequences.
+
+== Related Field Manual entries ==
+
+* [[Massacre Missions]]
+* [[Courier Missions]]
+* [[Delivery and Source Missions]]
+* [[Passenger Missions]]
+* [[Mission Influence and BGS Effects]]
+
+== References ==
+
+<references />
+
+[[Category:Missions]]
+[[Category:Mission guides]]

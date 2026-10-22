@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Cannon
 Namespace: 828
 Page ID: 457
-Revision ID: 2253
-Timestamp: 2026-08-25T14:14:15Z
+Revision ID: 4229
+Timestamp: 2026-09-15T00:32:48Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -13,9 +13,10 @@ return {
 	name = "Cannon",
 	module_class = "Kinetic weapon",
 	slot_type = "Hardpoint",
-	mount = "Fixed, gimballed, and turreted variants",
+	mount = "Fixed<br>Gimballed<br>Turreted",
 	manufacturer = "",
-	availability = "",
-	engineering = "",
-	related_modules = "[[Multi-Cannon]], [[Fragment Cannon]]",
+	availability = "Standard Outfitting module; fixed and gimballed classes 1–4, turreted classes 1–3",
+	engineering = "Efficient<br>High Capacity<br>Lightweight<br>Long Range<br>Overcharged<br>Rapid Fire<br>Short Range<br>Sturdy<br>Experimental Effects available; eligible Merc variants also support Force Impact",
+	related_modules = "Multi-Cannon<br>Fragment Cannon",
+	notes = "Ammunition-fed kinetic weapon built around high damage per shot, armour piercing, and internal-module damage.",
 }

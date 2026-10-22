@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: Massacre Mission
+Namespace: 0
+Page ID: 983
+Revision ID: 6140
+Timestamp: 2026-10-04T15:56:52Z
+Source URL: https://edfieldmanual.com/wiki/Massacre_Mission
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+#REDIRECT [[Massacre Missions]]

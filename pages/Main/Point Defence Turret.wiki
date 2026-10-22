@@ -3,22 +3,123 @@ EDFM current-content archive export.
 Title: Point Defence Turret
 Namespace: 0
 Page ID: 560
-Revision ID: 2181
-Timestamp: 2026-08-24T23:44:48Z
+Revision ID: 4471
+Timestamp: 2026-09-16T15:08:23Z
 Source URL: https://edfieldmanual.com/wiki/Point_Defence_Turret
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Point Defence Turret ship module.
+{{Article header|deck=An automated utility turret that intercepts hostile missiles, torpedoes, mines, and hatch-breaker limpets.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Specifications use commit-pinned module data; target types and Engineering are documented from current community references.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Point Defence Turret''' is an automated defensive utility module. While powered and supplied with ammunition, it tracks and fires on hostile missiles, torpedoes, mines, and [[Hatch Breaker Limpet Controller|hatch-breaker limpets]] that enter its coverage.<ref name="wiki-pdt">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Point_Defence_Turret Point Defence Turret].</ref>
+
+The module occupies one utility mount and operates without manual aiming. It attacks incoming ordnance rather than the ship that launched it, so it supplements a ship's shields, armour, manoeuvring, and other countermeasures rather than acting as a conventional weapon.
+
+== Specifications ==
+
+{| class="wikitable"
+! Property
+! Value
+|-
+| Class and rating
+| 0I
+|-
+| Mass
+| 0.5 t
+|-
+| Integrity
+| 30
+|-
+| Power draw
+| 0.20 MW
+|-
+| Damage per round
+| 0.2 kinetic
+|-
+| Firing interval
+| 0.2 s
+|-
+| Burst
+| 4 rounds
+|-
+| Burst rate
+| 15/s
+|-
+| Reload time
+| 0.4 s
+|-
+| Projectile speed
+| 1,000 m/s
+|-
+| Maximum projectile range
+| 2,500 m
+|-
+| Standard ammunition reserve
+| 10,000 rounds
+|-
+| Base price
+| 18,550 CR
+|}
+
+The turret's individual rounds do very little damage to ships. Its high ammunition reserve and rapid bursts are intended to destroy small incoming objects before impact.<ref name="data-pdt">EDCD Coriolis Data, [https://raw.githubusercontent.com/EDCD/coriolis-data/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/hardpoints/point_defence.json Point Defence module record], commit-pinned.</ref>
+
+== Operation ==
+
+Point defence is automatic. The turret scans its field of fire, turns towards eligible threats, and opens fire when it can establish an interception solution. No fire group assignment is required.
+
+Utility-mount position matters. The ship's hull can block a turret's line of sight, and one mount cannot guarantee complete spherical protection. A top-mounted turret generally covers threats approaching above the ship, while a lower mount covers the underside more reliably. Ships expecting attacks from several directions may use multiple turrets with overlapping arcs.
+
+Interception is probabilistic rather than absolute. A single missile or hatch-breaker limpet on a clear approach is easier to stop than a dense salvo. [[Pack-Hound Missile Rack|Pack-Hound]] swarms, simultaneous launchers, short approach distances, terrain, and blocked arcs can overwhelm or bypass coverage. Torpedoes are valid targets but can still reach the ship if detected too late or fired from too close.
+
+A powered turret remains dependent on ammunition. Once its reserve is exhausted, it cannot engage further threats until rearmed. Module damage, power-priority shutdown, or insufficient power also removes its protection.
+
+=== Surface support ===
+
+A ship's point defence can engage eligible hostile projectiles while the commander is operating an SRV nearby, provided the turret has line of sight. Mount placement and the orientation of the landed ship therefore matter when using the ship as local defensive support.
+
+== Defensive role ==
+
+The Point Defence Turret differs from other utility countermeasures:
+
+* an [[Electronic Countermeasure]] is manually charged and disrupts guided ordnance over an area instead of shooting individual threats;
+* a [[Chaff Launcher]] interferes with gimballed and turreted weapon tracking but does not destroy missiles;
+* shields and armour absorb attacks that reach the ship, while point defence attempts to prevent impact;
+* point defence can target hatch-breaker limpets, giving it a cargo-protection role that chaff does not provide.
+
+These systems can be combined when a build faces several threat types, but every utility chosen displaces another scanner, booster, launcher, or countermeasure.
+
+== Engineering ==
+
+Point Defence Turrets accept two Blueprint families:
+
+* '''Ammo Capacity''' increases the ammunition reserve at the cost of mass;<ref name="wiki-pdt" /> and
+* '''Lightweight''' reduces mass at the cost of integrity.<ref name="inara-pdt">INARA, [https://inara.cz/elite/blueprint/151/ Point Defence — Lightweight Blueprint].</ref>
+
+They do not accept Experimental Effects. Engineering changes endurance or fitting mass rather than targeting logic, field of fire, or the types of ordnance the turret can intercept.
+
+== Acquisition ==
+
+Point Defence Turrets are standard utility modules purchased through Outfitting where local stock is available. They require no Powerplay allegiance, Engineer unlock, or Technology Broker transaction. The module and its basic role are available in both current Live and Legacy modes.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Electronic Countermeasure]] [[Chaff Launcher]] [[Missile Rack]] [[Torpedo Pylon]] [[Pack-Hound Missile Rack]]}}
 
 [[Category:Modules]]
-[[Category:Ship modules]]
+[[Category:Utility mounts]]
+[[Category:Defensive modules]]

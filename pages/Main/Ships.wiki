@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Ships
 Namespace: 0
 Page ID: 331
-Revision ID: 3664
-Timestamp: 2026-09-09T20:28:31Z
+Revision ID: 5212
+Timestamp: 2026-09-24T18:31:31Z
 Source URL: https://edfieldmanual.com/wiki/Ships
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -47,6 +47,20 @@ The '''base hull price''' is the standard price of the stock ship itself. It doe
 {{Important|Some ships have additional purchase requirements, including [[Federal Navy]] or [[Imperial Navy]] rank, special account entitlements, or current-version ownership conditions. Those requirements are documented on the individual ship page rather than repeated throughout this directory.}}
 
 {{Field note|A higher hull price does not automatically make a ship better for a particular activity. Ship size, internal compartments, hardpoints, handling, jump capability, module compatibility, and intended build can matter far more than purchase price.}}
+
+== Announced ships ==
+
+Announced ships that are not yet available are listed separately and are not included in the current Live roster or landing-pad-size counts.
+
+{| class="wikitable"
+! Ship
+! Manufacturer
+! Announced availability
+|-
+| [[Anaconda Mk II]]
+| Faulcon deLacy
+| ARX Early Access in October 2026<ref name="frontier-september-2026">[https://www.elitedangerous.com/news/september-2026-dev-log-law-disorder-first-details-anaconda-mk-ii-revealed September 2026 Dev Log: Law & Disorder First Details & Anaconda Mk II Revealed], Frontier Developments, 24 September 2026.</ref>
+|}
 
 == Small ships ==
 

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Hatch Breaker Limpet Controller
 Namespace: 0
 Page ID: 387
-Revision ID: 1940
-Timestamp: 2026-08-24T21:22:02Z
+Revision ID: 5216
+Timestamp: 2026-09-24T18:36:26Z
 Source URL: https://edfieldmanual.com/wiki/Hatch_Breaker_Limpet_Controller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -30,8 +30,8 @@ Hatch Breaker limpets are one of four original Limpet Controller types (alongsid
 | [[Ram Tah]] || Grade 3
 |}
 
-=== Related Engineering Guides ===
-{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+=== Related pages ===
+{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Law & Disorder]]}}
 
 {{Engineering nav}}
 

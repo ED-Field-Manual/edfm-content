@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Exobiology species needing images
+Namespace: 14
+Page ID: 872
+Revision ID: 5684
+Timestamp: 2026-09-30T16:12:10Z
+Source URL: https://edfieldmanual.com/wiki/Category:Exobiology_species_needing_images
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Biological species reference pages without an approved field image.
+
+[[Category:Biological species]]

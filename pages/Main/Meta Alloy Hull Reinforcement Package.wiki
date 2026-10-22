@@ -3,22 +3,87 @@ EDFM current-content archive export.
 Title: Meta Alloy Hull Reinforcement Package
 Namespace: 0
 Page ID: 526
-Revision ID: 2165
-Timestamp: 2026-08-24T23:44:29Z
+Revision ID: 4395
+Timestamp: 2026-09-16T03:18:09Z
 Source URL: https://edfieldmanual.com/wiki/Meta_Alloy_Hull_Reinforcement_Package
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Meta Alloy Hull Reinforcement Package ship module.
+{{Article header|deck=A Human Technology Broker hull package that adds integrity and caustic resistance without drawing power.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current as of September 2026
+ |notes=The current Human Technology Broker directory lists the Class 1E package. Older equipment records include additional variants.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Meta Alloy Hull Reinforcement Package''' is an optional internal module built from human research into [[Meta-Alloys]]. The current Class 1E package adds '''72 hull integrity''' and applies '''3% caustic resistance''' to the ship's hull. It draws no power.<ref name="module-data">[https://raw.githubusercontent.com/EDCD/coriolis-data/d4efdee1808b45ae7c60b9b30223b670375e95a4/modules/internal/meta_alloy_hull_reinforcement_package.json EDCD Coriolis Data: Meta Alloy Hull Reinforcement Package records], commit pinned; accessed 16 September 2026.</ref>
 
-== Overview ==
+Unlike a standard [[Hull Reinforcement Package]], it provides no kinetic, thermal, or explosive resistance. Its defining property is stock caustic protection rather than broad conventional-combat resistance.
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Current specification ==
+
+{| class="wikitable"
+! Module
+! Hull integrity
+! Mass
+! Power draw
+! Kinetic resistance
+! Thermal resistance
+! Explosive resistance
+! Caustic resistance
+! Reference value
+|-
+| 1E || 72 || 2 t || 0 MW || 0% || 0% || 0% || 3% || 7,501 Cr
+|}
+
+The caustic resistance applies to damage reaching the hull; it does not protect an exposed internal module as though that module had its own resistance. Multiple hull-resistance sources combine through the normal resistance calculation rather than by simply adding percentage points.
+
+== Unlock and acquisition ==
+
+The package requires a permanent unlock at a '''Human Technology Broker'''. The current recorded cost is:<ref name="broker">[https://inara.cz/elite/techbroker/ INARA: Technology Broker unlocks], accessed 16 September 2026.</ref>
+
+* 16 [[Meta-Alloys]]
+* 25 Focus Crystals
+* 22 Aberrant Shield Pattern Analysis
+* 20 Configurable Components
+* 12 Reinforced Mounting Plates
+
+After the unlock, additional 1E packages are purchased for credits where stocked; the unlock materials are not paid again for every ordinary copy. Technology Broker locations and outfitting stock are dynamic.
+
+{{Field note|Current Technology Broker listings identify the 1E package. Older guides and equipment datasets may show larger or D-rated Meta Alloy Hull Reinforcement variants; confirm live availability before planning around one of those entries.}}
+
+== Comparison with other hull packages ==
+
+{| class="wikitable"
+! Family
+! Power draw
+! Stock resistance profile
+! Engineering
+|-
+| Standard Hull Reinforcement Package || None || Kinetic, thermal, and explosive || Supported
+|-
+| Meta Alloy Hull Reinforcement Package || None || Caustic || Not supported
+|-
+| [[Guardian Hull Reinforcement Package]] || Required || Thermal and caustic || Ordinary hull blueprints not supported
+|}
+
+The Meta Alloy package occupies an ordinary optional internal slot. Fitting it therefore trades away the raw integrity or utility that another module could provide. Its 3% caustic resistance affects the ship's full hull pool, while its own 72-point contribution is modest; the value of the package is consequently tied to the build and expected damage type rather than to its integrity figure alone.
+
+The Guardian alternative offers 5% caustic resistance and more raw integrity in its smallest D-rated form, but it requires power and a separate Guardian Technology Broker unlock. Standard engineered packages normally provide more integrity and conventional resistances but do not supply caustic resistance.
+
+== Engineering ==
+
+Meta Alloy Hull Reinforcement Packages do not accept the ordinary Heavy Duty, Lightweight, Blast Resistant, Kinetic Resistant, or Thermal Resistant Hull Reinforcement blueprints. No Experimental Effects are available.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Hull Reinforcement Package]] [[Guardian Hull Reinforcement Package]] [[Meta-Alloys]] [[Armour]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]

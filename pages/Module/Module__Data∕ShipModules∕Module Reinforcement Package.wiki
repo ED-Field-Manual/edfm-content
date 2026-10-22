@@ -3,12 +3,26 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Module Reinforcement Package
 Namespace: 828
 Page ID: 541
-Revision ID: 1328
-Timestamp: 2026-08-21T00:00:04Z
+Revision ID: 4410
+Timestamp: 2026-09-16T04:21:58Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Module_Reinforcement_Package
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Module Reinforcement Package",
+	module_class = "Module protection",
+	slot_type = "Optional internal or military compartment",
+	classes = "1–5",
+	ratings = "E and D",
+	power_draw = "None",
+	availability = "Standard outfitting stock",
+	engineering = "No conventional ship-module Engineering",
+	mode = "Live and Legacy",
+	description = "Redirects part of penetrating module damage into the package's own integrity pool.",
+	related = {
+		"Guardian Module Reinforcement Package",
+		"Auto Field-Maintenance Unit",
+		"Hull Reinforcement Package"
+	}
 }

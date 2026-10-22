@@ -3,22 +3,119 @@ EDFM current-content archive export.
 Title: Fuel Tank
 Namespace: 0
 Page ID: 499
-Revision ID: 2155
-Timestamp: 2026-08-24T23:44:16Z
+Revision ID: 4318
+Timestamp: 2026-09-15T13:24:00Z
 Source URL: https://edfieldmanual.com/wiki/Fuel_Tank
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Fuel Tank ship module.
+{{Article header|deck=The standard ship module that stores hydrogen fuel for hyperspace jumps and continuous ship operation.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy module records
+ |reviewed=2026-09-15
+ |source_quality=Current maintained community module data, supported by official optional-tank release documentation
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+A '''Fuel Tank''' stores the hydrogen fuel consumed by a ship's [[Frame Shift Drive]], power plant, and other operating systems. Every ship has a dedicated core fuel-store compartment and normally arrives with the largest compatible C-rated tank fitted. The same module family can also be installed in optional internal compartments to increase total capacity.<ref name="ed-wiki-tank">[https://elite-dangerous.fandom.com/wiki/Fuel_Tank Elite Dangerous Wiki: ''Fuel Tank''], revision of 22 February 2026. Current community description, class family, capacities, prices, core and optional fitting, and mass behavior; retrieved 15 September 2026.</ref><ref name="frontier-13">[https://community.elitedangerous.com/en/node/190 Elite Dangerous 1.3 Powerplay — collated update notes], Frontier Developments. Official record enabling Fuel Tanks in internal compartments; retrieved 15 September 2026.</ref>
 
-== Overview ==
+== Classes and capacity ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+Standard Fuel Tanks are C-rated modules available in Classes 1–8. Capacity doubles with each class, from 2 tonnes in a 1C tank to 256 tonnes in an 8C tank.<ref name="edcd-tank">[https://raw.githubusercontent.com/EDCD/coriolis-data/9e5273b56426596061e2b02a6ba53e3e4103c9ab/modules/standard/fuel_tank.json EDCD Coriolis data: ''Fuel Tank''], pinned module-data revision committed 6 June 2024. Standard class, rating, capacity, mass, price, and module identifiers; retrieved 15 September 2026.</ref>
+
+{| class="wikitable sortable"
+! Variant
+! Capacity
+! Empty module mass
+! Typical price
+|-
+| 1C
+| 2 t
+| 0 t
+| 1,000 CR
+|-
+| 2C
+| 4 t
+| 0 t
+| 3,750 CR
+|-
+| 3C
+| 8 t
+| 0 t
+| 7,063 CR
+|-
+| 4C
+| 16 t
+| 0 t
+| 24,734 CR
+|-
+| 5C
+| 32 t
+| 0 t
+| 97,754 CR
+|-
+| 6C
+| 64 t
+| 0 t
+| 341,577 CR
+|-
+| 7C
+| 128 t
+| 0 t
+| 1,780,914 CR
+|-
+| 8C
+| 256 t
+| 0 t
+| 5,428,429 CR
+|}
+
+Prices shown are standard module-record values before discounts or other market modifiers. Outfitting stock is dynamic.
+
+== Core and optional tanks ==
+
+The dedicated core fuel store determines a ship's ordinary main-tank capacity. A smaller compatible tank can replace the stock tank, while additional tanks can occupy suitable optional internal slots. Fuel from all fitted tanks contributes to the same main-fuel total shown on the HUD.
+
+Additional capacity extends endurance between refuelling stops, but it does not increase the Frame Shift Drive's maximum fuel allowance for a single jump. That limit belongs to the drive. Extra tankage therefore permits more jumps or more operating time before refuelling rather than making one otherwise impossible jump available.
+
+== Mass and jump range ==
+
+The Fuel Tank module itself has no mass. The fuel inside it does: one tonne of stored fuel adds one tonne to the ship's current mass. A larger empty tank therefore does not directly reduce jump range, but filling it can reduce the range available at that fuel load.<ref name="ed-wiki-tank" /><ref name="edcd-tank" />
+
+Replacing the core tank with a smaller one does not make the empty hull lighter. It only limits how much fuel the ship can carry. A partially filled large tank produces the same fuel mass as a smaller tank carrying the same number of tonnes, while retaining the option to take on more fuel when endurance matters.
+
+== Main tank and active reservoir ==
+
+The thick lower fuel bar on the HUD represents the main tank capacity supplied by fitted Fuel Tanks. The thinner upper bar is the ship's active reservoir, whose size is inherent to the hull rather than selected through Outfitting.<ref name="ed-wiki-fuel">[https://elite-dangerous.fandom.com/wiki/Fuel Elite Dangerous Wiki: ''Fuel''], revision of 18 May 2023. Community description of main-tank and active-reservoir consumption and refuelling behavior; retrieved 15 September 2026.</ref>
+
+Powered ship systems consume fuel continuously from the active reservoir. When that reservoir is depleted, it automatically draws fuel from the main tank. Hyperspace jumps draw their required fuel directly from the main tank. This distinction explains why the HUD can show a nearly empty upper bar while substantial jump fuel remains below it.
+
+== Refuelling ==
+
+The main tank can be replenished through port refuelling services, by a fitted [[Fuel Scoop]] at suitable stars, or by receiving fuel from another ship's [[Fuel Transfer Limpet Controller]]. Cargo-canister Hydrogen Fuel cannot be moved into a ship's Fuel Tank as ordinary ship fuel.<ref name="ed-wiki-fuel" />
+
+== Engineering ==
+
+Fuel Tanks do not accept Engineer blueprints or Experimental Effects.
+
+== Acquisition ==
+
+Fuel Tanks are standard credit-purchased modules. Compatible stock depends on the current Outfitting market. Every newly acquired ship includes its stock core tank; additional or replacement tanks are fitted through Outfitting.
+
+== Sources ==
+
+<references />
+
+== Related articles ==
+
+* [[Fuel Scoop]]
+* [[Fuel Transfer Limpet Controller]]
+* [[Frame Shift Drive]]
+* [[Exploration]]
 
 [[Category:Modules]]
 [[Category:Ship modules]]

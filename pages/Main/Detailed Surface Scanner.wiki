@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Detailed Surface Scanner
 Namespace: 0
 Page ID: 366
-Revision ID: 3767
-Timestamp: 2026-09-10T20:26:08Z
+Revision ID: 4768
+Timestamp: 2026-09-20T02:25:40Z
 Source URL: https://edfieldmanual.com/wiki/Detailed_Surface_Scanner
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -32,7 +32,7 @@ The DSS follows system discovery and Full Spectrum System Scanner identification
 
 The standard scanner has the following current characteristics:<ref name="coriolis-data">[https://github.com/EDCD/coriolis-data/blob/master/modules/internal/surface_scanner.json Detailed Surface Scanner game-data record], EDCD Coriolis Data. Accessed at commit <code>0db9234b5b9ce8c939ea84133d7ce336eea88e27</code>, 10 September 2026.</ref><ref name="dss-community">[https://elite-dangerous.fandom.com/wiki/Detailed_Surface_Scanner Detailed Surface Scanner], Elite Dangerous Wiki. Accessed 10 September 2026.</ref>
 
-{| class="wikitable" style="width:100%;"
+{| class="wikitable" style="width:80%;"
 ! Attribute !! Standard module
 |-
 | Slot || Class 1 optional internal

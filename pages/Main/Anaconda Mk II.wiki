@@ -1,0 +1,72 @@
+<!--
+EDFM current-content archive export.
+Title: Anaconda Mk II
+Namespace: 0
+Page ID: 847
+Revision ID: 6380
+Timestamp: 2026-10-07T11:21:30Z
+Source URL: https://edfieldmanual.com/wiki/Anaconda_Mk_II
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status
+ |status=Upcoming Content
+ |mode=Live
+ |version=Pre-release information announced 24 September 2026
+ |reviewed=2026-09-24
+ |reviewer=Sythan
+ |source_quality=Official Frontier September 2026 developer log and later official Elite Dangerous Discord clarification
+ |uncertainty=Complete hardpoint layout, ship statistics, internals, price, and general credit availability have not been announced.
+}}
+
+{{Article header|deck=An upcoming Faulcon DeLacy starship with a redesigned hull, native Supercruise Overcharge support, and a distinct weapon layout.}}
+
+{{Ship infobox}}
+
+The '''Anaconda Mk II''' is an upcoming [[Ships|starship]] manufactured by Faulcon DeLacy. Frontier describes it as a new vessel rather than a visual replacement for the original Anaconda, with a redesigned hull, improved cockpit visibility, native Supercruise Overcharge compatibility, and its own weapon arrangement.<ref name="frontier-september-dev-log">[https://www.elitedangerous.com/news/september-2026-dev-log-law-disorder-first-details-anaconda-mk-ii-revealed September 2026 Dev Log: Law & Disorder First Details & Anaconda Mk II Revealed], Frontier Developments, 24 September 2026.</ref>
+
+== Confirmed specifications ==
+
+{| class="wikitable" style="width:70%;"
+! Attribute
+! Confirmed information
+|-
+| Manufacturer
+| Faulcon DeLacy<ref name="frontier-september-dev-log" />
+|-
+| Release status
+| ARX Early Access scheduled for October 2026<ref name="frontier-september-dev-log" />
+|-
+| Supercruise Overcharge
+| Compatible<ref name="frontier-september-dev-log" />
+|-
+| Confirmed hardpoints
+| 4 Large; 1 Huge<ref name="frontier-hardpoint-clarification">Official Elite Dangerous / Frontier Discord clarification, 24 September 2026.</ref>
+|}
+
+Frontier has not stated whether the four Large and one Huge hardpoints form the ship's complete hardpoint inventory.
+
+{{Important|The Anaconda Mk II announcement does '''not''' introduce a Size 5 or Extra Large weapon class. Frontier's current Dev Log describes the new forward-deploying mount as a '''Large hardpoint'''; the later official Discord clarification confirms four Large hardpoints and one Huge hardpoint.<ref name="frontier-september-dev-log" /><ref name="frontier-hardpoint-clarification" />}}
+
+== Design ==
+
+The Mk II returns to the broad rear profile and dart-like shape associated with earlier Anaconda designs, then flattens and lengthens the silhouette. Its rear section carries large engines with the vectoring flaps used across Faulcon DeLacy's current design language.<ref name="frontier-september-dev-log" />
+
+The cockpit sits above the main hull in a conning-tower-like position. This preserves the ship's long nose while improving the pilot's view. A trench along the upper hull and cut-away sections of the nose form two forward prongs and provide space for a centreline, forward-deploying Large hardpoint.<ref name="frontier-september-dev-log" />
+
+These changes distinguish the Anaconda Mk II from the original hull without establishing its performance or role. Frontier has not yet published its mass, speed, jump range, armour, shields, cargo capacity, utility mounts, internal compartments, crew capacity, or complete weapon layout.
+
+== Availability ==
+
+The Anaconda Mk II is scheduled to enter ARX Early Access in October 2026.<ref name="frontier-september-dev-log" /> Frontier has not announced an exact release day, ARX price, credit price, or date for general credit availability.
+
+== References ==
+
+<references />
+
+{{Related articles
+ |1=[[Ships]] [[Ships and Equipment]]
+}}
+
+[[Category:Ships]]
+[[Category:Ships and Equipment]]

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/index
 Namespace: 828
 Page ID: 434
-Revision ID: 3794
-Timestamp: 2026-09-11T03:22:43Z
+Revision ID: 5159
+Timestamp: 2026-09-24T14:23:44Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/index
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -37,11 +37,10 @@ return {
 	"Enhanced AX Missile Rack",
 	"Enhanced AX Multi-Cannon",
 	"Enhanced Xeno Scanner",
-	"Fighter Hangar",
+	"Vessel Hangar",
 	"First Class Passenger Cabin",
 	"Fragment Cannon",
 	"Frame Shift Drive",
-	"Frame Shift Drive Booster",
 	"Frame Shift Drive Interdictor",
 	"Frame Shift Wake Scanner",
 	"Fuel Scoop",
@@ -105,7 +104,6 @@ return {
 	"Shield Booster",
 	"Shield Cell Bank",
 	"Shield Generator",
-	"Shield Reinforcement Package",
 	"Shock Mine Launcher",
 	"Shutdown Field Neutraliser",
 	"Standard Docking Computer",
@@ -115,7 +113,7 @@ return {
 	"Thargoid Pulse Neutraliser",
 	"Thrusters",
 	"Torpedo Pylon",
-	"Universal Limpet Controller",
+	"Universal Multi Limpet Controller",
 	"Xeno Multi Limpet Controller",
 	"Xeno Scanner",
 }

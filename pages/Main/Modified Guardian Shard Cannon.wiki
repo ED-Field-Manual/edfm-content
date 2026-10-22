@@ -3,22 +3,170 @@ EDFM current-content archive export.
 Title: Modified Guardian Shard Cannon
 Namespace: 0
 Page ID: 540
-Revision ID: 2172
-Timestamp: 2026-08-24T23:44:37Z
+Revision ID: 5191
+Timestamp: 2026-09-24T15:19:11Z
 Source URL: https://edfieldmanual.com/wiki/Modified_Guardian_Shard_Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Modified Guardian Shard Cannon ship module.
+{{Article header|deck=Salvation's pre-engineered Guardian Shard Cannon, concentrating its shard spread and extending its useful range.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
 }}
 
-{{Ship module infobox}}
+{{Ship module infobox
+ |module_class=Guardian anti-xeno weapon
+ |slot_type=Hardpoint
+ |mount=Fixed Class 1D or 2A
+ |manufacturer=Azimuth Biotech (Salvation design)
+ |availability=Material barter at Prospect's Deep in Mbooni
+ |unlock=Mbooni permit and per-module material payment
+ |engineering=Pre-engineered Long Range and Focused package with penetrator effect; no further Engineering
+}}
 
-{{Draft warning}}
+The '''Modified Guardian Shard Cannon''' is a fixed Guardian weapon developed from Salvation's work for Azimuth Biotech. It combines Long Range and Focused modifications with a penetrator effect, transforming the broad spread of a standard [[Guardian Shard Cannon]] into a tighter, faster cluster with improved armour piercing.<ref name="edcd">[https://raw.githubusercontent.com/EDCD/coriolis-data/d0f20ca17805588d77c1978fff99a01280dc2d22/modules/hardpoints/guardian_shard_cannon.json EDCD Coriolis Data: Guardian Shard Cannon data], revision d0f20ca, accessed 16 September 2026.</ref><ref name="axi">[https://wiki.antixenoinitiative.com/en/weapons Anti-Xeno Initiative Wiki: Weapons], last edited 18 June 2026, accessed 16 September 2026.</ref>
 
-== Overview ==
+Only fixed Class 1D and Class 2A versions are available through the current material-barter route. These are commonly called '''modshards'''.
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Operation ==
 
-[[Category:Modules]]
-[[Category:Ship modules]]
+Each trigger pull fires twelve shards. A hit at close range can place the full cluster on one target, while wider distance or imperfect aim allows shards to pass around a small target or exposed Interceptor heart.
+
+The modified package cuts jitter from 5 degrees to approximately 1.5 degrees, raises projectile speed from about 1,133 to 6,299 metres per second, and extends maximum range to 3 kilometres. Damage falloff begins at 1.5 kilometres. This remains a spread weapon, but it can deliver useful damage much farther from the target than the standard cannon.<ref name="specs">[https://elite-dangerous.fandom.com/wiki/Guardian_Shard_Cannon Elite Dangerous Wiki: Guardian Shard Cannon], accessed 16 September 2026.</ref>
+
+The tighter group, higher armour piercing, and high burst damage make the Class 2 version a strong anti-xeno alternative to gauss weapons. Modified shards are particularly effective for exerting Interceptor hearts and destroying Scouts. Heart shots still require careful range and convergence because only shards that intersect the exposed heart deal their full intended damage.<ref name="axi" />
+
+== Specifications ==
+
+{| class="wikitable"
+! Specification
+! Class 1D
+! Class 2A
+|-
+! Mount
+| Fixed
+| Fixed
+|-
+! Shards per shot
+| 12
+| 12
+|-
+! Mass
+| 3 t
+| 6 t
+|-
+! Integrity
+| 34
+| 42
+|-
+! Power draw
+| 2.00 MW
+| 2.78 MW
+|-
+! Distributor draw
+| 2.22 MW
+| 3.43 MW
+|-
+! Thermal load
+| 11.4
+| 19.8
+|-
+! Armour piercing
+| 61
+| 91
+|-
+! Jitter
+| 1.5°
+| 1.5°
+|-
+! Maximum range
+| 3,000 m
+| 3,000 m
+|-
+! Damage falloff starts
+| 1,500 m
+| 1,500 m
+|-
+! Projectile speed
+| 6,299 m/s
+| 6,299 m/s
+|-
+! Ammunition per clip
+| 5
+| 5
+|-
+! Maximum ammunition
+| 180
+| 180
+|-
+! Reload time
+| 5 s
+| 5 s
+|}
+
+The modified package imposes much higher mass, power draw, distributor draw, and thermal load than the standard fixed cannon. Multiple Class 2 modshards can deliver a very strong volley, but repeated fire requires deliberate heat and distributor management.
+
+Each Modified Guardian Shard Cannon occupies one slot under the ship's experimental-weapon limit. Weapon stabilisers can raise that limit. The cannon's comparatively manageable distributor demand makes high-count modshard installations practical on suitably equipped ships, although the accompanying heat output remains substantial.<ref name="axi" />
+
+== Acquisition ==
+
+Modified Guardian Shard Cannons are material-barter purchases from the Guardian Technology Broker at Prospect's Deep in the permit-locked Mbooni system. Azimuth Biotech established Prospect's Deep as the replacement supplier for modified Guardian weapons after Bright Sentinel was destroyed.<ref name="supplier">[https://www.elitedangerous.com/news/galnet/successful-mining-campaign-sustains-azimuth Elite Dangerous: Successful Mining Campaign Sustains Azimuth], 10 November 2022, accessed 16 September 2026.</ref>
+
+The transaction supplies one cannon. It does not permanently unlock the weapon for credit purchases, so every additional cannon requires another material payment.<ref name="broker">[https://inara.cz/elite/techbroker/ INARA: Technology broker], accessed 16 September 2026.</ref>
+
+{| class="wikitable"
+! Class 1D
+! Quantity
+! Class 2A
+! Quantity
+|-
+| Guardian Weapon Blueprint Fragment
+| 1
+| Guardian Weapon Blueprint Fragment
+| 1
+|-
+| Guardian Power Conduit
+| 3
+| Guardian Wreckage Components
+| 5
+|-
+| Guardian Wreckage Components
+| 3
+| Guardian Technology Component
+| 5
+|-
+| Guardian Sentinel Weapon Parts
+| 4
+| Germanium
+| 4
+|-
+| Germanium
+| 2
+| Power Converter
+| 2
+|}
+
+Access to Mbooni requires the system permit associated with Azimuth Biotech. Commanders who do not yet have access must earn that permit before travelling to Prospect's Deep.<ref name="axi" />
+
+== Other pre-engineered shard cannons ==
+
+The Prospect's Deep weapon is not the same module as the limited Class 2A Guardian Shard Cannon distributed through an earlier Community Goal. Repository data identifies that older reward as a separate Grade 5 Long Range variant with Community Goal availability.<ref name="edcd" /> References to a roughly 7-kilometre “god shard” describe that unavailable reward, not the modshard sold at Prospect's Deep.
+
+== Engineering and anti-Guardian fields ==
+
+The supplied Long Range, Focused, and penetrator package cannot be replaced with another ordinary weapon blueprint or restored after removal. It also prevents application of Anti-Guardian Zone Resistance. The modified cannon therefore takes damage in an anti-Guardian field even though ordinary Guardian weapons can now receive that resistance modification.<ref name="axi" /><ref name="agzr">[https://www.elitedangerous.com/update-notes/4-0-18-07 Elite Dangerous Update 18.07 notes], 7 August 2024, accessed 16 September 2026.</ref>
+
+This limitation matters around Thargoid vessels and locations that project anti-Guardian fields. For those encounters, a resistant standard Guardian weapon or a human anti-xeno weapon may be more dependable.
+
+== See also ==
+
+* [[Guardian Shard Cannon]]
+* [[Modified Guardian Gauss Cannon]]
+* [[Modified Guardian Plasma Charger]]
+* [[Thargoid]]
+
+[[Category:Ship weapons]]
+[[Category:Guardian technology]]
+[[Category:Anti-xeno equipment]]

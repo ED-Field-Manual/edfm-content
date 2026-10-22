@@ -3,17 +3,17 @@ EDFM current-content archive export.
 Title: The Dweller
 Namespace: 0
 Page ID: 111
-Revision ID: 3808
-Timestamp: 2026-09-11T04:15:05Z
+Revision ID: 5193
+Timestamp: 2026-09-24T15:19:18Z
 Source URL: https://edfieldmanual.com/wiki/The_Dweller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 {{Article status
  |status=Partially verified
- |mode=Live and Legacy
+ |mode=Both
  |version=Elite Dangerous 4.4.1.1
- |reviewed=2026-09-11
+ |reviewed=2026-09-24
  |reviewer=Sythan
  |source_quality=Current INARA Engineer records, corrected EDFM structured Engineer data, Frontier Operations notes, and the in-game biography reproduced by the Elite Dangerous Wiki.
  |uncertainty=None currently recorded for The Dweller's direct access requirements or service grades.
@@ -85,11 +85,13 @@ The available modification families, effects, trade-offs, and recipes belong to 
 
 === Operations-era services ===
 
-Live adds three service groups that are not part of Legacy Engineering:<ref name="frontier-operations">[https://www.elitedangerous.com/news/updates/4-4-0-0 Elite Dangerous — 4.4.0.0 Update Notes], Frontier Developments, 27 May 2026. Accessed 11 September 2026.</ref><ref name="inara-dweller" />
+Live adds five service groups that are not part of Legacy Engineering:<ref name="frontier-operations">[https://www.elitedangerous.com/news/updates/4-4-0-0 Elite Dangerous: Operations — Available Now], Frontier Developments, 30 June 2026. Accessed 11 September 2026.</ref><ref name="inara-dweller" />
 
 * '''Balanced Power Distributor''' through Grade 5 on compatible Merc modules
 * '''Support Focused Power Distributor''' through Grade 5 on compatible Merc modules
+* '''Overloaded''' for Beam Lasers through Grade 3 on compatible Merc modules<ref name="inara-overloaded">[https://inara.cz/elite/blueprint/226/ Beam Laser — Overloaded blueprint], INARA. Accessed 24 September 2026.</ref>
 * '''Plasma Conversion''' for Pulse Lasers through Grade 4 and for Beam and Burst Lasers through Grade 3
+* '''Regenerative''' for Burst Lasers through Grade 3 on compatible Merc modules<ref name="inara-regenerative">[https://inara.cz/elite/blueprint/228/ Burst Laser — Regenerative blueprint], INARA. Accessed 24 September 2026.</ref>
 
 The individual modifiers, costs, and module compatibility belong to the corresponding [[Engineering Blueprints|Blueprint]] records.
 

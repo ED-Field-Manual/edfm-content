@@ -2,23 +2,11 @@
 EDFM current-content archive export.
 Title: Fighter Hangar
 Namespace: 0
-Page ID: 485
-Revision ID: 2149
-Timestamp: 2026-08-24T23:44:09Z
+Page ID: 838
+Revision ID: 4272
+Timestamp: 2026-09-15T03:13:12Z
 Source URL: https://edfieldmanual.com/wiki/Fighter_Hangar
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Fighter Hangar ship module.
-}}
-
-{{Ship module infobox}}
-
-{{Draft warning}}
-
-== Overview ==
-
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
-
-[[Category:Modules]]
-[[Category:Ship modules]]
+#REDIRECT [[Vessel Hangar]]

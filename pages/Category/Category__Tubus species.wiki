@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Tubus species
+Namespace: 14
+Page ID: 937
+Revision ID: 5950
+Timestamp: 2026-10-02T21:56:49Z
+Source URL: https://edfieldmanual.com/wiki/Category:Tubus_species
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Biological species in the Tubus group.
+
+[[Category:Biological species]]

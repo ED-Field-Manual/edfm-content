@@ -3,18 +3,109 @@ EDFM current-content archive export.
 Title: Trade
 Namespace: 0
 Page ID: 184
-Revision ID: 928
-Timestamp: 2026-08-18T13:17:43Z
+Revision ID: 5214
+Timestamp: 2026-09-24T18:35:25Z
 Source URL: https://edfieldmanual.com/wiki/Trade
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes}}
+{{Article header|deck=Buying, moving and selling cargo through the galaxy's commodity markets.}}
 
-Index for commodity trading content — see [[:Category:Trading]].
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy; their markets and galaxy states are separate
+ |reviewed=2026-09-23
+ |reviewer=Sythan
+ |source_quality=Core market mechanics use Frontier guidance; current route-data behaviour and special sale cases are checked against maintained community references.
+ |uncertainty=Prices, stock, demand, carrier locations and third-party market records can change between visits.
+}}
 
-{{Draft warning}}
-No individual trade articles exist yet.
+'''Trade''' is the purchase and transport of cargo commodities for sale at another market. The basic calculation is simple: buy where a commodity is inexpensive, then sell where the offered price is higher. A profitable route also has to account for available stock, destination demand, travel time, landing-pad access and the ship's laden jump range.<ref name="frontier-start">Frontier Developments, [https://www.elitedangerous.com/news/getting-started-elite-dangerous Getting Started in Elite Dangerous].</ref>
 
-{{Related articles|[[Mining]] [[Background Simulation]] [[Tools and Resources]]}}
+{{Callout|type=tip|label=Quick answer|1=Compare the destination's '''sell price''' with the origin's '''buy price''', then check supply, demand, pad size, station distance and data age before loading. Recheck the destination with the cargo aboard when selling mined commodities.}}
+
+== Commodity markets ==
+
+Commodity markets are found at many stations, ports and other facilities. Each market lists the cargo it buys or sells, prices per tonne, and the current supply or demand. Market conditions depend in part on the local economy and faction state, so a route that works today may not retain the same prices or stock later.<ref name="frontier-start" />
+
+The main market fields are:
+
+{| class="wikitable"
+! Field
+! Meaning
+! Trading use
+|-
+| Buy price || The price charged by the market for one tonne || Cost of loading cargo at the origin
+|-
+| Sell price || The price offered by the market for one tonne || Revenue from unloading cargo at the destination
+|-
+| Supply || The quantity currently offered for sale || Indicates whether the origin can fill the planned load
+|-
+| Demand || The quantity the market currently wants to buy || Indicates market appetite and whether a mined-cargo sale may receive a reduced price
+|-
+| Galactic average || A galaxy-wide reference value || Useful for rough comparison, but not a promise of the price at another port
+|}
+
+The gross margin per tonne is the destination sell price minus the origin buy price. Gross profit for the load is that margin multiplied by the tonnes sold. Credits per hour can matter more than the largest displayed margin: a modest route between nearby stations may outperform a distant sale with a higher price.
+
+== Planning a route ==
+
+A useful route fits the ship as well as the market. Check these factors together:
+
+* '''Cargo capacity and working capital:''' a larger load can produce more profit, but the purchase must not consume the credits reserved for the ship's rebuy.
+* '''Laden range:''' cargo adds mass. Plot or confirm the route after loading, especially when operating near the ship's jump-range limit.
+* '''Landing pad:''' large ships cannot use ports without a large pad.
+* '''Station distance:''' a short interstellar route can still take a long time when the market is far from the arrival star.
+* '''Supply and demand:''' displayed profit is useful only while the origin has stock and the destination still wants the cargo.
+* '''Return cargo:''' a two-way or multi-stop route can reduce empty travel, but every additional market adds another changing price and stock check.
+
+Current route tools expose filters such as pad size, station distance, supply, demand, route distance and the age of the underlying market record.<ref name="inara-routes">INARA, [https://inara.cz/elite/market-traderoutes/ Trade routes].</ref> [[Tools and Resources]] lists established route planners and market databases.
+
+== Market intelligence ==
+
+The Galaxy Map can show economic information and trade-route data. Frontier's trading guidance says the Trade Routes layer highlights selected routes for systems where the commander has docked within the previous 24 hours. Trending Trade Data can be purchased for other systems.<ref name="frontier-start" /> In-game information has the advantage of belonging to the active galaxy and session, but a commander may still need to travel or pay for the relevant data.
+
+Community tools can search a much wider set of reported markets. Much of that information originates in commander journal or API submissions distributed through the Elite Dangerous Data Network. EDDN is a live data stream rather than a current-state database, so the sites that consume it must store and age their own observations.<ref name="eddn">Elite Dangerous Community Developers, [https://github.com/EDCD/EDDN EDDN — Elite Dangerous Data Network].</ref>
+
+Treat every third-party result as a lead rather than a reservation. Check its update age, mode, pad size and station distance, and confirm the market before committing an expensive or long-distance load. Fleet Carriers require extra caution because they can move and their owners set tariffs and adjust commodity buying and selling prices.<ref name="frontier-carriers">Frontier Developments, [https://www.elitedangerous.com/news/fleet-carriers-content-reveal-announcement Fleet Carriers — Content Reveal Announcement].</ref>
+
+== Special sale cases ==
+
+=== Mined commodities ===
+
+Stations can reduce the displayed sale price for mined commodities when the quantity aboard is large relative to local demand. Maintained market guidance uses 25% of displayed demand as the practical warning threshold: if the cargo exceeds that amount, the actual offer may be much lower.<ref name="bulk-tax">INARA, [https://inara.cz/elite/commodity/81/ Platinum — commodity].</ref> This is commonly called the ''bulk sales tax'', although it is a demand-based price adjustment rather than a separate fee shown after the sale.
+
+Check the market with the intended cargo still aboard rather than assuming a listed price will apply to the load.
+
+=== Illegal cargo ===
+
+Commodity legality depends on the jurisdiction. A prohibited commodity cannot be sold through that location's ordinary commodity market, but an available black market can buy illegal goods. The ship's cargo panel and the destination's system information identify prohibited cargo and relevant facilities.<ref name="illegal-goods">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Illegal_Goods Illegal Goods].</ref>
+
+Smuggling carries different risks and sale conditions from ordinary legal trade. It is not necessary for normal commodity trading.
+
+=== Fleet Carrier markets ===
+
+A Fleet Carrier market is controlled by its owner rather than by an ordinary station economy. The owner can adjust buying and selling prices and set tariffs, and the carrier can leave the system.<ref name="frontier-carriers" /> Confirm that the carrier is still present and still advertises the intended market price before travelling.
+
+== Trade and the local economy ==
+
+Commodity availability follows the economies and conditions of inhabited systems. Agricultural, extraction, refinery, industrial, high-tech and other economies tend to produce or consume different cargo groups, while faction states can alter prices and create temporary opportunities.<ref name="frontier-start" /> Individual [[:Category:Commodities|commodity articles]] describe subject-specific sources and uses.
+
+Commodity transactions can also contribute to the [[Background Simulation]].<ref name="bgs-guide">Andrew van der Stock (CMDR Purrfect), [https://sinc.science/bgsguide.pdf ''The Complete Elite Dangerous Background Simulation Guide'', 2025 edition v3.0].</ref> Consult that page for faction and system effects rather than assuming the most profitable market is also the right destination for a faction objective.
+
+== Live and Legacy ==
+
+The basic trade loop exists in both Live and Legacy, but the two modes no longer share one evolving galaxy. Frontier separated them with Update 14: actions in Legacy do not affect Live, and Legacy no longer receives Community Goals or narrative updates.<ref name="live-legacy">Frontier Developments, [https://www.elitedangerous.com/en-US/news/elite-dangerous-update-14-and-beyond-live-and-legacy-modes Elite Dangerous Update 14 and Beyond: Live and Legacy Modes].</ref>
+
+Prices, states and route results from one mode must not be assumed valid in the other. INARA explicitly supports Live only for galaxy data and commander imports.<ref name="inara-legacy">INARA, [https://inara.cz/elite/board-thread/1/ Inara updates, bug reports, requests].</ref> Legacy commanders should rely on in-game checks and tools that explicitly support Legacy.
+
+== Related pages ==
+
+{{Related articles|[[Cargo Rack]] · [[Mining]] · [[Background Simulation]] · [[Law & Disorder]] · [[Tools and Resources]] · [[:Category:Commodities|Commodities]]}}
+
+== References ==
+
+<references />
+
 [[Category:Trading]]

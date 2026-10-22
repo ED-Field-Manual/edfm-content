@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Amphora Plant species
+Namespace: 14
+Page ID: 858
+Revision ID: 5544
+Timestamp: 2026-09-28T23:55:18Z
+Source URL: https://edfieldmanual.com/wiki/Category:Amphora_Plant_species
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Biological species in the Amphora Plant group.
+
+[[Category:Biological species]]

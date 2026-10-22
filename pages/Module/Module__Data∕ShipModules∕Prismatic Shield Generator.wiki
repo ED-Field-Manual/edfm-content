@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Prismatic Shield Generator
 Namespace: 828
 Page ID: 563
-Revision ID: 1350
-Timestamp: 2026-08-21T00:00:20Z
+Revision ID: 4473
+Timestamp: 2026-09-16T15:20:20Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Prismatic_Shield_Generator
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Prismatic Shield Generator",
+	module_class = "Powerplay shield generator",
+	slot_type = "Optional internal",
+	mount = "Classes 1–8; A-rated",
+	manufacturer = "Multiple manufacturers",
+	availability = "Unlocked through Powerplay loyalty ranks; purchased at an allied Stronghold Carrier",
+	engineering = "Supports Shield Generator blueprints and Experimental Effects",
+	related_modules = "[[Shield Generator]]; [[Bi-Weave Shield Generator]]; [[Shield Booster]]; [[Shield Cell Bank]]",
 }

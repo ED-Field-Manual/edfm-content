@@ -3,22 +3,116 @@ EDFM current-content archive export.
 Title: Remote Release Flechette Launcher
 Namespace: 0
 Page ID: 580
-Revision ID: 2191
-Timestamp: 2026-08-24T23:45:01Z
+Revision ID: 4510
+Timestamp: 2026-09-16T18:31:39Z
 Source URL: https://edfieldmanual.com/wiki/Remote_Release_Flechette_Launcher
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Remote Release Flechette Launcher ship module.
+{{Article header|deck=A remotely detonated flechette weapon that damages hull and modules through an active shield.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Specifications use commit-pinned EDCD module data and maintained equipment references; unlock requirements use the current Technology Broker reference.
+ |uncertainty=Blast placement, module protection, and target geometry strongly affect practical internal-module damage.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Remote Release Flechette Launcher''' is a Class 2 weapon that fires a dumbfire projectile and detonates it when the pilot releases the trigger. The blast disperses metallic flechettes that can damage a ship's hull and modules through an active shield, making the weapon distinct from conventional missiles that must first overcome the shield.<ref name="wiki-flechette">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Remote_Release_Flechette_Launcher Remote Release Flechette Launcher].</ref>
+
+It shares its hold-and-release control method with the [[Remote Release Flak Launcher]], but the two weapons have different targets. Flechettes are intended for human ships and module disruption; flak is an anti-swarm weapon for Thargons.
+
+== Specifications ==
+
+{| class="wikitable" style="width:75%;"
+! Variant
+! Class
+! Rating
+! Mass
+! Integrity
+! Power draw
+! Distributor draw
+! Damage
+! Armour piercing
+! Thermal load
+! Price
+|-
+| Fixed || 2 || B || 4 t || 51 || 1.20 MW || 0.24 MW || 13 kinetic || 80 || 3.6 || 353,761 CR
+|-
+| Turreted || 2 || B || 4 t || 51 || 1.20 MW || 0.24 MW || 13 kinetic || 70 || 3.6 || 1,279,200 CR
+|}
+
+Both variants have a one-round magazine, 72-round reserve, two-second firing interval, two-second reload, 550 m/s projectile speed, and 6.5 breach damage. Their breach chance is listed at 100%, making every well-placed damaging burst eligible to apply its module-damage component.<ref name="data-flechette">EDCD Coriolis Data, [https://raw.githubusercontent.com/EDCD/coriolis-data/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/hardpoints/remote_release_flechette_launcher.json Remote Release Flechette Launcher records], commit-pinned.</ref>
+
+== Operation ==
+
+Press and hold the assigned trigger to launch a round. Keep holding while it travels, then release the trigger to detonate the projectile beside the target. A proximity cue on the targeting display helps time the release.
+
+The projectile can bounce from an active shield instead of detonating on contact, but it remains live until the pilot releases the trigger. Detonating close enough to the shielded ship allows the flechette cloud to apply hull and module damage through the shield.<ref name="wiki-flechette" />
+
+Practical use therefore depends on burst placement rather than direct-impact aim alone:
+
+* lead the target for the 550 m/s projectile speed;
+* keep holding after launch rather than tapping the trigger;
+* use the proximity cue to release beside the target; and
+* place the burst near the section of the ship containing the intended module.
+
+Releasing too early or too late wastes the shot. Direct contact with the shield does not guarantee that the subsequent burst will be centred on a useful module.
+
+== Damage and limitations ==
+
+The weapon's 13 damage per round is low compared with ordinary medium combat weapons. Its value lies in applying hull and breach damage without first removing the shield. That makes it a specialist disruption tool rather than an efficient general-purpose damage weapon.
+
+Module damage still depends on the blast location, target geometry, remaining module integrity, and protection from a [[Module Reinforcement Package]]. A selected subsystem is not automatically damaged merely because it was targeted. Multiple useful bursts may be required to disable a resilient internal module.
+
+The high armour-piercing values help against hull hardness, but the damage remains kinetic and is affected by applicable resistances. The weapon is unguided, has a slow projectile, and consumes one of only 72 reserve rounds for every detonation.
+
+== Fixed and turreted variants ==
+
+The fixed version has 80 armour piercing, while the turreted version has 70. Their other stock performance values are the same. The turret is substantially more expensive and supports a multicrew gunner where the ship and crew setup allows it; a solo pilot should not assume the turret will automate remote-release timing.
+
+== Engineering ==
+
+Remote Release Flechette Launchers do not accept Engineering blueprints or Experimental Effects. Their damage, ammunition, projectile speed, mass, and power draw cannot be modified through ordinary Engineers.
+
+== Acquisition ==
+
+The fixed and turreted variants are unlocked separately through a Human Technology Broker. The documented unlock costs are:<ref name="broker">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Technology_Broker Technology Broker].</ref>
+
+{| class="wikitable"
+! Material or commodity
+! Fixed launcher
+! Turreted launcher
+|-
+| Rhenium || 22 || 20
+|-
+| Iron || 30 || 28
+|-
+| Molybdenum || 24 || 28
+|-
+| Germanium || 26 || 24
+|-
+| CMM Composite || 8 || —
+|-
+| Articulation Motors || — || 10
+|}
+
+Submitting the required materials unlocks that variant for subsequent credit purchase through applicable Outfitting stock. Unlocking one mount does not unlock the other.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Remote Release Flak Launcher]] [[Missile Rack]] [[Module Reinforcement Package]] [[Engineering Materials]] [[Combat]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Weapons]]
+[[Category:Technology Broker modules]]

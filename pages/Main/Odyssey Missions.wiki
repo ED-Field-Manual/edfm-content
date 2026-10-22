@@ -1,0 +1,199 @@
+<!--
+EDFM current-content archive export.
+Title: Odyssey Missions
+Namespace: 0
+Page ID: 975
+Revision ID: 6131
+Timestamp: 2026-10-04T15:56:24Z
+Source URL: https://edfieldmanual.com/wiki/Odyssey_Missions
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=An overview of on-foot contracts, settlement objectives, equipment, legality, and mission selection.}}
+
+{{Article status
+| status = Partially verified
+| mode = Live
+| version = Current Live through update 4.4.1.1
+| reviewed = 2026-10-04
+| reviewer = Sythan
+| source_quality = Mission families and settlement mechanics are supported by Frontier's Odyssey guide and update notes.
+| uncertainty = Contract titles, board filters, legality, and objective combinations vary. This page groups missions by the work required rather than claiming an immutable official taxonomy.
+}}
+
+'''Odyssey missions''' are contracts that require or support on-foot play. They are offered through station and settlement Mission Boards and by some in-person contacts. Objectives can take place at settlements, crash sites, surface points of interest, or interior locations.
+
+They are ordinary missions and remain distinct from [[Operations]], the multi-stage scenario system introduced in update 4.4.0.0.
+
+== Functional mission families ==
+
+The current game combines and renames objectives across legal, illegal, covert, and Team variants. The following groups describe what the commander must do; the actual contract wording remains authoritative.
+
+{| class="wikitable"
+! Family
+! Typical objective
+! Common concerns
+|-
+| Delivery and collection
+| Carry a mission item to or from a contact or container
+| Inventory space, restricted areas, item legality, correct recipient
+|-
+| Retrieval and salvage
+| Recover an item, asset, or data from a settlement, crash site, or other surface location
+| Scavengers, stolen status, locked containers, correct mission item
+|-
+| Theft and heist
+| Take a specified item or asset from a functioning site
+| Trespass, alarms, authorisation, scans, witnesses
+|-
+| Infiltration and data acquisition
+| Download specified data or obtain digital intelligence
+| Restricted terminals, cloned access, alarm response, data-port identification
+|-
+| Sabotage
+| Disrupt production, power, atmosphere, or another named facility objective
+| Correct target equipment, illegal actions, alarms, escape route
+|-
+| Takedown and assassination
+| Kill a named person
+| Target identification, legal status, witnesses, target departure
+|-
+| Extermination and massacre
+| Eliminate members of the specified faction or group
+| Exact target faction, reinforcements, legality, mission counter
+|-
+| Reactivation and restoration
+| Bring an offline settlement back into service, commonly using a Power Regulator
+| Scavengers, power building, fires or atmosphere, regulator custody
+|-
+| Defence and protection
+| Defend a site, personnel, or delivery activity against attackers
+| Response timer, waves, objective survival, Team preparation
+|-
+| Scavenger elimination
+| Clear specified scavengers from a settlement or surface site
+| Mission-valid targets, reinforcements, correct location
+|}
+
+Frontier's Odyssey guidance confirms that settlement work can involve multiple approaches, including using or cloning security clearance, disabling alarms, stealth, combat, cutting access panels, restoring power, and retrieving data or items.<ref name="odysseyguide">[https://www.elitedangerous.com/news/odyssey-guide Odyssey Guide], Frontier Developments.</ref> Later updates added and adjusted variants including Protect, illegal Settlement Defence, collection, sabotage, infiltration, and restoration missions.<ref name="update11">[https://www.elitedangerous.com/update-notes/4-0-11 Elite Dangerous 4.0.11 Update Notes], Frontier Developments.</ref><ref name="update17">[https://www.elitedangerous.com/update-notes/4-0-17-0 Elite Dangerous 4.0.17.0 Update Notes], Frontier Developments.</ref>
+
+== Reading the contract ==
+
+Before accepting, identify:
+
+* issuing faction;
+* target faction and settlement owner;
+* legal or illegal status;
+* settlement, system, and body;
+* mission item or data name;
+* whether the objective must be covert;
+* alarm, casualty, or detection restrictions;
+* threat level and expected reinforcements;
+* suit tools and consumables;
+* Team status;
+* deadline and reward package.
+
+Words such as '''covert''', '''nonviolent''', or an explicit casualty limit are objective conditions. Completing the main interaction after breaking one of those conditions can still fail that mission variant.
+
+== Equipment ==
+
+=== Maverick Suit ===
+
+The [[Odyssey#Suits and handheld weapons|Maverick Suit]] is the usual utility choice for salvage, repair, theft, and infiltration. Its Arc Cutter opens maintenance panels, and its backpack supports more carried goods and assets.
+
+=== Dominator Suit ===
+
+The [[Dominator Suit]] supports sustained combat and is appropriate for extermination, defence, and other combat-heavy objectives.
+
+=== Artemis Suit ===
+
+The [[Odyssey#Suits and handheld weapons|Artemis Suit]] is built for exobiology rather than ordinary settlement contracts. It can still provide basic environmental protection, but it lacks the Maverick's Arc Cutter and the Dominator's combat capacity.
+
+=== Common tools and consumables ===
+
+* Energy Link for charging and overloading compatible ports;
+* Profile Analyser for scanning and cloning security profiles;
+* Arc Cutter on the Maverick Suit;
+* e-breaches for authorised or illegal terminal access where supported;
+* medkits, energy cells, grenades, and ammunition for the expected threat;
+* a Power Regulator when the mission does not supply one.
+
+== Settlements, access, and alarms ==
+
+Settlement access levels do not make an action legal. A cloned profile can open a door while still exposing the commander to a scan or arrest.
+
+Plan the objective in this order:
+
+# Identify the required building and access level.
+# Locate security, alarm, power, and atmosphere controls where relevant.
+# Decide whether to clone access, cut a panel, use an e-breach, or force entry.
+# Complete the mission-specific interaction.
+# Leave with the correct mission item or confirmed objective state.
+
+Turning off settlement alarms can prevent some actions from escalating across the site, but it does not erase crimes already observed and is not required for every mission. Do not disable unrelated systems unless the plan needs it.
+
+== Legal status ==
+
+A legal contract is not blanket authorisation. Trespass, cloning, theft, carrying prohibited goods, tampering, assault, and murder are judged individually.
+
+An illegal contract can create fines, bounties, detention, or hostile reputation. Check the local faction and jurisdiction before deciding whether the mission supports or harms a BGS campaign.
+
+== Reactivation and restoration ==
+
+These missions normally send the commander to an offline settlement. The contract can require a Power Regulator, restoring power, dealing with scavengers, extinguishing fires, or completing another support objective.
+
+Verify whether the mission supplies the regulator and whether it must remain installed. Removing a required regulator after power-up can undo the objective or turn the item into stolen property.
+
+== Team missions ==
+
+Only missions explicitly marked for a Team use Team sharing. Share the contract and have every participant accept before entering the objective area.
+
+Coordinate roles around:
+
+* alarm and access control;
+* combat and reinforcement coverage;
+* mission-item custody;
+* power and atmosphere systems;
+* extraction and ship placement.
+
+Ordinary on-foot missions do not become shared simply because commanders enter the same settlement.
+
+== BGS effects ==
+
+Odyssey missions can affect minor factions, but individual variants should be verified rather than inferred from ship missions. Record the issuer, target faction, settlement owner, system, reward choice, and the completed journal's <code>FactionEffects</code> entries.
+
+Do not assume a courier mission's destination-faction pattern applies to theft, assassination, restoration, or extermination. See [[Mission Influence and BGS Effects]].
+
+== Operations are separate ==
+
+Before update 4.4.0.0, '''Operations''' also appeared as an Odyssey Mission Board category for some infiltration, theft, and sabotage work. The modern capitalised [[Operations]] feature is different: it is launched through the ship panel while docked, uses bespoke instanced multi-stage scenarios, and has its own matchmaking and rewards.<ref name="operations4400">[https://www.elitedangerous.com/news/updates/4-4-0-0 Elite Dangerous: Operations – Available Now], Frontier Developments, 30 June 2026.</ref>
+
+Use the full phrase '''Odyssey mission-board Operations category''' only when discussing that historical or interface label. Use '''Operations''' for the current scenario system.
+
+== Common mistakes ==
+
+* Treating a broad board filter as the full objective.
+* Taking the correct item from the wrong container or site.
+* Confusing access permission with legal permission.
+* Failing a covert or nonviolent condition after completing the main interaction.
+* Leaving before the mission update confirms success.
+* Removing a regulator that must remain installed.
+* Confusing an Odyssey mission with the modern Operations feature.
+
+== Related Field Manual entries ==
+
+* [[Odyssey]]
+* [[Odyssey#Suits and handheld weapons|Maverick Suit]]
+* [[Dominator Suit]]
+* [[Odyssey#Suits and handheld weapons|Artemis Suit]]
+* [[Odyssey#Planetary environments and settlements|Settlements]]
+* [[Operations]]
+* [[Mission Influence and BGS Effects]]
+
+== References ==
+
+<references />
+
+[[Category:Missions]]
+[[Category:Mission types]]
+[[Category:Odyssey missions]]

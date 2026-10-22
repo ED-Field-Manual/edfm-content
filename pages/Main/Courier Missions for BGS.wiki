@@ -1,0 +1,144 @@
+<!--
+EDFM current-content archive export.
+Title: Courier Missions for BGS
+Namespace: 0
+Page ID: 970
+Revision ID: 6126
+Timestamp: 2026-10-04T15:56:05Z
+Source URL: https://edfieldmanual.com/wiki/Courier_Missions_for_BGS
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=Selecting and verifying courier missions for faction influence work.}}
+
+{{Article status
+| status = Partially verified
+| mode = Live
+| version = Current Live journal schema; documented courier example retained in Player Journal Manual v38
+| reviewed = 2026-10-04
+| reviewer = Sythan
+| source_quality = The core courier example and faction-effect fields are documented by Frontier; influence weighting uses current community BGS testing.
+| uncertainty = Courier variants can record different faction effects. Verify each completed mission before repeating it at scale.
+}}
+
+[[Courier Missions]] are fast and accessible, but a courier offer can involve two factions and two systems. For [[Background Simulation|BGS]] work, accepting every mission from a supported faction without checking the destination can produce the wrong result.
+
+== Objective ==
+
+Use courier missions to support a chosen faction in a chosen system while avoiding unintended influence for a rival in the campaign system.
+
+== Before accepting ==
+
+Record these four values:
+
+# '''Issuer''' — the faction offering the mission.
+# '''Origin''' — the system where the mission is accepted.
+# '''Destination or target faction''' — the faction named at the delivery end, where shown.
+# '''Destination system''' — the system containing the hand-in location.
+
+Then record the reward choices and the mission's internal or localised name if a journal tool displays it.
+
+{| class="wikitable"
+! Question
+! Safe decision rule
+|-
+| Is my supported faction the issuer?
+| Useful, but not sufficient by itself. Check the other faction fields.
+|-
+| Is a rival named as the destination or target faction?
+| Identify the system where that faction effect would be recorded before accepting.
+|-
+| Does the rival also exist in my campaign system?
+| Do not assume a destination-system effect follows the faction elsewhere. Influence is system-specific.
+|-
+| Should I choose INF+++?
+| Only if the affected faction and system support the campaign. More plus signs are relative strength, not exact percentage points.
+|-
+| Can I prove the result from the board alone?
+| Not always. Confirm with <code>MissionCompleted</code> after hand-in.
+|}
+
+== Worked example ==
+
+'''Campaign:''' increase Faction A in System A.
+
+'''Offer:''' Faction A in System A asks the commander to deliver data to Faction B in System B. Faction B also exists in System A.
+
+Frontier's current Player Journal Manual includes a courier completion with the same important structure: the issuing faction is the top-level mission faction, while a different target faction receives an influence entry tied to the destination system's <code>SystemAddress</code>. The issuer receives a reputation entry in that documented example.<ref name="journalv38">[https://hosting.zaonce.net/community/journal/v38/Journal_Manual_v38.pdf Elite Dangerous Player Journal Manual, version 38], Frontier Developments, pp. 67–70.</ref>
+
+For that pattern:
+
+* Faction B receives the recorded influence in System B.
+* Faction B does not receive that influence in System A.
+* The mission does not directly help Faction B's influence in the campaign system merely because Faction B is present there.
+* Selecting a higher-INF package increases the relative influence reward, but does not make it apply in every system.
+
+The correct campaign decision is therefore system-specific. If Faction B is a rival only in System A, the documented destination effect does not raise it there. If the campaign also cares about System B, the same mission may be undesirable.
+
+== Selection procedure ==
+
+# Open the issuing faction's offers.
+# Reject contracts whose objective directly harms a protected faction unless that harm is intended.
+# Open the full courier description and record the destination faction and system.
+# Check distance, deadline, threat, and hostile-response warnings.
+# Compare the reward packages.
+# Accept a small test batch when the mission variant has not been verified.
+# Complete and hand in the mission.
+# Inspect the completion journal before scaling the route.
+
+== Journal verification ==
+
+Search the active journal file for the accepted mission's <code>MissionID</code>. The default Windows folder is:
+
+<pre>C:\Users\User Name\Saved Games\Frontier Developments\Elite Dangerous\</pre>
+
+In <code>MissionCompleted</code>, inspect every object in <code>FactionEffects</code>:
+
+* <code>Faction</code> identifies the affected faction.
+* <code>Reputation</code> is commander standing with that faction.
+* Each <code>Influence</code> record contains a <code>SystemAddress</code> and relative influence strength.
+* <code>Effects</code> contains state-trend information and is not an influence percentage.
+
+Resolve each <code>SystemAddress</code> to a system name. If there is no influence entry for System A, the completion record does not show an influence effect there.
+
+== Choosing INF rewards ==
+
+Use the highest useful INF package when:
+
+* the journal-verified effect benefits the supported faction in the intended system;
+* the mission can be completed reliably;
+* the campaign values influence more than reputation, credits, or materials.
+
+Do not use the plus signs as percentage predictions. Community BGS documentation describes mission influence as relative value whose visible result depends on population and all eligible activity processed in the BGS update.<ref name="sincbgs">[https://sinc.science/guides/sinc/The%20Complete%20BGS%20Guide%202025.pdf The Complete BGS Guide 2025, version 3.0], SINC, pp. 31–33.</ref>
+
+== Route stacking ==
+
+Courier missions can be grouped by destination to reduce travel time. Every contract remains separate: verify the issuer, destination faction, destination system, deadline, and reward package for each one.
+
+A fast route that includes the wrong faction effect is not efficient BGS work. Sort for campaign correctness first, then route efficiency.
+
+== Stop conditions ==
+
+Do not continue scaling a courier route when:
+
+* journal effects do not match the intended faction and system;
+* the board has shifted to contracts that benefit a rival in a contested system;
+* deadlines are being missed;
+* repeated interdictions or distant stations make completion unreliable;
+* the campaign's influence target has changed.
+
+== Related Field Manual entries ==
+
+* [[Courier Missions]]
+* [[Mission Influence and BGS Effects]]
+* [[Mission Rewards]]
+* [[Background Simulation]]
+* [[Background Simulation#Factions, influence, and reputation|Influence]]
+
+== References ==
+
+<references />
+
+[[Category:Missions]]
+[[Category:Mission guides]]
+[[Category:BGS guides]]

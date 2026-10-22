@@ -1,0 +1,26 @@
+<!--
+EDFM current-content archive export.
+Title: File:Bacterium Informem — Aquamarine - Wregoe OB-N c23-1 B 5 - 2026-10-01 19-06-39.png
+Namespace: 6
+Page ID: 912
+Revision ID: 5852
+Timestamp: 2026-10-02T03:57:14Z
+Source URL: https://edfieldmanual.com/wiki/File:Bacterium_Informem_%E2%80%94_Aquamarine_-_Wregoe_OB-N_c23-1_B_5_-_2026-10-01_19-06-39.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |description = In-game image of [[Bacterium Informem]] in Elite Dangerous.
+ |subject = [[Bacterium Informem]]
+ |source = Elite Dangerous, captured in-game
+ |media_type = In-game screenshot
+ |captured_by = [[User:Sythan|Sythan]]
+ |intended_use = Identification and illustration on the [[Bacterium Informem]] article and related Exobiology pages.
+ |copyright_holder = Frontier Developments plc
+}}
+
+[[Category:Exobiology images]]
+
+== Licensing ==
+{{License-ED screenshot}}

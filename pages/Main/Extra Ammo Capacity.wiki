@@ -3,16 +3,81 @@ EDFM current-content archive export.
 Title: Extra Ammo Capacity
 Namespace: 0
 Page ID: 678
-Revision ID: 1571
-Timestamp: 2026-08-23T18:40:01Z
+Revision ID: 4072
+Timestamp: 2026-09-13T13:42:20Z
 Source URL: https://edfieldmanual.com/wiki/Extra_Ammo_Capacity
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|an Odyssey weapon modification reference for Extra Ammo Capacity and weapon-build trade-offs.}}
+{{Article header|deck=An Odyssey suit modification that increases the reserve ammunition carried for every equipped weapon.}}
 
-'''Extra Ammo Capacity''' is an Odyssey Engineering modification. This planned reference will cover compatible weapons, combat implications, and material-planning considerations.
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Current Odyssey Engineering after the 18.08 recipe rebalance
+ |reviewer=Sythan
+ |reviewed=2026-09-13
+ |source_quality=Current INARA equipment records cross-checked against maintained community references and Frontier's Engineering rebalance notes
+ |uncertainty=Frontier's public notes confirm reduced Odyssey recipes but do not list every resulting material quantity.
+}}
+
+'''Extra Ammo Capacity''' is an [[Odyssey Engineering]] modification for pilot suits. It increases the suit's reserve ammunition capacity for every equipped handheld weapon by '''50%'''.<ref name="inara-maverick">[https://inara.cz/elite/equipment-blueprint/2/ INARA: Maverick Suit upgrades and modifications], accessed 13 September 2026.</ref>
+
+The modification changes how much ammunition the suit can carry. It does not increase a weapon's magazine size, rate of fire, damage, or reload speed.
+
+== Compatibility ==
+
+Extra Ammo Capacity can be installed on Artemis, [[Dominator Suit|Dominator]], and Maverick suits that have an open modification slot. It is provided by:
+
+* [[Jude Navarro]]
+* [[Kit Fowler]]
+* [[Eleanor Bresa]]
+
+The Engineer must first be discovered, met, and unlocked. The suit and required materials must then be taken to that Engineer's workshop.
+
+== Cost ==
+
+The current modification recipe is:
+
+* 8 Recycling Logs
+* 5 Weapon Test Data
+* 5 Production Reports
+* 3 [[Weapon Component|Weapon Components]]
+* 750,000 CR
+
+Frontier reduced Odyssey Engineering recipe quantities in the 18.08 Engineering rebalance; older guides may show the previous, larger material requirements.<ref name="frontier-type8">[https://www.elitedangerous.com/news/type-8-update-now-available Frontier Developments: Type-8 Update is Now Available], accessed 13 September 2026.</ref>
+
+== Operational effect ==
+
+The increased capacity applies to the reserve pool for each weapon in the active suit loadout. Ammunition crates and other normal resupply methods refill those weapons up to the new limit.
+
+Extra Ammo Capacity is separate from a weapon's Magazine Size modification:
+
+* '''Extra Ammo Capacity''' increases how much ammunition the suit carries between resupplies.
+* '''Magazine Size''' increases the number of rounds the modified weapon holds before reloading.
+
+The suit modification does not increase grenade capacity or suit consumable capacity.
+
+== When to use it ==
+
+Extra Ammo Capacity is strongest on a combat-oriented [[Dominator Suit]] because that suit carries two primary weapons and is commonly used for prolonged ground combat. It is particularly valuable with low-reserve weapons such as the Karma L-6 or Manticore Intimidator, and when ammo crates are distant or contested.<ref name="inara-suit-guide">[https://inara.cz/elite/logbook/72975/ INARA: An Odyssey guide for suit modifications], accessed 13 September 2026.</ref>
+
+The modification provides less value on an exploration-focused Artemis suit or a Maverick suit used mainly for salvage and maintenance work. Those suits may benefit more from battery, backpack, tool-efficiency, or movement modifications unless the loadout is expected to see sustained combat.
+
+== See also ==
+
+* [[Odyssey Engineering]]
+* [[Odyssey Engineer Modifications]]
+* [[Dominator Suit]]
+* [[Weapon Component]]
+* [[Jude Navarro]]
+* [[Kit Fowler]]
+* [[Eleanor Bresa]]
+
+== Sources ==
+
+<references />
 
 [[Category:Odyssey Engineering]]
-[[Category:Weapon Engineering]]
+[[Category:Suit Engineering]]
 [[Category:Odyssey]]

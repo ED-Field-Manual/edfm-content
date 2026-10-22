@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Kill Warrant Scanner
 Namespace: 828
 Page ID: 517
-Revision ID: 2264
-Timestamp: 2026-08-25T14:14:25Z
+Revision ID: 4383
+Timestamp: 2026-09-16T02:33:02Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Kill_Warrant_Scanner
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -13,9 +13,10 @@ return {
 	name = "Kill Warrant Scanner",
 	module_class = "Scanner utility",
 	slot_type = "Utility mount",
-	mount = "",
+	mount = "Class 0, ratings E–A",
 	manufacturer = "",
-	availability = "",
-	engineering = "",
-	related_modules = "[[Manifest Scanner]], [[Frame Shift Wake Scanner]]",
+	availability = "Standard Outfitting purchase",
+	engineering = "Fast Scan, Lightweight, Long Range, Reinforced, Shielded, and Wide Angle; no Experimental Effects",
+	related_modules = "[[Manifest Scanner]]<br>[[Frame Shift Wake Scanner]]<br>[[Chaff Launcher]]",
+	notes = "Reveals active bounties outside the current jurisdiction but does not make a locally Clean target legal to attack.",
 }

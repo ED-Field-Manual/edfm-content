@@ -3,22 +3,133 @@ EDFM current-content archive export.
 Title: Prismatic Shield Generator
 Namespace: 0
 Page ID: 564
-Revision ID: 2182
-Timestamp: 2026-08-24T23:44:50Z
+Revision ID: 4474
+Timestamp: 2026-09-16T15:20:34Z
 Source URL: https://edfieldmanual.com/wiki/Prismatic_Shield_Generator
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Prismatic Shield Generator ship module.
+{{Article header|deck=A Powerplay shield generator that provides a larger initial shield pool at the cost of mass, power, price, and regeneration.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live specifications and Powerplay 2.0 acquisition; Legacy acquisition differs
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Specifications use commit-pinned module data and maintained outfitting references; current acquisition follows Frontier's Powerplay 2.0 rules.
+ |uncertainty=Exact shield capacity depends on the hull and complete build rather than the generator alone.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Prismatic Shield Generator''' is an A-rated [[Shield Generator]] variant built for maximum initial shield capacity. Compared with a standard A-rated generator of the same class, it produces a stronger field but has twice the mass, 50% greater power draw, slower regeneration, and a higher purchase price.<ref name="wiki-prismatic">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Prismatic_Shield_Generator Prismatic Shield Generator].</ref>
+
+A prismatic is therefore suited to a ship that must survive heavy pressure on its existing shield pool. It is less efficient when repeated regeneration matters more than the opening capacity. The [[Bi-Weave Shield Generator]] occupies the opposite end of that trade-off, while the standard generator sits between them.
+
+Only one shield generator can be installed on a ship.
+
+== Specifications ==
+
+{| class="wikitable sortable"
+! Class
+! Rating
+! Mass
+! Integrity
+! Power draw
+! Active regeneration
+! Broken regeneration
+! Optimal hull mass
+! Maximum hull mass
+! Price
+|-
+| 1 || A || 2.6 t || 48 || 2.52 MW || 1.0 MJ/s || 1.2 MJ/s || 25 t || 63 t || 132,200 CR
+|-
+| 2 || A || 5 t || 61 || 3.15 MW || 1.0 MJ/s || 1.2 MJ/s || 55 t || 138 t || 240,340 CR
+|-
+| 3 || A || 10 t || 77 || 3.78 MW || 1.0 MJ/s || 1.3 MJ/s || 165 t || 413 t || 761,870 CR
+|-
+| 4 || A || 20 t || 96 || 4.62 MW || 1.0 MJ/s || 1.7 MJ/s || 285 t || 713 t || 2,415,120 CR
+|-
+| 5 || A || 40 t || 115 || 5.46 MW || 1.0 MJ/s || 2.3 MJ/s || 405 t || 1,013 t || 7,655,930 CR
+|-
+| 6 || A || 80 t || 136 || 6.51 MW || 1.0 MJ/s || 3.2 MJ/s || 540 t || 1,350 t || 24,269,300 CR
+|-
+| 7 || A || 160 t || 157 || 7.35 MW || 1.1 MJ/s || 4.2 MJ/s || 1,060 t || 2,650 t || 76,933,670 CR
+|-
+| 8 || A || 320 t || 180 || 8.40 MW || 1.4 MJ/s || 5.4 MJ/s || 1,800 t || 4,500 t || 243,879,730 CR
+|}
+
+Specifications are cross-checked against the commit-pinned Coriolis module record.<ref name="data-prismatic">EDCD Coriolis Data, [https://raw.githubusercontent.com/EDCD/coriolis-data/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/internal/pristmatic_shield_generator.json Prismatic Shield Generator module record], commit-pinned.</ref> That dataset lists the class 1 module at 2.5 t, while the Elite Dangerous Wiki and Roguey's maintained equipment reference list 2.6 t; the table uses the independently corroborated 2.6 t figure.<ref name="roguey-prismatic">Roguey, [https://roguey.co.uk/elite-dangerous/equipment/internal/prismatic-shield-generator/ Prismatic Shield Generator].</ref>
+
+=== Hull mass and capacity ===
+
+Shield capacity is calculated from the ship's base shield strength, hull mass, and the generator's mass curve. The prismatic generator uses the same minimum, optimal, and maximum supported hull masses as a standard generator of its class, but a stronger multiplier across that curve. Its result is consequently ship-specific rather than one universal megajoule value.
+
+A generator cannot establish a field around a hull above its maximum supported mass. Below that limit, the finished capacity still depends on the exact hull, generator class, [[Shield Booster|Shield Boosters]], Engineering, and any Guardian shield reinforcement fitted to the build.
+
+=== Base resistances ===
+
+An unengineered prismatic uses the standard shield resistance profile:<ref name="data-prismatic" />
+
+* 50% explosive resistance;
+* 40% kinetic resistance; and
+* −20% thermal resistance.
+
+Its advantage is raw capacity, not improved native resistance. Engineering and boosters determine whether a finished build retains that capacity emphasis or shifts towards resistance-balanced effective durability.
+
+== Regeneration behavior ==
+
+The active and broken regeneration rates are lower than those of the standard A-rated generator. A large prismatic shield can therefore take a long time to refill after sustained damage or collapse.
+
+Regeneration draws energy from the [[Power Distributor]]'s SYS capacitor. More SYS pips help the distributor replenish that capacitor and improve shield damage resistance, but do not increase the generator's fixed MJ-per-second regeneration rate once enough SYS energy is available. [[Shield Booster|Shield Boosters]] enlarge the shield pool without increasing the generator's fixed regeneration rate, so adding more capacity also increases the total energy and time required for a full natural recharge.
+
+[[Shield Cell Bank|Shield Cell Banks]] can restore a raised shield in bursts and are often paired with capacity-focused builds. They are separate modules with their own power, heat, ammunition, and fitting costs; this page does not reproduce their operation.
+
+== Engineering ==
+
+Prismatic generators accept the standard shield-generator Blueprint families:<ref name="inara-shields">INARA, [https://inara.cz/elite/blueprints/#tab_blueprintsequipmentstandard Blueprints and upgrades — standard equipment].</ref>
+
+* Enhanced Low Power;
+* Kinetic Resistant;
+* Reinforced; and
+* Thermal Resistant.
+
+They also accept shield-generator Experimental Effects, including Double Braced, Fast Charge, Force Block, Hi-Cap, Lo-Draw, Multi-weave, Stripped Down, and Thermo Block.
+
+Engineering changes the prismatic trade-off rather than removing it entirely:
+
+* '''Reinforced''' and '''Hi-Cap''' push further towards raw capacity but increase fitting or regeneration burdens.
+* '''Thermal Resistant''' addresses the native thermal weakness and can be combined with resistance-oriented boosters.
+* '''Enhanced Low Power''' reduces mass and power while sacrificing some optimal shield strength.
+* '''Fast Charge''' improves regeneration at the cost of resistance.
+* '''Lo-Draw''' reduces power and distributor demand while slightly reducing shield strength.
+
+The useful combination depends on hull mass, power budget, booster layout, expected damage types, SYS performance, and whether the ship can disengage long enough to recharge.
+
+== Acquisition ==
+
+In the current Live game, Prismatic Shield Generators are unlocked through [[Powerplay]] loyalty progression. Powerplay 2.0 allows every Power to unlock every Powerplay module, but in a different order.<ref name="frontier-pp">Frontier Developments, [https://www.elitedangerous.com/news/powerplay-20-qa Powerplay 2.0 Q&A], 26 September 2024.</ref>
+
+Aisling Duval grants access to Prismatic Shield Generators first, at loyalty rank 34. Other Powers place them later in their reward tracks.<ref name="fatherhood-pp">The Fatherhood, [https://thefatherhoodwing.space/codex/powerplay-modules-and-you/ Powerplay Modules and You].</ref> After the reward is unlocked, the required class can be purchased for credits through an allied Stronghold Carrier. Changing Powers resets loyalty progression and removes further purchase access until the module is unlocked again; modules already purchased remain in storage or fitted to ships.
+
+Legacy retains the former acquisition system, in which the module is tied specifically to Aisling Duval and uses the old pledge-duration and rating requirements. Those conditions are obsolete for current Live mode.
+
+== Related shield generators ==
+
+* A standard [[Shield Generator]] provides less initial capacity than a same-class prismatic but is lighter, draws less power, costs less, and regenerates faster.
+* A [[Bi-Weave Shield Generator]] sacrifices initial capacity for substantially faster active and broken regeneration.
+
+None is automatically strongest for every build. Compare the finished shield pool, effective resistances, regeneration time, power budget, mass, and expected engagement length on the intended hull.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Shield Generator]] [[Bi-Weave Shield Generator]] [[Shield Booster]] [[Shield Cell Bank]] [[Power Distributor]] [[Powerplay]] [[Engineering]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Powerplay modules]]

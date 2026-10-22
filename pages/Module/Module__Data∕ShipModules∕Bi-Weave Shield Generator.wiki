@@ -3,12 +3,20 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Bi-Weave Shield Generator
 Namespace: 828
 Page ID: 450
-Revision ID: 1237
-Timestamp: 2026-08-20T23:58:58Z
+Revision ID: 4222
+Timestamp: 2026-09-14T23:30:51Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Bi-Weave_Shield_Generator
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Bi-Weave Shield Generator",
+	module_class = "Shield generator",
+	slot_type = "Optional internal",
+	mount = "Not applicable",
+	manufacturer = "",
+	availability = "Purchased for credits through Outfitting in classes 1–8; C-rated only",
+	engineering = "Enhanced Low Power<br>Kinetic Resistant<br>Reinforced<br>Thermal Resistant<br>Experimental Effects available",
+	related_modules = "Shield Generator<br>Prismatic Shield Generator<br>Shield Booster<br>Shield Cell Bank",
+	notes = "Trades raw shield capacity for faster active regeneration and faster recovery after collapse.",
 }

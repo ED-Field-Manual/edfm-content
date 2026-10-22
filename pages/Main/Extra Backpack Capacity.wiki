@@ -3,15 +3,106 @@ EDFM current-content archive export.
 Title: Extra Backpack Capacity
 Namespace: 0
 Page ID: 679
-Revision ID: 1572
-Timestamp: 2026-08-23T18:40:02Z
+Revision ID: 4073
+Timestamp: 2026-09-13T13:44:57Z
 Source URL: https://edfieldmanual.com/wiki/Extra_Backpack_Capacity
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|an Odyssey suit modification reference for Extra Backpack Capacity and collection-focused builds.}}
+{{Article header|deck=An Odyssey suit modification that doubles the backpack capacity for goods, assets, and data.}}
 
-'''Extra Backpack Capacity''' is an Odyssey Engineering modification. This planned reference will cover compatible suit use, material gathering implications, and build trade-offs.
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Current Odyssey Engineering after the 18.08 backpack and recipe rebalance
+ |reviewer=Sythan
+ |reviewed=2026-09-13
+ |source_quality=Current INARA Engineer records cross-checked against Frontier's 18.08 backpack values and maintained community references
+ |uncertainty=The in-game description mentions consumables, but current community testing indicates that consumable capacity is unchanged.
+}}
+
+'''Extra Backpack Capacity''' is an [[Odyssey Engineering]] modification for pilot suits. It doubles the backpack limits for goods, assets, and data carried while on foot.
+
+Despite the in-game description referring to consumables, the modification does not increase the capacity for grenades, medkits, energy cells, or e-breaches.<ref name="fandom-backpack">[https://elite-dangerous.fandom.com/wiki/Extra_Backpack_Capacity Elite Dangerous Wiki: Extra Backpack Capacity], accessed 13 September 2026.</ref>
+
+== Effect ==
+
+The modification applies these multipliers:
+
+* '''Goods capacity:''' +100%
+* '''Assets/component capacity:''' +100%
+* '''Data capacity:''' +100%
+
+Using the backpack values introduced in the 18.08 update, the resulting capacities are:
+
+{| class="wikitable"
+! Suit
+! Goods
+! Assets
+! Data
+|-
+| Artemis
+| 40
+| 80
+| 20
+|-
+| [[Dominator Suit|Dominator]]
+| 20
+| 40
+| 20
+|-
+| Maverick
+| 80
+| 120
+| 40
+|}
+
+Frontier's 18.08 release notes list the unmodified backpack values from which these totals are calculated.<ref name="frontier-1808">[https://elitedangerous.com/news/updates/4-0-18-08 Frontier Developments: Type-8 Update Release Notes (18.08)], accessed 13 September 2026.</ref>
+
+== Compatibility and Engineers ==
+
+Extra Backpack Capacity can be installed on Artemis, Dominator, and Maverick suits with an open modification slot. It is provided by:
+
+* [[Domino Green]]
+* [[Wellington Beck]]
+* [[Rosa Dayette]]
+
+The Engineer must first be discovered, met, and unlocked. The suit and required materials must then be taken to that Engineer's workshop.
+
+== Cost ==
+
+The current modification recipe is:
+
+* 5 Weapon Inventory
+* 5 Chemical Inventory
+* 5 Digital Designs
+* 5 Epoxy Adhesive
+* 3 Memory Chip
+* 750,000 CR
+
+Older guides may show larger requirements from before the 18.08 Odyssey Engineering rebalance.<ref name="inara-rosa">[https://inara.cz/elite/engineer/37/ INARA: Rosa Dayette], accessed 13 September 2026.</ref>
+
+== When to use it ==
+
+Extra Backpack Capacity is most useful on a Maverick suit used for settlement salvage, material collection, and missions that involve carrying several goods or data records. The Maverick's larger starting backpack also gives it the largest absolute increase.
+
+The modification can still support specialised Artemis or Dominator loadouts, but it competes for a limited modification slot. Exploration and combat suits often gain more immediate value from battery, mobility, visibility, ammo, shield, or damage-resistance modifications.
+
+A larger backpack reduces trips to a ship or SRV for inventory transfers. It does not change the Commander's total stored Odyssey-material capacity outside the active on-foot backpack.
+
+== See also ==
+
+* [[Odyssey Engineering]]
+* [[Odyssey Engineer Modifications]]
+* [[Dominator Suit]]
+* [[Domino Green]]
+* [[Wellington Beck]]
+* [[Rosa Dayette]]
+
+== Sources ==
+
+<references />
 
 [[Category:Odyssey Engineering]]
+[[Category:Suit Engineering]]
 [[Category:Odyssey]]

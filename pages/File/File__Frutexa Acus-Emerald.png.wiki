@@ -1,0 +1,26 @@
+<!--
+EDFM current-content archive export.
+Title: File:Frutexa Acus-Emerald.png
+Namespace: 6
+Page ID: 918
+Revision ID: 5867
+Timestamp: 2026-10-02T04:22:15Z
+Source URL: https://edfieldmanual.com/wiki/File:Frutexa_Acus-Emerald.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |description = In-game image of Frutexa Acus in Elite Dangerous.
+ |subject = Frutexa Acus
+ |source = Elite Dangerous, captured in-game
+ |media_type = In-game screenshot
+ |captured_by = [[User:Sythan|Sythan]]
+ |intended_use = Identification and illustration on the Frutexa Acus article and related Exobiology pages.
+ |copyright_holder = Frontier Developments plc
+}}
+
+[[Category:Exobiology images]]
+
+== Licensing ==
+{{License-ED screenshot}}

@@ -3,32 +3,120 @@ EDFM current-content archive export.
 Title: Engineering Materials
 Namespace: 0
 Page ID: 98
-Revision ID: 1911
-Timestamp: 2026-08-24T21:21:21Z
+Revision ID: 4258
+Timestamp: 2026-09-15T02:34:01Z
 Source URL: https://edfieldmanual.com/wiki/Engineering_Materials
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Raw, manufactured, and encoded materials used in Engineering, and where to find or trade for them.}}
-{{Article status|status=Draft|mode=Both}}
+{{Article header|deck=Raw, manufactured, and encoded materials used for ship Engineering, including storage, acquisition, grades, and Material Traders.}}
 
-Index for Engineering materials — see [[:Category:Engineering Materials]] for the full list as it grows. See [[Elite Dangerous Field Manual:Engineering Architecture]] for the page structure.
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4; Legacy differences are labelled where known
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Frontier's current Engineering update notes, the Inara component database, and the Elite Dangerous Wiki material reference
+ |uncertainty=Individual source locations and mission rewards can change with the Background Simulation and game updates.
+}}
 
-{{Draft warning}}
+'''Engineering Materials''' are resources consumed when applying ship [[Engineering Blueprints|Engineering blueprints]] and [[Experimental Effects]]. They are stored in a dedicated inventory, do not use [[Cargo Rack|cargo space]], add no ship mass, and remain available when changing between ships, SRVs, and ship-launched fighters.<ref name="fandom-materials">[https://elite-dangerous.fandom.com/wiki/Materials Materials], Elite Dangerous Wiki, accessed 2026-09-15.</ref>
 
-== Raw Materials ==
-Engineering data to be added. See [[:Category:Raw Materials]].
+Ship Engineering materials are separate from the goods, assets, and data used for [[Odyssey Engineering|Odyssey suit and weapon Engineering]].
 
-== Manufactured Materials ==
-Engineering data to be added. See [[:Category:Manufactured Materials]].
+== Material types ==
 
-== Encoded Materials ==
-Engineering data to be added. See [[:Category:Encoded Materials]].
+{| class="wikitable"
+! Type
+! Grades
+! Typical sources
+|-
+| '''Raw'''
+| Grade 1–4
+| Surface prospecting, asteroid mining by-products, missions, and certain material sites
+|-
+| '''Manufactured'''
+| Grade 1–5
+| Ship salvage, signal sources, missions, and other recovered components
+|-
+| '''Encoded'''
+| Grade 1–5
+| Ship and wake scans, data points, signal sources, missions, and other data collection
+|}
+
+A material's grade indicates its rarity and its position within its Material Trader family. Higher-grade Engineering blueprints normally require rarer materials, but the exact recipe belongs on the relevant blueprint page.
+
+== Storage ==
+
+Each material has its own storage limit. Collecting one material never displaces another.
+
+{| class="wikitable"
+! Grade
+! Rarity
+! Maximum per material
+|-
+| 1
+| Very common
+| 300
+|-
+| 2
+| Common
+| 250
+|-
+| 3
+| Standard
+| 200
+|-
+| 4
+| Rare
+| 150
+|-
+| 5
+| Very rare
+| 100
+|}
+
+Raw materials end at Grade 4; manufactured and encoded materials extend to Grade 5.<ref name="fandom-materials" />
+
+== Acquisition ==
+
+Sources are material-specific. The broad type indicates where to begin searching, but the fastest reliable source for one material may be unsuitable for another. Mission boards can award materials from all three ship-Engineering inventories, while salvage and scans provide type-specific alternatives.
+
+Update 18.08 increased material availability at Grade 4 and Grade 5 farming locations and raised Engineering-material mission rewards. Frontier documented mission rewards of up to 24 units depending on the mission, material, and difficulty.<ref name="frontier-1808">[https://www.elitedangerous.com/news/type-8-update-now-available Type-8 Update is Now Available], Frontier Developments, 7 August 2024, accessed 2026-09-15.</ref>
+
+The current [[Tools and Resources#Engineering and material tracking|Engineering tools]] can identify required quantities and help locate material sources before a gathering trip. Individual material articles own material-specific acquisition information; complete gathering routes belong in dedicated procedures.
 
 == Material Traders ==
-Engineering data to be added.
 
-== Material Acquisition Guides ==
-Engineering data to be added. Farming/acquisition recommendations will only be added once independently verified — see [[Elite Dangerous Field Manual:Editorial Policy]].
+Material Traders exchange materials within one inventory type: Raw, Manufactured, or Encoded. They cannot exchange ship Engineering materials for Odyssey goods, assets, or data.
+
+Trades are lossy. Exchanging a rarer material downward in the same family yields more units; trading upward or across families costs progressively more. This makes traders useful for converting a surplus, but collecting the required material directly is normally more efficient than repeatedly trading across families.
+
+Station services identify which trader type is present. Community databases such as Inara provide current material listings and station-service searches.<ref name="inara-components">[https://inara.cz/elite/components Components], Inara, accessed 2026-09-15.</ref>
+
+== EDFM material references ==
+
+EDFM currently has dedicated references for:
+
+* [[Classified Scan Databanks]] — Grade 5 encoded material;
+* [[Electrical Wiring]] — Odyssey technology asset;
+* [[Weapon Component]] — Odyssey technology asset.
+
+Use [[:Category:Engineering Materials]] to browse the material pages currently available. The Odyssey entries are labelled separately because they do not belong to the Raw, Manufactured, or Encoded ship-material inventories.
+
+== Sources ==
+<references />
 
 {{Engineering nav}}
+
+{{Related articles
+ |[[Engineering]]
+ |[[Engineering Blueprints]]
+ |[[Experimental Effects]]
+ |[[Odyssey Engineering]]
+ |[[Tools and Resources#Engineering and material tracking|Engineering tools]]
+}}
+
+[[Category:Engineering]]
+[[Category:Engineering Materials]]

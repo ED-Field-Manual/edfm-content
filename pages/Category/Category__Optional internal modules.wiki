@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Optional internal modules
+Namespace: 14
+Page ID: 844
+Revision ID: 5163
+Timestamp: 2026-09-24T14:41:46Z
+Source URL: https://edfieldmanual.com/wiki/Category:Optional_internal_modules
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Ship modules fitted to optional internal compartments.
+
+[[Category:Ship modules]]

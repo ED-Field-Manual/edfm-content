@@ -3,22 +3,126 @@ EDFM current-content archive export.
 Title: AX Missile Rack
 Namespace: 0
 Page ID: 438
-Revision ID: 2128
-Timestamp: 2026-08-24T23:43:44Z
+Revision ID: 4141
+Timestamp: 2026-09-14T03:21:29Z
 Source URL: https://edfieldmanual.com/wiki/AX_Missile_Rack
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the AX Missile Rack ship module.
+{{Article header|deck=A human anti-xeno dumbfire weapon for damaging Thargoid hulls with direct missile hits.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy outfitting
+ |reviewer=Sythan
+ |reviewed=2026-09-14
+ |source_quality=In-game description and specifications documented by the maintained Elite Dangerous Wiki, with current Anti-Xeno Initiative tactical guidance
+ |uncertainty=Outfitting stock and the comparative value of standard, Enhanced, and Sirius variants can change; verify local availability and current anti-xeno guidance before committing a build.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''AX Missile Rack''' is a human anti-xeno hardpoint that fires unguided missiles carrying a compound capable of damaging Thargoid vessels. It is available in Class 2 and Class 3 fixed and turreted forms.<ref name="wiki">[https://elite-dangerous.fandom.com/wiki/AX_Missile_Rack Elite Dangerous Wiki: AX Missile Rack], accessed 14 September 2026.</ref>
 
-== Overview ==
+Unlike a conventional [[Missile Rack]], it deals Anti-Xeno damage and can penetrate the resistance that makes ordinary human weapons ineffective against Thargoid Interceptors. Its projectiles are dumbfire: they do not acquire a seeker lock and must be led manually.
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Specifications ==
+
+{| class="wikitable"
+! Class
+! Mount
+! Mass
+! Power draw
+! Damage
+! Rate of fire
+! Clip
+! Maximum ammunition
+|-
+| 2
+| Fixed
+| 4 t
+| 1.20 MW
+| 31.3 AX
+| 0.5/s
+| 8
+| 64
+|-
+| 2
+| Turreted
+| 4 t
+| 1.20 MW
+| 23.7 AX
+| 0.5/s
+| 8
+| 64
+|-
+| 3
+| Fixed
+| 8 t
+| 1.62 MW
+| 31.3 AX
+| 0.5/s
+| 12
+| 128
+|-
+| 3
+| Turreted
+| 8 t
+| 1.75 MW
+| 23.7 AX
+| 0.5/s
+| 12
+| 128
+|}
+
+All standard variants have 60 armour piercing, a projectile speed of 750 m/s, and a listed maximum range of 5,000 metres.<ref name="wiki" /> The slow projectile and lack of guidance make hits increasingly difficult against fast or distant targets.
+
+The fixed mount deals more damage than the turreted mount. The larger Class 3 rack mainly adds ammunition; its listed per-missile damage is the same as the corresponding Class 2 mount.<ref name="wiki" />
+
+== Operation ==
+
+AX missiles are most reliable against large, slow, or predictably moving Thargoid targets. Lead the target, fire in measured salvos, and watch the impact rather than emptying the rack at a poor firing solution.
+
+Against an Interceptor, missile impacts can damage the hull and contribute to exerting a heart. Once a heart is exposed, switch to a weapon suited to precise heart damage rather than relying on splash damage from the missile rack.
+
+The AX Missile Rack is less effective against ordinary human ships than a conventional missile rack. It is a specialist anti-xeno weapon, not a general-purpose replacement.<ref name="wiki" />
+
+== Experimental-weapon limit ==
+
+The AX Missile Rack counts towards the ship's default limit of four experimental weapons. An Experimental Weapon Stabiliser can raise that limit, but its internal-slot, mass, power, and build costs still apply.<ref name="axi">[https://wiki.antixenoinitiative.com/en/weapons Anti-Xeno Initiative Wiki: Weapons], accessed 14 September 2026.</ref>
+
+Because it is a human AX weapon, the rack is not disabled by anti-Guardian fields. The module cannot be modified through normal [[Engineering]].<ref name="wiki" /><ref name="axi" />
+
+== Acquisition ==
+
+Standard AX Missile Racks are purchased for credits through Outfitting. Stock depends on the station and module class; maintained records identify military, high-tech, and industrial planetary ports for Class 2 racks, with Class 3 stock concentrated at military planetary ports.<ref name="wiki" /> Use a current outfitting search before travelling.
+
+No Technology Broker unlock or material payment is required for the standard version.
+
+== Related variants ==
+
+;[[Enhanced AX Missile Rack]]
+:Uses faster projectiles and slightly improved damage. Current AX guidance generally favours it over the standard rack when an Enhanced version fits the task.<ref name="axi" />
+
+;Sirius AX Missile Rack
+:A pre-engineered fixed variant with substantially more ammunition and a higher firing rate, purchased per module from Sirius Technology Brokers with materials.<ref name="wiki" /><ref name="axi" />
+
+;Advanced Missile Rack
+:An engineerable conventional missile rack that can use synthesised AX ammunition. It is a separate weapon and does not count towards the experimental-weapon limit.<ref name="axi" />
+
+Current Anti-Xeno Initiative guidance regards the standard rack as outclassed for general Interceptor combat because of its slow projectiles, limited ammunition, and poor practical damage. The Enhanced and Sirius versions remain situational hull- and shield-damage choices against slower targets, while [[Enhanced AX Multi-Cannon|Enhanced AX Multi-Cannons]] are the more accessible recommendation for Scouts and weaker Interceptors.<ref name="axi" />
+
+== Related pages ==
+
+* [[AX Multi-Cannon]] — human anti-xeno projectile weapon
+* [[Enhanced AX Missile Rack]] — faster standard-purchase variant
+* [[Thargoid]] — alien vessel and conflict overview
+* [[Engineering]] — ship-module modification system; standard AX racks are excluded
+
+== Sources ==
+
+<references />
 
 [[Category:Modules]]
 [[Category:Ship modules]]

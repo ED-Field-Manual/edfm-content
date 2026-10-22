@@ -3,22 +3,129 @@ EDFM current-content archive export.
 Title: Shield Cell Bank
 Namespace: 0
 Page ID: 595
-Revision ID: 2198
-Timestamp: 2026-08-24T23:45:09Z
+Revision ID: 4814
+Timestamp: 2026-09-20T14:20:49Z
 Source URL: https://edfieldmanual.com/wiki/Shield_Cell_Bank
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Shield Cell Bank ship module.
+{{Article header|deck=A combat module that spends a finite supply of pre-charged cells to restore an active shield.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live specifications; Legacy 3.8 module
+ |reviewed=2026-09-20
+ |reviewer=Sythan
+ |source_quality=Current EDSY specifications, Frontier update notes, INARA Engineering records, and cross-checked community mechanics references
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+A '''Shield Cell Bank''' ('''SCB''') is an optional internal module that rapidly restores shield strength from a finite supply of cells. It works only while the ship's [[Shield Generator|shield]] is active: a cell cannot bring a collapsed shield back online, and it does not increase the shield's maximum strength.<ref name="edwiki-scb">[https://elite-dangerous.fandom.com/wiki/Shield_Cell_Bank Elite Dangerous Wiki: ''Shield Cell Bank''], current community mechanics and specification reference; retrieved 20 September 2026.</ref>
 
-== Overview ==
+Shield Cell Banks are combat endurance modules rather than passive reinforcement. Each activation spends one cell, takes time to spin up, produces substantial heat, and then applies its listed reinforcement over the module's reinforcement duration.
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The module exists in both Live and Legacy. The numerical comparison below follows current Live data; Legacy commanders should confirm exact values in the in-game Outfitting panel.<ref name="frontier-update14">[https://www.elitedangerous.com/en-US/news/elite-dangerous-update-14-release-notes Elite Dangerous Update 14 Release Notes], Frontier Developments, 29 November 2022. Official Live/Legacy deployment context and the documented 1D Shield Cell Bank ammunition-field fix; retrieved 20 September 2026.</ref>
+
+== Operation ==
+
+An unmodified Shield Cell Bank takes 25 seconds to boot after it is powered on. Activating a ready bank begins a five-second spin-up. If the shield collapses before that spin-up finishes, the cell is still consumed but provides no reinforcement.<ref name="edsy-scb">[https://github.com/taleden/EDSY/blob/9cd829062217036184ea9ec79ee30934d235aca8/eddb.js#L3812-L3859 EDSY module database: ''Shield Cell Banks''], pinned at commit <code>9cd8290</code>, 1 September 2026; retrieved 20 September 2026.</ref><ref name="edwiki-scb" />
+
+The bank generates most of its heat during spin-up, and larger banks have higher thermal load. A [[Heat Sink Launcher]] is the usual direct countermeasure; a cool starting temperature and other heat-management equipment also reduce the risk of module or hull damage.
+
+Rail Guns engineered with the Feedback Cascade Experimental Effect can reduce a cell's shield restoration when they hit during spin-up. This makes activation timing more important against commanders equipped to counter banks.<ref name="edwiki-scb" />
+
+== Classes and ratings ==
+
+Standard Shield Cell Banks are sold in classes 1–8 and ratings E–A, for 40 variants in all. They fit ordinary optional internal compartments and compatible military compartments. Every unmodified variant has the same 25-second boot time and five-second spin-up. Both class and rating affect several specifications: higher classes generally increase duration, thermal load, and reinforcement, while ratings set the mass, power, integrity, performance, and ammunition trade-offs within each class.<ref name="edsy-scb" /><ref name="edwiki-scb" />
+
+A-rated banks deliver the strongest individual cells. B-rated banks are heavier and use slightly weaker cells, but carry one more cell than the A-rated module of the same class and therefore provide the highest total unmodified reinforcement before restocking. D-rated banks are the lightest option.
+
+The figures below are nominal unengineered values. ''Per cell'' is the reinforcement rate multiplied by duration; ''bank total'' assumes every cell is used without wasting reinforcement against a full or collapsed shield.
+
+{| class="wikitable sortable"
+! Class
+! Duration
+! A-rated: per cell / cells / bank total
+! B-rated: per cell / cells / bank total
+|-
+| 1
+| 1 s
+| 28 MJ / 3 / 84 MJ
+| 24 MJ / 4 / 96 MJ
+|-
+| 2
+| 1.5 s
+| 48 MJ / 4 / 192 MJ
+| 42 MJ / 5 / 210 MJ
+|-
+| 3
+| 2.3 s
+| 94.3 MJ / 4 / 377.2 MJ
+| 80.5 MJ / 5 / 402.5 MJ
+|-
+| 4
+| 3.4 s
+| 156.4 MJ / 4 / 625.6 MJ
+| 132.6 MJ / 5 / 663 MJ
+|-
+| 5
+| 5.1 s
+| 244.8 MJ / 4 / 979.2 MJ
+| 209.1 MJ / 5 / 1,045.5 MJ
+|-
+| 6
+| 7.6 s
+| 349.6 MJ / 5 / 1,748 MJ
+| 296.4 MJ / 6 / 1,778.4 MJ
+|-
+| 7
+| 11.4 s
+| 649.8 MJ / 5 / 3,249 MJ
+| 558.6 MJ / 6 / 3,351.6 MJ
+|-
+| 8
+| 17.1 s
+| 1,111.5 MJ / 5 / 5,557.5 MJ
+| 957.6 MJ / 6 / 5,745.6 MJ
+|}
+
+The pinned Coriolis dataset rounds class 2–8 duration values and retains outdated fields for the 1D bank, so the table uses the current EDSY records. Frontier's Update 14 notes confirm that the erroneous 1D damage-falloff field was replaced with maximum ammunition.<ref name="edcd-scb">[https://raw.githubusercontent.com/EDCD/coriolis-data/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/internal/shield_cell_bank.json EDCD Coriolis data: ''Shield Cell Bank''], pinned at commit <code>0db9234</code>, 24 April 2026; retained as a qualified cross-check; retrieved 20 September 2026.</ref><ref name="frontier-update14" />
+
+A bank restores only missing shield strength. Any reinforcement that would exceed the shield's current maximum is wasted, so the larger nominal figure is useful only when enough damage has already been taken and the shield can survive the spin-up.
+
+== Engineering ==
+
+Shield Cell Banks support two blueprints, both capped at Grade 4:
+
+* '''Rapid Charge''' shortens spin-up and increases reinforcement rate, at the cost of shorter duration and a longer boot time.<ref name="inara-rapid">[https://inara.cz/elite/blueprint/17/ INARA: ''Shield Cell Bank — Rapid Charge''], current blueprint grades, modifiers, and compatible Experimental Effects; retrieved 20 September 2026.</ref>
+* '''Specialised''' lowers thermal load and boot time while increasing reinforcement, at the cost of higher power draw and lower integrity.<ref name="inara-specialised">[https://inara.cz/elite/blueprint/18/ INARA: ''Shield Cell Bank — Specialised''], current blueprint grades and modifiers; retrieved 20 September 2026.</ref>
+
+The compatible [[Experimental Effects]] are:
+
+* '''Boss Cells''' — increases reinforcement and spin-up time;
+* '''Recycling Cell''' — increases duration but lowers reinforcement rate;
+* '''Flow Control''' — reduces power draw;
+* '''Double Braced''' — increases integrity; and
+* '''Stripped Down''' — reduces mass.<ref name="inara-rapid" />
+
+Engineering changes the timing, heat, or effective reinforcement of a bank but does not remove its active-shield requirement or finite ammunition.
+
+== Acquisition ==
+
+Standard Shield Cell Banks are purchased for credits through Outfitting. Available class and rating combinations depend on local stock, and depleted cells can be replenished through station restock services.<ref name="roguey-scb">[https://roguey.co.uk/elite-dangerous/equipment/internal/shield-cell-bank/ Roguey's Elite & Dangerous: ''Shield Cell Bank''], community equipment and station-refill reference; retrieved 20 September 2026.</ref>
+
+== Related modules ==
+
+* [[Shield Generator]] — provides the active shield that a bank restores.
+* [[Heat Sink Launcher]] — removes heat produced while a bank spins up.
+* [[Shield Booster]] — increases maximum shield strength; engineered versions can also improve resistances.
+* [[Guardian Shield Reinforcement Package]] — adds a fixed amount of shield strength without consumable cells.
+
+== Sources ==
+
+<references />
 
 [[Category:Modules]]
 [[Category:Ship modules]]

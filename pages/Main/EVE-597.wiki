@@ -1,0 +1,118 @@
+<!--
+EDFM current-content archive export.
+Title: EVE-597
+Namespace: 0
+Page ID: 840
+Revision ID: 6481
+Timestamp: 2026-10-08T17:07:07Z
+Source URL: https://edfieldmanual.com/wiki/EVE-597
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status
+ |status=Partially verified
+ |mode=Historical
+ |version=Community Goal concluded 8 October 3312 at Tier 2 of 5
+ |reviewed=2026-10-08
+ |reviewer=Sythan
+ |source_quality=Official Frontier GalNet reports for the prison ship timeline and breakout; Inara for the completed Community Goal result, contribution thresholds and credit rewards; EDSM for current station and faction data; Canonn for ship-class and route context; The Buur Pit / Witchspace News for community-reported participation behavior
+ |uncertainty=Frontier has not announced the narrative aftermath of the campaign, the completed Inara listing does not explain paint-job eligibility, and on-foot Combat Bond eligibility is community-reported rather than officially documented.
+}}
+{{Article header|deck=A Riker-class prison ship at the centre of a mass breakout and a concluded combat campaign in Redonesses.}}
+
+{{Callout|type=info|label=Campaign concluded|1=
+'''Defeat Criminal Pilots in Redonesses''' ended on '''8 October 3312''' at '''Tier 2 of 5'''. Inara recorded '''8,849 contributors''' and '''116,350,734,905 credits in Combat Bonds'''. The campaign no longer accepts registration or contributions.<ref name="inara-cg">[https://inara.cz/elite/communitygoals/s/ Defeat Criminal Pilots in Redonesses], Inara. Completed campaign listing accessed 8 October 2026.</ref>
+}}
+
+'''EVE-597''' is a Riker-class prison ship operated by the Independent Detention Foundation. It normally follows a repeating route through '''Nones''', '''Gliese 506.2''', '''Evenses''' and '''Chematja'''.<ref name="frontier-missing">[https://www.elitedangerous.com/news/galnet/prison-ship-reported-missing-after-failing-scheduled-transit Prison Ship Reported Missing After Failing Scheduled Transit], GalNet, Frontier Developments, 17 September 3312. Accessed 1 October 2026.</ref><ref name="canonn-riker">[https://canonn.science/codex/riker-class-prison-ship Riker-class Reformatory], Canonn Research Group. Accessed 1 October 2026.</ref>
+
+The vessel failed to arrive at Gliese 506.2 after leaving Nones. Commanders located it in '''Redonesses''' on 18 September 3312, transmitting a distress call and hosting a megaship combat encounter.<ref name="gnd-found">[https://www.youtube.com/watch?v=r3zywyRsQyk “Defend Us” Plea from Prison Ship], GalNet News Digest, 18 September 3312. Accessed 20 September 2026.</ref><ref name="wsn-found">[https://www.youtube.com/watch?v=opqe5NIs2Rg Missing Megaship Found, Rhino Mining Plugin, New Exploration Event & More], ''Witchspace News'', The Buur Pit, 18 September 2026. Accessed 20 September 2026.</ref> GalNet subsequently confirmed that the ship was damaged, its defence turrets were disabled and debris surrounded the vessel.<ref name="frontier-found">[https://www.elitedangerous.com/news/galnet/missing-prison-ship-discovered-adrift-in-redonesses-system Missing Prison Ship Discovered Adrift in Redonesses System], GalNet, Frontier Developments, 22 September 3312. Accessed 1 October 2026.</ref>
+
+On 1 October 3312, the Independent Detention Foundation admitted that a major breakout had taken place. Prisoners controlling EVE-597 launched escape pods, while the Clan of Redonesses attempted to prevent their recapture. The Foundation then opened a combat campaign calling for independent pilots to suppress those criminal forces.<ref name="frontier-breakout">[https://www.elitedangerous.com/news/galnet/mass-prison-breakout-reported-at-eve-597-reformatory Mass Prison Breakout Reported at EVE-597 Reformatory], GalNet, Frontier Developments, 1 October 3312. Accessed 1 October 2026.</ref>
+
+== Campaign outcome ==
+
+Inara recorded the campaign as finished on 8 October 3312. It reached Tier 2 of 5 with 116,350,734,905 credits in Combat Bonds submitted by 8,849 commanders.<ref name="inara-cg" />
+
+{| class="wikitable"
+! Contribution bracket !! Final contribution range !! Credit reward
+|-
+| Top 10 commanders || 908,423,338–1,482,867,988 || 280,000,000 Cr
+|-
+| Top 25% || 11,212,136–908,423,337 || 220,000,000 Cr
+|-
+| Top 50% || 3,441,862–11,212,135 || 170,000,000 Cr
+|-
+| Top 75% || 1,095,853–3,441,861 || 140,000,000 Cr
+|-
+| Top 100% || 1–1,095,852 || 70,000,000 Cr
+|}
+
+The completed listing also displays Mamba and Vulture Crossfire Blue paint jobs, but does not state which contribution brackets qualify for them. Frontier has not yet published a narrative follow-up explaining the effect of the campaign on the escaped prisoners or EVE-597.<ref name="inara-cg" />
+
+== Campaign hub ==
+
+The '''Sword of Iustitia''' served as the campaign registration and Combat Bond hand-in point. EDSM data accessed after the campaign identifies it as a Redonesses Defence Party megaship roughly 206 light-seconds from the arrival star, with refuelling, repair, restock, contacts, shipyard and outfitting services.<ref name="edsm-stations">[https://www.edsm.net/api-system-v1/stations?systemName=Redonesses Redonesses station data], EDSM. Live data accessed 8 October 2026.</ref>
+
+The campaign used the following workflow:<ref name="inara-cg" />
+
+{| class="wikitable"
+! Stage !! Action
+|-
+| Register || Commanders signed up for ''Defeat Criminal Pilots in Redonesses'' at the Sword of Iustitia.
+|-
+| Fight || Participants entered conflict zones in Redonesses and fought the criminal forces assisting the escaping prisoners.
+|-
+| Contribute || Registered commanders handed Combat Bonds in at the Sword of Iustitia.
+|-
+| Qualify || At least one bond qualified a commander for a credit reward; the final Inara listing did not specify cosmetic eligibility.
+|}
+
+The Sword of Iustitia briefly lacked a mission board when the campaign opened; The Buur Pit reported that this launch-day issue was quickly resolved.<ref name="buur-cg-participation">[https://www.youtube.com/watch?v=tXJiet0ZGgY&t=199s “Anaconda MK2 Hardpoints Clarified, Megaship War Erupts & Much More | Elite Dangerous NEWS”], ''Witchspace News'', The Buur Pit, 2 October 2026, 3:19–4:11. Accessed 3 October 2026.</ref>
+
+Community reporting from The Buur Pit indicated that Combat Bonds earned in on-foot conflict zones in Redonesses also counted toward the Community Goal when fighting against the Clan of Redonesses. After docking at the Sword of Iustitia, commanders could hand those bonds in through the megaship's Contacts panel from the cockpit; visiting Frontline Solutions on foot was not required.<ref name="buur-cg-participation" />
+
+Combat Bonds from the campaign conflict zones were the required contribution. The earlier megaship distress encounter was part of the incident's history, but its attacker-or-defender choice was not the campaign turn-in mechanism.
+
+== Earlier megaship encounter ==
+
+Before the breakout was officially acknowledged, commanders dropping at EVE-597 encountered a megaship combat scenario. The communications panel offered a choice between supporting the defenders and joining the attackers.<ref name="gnd-found" /><ref name="wsn-found" />
+
+[[File:EVE-597_Factions.png|thumb|right|250px|The earlier megaship encounter allowed commanders to defend or attack EVE-597.]]
+
+{| class="wikitable"
+! Side in the encounter !! Faction !! Government
+|-
+| Defending EVE-597 || Clan of Redonesses || Anarchy
+|-
+| Attacking EVE-597 || Redonesses Defence Party || Dictatorship
+|}
+
+The unusual alignment is consistent with Frontier's account: prisoners had taken control of EVE-597 and the Clan of Redonesses was helping the escapees. EDSM data accessed after the campaign shows the War state recovering for both the Clan of Redonesses and Redonesses Defence Party, with the Defence Party in Infrastructure Failure and Redonesses Gold Comms Services still controlling the system. Faction states, control and influence remain dynamic.<ref name="frontier-breakout" /><ref name="edsm-factions">[https://www.edsm.net/api-system-v1/factions?systemName=Redonesses Redonesses faction data], EDSM. Live data accessed 8 October 2026.</ref>
+
+== Timeline ==
+
+{| class="wikitable"
+! Date !! Development
+|-
+| 14 September 3312 || The Independent Detention Foundation reported unusually heavy traffic near prison reformatories, including ships associated with pirate factions.<ref name="frontier-traffic">[https://www.elitedangerous.com/news/galnet/increased-traffic-near-prison-ships-sparks-concern Increased Traffic Near Prison Ships Sparks Concern], GalNet, Frontier Developments, 14 September 3312. Accessed 1 October 2026.</ref>
+|-
+| 17 September 3312 || EVE-597 failed to arrive at Gliese 506.2 after departing Nones and was reported missing.<ref name="frontier-missing" />
+|-
+| 18 September 3312 || Commanders located the vessel in Redonesses, transmitting a distress call and hosting a megaship combat encounter.<ref name="gnd-found" /><ref name="wsn-found" />
+|-
+| 22 September 3312 || GalNet confirmed that EVE-597 was damaged and surrounded by debris, with disabled defence turrets and an acknowledged onboard disturbance.<ref name="frontier-found" />
+|-
+| 1 October 3312 || The Foundation admitted that prisoners had taken control of the ship and escaped by pod. A one-week combat campaign began against the criminal forces helping them evade recapture.<ref name="frontier-breakout" /><ref name="inara-cg" />
+|-
+| 8 October 3312 || The combat campaign ended at Tier 2 of 5 after 8,849 commanders submitted 116,350,734,905 credits in Combat Bonds. Frontier had not announced the incident's narrative aftermath at the time of this update.<ref name="inara-cg" />
+|}
+
+== References ==
+
+<references />
+
+{{Related articles|1=[[GalNet]] · [[Combat]]}}
+
+[[Category:Events]]
+[[Category:Lore]]

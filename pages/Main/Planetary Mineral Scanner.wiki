@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Planetary Mineral Scanner
 Namespace: 0
 Page ID: 745
-Revision ID: 2558
-Timestamp: 2026-08-29T12:48:11Z
+Revision ID: 6376
+Timestamp: 2026-10-07T11:21:15Z
 Source URL: https://edfieldmanual.com/wiki/Planetary_Mineral_Scanner
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -18,7 +18,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
  |source_quality=Official Frontier August 2026 developer log
  |uncertainty=Detailed controls, range, tuning, module behaviour, and post-release values are not yet verified.
 }}
-{{Article header|section=Mining|context=Modules|deck=Upcoming Rhino scanner used to locate planetary mining deposits.}}
+{{Article header|deck=Upcoming Rhino scanner used to locate planetary mining deposits.}}
 
 The '''Planetary Mineral Scanner''' is announced equipment associated with the [[Rhino]] [[Surface Recon Vehicles|Surface Recon Vehicle]] and [[Surface Mining]]. Frontier has stated that the Rhino comes equipped with the scanner and uses it to detect planetary mining deposits.<ref name="frontier-august-dev-log">[https://www.elitedangerous.com/news/elite-dangerous-august-dev-log-2026 Elite Dangerous: August Dev Log 2026], Frontier Developments, 27 August 2026.</ref>
 

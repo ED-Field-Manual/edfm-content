@@ -3,22 +3,126 @@ EDFM current-content archive export.
 Title: Plasma Accelerator
 Namespace: 0
 Page ID: 557
-Revision ID: 2180
-Timestamp: 2026-08-24T23:44:47Z
+Revision ID: 4469
+Timestamp: 2026-09-16T15:04:24Z
 Source URL: https://edfieldmanual.com/wiki/Plasma_Accelerator
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Plasma Accelerator ship module.
+{{Article header|deck=A fixed heavy weapon that launches slow, high-damage plasma projectiles with a mostly absolute damage profile.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Specifications are cross-checked against maintained outfitting data; handling and Engineering are documented from current community references.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Plasma Accelerator''' is a fixed hardpoint weapon built around powerful, slow-moving plasma projectiles. It is available in medium, large, and huge sizes. Each shot inflicts heavy damage and has an armour-piercing value of 100, but the weapon demands substantial power, WEP capacitor energy, heat capacity, and accurate manual aim.<ref name="edsm-pa">Elite Dangerous Star Map, [https://www.edsm.net/en/faq/outfitting/index/id/2/name/Weapon+Hardpoint/sub/Plasma+Accelerators Plasma Accelerators outfitting reference].</ref>
+
+Its damage is divided into 60% absolute, 20% thermal, and 20% kinetic components. The large absolute component ignores the target's normal thermal and kinetic resistance values, making the weapon useful against both shields and hull. Damage still falls off beyond 2,000 metres unless Engineering changes the falloff profile.<ref name="edwiki-pa">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Plasma_Accelerator Plasma Accelerator].</ref>
+
+== Standard variants ==
+
+{| class="wikitable sortable"
+! Class
+! Rating
+! Mass
+! Power draw
+! Damage
+! Rate of fire
+! Distributor draw
+! Thermal load
+! Price
+|-
+| 2
+| C
+| 4 t
+| 1.43 MW
+| 54.3
+| 0.33/s
+| 8.65 MW
+| 15.6
+| 834,200 CR
+|-
+| 3
+| B
+| 8 t
+| 1.97 MW
+| 83.4
+| 0.29/s
+| 13.6 MW
+| 21.75
+| 3,051,200 CR
+|-
+| 4
+| A
+| 16 t
+| 2.63 MW
+| 125.2
+| 0.25/s
+| 21.04 MW
+| 29.5
+| 13,793,600 CR
+|}
+
+All three standard variants are fixed weapons with the following shared characteristics:<ref name="edsm-pa" />
+
+* five-round magazine and 100-round ammunition reserve;
+* six-second reload;
+* 875 m/s projectile speed;
+* 2,000 m damage-falloff start and 3,500 m maximum range;
+* armour-piercing value of 100.
+
+The larger versions deliver more damage and module-breach damage in one hit, but become progressively heavier and more demanding on the ship's systems. Nominal damage per second does not describe the whole trade-off: a missed projectile wastes a long firing cycle, substantial capacitor energy, and a limited round of ammunition.
+
+== Operation ==
+
+Plasma Accelerators have no gimballed or turreted standard mount. The pilot must point the ship so the fixed firing solution leads the target. At 875 m/s, flight time is significant against manoeuvring ships, especially at range; close or predictable firing windows are therefore more reliable than speculative long-range shots.
+
+The weapon's system demands shape practical use:
+
+* '''WEP capacitor''' — a depleted capacitor prevents another shot even when the firing cycle is ready.
+* '''Heat''' — firing several accelerators together can produce a sharp heat spike, particularly on ships with poor thermal performance.
+* '''Hardpoint convergence''' — widely separated mounts can make it difficult to land every projectile on a small target.
+* '''Firing window''' — the class 4 weapon has the strongest individual hit but the slowest cycle, rewarding deliberate shots rather than sustained trigger use.
+
+The mixed damage profile makes separate anti-shield and anti-hull ammunition unnecessary, but it does not turn every hit into guaranteed module damage. Module strikes still depend on impact location, armour penetration, breach chance, and the target's remaining hull and module protection.
+
+== Engineering ==
+
+Plasma Accelerators accept the standard weapon Blueprint families: Efficient, Focused, Lightweight, Long Range, Overcharged, Rapid Fire, Short Range, and Sturdy. Engineering can materially change the weapon's handling as well as its raw damage.<ref name="inara-pa">INARA, [https://inara.cz/elite/blueprint/91 Plasma Accelerator — Rapid Fire Blueprint] and [https://inara.cz/elite/blueprint/123 Plasma Accelerator — Long Range Blueprint].</ref>
+
+Common considerations include:
+
+* '''Efficient''' reduces the power, distributor, and thermal burden while increasing damage.
+* '''Long Range''' increases projectile speed and pushes falloff to the modified maximum range.
+* '''Focused''' increases projectile speed and armour piercing but does not remove normal damage falloff.
+* '''Rapid Fire''' shortens the firing interval and reload at the cost of damage and added jitter.
+* '''Short Range''' trades reach for stronger close-range hits.
+
+Available Experimental Effects include Dispersal Field, Double Braced, Oversized, Phasing Sequence, Plasma Slug, Stripped Down, Target Lock Breaker, and Thermal Conduit.<ref name="inara-experimental">INARA, [https://inara.cz/elite/experimentaleffects Engineering — Experimental Effects].</ref> Their detailed modifiers and tactical uses belong on their own references.
+
+== Related plasma weapons ==
+
+The [[Advanced Plasma Accelerator]] is a distinct class 3 Powerplay variant. It exchanges much of the standard class 3 weapon's single-shot damage for faster follow-up fire, a larger magazine, and a larger ammunition reserve.
+
+The [[Guardian Plasma Charger]] is a separate Guardian hybrid weapon family with charge mechanics and anti-xeno applications. The similarly named Mk II Plasma Shock Accelerator is also a distinct weapon rather than another standard Plasma Accelerator size.
+
+== Acquisition ==
+
+Standard Plasma Accelerators are purchased through Outfitting where local stock includes the required class. No Powerplay pledge or technology-broker unlock is required. The standard weapon family and its core specifications exist in both current Live and Legacy modes.
+
+== Sources ==
+
+<references />
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Weapons]]

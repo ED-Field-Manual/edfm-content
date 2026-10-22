@@ -3,35 +3,125 @@ EDFM current-content archive export.
 Title: Exploration
 Namespace: 0
 Page ID: 181
-Revision ID: 2611
-Timestamp: 2026-08-29T17:24:20Z
+Revision ID: 4268
+Timestamp: 2026-09-15T03:04:52Z
 Source URL: https://edfieldmanual.com/wiki/Exploration
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Index for long-range travel, scanning, and discovery content.}}
-{{Article status|status=Draft|mode=Both|noindex=yes}}
-{{Draft warning}}
+{{Article header|deck=The career of discovering, resolving, mapping, and investigating star systems and astronomical bodies throughout the galaxy.}}
 
-'''Exploration''' is the process of discovering, surveying, mapping, and investigating star systems and astronomical bodies throughout the galaxy in ''[[Elite Dangerous]]''.
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4; core discovery, system scanning, mapping, and cartographic sales also apply to Legacy
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Current Frontier exploration guides and Beyond release documentation, supported by maintained scanner and valuation references
+ |uncertainty=Exact credit values depend on body type, mass, terraformability, scan level, and first-discovery state; dynamic discoveries change as data is submitted.
+}}
 
-Commanders can use shipboard scanners to discover previously unknown systems and bodies, collect valuable cartographic data, locate planetary features, identify biological and geological signals, and investigate unusual phenomena. Exploration can range from surveying systems near inhabited space to long-range expeditions thousands of light-years beyond the Bubble.
+'''Exploration''' is the process of discovering, surveying, mapping, and investigating star systems and astronomical bodies. Commanders generate cartographic data with ship scanners, sell it for credits, advance Explorer rank, and can permanently record First Discovered and First Mapped tags by submitting previously unclaimed findings.<ref name="frontier-guide">[https://www.elitedangerous.com/news/getting-started-elite-dangerous Getting Started in Elite Dangerous], Frontier Developments, accessed 2026-09-15.</ref>
 
-Core exploration tools include the [[Discovery Scanner]], [[Full Spectrum System Scanner|Full Spectrum System Scanner (FSS)]], and [[Detailed Surface Scanner|Detailed Surface Scanner (DSS)]]. Surface exploration may also involve [[Exobiology]], [[Surface Recon Vehicles|surface vehicles]], and specialized exploration equipment.
+Exploration ranges from scanning nearby systems to long expeditions beyond inhabited space. No particular ship is mandatory; range, fuel access, heat control, repair capability, and the equipment needed for the intended discoveries determine whether a build is suitable.
 
-== Exploration guides ==
+== Survey levels ==
 
-* [[Discovery Scanner]]
-* [[Full Spectrum System Scanner]]
-* [[Detailed Surface Scanner]]
-* [[Planetary Exploration]]
-* [[Exobiology]]
-* [[First Discovered]]
-* [[First Mapped]]
-* [[First Footfall]]
-* [[Universal Cartographics]]
-* [[Vista Genomics]]
+Current ship exploration has three principal survey layers.
 
-More detailed exploration procedures, equipment recommendations, exploration values, route planning, and discovery mechanics will be added as this section is expanded.
+{| class="wikitable"
+! Layer
+! Equipment
+! Result
+|-
+| '''System detection'''
+| Integrated Discovery Scanner
+| Detects the system's signal population and immediately identifies stars. Its characteristic activation sound is commonly called the “honk”.
+|-
+| '''System resolution'''
+| Integrated Full Spectrum System Scanner (FSS)
+| Tunes and resolves planets, moons, asteroid clusters, signal sources, and other distant objects, filling the Commander's System Map.
+|-
+| '''Planetary mapping'''
+| [[Detailed Surface Scanner]] (DSS)
+| Fires probes to map a planet, moon, or ring; increases cartographic value and reveals applicable surface signals or mining hotspots.
+|}
+
+The Discovery Scanner and FSS are integrated into every ship. The Detailed Surface Scanner is an optional internal module that must be fitted when planetary or ring mapping is required.<ref name="fss">[https://elite-dangerous.fandom.com/wiki/Full_Spectrum_System_Scanner Full Spectrum System Scanner], Elite Dangerous Wiki, accessed 2026-09-15.</ref>
+
+Frontier introduced the current FSS tuning and DSS probe system in ''Beyond — Chapter Four''. The redesign separated initial system detection, signal resolution, and surface mapping so Commanders could decide which bodies deserved closer investigation.<ref name="frontier-beyond">[https://www.elitedangerous.com/en-US/news/elite-dangerous-beyond-chapter-four-out-now Elite Dangerous: Beyond — Chapter Four — Out Now], Frontier Developments, 11 December 2018, accessed 2026-09-15.</ref>
+
+== Cartographic data ==
+
+Resolving stars and bodies produces exploration data. Mapping an eligible planet or moon adds a more detailed and generally more valuable record.
+
+Value depends principally on:
+
+* the body's class and mass;
+* whether it is a candidate for terraforming;
+* whether it was resolved only or also mapped;
+* First Discovered and First Mapped eligibility;
+* meeting the DSS Probe Efficiency Target when mapping.
+
+Earth-like worlds, water worlds, ammonia worlds, and terraformable candidates are among the most valuable ordinary planetary records. Distinctive appearance, landability, material percentages, orbital distance, and distance from the eventual sale point do not themselves increase a body's base cartographic value.<ref name="explorer">[https://elite-dangerous.fandom.com/wiki/Explorer Explorer], Elite Dangerous Wiki, accessed 2026-09-15.</ref>
+
+== Selling data and discovery tags ==
+
+Cartographic data is sold through Universal Cartographics at participating stations and Fleet Carriers. A record cannot be sold within 20 light-years of its source system.<ref name="explorer" /><ref name="uc">[https://elite-dangerous.fandom.com/wiki/Universal_Cartographics Universal Cartographics], Elite Dangerous Wiki, accessed 2026-09-15.</ref>
+
+First-discovery recognition is decided when the data is submitted, not when the scan is made:
+
+* the first Commander to submit a previously unclaimed resolved body receives the '''First Discovered By''' tag;
+* the first Commander to submit a previously unmapped body's map receives the '''First Mapped By''' tag.
+
+Another Commander can therefore claim the tag by returning and selling first. Unsold cartographic data is also lost when the ship is destroyed.<ref name="frontier-guide" />
+
+Biological samples are separate from cartographic data. They are sold to Vista Genomics through the Live [[Exobiology]] system rather than to Universal Cartographics.
+
+== Range and endurance ==
+
+The [[Frame Shift Drive]] determines hyperspace range and is the foundation of an exploration ship. Lower mass and increased FSD range reduce the number of jumps needed to cross a route, but maximum jump distance is not the only useful characteristic.
+
+Common exploration equipment includes:
+
+; [[Fuel Scoop]]
+: Replenishes fuel from compatible stars and makes independent travel beyond station networks practical.
+
+; [[Detailed Surface Scanner]]
+: Required for planetary mapping, surface-signal filters, and ring hotspot scans.
+
+; [[Auto Field-Maintenance Unit]]
+: Repairs damaged internal modules during extended travel. It is particularly relevant where neutron-star supercharging repeatedly damages an ordinary FSD.
+
+; [[Surface Recon Vehicles|Surface Recon Vehicle]]
+: Supports surface traversal, material collection, local scanning, and biological searches after landing.
+
+; Repair, heat, and survivability equipment
+: Shielding, heatsinks, repair limpets, redundant AFMUs, and other safeguards trade mass and slots for resilience. Their value depends on the route and intended surface activity.
+
+Detailed builds and expedition checklists belong in dedicated guides rather than this system overview. [[Tools and Resources|Community route and mapping tools]] can compare routes and identify known services without replacing in-game scanner data.
+
+== Surface investigation and Exobiology ==
+
+Mapping can reveal geological or biological signal filters and persistent points of interest. The DSS identifies suitable areas or mapped locations; the ship, SRV, or Commander must still reach and investigate them.
+
+Live Commanders with ''Odyssey'' can collect complete genetic samples through [[Exobiology]]. The Exobiology career has its own equipment, discovery bonus, sale service, and rank; it is related to exploration but does not replace Universal Cartographics data.
+
+Legacy retains system discovery, FSS surveying, DSS mapping, and the older surface-exploration systems, but not the Odyssey on-foot Exobiology career.
+
+== Field procedures ==
+
+{{#invoke:Procedures|list|topic=Exploration}}
+
+== Sources ==
+<references />
+
+{{Related articles
+ |[[Detailed Surface Scanner]]
+ |[[Exobiology]]
+ |[[Frame Shift Drive]]
+ |[[Surface Recon Vehicles]]
+ |[[Tools and Resources]]
+}}
 
 [[Category:Exploration]]

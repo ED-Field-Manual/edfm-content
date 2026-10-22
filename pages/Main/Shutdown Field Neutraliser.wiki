@@ -3,22 +3,92 @@ EDFM current-content archive export.
 Title: Shutdown Field Neutraliser
 Namespace: 0
 Page ID: 602
-Revision ID: 2201
-Timestamp: 2026-08-24T23:45:13Z
+Revision ID: 4838
+Timestamp: 2026-09-20T16:41:56Z
 Source URL: https://edfieldmanual.com/wiki/Shutdown_Field_Neutraliser
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Shutdown Field Neutraliser ship module.
+{{Article header|deck=A manually activated utility module that keeps ships online when a Thargoid shutdown pulse passes.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live specifications; the module was introduced before the Live and Legacy split
+ |reviewed=2026-09-20
+ |reviewer=Sythan
+ |source_quality=Development and purpose are documented by Frontier; specifications are cross-checked against current EDSY and EDSM records, with operation supported by the in-game description and community testing.
+ |uncertainty=How long the field can be maintained depends on the ship's available SYS energy and recharge rate.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Shutdown Field Neutraliser''' is a class 0F utility module designed to prevent known Thargoid shutdown pulses from disabling human ships. Aegis developed the module from work by [[Elvira Martuuk]] and placed it into service in 3303.<ref name="frontier-origin">Frontier Developments: [https://community.elitedangerous.com/galnet/28-OCT-3303 ''Capital Ships Vulnerable to Thargoid Attack''], 28 October 3303; [https://community.elitedangerous.com/galnet/24-APR-3309 ''Aegis Trials Tech to Explore Maelstroms''], 24 April 3309.</ref>
 
-== Overview ==
+== Operation ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The neutraliser must be activated manually. Assign it to a fire group or control binding, then hold the control as the incoming shutdown wave reaches the ship. Releasing the control or exhausting the SYS capacitor ends the protection, so the field must remain active until the wave has passed.<ref name="operation">[https://elite-dangerous.fandom.com/wiki/Shutdown_Field_Neutraliser Shutdown Field Neutraliser], Elite Dangerous Wiki, accessed 2026-09-20; [https://forums.frontier.co.uk/threads/thargoid-shutdown-field-neutraliser.613374/ Thargoid shutdown field neutraliser], Frontier Forums, accessed 2026-09-20.</ref>
+
+The module takes one second to reach full charge. Its protected area expands around the equipped ship during that charge and reaches a maximum radius of 3 km, allowing nearby ships inside the field to remain online as well. It does not need to be aimed at the Thargoid or the wave.<ref name="edsy-data">[https://github.com/taleden/EDSY/blob/9cd829062217036184ea9ec79ee30934d235aca8/eddb.js#L2930 EDSY module database: Shutdown Field Neutraliser], commit <code>9cd8290</code>, accessed 2026-09-20.</ref><ref name="operation" />
+
+Activation rapidly consumes energy from the [[Power Distributor|SYS capacitor]]. Moving pips to SYS improves recharge while the neutraliser is held, but it does not remove the need to time the activation. Triggering too early can leave the capacitor empty before the wave arrives. After the module is released or depleted, it has a ten-second cooldown before it can be used again.<ref name="operation" /><ref name="edsy-data" />
+
+== Specifications ==
+
+{| class="wikitable"
+! Property
+! Unmodified value
+|-
+| Class and rating
+| 0F
+|-
+| Slot
+| Utility mount
+|-
+| Mass
+| 1.30 t
+|-
+| Integrity
+| 35
+|-
+| Passive power draw
+| 0.20 MW
+|-
+| Maximum field radius
+| 3 km
+|-
+| Charge time
+| 1 second
+|-
+| Cooldown
+| 10 seconds
+|-
+| Base price
+| 63,000 CR
+|}
+
+The price is the base module value. Station discounts and other modifiers can change the amount shown in Outfitting.
+
+== Acquisition ==
+
+The Shutdown Field Neutraliser is ordinary credit-purchase equipment in Outfitting and does not require a Technology Broker unlock. Station stock varies; EDSM's outfitting search can be used to locate a recently reported 0F module.<ref name="edsm-data">[https://www.edsm.net/en/faq/outfitting/index/id/3/name/Utility+Mount/sub/Experimental Experimental utility mounts], EDSM, accessed 2026-09-20.</ref>
+
+== Engineering ==
+
+The module has no Engineering blueprints or Experimental Effects.<ref name="operation" /> Engineering the ship's Power Distributor can change SYS capacity and recharge performance, but it does not modify the neutraliser itself.
+
+== Relationship to the Thargoid Pulse Neutraliser ==
+
+The Thargoid Pulse Neutraliser is a separate, amplified derivative designed for the energy wave once found inside a Thargoid Maelstrom. It has different specifications and acquisition rules. Those details do not apply to the standard Shutdown Field Neutraliser.<ref name="frontier-origin" />
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Power Distributor]] [[Elvira Martuuk]] [[Ship Modules]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Utility mounts]]
+[[Category:Defensive modules]]
+[[Category:Anti-Xeno equipment]]

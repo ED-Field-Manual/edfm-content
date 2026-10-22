@@ -1,0 +1,20 @@
+<!--
+EDFM current-content archive export.
+Title: File:DSS planet.png
+Namespace: 6
+Page ID: 839
+Revision ID: 4504
+Timestamp: 2026-09-16T17:36:14Z
+Source URL: https://edfieldmanual.com/wiki/File:DSS_planet.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |description = In-game image of [[How to Choose an Exobiology Search Area with a Detailed Surface Scanner]] in Elite Dangerous.
+ |subject = [[How to Choose an Exobiology Search Area with a Detailed Surface Scanner]]
+ |captured_by = [[User:Sythan|Sythan]]
+ |intended_use = Identification and illustration on the [[How to Choose an Exobiology Search Area with a Detailed Surface Scanner]] article and related location pages.
+}}
+
+[[Category:Location images]]

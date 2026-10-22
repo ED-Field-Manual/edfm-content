@@ -3,37 +3,94 @@ EDFM current-content archive export.
 Title: Beam Laser
 Namespace: 0
 Page ID: 375
-Revision ID: 1874
-Timestamp: 2026-08-24T21:20:31Z
+Revision ID: 5170
+Timestamp: 2026-09-24T15:03:12Z
 Source URL: https://edfieldmanual.com/wiki/Beam_Laser
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=A continuous-beam energy weapon with strong sustained damage against shields, at the cost of heavy power draw and heat.
+{{Article header|deck=A continuous-beam thermal weapon that trades high sustained shield damage for heavy distributor draw and heat generation.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy 3.8
+ |reviewed=2026-09-24
+ |reviewer=Sythan
+ |source_quality=Current module data is supported by a commit-pinned EDCD dataset; Engineering ownership and grades are cross-checked against current INARA Engineer and blueprint records and Frontier's Operations release notes.
+ |uncertainty=Exact performance depends on weapon size and mount. This article does not reproduce every variant's numerical statistics.
 }}
 
-{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established community consensus (INARA outfitting/engineering database), cross-checked against this wiki's already-cited Engineer articles}}
+{{Ship module infobox}}
 
-'''Beam Lasers''' are thermal energy weapons that fire a continuous beam for as long as the trigger is held and the weapon capacitor allows, rather than firing in individual bursts like a [[Pulse Laser]] or [[Burst Laser]].
+'''Beam Lasers''' are thermal energy weapons that fire continuously while the trigger is held and the weapon capacitor can sustain them. Fixed, gimballed, and turreted versions are available across several hardpoint sizes.<ref name="edcd-beam">[https://raw.githubusercontent.com/EDCD/coriolis-data/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/hardpoints/beam_laser.json Coriolis data: Beam Laser records], Elite Dangerous Community Developers, commit 0db9234b5b9c, accessed 24 September 2026.</ref>
 
 == Overview ==
 
-Beam Lasers draw heavily on the ship's weapon capacitor and generate significant heat during sustained fire, but that continuous beam makes them easy to keep on target and effective at wearing down shields over time. Like all lasers, they have unlimited ammunition — thermal weapons draw on the ship's Power Distributor rather than a physical magazine — which makes heat and power management, not reloading, the main limiting factor.
+Beam Lasers apply a continuous stream of thermal damage rather than the individual shots fired by a [[Pulse Laser]] or [[Burst Laser]]. Their sustained output is effective against shields, but the accompanying distributor draw and thermal load limit how long the beam can remain active. They consume no ammunition, so power distribution and heat management replace magazine capacity as the primary endurance constraints.
 
 == Engineering ==
 
+The conventional Beam Laser blueprint families are '''Efficient''', '''Lightweight''', '''Long Range''', '''Overcharged''', '''Short Range''', and '''Sturdy'''. Compatible secondary modifications are covered separately under [[Experimental Effects]].<ref name="inara-efficient">[https://inara.cz/elite/blueprint/170/ Beam Laser — Efficient blueprint], INARA, accessed 24 September 2026.</ref>
+
+Three Engineers provide Beam Laser Engineering:
+
 {| class="wikitable"
-! Engineer !! Maximum grade
+! Engineer
+! Maximum conventional grade
 |-
-| [[Broo Tarquin]] || Grade 5
+| [[Broo Tarquin]]
+| Grade 5<ref name="inara-broo">[https://inara.cz/elite/engineer/15/ Broo Tarquin — Engineer], INARA, accessed 24 September 2026.</ref>
 |-
-| [[The Dweller]] || Grade 3
+| [[The Dweller]]
+| Grade 3<ref name="inara-dweller">[https://inara.cz/elite/engineer/4/ The Dweller — Engineer], INARA, accessed 24 September 2026.</ref>
+|-
+| [[Mel Brandon]]
+| Grade 5<ref name="inara-mel">[https://inara.cz/elite/engineer/22/ Mel Brandon — Engineer], INARA, accessed 24 September 2026.</ref>
 |}
 
-Broo Tarquin's laser Engineering is his primary specialty, reaching Grade 5 across all three laser types.
+=== Live-only blueprints ===
 
-=== Related Engineering Guides ===
-{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+The Operations-era Live branch adds two Beam Laser blueprints that are not part of Legacy Engineering.<ref name="frontier-operations">[https://www.elitedangerous.com/news/updates/4-4-0-0 Elite Dangerous: Operations — Available Now], Frontier Developments, 30 June 2026. Accessed 24 September 2026.</ref><ref name="inara-overloaded">[https://inara.cz/elite/blueprint/226/ Beam Laser — Overloaded blueprint], INARA, accessed 24 September 2026.</ref>
+
+{| class="wikitable"
+! Blueprint
+! The Dweller
+! Broo Tarquin
+! Mel Brandon
+! Restriction or cost
+|-
+| Overloaded
+| Grades 2–3
+| Grades 2–5
+| Grades 2–5
+| Compatible Merc modules only; recipes use Merc Coins<ref name="inara-overloaded" />
+|-
+| Plasma Conversion
+| Grades 1–3
+| Grades 1–5
+| Grades 1–5
+| Recipes use Merc Coins<ref name="inara-plasma">[https://inara.cz/elite/blueprint/203/ Beam Laser — Plasma Conversion blueprint], INARA, accessed 24 September 2026.</ref>
+|}
+
+Overloaded is a separate blueprint from conventional Overcharged Engineering. Plasma Conversion changes part of the weapon's damage from thermal to plasma while increasing power draw; exact modifiers and recipes vary by grade and belong to the individual blueprint records.<ref name="inara-overloaded" /><ref name="inara-plasma" />
+
+== Acquisition ==
+
+Standard Beam Laser variants are purchased through Outfitting. Available sizes, mounts, ratings, prices, and stock depend on the station and game branch.<ref name="edcd-beam" />
+
+== Related pages ==
+
+* [[Engineering]]
+* [[Engineering Blueprints]]
+* [[Experimental Effects]]
+* [[Thermal Vent]]
+* [[Pulse Laser]]
+* [[Burst Laser]]
+
+== References ==
+
+<references />
 
 {{Engineering nav}}
 

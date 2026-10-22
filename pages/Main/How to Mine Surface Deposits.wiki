@@ -3,49 +3,72 @@ EDFM current-content archive export.
 Title: How to Mine Surface Deposits
 Namespace: 0
 Page ID: 709
-Revision ID: 1669
-Timestamp: 2026-08-23T23:59:47Z
+Revision ID: 4333
+Timestamp: 2026-09-15T14:12:00Z
 Source URL: https://edfieldmanual.com/wiki/How_to_Mine_Surface_Deposits
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Procedure draft based on current mining workflow and EDFM mining data modules|uncertainty=Commodity-specific deposit behavior still needs direct Live-game verification.}}
-__NOINDEX__
-{{Field procedure|summary=Break surface deposits from asteroids with an abrasion blaster and collect the resulting materials or commodities.}}
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1.1; standard Abrasion Blaster mechanics also apply to Legacy
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Frontier's Beyond Chapter Four mining documentation, current module documentation, and established community mining references
+ |uncertainty=Frontier has not published a current commodity-by-commodity deposit table or exact deposit-yield rules.
+}}
+{{Field procedure|summary=Target exposed deposits on an asteroid, dislodge them with an abrasion blaster, and recover the released fragments.}}
 
-Use this procedure for [[Surface Deposit Mining|surface deposit mining]], including the post-detonation cleanup stage of [[Core Mining|core mining]].
+Use this procedure for [[Surface Deposit Mining|surface deposit mining]] on intact asteroids and for the exposed deposits left after a successful [[Core Mining|core detonation]]. An [[Abrasion Blaster]] dislodges the selected deposit; collection, refining, and cargo storage remain separate parts of the mining loop.<ref name="frontier-recap">[https://forums.frontier.co.uk/threads/content-recap-beyond-chapter-four-livestream-mining-and-squadrons.454587/ Content Recap: Beyond — Chapter Four Livestream — Mining and Squadrons], Frontier Developments, 1 November 2018. Accessed 15 September 2026.</ref><ref name="abrasion">[https://elite-dangerous.fandom.com/wiki/Abrasion_Blaster Abrasion Blaster], Elite Dangerous Wiki. Accessed 15 September 2026.</ref>
 
-{{Draft warning}}
+This procedure concerns deposits on asteroids. Planetary [[Surface Mining]] with the [[Rhino]] is a separate activity.
 
-== Required equipment ==
+== Before you start ==
 
-* [[Abrasion Blaster]]
-* [[Collector Limpet Controller]]
-* [[Refinery]]
-* Limpets and cargo space
-* Optional: [[Prospector Limpet Controller]] and [[Pulse Wave Analyser]] when searching for suitable asteroids
+=== Required equipment ===
+
+* A powered Abrasion Blaster assigned to a fire group.
+* A [[Refinery]] and free [[Cargo Rack|cargo capacity]].
+* A [[Collector Limpet Controller]] and limpets, unless every fragment will be recovered manually through the cargo scoop.
+
+A [[Prospector Limpet Controller]] identifies asteroid contents and reveals named deposit targets. A [[Pulse Wave Analyser]] can help locate asteroids with unusual deposits, but it does not identify the commodity or extract the deposit.<ref name="frontier-recap" />
+
+When following a core detonation, complete the blast and retreat sequence on [[How to Core Mine]] before returning to the cracked asteroid. Wait until the shockwave has passed, then approach the moving sections cautiously.
 
 == Procedure ==
 
 {{Procedure steps|
-# Identify an asteroid with visible surface deposits, or inspect a cracked core asteroid after detonation.
-# Target a visible deposit.
-# Fire the abrasion blaster until the deposit breaks free.
-# Keep collector limpets active so the released material is recovered.
-# Check the refinery and cargo hold before moving to the next deposit.
-# Repeat until no useful deposits remain or the run plan changes.
+# Attach a prospector limpet to the asteroid and inspect the result. Continue only when it identifies a useful '''Surface Deposit'''.
+# Select the individual deposit. On a cracked core asteroid, cycle through targets and inspect the newly exposed interior faces as well as the loose fragments.
+# Deploy hardpoints, switch to '''Analysis Mode''', and select the fire group containing the abrasion blaster.<ref name="abrasion" />
+# Manoeuvre within the blaster's range with a clear line from the fitted hardpoint to the deposit. Account for asteroid rotation and the hardpoint's offset from the cockpit sight line.
+# Place the reticle on the deposit and fire an abrasion pulse. Confirm that the pulse strikes the deposit itself and dislodges a collectable fragment.
+# If autonomous collectors are not already active, deselect the fragment before launching them so they remain in repeated-collection mode. Keep the cargo hatch and the collectors' route clear.
+# Allow the fragment to reach the refinery. Confirm that its named commodity enters a matching or empty bin and that completed tonnes can move into cargo.
+# Reposition around the asteroid and repeat for every wanted surface deposit. Stop firing whenever a collector crosses the line of fire.<ref name="mechanics">[https://edmining.com/elite-dangerous-mining-mechanics/ Elite Dangerous Mining Mechanics], ED Mining. Accessed 15 September 2026.</ref>
 }}
 
 == Completion check ==
 
-The asteroid is complete when useful visible deposits have been dislodged and collected, or when the remaining deposits are not worth the time, cargo, or refinery space for the run.
+The asteroid is complete when every wanted surface deposit has been dislodged, the released fragments have been recovered, and no wanted material remains blocked in the refinery.
+
+A deposit that has already detached is no longer an abrasion target. Do not keep shooting the rock after the fragment is free; monitor collectors and refinery progress instead.
+
+== Core-mining recovery ==
+
+A split core asteroid can expose surface deposits on several independently moving sections. Recover loose fragments first when convenient, then circle the debris field and target each wanted deposit in turn. Maintain a clear path beneath the cargo hatch so collectors do not repeatedly collide with the cracked sections.
+
+The abrasion blaster is used only after the seismic-charge stage. It does not improve the detonation yield or replace the charge-placement procedure.
 
 == Common problems ==
 
-* '''Deposit will not break free:''' confirm that the visible deposit is targeted and that the abrasion blaster is hitting it directly.
-* '''Collectors keep dying:''' back away from jagged asteroid surfaces and avoid dragging limpets through rock.
-* '''Cargo does not appear:''' check refinery bins; fragments may still be processing or blocked.
-* '''No visible deposits after a core blast:''' inspect the cracked pieces before leaving, but do not assume every angle has a recoverable target.
+* '''The deposit cannot be targeted:''' make sure an active prospector has revealed a '''Surface Deposit'''. Fissures and sub-surface deposits require different tools.
+* '''The pulse hits nearby rock:''' reduce relative motion and reposition so the physical hardpoint has a clear path; the cockpit reticle alone does not guarantee clearance.
+* '''The blaster does not fire:''' check Analysis Mode, the active fire group, module power, hardpoint deployment, and the WEP capacitor.
+* '''The fragment is not collected:''' check cargo-hatch status, collector range and lifetime, the ignore list, refinery capacity, and free cargo space.
+* '''Collectors repeatedly collide with the asteroid:''' move to give them an unobstructed route between the fragment and the cargo hatch.
+* '''The refinery fills with unwanted material:''' use [[How to Ignore Unwanted Mining Commodities]] for future collections or [[How to Resolve a Full Refinery]] for an existing blockage.
 
 == Related Reference Pages ==
 {{#invoke:Procedures|referenceLinks|procedure=How to Mine Surface Deposits}}
@@ -53,4 +76,9 @@ The asteroid is complete when useful visible deposits have been dislodged and co
 == Related Field Procedures ==
 {{#invoke:Procedures|list|page=How to Mine Surface Deposits}}
 
+== Sources ==
+
+<references />
+
+[[Category:Field Procedures]]
 [[Category:Mining]]

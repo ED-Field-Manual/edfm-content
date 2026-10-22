@@ -3,19 +3,20 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Advanced Docking Computer
 Namespace: 828
 Page ID: 443
-Revision ID: 2228
-Timestamp: 2026-08-25T14:13:54Z
+Revision ID: 4149
+Timestamp: 2026-09-14T04:12:12Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Advanced_Docking_Computer
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Advanced Docking Computer",
+	image = "Advanced_docking_computer.png",
 	module_class = "Flight-assist module",
 	slot_type = "Optional internal",
-	mount = "",
+	mount = "Not applicable",
 	manufacturer = "",
-	availability = "",
-	engineering = "",
-	related_modules = "[[Docking Computer]], [[Standard Docking Computer]], [[Supercruise Assist]]",
+	availability = "Purchased for credits through Outfitting; fitted by default to newly purchased small ships",
+	engineering = "Cannot be engineered",
+	related_modules = "Standard Docking Computer<br>Supercruise Assist",
 }

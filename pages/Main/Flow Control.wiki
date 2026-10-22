@@ -3,15 +3,93 @@ EDFM current-content archive export.
 Title: Flow Control
 Namespace: 0
 Page ID: 669
-Revision ID: 1562
-Timestamp: 2026-08-23T18:07:33Z
+Revision ID: 4074
+Timestamp: 2026-09-13T13:47:46Z
 Source URL: https://edfieldmanual.com/wiki/Flow_Control
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|A ship Engineering experimental-effect reference for Flow Control, including compatible modules, power-draw effects, and Engineer availability.}}
+{{Article header|deck=An Experimental Effect that reduces a compatible module's power draw by 10%.}}
 
-'''Flow Control''' is a ship Engineering experimental effect. This planned reference will explain its power-draw role, compatible module groups, and how it compares with other experimental choices.
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy Engineering
+ |reviewer=Sythan
+ |reviewed=2026-09-13
+ |source_quality=Current INARA Engineering records cross-checked against maintained community references
+ |uncertainty=Compatibility is limited to supported conventional modules and weapons; special, experimental, and mining hardpoints may not accept the effect.
+}}
+
+'''Flow Control''' is a ship [[Experimental Effects|Experimental Effect]] that reduces the receiving module's power draw by '''10%'''. It can create a small amount of headroom in a tight power budget without changing the module's mass.<ref name="inara-effects">[https://inara.cz/elite/experimentaleffects/ INARA: Experimental effects], accessed 13 September 2026.</ref>
+
+== Effect ==
+
+Flow Control applies:
+
+* '''Power draw:''' -10%
+
+The reduction affects power supplied by the [[Power Plant]]. On a weapon, it does not reduce WEP-capacitor distributor draw, heat per shot, reload time, or ammunition use.
+
+Because the percentage applies only to the modified module, the actual power saved depends on that module's existing draw. Fitting Flow Control to a high-draw module saves more power than applying it to a module that uses very little.
+
+== Compatible modules ==
+
+Flow Control is available for:
+
+* [[Power Distributor|Power Distributors]];
+* [[Shield Booster|Shield Boosters]];
+* [[Shield Cell Bank|Shield Cell Banks]];
+* conventional Engineer-compatible weapons, including lasers, multi-cannons, cannons, fragment cannons, plasma accelerators, rail guns, missiles, torpedoes, and mines.
+
+Experimental weapons and mining tools do not normally accept the effect.<ref name="fandom-flow">[https://elite-dangerous.fandom.com/wiki/Flow_Control Elite Dangerous Wiki: Flow Control], accessed 13 September 2026.</ref>
+
+Flow Control can be installed by an [[Engineers|Engineer]] whose workshop supports Engineering for the receiving module type. Experimental Effects must be applied at an Engineer workshop and cannot be pinned for [[Remote Engineering]].
+
+== Materials ==
+
+The material recipe depends on the receiving module family:
+
+{| class="wikitable"
+! Module family
+! Required materials
+|-
+| Power Distributor
+| 5 Phosphorus; 3 Heat Resistant Ceramics; 1 Conductive Polymers
+|-
+| Shield Booster
+| 5 Inconsistent Shield Soak Analysis; 3 Security Firmware Patch; 3 Focus Crystals; 3 Niobium
+|-
+| Shield Cell Bank
+| 5 Chemical Storage Units; 3 Chromium; 1 Conductive Polymers
+|-
+| Weapon
+| 5 Mechanical Scrap; 3 Hybrid Capacitors; 1 Modified Embedded Firmware
+|}
+
+The materials are consumed once when the effect is applied. Replacing Flow Control with another Experimental Effect consumes the new effect's materials.
+
+== When to use it ==
+
+Flow Control is useful when a build is only slightly above its available power or when a Commander wants to preserve a lower-emission or better-protected Power Plant instead of moving to a higher-output configuration. Several individually small savings can add up when the effect is placed on multiple high-draw modules.
+
+It is not a substitute for a deliberate power-priority plan. Modules assigned to lower priorities will still shut down when deployed power demand exceeds output, and a 10% reduction on a low-draw module may be too small to change that result.
+
+Flow Control competes with direct performance effects. Weapons may gain more from damage, ammunition, or thermal effects; defensive modules may favour shield or integrity effects; and lightweight builds may prefer [[Stripped Down]]. Use Flow Control where its measured power saving enables the intended loadout.
+
+== See also ==
+
+* [[Experimental Effects]]
+* [[Engineering]]
+* [[Engineers]]
+* [[Power Plant]]
+* [[Power Distributor]]
+* [[Stripped Down]]
+* [[Double Braced]]
+
+== Sources ==
+
+<references />
 
 [[Category:Engineering]]
 [[Category:Experimental Effects]]

@@ -3,12 +3,86 @@ EDFM current-content archive export.
 Title: Unlocking Eleanor Bresa
 Namespace: 0
 Page ID: 656
-Revision ID: 1598
-Timestamp: 2026-08-23T19:22:45Z
+Revision ID: 4130
+Timestamp: 2026-09-14T02:51:18Z
 Source URL: https://edfieldmanual.com/wiki/Unlocking_Eleanor_Bresa
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|Planned unlock guide for Eleanor Bresa, covering unlock prerequisites, invite steps, required items or reputation, and verification notes for commanders once source-backed details are added.}}
+{{Article header|deck=Visit five distinct Odyssey settlements in the Colonia system to gain access to Eleanor Bresa.}}
 
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Current Odyssey Engineering
+ |reviewer=Sythan
+ |reviewed=2026-09-14
+ |source_quality=Current INARA access requirements corroborated by the maintained Elite Dangerous Wiki reference
+ |uncertainty=Frontier does not document the exact event that registers a settlement visit; docking and disembarking at each distinct settlement is the conservative method.
+}}
+
+This Field Procedure covers the steps required to unlock [[Eleanor Bresa]]. For her workshop, modification roster, and referral relationship with [[Yi Shen]], see the Engineer reference page.
+
+== Objective ==
+
+Gain access to Eleanor Bresa's Odyssey Engineering services at '''Bresa Modifications''' in '''Desy'''.
+
+== Prerequisites ==
+
+{{Prerequisites|
+* '''Game mode:''' Live with Odyssey on-foot content available.
+* '''Region:''' Reach the [[Colonia]] region.
+* '''Discovery:''' Eleanor is common knowledge; no Engineer referral is required.
+* '''Unlock target:''' Visit five distinct Odyssey settlements in the '''Colonia system'''.
+}}
+
+The requirement refers to the star system named '''Colonia''', not to any five settlements elsewhere in the wider Colonia region.<ref name="inara">[https://inara.cz/elite/engineer/38/ INARA: Eleanor Bresa], accessed 14 September 2026.</ref>
+
+== Procedure ==
+
+{{Procedure steps|
+# Plot a route to the '''Colonia''' star system.
+# Open the system map or navigation panel and identify five distinct surface settlements in that system.
+# Travel to the first settlement and request docking permission.
+# Dock, disembark, and enter the settlement area so the visit can register.
+# Repeat the docking and disembarkation process at four other settlements in the Colonia system.
+# Check the Engineers panel after the fifth distinct visit.
+# If access has not appeared, return to the main menu and begin a new session; INARA notes that services may not update immediately after the requirement is completed.<ref name="inara" />
+# Travel to '''Bresa Modifications''' in the '''Desy''' system and confirm that Eleanor's workshop services are available.
+}}
+
+An Apex Interstellar shuttle can be used for the settlement circuit when routes are available. Using distinct settlements is important; repeated arrivals at the same site should not be relied upon to advance the count.
+
+== Expected result ==
+
+{{Expected result|[[Eleanor Bresa]] is unlocked and her suit and handheld-weapon modification services are available at Bresa Modifications.}}
+
+No commodity, material donation, rank, faction reputation, or additional workshop payment is required for Eleanor's initial unlock.<ref name="wiki">[https://elite-dangerous.fandom.com/wiki/Eleanor_Bresa Elite Dangerous Wiki: Eleanor Bresa], accessed 14 September 2026.</ref>
+
+== Troubleshooting ==
+
+;The counter does not advance
+:Confirm that every site is inside the '''Colonia''' system, that each settlement is distinct, and that the Commander docked and disembarked rather than only flying nearby.
+
+;The fifth visit is complete but the workshop is unavailable
+:Begin a new game session, then recheck the Engineers panel before travelling to Desy.
+
+;Eleanor is unlocked but Yi Shen is not
+:Yi has a separate three-part referral. After unlocking Eleanor, provide her with 10 Digital Designs and also complete the referral tasks from [[Baltanos]] and [[Rosa Dayette]]. See [[Unlocking Yi Shen]].
+
+== Related pages ==
+
+* [[Eleanor Bresa]] — location, services, and reference details
+* [[Unlocking Yi Shen]] — the three Colonia referral tasks
+* [[Engineer Unlock Guide]] — wider unlock order
+* [[Odyssey Engineering]] — suit and handheld-weapon upgrade mechanics
+* [[Colonia]] — regional travel and service context
+
+== Sources ==
+
+<references />
+
+[[Category:Field Procedures]]
 [[Category:Engineers]]
+[[Category:Engineering]]
+[[Category:Odyssey Engineering]]

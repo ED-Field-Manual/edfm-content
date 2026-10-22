@@ -3,15 +3,15 @@ EDFM current-content archive export.
 Title: Broo Tarquin
 Namespace: 0
 Page ID: 100
-Revision ID: 3865
-Timestamp: 2026-09-11T15:49:57Z
+Revision ID: 5171
+Timestamp: 2026-09-24T15:18:03Z
 Source URL: https://edfieldmanual.com/wiki/Broo_Tarquin
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 {{Article status
  |status=Partially verified
- |mode=Live and Legacy
+ |mode=Both
  |version=Elite Dangerous 4.4.1.1
  |reviewed=2026-09-11
  |reviewer=Sythan

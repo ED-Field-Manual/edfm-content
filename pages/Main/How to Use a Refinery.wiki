@@ -3,51 +3,96 @@ EDFM current-content archive export.
 Title: How to Use a Refinery
 Namespace: 0
 Page ID: 712
-Revision ID: 1640
-Timestamp: 2026-08-23T23:51:56Z
+Revision ID: 4377
+Timestamp: 2026-09-16T01:36:17Z
 Source URL: https://edfieldmanual.com/wiki/How_to_Use_a_Refinery
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-23|reviewer=Sythan|source_quality=Procedure draft based on current mining workflow and EDFM mining data modules|uncertainty=Exact UI labels and edge-case refinery behavior need direct Live-game verification.}}
-{{Field procedure|summary=Turn collected fragments into cargo by managing refinery bins and transferring completed tonnes into the cargo hold.}}
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1.1; ship-refinery mechanics also apply to Legacy
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Current in-game module description supported by established community documentation
+ |uncertainty=Panel labels and rare transfer delays can vary between Live, Legacy and platform layouts.
+}}
+{{Field procedure|summary=Process mined commodity fragments into whole tonnes while keeping refinery bins and cargo capacity available.}}
 
-Use this procedure when collected fragments are not becoming cargo, the refinery is filling with unwanted resources, or a mining run needs a clean refinery workflow.
+A ship [[Refinery|refinery]] separates the commodity components in collected asteroid fragments. Each component accumulates in a bin assigned to that commodity. At 100%, the refinery creates one tonne and transfers it to free cargo capacity.<ref name="refinery">[https://elite-dangerous.fandom.com/wiki/Refinery Refinery], ''Elite Dangerous Wiki''. Accessed 16 September 2026.</ref>
 
-{{Draft warning}}
+This procedure covers normal operation during a mining run. Module classes, ratings, bin counts and Engineering belong to [[Refinery]]. Use [[How to Resolve a Full Refinery]] when processing has already stopped.
 
-== Required equipment ==
+== Before you start ==
 
-* [[Refinery]]
-* Cargo space
-* Collectible mining fragments or chunks
+* Fit and power one refinery. A larger bin count allows more partial commodities to be held at the same time; it does not make individual fragments process faster.
+* Fit at least one [[Cargo Rack]] and leave capacity for completed tonnes. Limpets also occupy cargo space until launched.
+* Carry a collection method. [[Collector Limpet Controller|Collector limpets]] are the normal choice for repeated mining fragments, although fragments can also be scooped manually.
+* Decide which commodities the run should keep before extraction begins.
+
+Raw Engineering materials do not enter the refinery. They transfer to dedicated material storage and do not consume a bin or cargo-rack space.
 
 == Procedure ==
 
 {{Procedure steps|
-# Confirm the refinery is installed, powered, and not disabled by module priorities.
-# Confirm the cargo hold has free space for completed tonnes.
-# Let collector limpets deliver fragments to the refinery.
-# Watch refinery bins as each resource percentage rises toward a full tonne.
-# If a bin contains an unwanted resource, vent or clear that bin before it blocks preferred fragments.
-# If collectors keep bringing unwanted fragments, add that commodity to the ignore workflow for the run.
-# When a tonne completes, confirm it transfers into cargo and frees refinery space.
+# Confirm the refinery and cargo hatch are powered and that the cargo hold has room for at least one completed tonne.
+# Extract the wanted resource with the mining method appropriate to the deposit.
+# Open the cargo scoop and retrieve the released fragments. If using autonomous collectors, launch them without targeting a collectable object.
+# Open the refinery display in the ship's right-hand panel and watch the incoming components enter matching or empty bins.
+# Let later fragments add progress to each matching bin. A mixed fragment can advance more than one commodity bin.
+# When a bin reaches 100%, confirm that one tonne appears in cargo and any progress beyond 100% remains toward the next tonne.<ref name="refinery" />
+# Continue collecting while monitoring bin occupancy, cargo capacity and unwanted resources.
+# Before leaving the site, allow collectors to deliver the remaining wanted fragments and confirm that no useful incoming resource is blocked.
 }}
+
+Processing is automatic when a matching or empty bin and a valid destination are available. The percentage shown in a bin is progress toward one tonne, not an amount that can be sold before completion.
+
+== Managing bins ==
+
+Each bin holds only one commodity at a time. Partially filled bins remain assigned until their commodity completes or the bin is vented. A run targeting many resources therefore needs more bins than a single-commodity run.<ref name="refinery" />
+
+* Use [[How to Ignore Unwanted Mining Commodities]] before collectors retrieve low-priority fragments. Ignoring future contacts does not clear a bin already in use.
+* Vent a partial bin only after confirming that its progress is not wanted. Venting destroys that accumulated material.
+* If all bins are occupied and an incoming fragment contains a different commodity, either free a low-priority bin, discard the obstructing incoming resource or stop collecting that resource.
+* If a mixed fragment contains both wanted and unwanted components, keep enough bin capacity for the wanted component before allowing collection to continue.
+
+== Cargo interaction ==
+
+A completed tonne must move into a cargo rack before its bin can resume normal use. If the cargo hold is full, a 100% bin remains occupied until at least one tonne of cargo capacity becomes available.<ref name="refinery" />
+
+Consumed limpets normally create cargo space during a run. Do not assume that this will always keep pace with refining, especially when few collectors are used or fragments contain high concentrations.
 
 == Completion check ==
 
-The refinery is working when useful fragments are increasing bin percentages, completed tonnes are moving into cargo, and unwanted bins are not blocking the desired commodity.
+The refinery path is healthy when:
+
+* wanted fragments increase the expected bin percentages;
+* each completed bin transfers a tonne into cargo;
+* incoming fragments are not waiting for a matching or empty bin; and
+* collectors can deliver without holding fragments beneath the cargo hatch.
 
 == Common problems ==
 
-* '''Refinery full:''' clear unwanted bins or free cargo space.
-* '''Cargo full:''' sell, transfer, abandon, or make space before more tonnes can complete.
-* '''Wrong fragments keep arriving:''' see [[How to Ignore Unwanted Mining Commodities]].
+* '''A completed bin remains at 100%:''' the cargo hold has no free one-tonne slot, or the refinery is not powered. Free cargo capacity and recheck the module state.
+* '''All bins are occupied:''' vent the least useful partial bin only if losing that progress is acceptable, or stop collecting the new resource.
+* '''Collectors wait beneath the ship:''' confirm the scoop and cargo hatch state, then inspect cargo capacity, refinery bins and the incoming resource. Continue with [[How to Resolve a Full Refinery]].
+* '''Unwanted bins keep returning:''' add the named resource to the contact ignore list with [[How to Ignore Unwanted Mining Commodities]].
+* '''A raw material does not appear in a bin:''' this is normal. Engineering materials bypass the refinery and enter material storage.
+* '''Collected canisters bypass the refinery:''' ordinary cargo canisters already contain whole cargo and go directly to cargo racks when eligible.
+* '''The refinery shows no progress:''' verify that the collected object is a mined commodity fragment, the module is powered and a matching or empty bin is available.
 
-== Related Reference Pages ==
-{{#invoke:Procedures|referenceLinks|procedure=How to Use a Refinery}}
+== Related procedures ==
 
-== Related Field Procedures ==
-{{#invoke:Procedures|list|page=How to Use a Refinery}}
+* [[How to Start Mining]]
+* [[How to Use Collector Limpets]]
+* [[How to Ignore Unwanted Mining Commodities]]
+* [[How to Resolve a Full Refinery]]
+* [[How to Laser Mine]]
 
+== Sources ==
+
+<references />
+
+[[Category:Field Procedures]]
 [[Category:Mining]]

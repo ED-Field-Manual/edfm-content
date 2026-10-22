@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:EDFM policy commitments
 Namespace: 10
 Page ID: 621
-Revision ID: 3633
-Timestamp: 2026-09-09T20:27:47Z
+Revision ID: 5797
+Timestamp: 2026-10-01T11:36:45Z
 Source URL: https://edfieldmanual.com/wiki/Template:EDFM_policy_commitments
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -18,10 +18,11 @@ This is current wikitext only; no revision history, user database, logs, deleted
 * '''Age:''' EDFM is not intended for children under 13. If you are under 13, do not create an account or provide personal information.
 * '''Contribution license:''' Unless a page clearly says otherwise, original text submitted to EDFM is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). Frontier-owned game material, third-party material, trademarks, personal information, EDFM software/infrastructure, and EDFM branding are not relicensed by that text license.
 * '''Personal data and advertising:''' EDFM does not sell personal information and does not share personal information for behavioural advertising. EDFM does not use advertising cookies, cross-site marketing cookies, remarketing, enhanced conversions, Google Ads audiences, AdSense, Meta Pixel, session replay, or ad-personalisation features. Optional Google Analytics is used only after Analytics consent on eligible public pages and is excluded from sensitive account, authentication, Frontier OAuth, and profile pages.
+* '''Commander Journal and missed searches:''' Commander Journal synchronization is optional and Private by default. It stores synchronized activity plus sharing and token metadata, with owner controls for export and deletion; operational token/audit records and backups may remain as described in the [[Elite Dangerous Field Manual:Privacy Policy#Commander Journal and Companion synchronization|Privacy Policy]]. Separately, failed MediaWiki “Go” search text, miss counts, and last-seen timestamps are stored server-side for editorial use regardless of optional Analytics consent; see [[Elite Dangerous Field Manual:Privacy Policy#Missed search queries|Missed search queries]].
 * '''Account removal and public history:''' If account removal is requested, EDFM's normal approach is to disable or rename the account where appropriate while preserving public edits, file history, logs, and other records needed for attribution, licensing, moderation, security, legal compliance, and wiki integrity.
 * '''Logs and backups:''' Operational logs are intended to rotate at about 60 days unless longer retention is temporarily needed for abuse, security, outages, or legal reasons. EDFM takes daily backups; removed or changed data may remain in already-created backups until those backups expire under the backup schedule.
 * '''Cookies and consent:''' Necessary cookies/storage support login, security, account creation, preferences, and cookie-choice handling. Optional Analytics/site-improvement cookies are controlled through Cookie Preferences. Rejecting optional cookies should not prevent ordinary reading.
-* '''Frontier login and CAPI:''' Normal Frontier sign-in is for account login/linking only and requests <code>auth</code>, not Companion API (<code>capi</code>) access. Commander-name verification is a separate optional Preferences action; choosing '''Attach CMDR Name''' requests <code>auth capi</code>, reads the Commander name once, and keeps that Commander name private by default unless the user later enables public display.
+* '''Frontier login and CAPI:''' Normal Frontier sign-in is for account login/linking only and requests <code>auth</code>, not Companion API (<code>capi</code>) access. Commander-name verification is a separate optional Preferences action; choosing '''Attach CMDR Name''' requests <code>auth capi</code>, reads the Commander name once, and keeps that Commander name private. A separate optional preference can display a Verified Commander badge beside links to the EDFM username; it does not publish the Commander name.
 * '''Discord login:''' Discord sign-in/linking is intentionally available as an optional account provider. It uses Discord OAuth/OpenID Connect with <code>openid</code>, <code>identify</code>, and <code>email</code> scopes for login/linking only; Discord's own policies/cookies apply on Discord-controlled pages.
 </div></includeonly><noinclude>
 Reusable public-policy quick-reference block for EDFM policy, legal, privacy, cookie, and contributing pages. Keep this template aligned with the actual runtime configuration and public policy pages.

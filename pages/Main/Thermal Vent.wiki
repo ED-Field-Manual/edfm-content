@@ -3,53 +3,158 @@ EDFM current-content archive export.
 Title: Thermal Vent
 Namespace: 0
 Page ID: 102
-Revision ID: 2039
-Timestamp: 2026-08-24T21:24:21Z
+Revision ID: 5070
+Timestamp: 2026-09-23T13:57:56Z
 Source URL: https://edfieldmanual.com/wiki/Thermal_Vent
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=To be added: a one-line summary of what this Experimental Effect does.}}
-{{Article status|status=Draft|mode=Both}}
+{{Article header|deck=A Beam Laser Experimental Effect that cools the firing ship while the beam remains on a target.}}
 
-{{Draft warning}}
-This is a demonstration page showing the Experimental Effect page structure — see [[Elite Dangerous Field Manual:Engineering Architecture]]. No effect, compatibility, or requirement data has been verified yet.
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy Engineering; Operations-era Blueprints are Live-only
+ |reviewed=2026-09-23
+ |reviewer=Sythan
+ |source_quality=Official 3.0 patch notes, current INARA Engineering records, maintained community mechanics references, and specialist anti-xeno guidance
+ |uncertainty=Frontier has not documented whether the in-game increased-heat-on-miss warning matches current Live behaviour; equivalent Legacy miss behaviour is not established by the cited testing.
+}}
 
-== What It Does ==
-Engineering data to be added.
+{{Infobox
+ | name = Thermal Vent
+ | label1 = Type
+ | row1 = [[Experimental Effects|Experimental Effect]]
+ | label2 = Module
+ | row2 = [[Beam Laser]]
+ | label3 = Compatibility
+ | row3 = All Beam Laser Engineering blueprints
+ | label4 = Version
+ | row4 = Live and Legacy
+ | label5 = Material cost
+ | row5 = 5 × Flawed Focus Crystals; 3 × Conductive Polymers; 3 × Precipitated Alloys
+}}
 
-== Advantages ==
-Engineering data to be added.
+'''Thermal Vent''' is a weapon [[Experimental Effects|Experimental Effect]] for engineered [[Beam Laser|Beam Lasers]]. While the beam is striking a valid target, the weapon reduces the firing ship's heat instead of adding its normal thermal load. The effect can drive the ship below the 20% heat level used for low-temperature anti-xeno tactics, but only while the laser keeps firing and remains on target.<ref name="thermal-vent-edwiki">[https://elite-dangerous.fandom.com/wiki/Thermal_Vent Thermal Vent], ''Elite Dangerous Wiki''; current mechanics, compatible module family, material recipe, and reported post-Odyssey behaviour. Retrieved 23 September 2026.</ref><ref name="axi-lasers">[https://wiki.antixenoinitiative.com/en/lasers Lasers], Anti-Xeno Initiative; practical Thermal Vent behaviour and limitations in anti-xeno combat. Retrieved 23 September 2026.</ref>
 
-== Disadvantages / Tradeoffs ==
-Engineering data to be added.
+{{Callout
+ | type = tip
+ | label = Quick answer
+ |1=Apply Thermal Vent to an engineered Beam Laser at an Engineer workshop. Keep the beam on a target to cool the ship. The effect does not reduce weapon-capacitor draw and does not add heat or damage to the target.
+}}
 
-== Compatible Modules ==
-Engineering data to be added. See [[Multi-Cannon]] for an example of how a module page cross-references back to this one.
+== Effect ==
 
-== Compatible Blueprints ==
-Engineering data to be added. See [[Overcharged]] for an example blueprint page.
+Thermal Vent reverses the Beam Laser's heat contribution while the beam is connecting with a target. A hotter-running beam produces more cooling, while a lower-heat beam produces less. Damage falloff also weakens the cooling effect, so range and blueprint choice both matter.<ref name="thermal-vent-edwiki" />
 
-== Engineers Offering It ==
+The effect changes the firing ship's heat management. It does not increase the laser's damage, transfer the removed heat to the target, or duplicate the target-heating behaviour of Thermal Shock or the [[Retributor Beam Laser]].
+
+Frontier doubled Thermal Vent's effectiveness in the 3.0 Engineering rework and removed its former 25% increase to the weapon's baseline heat.<ref name="beyond-30">[https://forums.frontier.co.uk/threads/elite-dangerous-beyond-chapter-one-3-0.409060/ Elite Dangerous: Beyond — Chapter One 3.0 patch notes], Frontier Developments; Engineering and Thermal Vent changes. Published 27 February 2018. Retrieved 23 September 2026.</ref>
+
+=== Behaviour while missing ===
+
+The in-game description still warns of increased heat generation when the beam misses. Maintained community testing reports that current Odyssey builds do not generate more heat on a miss than an equivalent Beam Laser without Thermal Vent.<ref name="thermal-vent-edwiki" /> Frontier has not documented that later discrepancy. Commanders should therefore treat an exact miss penalty as unconfirmed rather than planning around the description alone.
+
+== Applying Thermal Vent ==
+
+A Beam Laser must first have an [[Engineering]] blueprint of any grade. Thermal Vent is then applied as a one-time modification at an Engineer workshop; it is not available through Remote Engineering. A weapon can carry only one Experimental Effect at a time.<ref name="experimental-effect">[https://elite-dangerous.fandom.com/wiki/Experimental_Effect Experimental Effect], ''Elite Dangerous Wiki''; application rules and workshop restriction. Retrieved 10 September 2026.</ref>
+
+The material cost is the same regardless of the weapon's class, mount or blueprint:
+
 {| class="wikitable"
-! Engineer !! Notes
+! Material
+! Quantity
 |-
-| colspan="2" | Engineering data to be added.
+| Flawed Focus Crystals
+| 5
+|-
+| Conductive Polymers
+| 3
+|-
+| Precipitated Alloys
+| 3
 |}
 
-== Engineering Requirements ==
-Engineering data to be added.
+The current INARA Engineering record lists the same recipe and identifies Thermal Vent as a Beam Laser effect.<ref name="inara-effects">[https://inara.cz/elite/experimentaleffects/ Engineering — Experimental Effects], INARA; current compatibility, modifier summary, and material cost. Retrieved 23 September 2026.</ref>
 
-== Recommended Uses ==
-Editorial guidance to be added once this effect's behaviour is verified.
+=== Compatible blueprints ===
 
-== Related Effects ==
-Engineering data to be added.
+Thermal Vent can be added after any compatible Beam Laser blueprint:
 
-== Related Guides ==
-{{Related articles|[[Engineering]] [[Experimental Effects]]}}
+{| class="wikitable"
+! Availability
+! Beam Laser blueprints
+|-
+| Live and Legacy
+| Efficient, Lightweight, Long Range, Overcharged, Short Range, and Sturdy
+|-
+| Live
+| Overloaded and Plasma Conversion
+|}
+
+Overloaded and Plasma Conversion are Operations-era additions to Live. Their current Engineering records include Thermal Vent among the available effects.<ref name="inara-overloaded">[https://inara.cz/elite/blueprint/226/ Beam Laser — Overloaded blueprint], INARA; Live compatibility and Engineer availability. Retrieved 11 September 2026.</ref><ref name="inara-plasma">[https://inara.cz/elite/blueprint/203/ Beam Laser — Plasma Conversion blueprint], INARA; Live compatibility and Engineer availability. Retrieved 11 September 2026.</ref>
+
+Compatible Beam Laser variants, including the Retributor Beam Laser, use the same one-effect limit.
+
+=== Engineer availability ===
+
+Any unlocked Engineer who offers Beam Laser Engineering can apply Thermal Vent. The grades below are the maximum Beam Laser blueprint grades offered at each workshop; Thermal Vent itself has no grades.
+
+{| class="wikitable sortable"
+! Engineer
+! Region
+! Maximum Beam Laser grade
+|-
+| [[The Dweller]]
+| Core Systems
+| Grade 3
+|-
+| [[Broo Tarquin]]
+| Core Systems
+| Grade 5
+|-
+| [[Mel Brandon]]
+| Colonia
+| Grade 5
+|}
+
+INARA's current Beam Laser records list all three workshops. Mel Brandon also provides the Live-only Overloaded and Plasma Conversion blueprints.<ref name="inara-efficient">[https://inara.cz/elite/blueprint/170/ Beam Laser — Efficient blueprint], INARA; Beam Laser Engineer availability and Thermal Vent compatibility. Retrieved 23 September 2026.</ref><ref name="inara-overloaded" /><ref name="inara-plasma" />
+
+== Blueprint interactions ==
+
+The useful cooling rate follows the Beam Laser's thermal load and effective range:
+
+* '''Long Range''' removes damage falloff within the engineered range, allowing useful cooling at distances where an ordinary beam has already lost much of its effect. This is the usual anti-xeno pairing.
+* '''Efficient''' lowers the beam's thermal load, so it also lowers the amount of heat Thermal Vent can remove. The reduced distributor draw may still support longer firing time.
+* '''Overcharged''' and '''Short Range''' raise thermal load and can produce stronger cooling inside their effective range, but they retain their ordinary power, distributor or range trade-offs.
+
+A gimballed Beam Laser is easier to hold on a moving target and has a higher thermal load than the equivalent fixed mount, giving it a stronger cooling effect. Fixed beams keep their normal lower distributor draw and are still effective when the pilot can maintain contact.<ref name="axi-lasers" />
+
+== Anti-xeno use ==
+
+Thermal Vent Beam Lasers are commonly used to cool a ship while approaching or orbiting a Thargoid Interceptor. Staying below 20% heat makes the ship harder for an Interceptor to track with its main cannon when the usual cold-orbiting conditions are met. Long Range Weapon is useful because it lets the laser begin cooling beyond the Interceptor's three-kilometre engagement distance.<ref name="axi-lasers" />
+
+The beam still draws from the weapon capacitor and occupies a hardpoint. During an attack run, firing anti-xeno weapons may interrupt the cooling beam or create more heat than it can remove. Thermal Vent therefore supplements heat sinks and sound thermal design; it does not replace them in every phase of a fight.<ref name="axi-lasers" />
+
+== Limits ==
+
+* Cooling stops when the beam stops firing or loses contact with a valid target.
+* Cooling weakens inside the weapon's damage-falloff region unless Long Range Weapon removes that falloff.
+* Thermal Vent does not reduce distributor draw, power draw or the laser's ordinary fitting requirements.
+* The effect provides no cooling target when nothing suitable is in the beam's line of fire.
+* A Beam Laser fitted with Thermal Vent cannot carry another Experimental Effect at the same time.
+
+== Live and Legacy ==
+
+Thermal Vent and its 3.0 mechanics are available in both Live and Legacy. Overloaded and Plasma Conversion are Live-only Beam Laser blueprints. Reports that the warning about increased miss heat no longer matches observed behaviour refer to current Odyssey builds; equivalent Legacy behaviour has not been established by the cited current testing.
+
+== References ==
+
+<references />
 
 {{Engineering nav}}
+
+{{Related articles|[[Beam Laser]] [[Retributor Beam Laser]] [[Engineering]] [[Experimental Effects]]}}
 
 [[Category:Experimental Effects]]
 [[Category:Engineering]]

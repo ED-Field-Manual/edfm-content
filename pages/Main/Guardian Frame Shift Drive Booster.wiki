@@ -3,22 +3,93 @@ EDFM current-content archive export.
 Title: Guardian Frame Shift Drive Booster
 Namespace: 0
 Page ID: 502
-Revision ID: 2156
-Timestamp: 2026-08-24T23:44:17Z
+Revision ID: 4283
+Timestamp: 2026-09-15T04:06:57Z
 Source URL: https://edfieldmanual.com/wiki/Guardian_Frame_Shift_Drive_Booster
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Guardian Frame Shift Drive Booster ship module.
+{{Article header|deck=A Guardian-human optional module that adds a fixed bonus to a ship's hyperspace jump range.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy specifications; Anti-Guardian Zone Resistance is Live
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=The module's origin is supported by Frontier; specifications and unlock requirements are cross-checked against current community module records.
+ |uncertainty=Outfitting stock and prices vary with station services and discounts.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Guardian Frame Shift Drive Booster''', also called the '''Frame Shift Drive Booster''' and commonly shortened to '''Guardian FSD Booster''', is an H-rated optional internal module derived from Guardian technology. While powered, it adds a fixed distance bonus to the jump range produced by the ship's [[Frame Shift Drive]].<ref name="guardian-fsd">[https://elite-dangerous.fandom.com/wiki/Guardian_Frame_Shift_Drive_Booster Guardian Frame Shift Drive Booster], Elite Dangerous Wiki, accessed 2026-09-15.</ref>
 
-== Overview ==
+The booster is separate from the FSD itself. It does not replace the core drive, and FSD [[Engineering]] still applies normally. Only one FSD Booster can be installed on a ship, and it requires an unrestricted optional internal compartment.<ref name="roguey-fsd">[https://roguey.co.uk/elite-dangerous/equipment/internal/guardian-fsd-booster/ Guardian FSD Booster], Roguey.</ref>
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Classes and jump boost ==
+
+{| class="wikitable sortable"
+! Class
+! Rating
+! Mass
+! Integrity
+! Power draw
+! Listed jump boost
+|-
+| 1 || H || 1.3 t || 32 || 0.75 MW || 4.00 ly
+|-
+| 2 || H || 1.3 t || 32 || 0.98 MW || 6.00 ly
+|-
+| 3 || H || 1.3 t || 32 || 1.27 MW || 7.75 ly
+|-
+| 4 || H || 1.3 t || 32 || 1.65 MW || 9.25 ly
+|-
+| 5 || H || 1.3 t || 32 || 2.14 MW || 10.50 ly
+|}
+
+The jump, mass and power figures are consistent across current module records.<ref name="edsm-fsd-booster">[https://www.edsm.net/en/faq/outfitting/index/id/4/name/Core+Internal/sub/Guardian+FSD+Booster Guardian FSD Booster], EDSM.</ref> The listed boost is added to the range calculated for the fitted FSD. Because the booster itself adds 1.3 tonnes to the ship, the gain compared with the same ship before installation can be slightly less than the nominal figure.
+
+A larger booster uses more power but does not add more mass. When a ship has a suitable compartment and power budget, the class 5 module therefore gives the largest range increase without a mass penalty over the smaller versions.
+
+The booster must remain powered for its range bonus to apply.
+
+== Unlock and acquisition ==
+
+Ram Tah's Guardian-human booster entered circulation through Technology Brokers in April 3304.<ref name="galnet-intro">Frontier Developments, [https://community.elitedangerous.com/en/galnet/uid/5ac6393b5f314a6a0f15ca55 New Designs from Technology Brokers], 7 April 2018.</ref>
+
+The permanent Guardian Technology Broker unlock requires:<ref name="guardian-fsd" />
+
+* 1 Guardian Module Blueprint Fragment;
+* 21 Guardian Power Cells;
+* 21 Guardian Technology Components;
+* 24 Focus Crystals; and
+* 8 HN Shock Mounts.
+
+This is a one-time unlock for the module family, not a material cost paid for every booster. Once unlocked, all five classes can be purchased repeatedly for credits through Outfitting where stocked.
+
+== Range behavior and limitations ==
+
+The current booster increases distance travelled per jump without the separate fuel-use multiplier associated with its brief original 2018 release. The problematic first implementation was withdrawn and the module was later reintroduced with revised range bonuses and the fuel-consumption factor removed.<ref name="guardian-fsd" />
+
+The booster does not increase fuel-tank capacity, FSD maximum fuel per jump, fuel-scoop rate, or supercruise performance. Its effect is limited to hyperspace range.
+
+The module cannot use a Military Compartment or another restricted compartment that excludes ordinary travel modules. A class 5 booster can be fitted in a compartment larger than class 5, but its own jump bonus remains 10.5 light years.
+
+== Engineering ==
+
+Guardian FSD Boosters accept no conventional FSD blueprints or Experimental Effects. In the Live game, [[Ram Tah]] can apply the single-grade '''Anti-Guardian Zone Resistance''' modification. Frontier extended this resistance to all Guardian modules without a performance penalty in update 18.07.<ref name="update-1807">Frontier Developments, [https://www.elitedangerous.com/update-notes/4-0-18-07 Elite Dangerous 18.07 Update Notes], 7 August 2024.</ref>
+
+The modification provides full resistance to the anti-Guardian fields used by some Thargoid environments.<ref name="inara-agzr">[https://inara.cz/elite/blueprint/186/ Guardian FSD Booster — Anti-Guardian Zone Resistance], INARA.</ref> It does not add jump range and has no counterpart in Legacy.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Frame Shift Drive]] [[Exploration]] [[Engineering]] [[Ram Tah]]}}
+
+{{Engineering nav}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Engineering]]

@@ -3,12 +3,27 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Modified Guardian Shard Cannon
 Namespace: 828
 Page ID: 539
-Revision ID: 1326
-Timestamp: 2026-08-21T00:00:02Z
+Revision ID: 4407
+Timestamp: 2026-09-16T04:17:22Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Modified_Guardian_Shard_Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Modified Guardian Shard Cannon",
+	module_class = "Guardian anti-xeno weapon",
+	slot_type = "Hardpoint",
+	mount = "Fixed Class 1D or 2A",
+	manufacturer = "Azimuth Biotech (Salvation design)",
+	availability = "Material barter at Prospect's Deep in Mbooni",
+	unlock = "Mbooni permit and per-module material payment",
+	engineering = "Pre-engineered Long Range and Focused package with a penetrator effect; ordinary Engineering and Anti-Guardian Zone Resistance are not supported",
+	mode = "Live and Legacy",
+	description = "A tightly grouped, long-range version of the Guardian Shard Cannon with faster projectiles and improved armour piercing.",
+	related = {
+		"Guardian Shard Cannon",
+		"Modified Guardian Gauss Cannon",
+		"Modified Guardian Plasma Charger",
+		"Thargoid"
+	}
 }

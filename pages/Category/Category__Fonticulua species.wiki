@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Fonticulua species
+Namespace: 14
+Page ID: 916
+Revision ID: 5860
+Timestamp: 2026-10-02T04:14:41Z
+Source URL: https://edfieldmanual.com/wiki/Category:Fonticulua_species
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Biological species in the Fonticulua group.
+
+[[Category:Biological species]]

@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: Mission Basics
+Namespace: 0
+Page ID: 977
+Revision ID: 6134
+Timestamp: 2026-10-04T15:56:35Z
+Source URL: https://edfieldmanual.com/wiki/Mission_Basics
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+#REDIRECT [[Reading a Mission]]

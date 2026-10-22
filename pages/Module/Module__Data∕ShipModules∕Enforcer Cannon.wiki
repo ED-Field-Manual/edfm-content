@@ -3,12 +3,20 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Enforcer Cannon
 Namespace: 828
 Page ID: 476
-Revision ID: 1263
-Timestamp: 2026-08-20T23:59:16Z
+Revision ID: 4248
+Timestamp: 2026-09-15T01:46:18Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Enforcer_Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Enforcer Cannon",
+	module_class = "Kinetic hardpoint weapon",
+	slot_type = "Weapon hardpoint",
+	mount = "Class 1F, fixed",
+	manufacturer = "",
+	availability = "Powerplay loyalty-rank reward",
+	engineering = "Multi-Cannon blueprints and Experimental Effects",
+	related = "Multi-Cannon<br>Powerplay<br>Combat",
+	notes = "Fires heavier kinetic rounds at a lower rate of fire with longer damage falloff and maximum range."
 }

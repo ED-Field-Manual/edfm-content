@@ -3,22 +3,56 @@ EDFM current-content archive export.
 Title: Engineer Capability Comparison
 Namespace: 0
 Page ID: 177
-Revision ID: 1907
-Timestamp: 2026-08-24T21:21:16Z
+Revision ID: 4257
+Timestamp: 2026-09-15T02:30:28Z
 Source URL: https://edfieldmanual.com/wiki/Engineer_Capability_Comparison
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=A structured-data proof of concept comparing what each Engineer offers and what it takes to reach them, side by side.}}
-{{Article status|status=Draft|mode=Both|version=Content architecture phase, 2026-08-07|reviewed=2026-08-07|reviewer=Structural backfill from already-published Engineer pages, not new research|source_quality=Every value here is copied from the corresponding Engineer's own already-sourced article — see that article's Sources section for citations|uncertainty=Only 4 of the site's 38 Engineers currently have a canonical data record; the rest aren't compared here yet}}
+{{Article header|deck=Side-by-side reference for ship Engineers, their module specialities, referral relationships, and workshop unlock requirements.}}
 
-{{Draft warning}}
-This comparison is a working proof of concept for EDFM's structured-data system, not yet complete. It draws from the same [[Module:Data/Engineers/index|Module:Data/Engineers]] records as [[List of Engineers]] and each Engineer's own infobox — generated live, not hand-copied, so it can't silently drift out of sync with the source pages.
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4; Legacy differences are documented on individual Engineer pages
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Generated from EDFM's canonical Engineer records, which are sourced and verified on the individual Engineer articles
+ |uncertainty=The table summarises module families rather than every blueprint-specific grade ceiling introduced in later Live updates.
+}}
 
-== Comparison ==
+The '''Engineer Capability Comparison''' places all 25 ship Engineers in one table. It is intended for comparing module coverage, referral dependencies, and initial workshop unlock requirements without repeating the full details from each Engineer's own article.
+
+Engineers specialise in particular module families and may offer different maximum grades. Frontier introduced this system as a network of specialist workshops whose modifications require introductions, trust, and Engineering materials.<ref name="frontier-engineers">[https://community.elitedangerous.com/en/theengineersbetadate The Engineers Beta Release Date and Elite Dangerous 1.6], Frontier Developments, accessed 2026-09-15.</ref>
+
+== How to use the comparison ==
+
+* '''Specialities''' lists the module families each Engineer works on. Use the Engineer's own page for exact grade ceilings and blueprint-specific Live differences.
+* '''Prerequisite Engineer''' shows direct referral relationships. A referral does not bypass the new Engineer's separate meeting or unlock conditions.
+* '''Unlock requirement''' shows the final workshop payment, delivery, voucher hand-in, or other access task. Discovery and meeting requirements remain on the individual Engineer page.
+
+The table is generated from the same canonical records used by the [[Engineers]] directory and individual Engineer infoboxes. Changes to those records therefore update this comparison without copying the values into article prose.
+
+{{Important|Newer Live blueprint families can have their own Engineer lists and grade ceilings. Treat this as a module-family comparison; check the individual Engineer or blueprint article before travelling for a specific modification.}}
+
+== Ship Engineer comparison ==
 {{#invoke:Engineers|comparison}}
 
-{{Related articles|[[List of Engineers]] [[Engineers]] [[Engineer Unlock Guide]]}}
+== Odyssey Engineers ==
+Odyssey Engineers modify suits and handheld weapons rather than ship modules, and their modifications do not use the ship blueprint Grade 1–5 progression. They are therefore kept out of the ship-module table above. See [[Engineers#Odyssey Engineers|Odyssey Engineers]] and [[Odyssey Engineer Modifications]] for the Live-only roster and modification directory.
+
+== Sources ==
+<references />
+
+{{Engineering nav}}
+
+{{Related articles
+ |[[Engineers]]
+ |[[Engineering]]
+ |[[Engineering Blueprints]]
+ |[[Engineer Unlock Guide]]
+ |[[Odyssey Engineer Modifications]]
+}}
 
 [[Category:Comparisons]]
 [[Category:Engineers]]

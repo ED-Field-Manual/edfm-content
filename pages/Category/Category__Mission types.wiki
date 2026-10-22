@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Mission types
+Namespace: 14
+Page ID: 958
+Revision ID: 6113
+Timestamp: 2026-10-04T15:55:22Z
+Source URL: https://edfieldmanual.com/wiki/Category:Mission_types
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Reference articles for individual mission types and closely related mission families.
+
+[[Category:Missions]]

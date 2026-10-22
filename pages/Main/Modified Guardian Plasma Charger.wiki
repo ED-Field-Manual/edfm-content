@@ -3,22 +3,146 @@ EDFM current-content archive export.
 Title: Modified Guardian Plasma Charger
 Namespace: 0
 Page ID: 538
-Revision ID: 2171
-Timestamp: 2026-08-24T23:44:36Z
+Revision ID: 5190
+Timestamp: 2026-09-24T15:19:07Z
 Source URL: https://edfieldmanual.com/wiki/Modified_Guardian_Plasma_Charger
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Modified Guardian Plasma Charger ship module.
+{{Article header|deck=Salvation's pre-engineered Guardian Plasma Charger, combining much faster projectiles with increased damage and armour piercing.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
 }}
 
-{{Ship module infobox}}
+{{Ship module infobox
+ |module_class=Guardian anti-xeno weapon
+ |slot_type=Hardpoint
+ |mount=Fixed Class 1D or 2B
+ |manufacturer=Azimuth Biotech (Salvation design)
+ |availability=Material barter at Prospect's Deep in Mbooni
+ |unlock=Mbooni permit and per-module material payment
+ |engineering=Pre-engineered Overcharged and Focused package; no further Engineering
+}}
 
-{{Draft warning}}
+The '''Modified Guardian Plasma Charger''' is a fixed Guardian weapon developed from Salvation's work for Azimuth Biotech. It applies an unusual pre-engineered combination of Overcharged and Focused modifications to the [[Guardian Plasma Charger]], producing considerably faster projectiles, greater damage, and higher armour piercing.<ref name="edcd">[https://raw.githubusercontent.com/EDCD/coriolis-data/d0f20ca17805588d77c1978fff99a01280dc2d22/modules/hardpoints/guardian_plasma_charger.json EDCD Coriolis Data: Guardian Plasma Charger data], revision d0f20ca, accessed 16 September 2026.</ref><ref name="axi">[https://wiki.antixenoinitiative.com/en/weapons Anti-Xeno Initiative Wiki: Weapons], last edited 18 June 2026, accessed 16 September 2026.</ref>
 
-== Overview ==
+Only fixed Class 1D and Class 2B versions are available. This is a distinct pre-engineered module rather than an Engineering blueprint that commanders can apply to an ordinary Guardian Plasma Charger.
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Operation ==
 
-[[Category:Modules]]
-[[Category:Ship modules]]
+The firing control charges one plasma projectile before release. Holding the trigger increases the shot's damage and distributor cost up to the full charge reached after approximately 1.8 seconds. A charged shot can be held while the commander waits for a firing opportunity.
+
+Modified chargers retain the standard weapon's 1-kilometre damage-falloff start, but the Focused package raises projectile speed to approximately 6,000 metres per second and improves armour piercing. This makes leading a moving target substantially easier than with the ordinary charger's 1,200-metre-per-second projectile.<ref name="community-test">[https://forums.frontier.co.uk/threads/i-tested-the-new-modified-guardian-plasma-chargers-in-a-high-cz.592715/ Frontier Forums: I Tested the New Modified Guardian Plasma Chargers in a High CZ], 30 September 2021, accessed 16 September 2026.</ref>
+
+The weapon deals Guardian plasma damage useful against both human and Thargoid vessels. Its strongest anti-xeno role is rapidly dealing hull damage and exerting an Interceptor heart. Splash damage and the charged projectile's aiming requirements make precise heart shots less reliable than with a [[Guardian Gauss Cannon]], particularly if a near miss causes the heart to retract or the Interceptor to raise another shield.<ref name="axi" />
+
+== Specifications ==
+
+{| class="wikitable"
+! Specification
+! Class 1D
+! Class 2B
+|-
+! Mount
+| Fixed
+| Fixed
+|-
+! Mass
+| 2 t
+| 4 t
+|-
+! Integrity
+| 34
+| 42
+|-
+! Armour piercing
+| 89
+| 110
+|-
+! Charge time
+| 1.8 s
+| 1.8 s
+|-
+! Projectile speed
+| 6,000 m/s
+| 6,000 m/s
+|-
+! Damage falloff starts
+| 1,000 m
+| 1,000 m
+|-
+! Ammunition per clip
+| 20
+| 20
+|-
+! Maximum ammunition
+| 200
+| 200
+|-
+! Reload time
+| 3 s
+| 3 s
+|}
+
+The Class 2 version is the stronger anti-xeno option. Community testing measured roughly 78 MJ from a fully charged Class 2 shot, compared with about 45 MJ for the ordinary fixed Class 2 charger at the time of testing.<ref name="community-test" /> Multiple chargers can deliver severe burst damage, but fully charging them imposes high power-distributor demand; a ship must be built and flown around that demand rather than judged only by the delay between releases.
+
+Each Modified Guardian Plasma Charger occupies one slot under the ship's experimental-weapon limit. Weapon stabilisers can raise that limit, although power and distributor capacity usually determine how many chargers can be used effectively.<ref name="axi" />
+
+== Acquisition ==
+
+Modified Guardian Plasma Chargers are material-barter purchases from the Guardian Technology Broker at Prospect's Deep in the permit-locked Mbooni system. Azimuth Biotech established Prospect's Deep as the replacement supplier for modified Guardian weapons after Bright Sentinel was destroyed.<ref name="supplier">[https://www.elitedangerous.com/news/galnet/successful-mining-campaign-sustains-azimuth Elite Dangerous: Successful Mining Campaign Sustains Azimuth], 10 November 2022, accessed 16 September 2026.</ref>
+
+The transaction supplies one module. It does not permanently unlock the weapon for credit purchases, so every additional charger requires another material payment.<ref name="broker">[https://inara.cz/elite/techbroker/ INARA: Technology broker], accessed 16 September 2026.</ref>
+
+{| class="wikitable"
+! Class 1D
+! Quantity
+! Class 2B
+! Quantity
+|-
+| Guardian Weapon Blueprint Fragment
+| 1
+| Guardian Weapon Blueprint Fragment
+| 1
+|-
+| Guardian Power Cell
+| 3
+| Guardian Power Conduit
+| 5
+|-
+| Guardian Sentinel Weapon Parts
+| 3
+| Guardian Sentinel Weapon Parts
+| 5
+|-
+| Guardian Technology Component
+| 4
+| Arsenic
+| 4
+|-
+| Arsenic
+| 2
+| Power Transfer Bus
+| 2
+|}
+
+Access to Mbooni requires the system permit associated with Azimuth Biotech. Commanders who do not yet have access must earn that permit before travelling to Prospect's Deep.<ref name="axi" />
+
+== Engineering and anti-Guardian fields ==
+
+The supplied Overcharged and Focused package cannot be replaced with another ordinary weapon blueprint or restored after removal. It also prevents application of Anti-Guardian Zone Resistance. The modified charger therefore takes damage in an anti-Guardian field even though ordinary Guardian weapons can now receive that resistance modification.<ref name="axi" /><ref name="agzr">[https://www.elitedangerous.com/update-notes/4-0-18-07 Elite Dangerous Update 18.07 notes], 7 August 2024, accessed 16 September 2026.</ref>
+
+This limitation matters around Thargoid vessels and locations that project anti-Guardian fields. For those encounters, a resistant standard Guardian weapon or a human anti-xeno weapon may be more dependable.
+
+== See also ==
+
+* [[Guardian Plasma Charger]]
+* [[Modified Guardian Gauss Cannon]]
+* [[Modified Guardian Shard Cannon]]
+* [[Thargoid]]
+
+[[Category:Ship weapons]]
+[[Category:Guardian technology]]
+[[Category:Anti-xeno equipment]]

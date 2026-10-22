@@ -1,0 +1,19 @@
+<!--
+EDFM current-content archive export.
+Title: Template:Exobiology species infobox
+Namespace: 10
+Page ID: 856
+Revision ID: 5542
+Timestamp: 2026-09-28T23:53:50Z
+Source URL: https://edfieldmanual.com/wiki/Template:Exobiology_species_infobox
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{#invoke:Exobiology|infobox|title={{{title|{{PAGENAME}}}}}}}<noinclude>
+Thin wrapper for the canonical Exobiology species infobox rendered by [[Module:Exobiology]].
+
+== Usage ==
+<pre>{{Exobiology species infobox}}</pre>
+
+[[Category:Templates]]
+</noinclude>

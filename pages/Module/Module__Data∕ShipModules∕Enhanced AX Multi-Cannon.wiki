@@ -3,12 +3,22 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Enhanced AX Multi-Cannon
 Namespace: 828
 Page ID: 480
-Revision ID: 1267
-Timestamp: 2026-08-20T23:59:19Z
+Revision ID: 4262
+Timestamp: 2026-09-15T02:40:51Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Enhanced_AX_Multi-Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Enhanced AX Multi-Cannon",
+	module_class = "Human anti-xeno projectile weapon",
+	slot_type = "Hardpoint",
+	mount = "Classes 2–3; fixed, gimballed, and turreted",
+	manufacturer = "Aegis",
+	availability = "Live only; standard Enhanced versions are purchased for credits from Rescue Megaship Outfitting",
+	tech_broker = "Not required for standard Enhanced versions; Azimuth-modified versions use a per-module exchange",
+	engineering = "Not compatible with conventional Engineering",
+	powerplay = "",
+	related_modules = "[[AX Multi-Cannon]]<br>[[Enhanced AX Missile Rack]]<br>[[Enhanced Xeno Scanner]]<br>Experimental Weapon Stabiliser",
+	notes = "Fires 4,000 m/s Anti-Xeno projectiles and counts toward the experimental-weapon limit."
 }

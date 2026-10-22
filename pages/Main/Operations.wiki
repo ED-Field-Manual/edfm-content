@@ -3,16 +3,163 @@ EDFM current-content archive export.
 Title: Operations
 Namespace: 0
 Page ID: 61
-Revision ID: 925
-Timestamp: 2026-08-18T13:17:41Z
+Revision ID: 6132
+Timestamp: 2026-10-04T15:56:28Z
 Source URL: https://edfieldmanual.com/wiki/Operations
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes}}
+{{Article header|deck=Multi-stage, squad-focused scenarios launched through a dedicated docked-ship interface.}}
 
-Index for larger multi-step activities (expeditions, fleet carrier operations, community goals) — see [[:Category:Operations]].
+{{Article status
+| status = Partially verified
+| mode = Live
+| version = Current Live through update 4.4.1.1
+| reviewed = 2026-10-04
+| reviewer = Sythan
+| source_quality = Access, scenarios, modes, redeployment, and rewards are documented in Frontier's 2026 release notes and developer logs.
+| uncertainty = Operations remains a live-service feature with balance and networking adjustments. Scenario availability and rewards can change.
+}}
 
-No individual operations articles exist yet.
+'''Operations''' are multi-stage, instanced scenarios introduced to the Live game in update 4.4.0.0 on 30 June 2026. They combine ship and on-foot objectives, squad formation, matchmaking, an Operation Runner deployment vessel, selectable difficulty, and a dedicated reward system.<ref name="operations4400">[https://www.elitedangerous.com/news/updates/4-4-0-0 Elite Dangerous: Operations – Available Now], Frontier Developments, 30 June 2026.</ref>
 
-{{Related articles|[[Field Procedures]] [[Colonisation]] [[Powerplay]]}}
+Operations are not ordinary [[Missions|Mission Board missions]]. They also should not be confused with older references to an Odyssey Mission Board '''Operations''' category or the generic use of ''operation'' for a multi-step activity.
+
+{| class="wikitable"
+! Field
+! Information
+|-
+| Availability
+| Elite Dangerous Live with the Odyssey expansion
+|-
+| Start point
+| Ship panel while docked at a Starport, Outpost, Fleet Carrier, Squadron Carrier, or market-enabled Planetport
+|-
+| Group size
+| One to four commanders; designs and recommendations emphasise cooperative play
+|-
+| Matchmaking
+| Available to fill open positions
+|-
+| Difficulty
+| Easy or Hard
+|-
+| Gameplay
+| Ship, on-foot, or mixed depending on the scenario
+|-
+| Main rewards
+| Credits, materials, Merc Coins, and Merits in eligible Powerplay Mode runs
+|-
+| Deployment
+| Operation Runner and operation-specific instances
+|}
+
+== Starting an Operation ==
+
+# Dock at an eligible market location.
+# Open the Operations interface from the ship panel.
+# Select a scenario, difficulty, and mode.
+# Form a squad or use optional matchmaking.
+# Select the ship required for the run before launch.
+# Ready up and deploy aboard the Operation Runner.
+
+A commander can start alone, but Frontier describes Operations as team-focused and recommends strong equipment for solo attempts. NPCs do not fill squad positions; a squad contains up to four players.<ref name="junelog">[https://www.elitedangerous.com/news/elite-dangerous-june-dev-log-2026 Elite Dangerous: June Dev Log 2026], Frontier Developments, 19 June 2026.</ref>
+
+Ships cannot be changed after an Operation begins. Suits can be changed by returning to the commander's ship during a suitable stage.<ref name="junelog" />
+
+== Operation Runner and redeployment ==
+
+The '''Operation Runner''' carries the squad to the scenario and acts as its central deployment point. Operations use bespoke isolated instances selected for the scenario.
+
+When defeated:
+
+* ship stages return the commander to the Operation Runner or the last operation-specific dock;
+* on-foot stages return the commander to the ship for redeployment;
+* redeploying during the Operation has no ordinary death penalty under the feature's rules.<ref name="operations4400" />
+
+Before entry, the game temporarily stores the commander's existing bounties, fines, and bonds to prevent repeated deaths or scenario failure from applying unintended losses.<ref name="operations4400" />
+
+== Modes ==
+
+=== Mercenary Mode ===
+
+Mercenary Mode is the standard form. It has no Powerplay effect and is available to commanders who meet the selected scenario's requirements.
+
+=== Powerplay Mode ===
+
+Powerplay Mode allows an eligible squad to undermine a selected Power. The squad cannot target a Power represented by one of its members. Unaligned commanders can participate but do not earn Merits.<ref name="operations4400" />
+
+Powerplay eligibility and the target Power should be checked before launch; ordinary Operation rewards and Powerplay consequences are separate decisions.
+
+== Scenarios ==
+
+Six Operations launched with update 4.4.0.0:<ref name="operations4400" />
+
+* '''Terminal Prosecution''' — clear a criminal force through combat stages.
+* '''Tactical Takedown''' — board a compromised megaship, obtain intelligence, and pursue the responsible commander.
+* '''Firestorm Rescue''' — break a siege and evacuate hostages from a burning station while managing heat and attackers.
+* '''Rapid Response''' — evacuate a planetary port before a larger hostile fleet arrives.
+* '''Reclamation Point''' — clear hostile forces in and around a hijacked megaship.
+* '''Biohazard Takedown''' — assault a research operation, identify responsible researchers, and eliminate the threat.
+
+'''Under Siege''' was added for all players on 2 September 2026. It responds to a planetary-settlement distress call, combining ship combat to break a blockade with on-foot combat to retake the facility and a later ship threat.<ref name="auglog">[https://www.elitedangerous.com/news/elite-dangerous-august-dev-log-2026 Elite Dangerous: August Dev Log 2026], Frontier Developments, 27 August 2026.</ref>
+
+Scenario names and individual stage details should be taken from the current interface because Operations is still receiving new content and balance updates.
+
+== Difficulty and preparation ==
+
+Easy and Hard use the same broad scenario concept but differ in opposition and reward value. Frontier's launch recommendations range from A-rated ships with little or no Engineering for some Easy scenarios to fully engineered ships and Grade 4–5 on-foot equipment for Hard variants.<ref name="operations4400" />
+
+Before launch, agree on:
+
+* ship roles and engineering;
+* suit and weapon loadouts;
+* rescue or evacuation capacity where required;
+* who handles scanning, boarding, or objective interactions;
+* target priorities and regroup points;
+* whether the run uses Mercenary or Powerplay Mode.
+
+The recommended player count varies by scenario, commonly two to four or three to four. A solo run is possible but is a challenge choice rather than the baseline design.<ref name="junelog" />
+
+== Rewards ==
+
+Completing an Operation can award:
+
+* credits;
+* materials;
+* '''Merc Coins''';
+* Merits from eligible Powerplay Mode runs.
+
+Hard difficulty provides greater reward value, while the selected Operation is the main factor determining the reward pool.<ref name="junelog" />
+
+Merc Coins are not redeemed at one dedicated Merc Store. They are spent through existing vendors at relevant locations. Launch rewards include base-level ship modules through Outfitting and blueprints through Engineers; eligible equipment can then be upgraded through the appropriate Engineer.<ref name="operations4400" />
+
+See [[Merc Coin]] for the current acquisition and vendor details.
+
+== Failure and restart behaviour ==
+
+Operations are staged activities rather than contracts that end at the first death. Redeployment returns the commander to the scenario as described above. A stage can still fail through its own objective, timer, or scenario conditions, and the squad should follow the current objective panel rather than assuming unlimited recovery makes every state reversible.
+
+Update 4.4.0.3 corrected reward-screen and objective-tracking problems, while 4.4.1.0 and 4.4.1.1 continued Operations fixes. These updates reinforce that older launch-day reports may not describe current behaviour.<ref name="update4403">[https://www.elitedangerous.com/update-notes/4-4-0-3 Elite Dangerous 4.4.0.3 Update Notes], Frontier Developments, 9 July 2026.</ref>
+
+== Relationship to missions and BGS ==
+
+Operations use their own access, deployment, modes, objectives, and rewards. They should not be placed under a normal mission-type page merely because each scenario contains mission-like stages.
+
+Mercenary Mode has no Powerplay consequences according to Frontier. Powerplay Mode has explicit undermining and Merit rules. Frontier's published Operations material does not establish ordinary minor-faction influence effects equivalent to Mission Board INF rewards; do not claim such BGS effects without current journal or in-game evidence.
+
+== Related Field Manual entries ==
+
+* [[Merc Coin]]
+* [[Missions]]
+* [[Odyssey Missions]]
+* [[Powerplay]]
+* [[Engineering]]
+* Team and squad play
+
+== References ==
+
+<references />
+
+[[Category:Operations]]
+[[Category:Missions]]

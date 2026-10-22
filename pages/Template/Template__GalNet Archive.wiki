@@ -3,14 +3,80 @@ EDFM current-content archive export.
 Title: Template:GalNet Archive
 Namespace: 10
 Page ID: 736
-Revision ID: 4049
-Timestamp: 2026-09-13T07:00:02Z
+Revision ID: 7484
+Timestamp: 2026-10-22T14:40:02Z
 Source URL: https://edfieldmanual.com/wiki/Template:GalNet_Archive
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 <noinclude>This template is generated automatically by the EDFM GalNet updater. Manual edits will be replaced.</noinclude><includeonly><div class="edfm-galnet-panel edfm-galnet-panel-archive">
 <div class="edfm-galnet-archive-list">
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">22 OCT 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ad8d7de16c2b3e9d00e2d13 Faulcon DeLacy Plans Anaconda Mk II Field Trials]</div>
+<div class="edfm-galnet-summary">A quadruple-focus initiative has been launched aiming to test the improved capabilities of the recently announced Anaconda Mk II. To help celebrate the release of the new ship, Faulcon DeLacy has partnered with several organisations to track various ship performance data for comparison with the Anaconda Mk II. Independent pilots are…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6ad8d7de16c2b3e9d00e2d13 Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">20 OCT 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ad646dc0512eccb7b067f64 Faulcon DeLacy Announces Anaconda Mk II]</div>
+<div class="edfm-galnet-summary">Faulcon DeLacy has announced the first major revision of the Anaconda ship model since its introduction in 2856. Expanding on its predecessor’s multi-purpose capabilities, the Anaconda Mk II prioritises exceptional versatility and was described as “one of our finest large ships” by Chief of Design Frank Endis: “We took the opportunity…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6ad646dc0512eccb7b067f64 Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">15 OCT 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ad0940d0869dac50b014566 Brewer Corp Jump Satellite Initiative Hailed a Success]</div>
+<div class="edfm-galnet-summary">Independent pilots rallied to provide Brewer Corp with the necessary commodities to release its new 'jump satellites' on schedule. The hardware - a highly modified version of the nav beacon - emits a signal which fleet carrier computers can target, avoiding bottlenecks in systems where no planetary bodies are present. "We're extremely…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6ad0940d0869dac50b014566 Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">13 OCT 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6acdfb9fb8ed93e42e052ad2 Three Prisoners Missing Following Recent Breakout]</div>
+<div class="edfm-galnet-summary">The Independent Detention Foundation has confirmed that three maximum security prisoners evaded recapture following the breakout in Redonesses. Despite system authority attempts to elicit information from the Clan of Redonesses faction, the whereabouts of the three fugitives remains unclear. A spokesperson for The Independent Detention…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6acdfb9fb8ed93e42e052ad2 Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">08 OCT 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ac76bd25a08fecdfd02ad64 Brewer Corporation’s Carrier Jump Satellite Plans]</div>
+<div class="edfm-galnet-summary">Brewer Corporation is manufacturing what it calls 'jump satellites' to enable more fleet carriers to target a system with no planetary bodies. Under existing circumstances, only one fleet carrier can remain stationary in a system of this type, preventing other carriers from targeting and continuing their journey. "It's especially…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6ac76bd25a08fecdfd02ad64 Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">08 OCT 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ac76a86aaee74001a0b2e73 Prison Ship Break Subdued in Redonesses]</div>
+<div class="edfm-galnet-summary">The Independent Detention Foundation has thanked independent pilots who protected convict recovery efforts in the Redonesses system. EVE-597 is back under Foundation control and all convicts on board been secured. Local system security also reported that the vast majority of escaped prisoners had been recovered and returned to custody…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6ac76a86aaee74001a0b2e73 Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">01 OCT 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6abbbcb7ab11b969530fc317 Mass Prison Breakout Reported at EVE-597 Reformatory]</div>
+<div class="edfm-galnet-summary">The Independent Detention Foundation had admitted a significant breakout attempt took place aboard prison ship EVE-597. A large number of prisoners have left the Riker-class reformatory via escape pods during the breakout. Journalists in Redonesses have reported that the Clan of Redonesses criminal faction is attempting to help the…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6abbbcb7ab11b969530fc317 Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">22 SEP 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ab2455883146685f4010f84 Missing Prison Ship Discovered Adrift in Redonesses System]</div>
+<div class="edfm-galnet-summary">Multiple sightings have been reported of the missing prison megaship EVE-597 with system authorities confirming that the vessel has suffered damage. Pilots inspecting the Riker-class prison ship noted disabled defence turrets and a significant quantity of drifting debris. "This doesn't look like a mis-jump to me," stated one Commander…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6ab2455883146685f4010f84 Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">17 SEP 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6aabe5d81c30c815fd069e58 Prison Ship Reported Missing After Failing Scheduled Transit]</div>
+<div class="edfm-galnet-summary">The Independent Detention Foundation confirmed yesterday that Riker-class Reformatory EVE-597 had failed to report in following its scheduled jump. The prison ship successfully jumped from the Nones system but has not arrived at Gliese 506.2. System authorities confirm that no signs of debris have been detected. The organisation said…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6aabe5d81c30c815fd069e58 Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">17 SEP 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6aabab6897c785e696068649 SRV and Surface Mining Trials Deemed Resounding Success]</div>
+<div class="edfm-galnet-summary">Vodel confirmed in a joint press statement with Wreaken Mining that recent early release trials of the new Rhino SRV had been a huge success. Telemetry data received from independent pilots taking part in the recent initiative showed that the new surface vehicle performed across even the roughest planetary terrain. "We're extremely…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6aabab6897c785e696068649 Read the official GalNet transmission]</div>
+</div>
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">14 SEP 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6aa7cf45038160636b0a9e05 Increased Traffic Near Prison Ships Sparks Concern]</div>
+<div class="edfm-galnet-summary">Governing authorities of several star systems have reported unusually high traffic around prison reformatories during recent inmate transfers. Known affiliates of local pirate factions have been spotted flying in formation near the prison ships, but so far have not engaged with local security forces or prisoner transports. "Although no…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6aa7cf45038160636b0a9e05 Read the official GalNet transmission]</div>
+</div>
 <div class="edfm-galnet-archive-entry">
 <div class="edfm-galnet-date">11 SEP 3312</div>
 <div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6aa3bc366f39584229038902 Federation Condemns Ongoing October Accords Exclusion]</div>
@@ -35,72 +101,6 @@ This is current wikitext only; no revision history, user database, logs, deleted
 <div class="edfm-galnet-summary">A widespread review of current surface mining techniques has been sparked by recently published research. Wreaken Mining’s Chief Geologist, Dr. Ben Curtis, has written an essay suggesting that existing refinery methods inadvertently destroy valuable mineral resources due to their large-scale inefficiencies. “Typically, laser mining and…</div>
 <div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a8c1a983531540f830c1532 Read the official GalNet transmission]</div>
 </div>
-<div class="edfm-galnet-archive-entry">
-<div class="edfm-galnet-date">20 AUG 3312</div>
-<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a86ea112335b431e80bc9ff Colonia Celebrations Conclude with Megamarket Opening]</div>
-<div class="edfm-galnet-summary">As anniversary celebrations begin to wind down, Colonia Council issued confirmation that a new megamarket has been established at Jaques Station. Magen Wolf, speaking on behalf of the Colonia Council, said "All of our local initiatives were successful, and we intend to recognise the considerable efforts of pilots who travelled all the…</div>
-<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a86ea112335b431e80bc9ff Read the official GalNet transmission]</div>
 </div>
-<div class="edfm-galnet-archive-entry">
-<div class="edfm-galnet-date">06 AUG 3312</div>
-<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a74632b3e1bab203a0c66ae Colonia Tenth Anniversary Celebrations Get Underway]</div>
-<div class="edfm-galnet-summary">The festival marking the tenth anniversary of the founding of Colonia has begun in earnest. Colonists throughout the Colonia enclave are welcoming visitors with open arms, showcasing their achievements over the last decade in partnership with major corporations keen to invest. Meanwhile, major starports are hosting events and parties to…</div>
-<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a74632b3e1bab203a0c66ae Read the official GalNet transmission]</div>
-</div>
-<div class="edfm-galnet-archive-entry">
-<div class="edfm-galnet-date">30 JUL 3312</div>
-<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a6a1976f5b5a043e5020683 Colonia Plans to Distribute Celebration Commodities]</div>
-<div class="edfm-galnet-summary">With huge numbers of commodities transferred from Brewer Corporation’s megaship fleet to Jaques Station, preparations for the tenth anniversary are in full swing. Colonia Council is calling for aid with the second logistical phase of the celebrations by helping to distribute the commodities across the region. “We’ve been up against the…</div>
-<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a6a1976f5b5a043e5020683 Read the official GalNet transmission]</div>
-</div>
-<div class="edfm-galnet-archive-entry">
-<div class="edfm-galnet-date">27 JUL 3312</div>
-<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a6719d5b43cce39c70a3bcd Pilots’ Federation Directs Members to Colonia]</div>
-<div class="edfm-galnet-summary">The Pilots’ Federation has issued a reminder to all members that Colonia is beginning final preparations for its 10th anniversary celebrations. With Colonia's loaded megaship fleet due to arrive within the next few days, the Pilots’ Federation has issued a statement encouraging a final push to support the distribution of cargo at the…</div>
-<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a6719d5b43cce39c70a3bcd Read the official GalNet transmission]</div>
-</div>
-<div class="edfm-galnet-archive-entry">
-<div class="edfm-galnet-date">23 JUL 3312</div>
-<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a61d54e61f7728e390e9a06 Colonia Supply Initiative Deemed a Partial Success]</div>
-<div class="edfm-galnet-summary">The initiative to support Colonia’s tenth anniversary celebrations has been met with partial success according to organisers. The large fleet of cargo megaships provided by Brewer Corporation stationed in Facece have been loaded and their long trip to Colonia has begun, transporting the commodities and rare goods supplied. “The response…</div>
-<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a61d54e61f7728e390e9a06 Read the official GalNet transmission]</div>
-</div>
-<div class="edfm-galnet-archive-entry">
-<div class="edfm-galnet-date">16 JUL 3312</div>
-<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a5899da7cd35cc6cd062f3b Colonia Calls for Assistance as Celebrations Get Underway]</div>
-<div class="edfm-galnet-summary">Colonia is hosting a tenth anniversary celebration of its founding, beginning with a supply initiative located at where its historic story began. A fleet of cargo megaships provided by Brewer Corporation has arrived at Facece to support a massive logistics operation to transport commodities and rare goods from across the core system to…</div>
-<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a5899da7cd35cc6cd062f3b Read the official GalNet transmission]</div>
-</div>
-<div class="edfm-galnet-archive-entry">
-<div class="edfm-galnet-date">13 JUL 3312</div>
-<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a54a4c453b181ed1103ebb4 Major Corporations Promote Colonia Celebrations]</div>
-<div class="edfm-galnet-summary">Multiple corporations have supported the recent announcement of Colonia’s tenth anniversary celebrations. Vox Galactica business correspondent Marlon Royce spoke to several representatives of major names from the technology, transport, mining and tourism industries. “Colonia stands as a beacon of human achievement in deep space,”…</div>
-<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a54a4c453b181ed1103ebb4 Read the official GalNet transmission]</div>
-</div>
-<div class="edfm-galnet-archive-entry">
-<div class="edfm-galnet-date">09 JUL 3312</div>
-<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a4e7998d2a025dadd057d33 Terri Tora Released by October Consortium in Surprise Move]</div>
-<div class="edfm-galnet-summary">Terri Tora, the xenobiologist credited with triggering widespread interest in the HIP 87621 system, has been released. Tora, who has been held in custody by October Consortium since her disappearance in late 3311, was investigating rumours of a significant xenobiological discovery when she stowed away on a Consortium megaship. She was…</div>
-<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a4e7998d2a025dadd057d33 Read the official GalNet transmission]</div>
-</div>
-<div class="edfm-galnet-archive-entry">
-<div class="edfm-galnet-date">09 JUL 3312</div>
-<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a4e78aa60d1daeedc073f54 Vista Genomics Exobiology Initiative Deemed a Success]</div>
-<div class="edfm-galnet-summary">Vista Genomics has confirmed the successful conclusion of its exobiology initiative across the Sanguineous Rim. In partnership with Faulcon DeLacy, both confirmed that pilots not only secured vast quantities of exobiological data needed to investigate genetic diversity across the region but also helped confirm that the Nomad improved…</div>
-<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a4e78aa60d1daeedc073f54 Read the official GalNet transmission]</div>
-</div>
-<div class="edfm-galnet-archive-entry">
-<div class="edfm-galnet-date">02 JUL 3312</div>
-<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a4627dffa7b55a446035378 Vista Genomics Seeks Exploration Data From Sanguineous Rim]</div>
-<div class="edfm-galnet-summary">A new exploration initiative from Vista Genomics is aiming to gather data to help assess genetic diversity across the Sanguineous Rim. To help celebrate the release of the new ship-launched exploration vessel, Faulcon DeLacy has partnered with Vista Genomics in the initiative, calling on independent pilots to help test the Nomad’s…</div>
-<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a4627dffa7b55a446035378 Read the official GalNet transmission]</div>
-</div>
-<div class="edfm-galnet-archive-entry">
-<div class="edfm-galnet-date">30 JUN 3312</div>
-<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a42939761e26db00b0f642b Faulcon DeLacy Announces New Ship-Launched ‘Nomad’]</div>
-<div class="edfm-galnet-summary">Faulcon DeLacy, the manufacturer behind the popular Python and Cobra ship designs, has announced the limited release of the Nomad. The Nomad is a ship-launched craft intended to aid explorers in larger ships, allowing them to explore planet surfaces and locations requiring tight manoeuvrability and speed. Chief of Design, Frank Endis…</div>
-<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a42939761e26db00b0f642b Read the official GalNet transmission]</div>
-</div>
-</div>
-<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 13 Sep 2026 07:00 UTC.</div>
+<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 22 Oct 2026 14:40 UTC.</div>
 </div></includeonly>

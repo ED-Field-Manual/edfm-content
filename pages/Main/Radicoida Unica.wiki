@@ -1,0 +1,58 @@
+<!--
+EDFM current-content archive export.
+Title: Radicoida Unica
+Namespace: 0
+Page ID: 868
+Revision ID: 5554
+Timestamp: 2026-09-28T23:56:55Z
+Source URL: https://edfieldmanual.com/wiki/Radicoida_Unica
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=A field reference for Radicoida Unica, including value, sampling distance, environmental profiles and known visual variants.}}
+
+{{Exobiology species infobox}}
+
+'''Radicoida Unica''' is a rare plant first catalogued in HIP 87621. Frontier reports describe the known specimens as thriving on hot planets with thin atmospheres, but that report is not an exhaustive spawn specification.<ref name="canonn">[https://us-central1-canonn-api-236217.cloudfunctions.net/query/codex/ref Canonn Codex reference], snapshot retrieved 28 September 2026.</ref><ref name="hip-access">[https://www.elitedangerous.com/news/galnet/pilots-federation-members-enter-hip-87621 Pilots’ Federation Members Enter HIP 87621], Frontier Developments, 13 November 3311.</ref>
+
+== Classification ==
+
+{{#invoke:Exobiology|classification|title=Radicoida Unica}}
+
+== Value ==
+
+{{#invoke:Exobiology|value|title=Radicoida Unica}}<ref name="canonn" />
+
+== Sampling ==
+
+{{#invoke:Exobiology|sampling|title=Radicoida Unica}}<ref name="guide">[https://www.elitedangerous.com/en-US/news/odyssey-guide Odyssey Guide], Frontier Developments.</ref><ref name="explodata">[https://github.com/Silarn/EDMC-ExploData/blob/fd4e188defd6405e46398fb0a54ac8669c9e2189/src/ExploData/explo_data/bio_data/genus.py EDMC-ExploData genus data], commit fd4e188d.</ref>
+
+== Environmental requirements ==
+
+The profiles below come from a maintained community prediction model. They are useful search constraints, but observational limits should not be read as official guarantees or proof that unlisted conditions are impossible.<ref name="bioscan">[https://github.com/Silarn/EDMC-BioScan/blob/fc6b85c3de48c8fb79fa9e4f79ad780e48f56629/src/bio_scan/bio_data/species.py EDMC-BioScan Radicoida rules], commit fc6b85c3.</ref>
+
+{{#invoke:Exobiology|environment|title=Radicoida Unica}}
+
+== Identification ==
+
+The Codex does not record a separately named colour variant. Its public display name is Radicoida Unica; the internal journal species token retains the form <code>Unicus</code>.
+
+== Variants ==
+
+The named variants below follow the current Codex reference.<ref name="canonn" />
+
+{{#invoke:Exobiology|variants|title=Radicoida Unica}}
+
+== Practical notes ==
+
+HIP 87621 access is restricted to licensed Commanders, and Fleet Carriers are excluded from the system.
+
+== Related organisms ==
+
+See [[Exobiology#Radicoida|Radicoida]] for the complete group listing.
+
+== Sources ==
+
+<references />
+
+[[Category:Radicoida species]]

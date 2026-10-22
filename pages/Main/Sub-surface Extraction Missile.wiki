@@ -3,22 +3,70 @@ EDFM current-content archive export.
 Title: Sub-surface Extraction Missile
 Namespace: 0
 Page ID: 608
-Revision ID: 2205
-Timestamp: 2026-08-24T23:45:18Z
+Revision ID: 4856
+Timestamp: 2026-09-20T19:53:48Z
 Source URL: https://edfieldmanual.com/wiki/Sub-surface_Extraction_Missile
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Sub-surface Extraction Missile ship module.
+{{Article header|deck=A class 2 hardpoint developed to release captive-filled bio-storage capsules from Thargoid Titans.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Current Live 4.4.1.1 specifications; introduced after the Live and Legacy galaxies separated
+ |reviewed=2026-09-20
+ |reviewer=Sythan
+ |source_quality=Frontier production reports and current update notes, commit-pinned EDSY module data, and community-maintained operating references
+ |uncertainty=No intact Titan remains, so the extraction sequence cannot presently be re-tested against a live target. Station inventories may also change.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Sub-surface Extraction Missile''' is a fixed hardpoint developed for rescuing human captives from Thargoid Titans. Aegis adapted the drilling mechanism of the [[Sub-surface Displacement Missile]] using blueprints supplied by Sirius Corporation. Instead of extracting minerals from asteroids, its missiles penetrated Titan storage chambers and released the bio-storage capsules held inside.<ref name="manufacture">[https://www.elitedangerous.com/news/galnet/deliver-resources-extraction-missile-manufacture ''Deliver Resources for Extraction Missile Manufacture''], Frontier Developments, 28 September 3309.</ref>
 
-== Overview ==
+Frontier continues to identify the launcher as equipment dedicated to Titan gameplay rather than mining.<ref name="dodec">[https://www.elitedangerous.com/news/updates/4-2-2-0 ''Elite Dangerous: Dodec Update''], Frontier Developments, 11 November 2025.</ref>
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+{{Callout
+ |type=warning
+ |label=Current status
+ |1=The last remaining Thargoid Titan, Cocijo, was destroyed on 18 December 3310. There is therefore no intact Titan on which to perform capsule extraction at present. The module remains in Live, where Frontier still identifies it as equipment dedicated to Titan gameplay.<ref name="cocijo">[https://www.elitedangerous.com/news/galnet/titan-cocijo-destroyed-sol-liberated ''Titan Cocijo Destroyed, Sol Liberated''], Frontier Developments, 18 December 3310.</ref><ref name="dodec" /><ref name="ax-current">[https://edblackbox.com/guides/systems/activity-guides/ax.html ''Anti-Xeno Activity Guide''], E:D Black Box, accessed 20 September 2026.</ref>
+}}
 
+== Specifications ==
+
+Current Live module data records one class 2B fixed version.<ref name="edsy-extraction">EDSY, [https://github.com/taleden/EDSY/blob/9cd829062217036184ea9ec79ee30934d235aca8/eddb.js#L2867 commit-pinned Sub-surface Extraction Missile record], accessed 20 September 2026.</ref>
+
+{| class="wikitable" style="width:100%;"
+! Class and rating !! Mount !! Mass !! Integrity !! Power draw !! Magazine / reserve !! Reload !! Projectile speed !! Reference price
+|-
+| 2B || Fixed || 4.00 t || 50 || 1.00 MW || 1 / 96 || 2 seconds || 550 m/s || 843,170 CR
+|}
+
+EDSY records a nominal cyclic rate of 0.5 missiles per second, equivalent to a two-second launch interval. Actual extraction attempts take longer because the pilot must hold the trigger through the drilling phase and time the detonation.
+
+== Operation ==
+
+The launcher was used with a Pulse Wave Xeno Scanner, which identified human life signs and targetable storage chambers beneath a Titan's hull. With a chamber targeted in Analysis Mode, the pilot fired while continuing to hold the trigger. The drilling display then showed the missile's depth and a blue extraction zone. Releasing the trigger while the marker crossed that zone detonated the charge and ejected the stored capsules.<ref name="aegis-production">[https://www.elitedangerous.com/news/galnet/aegis-produces-sub-surface-extraction-missiles ''Aegis Produces Sub-Surface Extraction Missiles''], Frontier Developments, 5 October 3309.</ref><ref name="community-operation">[https://elite-dangerous.fandom.com/wiki/Sub-surface_Extraction_Missile ''Sub-surface Extraction Missile''], Elite Dangerous Wiki, accessed 20 September 2026.</ref>
+
+Released capsules could be recovered with the cargo scoop or [[Collector Limpet Controller|collector limpets]]. During the Titan war, pilots delivered them to a Search and Rescue contact for quarantine and revival attempts.<ref name="aegis-production" />
+
+== Module boundary ==
+
+Despite its origin, the Sub-surface Extraction Missile is not asteroid-mining equipment. It does not work on ordinary sub-surface mineral deposits, and Frontier deliberately excludes it from the Type-11 Prospector's mining-only hardpoints. Asteroid deposits require the [[Sub-surface Displacement Missile]].<ref name="dodec" />
+
+The extraction missile is also distinct from the other equipment used to reach and operate around a Titan. A Pulse Wave Xeno Scanner found storage chambers; a Thargoid Pulse Neutraliser countered the Maelstrom's repulsion wave; [[Caustic Sink Launcher|Caustic Sink Launchers]] managed corrosive exposure; and the extraction missile performed the actual breach.
+
+== Acquisition ==
+
+Aegis placed the module into credit-purchase Outfitting stock at rescue megaships on 5 October 3309, following a production initiative in Senlu.<ref name="aegis-production" /> Current station inventories can change, so commanders looking for a copy should check a current outfitting database before travelling.
+
+The module is Live-only. It was introduced in 3309, after Frontier separated the Live and Legacy galaxies.<ref name="live-legacy">[https://www.elitedangerous.com/en-US/news/elite-dangerous-update-14-and-beyond-live-and-legacy-modes ''Elite Dangerous Update 14 and Beyond: Live and Legacy Modes''], Frontier Developments, 23 November 2022.</ref>
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Sub-surface Displacement Missile]] [[Caustic Sink Launcher]] [[Collector Limpet Controller]] [[Ship Modules]]}}
 [[Category:Modules]]
 [[Category:Ship modules]]

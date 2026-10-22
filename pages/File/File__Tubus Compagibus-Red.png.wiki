@@ -1,0 +1,26 @@
+<!--
+EDFM current-content archive export.
+Title: File:Tubus Compagibus-Red.png
+Namespace: 6
+Page ID: 936
+Revision ID: 5949
+Timestamp: 2026-10-02T21:53:53Z
+Source URL: https://edfieldmanual.com/wiki/File:Tubus_Compagibus-Red.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |description = In-game image of Tubus Compagibus in Elite Dangerous.
+ |subject = Tubus Compagibus
+ |source = Elite Dangerous, captured in-game
+ |media_type = In-game screenshot
+ |captured_by = [[User:Sythan|Sythan]]
+ |intended_use = Identification and illustration on the Tubus Compagibus article and related Exobiology pages.
+ |copyright_holder = Frontier Developments plc
+}}
+
+[[Category:Exobiology images]]
+
+== Licensing ==
+{{License-ED screenshot}}

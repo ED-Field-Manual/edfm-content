@@ -3,22 +3,86 @@ EDFM current-content archive export.
 Title: Standard Docking Computer
 Namespace: 0
 Page ID: 604
-Revision ID: 2202
-Timestamp: 2026-08-24T23:45:14Z
+Revision ID: 4850
+Timestamp: 2026-09-20T19:27:59Z
 Source URL: https://edfieldmanual.com/wiki/Standard_Docking_Computer
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Standard Docking Computer ship module.
+{{Article header|deck=A class 1 flight-assist module that automates an authorised docking approach and landing.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live specifications; the module and its core docking role also apply to Legacy
+ |reviewed=2026-09-20
+ |reviewer=Sythan
+ |source_quality=The docking and launch-assist boundary is documented by Frontier; current specifications and availability are corroborated by maintained module and outfitting data.
+ |notes=Local traffic, obstructions, and unsafe automated paths can still cause collisions.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Standard Docking Computer''' is a class 1 optional internal module that takes control after docking permission is granted and flies the ship to its assigned landing pad. It automates arrival and landing only. The [[Advanced Docking Computer]] also provides automatic departure.<ref name="frontier-april">Frontier Developments, [https://forums.frontier.co.uk/threads/april-update-patch-notes.509331/ April Update — Patch Notes], 23 April 2019.</ref><ref name="edwiki-sdc">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Standard_Docking_Computer Standard Docking Computer].</ref>
+
+The module does not request docking permission, navigate in supercruise, plot routes, or offer an automatic launch command. [[Docking Computer]] covers the shared module family, while [[Supercruise Assist]] handles a separate part of in-system travel.
+
+== Specifications ==
+
+{| class="wikitable"
+! Class
+! Rating
+! Mass
+! Integrity
+! Power draw
+! Boot time
+! Typical value
+|-
+| 1
+| E
+| 0 t
+| 10
+| 0.39 MW
+| 3 s
+| 4,500 CR
+|}
+
+Current Live module data records one class 1E version with no mass.<ref name="edsy-sdc">EDSY, [https://github.com/taleden/EDSY/blob/9cd829062217036184ea9ec79ee30934d235aca8/eddb.js#L3464 commit-pinned module database], record 3150.</ref><ref name="edwiki-sdc" /> The Standard Docking Computer cannot be engineered.<ref name="edsy-flight-assists">EDSY, [https://github.com/taleden/EDSY/blob/9cd829062217036184ea9ec79ee30934d235aca8/eddb.js#L2560-L2563 Flight Assists module-type definition].</ref>
+
+== Operation ==
+
+To use automatic docking:
+
+# Approach a supported port and request docking permission through the Contacts panel.
+# Keep the module powered, Flight Assist enabled, and Auto Dock enabled in Flight Assistance settings.
+# After permission is granted, reduce the throttle to zero.
+# Remain at the controls while the computer guides the ship to the assigned pad.
+
+The computer manages thrust, orientation, landing gear, and the final approach while active. Applying throttle interrupts the sequence and returns flight control to the pilot; cutting power to the module also disables it.<ref name="edwiki-sdc" />
+
+The Standard module never supplies automatic launch. Frontier's Flight Assistance controls list Auto Launch as requiring the Advanced Docking Computer.<ref name="frontier-april" />
+
+== Limitations and safety ==
+
+Docking automation is not a guarantee of safe passage. Traffic, obstructions, and unsafe automated paths can still lead to collisions, fines, damage, or destruction, so the commander should be ready to apply throttle and take over.<ref name="edwiki-sdc" />
+
+The module also occupies an optional internal compartment. A build that does not need assisted docking can use that slot for other equipment.
+
+== Acquisition ==
+
+The Standard Docking Computer is a normal credit purchase through Outfitting, subject to local station stock. Current outfitting reports continue to list the class 1E module at stations across inhabited space.<ref name="edsm-stock">EDSM, [https://www.edsm.net/en_GB/search/stations/index/outfitting/4051/p/208 stations selling the Standard Docking Computer].</ref>
+
+== Related modules ==
+
+* [[Docking Computer]] — overview of the docking-assistance module family.
+* [[Advanced Docking Computer]] — automates docking and departure.
+* [[Supercruise Assist]] — assists travel to a selected destination within a system.
+
+== Sources ==
+
+<references />
 
 [[Category:Modules]]
 [[Category:Ship modules]]

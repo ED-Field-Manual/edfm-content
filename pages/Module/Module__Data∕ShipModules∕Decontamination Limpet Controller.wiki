@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Decontamination Limpet Controller
 Namespace: 828
 Page ID: 468
-Revision ID: 2244
-Timestamp: 2026-08-25T14:14:08Z
+Revision ID: 4240
+Timestamp: 2026-09-15T01:09:58Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Decontamination_Limpet_Controller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -13,9 +13,10 @@ return {
 	name = "Decontamination Limpet Controller",
 	module_class = "Limpet controller",
 	slot_type = "Optional internal",
-	mount = "",
-	manufacturer = "",
-	availability = "",
-	engineering = "",
-	related_modules = "[[Repair Limpet Controller]], [[Rescue Multi Limpet Controller]]",
+	mount = "Classes 1, 3, 5, and 7; E-rated",
+	manufacturer = "Aegis",
+	availability = "Standard Outfitting purchase where stocked",
+	engineering = "Not supported",
+	related_modules = "Repair Limpet Controller<br>Xeno Multi Limpet Controller<br>Caustic Sink Launcher<br>Cargo Rack",
+	notes = "Programs cargo-borne limpets to remove caustic contamination and perform limited hull repair.",
 }

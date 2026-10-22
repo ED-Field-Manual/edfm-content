@@ -3,15 +3,98 @@ EDFM current-content archive export.
 Title: Engineer Reputation
 Namespace: 0
 Page ID: 668
-Revision ID: 1561
-Timestamp: 2026-08-23T18:07:32Z
+Revision ID: 4070
+Timestamp: 2026-09-13T13:40:00Z
 Source URL: https://edfieldmanual.com/wiki/Engineer_Reputation
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|A focused guide to ship Engineer reputation, grade access, blueprint progression, referrals, and practical ways to raise access with individual Engineers.}}
+{{Article header|deck=How access grades work with ship Engineers, how reputation is earned, and what it unlocks.}}
 
-'''Engineer Reputation''' covers the Grade 1 through Grade 5 progression used by ship Engineers and how that progression affects available blueprint grades. This article is planned as the central reference for reputation gains, referrals, remote Engineering availability, and common unlock questions.
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy Engineering
+ |reviewer=Sythan
+ |reviewed=2026-09-13
+ |source_quality=Current Frontier Engineering notes, EDFM Engineer data, and maintained community references
+ |uncertainty=Alternative reputation activities and their credit-to-rank conversion differ by Engineer and are not fully documented by Frontier.
+}}
+
+'''Engineer Reputation''' is the five-level access progression used by ship [[Engineers]]. It determines which Engineering grades a Commander may purchase from an individual Engineer and can trigger referrals to other Engineers.
+
+Reputation is tracked separately for each ship Engineer. Unlocking one workshop does not raise access with another.
+
+== Access grades ==
+
+Ship Engineer reputation runs from '''Grade 1''' to '''Grade 5'''. Completing an Engineer's unlock requirement opens Grade 1 access. Raising reputation unlocks the higher access grades in order.
+
+An Engineer can only apply a Blueprint up to the lower of:
+
+* the Commander's current access grade with that Engineer; and
+* the maximum grade that Engineer offers for the receiving module and Blueprint.
+
+Grade 5 reputation therefore does not make every service Grade 5. For example, an Engineer who offers a particular module family only through Grade 3 remains limited to Grade 3 for that family.
+
+== Raising reputation ==
+
+Applying ship Engineering Blueprints at the Engineer's workshop raises reputation with that Engineer. Higher-grade work normally provides more progress than repeated low-grade work.
+
+Some workshops also support an alternative reputation activity. Depending on the Engineer, this may include:
+
+* selling exploration data through Universal Cartographics;
+* selling commodities at the workshop market;
+* redeeming bounty vouchers or combat bonds.
+
+The available activity is specific to the Engineer. Each [[Engineers|Engineer article]] identifies its supported reputation route where one is known.
+
+Engineering performed through [[Remote Engineering]] does '''not''' raise Engineer reputation. Experimental Effects must also be installed at an Engineer workshop rather than remotely.<ref name="community-engineers">[https://elite-dangerous.fandom.com/wiki/Engineers Elite Dangerous Wiki: Engineers], accessed 13 September 2026.</ref>
+
+== Reputation and Blueprint progress ==
+
+Engineer reputation and the progress of a modification on one module are separate:
+
+* '''Engineer reputation''' controls the grades available from that Engineer.
+* '''Blueprint progress''' controls how far the selected grade has been applied to the individual module.
+
+Since the Engineering rebalance released with update 18.08, ship Blueprint rolls provide deterministic progress rather than a random amount. At Grade 5 reputation, fully completing grades 1 through 5 requires one, two, three, four, and five rolls respectively. Lower Engineer access requires more rolls for grades the Commander can use.<ref name="frontier-type8">[https://www.elitedangerous.com/news/type-8-update-now-available Frontier Developments: Type-8 Update is Now Available], accessed 13 September 2026.</ref>
+
+When the next Blueprint grade becomes available, a Commander may advance to it without completing the previous grade to 100%. The interface carries the modification forward to the next grade.
+
+== Referrals ==
+
+Several ship Engineers are discovered through referrals from another Engineer. A referral is normally issued after reaching Grade 3 access and progressing approximately one-third of the way toward Grade 4 with the referring Engineer.<ref name="edfm-engineers">[[Engineers#Access terminology|Engineers: access terminology]]</ref>
+
+A referral reveals the next Engineer; it does not complete that Engineer's separate meeting or unlock requirements.
+
+== Odyssey Engineers ==
+
+[[Odyssey Engineering|Odyssey Engineers]] use a different progression model. After their meeting and unlock requirements are complete, they offer their supported suit and weapon modifications without the five-grade ship Engineer reputation ladder.
+
+== Practical progression ==
+
+Before visiting a newly unlocked ship Engineer:
+
+# Check the highest grade the workshop offers for the module you intend to modify.
+# Bring enough materials to perform several rolls across successive grades.
+# Check the Engineer article for a faster alternative reputation activity, such as exploration-data sales.
+# Apply modifications locally until the access grade and any required referral are reached.
+# Pin one useful Blueprint before leaving if you intend to use [[Remote Engineering]].
+
+Do not spend materials completing a lower grade after the next grade has become available unless the lower-grade result itself is the intended stopping point.
+
+== See also ==
+
+* [[Engineering]]
+* [[Engineers]]
+* [[Engineering Blueprints]]
+* [[Experimental Effects]]
+* [[Remote Engineering]]
+* [[Odyssey Engineering]]
+
+== Sources ==
+
+<references />
 
 [[Category:Engineering]]
 [[Category:Engineers]]

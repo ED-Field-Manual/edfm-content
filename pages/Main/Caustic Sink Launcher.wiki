@@ -3,22 +3,108 @@ EDFM current-content archive export.
 Title: Caustic Sink Launcher
 Namespace: 0
 Page ID: 461
-Revision ID: 2139
-Timestamp: 2026-08-24T23:43:57Z
+Revision ID: 4233
+Timestamp: 2026-09-15T00:42:42Z
 Source URL: https://edfieldmanual.com/wiki/Caustic_Sink_Launcher
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Caustic Sink Launcher ship module.
+{{Article header|deck=An Aegis utility module that diverts caustic contamination from a ship's hull into disposable sinks.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Current Live
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Purpose, development, and current no-unlock availability are documented by Frontier; specifications, synthesis, and Engineering compatibility use maintained community records.
+ |uncertainty=Rescue Ship locations and stock can change with the Thargoid conflict and should be checked in-game.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Caustic Sink Launcher''' is an Aegis utility module that protects a ship from caustic contamination. It automatically diverts existing and incoming caustic material away from the hull and into a disposable sink.<ref name="edwiki-caustic">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Caustic_Sink_Launcher Caustic Sink Launcher].</ref>
+
+Aegis developed the launcher for operations in the caustic clouds surrounding the Thargoid Maelstroms. Its cathodic-protection system channels the corrosive material into semi-liquid anodes which can be ejected before they overload.<ref name="aegis-initiative">Frontier Developments, [https://www.elitedangerous.com/news/galnet/aegis-launches-caustic-sink-launcher-initiative “Aegis Launches Caustic Sink Launcher Initiative”], 23 February 3309.</ref>
+
+The module occupies a utility mount. It is distinct from the [[Heat Sink Launcher]]: a heat sink removes ship heat, while a caustic sink absorbs corrosive contamination. A ship operating in an environment that requires both protections may need separate utility mounts for each.
+
+== Operation ==
+
+Protection begins automatically when the equipped ship acquires caustic contamination. The active sink fills as it removes the existing effect and absorbs further caustic exposure. A full sink can no longer protect the hull and must be ejected manually before the next sink loads.<ref name="edwiki-caustic" />
+
+The cockpit indicator shows the active sink's fill level. Ejecting too early wastes its remaining capacity; ejecting too late allows caustic damage to resume. The useful timing depends on how quickly the environment or attack is filling the sink.
+
+The launcher is useful in two main situations:
+
+* passing through persistent caustic environments; and
+* absorbing contamination caused by Thargoid weapons, destroyed vessels, or caustic clouds during anti-xeno combat.
+
+The module does not repair hull damage already suffered. [[Decontamination Limpet Controller|Decontamination Limpets]] provide a separate method of removing contamination and repairing some hull damage, but require an optional internal compartment, limpets, and cargo capacity.
+
+== Specifications ==
+
+{| class="wikitable"
+! Class
+! Rating
+! Mass
+! Integrity
+! Power draw
+! Distributor draw
+! Ejection rate
+! Loaded / reserve sinks
+! Price
+|-
+| 0 || I || 1.70 t || 45 || 0.60 MW || 2.00 MW || 0.2/s || 1 / 5 || 45,000 CR
+|}
+
+The launcher loads one sink at a time and carries five additional sinks in its standard reserve. The listed ejection rate corresponds to a five-second cycle between activations.<ref name="edwiki-caustic" />
+
+== Restocking and synthesis ==
+
+Caustic sinks can be replenished through station restocking.
+
+In the field, '''Caustic Sinks''' synthesis provides a full restock for one selected launcher. The basic recipe requires one Chemical Storage Unit, one Galvanising Alloy, four Caustic Shards, and two Corrosive Mechanisms.<ref name="inara-synthesis">INARA, [https://inara.cz/elite/synthesis/ Synthesis].</ref>
+
+Caustic Shards and Corrosive Mechanisms are associated with Thargoid caustic environments. Commanders carrying corrosive commodities for other purposes may also need a [[Corrosion Resistant Cargo Rack]], but the launcher itself does not occupy cargo space.
+
+== Engineering ==
+
+The Caustic Sink Launcher supports four conventional utility-module blueprints:<ref name="inara-blueprints">INARA, [https://inara.cz/elite/blueprints/ Blueprints and upgrades].</ref>
+
+* Ammo Capacity;
+* Lightweight;
+* Reinforced; and
+* [[Shielded]].
+
+Ammo Capacity adds reserve sinks at the cost of greater mass and a longer reload cycle. Lightweight reduces mass at the cost of integrity. Reinforced improves integrity while adding mass, and Shielded improves integrity while increasing passive power draw.
+
+No Experimental Effects are available. [[Ram Tah]] in the Bubble and [[Petra Olmanova]] in Colonia provide the applicable utility Engineering services.
+
+== Acquisition ==
+
+The Caustic Sink Launcher is sold for credits through Outfitting aboard Rescue Ships. Frontier removed its Technology Broker requirements on 29 February 2024 so Commanders could equip for Titan combat without completing the original material unlock.<ref name="requirements-removed">Frontier Developments, [https://www.elitedangerous.com/news/titan-combat-rewards-changes “Titan Combat Rewards & Changes”], 29 February 2024.</ref>
+
+The earlier unlock lists that require Caustic Tissue Samples, Caustic Shards, Corrosive Mechanisms, Chemical Storage Units, and Galvanising Alloys are obsolete. Those materials are not required for a current purchase, although some remain relevant to sink synthesis.
+
+== Development history ==
+
+The first production campaign began in Duamta in February 3309. Aegis requested advanced catalysers, heatsink interlinks, palladium, and Caustic Tissue Samples to establish manufacturing, then distributed the initial launchers to campaign contributors.<ref name="aegis-initiative" />
+
+The module subsequently entered Rescue Ship distribution. The later removal of its broker requirements changed acquisition, not its caustic-absorption role.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Heat Sink Launcher]] [[Decontamination Limpet Controller]] [[Corrosion Resistant Cargo Rack]] [[Ram Tah]] [[Petra Olmanova]]}}
+
+{{Engineering nav}}
 
 [[Category:Modules]]
-[[Category:Ship modules]]
+[[Category:Utility mounts]]
+[[Category:Utility Engineering]]
+[[Category:Anti-Xeno equipment]]
+[[Category:Engineering]]

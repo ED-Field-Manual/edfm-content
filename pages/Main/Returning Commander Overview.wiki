@@ -3,25 +3,110 @@ EDFM current-content archive export.
 Title: Returning Commander Overview
 Namespace: 0
 Page ID: 53
-Revision ID: 2096
-Timestamp: 2026-08-24T21:25:52Z
+Revision ID: 4810
+Timestamp: 2026-09-20T13:56:49Z
 Source URL: https://edfieldmanual.com/wiki/Returning_Commander_Overview
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=A catch-up overview for commanders returning after time away from Elite Dangerous.}}
+{{Article header|deck=A practical catch-up route for commanders returning after time away from Elite Dangerous.}}
 
-{{Draft warning}}
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1.1; Legacy 3.8 branch
+ |reviewed=2026-09-20
+ |reviewer=Sythan
+ |source_quality=Frontier's Live and Legacy announcement, official update notes, and current first-party feature guides
+ |uncertainty=Live balance, rewards, ship availability, and active events continue to change between updates.
+ |recent_changes=Includes the current Engineering system, Powerplay 2.0, System Colonisation, Vanguards, and Operations.
+}}
 
-The Returning Commander Overview helps experienced commanders get back up to speed after time away from Elite Dangerous, covering major mechanical changes, Engineering progress, equipment status, and the differences between the current Live game and Legacy.
+The '''Returning Commander Overview''' is a route back into ''Elite Dangerous'' without repeating the entire new-player journey. Start by confirming which version of the galaxy you are using, check the ship and controls already attached to your commander, then choose one activity to relearn at a time.
 
-== Planned sections ==
-* What's changed recently (to be filled in with verified, dated changelog-style notes)
-* Re-familiarising with ship/module state and Engineering progress
-* Checking whether anything owned is now Legacy-only vs Live
-* Where to check current Powerplay/Colonisation state before diving back in
+{{Tip|Do not clear your save or sell an old ship simply because its build looks unfamiliar. Confirm the game mode, inspect the modules and Engineering already fitted, and make a low-risk test flight first.}}
 
-{{Legacy warning}}
-Commanders returning to ''Legacy'' specifically should be aware Live and Legacy have diverged; content on this wiki will mark Legacy-specific material explicitly.
+== Choose the right galaxy first ==
 
-{{Related articles|[[Start Here]] [[Operations]] [[Elite Dangerous Field Manual:Current Project Status]]}}
+Since Update 14 on 29 November 2022, ''Elite Dangerous'' has operated separate '''Live''' and '''Legacy''' galaxies. Live uses the 4.0 codebase and receives new content and events. Legacy preserves the 3.8 galaxy, tracks commander progress separately, and does not affect the Live Background Simulation.<ref name="frontier-live-legacy">[https://www.elitedangerous.com/en-US/news/elite-dangerous-update-14-and-beyond-live-and-legacy-modes Elite Dangerous Update 14 and Beyond: Live and Legacy Modes], Frontier Developments, accessed 20 September 2026.</ref>
+
+A commander who played before the split may therefore have two different snapshots of the same career. If credits, ships, location, or progress do not look familiar, return to the launcher and confirm the selected mode before changing anything.
+
+Most current EDFM coverage describes Live. Pages that also apply to Legacy, or have important Legacy differences, identify that scope in their status panel.
+
+== Run a safe first-session check ==
+
+# '''Review the controls.''' Confirm pitch, roll, yaw, throttle, boost, landing gear, cargo scoop, Frame Shift Drive, fire groups, panel navigation, and mode switching before leaving the station.
+# '''Inspect the active ship.''' Check integrity, fuel, ammunition, power priorities, disabled modules, fire groups, cargo, and the rebuy cost shown in the right-hand panel.
+# '''Review stored assets.''' Use the Shipyard and Outfitting screens to see where stored ships and modules are located. Do not replace engineered modules until their modifications and Experimental Effects have been checked.
+# '''Clear immediate risks.''' Review outstanding fines, bounties, mission cargo, expiring missions, and the current system's security state.
+# '''Take a short test flight.''' Solo or a private group is a sensible place to practise launching, docking, supercruise, hyperspace, targeting, and power management without adding avoidable player encounters.
+
+== Major changes in Live ==
+
+The changes below belong to Live and are not available in the Legacy 3.8 galaxy unless explicitly stated otherwise. Odyssey is an additional expansion layer within Live.
+
+=== Odyssey and on-foot play ===
+
+''[[Odyssey]]'' added disembarkation, station concourses, surface settlements, on-foot missions and combat, suits and handheld weapons, thin-atmosphere worlds, and [[Exobiology]]. These systems sit alongside the ship game rather than replacing it, and suit and weapon Engineering uses a separate set of items and progression.<ref name="frontier-odyssey-guide">[https://elitedangerous.com/news/odyssey-guide Odyssey Guide], Frontier Developments, accessed 20 September 2026.</ref>
+
+A returning Horizons commander can continue flying ships in Live without treating every Odyssey system as mandatory. Start with the dedicated [[Odyssey]] or [[Exobiology]] page when one of those activities is the reason for returning.
+
+=== Supercruise Overcharge and Engineering ===
+
+Modern SCO-capable [[Frame Shift Drive|Frame Shift Drives]] can provide a high-speed burst in supercruise. The standard market range introduced in May 2024 covers sizes 2–7 and ratings E–A; those drives support Faster Boot Sequence, Shielded, and Increased Range blueprints as well as existing FSD Experimental Effects.<ref name="frontier-sco">[https://www.elitedangerous.com/news/updates/4-0-18-04 Elite Dangerous - 18.04 Update Notes], Frontier Developments, 7 May 2024.</ref> The Caspian Explorer update later introduced a specialised size 8 Mk II SCO drive that enhances neutron-star and white-dwarf supercharging.<ref name="frontier-caspian">[https://www.elitedangerous.com/news/updates/4-3-0-0 Elite Dangerous: Caspian Explorer Update], Frontier Developments, 2 December 2025.</ref> Heat and fuel consumption still make ordinary overcharge something to manage rather than normal cruise flight.
+
+The August 2024 Engineering rebalance made blueprint progression deterministic, increased material availability and mission rewards, reduced many Odyssey recipe costs, and expanded suit carrying capacity.<ref name="frontier-engineering-rebalance">[https://www.elitedangerous.com/news/type-8-update-now-available Type-8 Update is Now Available], Frontier Developments, 7 August 2024.</ref> Older advice built around random blueprint rolls or the previous material economy is no longer a reliable planning baseline. Use [[Engineering]], [[Engineers]], and [[Engineering Materials]] for the current structure.
+
+=== Powerplay 2.0 ===
+
+Ascendancy replaced the original Powerplay progression with loyalty ranks, weekly assignments, care packages, new map information, and a wider range of activities that contribute to a Power. All Powers now offer the same module pool in different unlock orders. Merit degradation, expansion voting, the old government-type connections, and the former defection effects were removed, although leaving a Power still resets loyalty progression.<ref name="frontier-ascendancy">[https://www.elitedangerous.com/news/updates/4-0-19-0 Elite Dangerous: Ascendancy – Available Now], Frontier Developments, 31 October 2024.</ref>
+
+Old instructions based on four-week pledges, fixed rating thresholds, or a module being permanently exclusive to one Power describe the previous system.
+
+=== Colonisation, Squadrons, and Operations ===
+
+Trailblazers introduced '''System Colonisation''', allowing commanders to claim eligible unpopulated systems, establish a primary port, deliver construction supplies, and develop further orbital or surface facilities.<ref name="frontier-trailblazers">[https://www.elitedangerous.com/news/updates/4-1-0-0 Elite Dangerous: Trailblazers – Available Now], Frontier Developments, 25 February 2025.</ref> The feature's beta ended with the Dodec update on 11 November 2025. Frontier said it would continue to monitor System Colonisation player data and feedback, and the Dodec update adjusted its balance values.<ref name="frontier-dodec">[https://www.elitedangerous.com/news/updates/4-2-2-0 Elite Dangerous: Dodec Update], Frontier Developments, 11 November 2025.</ref>
+
+Vanguards reworked the Squadron system in August 2025. Operations followed in June 2026 with instanced cooperative scenarios that can be started alone or with a squad, optional matchmaking, Mercenary and Powerplay modes, and rewards including credits, materials, and Merc Coins. Powerplay Operations can also award Merits.<ref name="frontier-timeline">[https://www.elitedangerous.com/news/updates Updates Timeline], Frontier Developments, accessed 20 September 2026.</ref><ref name="frontier-operations">[https://www.elitedangerous.com/news/updates/4-4-0-0 Elite Dangerous: Operations – Available Now], Frontier Developments, 30 June 2026.</ref>
+
+=== Ships and surface vehicles ===
+
+Live has gained additional ships and deployable vehicles. Use the current [[Ships]] directory rather than an old ship list, and check [[Surface Recon Vehicles]] for the present ground-vehicle families. Existing ships remain usable; a new hull is an option, not a requirement for resuming an established career.
+
+== Pick one route back in ==
+
+Trying to relearn every system at once usually creates more confusion than progress. Choose the route that matches the next session:
+
+; Ship handling and outfitting
+: Start with [[Ships and Equipment]], then review the active ship's core and optional modules before changing its build.
+
+; Engineering
+: Use [[Engineering]] for the system overview, [[Engineers]] for workshop access, and [[Engineering Materials]] for the current material economy.
+
+; Exploration
+: Review [[Exploration]]. Add [[Odyssey]] and [[Exobiology]] only if on-foot exploration is part of the plan.
+
+; Mining, trade, or combat
+: Start with [[Mining]], [[Trade]], or [[Combat]], then follow the activity's equipment and procedure links rather than rebuilding a ship from an old video or forum post.
+
+; Current tools and live information
+: [[Tools and Resources]] lists maintained route planners, databases, build tools, and material trackers. Frontier's [https://www.elitedangerous.com/news/updates official update timeline] is the safest starting point for patch-by-patch changes after the review date above.
+
+== When older advice disagrees with the game ==
+
+Check three things before acting on an old guide:
+
+# whether it describes Live or Legacy;
+# the publication or update date; and
+# whether it predates a named rework such as the 2024 Engineering changes, Powerplay 2.0, or the end of the System Colonisation beta.
+
+A useful older route or ship build may still work, but its unlock requirements, rewards, material costs, module availability, or interface steps may not. Preserve valuable engineered equipment until its current effects have been identified.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Start Here]] [[New Commander Roadmap]] [[Ships and Equipment]] [[Engineering]] [[Odyssey]] [[Tools and Resources]]}}
+
+[[Category:Guides]]

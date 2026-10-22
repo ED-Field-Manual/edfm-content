@@ -3,22 +3,110 @@ EDFM current-content archive export.
 Title: Enhanced Xeno Scanner
 Namespace: 0
 Page ID: 483
-Revision ID: 2148
-Timestamp: 2026-08-24T23:44:08Z
+Revision ID: 4265
+Timestamp: 2026-09-15T02:43:53Z
 Source URL: https://edfieldmanual.com/wiki/Enhanced_Xeno_Scanner
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Enhanced Xeno Scanner ship module.
+{{Article header|deck=A longer-range anti-xeno utility scanner that identifies Thargoid vessels and reveals targetable internal structures from up to two kilometres.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Live 4.4
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Frontier's official release announcement and maintained in-game module specifications
+ |uncertainty=Station and Rescue Megaship stock can change; check a current outfitting search before travelling.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Enhanced Xeno Scanner''' is a Live-only utility module that analyses Thargoid vessels from up to 2,000 metres. It preserves the standard [[Xeno Scanner]]'s ten-second active scan while multiplying its 500-metre range by four, at the cost of higher power draw.<ref name="frontier">[https://www.elitedangerous.com/news/galnet/xeno-scanner-upgrade Xeno Scanner Upgrade], Frontier Developments, 27 January 3309, accessed 2026-09-15.</ref><ref name="wiki">[https://elite-dangerous.fandom.com/wiki/AX_Xeno_Scanner AX Xeno Scanner], Elite Dangerous Wiki, accessed 2026-09-15.</ref>
 
-== Overview ==
+A completed scan identifies the Thargoid variant and exposes detailed subtarget information. Against a Thargoid Interceptor, this includes its hearts, allowing tracking weapons to select an exposed heart directly.
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Specifications ==
+
+{| class="wikitable"
+! Class
+! Rating
+! Mass
+! Integrity
+! Power draw
+! Active range
+! Scan time
+|-
+| 0
+| C
+| 1.3 t
+| 56
+| 0.8 MW
+| 2,000 m
+| 10 s
+|}
+
+The scanner occupies one utility mount. It requires no ammunition, synthesis, or consumable charges, and it cannot be modified through conventional [[Engineering]].<ref name="wiki" />
+
+== Scan information ==
+
+The scanner has passive and active functions:
+
+* The '''passive scan''' identifies basic non-human vessel information such as general vessel type, hull integrity, and combat status.
+* The '''active scan''' provides the detailed variant and internal-subtarget information used for Thargoid combat and research.
+
+A Xeno Scanner is not required to damage a Thargoid. Fixed weapons can still be aimed manually, including at a visibly exposed Interceptor heart. The completed scan is especially important for gimballed and turreted weapons because it lets the pilot select the heart as a subtarget.
+
+== Operation ==
+
+Fit the scanner in a utility mount and assign it to a fire group. Target the Thargoid vessel, face it, remain within 2,000 metres, and hold the scanner trigger until the ten-second cycle completes. Breaking range or losing the target before completion interrupts the scan.
+
+The fourfold range increase is the Enhanced scanner's principal advantage. The standard scanner's 500-metre requirement forces a ship close to an Interceptor for the full scan; the Enhanced module provides more room to manage speed, heat, and incoming fire.
+
+{{Field note|Completing the scan does not exert an Interceptor heart. It only reveals the vessel's detailed structure and enables subtarget selection; weapons must still damage the hull and exposed heart.}}
+
+== Acquisition ==
+
+Professor Palin's team at Arque Laboratory designed the upgrade after AX pilots reported that the original scanner's short range hindered combat. Frontier released it through military, high-tech, and industrial planetary bases and aboard Rescue Megaships.<ref name="frontier" />
+
+It is purchased for credits through Outfitting and requires no Technology Broker unlock. Use a current outfitting finder because local station stock and Rescue Megaship locations can change.
+
+== Comparison with the standard scanner ==
+
+{| class="wikitable"
+! Characteristic
+! [[Xeno Scanner]]
+! Enhanced Xeno Scanner
+|-
+| Active range
+| 500 m
+| 2,000 m
+|-
+| Scan time
+| 10 s
+| 10 s
+|-
+| Mass
+| 1.3 t
+| 1.3 t
+|-
+| Power draw
+| 0.2 MW
+| 0.8 MW
+|}
+
+The Enhanced version exchanges 0.6 MW of additional power draw for the longer scan envelope. Once a scan is complete, both versions provide the detailed information needed to identify and subtarget the same Thargoid structures.<ref name="wiki" />
+
+== Sources ==
+<references />
+
+{{Related articles
+ |[[Xeno Scanner]]
+ |[[Enhanced AX Multi-Cannon]]
+ |[[AX Multi-Cannon]]
+ |[[Thargoid]]
+}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]

@@ -3,34 +3,112 @@ EDFM current-content archive export.
 Title: Pulse Wave Analyser
 Namespace: 0
 Page ID: 570
-Revision ID: 2185
-Timestamp: 2026-08-24T23:44:54Z
+Revision ID: 4481
+Timestamp: 2026-09-16T15:54:27Z
 Source URL: https://edfieldmanual.com/wiki/Pulse_Wave_Analyser
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-__NOINDEX__
-{{Article header|deck=The pulse wave analyser highlights asteroids worth investigating for deposit mining.}}
+{{Article header|deck=A mining utility scanner that highlights asteroids with anomalous internal or surface deposits.}}
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=EDCD outfitting data plus current mining workflow research|uncertainty=Visual identification details and scanner performance still need direct Live-game verification.}}
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Specifications use commit-pinned EDCD module data and maintained equipment references; mining role is cross-checked against EDFM's sourced mining references.
+ |uncertainty=Highlight appearance varies with range, viewing angle, and graphics conditions; a prospector remains the decisive check.
+}}
 
 {{Ship module infobox}}
 
-The '''Pulse Wave Analyser''' is a mining scanner used to highlight asteroids that may be worth inspecting for core or deposit mining. It helps narrow the search, but a commander still has to inspect and prospect candidates before committing to extraction.
+== Overview ==
 
-{{Draft warning}}
+The '''Pulse Wave Analyser''' is a utility-mounted mining scanner used to search asteroid fields. Activating it sends out an electromagnetic pulse that briefly highlights asteroids with anomalous structures or deposits. Strong returns help a commander narrow the search for core, sub-surface, or surface-deposit mining targets.<ref name="wiki-pwa">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Pulse_Wave_Analyser Pulse Wave Analyser].</ref>
 
-== Mining role ==
+A highlight is an invitation to inspect an asteroid, not confirmation of a useful deposit. The analyser does not identify the commodity, list the asteroid's deposits, expose fissures as targets, or increase yield. A [[Prospector Limpet Controller|Prospector Limpet]] provides that detailed result.
+
+== Specifications ==
+
+{| class="wikitable sortable"
+! Rating
+! Mass
+! Integrity
+! Power draw
+! Scan range
+! Scan time
+! Boot time
+! Price
+|-
+| E || 1.3 t || 32 || 0.20 MW || 12,000 m || 3.0 s || 3.0 s || 13,544 CR
+|-
+| D || 1.3 t || 24 || 0.40 MW || 15,000 m || 3.0 s || 3.0 s || 40,633 CR
+|-
+| C || 1.3 t || 40 || 0.80 MW || 18,000 m || 3.0 s || 3.0 s || 121,899 CR
+|-
+| B || 1.3 t || 56 || 1.60 MW || 21,000 m || 3.08 s || 3.0 s || 365,698 CR
+|-
+| A || 1.3 t || 48 || 3.20 MW || 24,000 m || 3.0 s || 3.0 s || 1,097,095 CR
+|}
+
+All ratings occupy a Class 0 utility mount and have the same mass. Higher ratings extend scan range while increasing power draw and purchase price.<ref name="data-pwa">EDCD Coriolis Data, [https://raw.githubusercontent.com/EDCD/coriolis-data/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/hardpoints/pulse_wave_analyser.json Pulse Wave Analyser module record], commit-pinned.</ref>
+
+The EDCD record lists the E-rated module's integrity as 24, while the Elite Dangerous Wiki lists 32. The table uses 32 because it follows the normal E-rated integrity progression and is independently published in the dedicated module reference; commanders who need the exact current integrity should confirm it in Outfitting.
+
+== Operation ==
+
+Assign the analyser to a fire group and use it in Analysis Mode. Holding and releasing the trigger emits a pulse through the surrounding asteroid field. Asteroids with relevant anomalies glow temporarily as the pulse passes over them, allowing the commander to compare candidates while moving through the ring or cluster.
+
+The return's brightness and opacity provide visual clues. A dull or translucent return can indicate surface deposits, while a bright, opaque return can indicate a core-bearing candidate. The red, orange, and yellow areas show where the analyser is returning deposit-related structure; colour alone is not a direct commodity or yield scale.<ref name="wiki-pwa" />
+
+False positives and ambiguous returns are normal. A useful search loop is:
+
+# pulse while moving through the asteroid field;
+# inspect a promising highlighted shape from more than one angle;
+# launch a prospector limpet; and
+# commit mining tools only after the prospector confirms the desired contents and deposit type.
+
+The complete ordered workflow belongs to [[How to Core Mine]] and the other mining procedures rather than this module reference.
+
+== Mining roles ==
 
 {{#invoke:Mining|equipmentNote|page=Pulse Wave Analyser}}
 
-The analyser is most closely associated with [[Core Mining]], where commanders search for candidate core asteroids before confirming them with closer inspection and prospecting. It can also help with deposit-focused searches, but it does not replace a [[Prospector Limpet Controller]] or guarantee that the highlighted asteroid contains the desired commodity.
+=== Core mining ===
+
+The analyser is most strongly associated with [[Core Mining]]. It helps locate candidate asteroids before the prospector confirms a core and reveals targetable fissures. It does not detect fissure strength, tune seismic charges, or replace recognition of the core-bearing asteroid shapes used by each ring class.
+
+=== Surface and sub-surface deposits ===
+
+The analyser can also highlight asteroids carrying exposed or internal deposits used by [[Surface Deposit Mining]] and [[Sub-surface Mining]]. Those deposits are confirmed after prospecting and then require their own extraction tools: the [[Abrasion Blaster]] for exposed deposits or the [[Sub-surface Displacement Missile]] for internal deposits.
+
+The analyser is not required for ordinary [[Laser Mining]], where a prospector directly evaluates candidate asteroids and improves fragment yield.
+
+== Rating choice ==
+
+Rating mainly trades power for detection range. An A-rated analyser can reveal candidates at twice the range of the E-rated version, but draws sixteen times as much power. A ship with limited utility power may prefer a lower rating and search closer to the asteroids; a high-speed search build may value the longer warning distance.
+
+Range does not improve the quality of an individual asteroid or replace visual confirmation. The useful rating is the one that fits the ship's power budget and search speed.
+
+== Engineering ==
+
+Pulse Wave Analysers do not accept Engineering blueprints or Experimental Effects. Their range, mass, power draw, and integrity are determined by the purchased rating.
+
+== Acquisition ==
+
+All five ratings are standard credit purchases through Outfitting where local stock is available. The module requires no Engineer, Technology Broker, or Powerplay unlock and is present in both current Live and Legacy modes.
 
 == Related Field Procedures ==
 
 {{#invoke:Procedures|list|page=Pulse Wave Analyser}}
 
-{{Related articles|[[Core Mining]] [[Surface Deposit Mining]] [[Seismic Charge Launcher]] [[Abrasion Blaster]] [[How to Core Mine]]}}
+== Sources ==
+
+<references />
+
+{{Related articles|[[Mining]] [[Core Mining]] [[Surface Deposit Mining]] [[Sub-surface Mining]] [[Prospector Limpet Controller]] [[Seismic Charge Launcher]] [[Abrasion Blaster]] [[How to Core Mine]]}}
+
 [[Category:Modules]]
 [[Category:Ship modules]]
 [[Category:Mining]]

@@ -2,23 +2,11 @@
 EDFM current-content archive export.
 Title: Universal Limpet Controller
 Namespace: 0
-Page ID: 616
-Revision ID: 2208
-Timestamp: 2026-08-24T23:45:22Z
+Page ID: 843
+Revision ID: 5081
+Timestamp: 2026-09-23T15:30:29Z
 Source URL: https://edfieldmanual.com/wiki/Universal_Limpet_Controller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Universal Limpet Controller ship module.
-}}
-
-{{Ship module infobox}}
-
-{{Draft warning}}
-
-== Overview ==
-
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
-
-[[Category:Modules]]
-[[Category:Ship modules]]
+#REDIRECT [[Universal Multi Limpet Controller]]

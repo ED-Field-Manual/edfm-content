@@ -1,0 +1,185 @@
+<!--
+EDFM current-content archive export.
+Title: Mission Influence and BGS Effects
+Namespace: 0
+Page ID: 968
+Revision ID: 6124
+Timestamp: 2026-10-04T15:55:58Z
+Source URL: https://edfieldmanual.com/wiki/Mission_Influence_and_BGS_Effects
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=How to identify the faction and system affected by a mission.}}
+
+{{Article status
+| status = Partially verified
+| mode = Live
+| version = Current Live journal schema; documented courier example retained in Player Journal Manual v38
+| reviewed = 2026-10-04
+| reviewer = Sythan
+| source_quality = Journal structure and the worked courier pattern are documented by Frontier; broader BGS weighting uses current community testing.
+| uncertainty = Faction effects vary by mission type and variant. The completed journal event is the reliable record for an individual mission.
+}}
+
+A mission can involve an issuer, a destination faction, a target faction, and more than one star system. The compact Mission Board display does not always make those relationships clear. For [[Background Simulation|BGS]] work, the important questions are:
+
+# Which faction received an effect?
+# Which system did that effect apply to?
+# Was the effect reputation, influence, a state trend, or a combination?
+
+'''Faction influence is system-specific.''' An influence effect recorded for Faction B in System B does not increase Faction B in System A merely because the faction is also present there.
+
+== The four identities to record ==
+
+{| class="wikitable"
+! Identity
+! Meaning
+|-
+| Mission giver
+| The faction that offered the contract. Recorded as <code>Faction</code> in <code>MissionAccepted</code>.
+|-
+| Origin system
+| The system where the contract was accepted. This is context, not proof that every effect lands there.
+|-
+| Destination or target faction
+| The faction receiving a delivery or named as the mission target where that field applies.
+|-
+| Destination or target system
+| The system containing the destination, objective, or mission-valid target.
+|}
+
+The issuing faction is often important, but it is not safe to assume that it receives every effect from every mission. Frontier's current journal manual retains a courier example in which the top-level mission faction receives reputation while a different target faction receives an influence effect tied to the destination system's <code>SystemAddress</code>.<ref name="journalv38">[https://hosting.zaonce.net/community/journal/v38/Journal_Manual_v38.pdf Elite Dangerous Player Journal Manual, version 38], Frontier Developments, pp. 67–70.</ref>
+
+== Worked courier example ==
+
+A commander wants to increase '''Faction A''' in '''System A'''. Faction A offers a courier mission that delivers data to '''Faction B''' in '''System B'''. Faction B also happens to be present in System A.
+
+{| class="wikitable"
+! Stage
+! Faction
+! System
+! What it establishes
+|-
+| Mission accepted
+| Faction A
+| System A
+| Faction A is the issuer.
+|-
+| Data delivered
+| Faction B
+| System B
+| Faction B is the destination or target faction for the delivery.
+|-
+| Completion journal
+| Faction B
+| System B's <code>SystemAddress</code>
+| In the documented courier pattern, this is where Faction B's influence effect is recorded.
+|-
+| Completion journal
+| Faction A
+| No influence entry in the documented example
+| The issuer receives recorded reputation in that example, not an influence entry.
+|}
+
+=== Answers for the example ===
+
+* '''Which faction receives the recorded influence?''' In Frontier's documented courier example, the destination or target faction does.
+* '''In which system?''' The system named by that influence entry's <code>SystemAddress</code>: System B in this example.
+* '''Does Faction B also gain influence in System A?''' No. A faction effect for System B is not a galaxy-wide effect.
+* '''Is the mission safe if Faction B is a rival in System A?''' With respect to Faction B's influence in System A, this documented result does not help it there. The mission can still have other reputation, state, legal, or mission-specific consequences, so verify the completion record.
+* '''What changes when INF+++ is selected?''' The selected package gives greater relative influence weight than a lower-INF package, but it does not make the effect global and does not reveal an exact percentage. The completed <code>FactionEffects</code> entries show which faction and system actually received the recorded effect.
+
+{{Tip|This example explains a documented courier completion. It should not be copied blindly onto massacre, assassination, passenger, delivery, or Odyssey missions. Verify each mission family separately.}}
+
+== How to read the journal ==
+
+On Windows, journal files are normally written to:
+
+<pre>C:\Users\User Name\Saved Games\Frontier Developments\Elite Dangerous\</pre>
+
+Each file is named in the form <code>Journal.&lt;datestamp&gt;.&lt;part&gt;.log</code>, and each line is a JSON object.<ref name="journalv38" />
+
+=== Step 1: record the mission ID ===
+
+Find the <code>MissionAccepted</code> line. Record:
+
+* <code>MissionID</code>;
+* <code>Faction</code>;
+* <code>Name</code> and <code>LocalisedName</code>;
+* <code>TargetFaction</code> where present;
+* <code>DestinationSystem</code> and <code>DestinationStation</code> where present;
+* displayed <code>Reputation</code> and <code>Influence</code> fields where present.
+
+The acceptance event describes the offer. It is not the final ledger of all faction effects.
+
+=== Step 2: find MissionCompleted ===
+
+Search later journal lines for the same <code>MissionID</code> and <code>event":"MissionCompleted"</code>.
+
+The useful structure is <code>FactionEffects</code>. Each array entry can contain:
+
+* <code>Faction</code> — the affected faction;
+* <code>Effects</code> — state-related trend entries;
+* <code>Influence</code> — one or more system-specific influence records;
+* <code>SystemAddress</code> — the numeric address of the affected system;
+* <code>Trend</code> — the direction shown for the effect;
+* <code>Influence</code> within that record — the relative strength string;
+* <code>Reputation</code> — the recorded reputation strength for that faction.
+
+One completion can contain multiple faction entries and more than one system entry. Do not stop at the first faction name.
+
+=== Step 3: resolve SystemAddress ===
+
+The journal uses a numeric system address rather than repeating the system name inside every influence entry. Match it to a journal event for the visited system, such as <code>FSDJump</code> or <code>Location</code>, or resolve it with a current Elite Dangerous data tool that accepts system addresses.
+
+=== Step 4: distinguish effect types ===
+
+* A <code>Reputation</code> entry changes commander standing with the named faction.
+* An <code>Influence</code> entry is tied to the listed <code>SystemAddress</code>.
+* An <code>Effects</code> entry records a state trend and should not be treated as an influence percentage.
+
+The plus characters are effect-strength representations, not percentage points.
+
+== Reward selection ==
+
+Selecting a higher-INF package prioritises influence over part of the alternative reward. It does not:
+
+* create influence in every system occupied by the faction;
+* guarantee a visible percentage-point movement of the same size;
+* prove that the issuer is the only affected faction;
+* prove that secondary effects scale identically across every mission type.
+
+Current community BGS testing treats mission influence as relative mission value. The visible result depends on system population and the day's total eligible activity, and the effect is applied through the BGS update rather than as a guaranteed immediate percentage change.<ref name="sincbgs">[https://sinc.science/guides/sinc/The%20Complete%20BGS%20Guide%202025.pdf The Complete BGS Guide 2025, version 3.0], SINC, pp. 31–33.</ref>
+
+== Negative effects and failure ==
+
+Community BGS documentation reports that failing a mission with an influence component can produce a negative effect for the associated faction, and that repeated abandonment should not be used as a precision BGS tool.<ref name="sincbgs" /> Frontier's journal schema does not expose the same detailed <code>FactionEffects</code> array in <code>MissionFailed</code> or <code>MissionAbandoned</code>, so the exact faction and system outcome cannot be reconstructed from those events alone.<ref name="journalv38" />
+
+Plan to complete every mission taken for BGS work. If failure occurs, record the issuer, target, location, mission type, and later system movement rather than assuming a universal result.
+
+== Mission-board decision process ==
+
+# Write down the issuing faction and origin system.
+# Identify every destination and target faction named by the contract.
+# Decide whether any objective attacks, steals from, or otherwise harms a campaign faction.
+# Select the reward package that matches the goal.
+# Complete the contract without optional crimes or avoidable failure.
+# Check <code>MissionCompleted</code> and map every influence entry to its <code>SystemAddress</code>.
+# Use that result for future contracts of the same tested variant; do not generalise it to unrelated mission types.
+
+== Related Field Manual entries ==
+
+* [[Background Simulation]]
+* [[Background Simulation#Factions, influence, and reputation|Influence]]
+* [[Reputation]]
+* [[Background Simulation#Factions, influence, and reputation|Minor factions]]
+* [[Mission Rewards]]
+* [[Courier Missions for BGS]]
+
+== References ==
+
+<references />
+
+[[Category:Missions]]
+[[Category:Mission guides]]
+[[Category:BGS guides]]

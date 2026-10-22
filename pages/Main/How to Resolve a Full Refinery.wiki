@@ -3,48 +3,80 @@ EDFM current-content archive export.
 Title: How to Resolve a Full Refinery
 Namespace: 0
 Page ID: 714
-Revision ID: 1681
-Timestamp: 2026-08-24T00:23:00Z
+Revision ID: 4368
+Timestamp: 2026-09-16T01:14:10Z
 Source URL: https://edfieldmanual.com/wiki/How_to_Resolve_a_Full_Refinery
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes|reviewed=2026-08-24|reviewer=Sythan|source_quality=Procedure draft based on current refinery and cargo-blocking workflow|uncertainty=Exact cockpit labels and unusual refinery edge cases still need final in-game verification.}}
-__NOINDEX__
-{{Field procedure|summary=Clear blocked refinery bins and cargo problems so mining can continue without losing valuable fragments unnecessarily.}}
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1.1; ship-refinery mechanics also apply to Legacy
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Current EDFM module reference supported by in-game module wording and established community documentation
+ |uncertainty=Panel bindings, control labels, and rare transfer delays vary by platform, interface version, and ship state.
+}}
+{{Field procedure|summary=Diagnose cargo, bin, and incoming-fragment blockages and restore refinery processing without venting useful progress unnecessarily.}}
 
-Use this procedure when the refinery stops accepting useful fragments, completed tonnes do not move into cargo, or collectors are working but mining progress has stalled.
+Use this procedure when a ship's [[Refinery]] stops accepting useful fragments, a completed bin does not transfer a tonne into cargo, or collectors continue working while refinery progress has stalled.
 
-{{Draft warning}}
+A refinery bin holds progress for one commodity. At 100%, it creates one tonne and transfers that tonne into a [[Cargo Rack|cargo rack]]. A full cargo hold leaves the completed bin occupied until enough cargo space becomes available.<ref name="refinery">[https://elite-dangerous.fandom.com/wiki/Refinery Refinery], Elite Dangerous Wiki. Accessed 15 September 2026.</ref>
 
 == Before you start ==
 
-* Stop firing mining tools until the blockage is understood.
-* Keep the ship in a safe position away from asteroid surfaces.
-* Check whether the problem is refinery bins, cargo capacity, or the ignore list.
+* Stop extracting new fragments until the blockage is identified.
+* Hold the ship in a safe position away from rotating asteroid surfaces.
+* Let any fragment already beneath the cargo hatch finish delivering, then inspect the right-hand inventory and refinery information.
+* Decide which commodities are worth preserving before using '''Vent'''. Venting a bin discards all progress currently stored in that bin.
+
+== Diagnose the blockage ==
+
+Check these conditions in order:
+
+# '''Cargo capacity:''' look for at least one free tonne of cargo space. Limpets and existing commodities count against the same capacity.
+# '''Completed bins:''' a bin at 100% with no free cargo space is waiting to transfer a tonne.
+# '''Occupied bins:''' if every bin contains a different partial commodity, a newly delivered resource without a matching bin cannot be assigned.
+# '''Incoming resource:''' identify any resource waiting in the incoming processing area because no matching or empty bin exists.
+# '''Module state:''' confirm that the refinery is powered, enabled, and functional.
+
+The refinery processes mined commodity components. Raw Engineering materials use separate material storage and do not fill refinery bins.
 
 == Procedure ==
 
 {{Procedure steps|
-# Open the refinery and cargo information for the ship.
-# Check whether the cargo hold has free space for a completed tonne.
-# If cargo is full, make space before expecting the refinery to finish more tonnes.
-# Review each refinery bin and identify unwanted partial resources.
-# Vent or clear low-priority bins that are blocking the resources the run is keeping.
-# If collectors keep refilling the same unwanted bins, use [[How to Ignore Unwanted Mining Commodities]].
-# Resume collection only after at least one useful refinery path is clear.
+# If cargo is full, create at least one tonne of space. In the field, discard or abandon only cargo or excess limpets that the run can safely lose; at a station, sell or transfer cargo instead.
+# Watch the refinery after space becomes available. A completed bin should transfer one tonne into cargo and become available for further processing.<ref name="refinery" />
+# If cargo space was not the problem, compare the occupied bins with the commodity the run is trying to keep.
+# Select the least valuable unwanted partial bin and choose '''Vent''' only after confirming its name and percentage. The stored progress is permanently lost.
+# If the incoming processing area contains an unwanted resource, discard that resource rather than sacrificing a useful high-progress bin when the interface offers that choice.
+# If every occupied bin is valuable, stop collection and preserve the partial progress. Return to unload cargo or accept that the current refinery cannot process another commodity simultaneously.
+# Prevent the blockage from recurring by adding unwanted collectables to the ignore list through [[How to Ignore Unwanted Mining Commodities]].
+# Resume collection with one useful fragment and verify that its component enters a matching or empty bin, or that a completed tonne moves into cargo.
 }}
+
+A blocked incoming area and a full cargo hold are different failures. Venting a partial bin does not create cargo capacity, and discarding cargo does not create a refinery bin when every bin remains occupied by a different commodity.<ref name="hopper">[https://forums.frontier.co.uk/threads/hopper-is-empty-what-is-the-hopper.473341/ Hopper is empty... What is the Hopper?], Frontier Forums community discussion. Accessed 15 September 2026.</ref>
 
 == Completion check ==
 
-The procedure is complete when the refinery can accept useful fragments again and completed tonnes can transfer into cargo.
+The refinery is clear when:
+
+* useful incoming components can enter matching or empty bins;
+* completed bins can transfer whole tonnes into cargo;
+* no unwanted incoming resource is holding processing open; and
+* collector deliveries no longer recreate the same blockage.
+
+Resume normal mining only after one useful fragment completes that path successfully.
 
 == Common problems ==
 
-* '''Cargo is full:''' refinery bins cannot complete into cargo without space.
-* '''Every bin contains a different partial resource:''' clear the lowest-priority bins and consider using a refinery with more bins for mixed mining.
-* '''The same unwanted fragment keeps returning:''' ignore that commodity before continuing collection.
-* '''A valuable partial bin is present:''' do not vent it unless the run plan has changed or it blocks something more important.
+* '''A completed bin remains at 100%:''' free a full tonne of cargo capacity and confirm that the refinery is powered. Jettisoning less than one tonne of capacity is not possible; remove at least one cargo canister or limpet.
+* '''Every bin contains useful partial progress:''' do not vent blindly. Stop collecting that new commodity, preserve the bins, and unload or refit before continuing a mixed-resource run.
+* '''The same unwanted bin returns immediately:''' collectors are still bringing that resource. Add it to the ignore list before resuming.
+* '''Collectors deliver fragments but no percentage changes:''' look for a blocked incoming resource, a disabled refinery, or fragments whose useful output is a raw Engineering material rather than a refinery commodity.
+* '''Cargo was jettisoned but comes back aboard:''' an autonomous collector may retrieve it again. Mark the canister ignored, abandon it where appropriate, pause collectors, or move away before resuming.
+* '''The refinery has too few bins for the run:''' a higher-class or higher-rated refinery can hold more simultaneous partial commodities; module selection belongs on the [[Refinery]] reference page.
 
 == Related Reference Pages ==
 {{#invoke:Procedures|referenceLinks|procedure=How to Resolve a Full Refinery}}
@@ -52,4 +84,9 @@ The procedure is complete when the refinery can accept useful fragments again an
 == Related Field Procedures ==
 {{#invoke:Procedures|list|page=How to Resolve a Full Refinery}}
 
+== Sources ==
+
+<references />
+
+[[Category:Field Procedures]]
 [[Category:Mining]]

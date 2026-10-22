@@ -3,31 +3,77 @@ EDFM current-content archive export.
 Title: Ship Modules
 Namespace: 0
 Page ID: 435
-Revision ID: 2021
-Timestamp: 2026-08-24T21:23:56Z
+Revision ID: 4826
+Timestamp: 2026-09-20T15:06:09Z
 Source URL: https://edfieldmanual.com/wiki/Ship_Modules
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured directory of ship module pages. The entries below are initial database-backed stubs and are intentionally awaiting source-backed details.
+{{Article header|deck=Directory of shipboard modules, weapons, utilities, and support equipment.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live directory; Legacy scope is stated on linked pages where separately verified
+ |reviewed=2026-09-20
+ |reviewer=Sythan
+ |source_quality=Frontier's current Outfitting guidance and verified EDFM module references
+ |notes=The directory includes equipment shared by Live and Legacy as well as newer Live-only modules. Availability varies by mode and module.
 }}
 
-'''Ship modules''' are being organized into structured EDFM pages so module articles, directories, and future comparison views can draw from the same data-backed page set.
+'''Ship modules''' are the fitted components that determine how a ship moves, travels, fights, carries cargo, protects itself, and supports specialised activities. A hull provides the available slots; the installed modules turn those slots into a working build.
 
 {{Related articles
- |label=Browse equipment
+ |label=Ships and equipment
  |[[Ships and Equipment]]
  |[[Ships]]
+ |[[Engineering]]
  |[[Engineering Blueprints]]
  |[[Experimental Effects]]
+ |[[:Category:Modules|Module articles]]
 }}
 
-{{Draft warning}}
+== Slot groups ==
+
+Frontier divides the Outfitting screen into four main groups.<ref name="frontier-getting-started">[https://www.elitedangerous.com/news/getting-started-elite-dangerous Frontier Developments: Getting Started in Elite Dangerous], 29 September 2025; accessed 20 September 2026.</ref>
+
+; Hardpoints
+: Weapons and other deployable tools, including mining and anti-xeno equipment. A weapon page identifies its supported hardpoint sizes and fixed, gimballed, or turreted variants.
+
+; Utility mounts
+: External support equipment such as scanners, defensive countermeasures, heat-management tools, and [[Shield Booster|Shield Boosters]].
+
+; Core internals
+: The systems a ship needs for normal operation, including its [[Power Plant]], [[Thrusters]], [[Frame Shift Drive]], [[Life Support]], [[Power Distributor]], [[Sensors]], [[Fuel Tank|fuel tank]], and [[Armour|armour]].
+
+; Optional internals
+: Role equipment such as cargo racks, shield generators, passenger cabins, repair modules, limpet controllers, refineries, fuel scoops, and vehicle hangars. Some ships also have restricted military compartments that accept only compatible defensive modules.
+
+== Classes and ratings ==
+
+A module's '''class''' describes its size. Its '''rating''' describes the performance and trade-offs of that variant. Frontier's standard A–E shorthand treats E-rated modules as basic, D-rated modules as the lightest, C-rated modules as a budget option, B-rated modules as the sturdiest, and A-rated modules as strong but expensive all-round choices.<ref name="frontier-getting-started" />
+
+That shorthand is a starting point rather than a universal ranking. Some module families use only one rating, a restricted set of ratings, or a special rating outside A–E. See the individual module page for documented classes, ratings, mass, power draw, compatibility, performance, and limitations.
+
+== Builds and Engineering ==
+
+A module does not operate in isolation. The [[Power Plant]] determines whether the ship can supply its installed equipment, while the [[Power Distributor]] controls the SYS, ENG, and WEP capacitors used by shields, engines, and weapons. Heat, mass, slot use, distributor demand, and power draw can matter as much as a module's headline performance.
+
+Compatible modules can be modified through [[Engineering]]. Use [[Engineering Blueprints]] for graded modifications and [[Experimental Effects]] for compatible additional specialised effects. Where those details have been verified, the individual module page documents Engineering compatibility and acquisition requirements such as Powerplay access, a Technology Broker unlock, or a special reward.
+
+== Reading the directory ==
+
+'''Module class''' gives the equipment's broad role. '''Slot type''' and '''mount''' repeat the concise fitting summary available for each entry. An em dash means that the directory does not provide that summary field.
+
+The table combines module families with named variants that have their own acquisition rules or mechanics. Follow the article link for the subject's documented specifications, acquisition, and version scope; do not infer missing details from a similarly named module.
 
 == Ship module directory ==
 
-The directory below is generated from [[Module:Data/ShipModules/index]]. The individual module articles and data pages have been created as stubs only; factual module details should be filled later from source-backed references.
-
 {{#invoke:ShipModules|directory}}
 
+== Sources ==
+
+<references />
+
 [[Category:Modules]]
+[[Category:Ships and Equipment]]

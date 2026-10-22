@@ -1,0 +1,26 @@
+<!--
+EDFM current-content archive export.
+Title: File:Fonticulua Lapida-Amethyst.png
+Namespace: 6
+Page ID: 917
+Revision ID: 5864
+Timestamp: 2026-10-02T04:20:47Z
+Source URL: https://edfieldmanual.com/wiki/File:Fonticulua_Lapida-Amethyst.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |description = In-game image of Fonticulua Lapida in Elite Dangerous.
+ |subject = Fonticulua Lapida
+ |source = Elite Dangerous, captured in-game
+ |media_type = In-game screenshot
+ |captured_by = [[User:Sythan|Sythan]]
+ |intended_use = Identification and illustration on the Fonticulua Lapida article and related Exobiology pages.
+ |copyright_holder = Frontier Developments plc
+}}
+
+[[Category:Exobiology images]]
+
+== Licensing ==
+{{License-ED screenshot}}

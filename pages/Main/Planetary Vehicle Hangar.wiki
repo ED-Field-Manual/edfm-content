@@ -3,22 +3,103 @@ EDFM current-content archive export.
 Title: Planetary Vehicle Hangar
 Namespace: 0
 Page ID: 555
-Revision ID: 2179
-Timestamp: 2026-08-24T23:44:46Z
+Revision ID: 4462
+Timestamp: 2026-09-16T13:33:31Z
 Source URL: https://edfieldmanual.com/wiki/Planetary_Vehicle_Hangar
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Planetary Vehicle Hangar ship module.
+{{Article header|deck=An optional internal module that carries and deploys Scarab or Scorpion Surface Recon Vehicles from a landed ship.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy; the Scorpion is Odyssey-only
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Current community-maintained module and outfitting references
+ |uncertainty=Outfitting stock varies by port; Scorpion purchase availability also depends on Odyssey settlement services.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Planetary Vehicle Hangar''' is an optional internal module that stores and deploys [[Surface Recon Vehicles|Surface Recon Vehicles]] from a landed ship. Each vehicle bay holds one purchased SRV. Class 2 modules provide one bay, Class 4 modules provide two, and Class 6 modules provide four.<ref name="wiki">[https://elite-dangerous.fandom.com/wiki/Planetary_Vehicle_Hangar Planetary Vehicle Hangar], Elite Dangerous Wiki, accessed 16 September 2026.</ref>
 
-== Overview ==
+The standard hangar supports the Scarab and, in the Live Odyssey game, the Scorpion. It does not carry the [[Rhino]], which requires a [[Large Planetary Vehicle Hangar]].
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Specifications ==
+
+{| class="wikitable sortable"
+! Class
+! Rating
+! Vehicle bays
+! Mass
+! Power draw
+! Base price
+|-
+| 2 || H || 1 || 12 t || 0.25 MW || 18,000 CR
+|-
+| 2 || G || 1 || 6 t || 0.75 MW || 21,600 CR
+|-
+| 4 || H || 2 || 20 t || 0.40 MW || 72,000 CR
+|-
+| 4 || G || 2 || 10 t || 1.20 MW || 86,400 CR
+|-
+| 6 || H || 4 || 34 t || 0.60 MW || 576,000 CR
+|-
+| 6 || G || 4 || 17 t || 1.80 MW || 691,200 CR
+|}
+
+G-rated hangars have half the mass of the corresponding H-rated module but draw three times as much power and cost more. Both ratings provide the same number of vehicle bays for their class.<ref name="edsm">[https://www.edsm.net/en/faq/outfitting/index/id/5/name/Optional+Internal/sub/Planetary+Vehicle+Hangars Planetary Vehicle Hangars], EDSM outfitting reference, accessed 16 September 2026.</ref>
+
+The module's mass is fixed. Loading or deploying an SRV does not change the carrier ship's listed mass. Planetary Vehicle Hangars cannot be modified through [[Engineering]].
+
+== Vehicle bays ==
+
+Buying a hangar does not include a vehicle. Each bay must be stocked separately through Outfitting or a compatible surface service.
+
+A multi-bay hangar can carry several vehicles of the same type or a mixture of supported SRVs. Extra bays provide replacements if one SRV is destroyed and let a commander choose a different vehicle role before deployment. They do not allow one Commander to control several SRVs simultaneously.
+
+;Scarab
+:The general-purpose SRV available in both Live and Legacy. It supports surface travel, cargo collection, data-link activity, and turret operation.
+
+;Scorpion
+:A combat-oriented SRV available in Live to Odyssey owners. It must be purchased from an eligible military-economy settlement service and loaded into a standard Planetary Vehicle Hangar.<ref name="wiki" />
+
+;Rhino
+:A large surface-mining vehicle that is physically incompatible with the standard hangar. It uses the dedicated [[Large Planetary Vehicle Hangar]] and its own confirmed carrier-ship list.
+
+== Deployment and recovery ==
+
+An SRV can be deployed after the carrier ship has landed on suitable terrain. The Role Panel shows the available vehicle bays and their loaded SRVs. Deployment lowers the selected vehicle through the ship's cargo hatch.
+
+To recover, drive beneath the landed ship, enter the marked boarding zone, and use the boarding command shown in the vehicle interface. The ship must have sufficient clearance and a valid surface position for the recovery area to be accessible.
+
+A deployed SRV cannot travel through Supercruise or hyperspace independently. Recalling the ship after dismissing it, boarding again, and then taking off are separate operations from the hangar's storage function.
+
+The hangar needs power to deploy a vehicle. Module power priorities should therefore leave it operable when surface deployment is required. Once on the surface, the SRV has its own fuel, hull, ammunition, cargo, and repair state.
+
+== Choosing a variant ==
+
+A Class 2 hangar is the smallest choice for carrying one SRV. Class 4 and Class 6 variants trade larger optional compartments and more mass for redundant vehicles or different loaded types.
+
+G rating is normally preferable where jump range and ship mass matter and sufficient power is available. H rating reduces power demand but doubles the hangar's mass. The practical choice depends on the carrier ship's power margin, optional-slot pressure, expected distance from replacement services, and need for spare vehicles.
+
+The standard hangar is distinct from launch bays for other craft. [[Vessel Hangar|Vessel Hangars]] carry ship-launched fighters or vessels, while the Large Planetary Vehicle Hangar carries the Rhino. Compatibility with one hangar family does not imply compatibility with another.
+
+== Acquisition ==
+
+Planetary Vehicle Hangars are purchased for credits through Outfitting and require no Engineer, Technology Broker, naval rank, permit, or Powerplay unlock. Stock depends on the station and module variant.
+
+Vehicles are separate purchases. A newly fitted empty hangar cannot deploy until at least one bay has been stocked.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Surface Recon Vehicles]] [[Large Planetary Vehicle Hangar]] [[Rhino]] [[Vessel Hangar]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Optional internal modules]]
+[[Category:Surface Recon Vehicles]]

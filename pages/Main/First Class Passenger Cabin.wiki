@@ -3,22 +3,107 @@ EDFM current-content archive export.
 Title: First Class Passenger Cabin
 Namespace: 0
 Page ID: 487
-Revision ID: 2150
-Timestamp: 2026-08-24T23:44:10Z
+Revision ID: 4275
+Timestamp: 2026-09-15T03:17:05Z
 Source URL: https://edfieldmanual.com/wiki/First_Class_Passenger_Cabin
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the First Class Passenger Cabin ship module.
+{{Article header|deck=A premium passenger cabin that carries Economy, Business, or First Class travellers on any ship with a suitable optional compartment.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy passenger-cabin specifications
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Current community-maintained passenger-cabin databases cross-checked against the completed EDFM cabin family
+ |uncertainty=Outfitting stock and passenger-mission availability vary by station and system state.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''First Class Passenger Cabin''' is a C-rated optional internal module for passenger missions requiring Economy, Business, or First Class accommodation. It provides fewer seats than an [[Economy Class Passenger Cabin|Economy]] or [[Business Class Passenger Cabin|Business]] cabin of the same size in exchange for meeting the higher comfort requirement.
 
-== Overview ==
+Unlike a [[Luxury Passenger Cabin]], First Class accommodation can be fitted to any ship with a suitable ordinary optional internal compartment. It cannot be installed in a Military Compartment.
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Classes and capacity ==
+
+{| class="wikitable sortable"
+! Module
+! Rating
+! Seats
+! Mass
+! Power draw
+|-
+| Class 4
+| C
+| 3
+| 10 t
+| 0 MW
+|-
+| Class 5
+| C
+| 6
+| 20 t
+| 0 MW
+|-
+| Class 6
+| C
+| 12
+| 40 t
+| 0 MW
+|}
+
+Cabin mass is fixed. Boarding passengers does not add further mass, and an empty cabin weighs the same as an occupied cabin.<ref name="passenger-cabin">[https://elite-dangerous.fandom.com/wiki/Passenger_Cabin Passenger Cabin], Elite Dangerous Wiki, accessed 2026-09-15.</ref>
+
+First Class cabins draw no power and cannot be modified through [[Engineering]].
+
+== Accommodation hierarchy ==
+
+A passenger can use a cabin that meets or exceeds the class specified by the mission:
+
+* Economy passengers can use Economy, Business, First, or Luxury accommodation.
+* Business passengers can use Business, First, or Luxury accommodation.
+* First Class passengers can use First or Luxury accommodation.
+* Luxury passengers require a Luxury cabin.
+
+A First Class cabin can therefore accept lower-tier passengers, but it carries fewer of them than a lower-quality cabin of the same module class. Higher accommodation does not change the contract's destination, party size, or other passenger conditions.<ref name="passenger-cabin" />
+
+== Passenger occupancy ==
+
+Passenger cabins use seats rather than cargo capacity. Seats cannot carry commodities, and a [[Cargo Rack]] cannot hold passengers.
+
+Non-VIP groups can share seats with compatible parties and may be distributed among qualifying cabins. A VIP party reserves an entire cabin for its mission even when the group does not occupy every seat. The unused seats remain unavailable until the contract is completed, failed, or abandoned.<ref name="passenger-cabin" />
+
+The Class 4 cabin is the smallest First Class option and carries three passengers. Larger Class 5 and Class 6 cabins are useful for bigger parties, but a small VIP group can still reserve the whole module.
+
+== Acquisition and fitting ==
+
+First Class Passenger Cabins are purchased for credits through Outfitting. They require no permit, Engineer, Technology Broker unlock, or ship-manufacturer restriction.
+
+Classes 4–6 fit an ordinary optional compartment of the same or greater size. Installing a cabin in an oversized compartment does not increase its seat count; its specifications remain those of the purchased module.
+
+Stock varies by station. Use a current Outfitting search when a particular class is not available locally.
+
+== Choosing between premium cabins ==
+
+Choose First Class when a mission explicitly requires it or when one cabin must remain compatible with Economy, Business, and First Class contracts. Business cabins provide more seats for contracts that do not need First Class accommodation.
+
+Luxury cabins are the only higher tier. They can satisfy First Class requirements, but they carry fewer passengers and can only be installed on compatible Saud Kruger passenger ships. A First Class cabin is therefore the highest accommodation available to unrestricted ship hulls.
+
+== Sources ==
+
+* [https://elite-dangerous.fandom.com/wiki/Passenger_Cabin Elite Dangerous Wiki: Passenger Cabin] — accommodation hierarchy, VIP and non-VIP occupancy, classes, capacities, fixed mass, power draw, and compartment restrictions.
+* [https://www.edsm.net/en/faq/outfitting/index/id/5/name/Optional+Internal/sub/Passenger+Cabins EDSM: Passenger Cabins] — independent class, rating, capacity, mass, power, and price cross-check.
+
+{{Related articles
+ |[[Passenger Cabin]]
+ |[[Economy Class Passenger Cabin]]
+ |[[Business Class Passenger Cabin]]
+ |[[Luxury Passenger Cabin]]
+ |[[Ships]]
+}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]

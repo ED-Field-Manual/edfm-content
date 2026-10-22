@@ -3,22 +3,95 @@ EDFM current-content archive export.
 Title: Rescue Multi Limpet Controller
 Namespace: 0
 Page ID: 584
-Revision ID: 2193
-Timestamp: 2026-08-24T23:45:03Z
+Revision ID: 4572
+Timestamp: 2026-09-17T13:07:16Z
 Source URL: https://edfieldmanual.com/wiki/Rescue_Multi_Limpet_Controller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Rescue Multi Limpet Controller ship module.
+{{Article header|deck=A Class 3 controller that programmes fuel-transfer, repair, and hatch-breaker limpets from one shared active pool.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Core specifications use current EDCD data and maintained module references; the controller family and cross-version availability are confirmed by Frontier's Update 9 notes.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Rescue Multi Limpet Controller''' is an optional internal module that programmes '''fuel-transfer''', '''repair''', and '''hatch-breaker''' limpets. It combines three support functions in one Class 3 compartment and can control up to four active limpets in total.<ref name="edcd">EDCD, [https://raw.githubusercontent.com/EDCD/coriolis-data/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/internal/multi_limpet_controllers.json Multi Limpet Controller data], commit pinned; accessed 2026-09-16.</ref><ref name="edwiki">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Rescue_Multi_Limpet_Controller Rescue Multi Limpet Controller], accessed 2026-09-16.</ref>
 
-== Overview ==
+The four-limpet limit is shared between all three programmes. Two repair limpets and two fuel-transfer limpets fill the controller's active pool; the module does not provide four simultaneous limpets for every function.
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Specifications ==
+
+{| class="wikitable"
+! Module
+! Mass
+! Integrity
+! Power draw
+! Maximum active limpets
+! Fuel/repair range
+! Hatch-breaker range
+! Repair capacity
+! Hatch-break time
+! Reference value
+|-
+| 3D || 8 t || 58 || 0.40 MW || 4 || 800 m || 2,100 m || 60 integrity || 19 s || 29,250 CR
+|-
+| 3C || 10 t || 68 || 0.35 MW || 4 || 1,000 m || 2,600 m || 60 integrity || 16 s || 48,750 CR
+|}
+
+The 3D version is lighter. The 3C version has greater integrity, lower power draw, longer operating ranges, and a shorter hatch-break time. Both variants provide the same four-limpet pool and Class 1-equivalent repair capacity.<ref name="edcd" /><ref name="edwiki" />
+
+== Fuel-transfer function ==
+
+A fuel-transfer limpet takes one tonne of fuel from the launching ship's main tank and delivers it to the targeted ship. It requires a valid target and consumes the limpet when launched. The controller does not create fuel or draw it from the reserve tank, so the donor must retain enough main-tank fuel for its own needs.
+
+The controller's shared pool allows several transfers to remain active while repair or hatch-breaker limpets are also deployed. Its 800 or 1,000 metre fuel-transfer range is shorter than that of many dedicated [[Fuel Transfer Limpet Controller]] variants.
+
+== Repair function ==
+
+A repair limpet restores hull integrity on the launching ship or another friendly ship. Firing without a target applies the limpet to the launching ship; firing with a valid ship targeted sends it to that vessel. Each limpet restores up to 60 hull integrity, matching a dedicated Class 1 [[Repair Limpet Controller]].
+
+Repair limpets can restore an intact but damaged canopy, but they do not repair internal modules or replace a canopy that has completely failed. Incoming external damage cancels the repair and destroys the attached limpet. Only one repair limpet can work on a particular ship at a time, even though the controller can manage four limpets across several targets and functions.
+
+== Hatch-breaker function ==
+
+A hatch-breaker limpet attaches to a targeted cargo hatch and attempts to force cargo from it. Hatch breakers can penetrate shields, but point defence and other countermeasures can destroy them before attachment. A successful breach releases cargo canisters; the Rescue controller has no collector function, so recovery requires manual scooping or a separate collector controller.
+
+The function also supports appropriate hatch interactions on megaships and installations. Using a hatch breaker against another vessel can be a criminal act under the current jurisdiction; the controller's rescue label does not change those legal consequences.
+
+== Fitting trade-offs ==
+
+The Rescue controller's advantage is combining emergency refuelling, hull repair, and hatch access in one slot. This can save optional-internal space on a general support vessel that needs all three functions occasionally.
+
+The compromise is specialist performance. It occupies a Class 3 compartment while its fuel-transfer and repair outputs correspond to small dedicated controllers. A vessel built primarily for refuelling or hull repair can obtain longer range, greater repair capacity, and different rating choices from dedicated modules. The shared pool also means one function can reduce the capacity available to the other two.
+
+Only one multi-limpet controller can be installed on a ship. Dedicated controllers can be fitted alongside it, and their active-limpet limits are separate from this controller's shared pool.
+
+== Limpet supply ==
+
+All three functions use ordinary limpets carried in a [[Cargo Rack]]. Limpets are consumed when launched, and the controller contains no drones of its own. They can be purchased through Advanced Maintenance or synthesised from 10 Iron and 10 Nickel for a batch of four.
+
+== Engineering and acquisition ==
+
+No Engineer blueprints or Experimental Effects are currently documented for the Rescue Multi Limpet Controller. Engineering available to a dedicated controller should not be assumed to apply to this multi-controller.
+
+The 3D and 3C variants are ordinary credit purchases through Outfitting where stocked. No Technology Broker, Engineer, permit, naval rank, or Powerplay unlock is required.
+
+Frontier introduced the multi-limpet controller family in Update 9 and made the modules available to both Odyssey and Horizons commanders.<ref name="update9">Frontier Developments, [https://forums.frontier.co.uk/threads/elite-dangerous-odyssey-update-9-notes.595180/ Elite Dangerous: Odyssey Update 9 notes], 9 December 2021.</ref>
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Fuel Transfer Limpet Controller]] [[Repair Limpet Controller]] [[Hatch Breaker Limpet Controller]] [[Operations Multi Limpet Controller]] [[Cargo Rack]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Optional internal modules]]
+[[Category:Limpet controllers]]

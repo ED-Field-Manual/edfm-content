@@ -1,0 +1,136 @@
+<!--
+EDFM current-content archive export.
+Title: Courier Missions
+Namespace: 0
+Page ID: 969
+Revision ID: 6125
+Timestamp: 2026-10-04T15:56:02Z
+Source URL: https://edfieldmanual.com/wiki/Courier_Missions
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=Data-delivery contracts that use no cargo space.}}
+
+{{Article status
+| status = Partially verified
+| mode = Live
+| version = Current Live
+| reviewed = 2026-10-04
+| reviewer = Sythan
+| source_quality = Core mission and faction-effect fields are documented in Frontier's current Player Journal Manual.
+| uncertainty = Mission variants, hostile responses, and faction effects depend on the offer and local conditions.
+}}
+
+'''Courier missions''', also described as '''data delivery''' missions, require a commander to carry mission data from an issuing contact to a named destination. The data does not occupy cargo space, so even a ship without a Cargo Rack can normally complete the basic objective.
+
+{| class="wikitable"
+! Field
+! Information
+|-
+| Category
+| Transportation
+|-
+| Cargo required
+| No
+|-
+| Combat expected
+| Usually avoidable, but hostile ships and interdictions can be generated
+|-
+| Can be illegal
+| Read the specific contract; legality is not guaranteed by the courier label
+|-
+| Team version
+| Ordinary courier contracts are normally individual missions
+|-
+| BGS relevance
+| Yes; issuer and destination effects must be distinguished
+|-
+| Typical risks
+| Interdiction, hostile response, scans, long supercruise distance, deadline, docking access
+|-
+| Related guides
+| [[Courier Missions for BGS]], [[Mission Influence and BGS Effects]], [[Mission Stacking]]
+|}
+
+== Obtaining a courier mission ==
+
+Courier contracts are offered by minor factions on the Mission Board. Availability depends on the station, faction, commander reputation, faction state, and the current mission selection.
+
+Before accepting, record:
+
+* the issuing faction;
+* the origin system;
+* the destination system and station or settlement;
+* any named destination or target faction;
+* the deadline and threat level;
+* whether hostile ships may be sent;
+* the available reward packages.
+
+The journal's <code>MissionAccepted</code> event can include <code>Faction</code>, <code>TargetFaction</code>, <code>DestinationSystem</code>, <code>DestinationStation</code>, <code>Expiry</code>, and the displayed reputation or influence strength.<ref name="journalv38">[https://hosting.zaonce.net/community/journal/v38/Journal_Manual_v38.pdf Elite Dangerous Player Journal Manual, version 38], Frontier Developments, pp. 67–70.</ref>
+
+== Completing the mission ==
+
+# Plot a route to the destination system.
+# Monitor the Transactions panel for mission updates and hostile warnings.
+# Evade or defeat any mission-generated interdictions.
+# Dock or land at the named destination.
+# Open the Mission Board and select the highlighted completion contact.
+# Choose a reward package and confirm completion.
+
+No physical data item appears in the cargo hold. Ship choice can therefore prioritise jump range, speed, thermal control, shields, and access to the destination's pad size.
+
+== Interdictions and hostile responses ==
+
+A courier mission can generate hostile ships even though combat is not the objective. An update normally identifies the hostile commander or warns that enemies have been sent.
+
+Practical options are:
+
+* submit to the interdiction, boost away, and re-enter supercruise;
+* win the interdiction minigame;
+* destroy the attacker if the ship and legal situation make that sensible;
+* use a fast or cool-running ship to reduce exposure.
+
+Do not assume that destroying an attacker is required. Check the mission update: a combat bonus can be optional while the data delivery remains the actual completion condition.
+
+== Failure and abandonment ==
+
+Courier missions normally fail when the deadline expires or when a mission-specific failure condition is met. The data does not occupy a destructible cargo canister, but ship destruction can still cost time, rebuy, exploration data, vouchers, and other carried assets.
+
+Abandoning the mission can reduce reputation and may have a negative mission effect. Frontier's journal records <code>MissionAbandoned</code> and <code>MissionFailed</code>, but those events do not include the detailed <code>FactionEffects</code> array used by <code>MissionCompleted</code>.<ref name="journalv38" />
+
+== Rewards ==
+
+Courier missions can offer credits, reputation, influence, materials, or commodities in different combinations. See [[Mission Rewards]].
+
+For BGS work, do not assume that the influence icon belongs only to the issuer. Frontier's documented courier example records reputation for the issuing faction and an influence effect for a different target faction in the destination system.<ref name="journalv38" /> Use [[Courier Missions for BGS]] before taking a multi-faction courier contract for a campaign.
+
+== Stacking ==
+
+Several courier missions can be taken along the same route. This is '''route stacking''': each contract still has its own destination, deadline, completion contact, and reward. Delivering one data package does not normally complete unrelated courier contracts unless their own objectives are also satisfied.
+
+Group offers by destination, then check supercruise distance and pad access. A route with many system jumps but short station approaches may be faster than a nominally nearby destination hundreds of thousands of light-seconds from arrival.
+
+== Common mistakes ==
+
+* Treating the issuer as proof of the influence recipient.
+* Checking the system but not the exact destination station or settlement.
+* Ignoring a distant secondary star or long supercruise leg.
+* Accepting more deadlines than the route can support.
+* Fighting every hostile ship when escape would protect the mission.
+* Selecting an INF reward without checking the affected faction and system.
+
+== Related Field Manual entries ==
+
+* [[Reading a Mission]]
+* [[Courier Missions for BGS]]
+* [[Mission Influence and BGS Effects]]
+* [[Mission Rewards]]
+* [[Frame Shift Drive Interdictor|Interdiction equipment]]
+
+== References ==
+
+<references />
+
+[[Category:Missions]]
+[[Category:Mission types]]
+[[Category:Transportation missions]]

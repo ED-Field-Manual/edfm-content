@@ -3,22 +3,129 @@ EDFM current-content archive export.
 Title: Life Support
 Namespace: 0
 Page ID: 520
-Revision ID: 2162
-Timestamp: 2026-08-24T23:44:26Z
+Revision ID: 4387
+Timestamp: 2026-09-16T02:41:54Z
 Source URL: https://edfieldmanual.com/wiki/Life_Support
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Life Support ship module.
+{{Article header|deck=The core internal module that maintains a ship's atmosphere and determines its emergency-oxygen reserve.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Operating behavior is documented by the in-game description and a maintained community reference; rating data are corroborated by the EDCD Coriolis dataset, with current Engineering and synthesis details from INARA.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+'''Life Support''' is the compulsory core internal module that maintains a breathable atmosphere while it is powered and functioning. Its class is fixed by the ship hull, while ratings E through A determine mass, integrity, power draw, purchase price, and the duration of the emergency oxygen carried by the commander's Remlok mask.<ref name="edwiki-life-support">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Life_Support Life Support].</ref>
+
+Emergency oxygen activates when Life Support is switched off, loses power, is disabled, or when the cockpit canopy breaches. The remaining time appears as a countdown on the HUD. Reaching zero is fatal, so the practical value of a higher rating is the extra time available to dock, synthesize oxygen, or restore a disabled module.
+
+== Emergency-oxygen duration ==
+
+The oxygen reserve depends on rating rather than module class.<ref name="edcd-life-support">EDCD Coriolis Data, [https://raw.githubusercontent.com/EDCD/coriolis-data/9e5273b56426596061e2b02a6ba53e3e4103c9ab/modules/standard/life_support.json Life Support dataset].</ref>
+
+{| class="wikitable"
+! Rating
+! Emergency oxygen
+! General fitting characteristic
+|-
+| E
+| 5:00
+| Lowest purchase cost
+|-
+| D
+| 7:30
+| Lowest mass
+|-
+| C
+| 10:00
+| Longer reserve with standard mass
+|-
+| B
+| 15:00
+| High integrity and the greatest mass
+|-
+| A
+| 25:00
+| Longest reserve and highest stock integrity
+|}
+
+Class changes the module's physical and electrical specifications but not those five time limits. Larger ships therefore use a larger Life Support class without receiving more emergency time from class alone.
+
+== Loss of atmosphere ==
+
+A disabled Life Support module and a breached canopy both start the same emergency-oxygen countdown, but the solutions differ:
+
+* If the canopy is intact, restoring power or repairing and reactivating Life Support can restore normal operation.
+* If the canopy has completely breached, repairing Life Support does not seal the open cockpit; the commander must reach a suitable port or continue replenishing oxygen until safe.
+* Entering a station's pressurized docking area stops the immediate oxygen drain. Docking and entering the hangar restores the normal reserve.<ref name="edwiki-life-support" />
+
+The [[Auto Field-Maintenance Unit]] can repair a damaged Life Support module. The target module is offline during repair, so the oxygen timer starts while that maintenance is in progress. Confirm the remaining reserve before beginning.
+
+== Emergency synthesis ==
+
+A basic Life Support refill can be synthesized from:<ref name="inara-synthesis">INARA, [https://inara.cz/elite/synthesis/ Synthesis].</ref>
+
+* 2 Iron; and
+* 1 Nickel.
+
+The recipe replenishes emergency oxygen without requiring a station. Carrying several refills is inexpensive insurance for exploration or other operations far from inhabited systems, but synthesis does not repair a breached canopy or damaged module.
+
+== Selecting a rating ==
+
+A '''D-rated''' Life Support module is the lightest stock option and provides 7 minutes 30 seconds of emergency oxygen. It is common on jump-range-focused ships where mass matters more than reserve time.
+
+An '''A-rated''' unit provides 25 minutes, making it the safest stock choice for ships expected to operate far from a suitable port or to survive canopy breaches in combat. It uses more power and costs more than lower ratings, but it has the same stock mass as E-, C-, and A-rated modules of the same class.<ref name="edcd-life-support" />
+
+B- and C-rated modules offer intermediate reserve times. B rating also carries the largest mass in each class, while C rating retains the standard mass profile.
+
+== Engineering ==
+
+Life Support accepts three blueprint families and has no Experimental Effects:<ref name="inara-blueprints">INARA, [https://inara.cz/elite/blueprints/#outfittingslot4 Blueprints and upgrades].</ref>
+
+* '''Lightweight''' reduces mass while reducing module integrity.
+* '''Reinforced''' increases integrity while adding mass.
+* '''Shielded''' increases integrity while increasing passive power draw.
+
+{| class="wikitable"
+! Engineer
+! Maximum grade
+|-
+| [[Bill Turner]]
+| Grade 3
+|-
+| [[Lori Jameson]]
+| Grade 4
+|-
+| [[Etienne Dorn]]
+| Grade 5
+|}
+
+Lightweight Engineering is useful when jump range is the priority. Reinforced and Shielded improve survival in builds where losing Life Support under fire is the larger concern.
+
+== Acquisition ==
+
+Every ship carries a Life Support module in its dedicated Environment Control core slot. Replacement ratings are purchased for credits through Outfitting; no rank, permit, Engineer, or Technology Broker unlock is required. The available class is determined by the ship, and station stock varies.
+
+== Related modules ==
+
+* [[Auto Field-Maintenance Unit]] — can repair damaged Life Support while the oxygen timer is running.
+* [[Sensors]] — the other core internal family commonly selected at D rating to reduce ship mass.
+* [[Power Plant]] — supplies the power required to keep Life Support and other modules online.
+
+== Sources ==
+
+<references />
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Core Internal Engineering]]
+[[Category:Engineering]]

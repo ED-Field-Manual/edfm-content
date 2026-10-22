@@ -3,15 +3,114 @@ EDFM current-content archive export.
 Title: Weapon Component
 Namespace: 0
 Page ID: 687
-Revision ID: 1580
-Timestamp: 2026-08-23T18:40:07Z
+Revision ID: 4137
+Timestamp: 2026-09-14T03:14:24Z
 Source URL: https://edfieldmanual.com/wiki/Weapon_Component
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|an Odyssey material reference for Weapon Components, including usage and sourcing notes once source-backed details are added.}}
+{{Article header|deck=A Technology asset used in kinetic weapon upgrades and several Odyssey suit and weapon modifications.}}
 
-'''Weapon Component''' is an Odyssey material. This planned reference will document upgrade and modification uses, sourcing context, and related material-planning notes.
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Current Odyssey Engineering
+ |reviewer=Sythan
+ |reviewed=2026-09-14
+ |source_quality=Current INARA component and recipe records, supported by the in-game description and maintained community references
+ |uncertainty=Settlement loot remains probabilistic; Industrial and Command buildings are source environments, not guaranteed drops.
+}}
+
+'''Weapon Component''' is an Odyssey '''Technology''' asset described in-game as a component from a personal firearm. It is used for Grade 2–5 upgrades to Karma kinetic weapons and as an ingredient in selected suit and handheld-weapon modifications.<ref name="inara">[https://inara.cz/elite/component/210/ INARA: Weapon Component], accessed 14 September 2026.</ref><ref name="wiki">[https://elite-dangerous.fandom.com/wiki/Weapon_Component Elite Dangerous Wiki: Weapon Component], accessed 14 September 2026.</ref>
+
+It belongs to the on-foot [[Odyssey Engineering]] inventory. It is not a ship Engineering Material, commodity, synthesis ingredient, or Technology Broker unlock item.
+
+== Sources ==
+
+Weapon Components can be found during on-foot settlement activity and offered as mission rewards. Current INARA source data identifies '''Industrial''' and '''Command''' buildings as the principal settlement environments.<ref name="inara" />
+
+Likely containers and loose-item positions still depend on the settlement layout and current instance. Search appropriate rooms, lockers, shelves, and cases rather than expecting one fixed spawn. Taking an item owned by the local faction counts as theft; use authorized missions, abandoned sites, anarchy locations, or another lawful source when avoiding fines and bounties matters.
+
+Technology assets can also be exchanged through bartenders. Trading surplus Odyssey assets is often more predictable than repeatedly searching for one random drop, although exchange costs should be checked in the current bartender interface before committing a large stockpile.
+
+== Kinetic weapon upgrades ==
+
+Weapon Components are part of the standard upgrade recipes for the four Karma kinetic weapons:<ref name="inara" /><ref name="newp">[https://newp.io/ody-engineering New Pilots Initiative: Odyssey Engineering], accessed 14 September 2026.</ref>
+
+* Karma AR-50;
+* Karma C-44;
+* Karma L-6; and
+* Karma P-15.
+
+{| class="wikitable"
+! Upgrade
+! Weapon Components
+|-
+| Grade 1 → Grade 2
+| 5
+|-
+| Grade 2 → Grade 3
+| 15
+|-
+| Grade 3 → Grade 4
+| 25
+|-
+| Grade 4 → Grade 5
+| 35
+|}
+
+The full upgrade also consumes other assets and goods. Upgrades are performed through [[Pioneer Supplies]], not at an Engineer workshop.
+
+== Modification uses ==
+
+Weapon Components are also used in the following Engineer-installed modifications:<ref name="inara" />
+
+{| class="wikitable"
+! Modification
+! Compatible equipment
+! Required
+|-
+| [[Extra Ammo Capacity]]
+| Artemis, Dominator, and Maverick suits
+| 5
+|-
+| Magazine Size
+| All handheld-weapon families
+| 5
+|-
+| Noise Suppressor
+| All handheld-weapon families
+| 5
+|-
+| Greater Range
+| Karma kinetic weapons
+| 5
+|-
+| Headshot Damage
+| Karma kinetic weapons
+| 5
+|}
+
+Magazine Size and Noise Suppressor use Weapon Components on kinetic, laser, and plasma weapons. Greater Range and Headshot Damage use them only in their Karma kinetic recipes; the equivalent laser or plasma recipes use different materials.
+
+Modifications require an unused slot on the suit or weapon and are permanent once installed. See [[Odyssey Engineer Modifications]] for the Engineers who provide each modification and [[Odyssey Engineering]] for the installation workflow.
+
+== Planning quantities ==
+
+A single Karma weapon upgraded from Grade 1 to Grade 5 consumes '''80 Weapon Components''' before any modification costs are added. A Grade 3 weapon taken to Grade 5 needs '''60''', while a Grade 4 weapon taken to Grade 5 needs '''35'''.
+
+Pre-upgraded equipment sold by Pioneer Supplies can avoid some or all of those upgrade costs. Check the item's current grade and planned modifications before trading Weapon Components away.
+
+== Related pages ==
+
+* [[Odyssey Engineering]] — equipment grades, materials, and modification slots
+* [[Pioneer Supplies]] — equipment purchases and grade upgrades
+* [[Odyssey Engineer Modifications]] — modification-to-Engineer directory
+* [[Extra Ammo Capacity]] — suit modification using Weapon Components
+
+== References ==
+
+<references />
 
 [[Category:Engineering Materials]]
 [[Category:Odyssey Engineering]]

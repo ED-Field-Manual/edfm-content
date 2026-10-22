@@ -1,0 +1,26 @@
+<!--
+EDFM current-content archive export.
+Title: File:Fungoida Setisis-Yellow.png
+Namespace: 6
+Page ID: 920
+Revision ID: 5871
+Timestamp: 2026-10-02T04:24:52Z
+Source URL: https://edfieldmanual.com/wiki/File:Fungoida_Setisis-Yellow.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |description = In-game image of Fungoida Setisis in Elite Dangerous.
+ |subject = Fungoida Setisis
+ |source = Elite Dangerous, captured in-game
+ |media_type = In-game screenshot
+ |captured_by = [[User:Sythan|Sythan]]
+ |intended_use = Identification and illustration on the Fungoida Setisis article and related Exobiology pages.
+ |copyright_holder = Frontier Developments plc
+}}
+
+[[Category:Exobiology images]]
+
+== Licensing ==
+{{License-ED screenshot}}

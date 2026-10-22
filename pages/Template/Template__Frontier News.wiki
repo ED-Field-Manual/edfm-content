@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:Frontier News
 Namespace: 10
 Page ID: 296
-Revision ID: 3070
-Timestamp: 2026-09-03T09:17:05Z
+Revision ID: 7400
+Timestamp: 2026-10-21T09:17:05Z
 Source URL: https://edfieldmanual.com/wiki/Template:Frontier_News
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -12,27 +12,27 @@ This is current wikitext only; no revision history, user database, logs, deleted
 <noinclude>This template is generated automatically by the Frontier news updater. Manual edits will be replaced.</noinclude><includeonly><div class="edfm-home-news edfm-frontier-news">
 <div class="edfm-news-feature-grid">
 <div class="edfm-news-card edfm-news-card-primary">
-<div class="edfm-news-card-art edfm-news-card-art-image">[[File:Frontier News - rhino-available-now-arx-early-access.jpg|640px|frameless|alt=Rhino – Available Now Via ARX Early Access]]</div>
+<div class="edfm-news-card-art edfm-news-card-art-image">[[File:Frontier News - anaconda-mk-ii-available-now-arx-early-access.jpg|640px|frameless|alt=Anaconda MK II – Available Now Via ARX Early Access ]]</div>
 <div class="edfm-news-card-body">
-<div class="edfm-news-meta">2 Sep 2026 · Frontier Developments</div>
-<div class="edfm-news-title">[https://www.elitedangerous.com/news/rhino-available-now-arx-early-access Rhino – Available Now Via ARX Early Access]</div>
-<div class="edfm-news-summary">Break new ground with a surface mining rig built to unearth new riches, with Vodel’s Rhino SRV. </div>
+<div class="edfm-news-meta">20 Oct 2026 · Frontier Developments</div>
+<div class="edfm-news-title">[https://www.elitedangerous.com/news/anaconda-mk-ii-available-now-arx-early-access Anaconda MK II – Available Now Via ARX Early Access ]</div>
+<div class="edfm-news-summary">Faulcon DeLacy’s legend reborn, the Anaconda MK II is now available in Elite Dangerous via ARX Early Access! </div>
 </div>
 </div>
 <div class="edfm-news-card">
-<div class="edfm-news-card-art edfm-news-card-art-image">[[File:Frontier News - elite-dangerous-august-dev-log-2026.jpg|640px|frameless|alt=Elite Dangerous: August Dev Log 2026]]</div>
+<div class="edfm-news-card-art edfm-news-card-art-image">[[File:Frontier News - elite-dangerous-october-dev-log-2026-law-disorder.jpg|640px|frameless|alt=Elite Dangerous: October Dev Log 2026 | Law & Disorder]]</div>
 <div class="edfm-news-card-body">
-<div class="edfm-news-meta">27 Aug 2026 · Frontier Developments</div>
-<div class="edfm-news-title">[https://www.elitedangerous.com/news/elite-dangerous-august-dev-log-2026 Elite Dangerous: August Dev Log 2026]</div>
-<div class="edfm-news-summary">In this month's post we'll be taking a deeper look at the Rhino, all things surface mining and a first look at the next Operation - Under Siege!</div>
+<div class="edfm-news-meta">14 Oct 2026 · Frontier Developments</div>
+<div class="edfm-news-title">[https://www.elitedangerous.com/news/elite-dangerous-october-dev-log-2026-law-disorder Elite Dangerous: October Dev Log 2026 | Law & Disorder]</div>
+<div class="edfm-news-summary">A deeper dive into Law & Disorder, the next free update coming to Elite Dangerous, more on the Anaconda Mk II and a step behind the scenes in this month's Elite Developer Log.</div>
 </div>
 </div>
 <div class="edfm-news-card">
-<div class="edfm-news-card-art edfm-news-card-art-image">[[File:Frontier News - beneath-surface-your-first-look-rhino.jpg|640px|frameless|alt=Beneath the Surface - Your First Look at the Rhino]]</div>
+<div class="edfm-news-card-art edfm-news-card-art-image">[[File:Frontier News - september-2026-dev-log-law-disorder-first-details-anaconda-mk-ii-revea.jpg|640px|frameless|alt=September 2026 Dev Log | Law & Disorder First Details & Anaconda Mk II Revealed]]</div>
 <div class="edfm-news-card-body">
-<div class="edfm-news-meta">6 Aug 2026 · Frontier Developments</div>
-<div class="edfm-news-title">[https://www.elitedangerous.com/news/beneath-surface-your-first-look-rhino Beneath the Surface - Your First Look at the Rhino]</div>
-<div class="edfm-news-summary">A new colossus emerges in Elite Dangerous. Coming to ARX Early Access later this month.</div>
+<div class="edfm-news-meta">24 Sep 2026 · Frontier Developments</div>
+<div class="edfm-news-title">[https://www.elitedangerous.com/news/september-2026-dev-log-law-disorder-first-details-anaconda-mk-ii-revealed September 2026 Dev Log | Law & Disorder First Details & Anaconda Mk II Revealed]</div>
+<div class="edfm-news-summary">Your first information on Law & Disorder, a major feature re-work planned for later this year and how the Anaconda Mk II shaping up to make an impact on the galaxy.</div>
 </div>
 </div>
 </div>

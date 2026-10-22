@@ -3,15 +3,92 @@ EDFM current-content archive export.
 Title: Merc Coin
 Namespace: 0
 Page ID: 670
-Revision ID: 1563
-Timestamp: 2026-08-23T18:07:34Z
+Revision ID: 4077
+Timestamp: 2026-09-13T13:53:26Z
 Source URL: https://edfieldmanual.com/wiki/Merc_Coin
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|An Engineering-material reference for Merc Coin, including where it is used and how Commanders should plan around it.}}
+{{Article header|deck=The earnable Operations currency used to obtain MercGear modules and Engineering Blueprints.}}
 
-'''Merc Coin''' is an Engineering material used in selected module modifications. This planned article will document its uses, sourcing notes, and related Engineer blueprint requirements.
+{{Article status
+ |status=Verified
+ |mode=Live
+ |version=Operations update 4.4.0.0 and later
+ |reviewer=Sythan
+ |reviewed=2026-09-13
+ |source_quality=Current first-party Frontier Operations announcement and release notes
+ |uncertainty=Reward amounts, prices, and the MercGear catalogue are live-service values and may change between updates.
+}}
 
-[[Category:Engineering Materials]]
+'''Merc Coin''' is an earnable currency introduced with [[Operations]]. Commanders receive Merc Coins for successfully completing Operations and spend them on MercGear modules and specialised Engineering Blueprints.<ref name="frontier-operations">[https://www.elitedangerous.com/update-notes/4-4-0-0 Frontier Developments: Elite Dangerous: Operations — Available Now], accessed 13 September 2026.</ref>
+
+Merc Coin is not a Raw, Manufactured, Encoded, or Odyssey Engineering material. It is also not an ARX currency and cannot be purchased for ARX.<ref name="frontier-preview">[https://www.elitedangerous.com/news/update-operations Frontier Developments: An Update on Operations], accessed 13 September 2026.</ref>
+
+== Earning Merc Coins ==
+
+Merc Coins are awarded when an Operation is completed successfully. Operations can be launched alone or with a squad, with optional matchmaking available to fill open positions.
+
+The amount and distribution of rewards depend on the selected Operation and its difficulty. Hard Operations provide greater reward value than their Easy versions, but the scenario itself is also a major factor.<ref name="frontier-operations" />
+
+Merc Coins are awarded alongside other possible Operation rewards:
+
+* credits;
+* Engineering materials;
+* Powerplay Merits when an eligible Operation is completed in Powerplay Mode.
+
+The live reward screen is authoritative for the payout attached to a particular Operation.
+
+== Spending Merc Coins ==
+
+Merc Coins are spent through existing vendors rather than a separate Merc store:
+
+* '''Outfitting''' sells eligible MercGear ship modules.
+* '''Engineers''' sell eligible Merc Engineering Blueprints.
+
+Purchased equipment begins at its base level. Compatible MercGear can then be upgraded by the appropriate Engineer as more Merc Coins are earned. A Merc-only Blueprint applies only to compatible Merc modules; it does not turn an ordinary version of the module into the Merc variant.
+
+== MercGear catalogue ==
+
+The Operations launch catalogue included two Merc Blueprints:
+
+* Thermal Plasma Conversion for Beam, Burst, and Pulse Lasers;
+* Scoop Rate Enhanced for Fuel Scoops.
+
+The initial pre-engineered equipment catalogue included specialised hardpoints, core modules, and optional internals. Examples include:
+
+* the Far-Reaching [[Abrasion Blaster]] and Long Range [[Mining Laser]];
+* an Enduring Feedback Rail Gun and several specialised missile racks;
+* Focused and Balanced [[Power Distributor|Power Distributors]];
+* an Extended Cargo Rack, Long Range [[Detailed Surface Scanner]], and Heavy Duty Module Reinforcement Package.
+
+Frontier has stated that the catalogue can expand as Operations develops. Check the relevant Outfitting or Engineer interface for current availability and prices rather than relying on a static shopping list.<ref name="frontier-operations" />
+
+== Planning purchases ==
+
+Before spending Merc Coins:
+
+# Confirm that the reward is a module or a Blueprint.
+# Check which Engineer handles the module family and Merc Blueprint.
+# Account for the module's base characteristics and any fixed pre-engineered trade-offs.
+# Compare the MercGear item with an ordinary engineered module in the intended ship build.
+# Retain enough Merc Coins for the complete set of purchases or upgrades the build requires.
+
+A MercGear item is not automatically better for every ship. Its value depends on slot size, power, mass, heat, ammunition, and the fixed modifiers attached to that specific variant.
+
+== See also ==
+
+* [[Operations]]
+* [[Engineering]]
+* [[Engineers]]
+* [[Engineering Blueprints]]
+* [[Abrasion Blaster]]
+* [[Mining Laser]]
+
+== Sources ==
+
+<references />
+
+[[Category:Operations]]
 [[Category:Engineering]]
+[[Category:Currency]]

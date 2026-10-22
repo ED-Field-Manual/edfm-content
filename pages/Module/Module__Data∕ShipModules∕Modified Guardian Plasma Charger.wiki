@@ -3,12 +3,27 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Modified Guardian Plasma Charger
 Namespace: 828
 Page ID: 537
-Revision ID: 1324
-Timestamp: 2026-08-21T00:00:01Z
+Revision ID: 4405
+Timestamp: 2026-09-16T04:12:47Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Modified_Guardian_Plasma_Charger
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Modified Guardian Plasma Charger",
+	module_class = "Guardian anti-xeno weapon",
+	slot_type = "Hardpoint",
+	mount = "Fixed Class 1D or 2B",
+	manufacturer = "Azimuth Biotech (Salvation design)",
+	availability = "Material barter at Prospect's Deep in Mbooni",
+	unlock = "Mbooni permit and per-module material payment",
+	engineering = "Pre-engineered Overcharged and Focused package; ordinary Engineering and Anti-Guardian Zone Resistance are not supported",
+	mode = "Live and Legacy",
+	description = "A pre-engineered Guardian Plasma Charger with substantially increased projectile speed, damage, and armour piercing.",
+	related = {
+		"Guardian Plasma Charger",
+		"Modified Guardian Gauss Cannon",
+		"Modified Guardian Shard Cannon",
+		"Thargoid"
+	}
 }

@@ -3,12 +3,20 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Cytoscrambler
 Namespace: 828
 Page ID: 466
-Revision ID: 1253
-Timestamp: 2026-08-20T23:59:09Z
+Revision ID: 4238
+Timestamp: 2026-09-15T01:06:16Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Cytoscrambler
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Cytoscrambler",
+	module_class = "Powerplay Burst Laser variant",
+	slot_type = "Hardpoint",
+	mount = "Class 1 fixed",
+	manufacturer = "",
+	availability = "Powerplay loyalty-rank reward in Live; Archon Delaine reward in Legacy",
+	engineering = "Standard Burst Laser blueprints and Experimental Effects",
+	related_modules = "Burst Laser<br>Pulse Laser<br>Beam Laser<br>Power Distributor",
+	notes = "High thermal shield damage, armour piercing 1, 1,000 m maximum range, and 1.7° jitter.",
 }

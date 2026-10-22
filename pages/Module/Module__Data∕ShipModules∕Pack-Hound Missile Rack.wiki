@@ -3,12 +3,21 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Pack-Hound Missile Rack
 Namespace: 828
 Page ID: 550
-Revision ID: 1337
-Timestamp: 2026-08-21T00:00:11Z
+Revision ID: 4457
+Timestamp: 2026-09-16T13:23:13Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Pack-Hound_Missile_Rack
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Pack-Hound Missile Rack",
+	module_class = "Powerplay seeker missile variant",
+	slot_type = "Medium weapon hardpoint",
+	mount = "Class 2B fixed",
+	manufacturer = "Powerplay reward",
+	tech = "Human",
+	introduced = "Powerplay",
+	acquisition = "Powerplay loyalty-rank unlock; current Live unlock order depends on the pledged Power",
+	description = "A fixed seeker launcher that releases four low-yield homing micro-missiles per trigger pull to disperse and overwhelm defences.",
+	related_modules = "[[Missile Rack]], [[Point Defence Turret]]",
 }

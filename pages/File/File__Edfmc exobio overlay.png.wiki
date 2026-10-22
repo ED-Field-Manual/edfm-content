@@ -1,0 +1,24 @@
+<!--
+EDFM current-content archive export.
+Title: File:Edfmc exobio overlay.png
+Namespace: 6
+Page ID: 992
+Revision ID: 6340
+Timestamp: 2026-10-07T04:47:29Z
+Source URL: https://edfieldmanual.com/wiki/File:Edfmc_exobio_overlay.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |description = In-game image [[EDFM Companion]] in Elite Dangerous.
+ |subject = [[EDFM Companion]]
+ |source = Created for Elite Dangerous Field Manual
+ |media_type = EDFM-created graphic
+ |captured_by = [[User:Sythan|Sythan]]
+ |intended_use = Identification and illustration on the [[EDFM Companion]] article.
+ |copyright_holder = Sythan
+}}
+
+== Licensing ==
+{{License-CC BY-SA 4.0}}

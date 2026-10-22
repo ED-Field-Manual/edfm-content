@@ -3,22 +3,122 @@ EDFM current-content archive export.
 Title: Frame Shift Wake Scanner
 Namespace: 0
 Page ID: 495
-Revision ID: 2153
-Timestamp: 2026-08-24T23:44:14Z
+Revision ID: 4286
+Timestamp: 2026-09-15T04:16:52Z
 Source URL: https://edfieldmanual.com/wiki/Frame_Shift_Wake_Scanner
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Frame Shift Wake Scanner ship module.
+{{Article header|deck=A utility scanner that resolves High Energy Wakes, revealing their destination and collecting encoded wake data.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy module records
+ |reviewed=2026-09-15
+ |source_quality=Current maintained community module data and Engineering references
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Frame Shift Wake Scanner''' is a Class 0 scanner utility fitted to a ship's utility mounts. It analyses the High Energy Wake left when another ship jumps to a different star system, revealing the departing commander and destination system. Completing a wake scan can also yield encoded data used in [[Engineering]].<ref name="ed-wiki-wake">[https://elite-dangerous.fandom.com/wiki/Frame_Shift_Wake_Scanner Elite Dangerous Wiki: ''Frame Shift Wake Scanner''], revision of 23 November 2024. Current community description, usage, standard variants, Engineering options, and encoded wake-data family; retrieved 15 September 2026.</ref>
 
-== Overview ==
+== Operation ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+Assign the scanner to a fire group, deploy hardpoints, target a High Energy Wake, and remain within the scanner's rated range. Hold the assigned trigger while keeping the wake inside the scanning arc. Every unmodified rating takes 10 seconds to complete a scan; the destination and wake data are returned only after the scan finishes.<ref name="edcd-wake">[https://raw.githubusercontent.com/EDCD/coriolis-data/9e5273b56426596061e2b02a6ba53e3e4103c9ab/modules/hardpoints/frame_shift_wake_scanner.json EDCD Coriolis data: ''Frame Shift Wake Scanner''], pinned module-data revision committed 6 June 2024. Standard rating, mass, integrity, power, range, scan-time, and price records; retrieved 15 September 2026.</ref>
+
+The scanner identifies where the ship went; it does not move the scanning ship or bypass the normal jump-range, fuel, permit, or route requirements. A commander following the wake must still align with and engage the [[Frame Shift Drive]] for the destination.
+
+== Standard variants ==
+
+All standard variants occupy one utility mount, have Class 0 size and 1.3-tonne mass, and complete an unmodified scan in 10 seconds. Higher ratings extend the scan range while sharply increasing power draw.<ref name="edcd-wake" />
+
+{| class="wikitable sortable"
+! Variant
+! Integrity
+! Power draw
+! Scan range
+! Base scan time
+! Typical price
+|-
+| 0E
+| 32
+| 0.20 MW
+| 2,000 m
+| 10 s
+| 13,544 CR
+|-
+| 0D
+| 24
+| 0.40 MW
+| 2,500 m
+| 10 s
+| 40,633 CR
+|-
+| 0C
+| 40
+| 0.80 MW
+| 3,000 m
+| 10 s
+| 121,899 CR
+|-
+| 0B
+| 56
+| 1.60 MW
+| 3,500 m
+| 10 s
+| 365,698 CR
+|-
+| 0A
+| 48
+| 3.20 MW
+| 4,000 m
+| 10 s
+| 1,097,095 CR
+|}
+
+Prices shown are standard module-record values before discounts or other market modifiers. Station stock is dynamic.
+
+== Encoded wake data ==
+
+A successful High Energy Wake scan may award one of the five encoded materials in the wake-scans family:<ref name="ed-wiki-wake" />
+
+* Atypical Disrupted Wake Echoes — Grade 1;
+* Anomalous FSD Telemetry — Grade 2;
+* Strange Wake Solutions — Grade 3;
+* Eccentric Hyperspace Trajectories — Grade 4;
+* Datamined Wake Exceptions — Grade 5.
+
+These materials are stored as encoded [[Engineering Materials|Engineering data]]. The scanner is therefore useful both for identifying a departing ship's destination and for gathering data used by Frame Shift Drive and other blueprints.
+
+== Engineering ==
+
+Frame Shift Wake Scanners accept six standard blueprints and no Experimental Effects:<ref name="inara-wake-engineering">INARA: [https://inara.cz/elite/blueprint/167/ ''Frame Shift Wake Scanner — Fast scan''], [https://inara.cz/elite/blueprint/168/ ''Long range''], and [https://inara.cz/elite/blueprint/169/ ''Wide angle'']. Current blueprint effects and grade records; retrieved 15 September 2026.</ref>
+
+* '''Fast scan''' reduces scan time at the cost of range and integrity.
+* '''Lightweight''' reduces mass at the cost of integrity.
+* '''Long range''' extends range while increasing power draw and narrowing the scan angle.
+* '''Reinforced''' increases integrity at the cost of mass.
+* '''Shielded''' increases integrity at the cost of power draw.
+* '''Wide angle''' expands the scanning arc at the cost of mass and scan time.
+
+The useful choice depends on the ship's purpose. Fast scan shortens the time spent holding a wake in the reticle, long range permits acquisition from farther away, and lightweight reduces the module's effect on a range-sensitive build.
+
+== Acquisition ==
+
+Standard E–A variants are normal credit-purchased utility modules. Availability depends on the current Outfitting stock at a station, surface port, or carrier service.
+
+== Sources ==
+
+<references />
+
+== Related articles ==
+
+* [[Frame Shift Drive]]
+* [[Engineering Materials]]
+* [[Engineering]]
+* [[Kill Warrant Scanner]]
+* [[Manifest Scanner]]
 
 [[Category:Modules]]
 [[Category:Ship modules]]

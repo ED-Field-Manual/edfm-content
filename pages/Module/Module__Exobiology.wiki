@@ -1,0 +1,254 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Exobiology
+Namespace: 828
+Page ID: 855
+Revision ID: 5774
+Timestamp: 2026-10-01T05:45:28Z
+Source URL: https://edfieldmanual.com/wiki/Module:Exobiology
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+-- Module:Exobiology
+-- Renderer and query layer for Module:Data/Exobiology/Species.
+local p = {}
+local cache
+
+local function esc(value)
+    return mw.text.nowiki(tostring(value or ''))
+end
+
+local function loadData()
+    if cache then return cache end
+    local title = mw.title.new('Data/Exobiology/Species', 'Module')
+    if not title then error('Module:Exobiology: invalid data title') end
+    local content = title:getContent()
+    if not content then error('Module:Exobiology: data page is missing') end
+    local ok, data = pcall(mw.text.jsonDecode, content)
+    if not ok or type(data) ~= 'table' or type(data.species) ~= 'table' then
+        error('Module:Exobiology: invalid species JSON')
+    end
+    if data.schema_version ~= 1 then
+        error('Module:Exobiology: unsupported schema version ' .. tostring(data.schema_version))
+    end
+    cache = data
+    return data
+end
+
+local function findRecord(title)
+    local needle = mw.ustring.lower(tostring(title or ''))
+    for _, record in ipairs(loadData().species) do
+        if mw.ustring.lower(record.title) == needle then return record end
+    end
+    return nil
+end
+
+local function requestedRecord(frame)
+    local title = frame.args.title or frame.args.name or mw.title.getCurrentTitle().text
+    local record = findRecord(title)
+    if not record then
+        return nil, '<strong class="error">Unknown Exobiology species: ' .. esc(title) .. '</strong>'
+    end
+    return record, nil
+end
+
+local function number(value)
+    local text = tostring(math.floor(tonumber(value) or 0))
+    local changed
+    repeat text, changed = text:gsub('^(-?%d+)(%d%d%d)', '%1,%2') until changed == 0
+    return text
+end
+
+local function namedVariantCount(record)
+    local count = 0
+    for _, variant in ipairs(record.variants or {}) do
+        if variant.variant_name ~= nil then count = count + 1 end
+    end
+    return count
+end
+
+local function displayValue(value)
+    if type(value) == 'table' then
+        local values = {}
+        for _, item in ipairs(value) do table.insert(values, displayValue(item)) end
+        return table.concat(values, ', ')
+    end
+    if type(value) == 'string' then
+        value = value:gsub('(%l)(%u)', '%1 %2')
+    end
+    return esc(value)
+end
+
+local LABELS = {
+    atmosphere = 'Atmosphere', body_type = 'Body type', min_gravity = 'Minimum gravity',
+    max_gravity = 'Maximum gravity', min_temperature = 'Minimum temperature',
+    max_temperature = 'Maximum temperature', min_pressure = 'Minimum pressure',
+    max_pressure = 'Maximum pressure', volcanism = 'Volcanism', star = 'Star',
+    bodies = 'Parent bodies', regions = 'Region model', system = 'System',
+    max_orbital_period = 'Maximum orbital period', nebula = 'Nebula model', tuber = 'Region model'
+}
+
+local function ruleText(rule)
+    local preferred = {'system','atmosphere','body_type','min_gravity','max_gravity','min_temperature','max_temperature','min_pressure','max_pressure','volcanism','star','bodies','regions','nebula','tuber','max_orbital_period'}
+    local seen, parts = {}, {}
+    for _, key in ipairs(preferred) do
+        if rule[key] ~= nil then
+            local value = displayValue(rule[key])
+            if key == 'min_gravity' or key == 'max_gravity' then value = value .. ' g' end
+            if key == 'min_temperature' or key == 'max_temperature' then value = value .. ' K' end
+            table.insert(parts, "'''" .. (LABELS[key] or esc(key)) .. ":''' " .. value)
+            seen[key] = true
+        end
+    end
+    for key, value in pairs(rule) do
+        if not seen[key] then table.insert(parts, "'''" .. esc(key) .. ":''' " .. displayValue(value)) end
+    end
+    return table.concat(parts, '<br>')
+end
+
+function p.infobox(frame)
+    local record, problem = requestedRecord(frame)
+    if not record then return problem end
+    local epithet = record.species_epithet or '&mdash;'
+    local count = namedVariantCount(record)
+    local args = {
+        name = record.title,
+        image = record.image,
+        group1 = 'BIOLOGY',
+        label1 = 'Group', row1 = record.group,
+        label2 = 'Species', row2 = epithet,
+        label3 = 'Availability', row3 = record.platform,
+        group4 = 'SAMPLING',
+        label4 = 'Vista Genomics value', row4 = number(record.base_value_credits) .. ' Cr',
+        label5 = 'Sample distance', row5 = number(record.sample_distance_m) .. ' m',
+        label6 = 'Named variants', row6 = tostring(count),
+    }
+    return frame:expandTemplate { title = 'Infobox', args = args }
+end
+
+function p.classification(frame)
+    local record, problem = requestedRecord(frame)
+    if not record then return problem end
+    local out = {
+        "* '''Group:''' " .. esc(record.group),
+        "* '''Species:''' " .. esc(record.species_epithet or 'No separate epithet'),
+        "* '''Game lineage:''' " .. esc(record.platform),
+        "* '''Journal species token:''' <code>" .. esc(record.journal_tokens.species) .. '</code>'
+    }
+    return table.concat(out, '\n')
+end
+
+function p.value(frame)
+    local record, problem = requestedRecord(frame)
+    if not record then return problem end
+    return "The recorded base Vista Genomics value is '''" .. number(record.base_value_credits) .. " credits'''. This is the base value in the structured catalogue; first-to-log bonuses are not included."
+end
+
+function p.sampling(frame)
+    local record, problem = requestedRecord(frame)
+    if not record then return problem end
+    return "A complete genetic sample requires three scans. Each accepted colony must be at least '''" .. number(record.sample_distance_m) .. " metres''' from the previous accepted colony."
+end
+
+function p.environment(frame)
+    local record, problem = requestedRecord(frame)
+    if not record then return problem end
+    local rules = record.environmental_rules or {}
+    if #rules == 0 then return 'No maintained environmental prediction profile is recorded.' end
+    local out = {
+        '{| class="wikitable"',
+        '! Profile !! Community-modelled conditions'
+    }
+    for index, rule in ipairs(rules) do
+        table.insert(out, '|-')
+        table.insert(out, '| ' .. index)
+        table.insert(out, '| ' .. ruleText(rule))
+    end
+    table.insert(out, '|}')
+    return table.concat(out, '\n')
+end
+
+function p.variants(frame)
+    local record, problem = requestedRecord(frame)
+    if not record then return problem end
+    local out, count = {}, 0
+    for _, variant in ipairs(record.variants or {}) do
+        if variant.variant_name ~= nil then
+            count = count + 1
+            table.insert(out, '=== ' .. esc(variant.anchor) .. ' ===')
+            table.insert(out, "'''" .. esc(variant.variant_name) .. "''' is a recorded visual variant of [[" .. esc(record.title) .. "]]. Its Codex entry ID is <code>" .. esc(variant.codex_entry_id) .. '</code>.')
+        end
+    end
+    if count == 0 then
+        return 'The current Codex catalogue does not record separately named colour variants for this organism.'
+    end
+    return table.concat(out, '\n\n')
+end
+
+local function publishedSet(text)
+    local set = {}
+    for value in mw.text.gsplit(tostring(text or ''), ';', true) do
+        value = mw.text.trim(value)
+        if value ~= '' then set[mw.ustring.lower(value)] = true end
+    end
+    return set
+end
+
+function p.directory(frame)
+    local data = loadData()
+    local published = publishedSet(frame.args.published)
+    local groups = {}
+    for _, record in ipairs(data.species) do
+        groups[record.group] = groups[record.group] or {}
+        table.insert(groups[record.group], record)
+    end
+    local groupNames = {}
+    for group in pairs(groups) do table.insert(groupNames, group) end
+    table.sort(groupNames)
+    local out = {}
+    for _, group in ipairs(groupNames) do
+        table.sort(groups[group], function(a,b) return a.title < b.title end)
+        table.insert(out, '=== ' .. esc(group) .. ' ===')
+        table.insert(out, '{| class="wikitable sortable"')
+        table.insert(out, '! Species !! Base value !! Sample distance !! Known variants')
+        for _, record in ipairs(groups[group]) do
+            local title = esc(record.title)
+            if published[mw.ustring.lower(record.title)] then title = '[[' .. title .. ']]' end
+            table.insert(out, '|-')
+            table.insert(out, '| ' .. title)
+            table.insert(out, '| data-sort-value="' .. record.base_value_credits .. '" | ' .. number(record.base_value_credits) .. ' Cr')
+            table.insert(out, '| data-sort-value="' .. record.sample_distance_m .. '" | ' .. number(record.sample_distance_m) .. ' m')
+            table.insert(out, '| ' .. namedVariantCount(record))
+        end
+        table.insert(out, '|}')
+    end
+    return table.concat(out, '\n')
+end
+
+function p.test()
+    local data = loadData()
+    local ids, titles, codex, named = {}, {}, 0, 0
+    for _, record in ipairs(data.species) do
+        if ids[record.id] then error('duplicate species id ' .. record.id) end
+        if titles[record.title] then error('duplicate species title ' .. record.title) end
+        ids[record.id], titles[record.title] = true, true
+        local anchors = {}
+        for _, variant in ipairs(record.variants or {}) do
+            codex = codex + 1
+            if variant.variant_name ~= nil then
+                named = named + 1
+                if variant.anchor ~= variant.variant_name then error('unstable anchor for ' .. variant.display_name) end
+                if anchors[variant.anchor] then error('duplicate anchor ' .. variant.anchor) end
+                anchors[variant.anchor] = true
+            elseif variant.anchor ~= nil then
+                error('uncolored record has an anchor')
+            end
+        end
+    end
+    if #data.species ~= 118 or codex ~= 816 or named ~= 788 then
+        error('catalogue count mismatch')
+    end
+    return 'PASS: 118 species; 816 Codex records; 788 named variants; schema ' .. data.schema_version
+end
+
+return p

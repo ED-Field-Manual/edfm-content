@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Exobiology species needing field notes
+Namespace: 14
+Page ID: 873
+Revision ID: 5685
+Timestamp: 2026-09-30T16:12:15Z
+Source URL: https://edfieldmanual.com/wiki/Category:Exobiology_species_needing_field_notes
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Biological species reference pages awaiting commander-contributed practical field observations.
+
+[[Category:Biological species]]

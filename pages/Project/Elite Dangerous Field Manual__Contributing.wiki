@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Contributing
 Namespace: 4
 Page ID: 43
-Revision ID: 2950
-Timestamp: 2026-09-02T15:03:59Z
+Revision ID: 5677
+Timestamp: 2026-09-30T14:05:35Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Contributing
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -18,7 +18,7 @@ EDFM is open to the public and actively under development. Anyone may create an 
 
 Contributors can optionally sign in with Frontier or Discord (see [[Special:UserLogin]]) to link a third-party identity to their EDFM account. Discord sign-in uses Discord OAuth/OpenID Connect with <code>openid</code>, <code>identify</code>, and <code>email</code> for login/linking only; it is not required to edit.
 
-Contributors can optionally sign in with Frontier (see [[Special:UserLogin]]) to link a Frontier account to their EDFM account. Normal Frontier sign-in is for login/linking only and does not request Companion API (<code>capi</code>) access or grant the '''Verified Commander''' badge by itself. Commander-name verification is available as a separate optional Preferences action: a logged-in user may choose '''Attach CMDR Name''' to request <code>auth capi</code>, read their Commander name once, and attach Verified Commander status. The Commander name is private by default unless the user later enables public display. This is not required to edit &mdash; ordinary account creation and editing do not depend on Frontier verification.
+Contributors can optionally sign in with Frontier (see [[Special:UserLogin]]) to link a Frontier account to their EDFM account. Normal Frontier sign-in is for login/linking only and does not request Companion API (<code>capi</code>) access or grant the '''Verified Commander''' badge by itself. Commander-name verification is available as a separate optional Preferences action: a logged-in user may choose '''Attach CMDR Name''' to request <code>auth capi</code>, read their Commander name once, and attach Verified Commander status. The Commander name remains private. A separate optional preference can display a Verified Commander badge beside links to the user's EDFM username; it does not publish the Commander name. This is not required to edit &mdash; ordinary account creation and editing do not depend on Frontier verification.
 
 The site is still in an early stage, so many pages, templates, and systems are being expanded or refined as the project grows. Contributors are welcome to add information, improve existing pages, correct inaccuracies, and help develop the Field Manual.
 

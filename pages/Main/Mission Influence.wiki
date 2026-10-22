@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: Mission Influence
+Namespace: 0
+Page ID: 986
+Revision ID: 6143
+Timestamp: 2026-10-04T15:57:01Z
+Source URL: https://edfieldmanual.com/wiki/Mission_Influence
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+#REDIRECT [[Mission Influence and BGS Effects]]

@@ -3,22 +3,135 @@ EDFM current-content archive export.
 Title: Advanced Plasma Accelerator
 Namespace: 0
 Page ID: 446
-Revision ID: 2133
-Timestamp: 2026-08-24T23:43:49Z
+Revision ID: 4822
+Timestamp: 2026-09-20T15:00:59Z
 Source URL: https://edfieldmanual.com/wiki/Advanced_Plasma_Accelerator
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Advanced Plasma Accelerator ship module.
+{{Article header|deck=A Powerplay plasma weapon that trades single-shot damage for a larger magazine and much faster follow-up fire.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1.1; Legacy 3.8
+ |reviewed=2026-09-20
+ |reviewer=Sythan
+ |source_quality=Live acquisition is documented from Frontier and current Powerplay guidance; Legacy acquisition is separated with Frontier's mode split and pre-Powerplay-2.0 community guidance; weapon specifications use maintained community references.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Advanced Plasma Accelerator''' is a class 3 fixed [[Plasma Accelerator]] variant. It fires substantially weaker individual projectiles than the standard class 3 weapon, but provides a larger magazine, three times the ammunition reserve, and a much higher rate of fire. A commander who keeps successive shots on target can produce more sustained damage; a commander who only gets brief firing windows may get more value from the heavier single hit of a standard accelerator.<ref name="edwiki-apa">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Advanced_Plasma_Accelerator Advanced Plasma Accelerator].</ref>
+
+It originated as Denton Patreus's unique Powerplay module. In Live, every Power can eventually unlock every Powerplay module through loyalty ranks, although the order differs. Denton Patreus grants access to the Advanced Plasma Accelerator first, at loyalty rank 34; agents of other Powers receive it later in their reward tracks.<ref name="frontier-ppqa">Frontier Developments, [https://www.elitedangerous.com/news/powerplay-20-qa Powerplay 2.0 Q&A], 26 September 2024.</ref><ref name="fatherhood-pp">The Fatherhood, [https://thefatherhoodwing.space/codex/powerplay-modules-and-you/ Powerplay Modules and You].</ref> Legacy retains the original system in which the weapon is available only through Denton Patreus.<ref name="frontier-modes">Frontier Developments, [https://www.elitedangerous.com/news/update-15-upcoming-feature-rework-and-more Update 15, the Upcoming Feature Rework and More]; accessed 20 September 2026.</ref><ref name="newp-legacy">New Pilots Initiative, [https://newp.io/ppmodules Powerplay Modules]; accessed 20 September 2026. The acquisition rules on this older guide apply to Legacy, not current Live.</ref>
+
+== Specifications ==
+
+{| class="wikitable"
+! Property
+! Value
+|-
+| Class and rating
+| 3B
+|-
+| Mount
+| Fixed
+|-
+| Mass
+| 8 t
+|-
+| Integrity
+| 64
+|-
+| Power draw
+| 1.97 MW
+|-
+| Damage per shot
+| 34.4
+|-
+| Rate of fire
+| 0.83/s
+|-
+| Damage per second
+| 28.67
+|-
+| Armour piercing
+| 100
+|-
+| Distributor draw per shot
+| 5.5 MW
+|-
+| Thermal load per shot
+| 11
+|-
+| Magazine
+| 20
+|-
+| Maximum ammunition
+| 300
+|-
+| Reload time
+| 6 seconds
+|-
+| Damage falloff begins
+| 2,000 m
+|-
+| Maximum range
+| 3,500 m
+|}
+
+Plasma Accelerator damage is split between absolute, thermal, and kinetic components, with the absolute component forming the majority. The weapon retains the standard accelerator family's high armour-piercing value and resistance-bypassing characteristics.<ref name="edwiki-apa" />
+
+== Operation ==
+
+The Advanced Plasma Accelerator launches relatively slow projectiles from a fixed mount. The pilot must lead a moving target and manage the time between firing and impact. Its faster cycle makes follow-up shots easier to place, but also demands more time on target than the standard class 3 accelerator.
+
+The twenty-round magazine is four times larger than the standard class 3 Plasma Accelerator's five-round magazine, while the 300-round reserve is three times larger. This supports longer strings of fire between reloads and longer deployments before rearming.<ref name="edwiki-apa" />
+
+Sustained fire is not free: repeated shots draw heavily from the WEP capacitor and generate considerable heat. A build that can fire one shot comfortably may still drain or overheat when the trigger is used at the Advanced Plasma Accelerator's full cadence. Distributor capacity, distributor recharge, ship heat characteristics, and the number of accelerators fitted should therefore be tested together.
+
+=== Damage profile ===
+
+The standard class 3 Plasma Accelerator delivers much more damage in one projectile. The Advanced version exceeds it in nominal sustained DPS only when enough of the weaker shots connect. This creates a practical choice:
+
+* '''Advanced Plasma Accelerator''' — favours sustained pressure, repeated module-damage checks, a large magazine, and pilots who can maintain fixed-weapon aim.
+* '''Standard Plasma Accelerator''' — favours brief firing opportunities, stronger individual hits, and lower input frequency.
+
+The Advanced version is not a direct upgrade for every ship. Fast or evasive opponents can make the extra rate of fire irrelevant if they deny repeated accurate shots.
+
+== Engineering ==
+
+The Advanced Plasma Accelerator accepts the same [[Engineering|Engineer]] blueprint families and [[Experimental Effects]] as ordinary Plasma Accelerators. Engineering can substantially change how the weapon fits a build:
+
+* '''Efficient''' reduces the power, distributor, and thermal burden while increasing damage.
+* '''Long Range''' removes normal falloff and increases projectile speed, making distant or crossing targets easier to hit.
+* '''Focused''' increases projectile speed and armour piercing but does not remove damage falloff.
+* '''Rapid Fire''' increases cadence further at the cost of additional thermal and accuracy considerations.
+* '''Short Range''' increases close-range damage while sharply reducing useful range.
+
+Experimental Effects such as Target Lock Breaker, Dispersal Field, Phasing Sequence, Thermal Conduit, or Plasma Slug remain weapon-specific build choices. Their detailed mechanics belong on their own references rather than being reproduced here.
+
+== Acquisition ==
+
+=== Live ===
+
+# Pledge to a Power and earn merits to increase its loyalty rank.
+# Reach the rank at which that Power grants the Advanced Plasma Accelerator. Denton Patreus grants it at rank 34; other Powers grant it later.
+# Visit an allied Stronghold Carrier after the reward is unlocked.
+# Purchase the 3B fixed weapon through Outfitting for each ship or stored copy that needs one.<ref name="fatherhood-pp" />
+
+Powerplay 2.0 replaced the former rule that required a four-week pledge to Denton Patreus and a weekly rating threshold. Guides that still describe that older sequence are not current for Live mode. Modules already purchased remain normal ship equipment, but changing Powers resets loyalty progression and may remove access to further purchases until the module is unlocked again.<ref name="frontier-ppqa" />
+
+=== Legacy ===
+
+In Legacy, pledge to Denton Patreus for at least four weeks and reach Rating 3 with 750 merits at the weekly Powerplay cycle. The weapon remains purchasable while those requirements are met.<ref name="frontier-modes" /><ref name="newp-legacy" /> These are Legacy instructions; Live uses the loyalty-rank process above.
+
+== Sources ==
+
+<references />
 
 [[Category:Modules]]
 [[Category:Ship modules]]

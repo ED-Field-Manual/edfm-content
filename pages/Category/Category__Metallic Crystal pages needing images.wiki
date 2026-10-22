@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Metallic Crystal pages needing images
+Namespace: 14
+Page ID: 949
+Revision ID: 5995
+Timestamp: 2026-10-03T04:19:36Z
+Source URL: https://edfieldmanual.com/wiki/Category:Metallic_Crystal_pages_needing_images
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Pages in the Metallic Crystal family that currently use EDFM's standard no-image state.
+
+[[Category:Maintenance]]

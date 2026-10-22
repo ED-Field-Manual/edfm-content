@@ -1,0 +1,15 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Guardian images
+Namespace: 14
+Page ID: 909
+Revision ID: 5764
+Timestamp: 2026-10-01T05:07:35Z
+Source URL: https://edfieldmanual.com/wiki/Category:Guardian_images
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Images of Guardian sites, structures, technology, organisms, ships, and related subjects.
+
+[[Category:Media]]
+[[Category:Guardian]]

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Main Page
 Namespace: 0
 Page ID: 1
-Revision ID: 3434
-Timestamp: 2026-09-07T17:23:33Z
+Revision ID: 6149
+Timestamp: 2026-10-04T15:57:18Z
 Source URL: https://edfieldmanual.com/
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -98,12 +98,12 @@ __NOTOC__
 <div class="edfm-home-card">
 <div class="edfm-home-card-kicker">Game systems</div>
 <div class="edfm-home-card-title">Active mechanics</div>
-<div class="edfm-home-link-list">[[Powerplay]] · [[Colonisation]] · [[Operations]] · [[Lore and History]]</div>
+<div class="edfm-home-link-list">[[Missions]] · [[Powerplay]] · [[Colonisation]] · [[Operations]] · [[Lore and History]]</div>
 </div>
 </div>
 
 == New & Updated on EDFM ==
-<div class="edfm-home-section-intro">Newly published EDFM reference material and substantial updates to existing pages, kept separate from GalNet and Frontier news.</div>
+<div class="edfm-home-section-intro">The newest EDFM articles and the most recently revised existing pages, selected automatically and kept separate from GalNet and Frontier news.</div>
 {{Homepage Recent Updates}}
 
 == News and updates ==

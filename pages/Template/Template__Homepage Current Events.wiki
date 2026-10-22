@@ -3,21 +3,30 @@ EDFM current-content archive export.
 Title: Template:Homepage Current Events
 Namespace: 10
 Page ID: 827
-Revision ID: 3470
-Timestamp: 2026-09-08T03:15:07Z
+Revision ID: 6482
+Timestamp: 2026-10-08T17:14:23Z
 Source URL: https://edfieldmanual.com/wiki/Template:Homepage_Current_Events
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-<noinclude>This template is generated automatically by /usr/local/sbin/edfm-homepage-recent-updates-update from /etc/edwiki/homepage-recent-updates.json. Manual edits will be replaced.</noinclude><includeonly>
 {| class="edfm-home-card edfm-home-card-primary edfm-home-current-event-card"
-| class="edfm-home-current-event-status-label" | '''ACTIVE COMMUNITY GOAL'''
-| class="edfm-home-current-event-status-detail" | · ''ENDS 10 SEP 2026''
+| class="edfm-home-current-event-status-label" | '''COMMUNITY GOAL CONCLUDED'''
+| class="edfm-home-current-event-status-detail" | · ''ENDED 08 OCT 2026''
 |-
-| class="edfm-home-card-title edfm-home-current-event-title" colspan="2" | [[Wreaken Mining Rig Field Tests]]
+| class="edfm-home-card-title edfm-home-current-event-title" colspan="2" | [[EVE-597|EVE-597 Prison Breakout]]
 |-
-| class="edfm-home-card-text edfm-home-current-event-text" colspan="2" | Wreaken Corporation and Vodel are running parallel asteroid-laser- and surface-mining trials from Metz Enterprise in Ega. During the opening weekend, event-enhanced pricing across the affected metals drove an extraordinary trading surge. That temporary market window has ended; both Community Goals remain active.
+| class="edfm-home-card-text edfm-home-current-event-text" colspan="2" | The Redonesses combat campaign ended at Tier 2 of 5 after 8,849 commanders submitted 116,350,734,905 credits in Combat Bonds. Final contribution brackets and credit rewards are recorded in the field briefing; Frontier has not yet announced what happens next for EVE-597 or the escaped prisoners.
 |-
-| class="edfm-home-link-list edfm-home-current-event-action" colspan="2" | [[Wreaken Mining Rig Field Tests|READ FIELD TESTS →]]
+| class="edfm-home-link-list edfm-home-current-event-action" colspan="2" | [[EVE-597|READ THE CAMPAIGN OUTCOME →]]
 |}
-</includeonly>
+
+{| class="edfm-home-card edfm-home-card-primary edfm-home-current-event-card"
+| class="edfm-home-current-event-status-label" | '''ANNOUNCED UPDATE'''
+| class="edfm-home-current-event-status-detail" | · ''ANNOUNCED 24 SEP 2026''
+|-
+| class="edfm-home-card-title edfm-home-current-event-title" colspan="2" | [[Law & Disorder|Law & Disorder and the Anaconda Mk II]]
+|-
+| class="edfm-home-card-text edfm-home-current-event-text" colspan="2" | Frontier has announced Law & Disorder as a free December 2026 update, with planned changes to crime, piracy, smuggling, bounty hunting, PvP crime, and Anarchy systems. The [[Anaconda Mk II]] is separately scheduled for ARX Early Access in October 2026. Neither is live yet.
+|-
+| class="edfm-home-link-list edfm-home-current-event-action" colspan="2" | [[Law & Disorder|READ THE UPDATE →]]
+|}

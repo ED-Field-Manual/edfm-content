@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Rhino
 Namespace: 0
 Page ID: 742
-Revision ID: 3791
-Timestamp: 2026-09-11T03:11:24Z
+Revision ID: 6378
+Timestamp: 2026-10-07T11:21:24Z
 Source URL: https://edfieldmanual.com/wiki/Rhino
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -18,7 +18,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
  |source_quality=Frontier release notes, Rhino announcement, developer coverage, and current vehicle/store specifications
  |uncertainty=Frontier has not published complete seat-by-seat multi-crew permissions or the Rhino refinery's detailed storage and overflow rules.
 }}
-{{Article header|section=Ships & Equipment|context=Ships|deck=Large Vodel Surface Recon Vehicle built for planetary Surface Mining.}}
+{{Article header|deck=Large Vodel Surface Recon Vehicle built for planetary Surface Mining.}}
 {{SRV infobox}}
 
 The '''Rhino''' is a large [[Surface Recon Vehicles|Surface Recon Vehicle]] manufactured by [[Vodel]] for planetary [[Surface Mining|surface mining]]. It carries up to three Commanders and combines a mineral scanner, deployable mining rigs, an onboard refinery, and 72 tonnes of cargo capacity. The vehicle deploys only from a [[Large Planetary Vehicle Hangar]] fitted to a compatible ship.<ref name="frontier-release">[https://www.elitedangerous.com/news/rhino-available-now-arx-early-access Rhino – Available Now Via ARX Early Access], Frontier Developments, 2 September 2026. Accessed 10 September 2026.</ref><ref name="frontier-4410">[https://www.elitedangerous.com/news/updates/4-4-1-0 Elite Dangerous – 4.4.1.0 Update Notes], Frontier Developments, 3 September 2026. Accessed 10 September 2026.</ref>
@@ -29,7 +29,7 @@ For the complete mining workflow, see [[Surface Mining with the Rhino]].
 
 Frontier publishes the following stock values for the Rhino.<ref name="store-vehicle">[https://www.elitedangerous.com/store/vehicles/rhino Rhino], Elite Dangerous Gamestore, Frontier Developments. Accessed 10 September 2026.</ref>
 
-{| class="wikitable" style="width:100%;"
+{| class="wikitable" style="width:70%;"
 ! Attribute !! Stock value
 |-
 | Manufacturer || Vodel, a Core Dynamics subsidiary

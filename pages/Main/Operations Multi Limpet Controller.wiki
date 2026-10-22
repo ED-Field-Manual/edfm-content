@@ -3,22 +3,94 @@ EDFM current-content archive export.
 Title: Operations Multi Limpet Controller
 Namespace: 0
 Page ID: 547
-Revision ID: 2175
-Timestamp: 2026-08-24T23:44:41Z
+Revision ID: 4451
+Timestamp: 2026-09-16T13:06:42Z
 Source URL: https://edfieldmanual.com/wiki/Operations_Multi_Limpet_Controller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Operations Multi Limpet Controller ship module.
+{{Article header|deck=A Class 3 controller that programmes collector, hatch-breaker, and recon limpets from one shared active pool.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Core specifications are documented from current EDCD data and maintained module references; the controller family and cross-version availability are confirmed by Frontier's Update 9 notes.
+ |uncertainty=Individual target interactions depend on the selected limpet function and the target's current state.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Operations Multi Limpet Controller''' is an optional internal module that programmes '''collector''', '''hatch-breaker''', and '''recon''' limpets. It consolidates salvage, cargo-hatch breach, and data-point intrusion support into one Class 3 slot and can control up to four active limpets in total.<ref name="edcd">EDCD, [https://raw.githubusercontent.com/EDCD/coriolis-data/6b26af015ebc270e935af3362fea48ad56056e59/modules/internal/multi_limpet_controllers.json Multi Limpet Controller data], commit pinned; accessed 2026-09-16.</ref><ref name="edwiki">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Operations_Multi_Limpet_Controller Operations Multi Limpet Controller], accessed 2026-09-16.</ref>
 
-== Overview ==
+The four-limpet limit is shared between all three programmes. Deploying two collectors, one hatch breaker, and one recon limpet fills the controller's active pool; it does not provide four active slots for every function.
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Specifications ==
+
+{| class="wikitable"
+! Module
+! Mass
+! Integrity
+! Power draw
+! Maximum active limpets
+! Operating range
+! Collector lifetime
+! Hack time
+! Reference value
+|-
+| 3C || 10 t || 68 || 0.35 MW || 4 || 2,600 m || 510 s || 16 s || 48,750 CR
+|-
+| 3B || 15 t || 80 || 0.30 MW || 4 || 3,100 m || 420 s || 22 s || 78,000 CR
+|}
+
+The ratings present trade-offs rather than a direct progression. The 3B version has greater range and integrity with lower power draw, but it is heavier, gives collectors a shorter lifetime, and takes longer to complete a hack. The 3C version is lighter and completes hacks faster.<ref name="edcd" /><ref name="edwiki" />
+
+== Collector function ==
+
+Collector limpets retrieve eligible cargo, materials, salvage, and mining fragments. Launching without an eligible object targeted creates an autonomous collector that can make repeated trips until its lifetime expires. Launching while an object is targeted creates a faster single-use collector that expires after delivering that object.
+
+Collected objects still require suitable storage or processing. Cargo needs free cargo capacity, mining commodity fragments require a powered [[Refinery]], and Engineering materials enter their dedicated storage. The controller does not change cargo ownership or legality.
+
+For launch modes, positioning, ignore-list use, and common failures, see [[How to Use Collector Limpets]].
+
+== Hatch-breaker function ==
+
+A hatch-breaker limpet attaches to a targeted ship's cargo hatch and attempts to force cargo from its hold. The controlling ship must be within range and carry ordinary limpets as cargo. A successful breach releases cargo canisters; collector limpets can then recover them.
+
+Hatch breakers can operate through shields but may be defeated by defensive countermeasures. Using them against another vessel can also be a criminal act under the current jurisdiction. Complete piracy tactics and legal consequences are separate from the controller's module behavior.
+
+== Recon function ==
+
+A recon limpet hacks supported data points on megaships and installations. The pilot first scans the relevant transmitter with the ship's Data Link Scanner, selects its hackable subtarget, moves within controller range, and launches the limpet.<ref name="recon">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Recon_Limpet_Controller Recon Limpet Controller], accessed 2026-09-16.</ref>
+
+The limpet must reach and remain attached to the target for the controller's hack time. A recon limpet does not replace the initial scan, make an unsupported object hackable, or collect any resulting cargo by itself.
+
+== Fitting trade-offs ==
+
+The controller's main advantage is performing three related operations from one slot while supporting four active limpets. This is useful where a ship needs to breach or hack a target and then collect the resulting cargo or salvage without fitting three dedicated controllers.
+
+The compromise is mass and specialist efficiency. Both variants occupy a Class 3 slot and are substantially heavier than many dedicated controllers. Their function-specific range, lifetime, and hack performance do not match every specialised controller, so a ship dedicated to only one task may achieve better results with the corresponding module.
+
+Only one multi-limpet controller can be installed on a ship. Dedicated controllers can be fitted alongside it, and their active-limpet limits are separate from this controller's shared four-limpet pool.
+
+== Engineering ==
+
+No Engineer blueprints or Experimental Effects are currently documented for the Operations Multi Limpet Controller. Engineering available to dedicated Collector, Hatch Breaker, or Recon Limpet Controllers should not be assumed to apply to this multi-controller.
+
+== Acquisition ==
+
+The 3C and 3B variants are ordinary credit purchases through Outfitting where stocked. No Technology Broker, Engineer, permit, naval rank, or Powerplay unlock is required.
+
+Frontier introduced the multi-limpet controller family in Update 9 and made the modules available to both Odyssey and Horizons commanders.<ref name="update9">Frontier Developments, [https://forums.frontier.co.uk/threads/elite-dangerous-odyssey-update-9-notes.595180/ Elite Dangerous: Odyssey Update 9 notes], 9 December 2021.</ref>
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Collector Limpet Controller]] [[Hatch Breaker Limpet Controller]] [[Recon Limpet Controller]] [[How to Use Collector Limpets]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Limpet controllers]]

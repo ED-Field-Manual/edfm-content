@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Limpet controllers
+Namespace: 14
+Page ID: 845
+Revision ID: 5164
+Timestamp: 2026-09-24T14:42:17Z
+Source URL: https://edfieldmanual.com/wiki/Category:Limpet_controllers
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Modules that program and control limpets for collection, repair, research, rescue, decontamination, reconnaissance, and related tasks.
+
+[[Category:Optional internal modules]]

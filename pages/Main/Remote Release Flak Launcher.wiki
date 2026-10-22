@@ -3,22 +3,99 @@ EDFM current-content archive export.
 Title: Remote Release Flak Launcher
 Namespace: 0
 Page ID: 578
-Revision ID: 2190
-Timestamp: 2026-08-24T23:44:59Z
+Revision ID: 4496
+Timestamp: 2026-09-16T16:42:34Z
 Source URL: https://edfieldmanual.com/wiki/Remote_Release_Flak_Launcher
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Remote Release Flak Launcher ship module.
+{{Article header|deck=A remotely detonated flak weapon designed to destroy Thargon swarms around Thargoid Interceptors.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Specifications use commit-pinned EDCD module data and maintained equipment references; anti-swarm role is cross-checked against current Anti-Xeno Initiative guidance.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Remote Release Flak Launcher''' is a Class 2 weapon designed to destroy the [[Thargoid]] Thargon swarms deployed by Interceptors. It fires a flak round while the trigger is held and detonates the round when the trigger is released, allowing the pilot to burst the projectile beside a moving swarm rather than requiring a direct impact.<ref name="wiki-flak">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Remote_Release_Flak_Launcher Remote Release Flak Launcher].</ref>
+
+The expanding flak cloud can destroy several closely grouped Thargons at once. The weapon is highly specialised: its blast is useful against swarms but is ineffective as a general anti-ship weapon and does not replace the weapons used against an Interceptor's hull or hearts.
+
+== Specifications ==
+
+{| class="wikitable"
+! Variant
+! Class
+! Rating
+! Mass
+! Integrity
+! Power draw
+! Distributor draw
+! Damage
+! Armour piercing
+! Thermal load
+! Price
+|-
+| Fixed || 2 || B || 4 t || 51 || 1.20 MW || 0.24 MW || 34 explosive || 60 || 3.6 || 261,800 CR
+|-
+| Turreted || 2 || B || 4 t || 51 || 1.20 MW || 0.24 MW || 34 explosive || 60 || 3.6 || 1,259,200 CR
+|}
+
+Both variants have a one-round magazine, 32-round reserve, two-second firing interval, two-second reload, and 550 m/s projectile speed. Their stock combat statistics are identical apart from mount type and purchase price.<ref name="data-flak">EDCD Coriolis Data, [https://raw.githubusercontent.com/EDCD/coriolis-data/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/hardpoints/remote_release_flak_launcher.json Remote Release Flak Launcher records], commit-pinned.</ref>
+
+== Operation ==
+
+Press and hold the assigned trigger to fire a round. Keep holding while the projectile travels, then release the trigger to detonate it. A brief tap causes the round to burst almost immediately and normally wastes the shot.
+
+The targeting display provides a proximity cue as the round approaches the selected swarm. Release near the cue rather than waiting for a direct collision. The flak's area effect rewards timing and placement across the swarm's flight path:
+
+* fire while the swarm is grouped rather than spread around the ship;
+* account for the 550 m/s projectile speed and the swarm's lateral movement;
+* aim through a dense part of the formation, not necessarily its empty centre; and
+* release when the proximity indicator shows the round beside the formation.
+
+A badly timed round can pass through or detonate short of the swarm. Practice is part of using the launcher effectively; sustained direct aim alone is not enough.
+
+== Anti-xeno role ==
+
+Thargon swarms add sustained pressure and can make an Interceptor engagement much harder to control. Destroying or reducing the swarm removes those drones from the current phase of the fight, allowing the pilot to focus on the Interceptor.<ref name="axi-swarms">Anti-Xeno Initiative Wiki, [https://wiki.antixenoinitiative.com/en/thargon-swarms Thargon Swarms].</ref>
+
+The launcher damages the swarm through its flak burst. It is not an effective weapon for exerting Interceptor hearts, destroying exposed hearts, or fighting ordinary ships. Complete Interceptor tactics, swarm manoeuvres, and build choices belong to dedicated anti-xeno combat guidance rather than this module reference.
+
+The weapon was built for the anti-xeno role but is not one of the ordinary AX missile or multi-cannon families. It does not use guidance or acquire a seeker lock; the pilot controls detonation directly.
+
+== Mount choice ==
+
+The fixed and turreted versions share the same stock damage, ammunition, power, mass, and firing characteristics. The fixed version is substantially cheaper and keeps detonation under the pilot's direct control. The turreted version provides a multicrew gunner option where the ship and crew setup supports turret control; it should not be assumed to automate the release timing for a solo pilot.
+
+== Ammunition and fitting ==
+
+Each launcher carries 32 reserve rounds and loads one round at a time. A missed release therefore consumes a meaningful part of the supply. One well-placed burst can hit several drones, so controlled shots are more valuable than firing as soon as the weapon reloads.
+
+The module occupies a medium hardpoint and draws comparatively little distributor energy, but its main fitting cost is giving up a hardpoint that could damage the Interceptor directly. Whether to carry flak depends on the expected swarm, the ship's remaining weapons, and whether another wing member is handling swarm control.
+
+== Engineering ==
+
+Remote Release Flak Launchers do not accept Engineering blueprints or Experimental Effects. Their damage, ammunition, mass, power draw, and projectile behavior cannot be modified through ordinary Engineers.
+
+== Acquisition ==
+
+Both variants are ordinary credit purchases through Outfitting where stocked. They require no Engineer, Technology Broker, Powerplay, permit, or material unlock. Use a current outfitting search before travelling because station inventories vary.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Thargoid]] [[AX Missile Rack]] [[AX Multi-Cannon]] [[Point Defence Turret]] [[Combat]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Weapons]]
+[[Category:Anti-xeno]]

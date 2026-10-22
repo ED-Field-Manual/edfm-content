@@ -1,0 +1,15 @@
+<!--
+EDFM current-content archive export.
+Title: Category:BGS guides
+Namespace: 14
+Page ID: 960
+Revision ID: 6115
+Timestamp: 2026-10-04T15:55:28Z
+Source URL: https://edfieldmanual.com/wiki/Category:BGS_guides
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Practical guides for Background Simulation work, including mission selection and verification.
+
+[[Category:Background Simulation]]
+[[Category:Guides]]

@@ -3,64 +3,115 @@ EDFM current-content archive export.
 Title: Overcharged
 Namespace: 0
 Page ID: 101
-Revision ID: 1983
-Timestamp: 2026-08-24T21:23:05Z
+Revision ID: 4453
+Timestamp: 2026-09-16T13:14:54Z
 Source URL: https://edfieldmanual.com/wiki/Overcharged
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=To be added: a one-line summary of what this blueprint changes.}}
-{{Article status|status=Draft|mode=Both}}
+{{Article header|deck=A shared Engineering Blueprint name for high-output Power Plant and weapon modifications, each with distinct effects and trade-offs.}}
 
-{{Draft warning}}
-This is a demonstration page showing the Engineering blueprint page structure — see [[Elite Dangerous Field Manual:Engineering Architecture]]. No grade, cost, or compatibility data has been verified yet.
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy Engineering
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Current INARA blueprint records cross-checked against maintained community Engineering references
+ |uncertainty=Material entries show the listed cost of one roll; completing a grade can require additional rolls.
+}}
 
-== Overview ==
-Engineering data to be added.
+'''Overcharged''' is the name of two [[Engineering Blueprints|Engineering Blueprints]]: one for [[Power Plant|Power Plants]] and one for several conventional weapon families. Both trade efficiency for higher output, but their modifiers, materials, Engineers, and compatible [[Experimental Effects]] are separate. A pinned Overcharged Blueprint for one module family does not apply to another.
 
-== Advantages ==
-Engineering data to be added.
+== Power Plant Blueprint ==
 
-== Disadvantages ==
-Engineering data to be added.
+The Power Plant version increases power generation while reducing module integrity and worsening heat efficiency.<ref name="power">[https://inara.cz/elite/blueprint/13/ Power Plant – Overcharged], INARA, accessed 16 September 2026.</ref> In Elite Dangerous, a positive heat-efficiency modifier is a penalty: it increases the plant's heat-per-unit-power value.
 
-== Grade Comparison ==
 {| class="wikitable"
-! Grade !! Attribute changes !! Engineering cost / materials
+! Grade
+! Power generation
+! Integrity
+! Heat efficiency
+! Materials per listed roll
 |-
-| 1 || Engineering data to be added. || Engineering data to be added.
+| 1 || +12% || −5% || +5% || 1 Sulphur
 |-
-| 2 || Engineering data to be added. || Engineering data to be added.
+| 2 || +19% || −10% || +10% || 1 Heat Conduction Wiring; 1 Conductive Components
 |-
-| 3 || Engineering data to be added. || Engineering data to be added.
+| 3 || +26% || −15% || +15% || 1 Heat Conduction Wiring; 1 Conductive Components; 1 Selenium
 |-
-| 4 || Engineering data to be added. || Engineering data to be added.
+| 4 || +33% || −20% || +20% || 1 Heat Dispersion Plate; 1 Conductive Ceramics; 1 Cadmium
 |-
-| 5 || Engineering data to be added. || Engineering data to be added.
-|}
-Rows for grades this blueprint doesn't have will be removed once verified.
-
-== Compatible Modules ==
-Engineering data to be added. See [[Multi-Cannon]] for an example of how a module page cross-references back to this one.
-
-== Engineers ==
-{| class="wikitable"
-! Engineer !! Maximum grade offered
-|-
-| colspan="2" | Engineering data to be added.
+| 5 || +40% || −25% || +25% || 1 Conductive Ceramics; 1 Chemical Manipulators; 1 Tellurium
 |}
 
-== Compatible Experimental Effects ==
-Engineering data to be added.
+=== Availability ===
 
-== Materials Required ==
-Engineering data to be added.
+{| class="wikitable"
+! Engineer
+! Maximum grade
+|-
+| [[Felicity Farseer]] || 1
+|-
+| [[Marco Qwent]] || 4
+|-
+| [[Hera Tani]] || 5
+|-
+| [[Etienne Dorn]] || 5
+|}
 
-== Recommended Uses ==
-Editorial guidance to be added once this blueprint's effects are verified.
+Overcharged is appropriate when the fitted modules exceed the plant's unmodified output and the deficit cannot be solved acceptably through power priorities, lower-consumption modules, or another plant. Its heat and integrity penalties affect the whole build, so the lowest grade that closes the power deficit is often preferable to automatically applying Grade 5.
 
-== Related Guides ==
-{{Related articles|[[Engineering]] [[Engineering Blueprints]]}}
+Compatible Power Plant Experimental Effects include [[Double Braced]], Monstered, [[Stripped Down]], and [[Thermal Spread]]. Only one Experimental Effect may be installed.
+
+== Weapon Blueprint ==
+
+The weapon version increases damage while increasing distributor draw and thermal load.<ref name="weapon">[https://inara.cz/elite/blueprint/57/ Multi-cannon – Overcharged], INARA, accessed 16 September 2026.</ref> On [[Multi-Cannon|Multi-Cannons]], it also reduces clip size. The damage and operating-cost modifiers scale as follows:
+
+{| class="wikitable"
+! Grade
+! Damage
+! Distributor draw
+! Thermal load
+! Multi-Cannon clip size
+! Materials per listed roll
+|-
+| 1 || +30% || +15% || +3% || −3% || 1 Nickel
+|-
+| 2 || +40% || +20% || +6% || −6% || 1 Nickel; 1 Conductive Components
+|-
+| 3 || +50% || +25% || +9% || −9% || 1 Nickel; 1 Conductive Components; 1 Electrochemical Arrays
+|-
+| 4 || +60% || +30% || +12% || −12% || 1 Zinc; 1 Conductive Ceramics; 1 Polymer Capacitors
+|-
+| 5 || +70% || +35% || +15% || −15% || 1 Zirconium; 1 Conductive Polymers; 1 Modified Embedded Firmware
+|}
+
+=== Compatibility ===
+
+Current Engineering records list the weapon version for:
+
+* [[Beam Laser|Beam Lasers]], [[Burst Laser|Burst Lasers]], and [[Pulse Laser|Pulse Lasers]];
+* [[Cannon|Cannons]];
+* [[Fragment Cannon|Fragment Cannons]];
+* [[Multi-Cannon|Multi-Cannons]];
+* [[Plasma Accelerator|Plasma Accelerators]].
+
+Available grades depend on both the weapon family and Engineer. The relevant module article and Engineer record should be checked before travelling for a high-grade modification.
+
+Overcharged is a direct damage choice for a build that can supply the increased weapon-capacitor demand and manage the additional heat. A nominal damage increase does not guarantee the same increase in sustained damage: an emptied WEP capacitor, excess heat, reloads, and ammunition limits can interrupt fire. Lower-distributor Blueprints may therefore perform better on a power-constrained loadout.
+
+Compatible Experimental Effects depend on the weapon family. They are selected separately from the Blueprint, and only one may be fitted to a weapon.
+
+== Applying the Blueprint ==
+
+Grades must be progressed in order on each module. The material table lists one roll at each grade; reaching maximum progress can require more than one roll. Once the appropriate Blueprint has been pinned, grade progression can be applied through [[Remote Engineering]]. Installing or changing an Experimental Effect still requires an in-person Engineer workshop visit.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Experimental Effects]] [[Power Plant]] [[Multi-Cannon]] [[Remote Engineering]]}}
 
 {{Engineering nav}}
 

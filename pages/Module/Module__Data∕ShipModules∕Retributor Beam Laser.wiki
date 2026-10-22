@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Retributor Beam Laser
 Namespace: 828
 Page ID: 587
-Revision ID: 1374
-Timestamp: 2026-08-21T00:00:38Z
+Revision ID: 4823
+Timestamp: 2026-09-20T15:01:07Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Retributor_Beam_Laser
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Retributor Beam Laser",
+	module_class = "Beam laser",
+	slot_type = "Hardpoint",
+	mount = "Class 1 fixed",
+	manufacturer = "Powerplay reward",
+	availability = "Live: Powerplay loyalty-rank unlock. Legacy: Edmund Mahon Rating 3 after four weeks pledged",
+	engineering = "Beam Laser blueprints and Experimental Effects",
+	related_modules = "[[Beam Laser]], [[Pulse Disruptor]], [[Cytoscrambler]]",
 }

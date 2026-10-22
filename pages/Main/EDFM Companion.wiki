@@ -1,0 +1,145 @@
+<!--
+EDFM current-content archive export.
+Title: EDFM Companion
+Namespace: 0
+Page ID: 990
+Revision ID: 6389
+Timestamp: 2026-10-07T11:38:44Z
+Source URL: https://edfieldmanual.com/wiki/EDFM_Companion
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{DISPLAYTITLE:EDFM Companion}}
+{{SEO
+ |title=EDFM Companion
+ |description=EDFM Companion is an upcoming Windows desktop companion and optional in-game overlay for Elite Dangerous, now in active development and testing.
+ |keywords=EDFM Companion, Elite Dangerous companion app, Elite Dangerous overlay, Elite Dangerous journal, exobiology tracker, mission tracker
+}}
+{{Article header
+ |eyebrow=Reference
+ |title=EDFM Companion
+ |short-title=EDFM Companion
+ |deck=An upcoming desktop companion and optional in-game overlay that combines familiar journal-driven tools with deeper links to the Elite Dangerous Field Manual.
+ |badge=Coming soon
+}}
+{{Article status
+ |status=upcoming
+ |summary=EDFM Companion is in active development and testing. No supported public build or release date has been announced.
+ |date=7 October 2026
+}}
+
+'''EDFM Companion''' is an upcoming Windows desktop companion and optional in-game overlay for ''Elite Dangerous''. It follows journal and status data as a commander plays, turns supported events into useful current information and history, and surfaces relevant [[Main Page|Elite Dangerous Field Manual]] guidance without requiring commanders to read raw journal records.
+
+The project combines the familiar journal-driven work of a companion app with EDFM-specific features. It is not being built simply to replace [https://github.com/EDCD/EDMarketConnector Elite Dangerous Market Connector]. Current development includes compatibility for established EDMC plugin workflows where technically practical, together with direct connections to community services that already provide dependable data and route-planning tools.
+
+{| class="wikitable"
+! At a glance
+! Current position
+|-
+| Platform
+| Windows 10 and Windows 11
+|-
+| Availability
+| Coming soon; no supported public build is available
+|-
+| Source code
+| [https://github.com/ED-Field-Manual/edfmc EDFM Companion on GitHub]
+|-
+| Game data
+| Elite Dangerous journal and status files
+|-
+| Presentation
+| Desktop interface and configurable in-game overlay
+|-
+| Data approach
+| Local by default, with separate opt-in sharing and synchronisation controls
+|}
+
+== Features ==
+
+=== Field Journal and commander history ===
+
+The Commander Field Journal turns supported journal events into a readable record of what a commander has done. It can follow new events in real time, rebuild history from existing journal files, filter activity by subject, and open relevant EDFM references from an entry.
+
+History, settings and integration state are scoped to each commander on the same computer. Commander history is working in current development builds; automatic grouping into named play sessions is not yet available.
+
+=== Optional in-game overlay ===
+
+The overlay can present current context, missions, exobiology progress, carrier countdowns, live journal activity and route information over the game. Each widget can be enabled or disabled separately, and background and text transparency can be adjusted independently. Layout controls allow the overlay to be unlocked for repositioning and resizing, then returned to click-through use while playing.
+
+=== Activities and guidance ===
+
+* '''Exobiology:''' tracks biological signals and samples, including visible '''1/3''', '''2/3''' and '''3/3''' progress when the required sample sequence has been observed. It also provides body and genus progress in the desktop interface and overlay.
+* '''Missions:''' follows accepted, completed, failed and abandoned missions, with cargo delivery progress where the journal provides it.
+* '''Colonisation:''' recognises colonisation contribution and construction events and can build a local logistics picture from the relevant journal activity.
+* '''Powerplay:''' recognises supported Powerplay events for contextual guidance. Deeper activity history and analysis remain in development.
+* '''BGS:''' mission faction, reputation and influence information is retained where the journal provides it. Dedicated BGS activity tracking and analysis remain in development.
+* '''EDFM context:''' current activity can surface direct links to relevant Field Manual references and procedures rather than reproducing the manual inside the application.
+
+=== Screenshot workflow ===
+
+A configurable global shortcut can capture the game, hide the overlay from the saved image, and open a naming and classification screen. Screenshots can be renamed, organised, searched and attached to a relevant Field Journal entry. Screenshot catalogues and preferences remain separate for each commander.
+
+== Screenshots ==
+
+<gallery mode="packed" heights="240">
+File:Edfmc_journal.png|The Field Journal presents easily read activity with subject filters.
+File:Edfmc_exobio_overlay.png|The exobiology overlay shows known organisms and three-sample progress on the current body.
+File:Screenshot_menu.png|The capture workflow classifies and names a screenshot before saving it.
+File:Screenshot 2026-10-03 111136.png|Check your missions easily.
+</gallery>
+
+== Plugins and familiar workflows ==
+
+EDFM Companion supports its own data-driven plugins and includes a Python plugin host for compatibility work with existing EDMC plugins. Current development builds support common EDMC plugin hooks and have been tested with selected community workflows, but this is not a promise that every plugin will work unchanged. Plugins that rely on unsupported host interfaces, Frontier account data, or assumptions specific to EDMC may need changes.
+
+The aim is to preserve useful community workflows where practical, not to claim ownership of community plugins or imply an official affiliation with EDMC.
+
+== Community services and interoperability ==
+
+Where an established community service already does something well, EDFM Companion is intended to integrate with it, exchange appropriate data with it, or leave that function with the service rather than recreate the entire website inside the desktop application.
+
+{| class="wikitable"
+! Service
+! Current status
+! Role in EDFM Companion
+|-
+| [https://github.com/EDCD/EDDN EDDN]
+| '''Working in development builds'''
+| Commanders can opt in to sending supported public journal observations. Sensitive commander fields are removed before submission, and a durable queue retries temporary network or service failures.
+|-
+| [https://www.edsm.net/ EDSM]
+| '''Integration in progress'''
+| Submission, credential handling, privacy filtering and queued retry work are present. Final service and commander-account testing is still under way, so the integration is not presented as complete.
+|-
+| [https://inara.cz/ Inara]
+| '''Integration in progress'''
+| Work is using Inara's supported API and event model rather than scraping the site or using private endpoints. Application access, secure commander credentials and account-specific testing remain part of the integration work.
+|-
+| [https://spansh.co.uk/ Spansh]
+| '''Working in development builds'''
+| EDFM Companion includes its own Router plugin for Spansh's public route API. It can plot neutron routes, import Spansh CSV routes, follow waypoint progress and provide the next jump to the overlay without depending on the older SpanshRoute plugin.
+|-
+| EDFM / [[Special:CommanderJournal|EDFM Commander Journal]]
+| '''Working in development builds'''
+| EDFM contextual links are active. An optional authenticated sync can push supported Field Journal entries to EDFM through a durable retry queue. Synced journals are Private by default; commanders can choose Private, Unlisted or Public visibility on the wiki. Current sync is upload-only and does not restore history to another computer.
+|}
+
+These services are independent community projects. Their inclusion here describes interoperability work and does not imply endorsement, partnership or affiliation.
+
+== Privacy and local data ==
+
+EDFM Companion keeps its local Field Journal, mission history, screenshot catalogue, settings and plugin state on the commander's computer. Network integrations are separate and opt-in. They submit only the data required by the selected service, and user-specific API keys or sync tokens are kept in the operating system's credential store rather than in the ordinary settings database.
+
+The application records a local audit of integration attempts and keeps failed submissions available for retry. Changing one commander's sharing settings does not change another commander's settings on the same installation.
+
+== Coming soon ==
+
+EDFM Companion remains under active development and testing. Current work includes expanding Field Journal coverage, BGS and Powerplay features, EDSM and Inara integration, plugin compatibility, and continued refinement of the overlay, exobiology and screenshot tools.
+
+No supported installer or release date has been announced. Current development builds demonstrate working parts of the application, but they should not be treated as a public release.
+
+{{Related articles|[[Exobiology]] [[Missions]] [[Powerplay]] [[Colonisation]]}}
+
+[[Category:Reference Entries]]
+[[Category:Upcoming Content]]

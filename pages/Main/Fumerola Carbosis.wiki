@@ -1,0 +1,58 @@
+<!--
+EDFM current-content archive export.
+Title: Fumerola Carbosis
+Namespace: 0
+Page ID: 869
+Revision ID: 5555
+Timestamp: 2026-09-28T23:57:06Z
+Source URL: https://edfieldmanual.com/wiki/Fumerola_Carbosis
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=A field reference for Fumerola Carbosis, including value, sampling distance, environmental profiles and known visual variants.}}
+
+{{Exobiology species infobox}}
+
+'''Fumerola Carbosis''' is a tube-shaped Fumerola species associated with carbon- and methane-based volcanism. An inner organism protrudes from the opening at the top, increasing the surface available for heat absorption.<ref name="canonn">[https://us-central1-canonn-api-236217.cloudfunctions.net/query/codex/ref Canonn Codex reference], snapshot retrieved 28 September 2026.</ref>
+
+== Classification ==
+
+{{#invoke:Exobiology|classification|title=Fumerola Carbosis}}
+
+== Value ==
+
+{{#invoke:Exobiology|value|title=Fumerola Carbosis}}<ref name="canonn" />
+
+== Sampling ==
+
+{{#invoke:Exobiology|sampling|title=Fumerola Carbosis}}<ref name="guide">[https://www.elitedangerous.com/en-US/news/odyssey-guide Odyssey Guide], Frontier Developments.</ref><ref name="explodata">[https://github.com/Silarn/EDMC-ExploData/blob/fd4e188defd6405e46398fb0a54ac8669c9e2189/src/ExploData/explo_data/bio_data/genus.py EDMC-ExploData genus data], commit fd4e188d.</ref>
+
+== Environmental requirements ==
+
+The profiles below come from a maintained community prediction model. They are useful search constraints, but observational limits should not be read as official guarantees or proof that unlisted conditions are impossible.<ref name="bioscan">[https://github.com/Silarn/EDMC-BioScan/blob/fc6b85c3de48c8fb79fa9e4f79ad780e48f56629/src/bio_scan/bio_data/rulesets/fumerola.py EDMC-BioScan Fumerola rules], commit fc6b85c3.</ref>
+
+{{#invoke:Exobiology|environment|title=Fumerola Carbosis}}
+
+== Identification ==
+
+Look for thin upright tubes around appropriate volcanic terrain. The organism is biological Fumerola, not the geological [[Fumarole]] feature family.
+
+== Variants ==
+
+The named variants below follow the current Codex reference.<ref name="canonn" />
+
+{{#invoke:Exobiology|variants|title=Fumerola Carbosis}}
+
+== Practical notes ==
+
+Its maintained prediction model contains several atmosphere and volcanism profiles; use the table to narrow searches rather than treating any one row as universal.
+
+== Related organisms ==
+
+See [[Exobiology#Fumerola|Fumerola]] for the complete group listing.
+
+== Sources ==
+
+<references />
+
+[[Category:Fumerola species]]

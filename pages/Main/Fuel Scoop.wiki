@@ -3,22 +3,122 @@ EDFM current-content archive export.
 Title: Fuel Scoop
 Namespace: 0
 Page ID: 497
-Revision ID: 2154
-Timestamp: 2026-08-24T23:44:15Z
+Revision ID: 4315
+Timestamp: 2026-09-15T13:17:50Z
 Source URL: https://edfieldmanual.com/wiki/Fuel_Scoop
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Fuel Scoop ship module.
+{{Article header|deck=A massless optional module that gathers hydrogen fuel from suitable stars while a ship remains in supercruise.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy standard modules; Merc Engineering is Live-only
+ |reviewed=2026-09-15
+ |source_quality=Current maintained community module data, supported by Frontier Operations notes and Engineering records
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+A '''Fuel Scoop''' is an optional internal module that automatically transfers hydrogen from a suitable star into a ship's main [[Fuel Tank]] while the ship is in supercruise. It lets a commander refuel without docking and is a central endurance module for [[Exploration|long-range travel]]. Fuel Scoops have no module mass, so fitting a larger or higher-rated scoop does not directly reduce jump range.<ref name="ed-wiki-scoop">[https://elite-dangerous.fandom.com/wiki/Fuel_Scoop Elite Dangerous Wiki: ''Fuel Scoop''], revision of 26 April 2026. Current community description, operating behavior, scoopable star classes, specifications, fitting limits, and Engineering; retrieved 15 September 2026.</ref>
 
-== Overview ==
+== Operation ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+A powered Fuel Scoop needs no fire-group assignment. It activates automatically when the ship enters the collection region around a scoopable star in supercruise. The HUD then displays the current collection rate, main-tank level, and ship heat.
+
+Fuel is gathered only from main-sequence stars in spectral classes '''O, B, A, F, G, K, and M'''. The sequence is often remembered as “KGB FOAM” or “OBAFGKM”. White dwarfs, neutron stars, brown dwarfs, protostars, carbon stars, Wolf–Rayet stars, and stellar remnants do not provide ordinary scoopable fuel.<ref name="ed-wiki-scoop" />
+
+Collection rate rises as the ship moves deeper into the star's scoopable region, up to the module's listed maximum. Heat also rises near the star. A practical scoop therefore balances collection rate against the vessel's current heat behavior rather than remaining as close as possible.
+
+To scoop safely:
+
+# Enter supercruise near an O-, B-, A-, F-, G-, K-, or M-class star.
+# Approach until the Fuel Scoop indicator and collection rate appear.
+# Hold a distance that keeps heat under control; forward speed is not required, so minimum supercruise throttle can be used.
+# Move away when the main tank is full or before heat becomes unsafe.
+
+The module fills the main tank. It does not directly fill the small active reservoir shown beside it on the HUD; the ship transfers fuel from the main tank to that reservoir through its normal fuel system.<ref name="ed-wiki-scoop" />
+
+== Classes and ratings ==
+
+Standard Fuel Scoops are available in Classes 1–8 and ratings E–A. Within one class, higher ratings collect fuel faster while drawing more power and costing more. Increasing class produces a much larger performance increase. Every standard variant is massless, and only one Fuel Scoop can be fitted to a ship.<ref name="edcd-scoop">[https://raw.githubusercontent.com/EDCD/coriolis-data/9e5273b56426596061e2b02a6ba53e3e4103c9ab/modules/internal/fuel_scoop.json EDCD Coriolis data: ''Fuel Scoop''], pinned module-data revision committed 6 June 2024. Standard class, rating, power, maximum scoop-rate, and price records; retrieved 15 September 2026.</ref><ref name="ed-wiki-scoop" />
+
+{| class="wikitable sortable"
+! Class
+! E-rated maximum
+! A-rated maximum
+! A-rated power draw
+|-
+| 1
+| 18 kg/s
+| 42 kg/s
+| 0.32 MW
+|-
+| 2
+| 32 kg/s
+| 75 kg/s
+| 0.39 MW
+|-
+| 3
+| 75 kg/s
+| 176 kg/s
+| 0.48 MW
+|-
+| 4
+| 147 kg/s
+| 343 kg/s
+| 0.57 MW
+|-
+| 5
+| 247 kg/s
+| 577 kg/s
+| 0.70 MW
+|-
+| 6
+| 376 kg/s
+| 878 kg/s
+| 0.83 MW
+|-
+| 7
+| 534 kg/s
+| 1,245 kg/s
+| 0.97 MW
+|-
+| 8
+| 720 kg/s
+| 1,680 kg/s
+| 1.12 MW
+|}
+
+A Fuel Scoop does not have to match the ship's [[Frame Shift Drive]] class. The appropriate size depends on how much fuel each jump consumes, how long the commander is willing to remain near a star, available optional-internal space, power capacity, and budget.
+
+== Heat and special stellar interactions ==
+
+The scoop itself collects fuel without ammunition or cargo space, but the ship must remain close enough to a star for the process to work. Thermal behavior therefore depends heavily on the vessel, power plant, current load, star, and flight path. Moving away from the star reduces both scoop rate and thermal pressure.
+
+A fitted Fuel Scoop also enables interaction with white-dwarf and neutron-star cones for [[Frame Shift Drive]] supercharging. This does not collect ordinary fuel from those stars and can damage the Frame Shift Drive if the ship enters a cone. Supercharging is a separate high-risk travel mechanic rather than normal refuelling.
+
+== Engineering ==
+
+Standard Fuel Scoops accept the '''Shielded''' blueprint, which increases integrity at the cost of additional passive power draw. They have no Experimental Effects.<ref name="inara-shielded">[https://inara.cz/elite/blueprint/129/ INARA: ''Fuel Scoop — Shielded'']. Current blueprint modifiers, costs, grade structure, and Engineer availability; retrieved 15 September 2026.</ref>
+
+In Live, an eligible Merc Fuel Scoop can instead receive the '''Scoop Rate Enhanced''' upgrade from select remote Engineers. The five grades increase scoop rate while also increasing power draw, and the upgrade uses [[Merc Coin]]. This blueprint applies only to compatible Merc modules; it is not a general second blueprint for every standard Fuel Scoop.<ref name="frontier-ops">[https://www.elitedangerous.com/news/updates/4-4-0-0 Elite Dangerous update 4.4.0.0], Frontier Developments, 26 August 2026. Official Operations and remote-Engineer release notes, including the Fuel Scoop upgrade; retrieved 15 September 2026.</ref><ref name="inara-rate">[https://inara.cz/elite/blueprint/201 INARA: ''Fuel Scoop — Scoop Rate Enhanced'']. Current Merc-only compatibility, modifiers, grades, costs, and Engineer availability; retrieved 15 September 2026.</ref>
+
+== Acquisition ==
+
+Standard E–A Fuel Scoops are normal credit-purchased optional modules. Availability depends on current Outfitting stock. Merc Fuel Scoops are Live rewards from applicable [[Operations]] rather than ordinary standard variants.<ref name="frontier-ops" />
+
+== Sources ==
+
+<references />
+
+== Related articles ==
+
+* [[Fuel Tank]]
+* [[Frame Shift Drive]]
+* [[Exploration]]
+* [[Operations]]
 
 [[Category:Modules]]
 [[Category:Ship modules]]

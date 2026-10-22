@@ -1,0 +1,15 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Powerplay modules
+Namespace: 14
+Page ID: 846
+Revision ID: 5165
+Timestamp: 2026-09-24T14:42:48Z
+Source URL: https://edfieldmanual.com/wiki/Category:Powerplay_modules
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Ship modules obtained through the Powerplay system.
+
+[[Category:Ship modules]]
+[[Category:Powerplay]]

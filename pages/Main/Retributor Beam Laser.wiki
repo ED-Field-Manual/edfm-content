@@ -3,22 +3,96 @@ EDFM current-content archive export.
 Title: Retributor Beam Laser
 Namespace: 0
 Page ID: 588
-Revision ID: 2195
-Timestamp: 2026-08-24T23:45:05Z
+Revision ID: 4824
+Timestamp: 2026-09-20T15:01:36Z
 Source URL: https://edfieldmanual.com/wiki/Retributor_Beam_Laser
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Retributor Beam Laser ship module.
+{{Article header|deck=A fixed Class 1 Powerplay beam laser that trades direct damage for an inherent heat-transfer effect.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.1.1; Legacy 3.8
+ |reviewed=2026-09-20
+ |reviewer=Sythan
+ |source_quality=Module statistics use commit-pinned EDCD data; weapon behavior uses maintained module references; Live and Legacy acquisition rules are sourced separately.
+ |uncertainty=In Live, the loyalty rank at which this module unlocks depends on the pledged Power's current reward order and should be checked in-game.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Retributor Beam Laser''', usually called the '''Retributor''', is a fixed Class 1 [[Beam Laser]] with an inherent heat-transfer effect. It inflicts less direct damage than the standard weapon in exchange for increasing the target ship's heat while the beam remains on target.<ref name="edwiki">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Retributor Retributor], accessed 2026-09-17.</ref>
+
+The Retributor originated as Edmund Mahon's unique Powerplay module. In Live, every Power eventually unlocks every Powerplay module through loyalty ranks, but each Power presents the modules in a different order.<ref name="pp2">Frontier Developments, [https://www.elitedangerous.com/news/powerplay-20-qa Powerplay 2.0 Q&A], accessed 2026-09-17.</ref> Legacy retains the original system in which the weapon is available only through Edmund Mahon.<ref name="frontier-modes">Frontier Developments, [https://www.elitedangerous.com/news/update-15-upcoming-feature-rework-and-more Update 15, the Upcoming Feature Rework and More]; accessed 20 September 2026.</ref><ref name="newp-legacy">New Pilots Initiative, [https://newp.io/ppmodules Powerplay Modules]; accessed 20 September 2026. The acquisition rules on this older guide apply to Legacy, not current Live.</ref>
+
+== Specifications ==
+
+{| class="wikitable"
+! Class
+! Rating
+! Mount
+! Damage per second
+! Damage type
+! Armour piercing
+! Power draw
+! Distributor draw
+! Thermal load
+! Falloff
+! Maximum range
+! Mass
+! Integrity
+! Reference value
+|-
+| 1 || E || Fixed || 4.9 || Thermal || 18 || 0.62 MW || 2.52 MW || 2.7/s || 600 m || 3,000 m || 2 t || 40 || 56,150 CR
+|}
+
+Only the small fixed version is available. It has no gimballed, turreted, medium, large, or huge counterpart.<ref name="edcd">EDCD Coriolis Data, [https://raw.githubusercontent.com/EDCD/coriolis-data/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/hardpoints/beam_laser.json Beam Laser records], commit pinned; accessed 2026-09-17.</ref>
+
+The weapon deals pure thermal damage and follows the standard beam-laser range profile, beginning damage falloff at 600 metres and reaching a maximum range of three kilometres. Its low direct damage and Class 1 armour piercing make it poorly suited to damaging heavy hulls on its own.
+
+== Heat-transfer effect ==
+
+A Retributor dumps heat into the target while its beam maintains contact. The inherent effect is equivalent in purpose to the Thermal Shock Experimental Effect and can operate through an active shield.<ref name="edwiki" /> The effect supplements the weapon's ordinary thermal damage; it does not replace target contact with an automatic debuff.
+
+Continuous tracking is important because a fixed beam stops applying heat whenever it leaves the target. Heat sinks, strong thermal management, and natural heat dissipation can counter its pressure. Large ships may also absorb the small weapon's heat input more readily than compact, already-hot targets.
+
+The practical result depends heavily on the target's heat state and cooling response. The Retributor should therefore be treated as a specialised pressure or control weapon, not as a guaranteed way to destroy a ship through overheating.
+
+== Power and heat management ==
+
+Like other beam lasers, the Retributor draws continuously from the weapon capacitor. Its distributor draw is high relative to its direct damage, so sustained fire competes heavily with other energy weapons. Fitting several Retributors increases target heating but also makes capacitor management and fixed-weapon tracking more demanding.
+
+The firing ship still produces thermal load while using the weapon. Engineering and distributor capacity can extend firing time, but the weapon remains limited by line of sight, capacitor energy, and the pilot's ability to hold a fixed beam on target.
+
+== Engineering ==
+
+The Retributor accepts Beam Laser Engineering blueprints and compatible Experimental Effects. Its inherent heat-transfer property is part of the base weapon and remains present after Engineering.
+
+A second Thermal Shock effect can be applied as the weapon's Experimental Effect, adding to the built-in heat-transfer behavior.<ref name="edwiki" /> Alternatively, other compatible beam-laser effects can be used to support a different role. The usual restriction of one Experimental Effect per engineered weapon still applies.
+
+== Acquisition ==
+
+=== Live ===
+
+The Retributor is a Powerplay loyalty-rank reward. A commander must pledge to a Power, earn merits, and reach the rank at which that Power offers the module. All Powers can eventually grant access under Powerplay 2.0, although the unlock rank differs because their reward orders are not identical.<ref name="pp2" />
+
+Leaving or changing Powers resets loyalty progression and removes unearned perks, but previously purchased modules remain in the commander's inventory. Check the current in-game Powerplay rewards screen for the applicable rank before beginning an unlock.
+
+=== Legacy ===
+
+In Legacy, pledge to Edmund Mahon for at least four weeks and reach Rating 3 with 750 merits at the weekly Powerplay cycle. The weapon remains purchasable while those requirements are met.<ref name="frontier-modes" /><ref name="newp-legacy" /> These are Legacy instructions; Live uses the loyalty-rank process above.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Beam Laser]] [[Pulse Disruptor]] [[Cytoscrambler]] [[Engineering]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Weapons]]
+[[Category:Powerplay modules]]

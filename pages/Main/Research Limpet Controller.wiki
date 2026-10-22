@@ -3,22 +3,90 @@ EDFM current-content archive export.
 Title: Research Limpet Controller
 Namespace: 0
 Page ID: 586
-Revision ID: 2194
-Timestamp: 2026-08-24T23:45:04Z
+Revision ID: 4574
+Timestamp: 2026-09-17T13:10:42Z
 Source URL: https://edfieldmanual.com/wiki/Research_Limpet_Controller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Research Limpet Controller ship module.
+{{Article header|deck=A Class 1 controller that programmes limpets to extract tissue samples from supported alien vessels and organisms.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy
+ |reviewed=2026-09-17
+ |reviewer=Sythan
+ |source_quality=Module specifications use commit-pinned EDCD data; sampling behavior and known targets use maintained community research references.
+ |uncertainty=Not every alien or organic target supports research-limpet sampling.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Research Limpet Controller''' is an optional internal module that programmes limpets to remove tissue or biomatter samples from supported alien vessels and spaceborne organisms. Valid targets include Thargoid Scouts and Interceptors as well as several organic entities found in Notable Stellar Phenomena.<ref name="edwiki">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Research_Limpet_Controller Research Limpet Controller], accessed 2026-09-17.</ref><ref name="canonn">Canonn Research Group, [https://canonn.science/codex/research-limpets Research Limpets], accessed 2026-09-17.</ref>
+
+Sampling a Thargoid vessel commonly provokes a hostile response. The controller is therefore a scientific collection tool rather than a passive scanner, and the target may attack before the limpet completes its work.
+
+== Specifications ==
+
+{| class="wikitable"
+! Class
+! Rating
+! Mass
+! Integrity
+! Power draw
+! Maximum active limpets
+! Operating range
+! Limpet lifetime
+! Reference value
+|-
+| 1 || E || 1.3 t || 20 || 0.40 MW || 1 || 2,000 m || 300 s || 1,749,600 CR
+|}
+
+Only the 1E dedicated controller is available. It controls one limpet at a time and has no larger-class or higher-rated dedicated variant.<ref name="edcd">EDCD Coriolis Data, [https://raw.githubusercontent.com/EDCD/coriolis-data/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/internal/research_limpet_controller.json Research Limpet Controller record], commit pinned; accessed 2026-09-17.</ref>
+
+== Operation ==
+
+The controller must be powered, assigned to a fire group, and supplied with ordinary limpets in a [[Cargo Rack]]. Target a supported vessel or organism within two kilometres and fire the controller. The programmed limpet travels to the target, attaches, extracts a sample, and returns it to the launching ship's cargo scoop.
+
+Both the controller and target must remain within operating conditions until collection finishes. If the limpet is destroyed, loses the target, exceeds its range or lifetime, or cannot return to the ship, no sample is delivered.
+
+Research limpets are designed for targets in space. They are not a general biological sampler and cannot extract material from every alien object. A target accepting selection does not by itself guarantee that the limpet can complete a sample.
+
+== Known sample targets ==
+
+The dedicated controller can collect tissue from the principal Thargoid combat-vessel classes:
+
+* Thargoid Scouts;
+* Cyclops Interceptors;
+* Basilisk Interceptors;
+* Medusa Interceptors; and
+* Hydra Interceptors.
+
+It can also sample several spaceborne pod organisms, including Aster, Chalice, Collared, Gyre, Octahedral, Peduncle, Quadripartite, Rhizome, and Stolon pods. Different organisms can yield differently named tissue, shell, surface, or outer-tissue commodities.<ref name="edwiki" /><ref name="canonn" />
+
+Thargoid tissue samples are corrosive cargo. A [[Corrosion Resistant Cargo Rack]] prevents them from damaging the carrying ship while stored. Ordinary cargo capacity is still required because samples are commodities rather than Engineering Materials.
+
+== Fitting trade-offs ==
+
+The controller's Class 1 compartment requirement is modest, but sampling also needs cargo space for blank limpets and returned commodities. Carrying corrosive Thargoid samples safely adds the further cost of a corrosion-resistant rack.
+
+A [[Xeno Multi Limpet Controller]] combines research, decontamination, and repair functions in one Class 3 module. The dedicated controller is much lighter and occupies a smaller slot when research sampling is the only required limpet function.
+
+== Engineering and acquisition ==
+
+The Research Limpet Controller does not accept Engineering blueprints or Experimental Effects. The 1E module is an ordinary credit purchase through Outfitting where stocked and requires no Engineer, Technology Broker, Powerplay, permit, or material unlock.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Xeno Multi Limpet Controller]] [[Corrosion Resistant Cargo Rack]] [[Cargo Rack]] [[Thargoid]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Optional internal modules]]
+[[Category:Limpet controllers]]
+[[Category:Anti-Xeno equipment]]

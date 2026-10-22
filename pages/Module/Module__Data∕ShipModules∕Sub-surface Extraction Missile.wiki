@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Sub-surface Extraction Missile
 Namespace: 828
 Page ID: 607
-Revision ID: 1394
-Timestamp: 2026-08-21T00:00:53Z
+Revision ID: 4853
+Timestamp: 2026-09-20T19:49:51Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Sub-surface_Extraction_Missile
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Sub-surface Extraction Missile",
+	module_class = "Titan rescue tool",
+	slot_type = "Hardpoint",
+	mount = "Class 2B fixed",
+	manufacturer = "Aegis, from Sirius Corporation blueprints",
+	availability = "Credit purchase through Outfitting; introduced at rescue megaships",
+	engineering = "",
+	related_modules = "[[Sub-surface Displacement Missile]]<br>Pulse Wave Xeno Scanner<br>[[Caustic Sink Launcher]]",
 }

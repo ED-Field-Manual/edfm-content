@@ -3,12 +3,101 @@ EDFM current-content archive export.
 Title: Unlocking Rosa Dayette
 Namespace: 0
 Page ID: 657
-Revision ID: 1599
-Timestamp: 2026-08-23T19:22:46Z
+Revision ID: 4135
+Timestamp: 2026-09-14T03:08:46Z
 Source URL: https://edfieldmanual.com/wiki/Unlocking_Rosa_Dayette
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|Planned unlock guide for Rosa Dayette, covering unlock prerequisites, invite steps, required items or reputation, and verification notes for commanders once source-backed details are added.}}
+{{Article header|deck=Sell ten total Culinary Recipes and/or Cocktail Recipes in the Colonia system to unlock Rosa Dayette.}}
 
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Current Odyssey Engineering
+ |reviewer=Sythan
+ |reviewed=2026-09-14
+ |source_quality=Current INARA requirements corroborated by EDFM canonical Engineer data and the maintained Elite Dangerous Wiki
+ |uncertainty=Frontier does not publish a current first-party unlock checklist; complete the sales inside the star system named Colonia and refresh the session if access does not appear immediately.
+}}
+
+This Field Procedure covers the steps required to unlock [[Rosa Dayette]]. For her workshop and available suit and handheld-weapon modifications, see the Engineer reference page.
+
+== Objective ==
+
+Gain access to Rosa Dayette's Odyssey Engineering services at '''Rosa's Shop''' in the '''Kojeara''' system of the [[Colonia]] region.
+
+== Requirements ==
+
+{{Prerequisites|
+* '''Game mode:''' Live with Odyssey on-foot content available.
+* '''Discovery:''' Rosa is common knowledge; no Engineer referral is required.
+* '''Data:''' Collect 10 total Culinary Recipes and/or Cocktail Recipes in any combination.
+* '''Unlock:''' Sell those 10 recipe data items to station bartenders in the '''Colonia system'''.
+}}
+
+The two recipe types share one ten-unit unlock total. Ten Culinary Recipes, ten Cocktail Recipes, or any combination adding up to ten can satisfy the requirement.<ref name="inara">[https://inara.cz/elite/engineer/37/ INARA: Rosa Dayette], accessed 14 September 2026.</ref><ref name="wiki">[https://elite-dangerous.fandom.com/wiki/Engineers Elite Dangerous Wiki: Engineer summary], accessed 14 September 2026.</ref>
+
+The location condition refers to the star system named '''Colonia''', not to the wider Colonia region.<ref name="frontierforum">[https://forums.frontier.co.uk/threads/on-my-way-to-colonia-to-unlock-engineers.599989/ Frontier Forums: Colonia Engineer requirements], community report accessed 14 September 2026.</ref>
+
+== Preparation ==
+
+Collect at least ten recipe data items between:
+
+* Culinary Recipes; and
+* Cocktail Recipes.
+
+These are Odyssey data assets carried in the suit's data storage. They can appear in settlement data ports and as mission rewards. Mission rewards are the safer predictable source when offered; downloading owned data without authorization can make it stolen and may trigger a settlement response.
+
+Do not sell the required recipes elsewhere before reaching the Colonia system. Sales outside the required system should not be assumed to count.
+
+== Procedure ==
+
+{{Procedure steps|
+# Travel to the '''Colonia''' star system.
+# Dock at a port there that has a concourse bartender.
+# Open the bartender's goods menu.
+# Sell 10 total Culinary Recipes and/or Cocktail Recipes in any combination.
+# Leave the bartender interface and check Rosa's entry in the Engineers panel.
+# If access has not updated, return to the main menu and begin a new session before checking again.
+# Travel to '''Rosa's Shop''' in the '''Kojeara''' system.
+# Enter the workshop and confirm that Rosa's modification services are available.
+}}
+
+== Expected result ==
+
+{{Expected result|[[Rosa Dayette]] is unlocked and her suit and handheld-weapon Engineering services are available at Rosa's Shop.}}
+
+No commodity donation, rank, faction-reputation requirement, or second data sale is required for Rosa's initial unlock.
+
+== Yi Shen referral ==
+
+After Rosa is unlocked, she offers one of the three referral tasks needed for [[Yi Shen]]. Provide Rosa with 10 Manufacturing Instructions at her workshop. This is separate from Rosa's own recipe-sale unlock and is not required merely to use her services.<ref name="inara" /><ref name="frontierforum" />
+
+== Troubleshooting ==
+
+;The unlock did not appear
+:Confirm that the sales occurred in the '''Colonia''' star system and that the combined number of Culinary Recipes and Cocktail Recipes was at least ten. Begin a new game session before collecting replacements.
+
+;Only one recipe type was sold
+:That is sufficient if the quantity reached ten. The requirement accepts either recipe type or a mixture of both.
+
+;Yi Shen remains unavailable
+:Rosa's initial unlock does not complete her later referral task. Provide her with 10 Manufacturing Instructions, then complete the separate tasks from [[Baltanos]] and [[Eleanor Bresa]]. See [[Unlocking Yi Shen]].
+
+== Related pages ==
+
+* [[Rosa Dayette]] — workshop, services, and reference details
+* [[Unlocking Yi Shen]] — the three Colonia referral tasks
+* [[Engineer Unlock Guide]] — wider unlock order
+* [[Odyssey Engineering]] — suit and handheld-weapon Engineering mechanics
+* [[Colonia]] — regional travel and service context
+
+== Sources ==
+
+<references />
+
+[[Category:Field Procedures]]
 [[Category:Engineers]]
+[[Category:Engineering]]
+[[Category:Odyssey Engineering]]

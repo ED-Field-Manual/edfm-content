@@ -1,0 +1,24 @@
+<!--
+EDFM current-content archive export.
+Title: File:EVE-597 Factions.png
+Namespace: 6
+Page ID: 841
+Revision ID: 4775
+Timestamp: 2026-09-20T03:18:03Z
+Source URL: https://edfieldmanual.com/wiki/File:EVE-597_Factions.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |description = In-game gameplay screenshot [[EVE-597]] in Elite Dangerous.
+ |subject = [[EVE-597]]
+ |source = Elite Dangerous, captured in-game
+ |media_type = In-game screenshot
+ |captured_by = [[User:Sythan|Sythan]]
+ |intended_use = Identification and illustration on the [[EVE-597]] article.
+ |copyright_holder = Frontier Developments plc
+}}
+
+== Licensing ==
+{{License-ED screenshot}}

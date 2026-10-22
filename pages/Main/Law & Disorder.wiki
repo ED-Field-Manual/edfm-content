@@ -1,0 +1,98 @@
+<!--
+EDFM current-content archive export.
+Title: Law & Disorder
+Namespace: 0
+Page ID: 848
+Revision ID: 6385
+Timestamp: 2026-10-07T11:21:48Z
+Source URL: https://edfieldmanual.com/wiki/Law_%26_Disorder
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=Frontier's announced December 2026 update to crime, punishment, piracy, smuggling, and bounty hunting.}}
+
+{{Article status
+ |status=Upcoming Content
+ |mode=Live
+ |version=Announced for December 2026
+ |reviewed=2026-09-24
+ |reviewer=Sythan
+ |source_quality=Official Frontier September 2026 developer log
+ |uncertainty=The exact release day, mechanical thresholds, penalties, new modules, and detailed rules have not been announced.
+}}
+
+
+'''Law & Disorder''' is an upcoming free major update for ''Elite Dangerous'', announced by Frontier Developments on 24 September 2026 and scheduled for December 2026. It is intended to make criminal activity a more viable way to earn credits while giving unlawful actions clearer, deeper consequences and connecting outlaws, authorities, and bounty hunters more closely.<ref name="frontier-september-dev-log">[https://www.elitedangerous.com/news/september-2026-dev-log-law-disorder-first-details-anaconda-mk-ii-revealed September 2026 Dev Log: Law & Disorder First Details & Anaconda Mk II Revealed], Frontier Developments, 24 September 2026.</ref>
+
+{{Important|Law & Disorder is not yet live. [[Combat]], [[Trade]], and [[Background Simulation]] continue to describe the game's current mechanics; the sections below cover Frontier's announced direction for the December update.}}
+
+== Purpose and scope ==
+
+The update revisits the existing crime and punishment system for Commanders on both sides of the law. Frontier's stated goals are to make lawful and unlawful opportunities more rewarding, understandable, and interconnected, while reducing frustration from accidental offences and making authority responses better match the actions that were reported.<ref name="frontier-september-dev-log" />
+
+The first announcement identifies piracy, smuggling, bounty hunting, fines and bounties, PvP crime, and Anarchy systems as affected areas. It does not provide complete rules for any of them.
+
+== Announced changes ==
+
+=== Visibility and reporting ===
+
+PvE and PvP crime will use different systems, and the visibility of an action will matter. Frontier's example describes eliminating the sole remaining occupant of a settlement: with nobody left to report the crime, the action remains unreported and the Commander's identity unknown.<ref name="frontier-september-dev-log" />
+
+This establishes the intended relationship between visible actions, reporting, and identification. Frontier has not announced detection ranges, witness behaviour, reporting delays, or rules for removing witnesses.
+
+=== Repeated crime and criminal attention ===
+
+Repeated visible crimes committed in the same ship are planned to attract increasing attention from authorities. Frontier also alluded to a broker who may be able to make a criminal disappear again, but did not describe the service or its requirements.<ref name="frontier-september-dev-log" />
+
+No thresholds, duration, escalation levels, ship-transfer rules, or broker costs have been published.
+
+=== Piracy and smuggling ===
+
+Piracy and smuggling are being re-evaluated so criminal activity has a more meaningful effect on the surrounding world while carrying greater risk. Frontier presents both as potential profit-making paths, including smuggling high-value contraband through hostile territory.<ref name="frontier-september-dev-log" />
+
+The announcement does not specify changes to interdiction, manifest scanning, hatch breaking, stolen cargo, black markets, cargo legality, or smuggling rewards.
+
+=== Bounty hunting and enforcement ===
+
+Bounty hunters, authorities, and other interested parties will have roles within the wider system. Tracking high-value targets is one of the lawful opportunities Frontier associates with the update.<ref name="frontier-september-dev-log" />
+
+Target generation, pursuit tools, payout rules, jurisdiction checks, and any new bounty-hunting equipment remain unannounced.
+
+=== Minor offences, fines, and bounties ===
+
+Frontier intends to reduce friction around incidental crimes and make punishment proportionate to the offence. Commanders are expected to receive a clearer view of their crime level and the jurisdictions in which they are considered criminals, together with more accessible ways to clear fines and bounties according to severity.<ref name="frontier-september-dev-log" />
+
+The announcement does not define offence tiers, payment restrictions, detention outcomes, or the conditions for clearing individual penalties.
+
+=== PvP crime ===
+
+PvP crimes are planned to fall under the jurisdiction of the Pilot's Federation and to be handled separately from PvE crime. Frontier stated that this system would be covered in more detail in a later developer log.<ref name="frontier-september-dev-log" />
+
+No PvP penalties, exemptions, jurisdiction boundaries, or enforcement rules have yet been published.
+
+=== Anarchy systems ===
+
+The update is intended to mitigate the disappearance of Anarchy systems through a fundamental change in how forces in those systems behave. Frontier's goal is to restore pockets of space that provide a home for criminal activity and safe harbour for pirates.<ref name="frontier-september-dev-log" />
+
+Frontier has not described the affected [[Background Simulation]] rules, faction protections, security response, markets, services, or system-state calculations.
+
+== Further announcements ==
+
+Frontier has reserved detailed coverage of new modules, crime clearing, Anarchy-system changes, jurisdiction, and tiers of criminality for later developer logs.<ref name="frontier-september-dev-log" /> Until those details are published and the update is released, existing gameplay pages remain the reference for current behaviour.
+
+== Sources ==
+
+<references />
+
+== Further reading ==
+
+* The Buur Pit, [https://www.youtube.com/watch?v=0w_EmrGQRPY Crime & Punishment Feature Overhaul, Anaconda MkII Reveal — Elite Dangerous: Law & Disorder Update], YouTube, 24 September 2026. Video overview of the announcement.
+
+{{Related articles
+ |1=[[Combat]] [[Trade]] [[Background Simulation]] [[Anaconda Mk II]]
+}}
+
+[[Category:Updates]]
+[[Category:Combat]]
+[[Category:Trading]]
+[[Category:Background Simulation]]

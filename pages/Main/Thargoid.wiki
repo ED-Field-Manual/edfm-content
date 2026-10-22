@@ -3,18 +3,109 @@ EDFM current-content archive export.
 Title: Thargoid
 Namespace: 0
 Page ID: 189
-Revision ID: 927
-Timestamp: 2026-08-18T13:17:42Z
+Revision ID: 4864
+Timestamp: 2026-09-20T20:59:41Z
 Source URL: https://edfieldmanual.com/wiki/Thargoid
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article status|status=Draft|mode=Both|noindex=yes}}
+{{Article header|deck=An ancient non-human civilisation encountered through biomechanical vessels, surface sites, artefacts, and the remains of the Second Thargoid War.}}
 
-Index for Thargoid encounters and technology content — see [[:Category:Thargoid]].
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live; Legacy 3.8
+ |notes=Live records the Second Thargoid War and its aftermath. Legacy remains on the separate 3.8 branch established before that invasion developed.
+ |source_quality=Frontier chronology and current-status reports, supported by current specialist references from the Anti-Xeno Initiative, Canonn and the Elite Dangerous Wiki.
+ |uncertainty=Human understanding of Thargoid biology, society, language and long-term motives remains incomplete. Encounter locations and activity can also change with the live galaxy.
+}}
 
-{{Draft warning}}
-No individual Thargoid articles exist yet.
+The '''Thargoids''' are an ancient, intelligent alien species whose civilisation predates humanity. They use organic or biomechanical spacecraft and installations, cultivate barnacle-like organisms on suitable worlds, and operate technology unlike conventional human or [[Guardian]] systems. Most human knowledge comes from encounters, recovered artefacts, surface sites and indirect records rather than open communication with the species.<ref name="overview">[https://elite-dangerous.fandom.com/wiki/Thargoid Thargoid], ''Elite Dangerous Wiki'', accessed 20 September 2026.</ref>
 
-{{Related articles|[[Guardian]] [[Thargoid War History]] [[Combat]]}}
+{{Callout|type=info|label=Current status|1=The invasion phase of the Second Thargoid War ended when the final Titan, Cocijo, was destroyed in Sol on '''18 December 3310'''. Frontier reported six months later that reconstruction was under way while Aegis and the superpowers continued to monitor for new Thargoid signals. No living Titans, active maelstroms or active spire sites remain, and the Orthrus is not currently encountered. Titan wrecks remain in Live, while a maintained community encounter guide checked on 20 September 2026 continued to list non-human signals, hyperdictions and static Thargoid locations in several nearby nebulae.<ref name="cocijo">[https://www.elitedangerous.com/news/galnet/titan-cocijo-destroyed-sol-liberated Titan Cocijo Destroyed, Sol Liberated], GalNet, Frontier Developments, 18 December 3310.</ref><ref name="postwar">[https://community.elitedangerous.com/galnet/18-JUN-3311 Rebuilding and Renewal After the Thargoid War], GalNet, Frontier Developments, 18 June 3311.</ref><ref name="axi-epilogue">[https://antixenoinitiative.com/thargoid-war-epilogue/ Thargoid War Epilogue], Anti-Xeno Initiative, accessed 20 September 2026.</ref><ref name="finding">[https://wiki.antixenoinitiative.com/en/finding-thargoids Finding Thargoids], Anti-Xeno Initiative Wiki, accessed 20 September 2026. Its AX conflict-zone reconnaissance is dated February 2025, so individual locations should be rechecked before travel.</ref>}}
+
+== Biology and civilisation ==
+
+Available evidence describes Thargoids as ammonia-based life with insectoid traits, but very little of their anatomy has been directly observed by contemporary humanity. Their vessels and structures combine living tissue with technological functions, making the boundary between organism and machine difficult to define.<ref name="overview" />
+
+Thargoids operated in the galaxy long before humanity became spacefaring. Records recovered by [[Ram Tah]] describe an ancient war in which the Guardians first attempted communication and later deployed autonomous weapons that forced the Thargoids to retreat.<ref name="guardian-war">[https://community.elitedangerous.com/en/galnet/uid/5ab383f5b709787d505dd1a2 Aegis report on Ram Tah's Guardian-site findings], GalNet, Frontier Developments, 23 March 3304.</ref> This history establishes their age and technological reach, but it does not provide a reliable account of current Thargoid leadership, social organisation or strategic aims.
+
+== Vessels and constructs ==
+
+Human researchers group observed Thargoid craft by size, behaviour and capability. The labels are human classifications rather than confirmed Thargoid names.<ref name="canonn">[https://canonn.science/codex/thargoids The Thargoids], Canonn Research Group, accessed 20 September 2026.</ref>
+
+{| class="wikitable"
+! Group
+! Observed examples
+! Characteristics
+|-
+| '''Scouts'''
+| Marauder, Regenerator, Berserker, Inciter
+| Small, agile combat craft encountered in groups. Scouts are immediately hostile, resist conventional weapons and may use caustic missiles or support nearby Thargoid vessels.<ref name="axi-scouts">[https://wiki.antixenoinitiative.com/en/scouts Scouts], Anti-Xeno Initiative Wiki, accessed 20 September 2026.</ref>
+|-
+| '''Interceptors'''
+| Cyclops, Basilisk, Medusa, Hydra, Orthrus
+| Cyclops, Basilisk, Medusa and Hydra are combat Interceptors whose hearts regulate hull regeneration. They deploy Thargon swarms and use several special attacks. The Orthrus has no hearts and flees when attacked; its proposed intelligence or logistics role remains speculative. The type is not currently encountered following the loss of the living Titans and active spire sites.<ref name="axi-interceptors">[https://wiki.antixenoinitiative.com/en/interceptors Thargoid Interceptors], Anti-Xeno Initiative Wiki, accessed 20 September 2026.</ref>
+|-
+| '''Hunters'''
+| Glaive, Scythe
+| Fast attack and pursuit craft introduced during the Second Thargoid War after Live and Legacy diverged.<ref name="overview" /><ref name="modes" />
+|-
+| '''Titans'''
+| Taranis, Leigong, Indra, Oya, Hadad, Thor, Raijin, Cocijo
+| Capital-scale biomechanical vessels that directed the invasion from corrosive maelstroms. All eight invasion Titans were destroyed during 3310.<ref name="cocijo" /><ref name="titan-memorial">[https://canonn.science/codex/memorial-the-second-thargoid-war/ Memorial: The Second Thargoid War], Canonn Research Group, accessed 20 September 2026.</ref>
+|-
+| '''Surface constructs'''
+| Revenants, Banshees
+| Autonomous ground units associated with Live-era Thargoid-controlled settlements and spire sites.<ref name="overview" />
+|}
+
+== Encounter behaviour ==
+
+A Thargoid encounter is not automatically a combat encounter. Interceptors may pull a ship from hyperspace, disable it briefly, perform a scan and depart without opening fire. Carried cargo, firing on or damaging the Thargoid vessel, nearby combat conditions and the specific vessel type can change that response. Scouts are the major exception: they are treated as immediately hostile.<ref name="distant">[https://www.elitedangerous.com/news/galnet/distant-thargoid-encounter-raises-questions Distant Thargoid Encounter Raises Questions], GalNet, Frontier Developments, 28 April 3308.</ref><ref name="axi-interceptors" /><ref name="axi-scouts" />
+
+The '''Xeno Scanner''' identifies a nearby Thargoid vessel and exposes the hearts of combat Interceptors for subsystem targeting.<ref name="xeno-scanner">[https://elite-dangerous.fandom.com/wiki/AX_Xeno_Scanner AX Xeno Scanner], ''Elite Dangerous Wiki'', accessed 20 September 2026.</ref> The [[Enhanced Xeno Scanner]] performs the same role at a two-kilometre active range.<ref name="xeno-upgrade">[https://www.elitedangerous.com/news/galnet/xeno-scanner-upgrade Xeno Scanner Upgrade], GalNet, Frontier Developments, 27 January 3309.</ref> Scanning is useful even when the intention is observation rather than combat, because the radar contact alone does not identify the exact variant.
+
+== Defensive and offensive systems ==
+
+Thargoid combat technology has several mechanics not shared by ordinary human ships:
+
+* '''Combat Interceptors regenerate through hearts.''' Damaging a Cyclops, Basilisk, Medusa or Hydra exerts a heart; destroying it interrupts regeneration and removes part of the vessel's total durability. The Orthrus is the exception and has no hearts.<ref name="axi-interceptors" />
+* '''Thargon swarms''' act as remote attack craft. A [[Remote Release Flak Launcher]] is designed to counter a swarm.<ref name="axi-attacks">[https://wiki.antixenoinitiative.com/en/special-attacks Thargoid Special Attacks], Anti-Xeno Initiative Wiki, accessed 20 September 2026.</ref><ref name="flak">[https://elite-dangerous.fandom.com/wiki/Remote_Release_Flak_Launcher Remote Release Flak Launcher], ''Elite Dangerous Wiki'', accessed 20 September 2026.</ref>
+* '''Shutdown fields''' can disable an unprotected ship's systems. A [[Shutdown Field Neutraliser]] provides the purpose-built countermeasure.<ref name="axi-attacks" /><ref name="shutdown-module">[https://elite-dangerous.fandom.com/wiki/Shutdown_Field_Neutraliser Shutdown Field Neutraliser], ''Elite Dangerous Wiki'', accessed 20 September 2026.</ref>
+* '''Caustic weapons and environments''' continue damaging a ship until the contamination is removed. A [[Caustic Sink Launcher]] can absorb that contamination, while a [[Corrosion Resistant Cargo Rack]] protects cargo space from corrosive Thargoid artefacts.<ref name="axi-attacks" /><ref name="caustic-module">[https://elite-dangerous.fandom.com/wiki/Caustic_Sink_Launcher Caustic Sink Launcher], ''Elite Dangerous Wiki'', accessed 20 September 2026.</ref><ref name="corrosion-rack">[https://elite-dangerous.fandom.com/wiki/Corrosion_Resistant_Cargo_Rack Corrosion Resistant Cargo Rack], ''Elite Dangerous Wiki'', accessed 20 September 2026.</ref>
+* '''Conventional weapons have limited effectiveness''' against major Thargoid vessels. Anti-xeno and compatible Guardian weapons, including the [[AX Multi-Cannon]], [[AX Missile Rack]] and [[Guardian Gauss Cannon]], are intended for these targets. Some Live environments can also disrupt unprotected Guardian technology.<ref name="axi-scouts" /><ref name="axi-interceptors" /><ref name="overview" />
+
+See [[Combat]] for broader ship construction, threat assessment and engagement principles.
+
+== Sites, signals and artefacts ==
+
+Thargoid presence can be encountered through non-human signal sources, hyperspace interceptions, surface barnacles and larger surface sites. Live also contains the remains of destroyed Titans and other locations created during the Second Thargoid War.<ref name="overview" /><ref name="axi-epilogue" /><ref name="titan-memorial" />
+
+The Anti-Xeno Initiative encounter guide checked on 20 September 2026 continued to list activity in the Pleiades, Coalsack and Witch Head regions, with limited conflict-zone activity in the California Nebula. Its conflict-zone reconnaissance is dated February 2025, and colonisation has already changed some formerly reliable systems, so the list is a starting point rather than a guarantee of current spawns.<ref name="finding" />
+
+Thargoid Sensors, Probes, Links, tissue samples and other recovered objects are part of this research ecosystem. Several are corrosive when carried in an ordinary cargo rack. Each object has its own function and acquisition method.<ref name="overview" />
+
+== Historical outline ==
+
+Guardian records place Thargoid interstellar activity long before the human era. Humanity's first major conflict with the species occurred in the 32nd century and ended after the Intergalactic Naval Reserve Arm deployed the mycoid weapon. Active Thargoid vessels returned to human notice in 3303. The conflict escalated again after the failed Proteus Wave in 3308, followed by the arrival of eight Titans and the Second Thargoid War.<ref name="overview" />
+
+The eight Titans were destroyed during 3310, from Taranis on 2 March to Cocijo in Sol on 18 December. This concluded the invasion but did not establish peace, explain Thargoid motives or eliminate the species from known space.<ref name="cocijo" /><ref name="postwar" /><ref name="titan-memorial" />
+
+== Live and Legacy ==
+
+Thargoid encounters predate the mode split, but Legacy was isolated from the evolving Live galaxy on 29 November 2022 and remains on the 3.8 branch. Live continued with Update 14 and all later narrative and mechanical developments. The eight-Titan invasion, Hunters, spire sites and the postwar state described here are therefore Live-only content, and most of those wartime locations are now historical rather than active.<ref name="modes">[https://www.elitedangerous.com/en-US/news/elite-dangerous-update-14-and-beyond-live-and-legacy-modes Elite Dangerous Update 14 and Beyond: Live and Legacy Modes], Frontier Developments, 23 November 2022.</ref><ref name="overview" /><ref name="axi-epilogue" />
+
+== Related articles ==
+
+* [[Guardian]]
+* [[Combat]]
+* [[Enhanced Xeno Scanner]]
+* [[Shutdown Field Neutraliser]]
+* [[Caustic Sink Launcher]]
+
+== Sources ==
+
+<references />
+
 [[Category:Thargoid]]

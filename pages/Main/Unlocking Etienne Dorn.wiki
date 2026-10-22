@@ -3,12 +3,90 @@ EDFM current-content archive export.
 Title: Unlocking Etienne Dorn
 Namespace: 0
 Page ID: 645
-Revision ID: 1597
-Timestamp: 2026-08-23T19:22:44Z
+Revision ID: 4131
+Timestamp: 2026-09-14T02:58:29Z
 Source URL: https://edfieldmanual.com/wiki/Unlocking_Etienne_Dorn
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|Planned unlock guide for Etienne Dorn, covering unlock prerequisites, invite steps, required items or reputation, and verification notes for commanders once source-backed details are added.}}
+{{Article header|deck=Reach Dealer trade rank and deliver 25 Occupied Escape Pods to unlock Etienne Dorn in Colonia.}}
 
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy Engineering
+ |reviewer=Sythan
+ |reviewed=2026-09-14
+ |source_quality=Current INARA requirements corroborated by the maintained Elite Dangerous Wiki reference
+ |uncertainty=Frontier does not publish a current first-party unlock checklist; avoid mission-owned cargo and confirm progress in the Engineers panel before travelling to the workshop.
+}}
+
+This Field Procedure covers the steps required to unlock [[Etienne Dorn]]. For his location, Blueprint grades, and Experimental Effects, see the Engineer reference page.
+
+== Objective ==
+
+Gain access to Etienne Dorn's ship-module Engineering services at '''Kraken's Retreat''' on '''Los A 2 b''' in the [[Colonia]] region.
+
+== Prerequisites ==
+
+{{Prerequisites|
+* '''Referral:''' Gain sufficient reputation with [[Liz Ryder]] to receive Etienne Dorn's referral.
+* '''Rank:''' Reach the Pilots Federation Trade rank of '''Dealer''' or higher.
+* '''Cargo:''' Carry '''25 units of Occupied Escape Pods'''.
+* '''Capacity:''' Fit enough cargo space for the pods being transported.
+}}
+
+The maintained references place Liz Ryder's referral during Grade 3 access, after roughly one-third of the progress towards Grade 4. Reaching Grade 4 also satisfies that condition.<ref name="inara">[https://inara.cz/elite/engineer/23/ INARA: Etienne Dorn], accessed 14 September 2026.</ref><ref name="wiki">[https://elite-dangerous.fandom.com/wiki/Etienne_Dorn Elite Dangerous Wiki: Etienne Dorn], accessed 14 September 2026.</ref>
+
+== Preparation ==
+
+Occupied Escape Pods are cargo rather than Engineering materials. Each unit consumes one tonne of cargo capacity and can be lost if the ship is destroyed.
+
+Recover unbound pods from salvage sources such as appropriate distress or signal-source encounters. Do not rely on cargo assigned to an active mission: mission-owned items may be reserved for that mission rather than available for an Engineer donation. A [[Collector Limpet Controller]] can shorten repeated salvage collection, but it is not required.
+
+The workshop is in the Colonia region. Commanders beginning in the Bubble should decide whether to obtain the pods before departure or source them after arrival; transporting all 25 at once requires at least 25 tonnes of free cargo space.
+
+== Procedure ==
+
+{{Procedure steps|
+# Increase reputation with [[Liz Ryder]] until Etienne Dorn's referral appears in the Engineers panel.
+# Reach the Trade rank of '''Dealer''' or higher through profitable commodity sales.
+# Acquire 25 units of non-mission '''Occupied Escape Pods'''.
+# Confirm that all 25 are present in the ship's cargo hold and that no mission marker reserves them for another delivery.
+# Travel to the '''Los''' system and land at '''Kraken's Retreat''' on '''Los A 2 b'''.
+# Open Engineer Workshop services and donate the 25 Occupied Escape Pods.
+# Confirm that Etienne's Engineering services are available before leaving the base.
+}}
+
+== Expected result ==
+
+{{Expected result|[[Etienne Dorn]] is unlocked at Kraken's Retreat and his Power Plant and Life Support Engineering services are available.}}
+
+Unlocking the workshop does not immediately grant every Blueprint grade. Apply Engineering modifications or sell exploration data at Kraken's Retreat to increase [[Engineer Reputation]] and open the higher grades he offers.
+
+== Troubleshooting ==
+
+;Etienne does not appear in the Engineers panel
+:Check both the Liz Ryder reputation threshold and the Dealer Trade rank. A new game session may be required after the referral condition is crossed.
+
+;The donation option is unavailable
+:Verify that the pods are ordinary cargo in the current ship, not mission cargo or stored on another vessel. The full unlock quantity is 25 units.
+
+;The route to Los cannot be plotted
+:Los is in the Colonia region, approximately 22,000 light-years from the Bubble. Review the [[Colonia]] travel context and confirm the ship's plotted-route settings and jump range.
+
+== Related pages ==
+
+* [[Etienne Dorn]] — workshop, services, and reference details
+* [[Liz Ryder]] — the referral Engineer
+* [[Engineer Unlock Guide]] — wider unlock order
+* [[Engineering]] — ship-module Engineering mechanics
+* [[Colonia]] — regional travel and service context
+
+== Sources ==
+
+<references />
+
+[[Category:Field Procedures]]
 [[Category:Engineers]]
+[[Category:Engineering]]

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: MediaWiki:Common.css
 Namespace: 8
 Page ID: 69
-Revision ID: 3973
-Timestamp: 2026-09-12T14:11:50Z
+Revision ID: 4878
+Timestamp: 2026-09-20T23:54:41Z
 Source URL: https://edfieldmanual.com/wiki/MediaWiki:Common.css
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -691,6 +691,51 @@ a.external { color: var( --edfm-link-external ); }
 	background-repeat: no-repeat !important;
 	background-size: contain !important;
 }
+
+/* Sidebar Discord invite CTA: injected by MediaWiki:Common.js directly below
+   the logo and above the first generated Vector portlet. */
+.edfm-discord-cta {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.42rem;
+	box-sizing: border-box;
+	width: calc( 100% - 1.35rem );
+	min-height: 1.78rem;
+	margin: 0.35rem 0.675rem 1.05rem 0.675rem;
+	padding: 0.36rem 0.56rem;
+	border-radius: 4px;
+	background: #5865f2;
+	color: #fff !important;
+	font-size: 0.76rem;
+	font-weight: 700;
+	line-height: 1.1;
+	text-align: center;
+	text-decoration: none !important;
+	box-shadow: 0 2px 5px rgba( 0, 0, 0, 0.35 );
+	transition: background-color 120ms ease, box-shadow 120ms ease, transform 120ms ease;
+}
+.edfm-discord-cta:hover,
+.edfm-discord-cta:focus {
+	background: #4752c4;
+	color: #fff !important;
+	text-decoration: none !important;
+	box-shadow: 0 3px 8px rgba( 0, 0, 0, 0.42 );
+	transform: translateY( -1px );
+}
+.edfm-discord-cta-icon {
+	display: inline-flex;
+	width: 1rem;
+	height: 1rem;
+	flex: 0 0 auto;
+}
+.edfm-discord-cta-icon svg {
+	display: block;
+	width: 100%;
+	height: 100%;
+	fill: currentColor;
+}
+
 /* Each nav group gets real breathing room from the one before it instead
    of being packed together like a stock wiki sidebar. */
 
@@ -1083,7 +1128,7 @@ body.page-Main_Page .mw-body-content {
 #siteNotice:not( :empty ) {
 	font-size: var( --edfm-fs-meta );
 	line-height: 1.5;
-	color: var( --edfm-text-dim );
+	color: var( --edfm-orange );
 	font-style: normal;
 	padding-bottom: 0.7em;
 	margin-bottom: 1.4rem;
@@ -4120,67 +4165,67 @@ body.mediawiki.mw-special-Preferences .mw-prefs-tabs:not( .mw-prefs-tabs-searchi
 /* ===========================================================================
    Echo notification subscription matrix (Special:Preferences > Notifications)
    ========================================================================== */
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions,
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-widget-checkMatrixWidget,
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-widget-checkMatrixWidget-matrix,
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-htmlform-matrix {
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions,
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .mw-widget-checkMatrixWidget,
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .mw-widget-checkMatrixWidget-matrix,
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .mw-htmlform-matrix {
 	background: transparent !important;
 	color: var( --edfm-text ) !important;
 }
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-widget-checkMatrixWidget-matrix,
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-htmlform-matrix {
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .mw-widget-checkMatrixWidget-matrix,
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .mw-htmlform-matrix {
 	width: 100%;
 	border-collapse: separate;
 	border-spacing: 0 0.35rem !important;
 }
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-widget-checkMatrixWidget-matrix th,
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-htmlform-matrix th {
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .mw-widget-checkMatrixWidget-matrix th,
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .mw-htmlform-matrix th {
 	background: transparent !important;
 	color: var( --edfm-text ) !important;
 	font-weight: 700;
 }
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-widget-checkMatrixWidget-matrix td,
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-htmlform-matrix td {
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .mw-widget-checkMatrixWidget-matrix td,
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .mw-htmlform-matrix td {
 	background: var( --edfm-surface-1 ) !important;
 	color: var( --edfm-text ) !important;
 	transition: background-color 120ms ease, color 120ms ease;
 }
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-widget-checkMatrixWidget-matrix tbody tr:nth-child( even ) td,
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-htmlform-matrix tbody tr:nth-child( even ) td {
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .mw-widget-checkMatrixWidget-matrix tbody tr:nth-child( even ) td,
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .mw-htmlform-matrix tbody tr:nth-child( even ) td {
 	background: var( --edfm-bg-deep ) !important;
 }
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-widget-checkMatrixWidget-matrix tbody tr:hover td,
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-htmlform-matrix tbody tr:hover td {
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .mw-widget-checkMatrixWidget-matrix tbody tr:hover td,
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .mw-htmlform-matrix tbody tr:hover td {
 	background: rgba( 255, 138, 0, 0.12 ) !important;
 }
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .oo-ui-fieldLayout-header,
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .oo-ui-fieldLayout-header label,
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .oo-ui-labelElement-label {
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .oo-ui-fieldLayout-header,
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .oo-ui-fieldLayout-header label,
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .oo-ui-labelElement-label {
 	color: var( --edfm-text ) !important;
 }
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .oo-ui-fieldLayout-help .oo-ui-iconElement-icon,
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-htmlform-tooltip {
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .oo-ui-fieldLayout-help .oo-ui-iconElement-icon,
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .mw-htmlform-tooltip {
 	background-color: var( --edfm-text ) !important;
 	opacity: 1 !important;
 }
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .oo-ui-checkboxInputWidget.oo-ui-widget-disabled [type='checkbox'] + span,
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .oo-ui-checkboxInputWidget.oo-ui-widget-disabled [type='checkbox'] + span::before {
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .oo-ui-checkboxInputWidget.oo-ui-widget-disabled [type='checkbox'] + span,
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .oo-ui-checkboxInputWidget.oo-ui-widget-disabled [type='checkbox'] + span::before {
 	opacity: 1 !important;
 }
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .oo-ui-checkboxInputWidget.oo-ui-widget-disabled [type='checkbox']:checked + span,
-body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .oo-ui-checkboxInputWidget.oo-ui-widget-disabled [type='checkbox']:checked + span::before {
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .oo-ui-checkboxInputWidget.oo-ui-widget-disabled [type='checkbox']:checked + span,
+body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .oo-ui-checkboxInputWidget.oo-ui-widget-disabled [type='checkbox']:checked + span::before {
 	background-color: var( --edfm-orange ) !important;
 	border-color: var( --edfm-orange ) !important;
 }
 @media ( max-width: 700px ) {
-	body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-widget-checkMatrixWidget-matrix,
-	body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-htmlform-matrix {
+	body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .mw-widget-checkMatrixWidget-matrix,
+	body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .mw-htmlform-matrix {
 		font-size: 0.9rem;
 	}
-	body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-widget-checkMatrixWidget-matrix td,
-	body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-widget-checkMatrixWidget-matrix th,
-	body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-htmlform-matrix td,
-	body.mediawiki.mw-special-Preferences #mw-input-echo-subscriptions .mw-htmlform-matrix th {
+	body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .mw-widget-checkMatrixWidget-matrix td,
+	body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .mw-widget-checkMatrixWidget-matrix th,
+	body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .mw-htmlform-matrix td,
+	body.mediawiki.mw-special-Preferences #mw-input-wpecho-subscriptions .mw-htmlform-matrix th {
 		padding: 0.55rem 0.45rem !important;
 	}
 }
@@ -6215,7 +6260,7 @@ body.mediawiki.mw-special-Allmessages .TablePager_nav .oo-ui-widget-disabled .oo
 	}
 }
 
-/* EDFM footer GitHub repository badges */
+/* EDFM footer GitHub repository links */
 #edfm-footer-repo-badges {
 	grid-area: repo-badges;
 	display: flex;
@@ -6227,19 +6272,47 @@ body.mediawiki.mw-special-Allmessages .TablePager_nav .oo-ui-widget-disabled .oo
 #edfm-footer-repo-badges a {
 	display: inline-flex;
 	align-items: center;
+	min-height: 24px;
+	box-sizing: border-box;
+	padding: 0.2rem 0.48rem;
+	border: 1px solid rgba( 184, 194, 204, 0.34 );
+	border-left: 3px solid #2ea44f;
+	border-radius: 0;
+	background: #24292f;
+	color: #f4f6f8;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+	font-size: 0.72rem;
+	letter-spacing: 0.02em;
 	line-height: 1;
 	text-decoration: none;
+	transition: background-color 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease;
 }
-#edfm-footer-repo-badges img {
-	display: block;
-	height: 20px;
-	max-width: 100%;
-	border: 0;
-	filter: drop-shadow( 0 0 5px rgba( 46, 164, 79, 0.18 ) );
+#edfm-footer-repo-badges a:visited {
+	color: #f4f6f8;
 }
-#edfm-footer-repo-badges a:hover img,
-#edfm-footer-repo-badges a:focus-visible img {
-	filter: drop-shadow( 0 0 8px rgba( 46, 164, 79, 0.36 ) );
+#edfm-footer-repo-badges .edfm-footer-repo-icon {
+	width: 16px;
+	height: 16px;
+	flex: 0 0 16px;
+	margin-right: 0.34rem;
+	fill: currentColor;
+}
+#edfm-footer-repo-badges .edfm-footer-repo-service {
+	font-weight: 700;
+}
+#edfm-footer-repo-badges .edfm-footer-repo-label {
+	margin-left: 0.42rem;
+	padding-left: 0.42rem;
+	border-left: 1px solid rgba( 244, 246, 248, 0.28 );
+	color: #c8d0d8;
+}
+#edfm-footer-repo-badges a:hover,
+#edfm-footer-repo-badges a:focus-visible {
+	border-color: #48d7ff;
+	border-left-color: #2ea44f;
+	background: #2a3136;
+	color: #ffffff;
+	box-shadow: 0 0 8px rgba( 72, 215, 255, 0.2 );
 }
 
 /* EDFM navigation refinement pass — sidebar/tool hierarchy (search box rules
@@ -6479,9 +6552,10 @@ body.mediawiki #content.mw-body #mw-content-text .mw-parser-output > ul > li {
 	}
 }
 
-/* EDFM desktop search refit — keep search visible without turning it into
-   a body-width second nav bar. On desktop it stays as a compact control in the
-   top navigation. The separate <=800px block above keeps small screens usable. */
+/* EDFM desktop search refit — match the two-tier RuneScape.wiki pattern:
+   personal tools and clocks stay in the primary utility strip, while the
+   native search form follows Read/Edit/History/More at the far right of the
+   page-action row. The separate <=800px block above keeps phones usable. */
 @media ( min-width: 801px ) {
 	#mw-head {
 		min-height: 5.2rem !important;
@@ -6510,22 +6584,23 @@ body.mediawiki #content.mw-body #mw-content-text .mw-parser-output > ul > li {
 		flex: 0 0 auto !important;
 	}
 	#right-navigation #p-search.vector-search-box {
-		order: 0 !important;
+		order: 20 !important;
 		box-sizing: border-box !important;
-		flex: 0 1 clamp( 260px, 24vw, 420px ) !important;
+		flex: 0 1 clamp( 260px, 18vw, 330px ) !important;
 		float: none !important;
 		clear: none !important;
 		display: block !important;
-		width: clamp( 260px, 24vw, 420px ) !important;
+		width: clamp( 260px, 18vw, 330px ) !important;
 		min-width: 240px !important;
-		max-width: 420px !important;
-		margin: 0.25rem 0 0 0.45rem !important;
+		max-width: 330px !important;
+		margin: 0 !important;
 		padding: 0 !important;
 	}
 	#right-navigation #p-search #searchform,
 	#right-navigation #p-search #simpleSearch.vector-search-box-inner {
 		width: 100% !important;
 		max-width: 100% !important;
+		margin: 0 !important;
 	}
 }
 @media ( min-width: 801px ) and ( max-width: 1100px ) {
@@ -6537,8 +6612,8 @@ body.mediawiki #content.mw-body #mw-content-text .mw-parser-output > ul > li {
 		margin-right: max( 1rem, var( --edfm-gutter ) ) !important;
 	}
 	#right-navigation #p-search.vector-search-box {
-		flex-basis: min( 42vw, 360px ) !important;
-		width: min( 42vw, 360px ) !important;
+		flex-basis: min( 42vw, 330px ) !important;
+		width: min( 42vw, 330px ) !important;
 	}
 }
 

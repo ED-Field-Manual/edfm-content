@@ -3,13 +3,13 @@ EDFM current-content archive export.
 Title: CMDR Fima/Terms of Use
 Namespace: 0
 Page ID: 767
-Revision ID: 3672
-Timestamp: 2026-09-09T21:01:44Z
+Revision ID: 6374
+Timestamp: 2026-10-07T11:21:07Z
 Source URL: https://edfieldmanual.com/wiki/CMDR_Fima/Terms_of_Use
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|section=EDFM|context=Community|deck=Terms of Use for CMDR Fima, EDFM's Discord bot.}}
+{{Article header|deck=Terms of Use for CMDR Fima, EDFM's Discord bot.}}
 
 ;'''Effective date:''' 29 August 2026
 ;'''Last updated:''' 29 August 2026

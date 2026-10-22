@@ -1,0 +1,126 @@
+<!--
+EDFM current-content archive export.
+Title: Missions
+Namespace: 0
+Page ID: 965
+Revision ID: 6121
+Timestamp: 2026-10-04T15:55:46Z
+Source URL: https://edfieldmanual.com/wiki/Missions
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=Contract-based activities offered by factions, passengers, and other contacts throughout Elite Dangerous.}}
+
+{{Article status
+| status = Partially verified
+| mode = Both
+| version = Current Live mission structure; Legacy has a smaller mission set
+| reviewed = 2026-10-04
+| reviewer = Sythan
+| source_quality = Core terminology is supported by Frontier's current journal and update documentation.
+| uncertainty = Individual variants and board availability change with faction state, location, platform, and game updates.
+}}
+
+'''Missions''' are contracts with stated objectives, deadlines, requirements, risks, and rewards. Most are offered by [[Background Simulation#Factions, influence, and reputation|minor factions]] through a station's '''Mission Board'''. Passenger contracts use the '''Passenger Lounge''', while [[Operations]] are launched through a separate interface and use their own scenario rules.
+
+A mission may be a simple delivery or a multi-stage task involving combat, cargo, settlements, illegal actions, or travel across several systems. Read the full contract before accepting it: the title alone does not identify every restriction or consequence.
+
+== Mission basics ==
+
+{| class="wikitable"
+! Subject
+! Why it matters
+|-
+| [[Reading a Mission]]
+| How to identify the issuer, objective, destination, target faction, deadline, threat, legal status, requirements, and failure conditions.
+|-
+| [[Mission Rewards]]
+| Credits, reputation, influence, materials, commodities, and what changes when a different reward package is selected.
+|-
+| [[Mission Influence and BGS Effects]]
+| Which faction and system receive mission effects, how to read the journal, and why faction influence is system-specific.
+|-
+| [[Mission Stacking]]
+| Taking several compatible contracts on one route or objective without assuming that one action advances every mission.
+|}
+
+{{Tip|The faction shown as the mission giver, the target or destination faction, and the faction receiving an influence effect are not always the same. For BGS work, check the contract and the completed journal event rather than relying on the destination name alone.}}
+
+== Mission types ==
+
+Mission families below group contracts by what the commander actually has to do. They are a navigation aid rather than a claim that every station uses these exact headings.
+
+=== Transportation ===
+
+* [[Courier Missions|Courier and data delivery]] — carry mission data without using cargo space.
+* [[Delivery and Source Missions|Cargo delivery and haulage]] — move mission-provided cargo to a destination.
+* [[Delivery and Source Missions|Source and return]] — obtain ordinary commodities and return them to the issuer.
+* [[Smuggling Missions|Smuggling]] — move goods or data while managing scans and legal risk.
+* [[Mining Missions|Mining]] — supply mined commodities requested by the issuer.
+* [[Donation Missions|Donation]] — provide credits or commodities without transporting a supplied load.
+
+=== Combat ===
+
+* [[Assassination Missions|Assassination]] — locate and destroy a named target.
+* [[Pirate Assassination Missions|Pirate assassination]] — hunt a mission-designated pirate target.
+* [[Massacre Missions|Massacre]] — destroy a specified number of ships belonging to the named target faction.
+* [[Pirate Massacre Missions|Pirate massacre]] — destroy mission-valid pirates belonging to the specified faction.
+* Conflict, war, and surface-combat objectives may appear when local conditions support them.
+
+=== Recovery and acquisition ===
+
+* Recovery and salvage
+* Surface recovery
+* Theft, liberation, and piracy-style acquisition
+* Data or item retrieval
+
+These contracts can differ sharply in legality. The mission text determines whether taking an item, entering a site, or attacking a target is authorised.
+
+=== Ship and surface objectives ===
+
+* Data scans
+* Installation objectives
+* Generator or infrastructure sabotage
+* Surface targets
+* Search-and-rescue or protective objectives
+
+Some contracts mix several families. An assassination may begin with a data scan, and a recovery task may create a combat encounter.
+
+=== Passenger missions ===
+
+[[Passenger Missions]] are accepted through the Passenger Lounge and require suitable [[Passenger Cabin|Passenger Cabins]]. The main contract patterns are bulk transport, VIP transport, sightseeing, long-range sightseeing, and evacuation. Traits such as '''secretive''', '''wanted''', '''demanding''', and sensitivity to damage are passenger conditions, not separate mission types.
+
+=== Odyssey missions ===
+
+[[Odyssey Missions]] cover on-foot delivery, collection, retrieval, theft, infiltration, sabotage, takedown, extermination, settlement support, reactivation, restoration, defence, and related objectives. Mission wording and legality matter more than an informal category name.
+
+=== Operations ===
+
+[[Operations]] are a separate Live-game activity introduced in update 4.4.0.0. They are multi-stage, instanced scenarios launched from the ship panel while docked, with matchmaking, an Operation Runner, dedicated difficulty settings, and Merc Coin rewards. They are not ordinary Mission Board contracts and should not be confused with the older use of ''operations'' as a generic word for surface work.<ref name="operations4400">[https://www.elitedangerous.com/news/updates/4-4-0-0 Elite Dangerous: Operations – Available Now], Frontier Developments, 30 June 2026.</ref>
+
+== Before accepting ==
+
+# Identify the issuing faction and the system where the mission was offered.
+# Read the objective, destination, target faction, quantity, and all location restrictions.
+# Confirm cargo space, cabin space, ship size, suit, weapons, limpets, or other equipment.
+# Check the deadline, threat level, legal status, and expected opposition.
+# Decide which reward package supports the actual goal: income, reputation, influence, or materials.
+# For BGS work, confirm the affected faction and system through [[Mission Influence and BGS Effects|the mission-effects guide]].
+
+Accepted contracts appear in the Transactions panel. Mission updates can add destinations, targets, attackers, optional objectives, or time-sensitive instructions after acceptance.
+
+== Related Field Manual entries ==
+
+* [[Background Simulation]]
+* [[Background Simulation#Factions, influence, and reputation|Minor factions]]
+* [[Reputation]]
+* [[Background Simulation#Factions, influence, and reputation|Influence]]
+* [[Field Procedures]]
+* [[Passenger Cabin]]
+* [[Odyssey]]
+
+== References ==
+
+<references />
+
+[[Category:Missions]]

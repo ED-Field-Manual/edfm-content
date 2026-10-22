@@ -1,0 +1,14 @@
+<!--
+EDFM current-content archive export.
+Title: Category:Transportation missions
+Namespace: 14
+Page ID: 962
+Revision ID: 6117
+Timestamp: 2026-10-04T15:55:34Z
+Source URL: https://edfieldmanual.com/wiki/Category:Transportation_missions
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+Mission types that move data, cargo, commodities, or other deliveries between contacts and locations.
+
+[[Category:Mission types]]

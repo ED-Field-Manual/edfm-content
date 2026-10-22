@@ -1,0 +1,26 @@
+<!--
+EDFM current-content archive export.
+Title: File:Tussock Cultro-Green.png
+Namespace: 6
+Page ID: 922
+Revision ID: 5875
+Timestamp: 2026-10-02T04:27:05Z
+Source URL: https://edfieldmanual.com/wiki/File:Tussock_Cultro-Green.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |description = In-game image of Tussock Cultro-Green.png in Elite Dangerous.
+ |subject = Tussock Cultro-Green.png
+ |source = Elite Dangerous, captured in-game
+ |media_type = In-game screenshot
+ |captured_by = [[User:Sythan|Sythan]]
+ |intended_use = Identification and illustration on the Tussock Cultro-Green.png article and related Exobiology pages.
+ |copyright_holder = Frontier Developments plc
+}}
+
+[[Category:Exobiology images]]
+
+== Licensing ==
+{{License-ED screenshot}}

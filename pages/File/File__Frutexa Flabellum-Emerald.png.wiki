@@ -1,0 +1,26 @@
+<!--
+EDFM current-content archive export.
+Title: File:Frutexa Flabellum-Emerald.png
+Namespace: 6
+Page ID: 919
+Revision ID: 5869
+Timestamp: 2026-10-02T04:23:34Z
+Source URL: https://edfieldmanual.com/wiki/File:Frutexa_Flabellum-Emerald.png
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+== Summary ==
+{{EDFM image information
+ |description = In-game image of Frutexa Flabellum in Elite Dangerous.
+ |subject = Frutexa Flabellum
+ |source = Elite Dangerous, captured in-game
+ |media_type = In-game screenshot
+ |captured_by = [[User:Sythan|Sythan]]
+ |intended_use = Identification and illustration on the Frutexa Flabellum article and related Exobiology pages.
+ |copyright_holder = Frontier Developments plc
+}}
+
+[[Category:Exobiology images]]
+
+== Licensing ==
+{{License-ED screenshot}}

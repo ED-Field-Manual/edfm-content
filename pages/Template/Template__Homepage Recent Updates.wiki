@@ -3,42 +3,42 @@ EDFM current-content archive export.
 Title: Template:Homepage Recent Updates
 Namespace: 10
 Page ID: 738
-Revision ID: 3806
-Timestamp: 2026-09-11T04:12:13Z
+Revision ID: 6387
+Timestamp: 2026-10-07T11:21:56Z
 Source URL: https://edfieldmanual.com/wiki/Template:Homepage_Recent_Updates
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-<noinclude>This template is generated automatically by /usr/local/sbin/edfm-homepage-recent-updates-update from /etc/edwiki/homepage-recent-updates.json. Manual edits will be replaced.</noinclude><includeonly>
+<noinclude>This template is generated automatically from live main-namespace page history by /usr/local/sbin/edfm-homepage-recent-updates-update. Manual edits will be replaced.</noinclude><includeonly>
 === New on EDFM ===
 {| class="edfm-home-recent-group edfm-home-recent-group-new"
-| class="edfm-home-recent-subtitle" | ''New pages and guides published recently.''
+| class="edfm-home-recent-subtitle" | ''The newest published EDFM pages and guides.''
 |-
 |
 {| class="edfm-home-recent-item"
-| class="edfm-home-recent-title" | [[Wreaken Mining Rig Field Tests]]
+| class="edfm-home-recent-title" | [[EDFM Companion]]
 | class="edfm-home-recent-badge" | '''NEW ARTICLE'''
-| class="edfm-home-recent-date" | Published 5 Sep 2026
+| class="edfm-home-recent-date" | Published 7 Oct 2026
 |-
-| class="edfm-home-recent-summary" colspan="3" | Reference coverage of the active Wreaken and Vodel field tests, including the two Community Goals and the opening-weekend market episode.
+| class="edfm-home-recent-summary" colspan="3" | An upcoming desktop companion and optional in-game overlay that combines familiar journal-driven tools with deeper links to the Elite Dangerous Field Manual.
 |}
 |-
 |
 {| class="edfm-home-recent-item"
-| class="edfm-home-recent-title" | [[Rhino]]
-| class="edfm-home-recent-badge" | '''NEW REFERENCE'''
-| class="edfm-home-recent-date" | Published 29 Aug 2026
+| class="edfm-home-recent-title" | [[Odyssey Missions]]
+| class="edfm-home-recent-badge" | '''NEW ARTICLE'''
+| class="edfm-home-recent-date" | Published 4 Oct 2026
 |-
-| class="edfm-home-recent-summary" colspan="3" | Vehicle reference for Vodel's Rhino surface recon vehicle, its mining-rig role, and the systems commanders use with it.
+| class="edfm-home-recent-summary" colspan="3" | An overview of on-foot contracts, settlement objectives, equipment, legality, and mission selection.
 |}
 |-
 |
 {| class="edfm-home-recent-item"
-| class="edfm-home-recent-title" | [[Surface Mining with the Rhino]]
-| class="edfm-home-recent-badge" | '''NEW GUIDE'''
-| class="edfm-home-recent-date" | Published 3 Sep 2026
+| class="edfm-home-recent-title" | [[Passenger Missions]]
+| class="edfm-home-recent-badge" | '''NEW ARTICLE'''
+| class="edfm-home-recent-date" | Published 4 Oct 2026
 |-
-| class="edfm-home-recent-summary" colspan="3" | A practical procedure for using the Rhino and deployable mining rigs during surface-mining operations.
+| class="edfm-home-recent-summary" colspan="3" | Contracts to transport groups or VIP parties in Passenger Cabins.
 |}
 |}
 
@@ -46,33 +46,33 @@ This is current wikitext only; no revision history, user database, logs, deleted
 
 === Recently Updated ===
 {| class="edfm-home-recent-group edfm-home-recent-group-updated"
-| class="edfm-home-recent-subtitle" | ''Existing reference pages revised or expanded.''
-|-
-|
-{| class="edfm-home-recent-item"
-| class="edfm-home-recent-title" | [[Gold]]
-| class="edfm-home-recent-badge" | '''UPDATED REFERENCE'''
-| class="edfm-home-recent-date" | Updated 8 Sep 2026
-|-
-| class="edfm-home-recent-summary" colspan="3" | Updated commodity reference with structured market information and the verified unlock quantity.
-|}
+| class="edfm-home-recent-subtitle" | ''Existing EDFM pages most recently revised.''
 |-
 |
 {| class="edfm-home-recent-item"
 | class="edfm-home-recent-title" | [[Surface Mining]]
-| class="edfm-home-recent-badge" | '''UPDATED REFERENCE'''
-| class="edfm-home-recent-date" | Updated 11 Sep 2026
+| class="edfm-home-recent-badge" | '''UPDATED ARTICLE'''
+| class="edfm-home-recent-date" | Updated 7 Oct 2026
 |-
-| class="edfm-home-recent-summary" colspan="3" | Updated to reflect the released Rhino guide and the relationship between conventional surface mining and the new vehicle.
+| class="edfm-home-recent-summary" colspan="3" | Planetary mining with the Rhino, reusable mining rigs, and its built-in refinery.
 |}
 |-
 |
 {| class="edfm-home-recent-item"
-| class="edfm-home-recent-title" | [[Detailed Surface Scanner]]
-| class="edfm-home-recent-badge" | '''UPDATED REFERENCE'''
-| class="edfm-home-recent-date" | Updated 10 Sep 2026
+| class="edfm-home-recent-title" | [[How to Start Mining]]
+| class="edfm-home-recent-badge" | '''UPDATED PROCEDURE'''
+| class="edfm-home-recent-date" | Updated 7 Oct 2026
 |-
-| class="edfm-home-recent-summary" colspan="3" | Expanded scanner guidance with signal filtering, engineering references, and corrected surface-scanning details.
+| class="edfm-home-recent-summary" colspan="3" | A first-run laser-mining procedure covering preparation, extraction, refining, and sale.
+|}
+|-
+|
+{| class="edfm-home-recent-item"
+| class="edfm-home-recent-title" | [[Game Reference]]
+| class="edfm-home-recent-badge" | '''UPDATED ARTICLE'''
+| class="edfm-home-recent-date" | Updated 7 Oct 2026
+|-
+| class="edfm-home-recent-summary" colspan="3" | Lookup-style reference material for Elite Dangerous systems, activities, ships, equipment, and mechanics.
 |}
 |}
 

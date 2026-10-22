@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Advanced Plasma Accelerator
 Namespace: 828
 Page ID: 445
-Revision ID: 1232
-Timestamp: 2026-08-20T23:58:54Z
+Revision ID: 4821
+Timestamp: 2026-09-20T15:00:21Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Advanced_Plasma_Accelerator
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Advanced Plasma Accelerator",
+	module_class = "Powerplay weapon",
+	slot_type = "Hardpoint",
+	mount = "Fixed",
+	manufacturer = "",
+	availability = "Live: Powerplay loyalty-rank unlock and allied Stronghold Carrier purchase. Legacy: Denton Patreus Rating 3 after four weeks pledged",
+	engineering = "Supports Plasma Accelerator blueprints and Experimental Effects",
+	related_modules = "Plasma Accelerator",
 }

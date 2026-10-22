@@ -3,22 +3,128 @@ EDFM current-content archive export.
 Title: Pulse Disruptor
 Namespace: 0
 Page ID: 567
-Revision ID: 2183
-Timestamp: 2026-08-24T23:44:51Z
+Revision ID: 4476
+Timestamp: 2026-09-16T15:25:29Z
 Source URL: https://edfieldmanual.com/wiki/Pulse_Disruptor
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Pulse Disruptor ship module.
+{{Article header|deck=A fixed Powerplay pulse laser that trades direct damage for a chance to cause temporary subsystem malfunctions.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live specifications and Powerplay 2.0 acquisition; Legacy acquisition differs
+ |reviewed=2026-09-16
+ |reviewer=Sythan
+ |source_quality=Specifications use commit-pinned module data; malfunction behavior uses maintained community documentation; acquisition follows current Powerplay sources.
+ |uncertainty=Malfunction activation is chance-based and practical results depend on striking the intended subsystem through the target's hull.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+The '''Pulse Disruptor''' is a fixed Class 2 Powerplay [[Pulse Laser]]. It deals thermal damage and has a chance to force a temporary malfunction in the subsystem struck by the shot. The effect disables the affected module briefly rather than damaging it directly.<ref name="wiki-disruptor">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Pulse_Disruptor Pulse Disruptor].</ref>
+
+This utility comes with a large direct-damage penalty. Compared with an ordinary fixed Class 2 Pulse Laser, the disruptor fires weaker and less frequently while drawing more distributor energy and producing more heat. Its purpose is targeted disruption, not efficient shield stripping or sustained laser damage.
+
+== Specifications ==
+
+{| class="wikitable"
+! Property
+! Value
+|-
+| Class and rating
+| 2E
+|-
+| Mount
+| Fixed
+|-
+| Mass
+| 4 t
+|-
+| Integrity
+| 51
+|-
+| Power draw
+| 0.70 MW
+|-
+| Damage per shot
+| 2.8 thermal
+|-
+| Rate of fire
+| 1.67/s
+|-
+| Damage per second
+| 4.67
+|-
+| Armour piercing
+| 35
+|-
+| Distributor draw
+| 0.90 MW
+|-
+| Thermal load
+| 1.0
+|-
+| Damage falloff begins
+| 500 m
+|-
+| Maximum range
+| 3,000 m
+|-
+| Base price
+| 26,400 CR
+|}
+
+These values are cross-checked against the commit-pinned EDCD Coriolis Pulse Laser record.<ref name="data-disruptor">EDCD Coriolis Data, [https://raw.githubusercontent.com/EDCD/coriolis-data/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/hardpoints/pulse_laser.json Pulse Laser module record], commit-pinned.</ref>
+
+The Pulse Disruptor has no ammunition reserve. Like other lasers, it fires while the WEP capacitor can supply its distributor demand.
+
+== Malfunction effect ==
+
+The disruptor's built-in effect resembles the Scramble Spectrum Experimental Effect but targets the subsystem that the projectile actually strikes instead of selecting a random module. A commander must therefore select the intended subsystem and hit its physical location after the target's shields are down. A successful malfunction is not guaranteed on every hit.<ref name="wiki-disruptor" />
+
+Hull geometry and attack direction matter. A thruster is much easier to strike from behind than through the front of a large ship; a module buried behind other hull sections can be impractical to reach from the current angle. The weapon also retains the penetration behavior of a Class 2 Pulse Laser, so a surface hit does not guarantee that the selected internal module receives the effect.
+
+A malfunction can interrupt whatever the module was doing. Disrupting a charging Frame Shift Drive cancels its charge, while a power-plant malfunction temporarily reduces available output and may shut down lower-priority modules. Life Support is not documented as an eligible malfunction target.<ref name="wiki-disruptor" />
+
+=== Stacking limits ===
+
+The disruption does not stack cumulatively with itself or with Scramble Spectrum. Multiple disruptors create more chances to trigger the effect through additional hits, but they do not multiply the duration or disable several modules through one active disruption. Heat- or damage-induced malfunctions remain separate mechanics.<ref name="wiki-disruptor" />
+
+== Operation ==
+
+The Pulse Disruptor is fixed, so the pilot must align the ship with the subsystem marker. It uses hitscan laser fire and does not require projectile lead, but the narrow aim requirement becomes more difficult against small, fast, or rolling targets.
+
+The 500-metre falloff start is the same short-range limitation found on conventional unengineered lasers. Hits remain possible to 3,000 metres, but damage declines beyond the falloff point. Because subsystem disruption requires a successful penetrating strike, closer firing angles can improve both aim and practical effect.
+
+The weapon can still damage shields, but its low output makes it inefficient when the only objective is removing them. Other weapons normally open the target's shields before the disruptor is used against exposed modules.
+
+== Engineering ==
+
+The Pulse Disruptor supports Pulse Laser Blueprint families and compatible Experimental Effects. Engineering can improve range, damage, distributor demand, heat, mass, or power draw, but does not remove the chance-based nature of its built-in malfunction.
+
+Applying Scramble Spectrum is redundant as a stacking strategy: the built-in targeted disruption and Scramble Spectrum do not combine into simultaneous or longer malfunctions.<ref name="wiki-disruptor" /> Other Experimental Effects may be chosen for their normal Pulse Laser behavior, subject to the finished build's heat and distributor limits.
+
+Detailed Blueprint modifiers and recipes belong on the relevant [[Engineering]] references.
+
+== Acquisition ==
+
+In the current Live game, the Pulse Disruptor is unlocked through [[Powerplay]] loyalty progression. Powerplay 2.0 gives every Power access to all Powerplay modules in a different order.<ref name="frontier-pp">Frontier Developments, [https://www.elitedangerous.com/news/powerplay-20-qa Powerplay 2.0 Q&A], 26 September 2024.</ref>
+
+Felicia Winters grants access first, at loyalty rank 34. Other Powers place it later in their reward tracks.<ref name="pp-guide">CMDR Dylan.Hunt, [https://hunt-neuronet.neocities.org/ Elite Dangerous Powerplay 2.0 Guide], verified 1 February 2026.</ref> After unlocking it, the commander purchases the fixed 2E weapon through an allied Stronghold Carrier. Changing Powers resets loyalty progression and removes further purchase access until it is unlocked again; already purchased modules remain normal equipment.
+
+Legacy uses the former Powerplay system, where the Pulse Disruptor is tied specifically to Felicia Winters and requires the old pledge-duration and rating conditions. Those requirements are not current for Live mode.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Pulse Laser]] [[Burst Laser]] [[Beam Laser]] [[Cytoscrambler]] [[Powerplay]] [[Engineering]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Weapons]]
+[[Category:Powerplay modules]]

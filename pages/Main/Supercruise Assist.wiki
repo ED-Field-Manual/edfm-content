@@ -3,22 +3,92 @@ EDFM current-content archive export.
 Title: Supercruise Assist
 Namespace: 0
 Page ID: 610
-Revision ID: 2206
-Timestamp: 2026-08-24T23:45:19Z
+Revision ID: 4861
+Timestamp: 2026-09-20T20:28:21Z
 Source URL: https://edfieldmanual.com/wiki/Supercruise_Assist
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Supercruise Assist ship module.
+{{Article header|deck=A class 1 flight-assist module that regulates an in-system supercruise approach to a selected destination.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live specifications; the module and its core role also apply to Legacy
+ |reviewed=2026-09-20
+ |reviewer=Sythan
+ |source_quality=The module's release, throttle option and planetary approach boundary are documented by Frontier; current specifications and availability are corroborated by maintained module and outfitting data.
+ |notes=Supercruise Assist does not avoid intervening bodies, evade interdictions, or land on planetary surfaces.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
-
 == Overview ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+'''Supercruise Assist''' is a class 1 optional internal module that regulates a ship's speed and heading during travel to a selected destination within the current star system. It can complete the final approach and disengage [[Frame Shift Drive|the Frame Shift Drive]] at a station or signal source, or hold the ship in supercruise orbit around a star, planet, or moon.<ref name="frontier-april">Frontier Developments, [https://forums.frontier.co.uk/threads/april-update-patch-notes.509331/ ''April Update — Patch Notes''], 23 April 2019.</ref><ref name="edwiki-sca">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Supercruise_Assist ''Supercruise Assist''], accessed 20 September 2026.</ref>
+
+The module was introduced in the April Update on 23 April 2019 and is fitted as standard to newly purchased ships.<ref name="frontier-april" /><ref name="edwiki-sca" /> It assists only the selected in-system leg: it does not plot routes, make hyperspace jumps, request docking, or land the ship.
+
+== Specifications ==
+
+{| class="wikitable"
+! Class
+! Rating
+! Mass
+! Integrity
+! Power draw
+! Boot time
+! Typical value
+|-
+| 1
+| E
+| 0 t
+| 10
+| 0.30 MW
+| 3 s
+| 9,120 CR
+|}
+
+Current Live module data records one class 1E version with no mass.<ref name="edsy-sca">EDSY, [https://github.com/taleden/EDSY/blob/9cd829062217036184ea9ec79ee30934d235aca8/eddb.js#L3466 commit-pinned module database], record 3152.</ref> Supercruise Assist cannot be engineered.<ref name="edsy-flight-assists">EDSY, [https://github.com/taleden/EDSY/blob/9cd829062217036184ea9ec79ee30934d235aca8/eddb.js#L2560-L2563 Flight Assists module-type definition].</ref>
+
+== Operation ==
+
+To use the module for an in-system approach:
+
+# Enter supercruise and select a station, signal source, star, planet, or moon.
+# Open the Navigation panel entry for that target and select '''Supercruise Assist''' or '''Supercruise Assist and Orbit'''.
+# Point the ship toward the unobstructed target.
+# If Flight Assistance is set to '''Manual Throttle''', place the throttle in the blue zone. With automatic throttle control enabled, the module regulates the throttle while guidance is active.<ref name="frontier-september">Frontier Developments, [https://forums.frontier.co.uk/threads/september-update-downtime-and-patch-notes.521859/ ''September Update — Downtime and Patch Notes''], 18 September 2019.</ref><ref name="edwiki-sca" />
+
+For a station or signal source, the module manages the remaining approach and automatically drops the ship into normal space when the destination is reached. For a stellar or planetary body, it remains in supercruise and establishes an orbit instead.<ref name="edwiki-sca" />
+
+A planetary surface destination does not turn the module into a landing autopilot. Supercruise Assist orbits the target body; the pilot must deactivate it, line up the surface destination, descend through orbital cruise and glide, and perform the landing separately.<ref name="odyssey-guide">Frontier Developments, [https://www.elitedangerous.com/news/odyssey-guide ''Odyssey Guide''], accessed 20 September 2026.</ref>
+
+== Hyperspace dethrottle ==
+
+Fitting Supercruise Assist also makes the '''Hyperspace Dethrottle''' option available under Flight Assistance. When enabled, it sets the ship's throttle to zero after a hyperspace jump into a new system. It does not steer away from the arrival star or perform the next jump.<ref name="frontier-april" /><ref name="edwiki-sca" />
+
+== Limitations and safety ==
+
+Supercruise Assist is not a full autopilot. It does not route around a star, planet, ring, or other obstruction between the ship and its target. If the target becomes obscured or the approach cannot continue, the pilot must steer around the obstruction and realign the ship.<ref name="edwiki-sca" />
+
+The module does not prevent or evade interdictions. Guidance can be interrupted during an interdiction or by manual control, so the commander should remain able to take over. Its automatic station drop also ends at normal-space arrival; docking is a separate procedure handled manually or by a [[Standard Docking Computer]] or [[Advanced Docking Computer]].
+
+== Acquisition ==
+
+Supercruise Assist is a normal credit purchase through Outfitting, subject to local stock. Current outfitting reports continue to list the class 1E module at stations across inhabited space.<ref name="edsm-stock">EDSM, [https://www.edsm.net/en/search/stations/index/outfitting/4053 stations selling Supercruise Assist], accessed 20 September 2026.</ref>
+
+The module predates the separation of the Live and Legacy galaxies and remains relevant to both. The specifications above use current Live module data.<ref name="frontier-live-legacy">Frontier Developments, [https://www.elitedangerous.com/en-US/news/elite-dangerous-update-14-and-beyond-live-and-legacy-modes ''Elite Dangerous Update 14 and Beyond: Live and Legacy Modes''], 23 November 2022.</ref>
+
+== Related modules ==
+
+* [[Frame Shift Drive]] — the core module that provides supercruise and hyperspace travel.
+* [[Standard Docking Computer]] — automates an authorised docking approach and landing.
+* [[Advanced Docking Computer]] — adds automatic launch to docking assistance.
+
+== Sources ==
+
+<references />
 
 [[Category:Modules]]
 [[Category:Ship modules]]

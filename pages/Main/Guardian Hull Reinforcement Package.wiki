@@ -3,22 +3,91 @@ EDFM current-content archive export.
 Title: Guardian Hull Reinforcement Package
 Namespace: 0
 Page ID: 505
-Revision ID: 2157
-Timestamp: 2026-08-24T23:44:19Z
+Revision ID: 4321
+Timestamp: 2026-09-15T13:39:32Z
 Source URL: https://edfieldmanual.com/wiki/Guardian_Hull_Reinforcement_Package
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Guardian Hull Reinforcement Package ship module.
+{{Article header|deck=The powered Guardian-derived optional module that adds hull integrity and thermal and caustic resistance.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current as of September 2026
+ |notes=Base variants and the Technology Broker unlock apply in Live and Legacy. Current Anti-Guardian Zone Resistance is a Live development.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Guardian Hull Reinforcement Package''' is an optional internal module derived from [[Guardian]] technology. Each package adds a fixed amount of hull integrity and applies '''2% thermal resistance''' and '''5% caustic resistance''' to the ship's hull. It does not add kinetic or explosive resistance.<ref name="module-data">[https://raw.githubusercontent.com/EDCD/coriolis-data/c228adb6c0425fc2c3a606be96114ed7a369f27a/modules/internal/guardian_hull_reinforcement_package.json EDCD Coriolis Data: Guardian Hull Reinforcement Package records], commit pinned; accessed 15 September 2026.</ref><ref name="edwiki">[https://elite-dangerous.fandom.com/wiki/Guardian_Hull_Reinforcement_Package Elite Dangerous Wiki: Guardian Hull Reinforcement Package], accessed 15 September 2026.</ref>
 
-== Overview ==
+Unlike an ordinary [[Hull Reinforcement Package]], the Guardian module draws power. It is available in Classes 1–5 with E- and D-rated versions. D-rated packages are lighter and provide more hull integrity, while E-rated packages draw slightly less power and cost less.
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Specifications ==
+
+{| class="wikitable sortable"
+! Module
+! Hull integrity
+! Mass
+! Power draw
+! Thermal resistance
+! Caustic resistance
+! Reference value
+|-
+| 1E || 100 || 2 t || 0.45 MW || 2% || 5% || 10,000 Cr
+|-
+| 1D || 138 || 1 t || 0.56 MW || 2% || 5% || 30,000 Cr
+|-
+| 2E || 188 || 4 t || 0.68 MW || 2% || 5% || 24,000 Cr
+|-
+| 2D || 238 || 2 t || 0.79 MW || 2% || 5% || 72,000 Cr
+|-
+| 3E || 288 || 8 t || 0.90 MW || 2% || 5% || 57,600 Cr
+|-
+| 3D || 325 || 4 t || 1.01 MW || 2% || 5% || 172,800 Cr
+|-
+| 4E || 375 || 16 t || 1.13 MW || 2% || 5% || 138,240 Cr
+|-
+| 4D || 413 || 8 t || 1.24 MW || 2% || 5% || 414,720 Cr
+|-
+| 5E || 450 || 32 t || 1.35 MW || 2% || 5% || 331,776 Cr
+|-
+| 5D || 488 || 16 t || 1.46 MW || 2% || 5% || 995,328 Cr
+|}
+
+The two maintained community datasets used here disagree by 2 Cr on each Class 5 reference value; the table follows the current Elite Dangerous Wiki values. This minor discrepancy does not affect module performance.<ref name="module-data" /><ref name="edwiki" />
+
+== Hull resistance behavior ==
+
+The flat integrity from every fitted package is added to the ship's hull pool. The resistance bonuses apply to the resulting hull rather than only to the points supplied by that one module. Multiple resistance sources combine through the normal hull-resistance calculation rather than by simple addition.
+
+The package's 5% caustic resistance distinguishes it from a standard Hull Reinforcement Package. Ordinary packages can supply more raw integrity after substantial [[Engineering]], do not draw power, and can be modified for human damage types. The Guardian package instead provides its caustic and thermal resistance in its stock form. Which trade-off suits a ship is an outfitting decision rather than an inherent upgrade from one family to the other.
+
+== Unlock and acquisition ==
+
+The module requires one permanent unlock at a '''Guardian Technology Broker'''. The recorded unlock cost is:<ref name="edwiki" />
+
+* 1 Guardian Module Blueprint Fragment
+* 21 Guardian Sentinel Wreckage Components
+* 16 Pattern Beta Obelisk Data
+* 16 Pattern Gamma Obelisk Data
+* 12 Reinforced Mounting Plates
+
+After the unlock, additional packages are purchased for credits through outfitting where stocked; the materials are not paid again for every ordinary copy. Broker locations and station stock are dynamic.<ref>[https://inara.cz/elite/techbroker/ INARA: Technology Broker unlocks], accessed 15 September 2026.</ref>
+
+== Engineering ==
+
+Guardian Hull Reinforcement Packages do not accept the ordinary Heavy Duty, Lightweight, Blast Resistant, Kinetic Resistant, or Thermal Resistant Hull Reinforcement blueprints, nor the associated Experimental Effects.
+
+In Live, Frontier states that '''Anti-Guardian Zone Resistance''' can be applied to all Guardian modules without a performance penalty. The change protects Guardian technology from anti-Guardian fields; it does not alter the package's listed hull-integrity or resistance values.<ref>[https://www.elitedangerous.com/update-notes/4-0-18-07 Frontier Developments: Elite Dangerous 18.07 Update Notes], accessed 15 September 2026.</ref>
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Guardian]] [[Hull Reinforcement Package]] [[Armour]] [[Engineering Materials]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Guardian]]

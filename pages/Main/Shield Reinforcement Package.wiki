@@ -3,22 +3,10 @@ EDFM current-content archive export.
 Title: Shield Reinforcement Package
 Namespace: 0
 Page ID: 598
-Revision ID: 2199
-Timestamp: 2026-08-24T23:45:11Z
+Revision ID: 4817
+Timestamp: 2026-09-20T14:35:24Z
 Source URL: https://edfieldmanual.com/wiki/Shield_Reinforcement_Package
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Shield Reinforcement Package ship module.
-}}
-
-{{Ship module infobox}}
-
-{{Draft warning}}
-
-== Overview ==
-
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
-
-[[Category:Modules]]
-[[Category:Ship modules]]
+#REDIRECT [[Guardian Shield Reinforcement Package]]

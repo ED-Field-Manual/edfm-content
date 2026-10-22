@@ -3,22 +3,92 @@ EDFM current-content archive export.
 Title: Guardian Shield Reinforcement Package
 Namespace: 0
 Page ID: 511
-Revision ID: 2159
-Timestamp: 2026-08-24T23:44:22Z
+Revision ID: 4326
+Timestamp: 2026-09-15T13:51:01Z
 Source URL: https://edfieldmanual.com/wiki/Guardian_Shield_Reinforcement_Package
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Guardian Shield Reinforcement Package ship module.
+{{Article header|deck=The powered Guardian-derived optional module that adds a fixed amount of shield capacity.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current as of September 2026
+ |notes=Base variants and the Technology Broker unlock apply in Live and Legacy. Current Anti-Guardian Zone Resistance is a Live development.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Guardian Shield Reinforcement Package''' is an optional internal module derived from [[Guardian]] technology. While powered and used with an active [[Shield Generator]], it adds a fixed amount of shield capacity measured in megajoules. Multiple packages can be fitted, and their listed additions stack directly.<ref name="module-data">[https://raw.githubusercontent.com/EDCD/coriolis-data/d4efdee1808b45ae7c60b9b30223b670375e95a4/modules/internal/guardian_shield_reinforcement_package.json EDCD Coriolis Data: Guardian Shield Reinforcement Package records], commit pinned; accessed 15 September 2026.</ref><ref name="gsrp-wiki">[https://elite-dangerous.fandom.com/wiki/Guardian_Shield_Reinforcement_Package Elite Dangerous Wiki: Guardian Shield Reinforcement Package], accessed 15 September 2026.</ref>
 
-== Overview ==
+The package is available in Classes 1–5 with E- and D-rated versions. D-rated packages are lighter and add more shield capacity, while E-rated packages draw slightly less power and cost less. Every standard variant has 36 module integrity.
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Specifications ==
+
+{| class="wikitable sortable"
+! Module
+! Shield addition
+! Mass
+! Power draw
+! Integrity
+! Reference value
+|-
+| 1E || 44 MJ || 2 t || 0.35 MW || 36 || 10,000 Cr
+|-
+| 1D || 61 MJ || 1 t || 0.46 MW || 36 || 30,000 Cr
+|-
+| 2E || 83 MJ || 4 t || 0.56 MW || 36 || 24,000 Cr
+|-
+| 2D || 105 MJ || 2 t || 0.67 MW || 36 || 72,000 Cr
+|-
+| 3E || 127 MJ || 8 t || 0.74 MW || 36 || 57,600 Cr
+|-
+| 3D || 143 MJ || 4 t || 0.84 MW || 36 || 172,800 Cr
+|-
+| 4E || 165 MJ || 16 t || 0.95 MW || 36 || 138,240 Cr
+|-
+| 4D || 182 MJ || 8 t || 1.05 MW || 36 || 414,720 Cr
+|-
+| 5E || 198 MJ || 32 t || 1.16 MW || 36 || 331,776 Cr
+|-
+| 5D || 215 MJ || 16 t || 1.26 MW || 36 || 995,328 Cr
+|}
+
+The maintained community datasets consulted for this page contain minor price discrepancies: the Elite Dangerous Wiki lists 57,000 Cr for the 3E package and values each Class 5 package 2 Cr below EDCD's records. The table uses EDCD's 3E value and the current Elite Dangerous Wiki Class 5 values. These discrepancies do not affect module performance.<ref name="module-data" /><ref name="gsrp-wiki" />
+
+== Shield-strength behavior ==
+
+The package's megajoule value is a flat addition, not a percentage bonus. Percentage increases from [[Shield Booster]]s apply to the Shield Generator's output before the Guardian package is added; they do not multiply the package's listed MJ. Shield resistances still determine how much incoming damage the completed shield can absorb against each damage type.<ref name="gsrp-wiki" />
+
+Fitting another Guardian package adds its own listed value. Because the Shield Generator's recharge and recovery rates are not increased by the package, a larger completed shield takes correspondingly longer to recharge from empty if nothing else changes.
+
+This module occupies an internal compartment and draws continuous power. A Shield Booster instead occupies a utility mount, adds a percentage of the generator's base strength, and can be Engineered for strength or resistance. Neither is a universal replacement for the other.
+
+== Unlock and acquisition ==
+
+The module requires one permanent unlock at a '''Guardian Technology Broker'''. The recorded unlock cost is:<ref name="gsrp-wiki" />
+
+* 1 Guardian Module Blueprint Fragment
+* 17 Guardian Power Cells
+* 20 Guardian Technology Components
+* 24 Pattern Delta Obelisk Data
+* 8 Hardware Diagnostic Sensors
+
+After the unlock, additional packages are purchased for credits through outfitting where stocked; the materials are not paid again for every ordinary copy. Broker locations and station stock are dynamic.<ref>[https://inara.cz/elite/techbroker/ INARA: Technology Broker unlocks], accessed 15 September 2026.</ref>
+
+== Engineering ==
+
+Guardian Shield Reinforcement Packages do not accept Shield Generator or Shield Booster blueprints, nor their Experimental Effects.
+
+In Live, the single-grade '''Anti-Guardian Zone Resistance''' modification can be applied to the package. It prevents anti-Guardian fields from degrading the module and has no performance penalty.<ref>[https://www.elitedangerous.com/update-notes/4-0-18-07 Frontier Developments: Elite Dangerous 18.07 Update Notes], accessed 15 September 2026.</ref> It is not available in Legacy.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Guardian]] [[Shield Generator]] [[Shield Booster]] [[Guardian Hull Reinforcement Package]] [[Guardian Module Reinforcement Package]] [[Engineering Materials]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Guardian]]

@@ -3,12 +3,20 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Caustic Sink Launcher
 Namespace: 828
 Page ID: 460
-Revision ID: 1247
-Timestamp: 2026-08-20T23:59:05Z
+Revision ID: 4232
+Timestamp: 2026-09-15T00:41:50Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Caustic_Sink_Launcher
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Caustic Sink Launcher",
+	module_class = "Experimental utility module",
+	slot_type = "Utility mount",
+	mount = "Utility mount",
+	manufacturer = "Aegis",
+	availability = "45,000 CR from Rescue Ship Outfitting; no Technology Broker unlock requirement",
+	engineering = "Ammo Capacity<br>Lightweight<br>Reinforced<br>Shielded<br>No Experimental Effects",
+	related_modules = "Heat Sink Launcher<br>Decontamination Limpet Controller<br>Corrosion Resistant Cargo Rack",
+	notes = "Automatically diverts caustic contamination from the hull into a disposable sink that must be ejected when full.",
 }

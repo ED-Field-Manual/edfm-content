@@ -3,12 +3,20 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Shield Cell Bank
 Namespace: 828
 Page ID: 594
-Revision ID: 1381
-Timestamp: 2026-08-21T00:00:43Z
+Revision ID: 4813
+Timestamp: 2026-09-20T14:20:14Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Shield_Cell_Bank
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Shield Cell Bank",
+	module_class = "Shield restoration module",
+	slot_type = "Optional internal or military compartment",
+	mount = "Classes 1–8, ratings E–A",
+	manufacturer = "",
+	availability = "Standard credit purchase through Outfitting",
+	engineering = "Rapid Charge or Specialised to Grade 4; five compatible Experimental Effects",
+	related_modules = "[[Shield Generator]]<br>[[Heat Sink Launcher]]<br>[[Guardian Shield Reinforcement Package]]",
+	notes = "Consumes finite cells to restore an active shield; it has no effect on a collapsed shield.",
 }

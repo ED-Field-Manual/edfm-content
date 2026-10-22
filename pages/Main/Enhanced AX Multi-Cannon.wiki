@@ -3,22 +3,152 @@ EDFM current-content archive export.
 Title: Enhanced AX Multi-Cannon
 Namespace: 0
 Page ID: 481
-Revision ID: 2147
-Timestamp: 2026-08-24T23:44:07Z
+Revision ID: 4263
+Timestamp: 2026-09-15T02:41:01Z
 Source URL: https://edfieldmanual.com/wiki/Enhanced_AX_Multi-Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Enhanced AX Multi-Cannon ship module.
+{{Article header|deck=A fast-projectile human anti-xeno weapon available in fixed, gimballed, and turreted forms for sustained fire against Thargoid vessels.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Live 4.4
+ |reviewed=2026-09-15
+ |reviewer=Sythan
+ |source_quality=Frontier's official Enhanced AX weapon announcements, maintained equipment specifications, and current Anti-Xeno Initiative guidance
+ |uncertainty=Rescue Megaship locations and Outfitting stock can change; check a current outfitting search before travelling.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Enhanced AX Multi-Cannon''' is a Live-only Aegis projectile weapon that delivers sustained Anti-Xeno damage. It improves the standard [[AX Multi-Cannon]] with slightly greater damage and much faster projectiles, and adds a gimballed mount alongside fixed and turreted versions.<ref name="wiki">[https://elite-dangerous.fandom.com/wiki/Enhanced_AX_Multi-cannon Enhanced AX Multi-cannon], Elite Dangerous Wiki, accessed 2026-09-15.</ref>
 
-== Overview ==
+All three mounts are available in Class 2 and Class 3. The weapon uses human technology, so anti-Guardian fields do not disable it.
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Specifications ==
+
+{| class="wikitable sortable"
+! Class
+! Mount
+! Mass
+! Power draw
+! Damage
+! Armour piercing
+! Rate of fire
+! DPS
+! Clip
+! Maximum ammunition
+|-
+| 2
+| Fixed
+| 4 t
+| 0.48 MW
+| 1.4 AX
+| 17
+| 7.1/s
+| 10.0
+| 100
+| 2,100
+|-
+| 2
+| Gimballed
+| 4 t
+| 0.46 MW
+| 1.3 AX
+| 17
+| 7.1/s
+| 9.6
+| 100
+| 2,100
+|-
+| 2
+| Turreted
+| 4 t
+| 0.52 MW
+| 0.7 AX
+| 17
+| 6.2/s
+| 4.4
+| 90
+| 2,100
+|-
+| 3
+| Fixed
+| 8 t
+| 0.69 MW
+| 2.7 AX
+| 33
+| 5.9/s
+| 15.6
+| 100
+| 2,100
+|-
+| 3
+| Gimballed
+| 8 t
+| 0.64 MW
+| 2.6 AX
+| 33
+| 5.9/s
+| 15.2
+| 100
+| 2,100
+|-
+| 3
+| Turreted
+| 8 t
+| 0.69 MW
+| 1.4 AX
+| 33
+| 6.2/s
+| 8.7
+| 90
+| 2,100
+|}
+
+Every standard Enhanced variant has a projectile speed of 4,000 m/s and begins damage falloff at 2,000 metres.<ref name="wiki" /> The Class 3 weapons provide substantially better armour piercing and damage than Class 2, which matters against Thargoid Interceptors with stronger armour.
+
+== Operation ==
+
+Hold the trigger to maintain fire while the target remains inside the weapon's effective arc. The high projectile speed reduces lead and makes the Enhanced weapon easier to keep on fast Thargoid Scouts than the standard model.
+
+Fixed mounts provide the highest damage and require manual aim. Gimballed mounts retain almost all fixed-mount damage while adding a useful tracking arc, making them the usual credit-purchase choice. Turrets provide broader automatic tracking and multicrew support but sacrifice substantial damage.<ref name="axi">[https://wiki.antixenoinitiative.com/en/weapons Weapons], Anti-Xeno Initiative Wiki, accessed 2026-09-15.</ref>
+
+A gimballed or turreted mount must complete a scan with an [[Enhanced Xeno Scanner|Xeno Scanner]] before an exposed Interceptor heart can be selected as a subtarget. Fixed weapons can be aimed manually at the visible heart without a subtarget lock.
+
+Current specialist guidance recommends Enhanced AX Multi-Cannons for Scouts and treats them as viable against weaker Interceptors, especially the Cyclops. Their modest armour piercing makes them less effective against stronger Interceptor variants than high-penetration Guardian weapons.<ref name="axi" />
+
+== Restrictions ==
+
+Enhanced AX Multi-Cannons count toward the ship's default limit of four experimental weapons. An Experimental Weapon Stabiliser can raise that limit by occupying an optional-internal slot.
+
+They cannot receive conventional [[Engineering]] blueprints or Experimental Effects. The fixed, gimballed, and turreted specifications should therefore be compared as complete stock modules.
+
+The Anti-Xeno damage mixture performs poorly against ordinary human ships compared with a conventional [[Multi-Cannon]].<ref name="wiki" />
+
+== Acquisition ==
+
+Frontier released fixed and turreted Enhanced AX Multi-Cannons for credit purchase at Rescue Megaships after their development campaigns.<ref name="frontier-project">[https://www.elitedangerous.com/en-US/news/galnet/enhanced-ax-weapon-project Enhanced AX Weapon Project], Frontier Developments, 15 December 2022, accessed 2026-09-15.</ref> The gimballed version was added in the following project stage. Standard Enhanced versions require no Technology Broker unlock.
+
+Use the Galaxy Map to find Rescue Megaships and confirm current Outfitting stock before travelling.
+
+== Azimuth-modified version ==
+
+Azimuth Biotech also supplies a pre-engineered '''Overcharged Gimballed AX Multi-Cannon with Auto Loader''' in Classes 2 and 3. It increases damage by 10% and reloads continuously, at the cost of markedly higher power draw and thermal load.<ref name="wiki" /><ref name="frontier-azimuth">[https://www.elitedangerous.com/news/galnet/azimuth-releases-new-ax-weapon Azimuth Releases New AX Weapon], Frontier Developments, accessed 2026-09-15.</ref>
+
+Unlike the standard Enhanced weapon, the Azimuth version is obtained through a per-module material exchange rather than a permanent unlock. It is stocked by Rescue Megaships and Azimuth Biotech markets.<ref name="frontier-azimuth" />
+
+== Sources ==
+<references />
+
+{{Related articles
+ |[[AX Multi-Cannon]]
+ |[[Enhanced AX Missile Rack]]
+ |[[Enhanced Xeno Scanner]]
+ |[[Thargoid]]
+}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]

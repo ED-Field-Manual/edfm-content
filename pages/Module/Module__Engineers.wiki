@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Engineers
 Namespace: 828
 Page ID: 173
-Revision ID: 2609
-Timestamp: 2026-08-29T17:21:01Z
+Revision ID: 4081
+Timestamp: 2026-09-13T14:13:22Z
 Source URL: https://edfieldmanual.com/wiki/Module:Engineers
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -2035,6 +2035,171 @@ function p.odysseyDirectory(frame)
 		.. '! style="width:15%;" | Location\n'
 		.. '! style="width:32%;" | Access requirements\n'
 		.. '! style="width:35%;" | Modifications available\n'
+		.. table.concat(rows, '\n')
+		.. '\n|}'
+end
+
+
+------------------------------------------------------------------------
+-- Generated Odyssey modification directory
+------------------------------------------------------------------------
+
+-- {{#invoke:Engineers|odysseyModificationDirectory|type=suit}}
+-- {{#invoke:Engineers|odysseyModificationDirectory|type=weapon}}
+--
+-- Inverts the canonical per-Engineer modification lists into a lookup by
+-- modification. Existing modification articles are linked; undeveloped
+-- subjects remain plain text rather than generating directory redlinks.
+local function modificationIdentity(value)
+	if type(value) == 'string' then
+		return value, value, true
+	end
+
+	if type(value) ~= 'table' then
+		return nil, nil, false
+	end
+
+	local display =
+		value.display
+		or value.name
+		or value.item
+		or value.target
+
+	local target =
+		value.target
+		or value.name
+		or value.item
+		or display
+
+	return display, target, value.link ~= false
+end
+
+
+local function formatModificationDirectoryName(value)
+	local display, target, linkAllowed =
+		modificationIdentity(value)
+
+	if not isNonEmpty(display) then
+		return nil
+	end
+
+	if not linkAllowed or not isNonEmpty(target) then
+		return display
+	end
+
+	local title =
+		mw.title.new(target)
+
+	if title and title.exists then
+		return wikilink(display, target)
+	end
+
+	return display
+end
+
+
+function p.odysseyModificationDirectory(frame)
+	local equipment =
+		frame
+		and frame.args
+		and (frame.args.type or frame.args[1])
+
+	if equipment ~= 'suit' and equipment ~= 'weapon' then
+		return ''
+	end
+
+	local grouped = {}
+
+	for _, name in ipairs(loadIndex()) do
+		local d =
+			loadRecord(name)
+
+		local values =
+			d
+			and isOdysseyEngineer(d)
+			and type(d.modifications) == 'table'
+			and d.modifications[equipment]
+
+		if type(values) == 'table' then
+			for _, value in ipairs(values) do
+				local display, target =
+					modificationIdentity(value)
+
+				if isNonEmpty(display) then
+					local key =
+						target or display
+
+					if not grouped[key] then
+						grouped[key] = {
+							value = value,
+							display = display,
+							core = {},
+							colonia = {}
+						}
+					end
+
+					local destination =
+						d.colonia == true
+						and grouped[key].colonia
+						or grouped[key].core
+
+					table.insert(
+						destination,
+						wikilink(d.name or name)
+					)
+				end
+			end
+		end
+	end
+
+	local keys = {}
+
+	for key in pairs(grouped) do
+		table.insert(keys, key)
+	end
+
+	table.sort(keys, function(a, b)
+		local aDisplay = grouped[a].display:lower()
+		local bDisplay = grouped[b].display:lower()
+
+		if aDisplay == bDisplay then
+			return a < b
+		end
+
+		return aDisplay < bDisplay
+	end)
+
+	local rows = {}
+
+	for _, key in ipairs(keys) do
+		local entry =
+			grouped[key]
+
+		table.insert(
+			rows,
+			string.format(
+				'|-\n'
+				.. '| data-sort-value="%s" | %s\n'
+				.. '| %s\n'
+				.. '| %s',
+				escapeAttribute(entry.display),
+				formatModificationDirectoryName(entry.value)
+					or entry.display,
+				#entry.core > 0
+					and table.concat(entry.core, ', ')
+					or '—',
+				#entry.colonia > 0
+					and table.concat(entry.colonia, ', ')
+					or '—'
+			)
+		)
+	end
+
+	return
+		'{| class="wikitable sortable" style="width:100%;"\n'
+		.. '! Modification\n'
+		.. '! Core systems\n'
+		.. '! Colonia\n'
 		.. table.concat(rows, '\n')
 		.. '\n|}'
 end

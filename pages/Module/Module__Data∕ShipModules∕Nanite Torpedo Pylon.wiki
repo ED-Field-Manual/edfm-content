@@ -3,12 +3,19 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Nanite Torpedo Pylon
 Namespace: 828
 Page ID: 544
-Revision ID: 1331
-Timestamp: 2026-08-21T00:00:06Z
+Revision ID: 4444
+Timestamp: 2026-09-16T12:54:23Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Nanite_Torpedo_Pylon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 return {
 	name = "Nanite Torpedo Pylon",
+	module_class = "Titan vent-disruption weapon",
+	slot_type = "Hardpoint",
+	mount = "Fixed Class 2I and 3I variants",
+	manufacturer = "Aegis",
+	availability = "Specialist anti-xeno suppliers, including Rescue Megaships",
+	engineering = "Supplied with anti-Guardian field resistance; no conventional blueprint or Experimental Effect selection",
+	related_modules = "[[Caustic Sink Launcher]], [[AX Missile Rack]], [[AX Multi-Cannon]], [[Enhanced AX Multi-Cannon]]",
 }

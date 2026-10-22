@@ -1,0 +1,24 @@
+<!--
+EDFM current-content archive export.
+Title: Module:Data/ShipModules/Vessel Hangar
+Namespace: 828
+Page ID: 837
+Revision ID: 4269
+Timestamp: 2026-09-15T03:12:51Z
+Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Vessel_Hangar
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+return {
+	name = "Vessel Hangar",
+	module_class = "Ship-launched vehicle hangar",
+	slot_type = "Optional internal",
+	mount = "Classes 5–7, rating D; compatible ship hulls only",
+	manufacturer = "",
+	availability = "Mk I in standard outfitting on compatible ships; Mk II is Live-only and restricted to selected newer hulls",
+	tech_broker = "Not required",
+	engineering = "Not compatible with Engineering",
+	powerplay = "",
+	related_modules = "[[Planetary Vehicle Hangar]]<br>[[Large Planetary Vehicle Hangar]]",
+	notes = "Previously named Fighter Hangar; carries Ship-Launched Fighters and, in Live, compatible Ship-Launched Vessels."
+}

@@ -1,0 +1,12 @@
+<!--
+EDFM current-content archive export.
+Title: Odyssey Mission
+Namespace: 0
+Page ID: 985
+Revision ID: 6142
+Timestamp: 2026-10-04T15:56:58Z
+Source URL: https://edfieldmanual.com/wiki/Odyssey_Mission
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+#REDIRECT [[Odyssey Missions]]

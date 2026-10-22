@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/ShipModules/Fuel Tank
 Namespace: 828
 Page ID: 498
-Revision ID: 2220
-Timestamp: 2026-08-25T14:13:47Z
+Revision ID: 4317
+Timestamp: 2026-09-15T13:23:32Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/ShipModules/Fuel_Tank
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -12,10 +12,11 @@ This is current wikitext only; no revision history, user database, logs, deleted
 return {
 	name = "Fuel Tank",
 	module_class = "Fuel storage module",
-	slot_type = "Core internal / optional internal",
-	mount = "",
+	slot_type = "Core fuel store or optional internal",
+	mount = "Classes 1–8, C-rated",
 	manufacturer = "",
-	availability = "Standard core module family",
-	engineering = "",
-	related_modules = "[[Fuel Scoop]], [[Frame Shift Drive]]",
+	availability = "Standard credit purchase through Outfitting; stock core equipment on every ship",
+	engineering = "Not Engineerable",
+	related_modules = "[[Fuel Scoop]]<br>[[Fuel Transfer Limpet Controller]]<br>[[Frame Shift Drive]]",
+	notes = "The empty tank has no module mass; carried fuel adds 1 tonne of ship mass per tonne stored.",
 }

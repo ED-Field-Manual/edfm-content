@@ -3,22 +3,126 @@ EDFM current-content archive export.
 Title: Enforcer Cannon
 Namespace: 0
 Page ID: 477
-Revision ID: 2145
-Timestamp: 2026-08-24T23:44:04Z
+Revision ID: 4249
+Timestamp: 2026-09-15T01:46:49Z
 Source URL: https://edfieldmanual.com/wiki/Enforcer_Cannon
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Enforcer Cannon ship module.
+{{Article header|deck=A Powerplay class 1 fixed Multi-Cannon variant that trades rate of fire and magazine size for heavier rounds, greater damage and longer effective range.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |reviewed=Class, mount, damage profile, ammunition, range, acquisition model and Engineering eligibility checked
+ |uncertainty=Live numerical specifications and each Power's unlock rank can change with balancing updates.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Enforcer Cannon''' is a Powerplay [[Multi-Cannon]] variant. It is available only as a class 1F fixed weapon and fires larger-calibre kinetic rounds than a standard small Multi-Cannon. Each shot deals substantially more damage, penetrates harder armour and remains effective farther away, while the weapon fires more slowly and carries fewer rounds per magazine.
 
-== Overview ==
+Its small size and fixed mount define the module's niche. It can turn an otherwise low-damage small hardpoint into a credible source of sustained hull damage, but it requires the ship to keep its nose on target through the Multi-Cannon's spin-up and firing cycle.
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+== Characteristics ==
+
+{| class="wikitable"
+! Property
+! Unmodified value
+|-
+! Class and rating
+| 1F
+|-
+! Mount
+| Fixed
+|-
+! Damage type
+| Kinetic
+|-
+! Damage per shot
+| 2.9
+|-
+! Rate of fire
+| 4.3 rounds per second
+|-
+! Damage per second
+| Approximately 12.5
+|-
+! Armour piercing
+| 30
+|-
+! Damage falloff begins
+| 3,000 m
+|-
+! Maximum range
+| 4,500 m
+|-
+! Magazine
+| 60 rounds
+|-
+! Ammunition reserve
+| 1,000 rounds
+|-
+! Reload time
+| 4 seconds
+|-
+! Mass
+| 2 t
+|-
+! Power draw
+| 0.28 MW
+|}
+
+The armour-piercing value of 30 is notably higher than the standard small fixed Multi-Cannon's value of 22. This reduces the damage penalty when the weapon is used against ships whose hull armour hardness exceeds the weapon's piercing value, although it does not eliminate that penalty against heavily armoured targets.
+
+The 3 km falloff point and 4.5 km maximum range also permit useful damage farther from the target than a standard Multi-Cannon. Projectile travel time still matters at range, and the fixed mount provides only the slight convergence assistance common to fixed weapons rather than gimballed tracking.
+
+== Ammunition and sustained fire ==
+
+The cannon must spin up before it reaches its firing cadence. Its 60-round magazine lasts roughly 14 seconds of continuous fire at the unmodified rate, after which the weapon reloads. The 1,000-round reserve supports extended combat, but the smaller magazine creates more frequent reload breaks than a standard Multi-Cannon.
+
+Ammunition can be replenished through normal station rearming or synthesized from the right-hand inventory panel when the required materials are available. The Enforcer Cannon uses normal Multi-Cannon ammunition synthesis.
+
+== Acquisition ==
+
+The Enforcer Cannon is unlocked through [[Powerplay]] loyalty ranks. Powerplay 2.0 changed the old single-Power exclusivity model: every Power now offers the complete set of Powerplay modules, but in a different sequence.
+
+Pranav Antal offers the Enforcer Cannon first, at loyalty rank 34. A commander pledged to another Power can still unlock it, but the required rank varies by Power. Reaching the appropriate rank makes the module available for credit purchase; outfitting stock still varies by station and system.
+
+== Engineering ==
+
+The Enforcer Cannon accepts Multi-Cannon [[Engineering]] blueprints and compatible Experimental Effects. Engineering can strengthen its high per-shot damage, extend ammunition endurance or alter its damage role, but the resulting power, heat, distributor and ammunition trade-offs should be evaluated against the rest of the ship's weapon group.
+
+Its higher base armour piercing makes it a strong candidate for direct kinetic damage from a small hardpoint. Utility-focused Experimental Effects remain possible, but applying one does not remove the need to keep the fixed weapon on target.
+
+== Use and limitations ==
+
+The Enforcer Cannon is most useful when:
+
+* a ship has one or more small hardpoints that can be kept on target reliably;
+* hull damage is more important than shield stripping;
+* a commander wants more per-shot damage and range than a standard small Multi-Cannon provides; or
+* the weapon group can accommodate its spin-up and periodic reloads.
+
+Its principal limitations are:
+
+* fixed-only mounting;
+* ordinary kinetic resistance against shields;
+* slower fire than a standard Multi-Cannon;
+* a smaller magazine and more frequent reload interruptions; and
+* Powerplay progression before purchase.
+
+Larger hardpoint weapons can still deliver more absolute damage. The Enforcer Cannon is best judged as an unusually capable small weapon rather than a replacement for a medium or large primary battery.
+
+== Sources ==
+
+* [https://www.elitedangerous.com/update-notes/4-0-19-0 Elite Dangerous: Ascendancy — Available Now] — Frontier's description of Powerplay 2.0 module parity and loyalty-rank rewards.
+* [https://elite-dangerous.fandom.com/wiki/Enforcer_Cannon Elite Dangerous Wiki: Enforcer Cannon] — module specifications, standard Multi-Cannon comparison and Engineering eligibility.
+* [https://roguey.co.uk/elite-dangerous/equipment/weapon/enforcer-cannon/ Roguey: Enforcer Cannon (Fixed)] — independent class, mount, mass, power, damage, rate-of-fire, armour-piercing and range cross-check.
+
+{{Related articles|[[Multi-Cannon]] [[Powerplay]] [[Combat]] [[Engineering]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]
+[[Category:Weapons]]
+[[Category:Powerplay]]

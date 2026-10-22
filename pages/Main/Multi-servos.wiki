@@ -3,15 +3,87 @@ EDFM current-content archive export.
 Title: Multi-servos
 Namespace: 0
 Page ID: 681
-Revision ID: 1574
-Timestamp: 2026-08-23T18:40:03Z
+Revision ID: 4087
+Timestamp: 2026-09-13T14:33:25Z
 Source URL: https://edfieldmanual.com/wiki/Multi-servos
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Planned article|an experimental-effect reference for Multi-servos, including compatible modules, effects, drawbacks, and Engineer availability.}}
+{{Article header|deck=An Experimental Effect that raises a weapon's rate of fire by 3% at the cost of 5% higher power draw.}}
 
-'''Multi-servos''' is an Engineering experimental effect. This planned reference will document what the effect changes, which blueprints can receive it, and when it is useful compared with other experimental effects.
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy Engineering
+ |reviewer=Sythan
+ |reviewed=2026-09-13
+ |source_quality=Current INARA values corroborated by the maintained Elite Dangerous Wiki reference
+ |uncertainty=Frontier does not publish a current machine-readable compatibility matrix for every weapon variant; confirm availability in the Engineer interface for specialised or newly released hardpoints.
+}}
+
+'''Multi-servos''' is a weapon [[Experimental Effects|Experimental Effect]] that adds servomechanisms and controller software to increase firing rate. It is installed by an Engineer after a compatible weapon has received a normal [[Engineering Blueprints|Engineering Blueprint]].
+
+== Effects ==
+
+{| class="wikitable"
+! Attribute
+! Modifier
+|-
+| Rate of fire
+| +3%
+|-
+| Power draw
+| +5%
+|}
+
+The fire-rate bonus raises theoretical sustained damage while the trigger is held, but it does not increase the damage of each shot. The benefit may be smaller in practice when heat, ammunition, reloads, or the WEP capacitor already interrupt sustained fire.
+
+On ammunition-fed weapons, the higher rate also spends ammunition slightly faster. The effect does not increase magazine size, reserve ammunition, reload speed, projectile speed, or armour piercing.
+
+The power-draw penalty affects the weapon's demand on the ship's [[Power Plant]]. It is separate from the WEP capacitor energy required while firing.
+
+== Compatibility ==
+
+Multi-servos is available to most conventional Engineer-compatible weapons. Current references include:<ref name="inara">[https://inara.cz/elite/experimentaleffects/ INARA: Engineering — Experimental effects], accessed 13 September 2026.</ref>
+
+* Burst and [[Pulse Laser|Pulse Lasers]];
+* [[Cannon|Cannons]], [[Fragment Cannon|Fragment Cannons]], [[Multi-Cannon|Multi-cannons]], [[Plasma Accelerator|Plasma Accelerators]], and [[Railgun|Railguns]];
+* Seeker and dumbfire [[Missile Rack|Missile Racks]].
+
+Beam Lasers, Mine Launchers, Torpedo Pylons, experimental weapons, and mining tools do not accept Multi-servos.<ref name="wiki">[https://elite-dangerous.fandom.com/wiki/Multi-Servos Elite Dangerous Wiki: Multi-Servos], accessed 13 September 2026.</ref>
+
+== Materials ==
+
+Applying Multi-servos consumes:
+
+* 5 Mechanical Scrap;
+* 4 Focus Crystals;
+* 2 Conductive Polymers;
+* 2 Configurable Components.<ref name="inara" />
+
+Experimental Effects are installed once rather than progressed through Grades 1–5. The appropriate Engineer must support the weapon family and be visited in person; [[Remote Engineering]] cannot add or replace an Experimental Effect.
+
+== Selection guidance ==
+
+Multi-servos suits a weapon when a small increase in firing cadence matters more than competing utility effects and the ship can absorb the extra power demand. Check the complete build rather than treating the 3% modifier as an unconditional 3% combat improvement:
+
+* a power-limited build may benefit more from [[Flow Control]];
+* a weapon already constrained by heat or WEP energy may be unable to sustain the faster cycle;
+* an ammunition-limited build reaches depletion sooner during continuous fire;
+* a specialised status, support, or penetration effect can be more valuable than a small damage-rate increase.
+
+== See also ==
+
+* [[Engineering]]
+* [[Engineers]]
+* [[Experimental Effects]]
+* [[Flow Control]]
+* [[Oversized]]
+* [[Stripped Down]]
+
+== Sources ==
+
+<references />
 
 [[Category:Experimental Effects]]
 [[Category:Engineering]]

@@ -3,22 +3,90 @@ EDFM current-content archive export.
 Title: Xeno Multi Limpet Controller
 Namespace: 0
 Page ID: 618
-Revision ID: 2209
-Timestamp: 2026-08-24T23:45:23Z
+Revision ID: 5089
+Timestamp: 2026-09-23T16:08:28Z
 Source URL: https://edfieldmanual.com/wiki/Xeno_Multi_Limpet_Controller
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Structured stub page for the Xeno Multi Limpet Controller ship module.
+{{Article header|deck=A Class 3 controller that programmes decontamination, repair, and research limpets from one shared active pool.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Current Live and Legacy
+ |reviewed=2026-09-23
+ |reviewer=Sythan
+ |source_quality=Frontier confirms the controller family's introduction and Horizons release; current specifications and programme coverage use maintained module datasets and references.
+ |uncertainty=The combined module display does not describe every programme's individual range, lifetime, speed, or output.
 }}
 
 {{Ship module infobox}}
 
-{{Draft warning}}
+The '''Xeno Multi Limpet Controller''' is an optional internal module that programmes ordinary limpets for '''decontamination''', '''repair''', or '''research''' work. It combines the three functions in one Class 3 compartment and can control up to four active limpets in total.<ref name="update9">Frontier Developments, [https://forums.frontier.co.uk/threads/elite-dangerous-odyssey-update-9-notes.595180/ Elite Dangerous: Odyssey Update 9 notes], 9 December 2021.</ref><ref name="edwiki">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Xeno_Multi_Limpet_Controller Xeno Multi Limpet Controller], accessed 23 September 2026.</ref>
 
-== Overview ==
+== Specifications ==
 
-This ship module page is a structured stub. Source-backed module details have not been filled yet.
+{| class="wikitable"
+! Module
+! Mass
+! Integrity
+! Power draw
+! Maximum active limpets
+|-
+| 3C || 10 t || 68 || 0.35 MW || 4
+|-
+| 3B || 15 t || 80 || 0.30 MW || 4
+|}
+
+The 3C variant is lighter. The 3B variant has greater integrity and slightly lower power draw, but adds five tonnes of mass. Both occupy a Class 3 optional compartment and provide the same four-limpet maximum.<ref name="edcd">EDCD, [https://raw.githubusercontent.com/EDCD/coriolis-data/6b26af015ebc270e935af3362fea48ad56056e59/modules/internal/multi_limpet_controllers.json Multi Limpet Controller data], commit pinned; accessed 23 September 2026.</ref><ref name="edsm">EDSM, [https://www.edsm.net/en/faq/outfitting/index/id/5/name/Optional+Internal/sub/Multi+Limpet+Controller Optional Internal — Multi Limpet Controller], accessed 23 September 2026.</ref>
+
+Maintained references show a 5,000-metre combined range and 300-second lifetime for both variants, but those summary values should not be applied to every programmed limpet without checking the selected function.<ref name="edwiki" /> The dedicated controller pages document their own targeting and performance rules.
+
+== Limpet programmes ==
+
+All three programmes use ordinary limpets carried in a [[Cargo Rack]]. The module programmes each limpet when it is launched.
+
+{| class="wikitable"
+! Programme
+! Direct purpose
+|-
+| [[Decontamination Limpet Controller|Decontamination]] || Removes caustic contamination and performs limited hull repair.
+|-
+| [[Repair Limpet Controller|Repair]] || Restores hull integrity on the launching ship or another valid ship.
+|-
+| [[Research Limpet Controller|Research]] || Extracts a tissue or biomatter sample from a supported alien vessel or spaceborne organism.
+|}
+
+Decontamination and repair limpets can be applied to the launching ship or to another valid ship. The research programme instead needs a supported target and returns a completed sample to the launching ship's cargo hold.<ref name="decon">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Decontamination_Limpet_Controller Decontamination Limpet Controller], accessed 23 September 2026.</ref><ref name="repair">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Repair_Limpet_Controller Repair Limpet Controller], accessed 23 September 2026.</ref><ref name="research">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Research_Limpet_Controller Research Limpet Controller], accessed 23 September 2026.</ref>
+
+Thargoid tissue samples are corrosive cargo. A [[Corrosion Resistant Cargo Rack]] protects the carrying ship while those samples remain aboard; ordinary cargo space is still required for both blank limpets and returned samples.
+
+== Shared active-limpet pool ==
+
+The four-limpet maximum is one shared pool. Two research limpets, one repair limpet, and one decontamination limpet fill the controller's capacity; the module does not provide four active limpets for each programme.<ref name="edcd" /><ref name="edwiki" />
+
+Each programme retains its own valid targets and operating behaviour. The Xeno controller does not make a research limpet repair hull, give every function the largest displayed range, or remove the need to carry limpets as cargo.
+
+== Fitting trade-offs ==
+
+The module's advantage is access to three xeno-support functions from one optional-internal slot. This suits a ship that needs occasional caustic removal, hull repair, and biological sampling without dedicating three compartments to separate controllers.
+
+The cost is a Class 3 compartment and either 10 or 15 tonnes of module mass. A ship built around one function can use a dedicated controller with different class, rating, mass, range, or output choices. The Xeno controller also has no collector programme, so it cannot recover free-floating materials or cargo.<ref name="roguey">Roguey, [https://roguey.co.uk/elite-dangerous/equipment/internal/xeno-multi-limpet-controller/ Xeno Multi Limpet Controller], accessed 23 September 2026.</ref>
+
+== Engineering and acquisition ==
+
+No Engineer blueprints or Experimental Effects are currently documented for the Xeno Multi Limpet Controller. Blueprints available for some dedicated limpet controllers should not be assumed to apply to it.<ref name="inara-blueprints">INARA, [https://inara.cz/elite/blueprints/#tab_blueprintsequipmentstandard Blueprints and upgrades — standard equipment], accessed 23 September 2026.</ref>
+
+The 3C and 3B variants are ordinary Outfitting purchases where stocked. Frontier's release notes introduced multi-limpet controllers through Outfitting, while EDSM's current module catalogue provides station-stock searches for both Xeno variants.<ref name="update9" /><ref name="edsm" />
+
+Frontier released the controller to Horizons PC and console commanders on 9 December 2021, before the Live and Legacy galaxies separated.<ref name="horizons9">Frontier Developments, [https://forums.frontier.co.uk/threads/elite-dangerous-horizons-only-pc-console-update-09-12-2021-notes.595181/ Elite Dangerous: Horizons Only PC & Console Update 09/12/2021 notes], 9 December 2021.</ref><ref name="modes">Frontier Developments, [https://www.elitedangerous.com/en-US/news/elite-dangerous-update-14-and-beyond-live-and-legacy-modes Elite Dangerous Update 14 and Beyond: Live and Legacy Modes], 23 November 2022.</ref> It therefore exists in both modes, although their outfitting markets and wider galaxy states are separate.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Decontamination Limpet Controller]] [[Repair Limpet Controller]] [[Research Limpet Controller]] [[Universal Multi Limpet Controller]] [[Cargo Rack]]}}
 
 [[Category:Modules]]
 [[Category:Ship modules]]

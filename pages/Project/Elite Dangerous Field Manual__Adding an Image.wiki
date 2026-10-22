@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Elite Dangerous Field Manual:Adding an Image
 Namespace: 4
 Page ID: 210
-Revision ID: 2910
-Timestamp: 2026-09-02T13:50:21Z
+Revision ID: 5808
+Timestamp: 2026-10-01T13:44:29Z
 Source URL: https://edfieldmanual.com/wiki/Elite_Dangerous_Field_Manual:Adding_an_Image
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -12,7 +12,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 How to add a screenshot or original image to an EDFM article.
 
 == Current access ==
-Uploads are enabled for all registered accounts (PNG/JPEG/WebP, up to 30&nbsp;MB — see [[Elite Dangerous Field Manual:Screenshot Policy]] for the full rules). Create an account (see [[Special:CreateAccount]]) and use [[Special:Upload]] directly.
+Uploads are enabled for all registered accounts (PNG/JPEG/WebP, up to 30&nbsp;MiB — see [[Elite Dangerous Field Manual:Screenshot Policy]] for the full rules). Create an account (see [[Special:CreateAccount]]) and use [[Special:Upload]] directly.
 
 == Before uploading ==
 Read [[Elite Dangerous Field Manual:Image Use Policy]] in full — in short: only your own original screenshots or diagrams (nothing copied from Fandom, Reddit, Discord, YouTube, other wikis, or "found on Google"), no third-party UI overlays or other players' identifying information without consent, and no synthetic or reconstructed images presented as real captures.
@@ -22,7 +22,7 @@ Go to <code>Special:Upload</code>. EDFM's upload form asks for what it can't saf
 
 # '''Choose the file.'''
 # '''Destination filename''' — a clear, descriptive name (it becomes the page title in the File namespace).
-# '''Media purpose''' — what kind of image this is: Engineer portrait, character portrait, ship image, module/equipment image, station/settlement/planet/system image, UI screenshot, gameplay screenshot, diagram/infographic, EDFM-created graphic, or other. This drives the description and categories EDFM generates below.
+# '''Media purpose''' — choose the closest broad description: Engineer portrait, Odyssey Engineer, Character portrait, Ship image, Surface vehicle image, Fleet Carrier image, Module / equipment image, Suit / weapon image, Exobiology image, Geological feature image, Guardian image, Thargoid image, Station / starport image, Settlement / facility image, Planet / moon image, System / location image, Point-of-interest image, UI screenshot, Gameplay screenshot, Diagram / infographic, EDFM-created graphic, Concept art, or Other. This drives the description and categories EDFM generates below.
 # '''Subject''' — the EDFM article this image is of, typed as plain text (e.g. <code>Hero Ferrari</code>, not <code><nowiki>[[Hero Ferrari]]</nowiki></code>) — start typing and existing page titles will autocomplete. Required for media purposes that have an obvious subject (a portrait, a ship, a specific location); optional for general gameplay screenshots, UI screenshots, and diagrams. If the subject doesn't yet have an EDFM article, it's still recorded, just as plain text rather than a link.
 # '''Subject type override''' — optional, and normally not needed. For an Engineer portrait, EDFM automatically works out "Ship Engineer" vs "Odyssey Engineer" from the subject's own article (its Engineering-type category) — only use this field if that inference is wrong or the subject's article doesn't exist yet.
 # '''Licensing''' — for an ordinary gameplay screenshot this is almost always "Elite Dangerous in-game screenshot." See the guidance on the upload page itself, or [[Elite Dangerous Field Manual:Image Use Policy]], for the other options. Your choice here also determines the <code>source</code>, <code>media_type</code>, and (where the license makes it clear) <code>copyright_holder</code> fields below — you don't need to re-enter information the license already establishes.
