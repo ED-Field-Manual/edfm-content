@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Ships
 Namespace: 0
 Page ID: 331
-Revision ID: 5212
-Timestamp: 2026-09-24T18:31:31Z
+Revision ID: 7490
+Timestamp: 2026-10-22T16:03:17Z
 Source URL: https://edfieldmanual.com/wiki/Ships
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -14,7 +14,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 
 '''Ships''' are the primary vessels flown by Commanders in [[Elite Dangerous]]. They range from small fighters and utility craft to large freighters, passenger liners, exploration vessels, and warships.
 
-There are currently '''48 independently operated starships''' in Live. Ships introduced after the Live and Legacy branches separated are marked '''Live only'''.<ref name="inara-ships">[https://inara.cz/elite/ships/ Ships], Inara.</ref><ref name="frontier-starships">[https://www.elitedangerous.com/equipment/starships Starships], Frontier Developments.</ref>
+There are currently '''49 independently operated starships''' in Live. Ships introduced after the Live and Legacy branches separated are marked '''Live only'''.<ref name="inara-ships">[https://inara.cz/elite/ships/ Ships], Inara.</ref><ref name="frontier-starships">[https://www.elitedangerous.com/equipment/starships Starships], Frontier Developments.</ref><ref name="frontier-anaconda-mk-ii">[https://www.elitedangerous.com/news/updates/4-4-2-0 Elite Dangerous: Anaconda Mk II Update], Frontier Developments, 20 October 2026.</ref>
 
 {{Field note|This directory covers ships that operate as a Commander's primary starship. [[Ship-Launched Craft]], including fighters and the [[Nomad]], [[Surface Recon Vehicles|SRVs]], [[Fleet Carriers]], megaships, and capital ships are separate vessel classes and are not included in the tables below.<ref name="frontier-nomad">[https://www.elitedangerous.com/news/nomad-available-now-arx-early-access Nomad — Available Now Via ARX Early Access], Frontier Developments.</ref>}}
 
@@ -47,20 +47,6 @@ The '''base hull price''' is the standard price of the stock ship itself. It doe
 {{Important|Some ships have additional purchase requirements, including [[Federal Navy]] or [[Imperial Navy]] rank, special account entitlements, or current-version ownership conditions. Those requirements are documented on the individual ship page rather than repeated throughout this directory.}}
 
 {{Field note|A higher hull price does not automatically make a ship better for a particular activity. Ship size, internal compartments, hardpoints, handling, jump capability, module compatibility, and intended build can matter far more than purchase price.}}
-
-== Announced ships ==
-
-Announced ships that are not yet available are listed separately and are not included in the current Live roster or landing-pad-size counts.
-
-{| class="wikitable"
-! Ship
-! Manufacturer
-! Announced availability
-|-
-| [[Anaconda Mk II]]
-| Faulcon deLacy
-| ARX Early Access in October 2026<ref name="frontier-september-2026">[https://www.elitedangerous.com/news/september-2026-dev-log-law-disorder-first-details-anaconda-mk-ii-revealed September 2026 Dev Log: Law & Disorder First Details & Anaconda Mk II Revealed], Frontier Developments, 24 September 2026.</ref>
-|}
 
 == Small ships ==
 
@@ -271,7 +257,7 @@ There are '''21 Medium ships''' in the current Live roster.<ref name="inara-ship
 
 == Large ships ==
 
-There are '''11 Large ships''' in the current Live roster.<ref name="inara-ships" />
+There are '''12 Large ships''' in the current Live roster.<ref name="inara-ships" /><ref name="frontier-anaconda-mk-ii" />
 
 {| class="wikitable sortable"
 ! Ship
@@ -283,6 +269,11 @@ There are '''11 Large ships''' in the current Live roster.<ref name="inara-ships
 | Faulcon deLacy
 | data-sort-value="146969450" | 146,969,450 CR
 | Live & Legacy
+|-
+| [[Anaconda Mk II]]
+| Faulcon deLacy
+| Not announced<ref name="frontier-anaconda-availability">[https://www.elitedangerous.com/news/galnet/faulcon-delacy-announces-anaconda-mk-ii Faulcon DeLacy Announces Anaconda Mk II], GalNet, Frontier Developments, 20 October 3312.</ref>
+| '''Live only''' — ARX Early Access
 |-
 | [[Beluga Liner]]
 | Saud Kruger

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Ships/index
 Namespace: 828
 Page ID: 731
-Revision ID: 2120
-Timestamp: 2026-08-24T21:58:10Z
+Revision ID: 7491
+Timestamp: 2026-10-22T16:03:19Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Ships/index
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -49,6 +49,7 @@ return {
 	"Type-8 Transporter",
 	"Type-11 Prospector",
 	"Anaconda",
+	"Anaconda Mk II",
 	"Beluga Liner",
 	"Caspian Explorer",
 	"Federal Corvette",

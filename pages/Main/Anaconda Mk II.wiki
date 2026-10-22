@@ -3,69 +3,243 @@ EDFM current-content archive export.
 Title: Anaconda Mk II
 Namespace: 0
 Page ID: 847
-Revision ID: 6380
-Timestamp: 2026-10-07T11:21:30Z
+Revision ID: 7492
+Timestamp: 2026-10-22T16:03:21Z
 Source URL: https://edfieldmanual.com/wiki/Anaconda_Mk_II
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 {{Article status
- |status=Upcoming Content
+ |status=Partially verified
  |mode=Live
- |version=Pre-release information announced 24 September 2026
- |reviewed=2026-09-24
+ |version=Elite Dangerous 4.4.2.0; ARX Early Access from 20 October 2026
+ |reviewed=2026-10-22
  |reviewer=Sythan
- |source_quality=Official Frontier September 2026 developer log and later official Elite Dangerous Discord clarification
- |uncertainty=Complete hardpoint layout, ship statistics, internals, price, and general credit availability have not been announced.
+ |source_quality=Official Frontier developer log, update notes, early-access announcement, store specifications, Community Goals, and GalNet; The Buur Pit partner preview for utility mounts and the limited boarding area
+ |uncertainty=Frontier has not announced the date or credit price for wider shipyard availability. Eight utility mounts and the boarding-area details are documented by The Buur Pit's partner preview rather than Frontier's written specifications.
 }}
 
-{{Article header|deck=An upcoming Faulcon DeLacy starship with a redesigned hull, native Supercruise Overcharge support, and a distinct weapon layout.}}
+{{Article header|deck=A large Faulcon DeLacy multirole ship with an SCO-optimised Frame Shift Drive, broad Mk II module support, and substantial cargo capacity.}}
 
 {{Ship infobox}}
 
-The '''Anaconda Mk II''' is an upcoming [[Ships|starship]] manufactured by Faulcon DeLacy. Frontier describes it as a new vessel rather than a visual replacement for the original Anaconda, with a redesigned hull, improved cockpit visibility, native Supercruise Overcharge compatibility, and its own weapon arrangement.<ref name="frontier-september-dev-log">[https://www.elitedangerous.com/news/september-2026-dev-log-law-disorder-first-details-anaconda-mk-ii-revealed September 2026 Dev Log: Law & Disorder First Details & Anaconda Mk II Revealed], Frontier Developments, 24 September 2026.</ref>
+The '''Anaconda Mk II''' is a large [[Ships|starship]] manufactured by Faulcon DeLacy. It is a modern multirole successor to the Anaconda, intended to remain credible in trading, mining, combat, and exploration without replacing a dedicated specialist in any one role.<ref name="frontierOctoberDevLog">[https://www.elitedangerous.com/news/elite-dangerous-october-dev-log-2026-law-disorder Elite Dangerous: October Dev Log 2026 — Law & Disorder], Frontier Developments, 14 October 2026.</ref><ref name="frontierGalnetLaunch">[https://www.elitedangerous.com/news/galnet/faulcon-delacy-announces-anaconda-mk-ii Faulcon DeLacy Announces Anaconda Mk II], GalNet, Frontier Developments, 20 October 3312.</ref>
 
-== Confirmed specifications ==
+The ship entered Live in update 4.4.2.0 on '''20 October 2026''' and is currently available through ARX Early Access.<ref name="frontierUpdate4420">[https://www.elitedangerous.com/news/updates/4-4-2-0 Elite Dangerous: Anaconda Mk II Update], Frontier Developments, 20 October 2026.</ref><ref name="frontierEarlyAccess">[https://www.elitedangerous.com/news/anaconda-mk-ii-available-now-arx-early-access Anaconda Mk II — Available Now Via ARX Early Access], Frontier Developments, 20 October 2026.</ref>
 
-{| class="wikitable" style="width:70%;"
+{{Important|The Anaconda Mk II is live, but it has not yet entered general shipyard sale for credits. Frontier has not announced the wider-release date or credit price.}}
+
+== Official specifications ==
+
+Frontier's store lists the following base specifications.<ref name="frontierStore">[https://www.elitedangerous.com/store/ships/anaconda-mk-ii Anaconda Mk II], Elite Gamestore, Frontier Developments. Accessed 22 October 2026.</ref>
+
+{| class="wikitable"
 ! Attribute
-! Confirmed information
+! Official base specification
 |-
-| Manufacturer
-| Faulcon DeLacy<ref name="frontier-september-dev-log" />
+| Landing pad
+| Large
 |-
-| Release status
-| ARX Early Access scheduled for October 2026<ref name="frontier-september-dev-log" />
+| Fighter bay
+| Yes
 |-
-| Supercruise Overcharge
-| Compatible<ref name="frontier-september-dev-log" />
+| Multicrew seats
+| 3 additional seats
 |-
-| Confirmed hardpoints
-| 4 Large; 1 Huge<ref name="frontier-hardpoint-clarification">Official Elite Dangerous / Frontier Discord clarification, 24 September 2026.</ref>
+| Top speed
+| 185 m/s
+|-
+| Boost speed
+| 243 m/s
+|-
+| Manoeuvrability
+| 2 / 10
+|-
+| Laden jump range
+| 17.88 ly
+|-
+| Unladen jump range
+| 20.48 ly
+|-
+| Shields
+| 403
+|-
+| Armour
+| 1,341
+|-
+| Mass
+| 940 t
+|-
+| Cargo capacity
+| 208 t in the store configuration; up to 750 t when configured for maximum cargo<ref name="frontierOctoberDevLog" />
+|-
+| Dimensions
+| 167.9 m long × 74.2 m wide × 27.3 m high
 |}
 
-Frontier has not stated whether the four Large and one Huge hardpoints form the ship's complete hardpoint inventory.
+== Slots and hardpoints ==
 
-{{Important|The Anaconda Mk II announcement does '''not''' introduce a Size 5 or Extra Large weapon class. Frontier's current Dev Log describes the new forward-deploying mount as a '''Large hardpoint'''; the later official Discord clarification confirms four Large hardpoints and one Huge hardpoint.<ref name="frontier-september-dev-log" /><ref name="frontier-hardpoint-clarification" />}}
+Frontier published the ship's core, optional-internal, and hardpoint layout before release.<ref name="frontierOctoberDevLog" />
 
-== Design ==
+=== Core internals ===
 
-The Mk II returns to the broad rear profile and dart-like shape associated with earlier Anaconda designs, then flattens and lengthens the silhouette. Its rear section carries large engines with the vectoring flaps used across Faulcon DeLacy's current design language.<ref name="frontier-september-dev-log" />
+{| class="wikitable"
+! Module
+! Size
+|-
+| Power Plant
+| 8
+|-
+| Thrusters
+| 7
+|-
+| Frame Shift Drive
+| 8
+|-
+| Life Support
+| 5
+|-
+| Power Distributor
+| 8
+|-
+| Sensors
+| 8
+|}
 
-The cockpit sits above the main hull in a conning-tower-like position. This preserves the ship's long nose while improving the pilot's view. A trench along the upper hull and cut-away sections of the nose form two forward prongs and provide space for a centreline, forward-deploying Large hardpoint.<ref name="frontier-september-dev-log" />
+=== Optional internals ===
 
-These changes distinguish the Anaconda Mk II from the original hull without establishing its performance or role. Frontier has not yet published its mass, speed, jump range, armour, shields, cargo capacity, utility mounts, internal compartments, crew capacity, or complete weapon layout.
+{| class="wikitable"
+! Size
+! Number of slots
+! Restrictions
+|-
+| 1
+| 1
+| —
+|-
+| 2
+| 1
+| —
+|-
+| 3
+| 1
+| —
+|-
+| 4
+| 2
+| —
+|-
+| 5
+| 5
+| 2 are military slots
+|-
+| 6
+| 1
+| Cargo-restricted
+|-
+| 7
+| 2
+| —
+|-
+| 8
+| 1
+| —
+|}
+
+=== Hardpoints and utility mounts ===
+
+{| class="wikitable"
+! Mount
+! Layout
+! Source
+|-
+| Hardpoints
+| 2 Small; 4 Large; 1 Huge
+| Frontier's October developer log<ref name="frontierOctoberDevLog" />
+|-
+| Utility mounts
+| 8
+| The Buur Pit partner preview<ref name="buurPreview">The Buur Pit, [https://www.youtube.com/watch?v=aVNiUiWb5ZA Anaconda Mk II: Partial Interior Revealed! Full Specs & Modules], YouTube, 16 October 2026.</ref>
+|}
+
+== Mk II module compatibility ==
+
+The hull supports several modules and mounting options introduced for the current generation of ships:<ref name="frontierOctoberDevLog" /><ref name="frontierUpdate4420" />
+
+* '''[[Armour|Mk II Ablative Armour]]''' can be fitted to strengthen the ship's defences.
+* The cargo-restricted Size 6 optional internal can carry a '''[[Cargo Rack|Mk II Optimised Cargo Rack]]'''.
+* Two hardpoints support the '''Mk II Mining Optimised''' mounting used with the '''[[Mining Laser|Mk II Mining Volley Repeater]]'''.
+* The Size 8 [[Frame Shift Drive]] is SCO-optimised for native Supercruise Overcharge operation.<ref name="frontierGalnetLaunch" />
+
+These options support the ship's general-purpose design rather than committing the hull to a single activity.
+
+== Design and boarding area ==
+
+The Mk II uses a redesigned hull with improved cockpit visibility. Its broad rear body, flattened silhouette, raised cockpit, upper-hull trench, and divided nose retain recognisable Anaconda features while giving the ship a distinct profile.<ref name="frontierSeptemberDevLog">[https://www.elitedangerous.com/news/september-2026-dev-log-law-disorder-first-details-anaconda-mk-ii-revealed September 2026 Dev Log: Law & Disorder First Details & Anaconda Mk II Revealed], Frontier Developments, 24 September 2026.</ref><ref name="frontierEarlyAccess" />
+
+The Buur Pit's 16 October partner preview showed a wide boarding ramp opening into an enclosed lobby-like entry area, including a window looking out from inside the vessel. A door then transitions to the bridge through a fade.<ref name="buurPreview" /> Frontier's store also lists Cargo, Expedition, and Biological internal kit packs for this area.<ref name="frontierStore" />
+
+{{Important|The partner preview demonstrates a limited boarding and entry area on the Anaconda Mk II. It does not establish unrestricted walkable ship interiors elsewhere in the vessel or across ''Elite Dangerous''.}}
 
 == Availability ==
 
-The Anaconda Mk II is scheduled to enter ARX Early Access in October 2026.<ref name="frontier-september-dev-log" /> Frontier has not announced an exact release day, ARX price, credit price, or date for general credit availability.
+The Anaconda Mk II is sold through three ARX Early Access packages.<ref name="frontierUpdate4420" /><ref name="frontierEarlyAccess" />
+
+{| class="wikitable"
+! Edition
+! Price
+|-
+| Standard
+| 19,020 ARX
+|-
+| Stellar
+| 38,000 ARX
+|-
+| Galactic
+| 69,000 ARX
+|}
+
+Frontier states that the ship will later transition to wider shipyard availability, but the date and credit hull price remain unannounced.<ref name="frontierGalnetLaunch" />
+
+== Field trials ==
+
+Four Faulcon DeLacy initiatives are active from '''22 October to 29 October 2026''', covering exploration, mining, trade, and combat. Commanders may use '''any ship'''; owning or flying an Anaconda Mk II is not required.<ref name="frontierFieldTrials">[https://www.elitedangerous.com/news/galnet/faulcon-delacy-plans-anaconda-mk-ii-field-trials Faulcon DeLacy Plans Anaconda Mk II Field Trials], GalNet, Frontier Developments, 22 October 3312.</ref><ref name="frontierCommunityGoals">[https://www.elitedangerous.com/community/goals Community Goals], Frontier Developments. Accessed 22 October 2026.</ref>
+
+{| class="wikitable"
+! Initiative
+! Register at
+! Contribution
+! Event modifier
+|-
+| Exploration
+| The Magrathea II, HD 232819
+| Sell Elysian Shore system and planetary scan data to Universal Cartographics at The Magrathea II
+| 1.5× exploration-data value
+|-
+| Mining
+| Davies High, Reorte
+| Mine platinum, painite, or osmium and sell it at Davies High
+| 6× sale value
+|-
+| Trade
+| Homer Platform, AD Leonis
+| Deliver uranium, coffee, polymers, and liquid oxygen
+| 8× sale value
+|-
+| Combat
+| Bowen Dock, HR 8061
+| Accept any Combat mission from a Mission Board within 25 ly, then complete and hand it in; contribution uses the mission's highest possible credit reward regardless of the reward selected
+| Contribution based on the highest available mission credit reward
+|}
+
+Recording at least one contribution in an individual initiative awards a Faulcon DeLacy decal, the Anaconda Mk II Faulcon Red paint job, and credits based on the initiative's success tier and the Commander's contribution. Recording at least one contribution in '''all four''' initiatives also awards a golden Faulcon DeLacy decal.<ref name="frontierCommunityGoals" />
 
 == References ==
 
 <references />
 
 {{Related articles
- |1=[[Ships]] [[Ships and Equipment]]
+ |1=[[Ships]] [[Ships and Equipment]] [[Mining]] [[Trade]] [[Combat]]
 }}
 
 [[Category:Ships]]

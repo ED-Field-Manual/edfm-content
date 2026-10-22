@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Operations
 Namespace: 0
 Page ID: 61
-Revision ID: 6132
-Timestamp: 2026-10-04T15:56:28Z
+Revision ID: 7495
+Timestamp: 2026-10-22T16:03:29Z
 Source URL: https://edfieldmanual.com/wiki/Operations
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -14,11 +14,11 @@ This is current wikitext only; no revision history, user database, logs, deleted
 {{Article status
 | status = Partially verified
 | mode = Live
-| version = Current Live through update 4.4.1.1
-| reviewed = 2026-10-04
+| version = Current Live through update 4.4.2.0
+| reviewed = 2026-10-22
 | reviewer = Sythan
-| source_quality = Access, scenarios, modes, redeployment, and rewards are documented in Frontier's 2026 release notes and developer logs.
-| uncertainty = Operations remains a live-service feature with balance and networking adjustments. Scenario availability and rewards can change.
+| source_quality = Access, scenarios, modes, redeployment, rewards, Found Adrift, and the current cutting-tool change are documented in Frontier's 2026 release notes and developer logs.
+| uncertainty = Operations remains in Frontier's live Networking & Balancing Beta. Server behaviour, balance, scenario availability, and rewards can change.
 }}
 
 '''Operations''' are multi-stage, instanced scenarios introduced to the Live game in update 4.4.0.0 on 30 June 2026. They combine ship and on-foot objectives, squad formation, matchmaking, an Operation Runner deployment vessel, selectable difficulty, and a dedicated reward system.<ref name="operations4400">[https://www.elitedangerous.com/news/updates/4-4-0-0 Elite Dangerous: Operations – Available Now], Frontier Developments, 30 June 2026.</ref>
@@ -31,6 +31,9 @@ Operations are not ordinary [[Missions|Mission Board missions]]. They also shoul
 |-
 | Availability
 | Elite Dangerous Live with the Odyssey expansion
+|-
+| Feature stage
+| Networking & Balancing Beta in the Live game
 |-
 | Start point
 | Ship panel while docked at a Starport, Outpost, Fleet Carrier, Squadron Carrier, or market-enabled Planetport
@@ -53,6 +56,8 @@ Operations are not ordinary [[Missions|Mission Board missions]]. They also shoul
 | Deployment
 | Operation Runner and operation-specific instances
 |}
+
+Frontier launched Operations as a '''Networking & Balancing Beta''' so it could monitor connectivity and server load in the live environment while making performance and balance adjustments more frequently. Frontier continued to use that framing when update 4.4.2.0 and Found Adrift were released.<ref name="operations4400" /><ref name="anacondaupdateforum">[https://forums.frontier.co.uk/threads/elite-dangerous-anaconda-mk-ii-update.650380/ Elite Dangerous: Anaconda Mk II Update], Frontier Developments, 20 October 2026.</ref>
 
 == Starting an Operation ==
 
@@ -93,7 +98,7 @@ Powerplay eligibility and the target Power should be checked before launch; ordi
 
 == Scenarios ==
 
-Six Operations launched with update 4.4.0.0:<ref name="operations4400" />
+Eight Operations are available through update 4.4.2.0. Six launched with update 4.4.0.0:<ref name="operations4400" />
 
 * '''Terminal Prosecution''' — clear a criminal force through combat stages.
 * '''Tactical Takedown''' — board a compromised megaship, obtain intelligence, and pursue the responsible commander.
@@ -103,6 +108,10 @@ Six Operations launched with update 4.4.0.0:<ref name="operations4400" />
 * '''Biohazard Takedown''' — assault a research operation, identify responsible researchers, and eliminate the threat.
 
 '''Under Siege''' was added for all players on 2 September 2026. It responds to a planetary-settlement distress call, combining ship combat to break a blockade with on-foot combat to retake the facility and a later ship threat.<ref name="auglog">[https://www.elitedangerous.com/news/elite-dangerous-august-dev-log-2026 Elite Dangerous: August Dev Log 2026], Frontier Developments, 27 August 2026.</ref>
+
+'''Found Adrift''' was added on 20 October 2026 with update 4.4.2.0. Commanders investigate a long-missing megaship that has reappeared without communications, enter its damaged interior, locate a vault, recover a high-value asset, and fight rival scavengers during the extraction.<ref name="octlog">[https://www.elitedangerous.com/news/elite-dangerous-october-dev-log-2026-law-disorder Elite Dangerous: October Dev Log 2026 | Law & Disorder], Frontier Developments, 14 October 2026.</ref><ref name="update4420">[https://www.elitedangerous.com/news/updates/4-4-2-0 Elite Dangerous: Anaconda Mk II Update 4.4.2.0], Frontier Developments, 20 October 2026.</ref>
+
+Update 4.4.2.0 also improved the cutting tool's tracking.<ref name="update4420" />
 
 Scenario names and individual stage details should be taken from the current interface because Operations is still receiving new content and balance updates.
 
@@ -140,7 +149,7 @@ See [[Merc Coin]] for the current acquisition and vendor details.
 
 Operations are staged activities rather than contracts that end at the first death. Redeployment returns the commander to the scenario as described above. A stage can still fail through its own objective, timer, or scenario conditions, and the squad should follow the current objective panel rather than assuming unlimited recovery makes every state reversible.
 
-Update 4.4.0.3 corrected reward-screen and objective-tracking problems, while 4.4.1.0 and 4.4.1.1 continued Operations fixes. These updates reinforce that older launch-day reports may not describe current behaviour.<ref name="update4403">[https://www.elitedangerous.com/update-notes/4-4-0-3 Elite Dangerous 4.4.0.3 Update Notes], Frontier Developments, 9 July 2026.</ref>
+Update 4.4.0.3 corrected reward-screen and objective-tracking problems, while 4.4.1.0 and 4.4.1.1 continued Operations fixes. Update 4.4.2.0 fixed the missing final on-foot enemy wave in Reclamation Point. These updates reinforce that older launch-day reports may not describe current behaviour.<ref name="update4403">[https://www.elitedangerous.com/update-notes/4-4-0-3 Elite Dangerous 4.4.0.3 Update Notes], Frontier Developments, 9 July 2026.</ref><ref name="update4420" />
 
 == Relationship to missions and BGS ==
 

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: EVE-597
 Namespace: 0
 Page ID: 840
-Revision ID: 6481
-Timestamp: 2026-10-08T17:07:07Z
+Revision ID: 7496
+Timestamp: 2026-10-22T16:03:31Z
 Source URL: https://edfieldmanual.com/wiki/EVE-597
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -12,16 +12,18 @@ This is current wikitext only; no revision history, user database, logs, deleted
 {{Article status
  |status=Partially verified
  |mode=Historical
- |version=Community Goal concluded 8 October 3312 at Tier 2 of 5
- |reviewed=2026-10-08
+ |version=Community Goal and official aftermath through 13 October 3312
+ |reviewed=2026-10-22
  |reviewer=Sythan
- |source_quality=Official Frontier GalNet reports for the prison ship timeline and breakout; Inara for the completed Community Goal result, contribution thresholds and credit rewards; EDSM for current station and faction data; Canonn for ship-class and route context; The Buur Pit / Witchspace News for community-reported participation behavior
- |uncertainty=Frontier has not announced the narrative aftermath of the campaign, the completed Inara listing does not explain paint-job eligibility, and on-foot Combat Bond eligibility is community-reported rather than officially documented.
+ |source_quality=Official Frontier GalNet reports for the prison ship timeline, breakout, restoration of Foundation control, investigation, and missing fugitives; Inara for the completed Community Goal result, contribution thresholds, and credit rewards; EDSM for station and faction snapshots; Canonn for ship-class and route context; The Buur Pit / Witchspace News for community-reported participation behaviour.
+ |uncertainty=The whereabouts of the three missing prisoners remain unknown. The completed Inara listing does not explain paint-job eligibility, and on-foot Combat Bond eligibility is community-reported rather than officially documented.
 }}
-{{Article header|deck=A Riker-class prison ship at the centre of a mass breakout and a concluded combat campaign in Redonesses.}}
+{{Article header|deck=A Riker-class prison ship at the centre of a mass breakout, a concluded combat campaign, and an unresolved fugitive hunt in Redonesses.}}
 
 {{Callout|type=info|label=Campaign concluded|1=
 '''Defeat Criminal Pilots in Redonesses''' ended on '''8 October 3312''' at '''Tier 2 of 5'''. Inara recorded '''8,849 contributors''' and '''116,350,734,905 credits in Combat Bonds'''. The campaign no longer accepts registration or contributions.<ref name="inara-cg">[https://inara.cz/elite/communitygoals/s/ Defeat Criminal Pilots in Redonesses], Inara. Completed campaign listing accessed 8 October 2026.</ref>
+
+EVE-597 was returned to Independent Detention Foundation control. Most escaped prisoners were recovered, but three maximum-security pirate leaders remained missing as of 13 October 3312.<ref name="frontier-subdued">[https://www.elitedangerous.com/news/galnet/prison-ship-break-subdued-in-redonesses Prison Ship Break Subdued in Redonesses], GalNet, Frontier Developments, 8 October 3312.</ref><ref name="frontier-fugitives">[https://www.elitedangerous.com/news/galnet/three-prisoners-missing-following-recent-breakout Three Prisoners Missing Following Recent Breakout], GalNet, Frontier Developments, 13 October 3312.</ref>
 }}
 
 '''EVE-597''' is a Riker-class prison ship operated by the Independent Detention Foundation. It normally follows a repeating route through '''Nones''', '''Gliese 506.2''', '''Evenses''' and '''Chematja'''.<ref name="frontier-missing">[https://www.elitedangerous.com/news/galnet/prison-ship-reported-missing-after-failing-scheduled-transit Prison Ship Reported Missing After Failing Scheduled Transit], GalNet, Frontier Developments, 17 September 3312. Accessed 1 October 2026.</ref><ref name="canonn-riker">[https://canonn.science/codex/riker-class-prison-ship Riker-class Reformatory], Canonn Research Group. Accessed 1 October 2026.</ref>
@@ -30,7 +32,7 @@ The vessel failed to arrive at Gliese 506.2 after leaving Nones. Commanders loca
 
 On 1 October 3312, the Independent Detention Foundation admitted that a major breakout had taken place. Prisoners controlling EVE-597 launched escape pods, while the Clan of Redonesses attempted to prevent their recapture. The Foundation then opened a combat campaign calling for independent pilots to suppress those criminal forces.<ref name="frontier-breakout">[https://www.elitedangerous.com/news/galnet/mass-prison-breakout-reported-at-eve-597-reformatory Mass Prison Breakout Reported at EVE-597 Reformatory], GalNet, Frontier Developments, 1 October 3312. Accessed 1 October 2026.</ref>
 
-== Campaign outcome ==
+== Campaign outcome and aftermath ==
 
 Inara recorded the campaign as finished on 8 October 3312. It reached Tier 2 of 5 with 116,350,734,905 credits in Combat Bonds submitted by 8,849 commanders.<ref name="inara-cg" />
 
@@ -48,7 +50,13 @@ Inara recorded the campaign as finished on 8 October 3312. It reached Tier 2 of 
 | Top 100% || 1–1,095,852 || 70,000,000 Cr
 |}
 
-The completed listing also displays Mamba and Vulture Crossfire Blue paint jobs, but does not state which contribution brackets qualify for them. Frontier has not yet published a narrative follow-up explaining the effect of the campaign on the escaped prisoners or EVE-597.<ref name="inara-cg" />
+The completed listing also displays Mamba and Vulture Crossfire Blue paint jobs, but does not state which contribution brackets qualify for them.<ref name="inara-cg" />
+
+On 8 October, GalNet reported that EVE-597 was back under Independent Detention Foundation control. All convicts still aboard had been secured, and local security reported that the vast majority of prisoners who escaped in pods had been recovered and returned to custody.<ref name="frontier-subdued" />
+
+The Wallglass Investigations Agency was appointed to establish how the prisoners breached their cells in such numbers. Partial telemetry recovered from the ship's communications array indicated that the breakout had been coordinated with support from inside EVE-597. Investigators had not established whether security data was disclosed to an outside party. The Foundation said the prison ship would resume its normal jump itinerary as soon as possible.<ref name="frontier-subdued" />
+
+On 13 October, the Foundation confirmed that three maximum-security prisoners had evaded recapture: '''Gunther Bernhardt''', '''Yaz Murano''', and '''Trey Coombes'''. All three were identified as high-ranking pirate leaders convicted of repeated large-scale criminal activity. Investigators concluded that the wider uprising had served as cover for their planned extraction, but their whereabouts remained unknown.<ref name="frontier-fugitives" />
 
 == Campaign hub ==
 
@@ -105,7 +113,9 @@ The unusual alignment is consistent with Frontier's account: prisoners had taken
 |-
 | 1 October 3312 || The Foundation admitted that prisoners had taken control of the ship and escaped by pod. A one-week combat campaign began against the criminal forces helping them evade recapture.<ref name="frontier-breakout" /><ref name="inara-cg" />
 |-
-| 8 October 3312 || The combat campaign ended at Tier 2 of 5 after 8,849 commanders submitted 116,350,734,905 credits in Combat Bonds. Frontier had not announced the incident's narrative aftermath at the time of this update.<ref name="inara-cg" />
+| 8 October 3312 || The combat campaign ended at Tier 2 of 5 after 8,849 commanders submitted 116,350,734,905 credits in Combat Bonds. EVE-597 returned to Foundation control, all convicts still aboard were secured, and most escapees were recovered. Wallglass opened an investigation after telemetry indicated that the breakout had internal support; the Foundation intended to resume the ship's normal itinerary as soon as possible.<ref name="inara-cg" /><ref name="frontier-subdued" />
+|-
+| 13 October 3312 || The Foundation confirmed that Gunther Bernhardt, Yaz Murano, and Trey Coombes remained missing. Investigators identified the three maximum-security prisoners as high-ranking pirate leaders and concluded that the uprising had covered their planned extraction.<ref name="frontier-fugitives" />
 |}
 
 == References ==

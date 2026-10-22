@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Law & Disorder
 Namespace: 0
 Page ID: 848
-Revision ID: 6385
-Timestamp: 2026-10-07T11:21:48Z
+Revision ID: 7493
+Timestamp: 2026-10-22T16:03:24Z
 Source URL: https://edfieldmanual.com/wiki/Law_%26_Disorder
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -14,71 +14,109 @@ This is current wikitext only; no revision history, user database, logs, deleted
 {{Article status
  |status=Upcoming Content
  |mode=Live
- |version=Announced for December 2026
- |reviewed=2026-09-24
+ |version=Free update announced for December 2026
+ |reviewed=2026-10-22
  |reviewer=Sythan
- |source_quality=Official Frontier September 2026 developer log
- |uncertainty=The exact release day, mechanical thresholds, penalties, new modules, and detailed rules have not been announced.
+ |source_quality=Official Frontier September and October 2026 developer logs
+ |uncertainty=The exact release date, numerical tier thresholds, bounty values, response timings, new-module specifications, and several detailed rules remain unannounced.
 }}
 
+'''Law & Disorder''' is an upcoming free major update for ''Elite Dangerous'', announced by Frontier Developments on 24 September 2026 and scheduled to launch in December 2026. It is a broad rework of crime detection, fines and bounties, piracy, smuggling, bounty hunting, PvP enforcement, criminally controlled systems, and related Powerplay rules.<ref name="frontier-september-dev-log">[https://www.elitedangerous.com/news/september-2026-dev-log-law-disorder-first-details-anaconda-mk-ii-revealed September 2026 Dev Log: Law & Disorder First Details & Anaconda Mk II Revealed], Frontier Developments, 24 September 2026.</ref><ref name="frontier-october-dev-log">[https://www.elitedangerous.com/news/elite-dangerous-october-dev-log-2026-law-disorder Elite Dangerous: October Dev Log 2026 — Law & Disorder], Frontier Developments, 14 October 2026.</ref>
 
-'''Law & Disorder''' is an upcoming free major update for ''Elite Dangerous'', announced by Frontier Developments on 24 September 2026 and scheduled for December 2026. It is intended to make criminal activity a more viable way to earn credits while giving unlawful actions clearer, deeper consequences and connecting outlaws, authorities, and bounty hunters more closely.<ref name="frontier-september-dev-log">[https://www.elitedangerous.com/news/september-2026-dev-log-law-disorder-first-details-anaconda-mk-ii-revealed September 2026 Dev Log: Law & Disorder First Details & Anaconda Mk II Revealed], Frontier Developments, 24 September 2026.</ref>
-
-{{Important|Law & Disorder is not yet live. [[Combat]], [[Trade]], and [[Background Simulation]] continue to describe the game's current mechanics; the sections below cover Frontier's announced direction for the December update.}}
+{{Important|Law & Disorder is '''not yet live'''. [[Combat]], [[Trade]], [[Background Simulation]], and the [[Kill Warrant Scanner]] page continue to describe current gameplay. The mechanics below are Frontier's announced design for the free December 2026 update.}}
 
 == Purpose and scope ==
 
-The update revisits the existing crime and punishment system for Commanders on both sides of the law. Frontier's stated goals are to make lawful and unlawful opportunities more rewarding, understandable, and interconnected, while reducing frustration from accidental offences and making authority responses better match the actions that were reported.<ref name="frontier-september-dev-log" />
+Frontier intends to make criminal careers more viable while replacing the current assumption that every offence is reported instantly. The rework distinguishes an observed offence from one confirmed by an authority, gives pirates and smugglers more direct tools, makes minor penalties less destructive, and creates clearer escalation for serious or repeated crime.<ref name="frontier-october-dev-log" />
 
-The first announcement identifies piracy, smuggling, bounty hunting, fines and bounties, PvP crime, and Anarchy systems as affected areas. It does not provide complete rules for any of them.
+== Crime detection and unconfirmed bounties ==
 
-== Announced changes ==
+A crime will need to be '''observed''' and then '''confirmed''' by an authority before it becomes part of the Commander's permanent criminal record. Committing a reportable crime first creates an '''Unconfirmed Bounty''' (UCB). Other actors in the instance may legally attack the UCB carrier, and destroying that Commander pays the UCB as a bounty.<ref name="frontier-october-dev-log" />
 
-=== Visibility and reporting ===
+Generating a UCB in space alerts the system authorities. The strength of the response and its arrival time will depend on the system's security level. An authority-vessel or Omnipol scan confirms the offence in space; while on foot, being radioed out performs the equivalent confirmation. The UCB then becomes a regular bounty. Escaping the scene before confirmation clears the UCB instead of adding it permanently to the Commander's record.<ref name="frontier-october-dev-log" />
 
-PvE and PvP crime will use different systems, and the visibility of an action will matter. Frontier's example describes eliminating the sole remaining occupant of a settlement: with nobody left to report the crime, the action remains unreported and the Commander's identity unknown.<ref name="frontier-september-dev-log" />
+Theft at settlements will use the same emphasis on observation. Most items will be marked stolen only when somebody sees them being taken. Important property that clearly belongs to the settlement can still be identified as stolen during a scan.<ref name="frontier-october-dev-log" />
 
-This establishes the intended relationship between visible actions, reporting, and identification. Frontier has not announced detection ranges, witness behaviour, reporting delays, or rules for removing witnesses.
+Criminal records will belong to the '''Commander''', not to a ship or its fitted modules. Ship notoriety is a separate piracy-related mechanic described below.<ref name="frontier-october-dev-log" />
 
-=== Repeated crime and criminal attention ===
+== Scanning, targeting, and port access ==
 
-Repeated visible crimes committed in the same ship are planned to attract increasing attention from authorities. Frontier also alluded to a broker who may be able to make a criminal disappear again, but did not describe the service or its requirements.<ref name="frontier-september-dev-log" />
+The [[Kill Warrant Scanner]] will be '''removed''' when Law & Disorder launches. Frontier plans to move the information needed for legal engagement into passive and targeted ship scanning:<ref name="frontier-october-dev-log" />
 
-No thresholds, duration, escalation levels, ship-transfer rules, or broker costs have been published.
+* Entering an instance will passively reveal nearby ships' names, IDs, factions, Power affiliations, and UCBs.
+* A normal targeted scan will reveal the pilot's identity and legal status.
+* When a targeted scan identifies a criminal, that result will be broadcast to nearby vessels so they may legally engage.
+* Scanning a wanted target will expose the Commander's relevant crimes so their aggregated bounty value can be claimed together.
 
-=== Piracy and smuggling ===
+Anonymous starport access will also be removed. A port that detects a wanted Commander will refuse landing permission or cancel an existing request. A Commander who reaches the port without being detected will be able to use its services normally. Committing a crime inside the no-fire zone will immediately reveal the criminal to the station and block or cancel docking.<ref name="frontier-october-dev-log" />
 
-Piracy and smuggling are being re-evaluated so criminal activity has a more meaningful effect on the surrounding world while carrying greater risk. Frontier presents both as potential profit-making paths, including smuggling high-value contraband through hostile territory.<ref name="frontier-september-dev-log" />
+== Five criminal tiers and minor offences ==
 
-The announcement does not specify changes to interdiction, manifest scanning, hatch breaking, stolen cargo, black markets, cargo legality, or smuggling rewards.
+The general crime system will use '''five escalating tiers'''. Low-level offences will generate fines and occupy the lowest tiers, while higher tiers produce stronger authority responses.<ref name="frontier-october-dev-log" />
 
-=== Bounty hunting and enforcement ===
+Several incidental offences are being changed so the response better matches the risk:
 
-Bounty hunters, authorities, and other interested parties will have roles within the wider system. Tracking high-value targets is one of the lawful opportunities Frontier associates with the update.<ref name="frontier-september-dev-log" />
+* Many fines can be paid immediately or when an authority demands payment.
+* Pad loitering will prompt station traffic control to take control and move the ship instead of immediately escalating to destruction.
+* Deploying weapons, or firing without hitting anything, inside a no-fire zone will first produce a warning. Continued firing will produce fines.
+* An unpaid fine will no longer become a bounty merely because time has passed.
 
-Target generation, pursuit tools, payout rules, jurisdiction checks, and any new bounty-hunting equipment remain unannounced.
+Accumulated fines can still push a Commander into a higher tier. At intermediate levels, authorities may demand payment and become hostile if the Commander refuses. At the highest levels, authorities can skip the demand and attack on sight.<ref name="frontier-october-dev-log" />
 
-=== Minor offences, fines, and bounties ===
+== Pilots Federation and PvP crime ==
 
-Frontier intends to reduce friction around incidental crimes and make punishment proportionate to the offence. Commanders are expected to receive a clearer view of their crime level and the jurisdictions in which they are considered criminals, together with more accessible ways to clear fines and bounties according to severity.<ref name="frontier-september-dev-log" />
+Crimes committed against other Commanders will use a separate '''Pilots Federation''' tier system rather than the ordinary PvE tiers. Frontier says the enforcement response will be severe, will involve Advanced Tactical Response, and will make clearing PvP bounties expensive. Penalties are intended to scale with the difference in skill and ship power between the attacker and victim.<ref name="frontier-october-dev-log" />
 
-The announcement does not define offence tiers, payment restrictions, detention outcomes, or the conditions for clearing individual penalties.
+Crime reporting can still be disabled for consensual PvP, allowing Commanders to fight without generating these penalties.<ref name="frontier-october-dev-log" />
 
-=== PvP crime ===
+== Paying fines and bounties ==
 
-PvP crimes are planned to fall under the jurisdiction of the Pilot's Federation and to be handled separately from PvE crime. Frontier stated that this system would be covered in more detail in a later developer log.<ref name="frontier-september-dev-log" />
+The new interface is intended to show clearly where a Commander is wanted, the severity of the record, and where it can be cleared. Fines and ordinary bounties will be payable at any valid location rather than requiring travel to a port controlled by the faction that issued them.<ref name="frontier-october-dev-log" />
 
-No PvP penalties, exemptions, jurisdiction boundaries, or enforcement rules have yet been published.
+Crimes in the top two tiers cannot be cleared casually through an Administrative Contact. They require a '''Record Cleaner''' located at a criminally controlled port.<ref name="frontier-october-dev-log" />
 
-=== Anarchy systems ===
+== Notoriety ==
 
-The update is intended to mitigate the disappearance of Anarchy systems through a fundamental change in how forces in those systems behave. Frontier's goal is to restore pockets of space that provide a home for criminal activity and safe harbour for pirates.<ref name="frontier-september-dev-log" />
+The current Commander Notoriety system and its cooldown will be removed. Commanders will no longer need to wait for Notoriety to decay before paying off eligible crimes.<ref name="frontier-october-dev-log" />
 
-Frontier has not described the affected [[Background Simulation]] rules, faction protections, security response, markets, services, or system-state calculations.
+'''Notoriety''' will instead become a property of ships used for criminal activity. A notorious ship will attract more authority scans but will be more effective when intimidating piracy targets. A clean ship can provide some camouflage for a wanted Commander. Record Cleaners will also be able to remove a ship's notoriety.<ref name="frontier-october-dev-log" />
 
-== Further announcements ==
+== Piracy and smuggling ==
 
-Frontier has reserved detailed coverage of new modules, crime clearing, Anarchy-system changes, jurisdiction, and tiers of criminality for later developer logs.<ref name="frontier-september-dev-log" /> Until those details are published and the update is released, existing gameplay pages remain the reference for current behaviour.
+Pirates will gain a direct cargo-demand mechanic for NPC vessels instead of relying only on hatch-breaker limpets. The targeted NPC will assess the relative strength of the ships, the pirate ship's notoriety, and the pirate's reputation for honouring previous deals before deciding whether to comply or resist.<ref name="frontier-october-dev-log" />
+
+Stolen cargo will remain sellable through Black Markets and will also be accepted on open markets in Criminal systems. Smuggling is planned as a more deliberate income path built around the revised scanning behaviour and silent running, but Frontier has deferred the full smuggling rules to a later announcement.<ref name="frontier-october-dev-log" />
+
+== Criminal and Anarchy systems ==
+
+Inhabited systems currently labelled Anarchy will become '''Criminal systems'''. The '''Anarchy''' label will be reserved for uninhabited systems where no authority is present to confirm bounties.<ref name="frontier-october-dev-log" />
+
+Criminal factions will have security ratings and security facilities, although those facilities are considered corrupt. They will field authority vessels that act more like enforcers than conventional police. These enforcers may attempt to pirate a Commander with poor faction reputation or valuable cargo.<ref name="frontier-october-dev-log" />
+
+The change is also intended to address the loss of Anarchy factions through the [[Background Simulation]]. Criminal enforcers will be able to issue bounties, and Commanders will be able to hand in bounties in support of a criminal faction's influence in a system.<ref name="frontier-october-dev-log" />
+
+== Powerplay crime rules ==
+
+An aligned Commander attacking another Power's ships will be treated as taking part in warfare rather than committing an ordinary crime, so the attack itself will not issue a bounty. Local authorities may still treat the Commander as hostile, and attacking those authorities remains a crime.<ref name="frontier-october-dev-log" />
+
+Powerplay activities that specifically require Commanders to commit crimes must target ordinary inhabitants rather than another Power's assets. A Commander's own Power can also suppress a hostile minor faction's response elsewhere inside friendly territory, even when that faction considers the Commander a criminal.<ref name="frontier-october-dev-log" />
+
+== Details still to be announced ==
+
+Frontier has not yet published:
+
+* the exact December 2026 release date;
+* the numerical thresholds for the five general criminal tiers or the separate Pilots Federation tiers;
+* complete fine, bounty, and PvP bounty calculations;
+* exact authority-response and Advanced Tactical Response timings or force composition;
+* Record Cleaner prices and full service rules;
+* the identities, specifications, and acquisition rules for the new modules;
+* complete Pilots Federation bounty behaviour and in-game examples;
+* full smuggling mechanics;
+* exact NPC cargo-demand values and compliance calculations; or
+* detailed numerical effects for ship notoriety.
+
+Frontier has said that a later developer log will cover new modules, Pilots Federation bounties, and examples of the reworked system in game.<ref name="frontier-october-dev-log" />
 
 == Sources ==
 
@@ -86,10 +124,12 @@ Frontier has reserved detailed coverage of new modules, crime clearing, Anarchy-
 
 == Further reading ==
 
-* The Buur Pit, [https://www.youtube.com/watch?v=0w_EmrGQRPY Crime & Punishment Feature Overhaul, Anaconda MkII Reveal — Elite Dangerous: Law & Disorder Update], YouTube, 24 September 2026. Video overview of the announcement.
+The following video is secondary creator coverage and analysis, not the source of record for the announced mechanics:
+
+* The Buur Pit, [https://www.youtube.com/watch?v=z8zHtvtlKOI Law & Disorder Update Breakdown: Bounties, Piracy & PvP Overhaul], YouTube, 21 October 2026.
 
 {{Related articles
- |1=[[Combat]] [[Trade]] [[Background Simulation]] [[Anaconda Mk II]]
+ |1=[[Combat]] [[Trade]] [[Background Simulation]] [[Kill Warrant Scanner]] [[Powerplay]]
 }}
 
 [[Category:Updates]]

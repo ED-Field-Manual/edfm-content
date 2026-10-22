@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Cargo Rack
 Namespace: 0
 Page ID: 369
-Revision ID: 3637
-Timestamp: 2026-09-09T20:27:52Z
+Revision ID: 7498
+Timestamp: 2026-10-22T16:03:36Z
 Source URL: https://edfieldmanual.com/wiki/Cargo_Rack
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -12,13 +12,29 @@ This is current wikitext only; no revision history, user database, logs, deleted
 {{Article header|deck=The optional internal module that provides a ship's cargo capacity.
 }}
 
-{{Article status|status=Needs review|mode=Both|version=Elite Dangerous, current Live and Legacy|reviewed=2026-08-20|reviewer=EDFM Engineer link-graph pass|source_quality=Well-established core mechanic, unchanged since launch; no citation-dependent figures asserted}}
+{{Article status
+ |status=Partially verified
+ |mode=Both
+ |version=Live 4.4.2.0; standard Cargo Rack mechanics also apply to Legacy
+ |reviewed=2026-10-22
+ |reviewer=Sythan
+ |source_quality=The core function is long-established; Mk II Cargo Racks and their Engineering support are documented in Frontier's October 2026 dev log and update 4.4.2.0.
+ |uncertainty=Frontier's published notes do not provide a complete class, capacity, mass, or Engineering-modifier table for Mk II Cargo Racks.
+}}
 
 A '''Cargo Rack''' is an optional internal module that provides cargo capacity, measured in tonnes. Trade, mining, mission-running, and material/commodity-delivery Commanders (including delivering an Engineer's own unlock commodity) all depend on having enough cargo capacity fitted for the job at hand.
 
 == Overview ==
 
 Cargo Racks compete for optional internal slots with every other optional internal module (Shield Generators, Hull Reinforcement Packages, Fuel Scoops, and so on), so a ship's maximum cargo capacity is a build choice rather than a fixed property of the hull.
+
+== Mk II Cargo Racks ==
+
+Update 4.4.2.0 added '''Mk II Cargo Racks''' to the Live game alongside the [[Anaconda Mk II]]. Frontier's October dev log describes the ship's cargo-restricted Size 6 optional compartment as suited to an Optimised Cargo Rack, confirming the Anaconda Mk II's compatibility with the module line.<ref name="anaconda-dev-log">[https://www.elitedangerous.com/news/elite-dangerous-october-dev-log-2026-law-disorder Elite Dangerous: October Dev Log 2026 — Law & Disorder], Frontier Developments, 14 October 2026.</ref><ref name="anaconda-update">[https://www.elitedangerous.com/news/updates/4-4-2-0 Elite Dangerous: Anaconda Mk II Update], Frontier Developments, 20 October 2026.</ref>
+
+The same update notes record a fix for a rounding error when engineering Mk II Cargo Racks. This confirms that the modules accept Engineering, although Frontier's public notes do not provide a complete table of compatible classes, capacities, blueprints, or resulting statistics.<ref name="anaconda-update" />
+
+Mk II Cargo Racks are Live-only. Standard Cargo Racks remain available in both Live and Legacy.
 
 == Engineering ==
 
@@ -30,7 +46,11 @@ Cargo Racks compete for optional internal slots with every other optional intern
 
 [[Ram Tah]], based at [[Phoenix Base]] in [[Meene]], is EDFM's currently documented Cargo Rack Engineer. His Cargo Rack blueprint is a Live-only addition that applies only to compatible Merc modules, per the Engineer's own already-sourced article.
 
-=== Related Engineering Guides ===
+== Sources ==
+
+<references />
+
+== Related Engineering Guides ==
 {{Related articles|[[Engineering]] [[Engineering Blueprints]] [[Trade]]}}
 
 {{Engineering nav}}

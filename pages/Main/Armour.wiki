@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Armour
 Namespace: 0
 Page ID: 365
-Revision ID: 4252
-Timestamp: 2026-09-15T02:17:11Z
+Revision ID: 7497
+Timestamp: 2026-10-22T16:03:34Z
 Source URL: https://edfieldmanual.com/wiki/Armour
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -14,10 +14,10 @@ This is current wikitext only; no revision history, user database, logs, deleted
 {{Article status
  |status=Partially verified
  |mode=Both
- |version=Elite Dangerous 4.4.1.1
- |reviewed=2026-09-15
+ |version=Live 4.4.2.0; standard Armour mechanics also apply to Legacy
+ |reviewed=2026-10-22
  |reviewer=Sythan
- |source_quality=Frontier Caspian Explorer update notes, current INARA Armour Engineering records, and community-maintained module data
+ |source_quality=Frontier Caspian Explorer and Anaconda Mk II update notes, current INARA Armour Engineering records, and community-maintained module data
  |uncertainty=Bulkhead mass and price are specific to each ship model; current Mk II Ablative statistics are incompletely documented outside the game.
 }}
 
@@ -115,7 +115,9 @@ Frontier introduced a 75% cap for engineered resistance values in update 4.3.0.1
 
 == Mk II Ablative armour ==
 
-The Live game also has Mk II Ablative versions of all five standard armour types for the Caspian Explorer. Frontier introduced them with update 4.3.0.0 to permit faster and steeper planetary entries. They are a ship-specific atmospheric-flight line rather than replacements for the standard armour fitted across other ships.
+The Live game also has Mk II Ablative versions of all five standard armour types. Frontier introduced them for the Caspian Explorer with update 4.3.0.0 to permit faster and steeper planetary entries. Update 4.4.2.0 added Mk II Ablative armour support to the [[Anaconda Mk II]].
+
+Mk II Ablative armour remains hull-specific. An armour installation made for the Caspian Explorer cannot be transferred to the Anaconda Mk II, and neither line replaces the standard armour fitted across other ships.
 
 The Mk II Ablative Mirrored Surface Composite was temporarily withheld at release for balancing. Update 4.3.0.1 enabled it at markets for the Caspian Explorer.
 
@@ -125,6 +127,7 @@ Mk II Ablative armour is part of the Live game and is not available in Legacy.
 
 * [https://www.elitedangerous.com/news/updates/4-3-0-0 Elite Dangerous: Caspian Explorer Update] — Frontier's introduction of the five Mk II Ablative armour variants and their planetary-entry purpose.
 * [https://www.elitedangerous.com/news/updates/4-3-0-1 Elite Dangerous: Caspian Explorer Update 1] — activation of Mk II Ablative Mirrored Surface Composite and the 75% engineered-resistance cap.
+* [https://www.elitedangerous.com/news/updates/4-4-2-0 Elite Dangerous: Anaconda Mk II Update] — Frontier's confirmation that the Anaconda Mk II supports Mk II Ablative Armour.
 * [https://elite-dangerous.fandom.com/wiki/Bulkheads Elite Dangerous Wiki: Bulkheads] — standard armour variants, hull boosts, resistances, ship-specific mass and acquisition behavior.
 * [https://inara.cz/elite/blueprint/38/ INARA: Armour — Heavy Duty] — current blueprint modifiers, the zero-mass Lightweight Alloy exception, offering Engineers and compatible Experimental Effects.
 

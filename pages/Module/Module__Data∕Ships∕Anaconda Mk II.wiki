@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/Ships/Anaconda Mk II
 Namespace: 828
 Page ID: 850
-Revision ID: 5241
-Timestamp: 2026-09-24T23:23:08Z
+Revision ID: 7489
+Timestamp: 2026-10-22T16:03:15Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/Ships/Anaconda_Mk_II
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -14,9 +14,14 @@ return {
 	image = "AnacondaMk2.jpg",
 	manufacturer = "Faulcon DeLacy",
 	ship_type = "[[Ships|Starship]]",
-	status = "Upcoming content",
-	release = "October 2026",
+	primary_role = "Multirole",
+	status = "Live",
+	release = "20 October 2026",
 	availability = "ARX Early Access",
-	confirmed_hardpoints = "4 Large; 1 Huge",
-	supercruise_overcharge = "Native compatibility",
+	landing_pad = "Large",
+	crew = "Pilot + 3 multicrew seats",
+	confirmed_hardpoints = "2 Small; 4 Large; 1 Huge",
+	utility_mounts = "8",
+	supercruise_overcharge = "SCO-optimised Size 8 FSD",
+	cargo_capacity = "208 t stock; 750 t maximum",
 }

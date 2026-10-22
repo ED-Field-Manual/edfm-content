@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Mining Laser
 Namespace: 0
 Page ID: 531
-Revision ID: 4004
-Timestamp: 2026-09-12T20:15:49Z
+Revision ID: 7499
+Timestamp: 2026-10-22T16:03:38Z
 Source URL: https://edfieldmanual.com/wiki/Mining_Laser
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -14,11 +14,11 @@ This is current wikitext only; no revision history, user database, logs, deleted
 {{Article status
  |status=Partially verified
  |mode=Both
- |version=Live 4.4.1.1; standard Mining Laser mechanics also apply to Legacy
- |reviewed=2026-09-12
+ |version=Live 4.4.2.0; standard Mining Laser mechanics also apply to Legacy
+ |reviewed=2026-10-22
  |reviewer=Sythan
- |source_quality=In-game module description, current community-maintained outfitting data, and Frontier's current Mining Volley Repeater documentation
- |uncertainty=Frontier has not published current fragment-release rates for every mining-tool variant or combination.
+ |source_quality=In-game module description, current community-maintained outfitting data, and Frontier's Type-11 and Anaconda Mk II Mining Volley Repeater documentation
+ |uncertainty=Frontier has not published current fragment-release rates for every mining-tool variant or detailed specifications for the Mk II Mining Volley Repeater.
 }}
 
 {{Ship module infobox}}
@@ -81,7 +81,17 @@ Removing the supplied modifications permanently converts the module away from it
 
 The [[Mining Lance]] is a separate Class 1 Powerplay weapon with standard Class 1 mining performance, 2,000 m range, and limited combat capability. Its acquisition and weapon characteristics belong to its own article.
 
-The '''Mining Volley Repeater''' is a separate current-Live precision tool restricted to the Type-11 Prospector. Frontier describes it as producing more fragments than other laser-mining tools and having a chance to generate higher-density fragments. It is not a standard Mining Laser variant and does not share the specifications above.<ref name="type11">[https://www.elitedangerous.com/news/type-11-prospector-highlights Type-11 Prospector Highlights], Frontier Developments, 5 September 2025.</ref><ref name="update4210">[https://www.elitedangerous.com/update-notes/4-2-1-0 Elite Dangerous: Type-11 Prospector Update], Frontier Developments.</ref>
+'''Mining Volley Repeaters''' are separate current-Live precision mining tools fitted through ship-specific Mining Optimised hardpoints. They are not standard Mining Laser variants and do not share the specifications above.
+
+=== Type-11 Mining Volley Repeater ===
+
+The original '''Mining Volley Repeater''' is restricted to the Type-11 Prospector. Frontier describes it as producing more fragments than other laser-mining tools and having a chance to generate higher-density fragments.<ref name="type11">[https://www.elitedangerous.com/news/type-11-prospector-highlights Type-11 Prospector Highlights], Frontier Developments, 5 September 2025.</ref><ref name="update4210">[https://www.elitedangerous.com/update-notes/4-2-1-0 Elite Dangerous: Type-11 Prospector Update], Frontier Developments.</ref>
+
+=== Mk II Mining Volley Repeater ===
+
+Update 4.4.2.0 added a distinct '''Mk II Mining Volley Repeater''' for the [[Anaconda Mk II]]. The ship supports two Mk II Mining Optimised hardpoints for this module.<ref name="anaconda-dev-log">[https://www.elitedangerous.com/news/elite-dangerous-october-dev-log-2026-law-disorder Elite Dangerous: October Dev Log 2026 — Law & Disorder], Frontier Developments, 14 October 2026.</ref><ref name="anaconda-update">[https://www.elitedangerous.com/news/updates/4-4-2-0 Elite Dangerous: Anaconda Mk II Update], Frontier Developments, 20 October 2026.</ref>
+
+The Mk II module is not the Type-11's original Mining Volley Repeater. Frontier has not published enough verified specifications to compare their range, power or distributor demand, thermal load, mining output, or fragment-density effect.
 
 == Method boundaries ==
 
@@ -91,7 +101,7 @@ Its beam has very short range, low combat damage, and low armour penetration. Al
 
 == Engineering ==
 
-Standard Mining Lasers do not accept ordinary Engineer blueprints. The Modified Mining Laser's supplied configuration is fixed, while the Mining Lance and Mining Volley Repeater are separate modules with their own restrictions.
+Standard Mining Lasers do not accept ordinary Engineer blueprints. The Modified Mining Laser's supplied configuration is fixed, while the Mining Lance and both Mining Volley Repeater variants are separate modules with their own restrictions.
 
 == Field Procedure ==
 
@@ -101,7 +111,7 @@ Standard Mining Lasers do not accept ordinary Engineer blueprints. The Modified 
 
 <references />
 
-{{Related articles|[[Laser Mining]] [[How to Laser Mine]] [[Mining Lance]] [[Prospector Limpet Controller]] [[Collector Limpet Controller]] [[Refinery]]}}
+{{Related articles|[[Laser Mining]] [[How to Laser Mine]] [[Mining Lance]] [[Anaconda Mk II]] [[Prospector Limpet Controller]] [[Collector Limpet Controller]] [[Refinery]]}}
 [[Category:Modules]]
 [[Category:Ship modules]]
 [[Category:Mining]]

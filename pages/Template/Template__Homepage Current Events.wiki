@@ -3,30 +3,30 @@ EDFM current-content archive export.
 Title: Template:Homepage Current Events
 Namespace: 10
 Page ID: 827
-Revision ID: 6482
-Timestamp: 2026-10-08T17:14:23Z
+Revision ID: 7500
+Timestamp: 2026-10-22T16:03:41Z
 Source URL: https://edfieldmanual.com/wiki/Template:Homepage_Current_Events
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 {| class="edfm-home-card edfm-home-card-primary edfm-home-current-event-card"
-| class="edfm-home-current-event-status-label" | '''COMMUNITY GOAL CONCLUDED'''
-| class="edfm-home-current-event-status-detail" | · ''ENDED 08 OCT 2026''
+| class="edfm-home-current-event-status-label" | '''ACTIVE COMMUNITY GOALS'''
+| class="edfm-home-current-event-status-detail" | · ''ENDS 29 OCT 2026''
 |-
-| class="edfm-home-card-title edfm-home-current-event-title" colspan="2" | [[EVE-597|EVE-597 Prison Breakout]]
+| class="edfm-home-card-title edfm-home-current-event-title" colspan="2" | [[Anaconda Mk II#Field trials|Anaconda Mk II Field Trials]]
 |-
-| class="edfm-home-card-text edfm-home-current-event-text" colspan="2" | The Redonesses combat campaign ended at Tier 2 of 5 after 8,849 commanders submitted 116,350,734,905 credits in Combat Bonds. Final contribution brackets and credit rewards are recorded in the field briefing; Frontier has not yet announced what happens next for EVE-597 or the escaped prisoners.
+| class="edfm-home-card-text edfm-home-current-event-text" colspan="2" | Four simultaneous initiatives are testing exploration, mining, trade, and combat performance. Any ship may participate. Each initiative offers a Faulcon DeLacy decal, Anaconda Mk II Faulcon Red paint job, and contribution-based credits; contributing to all four also awards a golden Faulcon DeLacy decal.
 |-
-| class="edfm-home-link-list edfm-home-current-event-action" colspan="2" | [[EVE-597|READ THE CAMPAIGN OUTCOME →]]
+| class="edfm-home-link-list edfm-home-current-event-action" colspan="2" | [[Anaconda Mk II#Field trials|READ THE FIELD TRIALS →]]
 |}
 
 {| class="edfm-home-card edfm-home-card-primary edfm-home-current-event-card"
 | class="edfm-home-current-event-status-label" | '''ANNOUNCED UPDATE'''
-| class="edfm-home-current-event-status-detail" | · ''ANNOUNCED 24 SEP 2026''
+| class="edfm-home-current-event-status-detail" | · ''COMING DEC 2026''
 |-
-| class="edfm-home-card-title edfm-home-current-event-title" colspan="2" | [[Law & Disorder|Law & Disorder and the Anaconda Mk II]]
+| class="edfm-home-card-title edfm-home-current-event-title" colspan="2" | [[Law & Disorder]]
 |-
-| class="edfm-home-card-text edfm-home-current-event-text" colspan="2" | Frontier has announced Law & Disorder as a free December 2026 update, with planned changes to crime, piracy, smuggling, bounty hunting, PvP crime, and Anarchy systems. The [[Anaconda Mk II]] is separately scheduled for ARX Early Access in October 2026. Neither is live yet.
+| class="edfm-home-card-text edfm-home-current-event-text" colspan="2" | Frontier's October design update outlines observed and confirmed crime, five criminal tiers, separate PvP enforcement, removal of the Kill Warrant Scanner, Record Cleaners, ship notoriety, direct cargo demands for piracy, Criminal systems, and revised Powerplay crime rules. The free update remains planned for December and is not live yet.
 |-
-| class="edfm-home-link-list edfm-home-current-event-action" colspan="2" | [[Law & Disorder|READ THE UPDATE →]]
+| class="edfm-home-link-list edfm-home-current-event-action" colspan="2" | [[Law & Disorder|READ THE ANNOUNCED CHANGES →]]
 |}

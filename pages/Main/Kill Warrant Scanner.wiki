@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Kill Warrant Scanner
 Namespace: 0
 Page ID: 518
-Revision ID: 5218
-Timestamp: 2026-09-24T18:37:49Z
+Revision ID: 7494
+Timestamp: 2026-10-22T16:03:26Z
 Source URL: https://edfieldmanual.com/wiki/Kill_Warrant_Scanner
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -14,17 +14,20 @@ This is current wikitext only; no revision history, user database, logs, deleted
 {{Article status
  |status=Partially verified
  |mode=Both
- |version=Current Live and Legacy module records
- |reviewed=2026-09-16
+ |version=Current Live and Legacy module records; announced Live removal in December 2026
+ |reviewed=2026-10-22
  |reviewer=Sythan
- |source_quality=Stock variants use commit-pinned community module data; operation and Engineering compatibility use maintained community references.
+ |source_quality=Current operation and Engineering use maintained community references; Frontier's October 2026 developer log confirms the announced Law & Disorder removal and replacement scanning behaviour.
+ |uncertainty=Frontier has not stated how existing modules or engineered scanners will be handled at removal, or whether Legacy availability will change.
 }}
 
 {{Ship module infobox}}
 
+{{Callout|type=warning|label=Upcoming removal announced 14 October 2026|1=Frontier plans to remove the '''Kill Warrant Scanner''' when the free [[Law & Disorder]] update launches in '''December 2026'''. This change is '''not yet live''': the module and the operating instructions below remain current until the update releases. Law & Disorder will instead expose UCBs through passive information and reveal a targeted pilot's identity and legal status through the normal targeted scan; a criminal result will be broadcast to nearby ships for legal engagement.<ref name="frontier-october-dev-log">[https://www.elitedangerous.com/news/elite-dangerous-october-dev-log-2026-law-disorder Elite Dangerous: October Dev Log 2026 — Law & Disorder], Frontier Developments, 14 October 2026.</ref>}}
+
 == Overview ==
 
-The '''Kill Warrant Scanner''' is a Class 0 utility module used to check a targeted ship for active bounties outside the current jurisdiction. A completed scan can expose additional claims that become payable if the target is destroyed, increasing the potential return from a wanted ship.<ref name="edwiki-kws">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Kill_Warrant_Scanner Kill Warrant Scanner], accessed 16 September 2026.</ref>
+The '''Kill Warrant Scanner''' is currently a Class 0 utility module used to check a targeted ship for active bounties outside the current jurisdiction. A completed scan can expose additional claims that become payable if the target is destroyed, increasing the potential return from a wanted ship.<ref name="edwiki-kws">Elite Dangerous Wiki, [https://elite-dangerous.fandom.com/wiki/Kill_Warrant_Scanner Kill Warrant Scanner], accessed 16 September 2026.</ref>
 
 The scanner does not override local law. A ship shown as '''Clean''' in the current jurisdiction remains an illegal target there even when the scan reveals bounties elsewhere. The current jurisdiction's Wanted status must therefore be checked separately before opening fire.
 
@@ -111,6 +114,12 @@ Kill Warrant Scanners accept six blueprint families and no Experimental Effects:
 * '''Wide Angle''' enlarges the scanning arc while adding mass and increasing scan time.
 
 Fast Scan suits close bounty-hunting engagements where a target may leave quickly. Long Range makes it easier to begin a scan before closing distance, while Wide Angle helps maintain lock on agile targets. A range-sensitive ship may instead prefer Lightweight.
+
+== Announced replacement in Law & Disorder ==
+
+Under Frontier's announced December design, UCBs will be visible through passive instance information. A normal targeted scan will reveal the pilot's identity and legal status, then broadcast a detected criminal's status to nearby ships. Frontier also says a scan will expose the target's crimes so their aggregated bounty value can be claimed together.<ref name="frontier-october-dev-log" />
+
+The exact treatment of owned, stored, or engineered Kill Warrant Scanners has not been announced. Frontier has also not stated whether the module will remain available in Legacy after the Live update.
 
 == Acquisition ==
 
