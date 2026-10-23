@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:GalNet Archive
 Namespace: 10
 Page ID: 736
-Revision ID: 7488
-Timestamp: 2026-10-22T16:00:02Z
+Revision ID: 7546
+Timestamp: 2026-10-23T07:00:02Z
 Source URL: https://edfieldmanual.com/wiki/Template:GalNet_Archive
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -102,5 +102,5 @@ This is current wikitext only; no revision history, user database, logs, deleted
 <div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a8c1a983531540f830c1532 Read the official GalNet transmission]</div>
 </div>
 </div>
-<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 22 Oct 2026 16:00 UTC.</div>
+<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 23 Oct 2026 07:00 UTC.</div>
 </div></includeonly>
