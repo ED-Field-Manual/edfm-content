@@ -3,14 +3,20 @@ EDFM current-content archive export.
 Title: Template:GalNet Archive
 Namespace: 10
 Page ID: 736
-Revision ID: 7978
-Timestamp: 2026-10-29T07:00:02Z
+Revision ID: 8051
+Timestamp: 2026-10-30T07:00:02Z
 Source URL: https://edfieldmanual.com/wiki/Template:GalNet_Archive
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 <noinclude>This template is generated automatically by the EDFM GalNet updater. Manual edits will be replaced.</noinclude><includeonly><div class="edfm-galnet-panel edfm-galnet-panel-archive">
 <div class="edfm-galnet-archive-list">
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">29 OCT 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ae313bf82e3163ecf0a9b12 Faulcon DeLacy Multi-Faceted Initiatives Conclude]</div>
+<div class="edfm-galnet-summary">Faulcon DeLacy confirmed in a press statement today that the quadruple trials of the new Anaconda Mk II had been 'incredibly valuable’. Data received across all four initiatives showed that independent pilots had put the new vessel through its paces across a number of activities. Speaking with Vox Galactica, Frank Endis, Chief of Design…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6ae313bf82e3163ecf0a9b12 Read the official GalNet transmission]</div>
+</div>
 <div class="edfm-galnet-archive-entry">
 <div class="edfm-galnet-date">22 OCT 3312</div>
 <div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ad8d7de16c2b3e9d00e2d13 Faulcon DeLacy Plans Anaconda Mk II Field Trials]</div>
@@ -95,12 +101,6 @@ This is current wikitext only; no revision history, user database, logs, deleted
 <div class="edfm-galnet-summary">Vodel, the manufacturer of the Scarab and Scorpion surface recon vehicles, has announced its latest addition – the SRV Rhino. According to press materials received, the Rhino is currently the largest available SRV and comes heavily armoured. As a result of its extra weight, it sacrifices speed for superior grip, allowing it to traverse…</div>
 <div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a968b57fb27e7b469078284 Read the official GalNet transmission]</div>
 </div>
-<div class="edfm-galnet-archive-entry">
-<div class="edfm-galnet-date">24 AUG 3312</div>
-<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a8c1a983531540f830c1532 Research Sheds New Light on Industrial Mining]</div>
-<div class="edfm-galnet-summary">A widespread review of current surface mining techniques has been sparked by recently published research. Wreaken Mining’s Chief Geologist, Dr. Ben Curtis, has written an essay suggesting that existing refinery methods inadvertently destroy valuable mineral resources due to their large-scale inefficiencies. “Typically, laser mining and…</div>
-<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a8c1a983531540f830c1532 Read the official GalNet transmission]</div>
 </div>
-</div>
-<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 29 Oct 2026 07:00 UTC.</div>
+<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 30 Oct 2026 07:00 UTC.</div>
 </div></includeonly>

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:GalNet Latest
 Namespace: 10
 Page ID: 735
-Revision ID: 7473
-Timestamp: 2026-10-22T11:20:02Z
+Revision ID: 8000
+Timestamp: 2026-10-29T14:20:02Z
 Source URL: https://edfieldmanual.com/wiki/Template:GalNet_Latest
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -13,18 +13,18 @@ This is current wikitext only; no revision history, user database, logs, deleted
 <div class="edfm-galnet-marquee-window" aria-label="Latest GalNet transmissions">
 <div class="edfm-galnet-marquee-track-v2">
 <span class="edfm-galnet-marquee-segment">
+<span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">29 OCT 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ae313bf82e3163ecf0a9b12 Faulcon DeLacy Multi-Faceted Initiatives Conclude]</span><span class="edfm-galnet-summary">Faulcon DeLacy confirmed in a press statement today that the quadruple trials of the new Anaconda Mk II had been 'incredibly valuable’. Data…</span></span>
 <span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">22 OCT 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ad8d7de16c2b3e9d00e2d13 Faulcon DeLacy Plans Anaconda Mk II Field Trials]</span><span class="edfm-galnet-summary">A quadruple-focus initiative has been launched aiming to test the improved capabilities of the recently announced Anaconda Mk II. To help celebrate…</span></span>
 <span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">20 OCT 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ad646dc0512eccb7b067f64 Faulcon DeLacy Announces Anaconda Mk II]</span><span class="edfm-galnet-summary">Faulcon DeLacy has announced the first major revision of the Anaconda ship model since its introduction in 2856. Expanding on its predecessor’s…</span></span>
 <span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">15 OCT 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ad0940d0869dac50b014566 Brewer Corp Jump Satellite Initiative Hailed a Success]</span><span class="edfm-galnet-summary">Independent pilots rallied to provide Brewer Corp with the necessary commodities to release its new 'jump satellites' on schedule. The hardware - a…</span></span>
 <span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">13 OCT 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6acdfb9fb8ed93e42e052ad2 Three Prisoners Missing Following Recent Breakout]</span><span class="edfm-galnet-summary">The Independent Detention Foundation has confirmed that three maximum security prisoners evaded recapture following the breakout in Redonesses…</span></span>
-<span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">08 OCT 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ac76bd25a08fecdfd02ad64 Brewer Corporation’s Carrier Jump Satellite Plans]</span><span class="edfm-galnet-summary">Brewer Corporation is manufacturing what it calls 'jump satellites' to enable more fleet carriers to target a system with no planetary bodies. Under…</span></span>
 </span>
 <span class="edfm-galnet-marquee-segment" aria-hidden="true">
+<span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">29 OCT 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ae313bf82e3163ecf0a9b12 Faulcon DeLacy Multi-Faceted Initiatives Conclude]</span><span class="edfm-galnet-summary">Faulcon DeLacy confirmed in a press statement today that the quadruple trials of the new Anaconda Mk II had been 'incredibly valuable’. Data…</span></span>
 <span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">22 OCT 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ad8d7de16c2b3e9d00e2d13 Faulcon DeLacy Plans Anaconda Mk II Field Trials]</span><span class="edfm-galnet-summary">A quadruple-focus initiative has been launched aiming to test the improved capabilities of the recently announced Anaconda Mk II. To help celebrate…</span></span>
 <span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">20 OCT 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ad646dc0512eccb7b067f64 Faulcon DeLacy Announces Anaconda Mk II]</span><span class="edfm-galnet-summary">Faulcon DeLacy has announced the first major revision of the Anaconda ship model since its introduction in 2856. Expanding on its predecessor’s…</span></span>
 <span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">15 OCT 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ad0940d0869dac50b014566 Brewer Corp Jump Satellite Initiative Hailed a Success]</span><span class="edfm-galnet-summary">Independent pilots rallied to provide Brewer Corp with the necessary commodities to release its new 'jump satellites' on schedule. The hardware - a…</span></span>
 <span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">13 OCT 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6acdfb9fb8ed93e42e052ad2 Three Prisoners Missing Following Recent Breakout]</span><span class="edfm-galnet-summary">The Independent Detention Foundation has confirmed that three maximum security prisoners evaded recapture following the breakout in Redonesses…</span></span>
-<span class="edfm-galnet-ticker-item"><span class="edfm-galnet-date">08 OCT 3312</span><span class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ac76bd25a08fecdfd02ad64 Brewer Corporation’s Carrier Jump Satellite Plans]</span><span class="edfm-galnet-summary">Brewer Corporation is manufacturing what it calls 'jump satellites' to enable more fleet carriers to target a system with no planetary bodies. Under…</span></span>
 </span>
 </div>
 </div>
