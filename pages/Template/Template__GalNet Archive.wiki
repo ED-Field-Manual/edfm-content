@@ -3,14 +3,20 @@ EDFM current-content archive export.
 Title: Template:GalNet Archive
 Namespace: 10
 Page ID: 736
-Revision ID: 8267
-Timestamp: 2026-11-02T07:00:03Z
+Revision ID: 8340
+Timestamp: 2026-11-03T07:00:02Z
 Source URL: https://edfieldmanual.com/wiki/Template:GalNet_Archive
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 <noinclude>This template is generated automatically by the EDFM GalNet updater. Manual edits will be replaced.</noinclude><includeonly><div class="edfm-galnet-panel edfm-galnet-panel-archive">
 <div class="edfm-galnet-archive-list">
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">02 NOV 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ae86734cfa6a151bb070592 Lady Zi Breaks Silence]</div>
+<div class="edfm-galnet-summary">The mysterious rogue pirate lord known as Lady Zi has come forward, revealing her intentions and reasons for the recent attacks. In a statement delivered as malware across hundreds of hacked starport holoscreens, Lady Zi said: “Ordinary citizens across the core worlds - the backbone of civilisation - are oppressed by politicians and…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6ae86734cfa6a151bb070592 Read the official GalNet transmission]</div>
+</div>
 <div class="edfm-galnet-archive-entry">
 <div class="edfm-galnet-date">29 OCT 3312</div>
 <div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ae313bf82e3163ecf0a9b12 Faulcon DeLacy Multi-Faceted Initiatives Conclude]</div>
@@ -95,12 +101,6 @@ This is current wikitext only; no revision history, user database, logs, deleted
 <div class="edfm-galnet-summary">To test its new deployable mining rig, Wreaken Corporation has called for independent pilots to help complete field trials. Dr. Ben Curtis, Chief Geologist at Wreaken, stated: "We're excited to not only test the rig's patented mining laser technology but also verify which materials it can extract from a variety of planetary body types."…</div>
 <div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a993628a96f951e83045c7e Read the official GalNet transmission]</div>
 </div>
-<div class="edfm-galnet-archive-entry">
-<div class="edfm-galnet-date">03 SEP 3312</div>
-<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6a968b57fb27e7b469078284 Vodel Reveals New SRV Rhino]</div>
-<div class="edfm-galnet-summary">Vodel, the manufacturer of the Scarab and Scorpion surface recon vehicles, has announced its latest addition – the SRV Rhino. According to press materials received, the Rhino is currently the largest available SRV and comes heavily armoured. As a result of its extra weight, it sacrifices speed for superior grip, allowing it to traverse…</div>
-<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a968b57fb27e7b469078284 Read the official GalNet transmission]</div>
 </div>
-</div>
-<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 02 Nov 2026 07:00 UTC.</div>
+<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 03 Nov 2026 07:00 UTC.</div>
 </div></includeonly>
