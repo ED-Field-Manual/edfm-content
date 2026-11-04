@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:GalNet Archive
 Namespace: 10
 Page ID: 736
-Revision ID: 8340
-Timestamp: 2026-11-03T07:00:02Z
+Revision ID: 8413
+Timestamp: 2026-11-04T07:00:02Z
 Source URL: https://edfieldmanual.com/wiki/Template:GalNet_Archive
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -12,7 +12,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 <noinclude>This template is generated automatically by the EDFM GalNet updater. Manual edits will be replaced.</noinclude><includeonly><div class="edfm-galnet-panel edfm-galnet-panel-archive">
 <div class="edfm-galnet-archive-list">
 <div class="edfm-galnet-archive-entry">
-<div class="edfm-galnet-date">02 NOV 3312</div>
+<div class="edfm-galnet-date">03 NOV 3312</div>
 <div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6ae86734cfa6a151bb070592 Lady Zi Breaks Silence]</div>
 <div class="edfm-galnet-summary">The mysterious rogue pirate lord known as Lady Zi has come forward, revealing her intentions and reasons for the recent attacks. In a statement delivered as malware across hundreds of hacked starport holoscreens, Lady Zi said: “Ordinary citizens across the core worlds - the backbone of civilisation - are oppressed by politicians and…</div>
 <div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6ae86734cfa6a151bb070592 Read the official GalNet transmission]</div>
@@ -102,5 +102,5 @@ This is current wikitext only; no revision history, user database, logs, deleted
 <div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6a993628a96f951e83045c7e Read the official GalNet transmission]</div>
 </div>
 </div>
-<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 03 Nov 2026 07:00 UTC.</div>
+<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 04 Nov 2026 07:00 UTC.</div>
 </div></includeonly>
