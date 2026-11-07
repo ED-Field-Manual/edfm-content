@@ -1,0 +1,100 @@
+<!--
+EDFM current-content archive export.
+Title: Lady Zi's Counter-Megacorporation Assault
+Namespace: 0
+Page ID: 997
+Revision ID: 8678
+Timestamp: 2026-11-07T21:30:35Z
+Source URL: https://edfieldmanual.com/wiki/Lady_Zi%27s_Counter-Megacorporation_Assault
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Active Community Goals through 19 November 3312
+ |reviewed=2026-11-07
+ |reviewer=Sythan
+ |source_quality=Official Frontier GalNet reports and live Community Goal listings
+ |uncertainty=Final tiers, contribution totals, credit rewards, campaign results, and the narrative aftermath remain unresolved while the four Community Goals are active.
+}}
+{{Article header|deck=Lady Zi's Fire Lotus Coalition campaign against corporate forces in Exphiay and Sorbago.}}
+
+{{Callout|type=info|label=Active Community Goals|1=
+Four combat Community Goals are active in '''Exphiay''' and '''Sorbago''' until '''19 November 3312'''. Commanders can support Lady Zi's Fire Lotus Coalition or defend the corporation under attack in either system. Each goal requires separate registration and Combat Bond hand-in at its named station or megaship.<ref name="frontier-cgs">[https://www.elitedangerous.com/community/goals Community Goals], Frontier Developments. Live listings accessed 7 November 2026.</ref>
+}}
+
+'''Lady Zi's Counter-Megacorporation Assault''' is a coordinated Fire Lotus Coalition attack on '''Gallant Investment Brokers''' in Exphiay and '''Sorbago Mastopolos Mining Inc''' in Sorbago. The campaign opened after Lady Zi publicly rejected the Federation, Empire, Alliance, and Archon Delaine's Kumo Crew, presenting the Fire Lotus Coalition as an independent anti-authority movement.<ref name="frontier-silence">[https://www.elitedangerous.com/news/galnet/lady-zi-breaks-silence Lady Zi Breaks Silence], GalNet, Frontier Developments, 3 November 3312.</ref>
+
+On 5 November 3312, Fire Lotus forces began widespread fighting in both corporate home systems. Lady Zi called for independent pilots to attack the corporations, while the two targeted factions organised their own defensive campaigns.<ref name="frontier-assault">[https://www.elitedangerous.com/news/galnet/lady-zi-declares-counter-megacorporation-assault Lady Zi Declares 'Counter-Megacorporation' Assault], GalNet, Frontier Developments, 5 November 3312.</ref><ref name="frontier-counterattack">[https://www.elitedangerous.com/news/galnet/corporate-forces-trigger-counterattack-against-lady-zi Corporate Forces Trigger Counterattack Against Lady Zi], GalNet, Frontier Developments, 5 November 3312.</ref>
+
+== Current campaigns ==
+
+Each side operates a separate Community Goal in each system. Combat Bonds only contribute when they are earned against the named opposing faction in the relevant system and handed in at that goal's registration point.<ref name="frontier-cgs" />
+
+{| class="wikitable"
+! System
+! Support Lady Zi
+! Defend the corporation
+|-
+| '''Exphiay'''
+| Register at '''Whisper of the Wake'''. Destroy Gallant Investment Brokers vessels in Exphiay conflict zones and hand the Combat Bonds in at the megaship.
+| Register at '''Worlidge Hub'''. Destroy Fire Lotus Coalition vessels in Exphiay conflict zones and hand the Combat Bonds in at the station.
+|-
+| '''Sorbago'''
+| Register at '''The Coldwood'''. Destroy Sorbago Mastopolos Mining Inc vessels in Sorbago conflict zones and hand the Combat Bonds in at the megaship.
+| Register at '''Hencke Orbital'''. Destroy Fire Lotus Coalition vessels in Sorbago conflict zones and hand the Combat Bonds in at the station.
+|}
+
+The Fire Lotus campaigns began on '''5 November 3312'''. The corporate defence campaigns began on '''6 November 3312'''. All four are scheduled to end on '''19 November 3312''', unless a final target is reached earlier.<ref name="frontier-cgs" />
+
+== Participation ==
+
+# Choose Exphiay or Sorbago and decide whether to support Lady Zi or the defending corporation.
+# Dock at the station or megaship listed for that campaign and register for its Community Goal.
+# Enter conflict zones in the same system and fight vessels belonging to the campaign's named opposing faction.
+# Return to the same registration point and hand in the Combat Bonds before the campaign ends.
+
+{{Callout|type=warning|label=Check the campaign before fighting|1=
+The four goals use different factions and hand-in locations. Register for the intended goal first, confirm which faction must be destroyed, and return the bonds to that goal's own station or megaship.
+}}
+
+== Rewards ==
+
+Recording at least one Combat Bond contribution qualifies a commander for credits based on the campaign's success tier and the commander's contribution level. The '''top 75%''' of contributors to each goal are also listed to receive '''150 [[Merc Coin]]'''.<ref name="frontier-cgs" />
+
+Final credit brackets and results will not be known until the campaigns conclude.
+
+== Background ==
+
+Lady Zi first identified herself publicly on 3 November through a coordinated malware broadcast across hundreds of starport holoscreens. She accused the major powers and their corporations of exploiting ordinary citizens, rejected her former allegiance to Archon Delaine, and called for opponents of established authority to join the Fire Lotus Coalition.<ref name="frontier-silence" />
+
+Two days later, she announced attacks on Gallant Investment Brokers and Sorbago Mastopolos Mining Inc. Fire Lotus Coalition megaships appeared in both systems to recruit independent pilots. Gallant Investment Brokers and Sorbago Mastopolos Mining Inc then opened their own recruitment drives at Worlidge Hub and Hencke Orbital.<ref name="frontier-assault" /><ref name="frontier-counterattack" />
+
+== Timeline ==
+
+{| class="wikitable"
+! Date
+! Development
+|-
+| 3 November 3312
+| Lady Zi publicly described the Fire Lotus Coalition's anti-authority position and her break with Archon Delaine.<ref name="frontier-silence" />
+|-
+| 5 November 3312
+| Fire Lotus forces attacked Exphiay and Sorbago. Lady Zi's two assault Community Goals began.<ref name="frontier-assault" /><ref name="frontier-cgs" />
+|-
+| 6 November 3312
+| Gallant Investment Brokers and Sorbago Mastopolos Mining Inc opened defensive Community Goals.<ref name="frontier-counterattack" /><ref name="frontier-cgs" />
+|-
+| 19 November 3312
+| Scheduled end of all four campaigns, unless a final target is reached earlier.<ref name="frontier-cgs" />
+|}
+
+== References ==
+
+<references />
+
+{{Related articles|1=[[GalNet]] · [[Combat]] · [[Merc Coin]]}}
+
+[[Category:Events]]
+[[Category:Lore]]

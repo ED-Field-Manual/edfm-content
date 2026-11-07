@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Anaconda Mk II
 Namespace: 0
 Page ID: 847
-Revision ID: 7492
-Timestamp: 2026-10-22T16:03:21Z
+Revision ID: 8676
+Timestamp: 2026-11-07T21:28:48Z
 Source URL: https://edfieldmanual.com/wiki/Anaconda_Mk_II
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -13,7 +13,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
  |status=Partially verified
  |mode=Live
  |version=Elite Dangerous 4.4.2.0; ARX Early Access from 20 October 2026
- |reviewed=2026-10-22
+ |reviewed=2026-11-07
  |reviewer=Sythan
  |source_quality=Official Frontier developer log, update notes, early-access announcement, store specifications, Community Goals, and GalNet; The Buur Pit partner preview for utility mounts and the limited boarding area
  |uncertainty=Frontier has not announced the date or credit price for wider shipyard availability. Eight utility mounts and the boarding-area details are documented by The Buur Pit's partner preview rather than Frontier's written specifications.
@@ -203,12 +203,16 @@ Frontier states that the ship will later transition to wider shipyard availabili
 
 == Field trials ==
 
-Four Faulcon DeLacy initiatives are active from '''22 October to 29 October 2026''', covering exploration, mining, trade, and combat. Commanders may use '''any ship'''; owning or flying an Anaconda Mk II is not required.<ref name="frontierFieldTrials">[https://www.elitedangerous.com/news/galnet/faulcon-delacy-plans-anaconda-mk-ii-field-trials Faulcon DeLacy Plans Anaconda Mk II Field Trials], GalNet, Frontier Developments, 22 October 3312.</ref><ref name="frontierCommunityGoals">[https://www.elitedangerous.com/community/goals Community Goals], Frontier Developments. Accessed 22 October 2026.</ref>
+Four Faulcon DeLacy initiatives ran from '''22 October to 29 October 2026''', covering exploration, mining, trade, and combat. Commanders could use '''any ship'''; owning or flying an Anaconda Mk II was not required.<ref name="frontierFieldTrials">[https://www.elitedangerous.com/news/galnet/faulcon-delacy-plans-anaconda-mk-ii-field-trials Faulcon DeLacy Plans Anaconda Mk II Field Trials], GalNet, Frontier Developments, 22 October 3312.</ref><ref name="frontierCommunityGoals">[https://www.elitedangerous.com/community/goals Community Goals], Frontier Developments. Accessed 22 October 2026.</ref>
+
+{{Callout|type=info|label=Trials concluded|1=
+The four initiatives ended on '''29 October 3312'''. Faulcon DeLacy described the collected data as ''incredibly valuable'' and said the trials demonstrated the ship's broad capability, but did not publish detailed comparison results.<ref name="frontierFieldTrialsOutcome">[https://www.elitedangerous.com/news/galnet/faulcon-delacy-multi-faceted-initiatives-conclude Faulcon DeLacy Multi-Faceted Initiatives Conclude], GalNet, Frontier Developments, 29 October 3312.</ref>
+}}
 
 {| class="wikitable"
 ! Initiative
-! Register at
-! Contribution
+! Registration point
+! Historical contribution method
 ! Event modifier
 |-
 | Exploration
@@ -228,11 +232,11 @@ Four Faulcon DeLacy initiatives are active from '''22 October to 29 October 2026
 |-
 | Combat
 | Bowen Dock, HR 8061
-| Accept any Combat mission from a Mission Board within 25 ly, then complete and hand it in; contribution uses the mission's highest possible credit reward regardless of the reward selected
+| Accept any Combat mission from a Mission Board within 25 ly, then complete and hand it in; contribution used the mission's highest possible credit reward regardless of the reward selected
 | Contribution based on the highest available mission credit reward
 |}
 
-Recording at least one contribution in an individual initiative awards a Faulcon DeLacy decal, the Anaconda Mk II Faulcon Red paint job, and credits based on the initiative's success tier and the Commander's contribution. Recording at least one contribution in '''all four''' initiatives also awards a golden Faulcon DeLacy decal.<ref name="frontierCommunityGoals" />
+Recording at least one contribution in an individual initiative awarded a Faulcon DeLacy decal, the Anaconda Mk II Faulcon Red paint job, and credits based on the initiative's success tier and the Commander's contribution. Recording at least one contribution in '''all four''' initiatives also awarded a golden Faulcon DeLacy decal.<ref name="frontierCommunityGoals" />
 
 == References ==
 

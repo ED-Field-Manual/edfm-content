@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Wreaken Mining Rig Field Tests
 Namespace: 0
 Page ID: 803
-Revision ID: 6377
-Timestamp: 2026-10-07T11:21:19Z
+Revision ID: 8679
+Timestamp: 2026-11-07T21:32:13Z
 Source URL: https://edfieldmanual.com/wiki/Wreaken_Mining_Rig_Field_Tests
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -21,7 +21,7 @@ This is current wikitext only; no revision history, user database, logs, deleted
 {{Article header|deck=Wreaken and Vodel's concluded three-part mining field-test programme at Metz Enterprise in Ega.}}
 
 {{Callout|type=info|label=Campaign concluded|
-All three Wreaken/Vodel Community Goals have ended. The sourced-materials phase concluded on '''17 September 2026'''; Inara's community tracking recorded '''Tier 3/5''', '''140,456,277 tonnes delivered''' and '''11,031 contributors'''. Participating commanders can collect their credit rewards from Metz Enterprise. Frontier subsequently described the trials as a resounding success. It did not publish detailed comparison figures or announce resulting balance changes.
+All three Wreaken/Vodel Community Goals have ended. The sourced-materials phase concluded on '''17 September 2026'''; Inara's community tracking recorded '''Tier 3/5''', '''140,456,277 tonnes delivered''' and '''11,031 contributors'''. Frontier subsequently described the trials as a resounding success. It did not publish detailed comparison figures or announce resulting balance changes.
 }}
 
 {| class="wikitable"
