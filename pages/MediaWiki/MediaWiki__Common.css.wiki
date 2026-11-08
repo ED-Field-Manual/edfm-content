@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: MediaWiki:Common.css
 Namespace: 8
 Page ID: 69
-Revision ID: 4878
-Timestamp: 2026-09-20T23:54:41Z
+Revision ID: 8753
+Timestamp: 2026-11-08T15:47:15Z
 Source URL: https://edfieldmanual.com/wiki/MediaWiki:Common.css
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -4795,7 +4795,8 @@ body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-labelElement-
 	white-space: nowrap;
 }
 
-body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-fieldLayout-help {
+body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-fieldLayout-help,
+body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-inline-help {
 	display: none;
 }
 
@@ -4901,7 +4902,8 @@ body.mediawiki.mw-special-Preferences .edfm-integration-card__meta .edfm-account
 	body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-fieldLayout-body {
 		justify-content: flex-start;
 	}
-	body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-fieldLayout-help {
+	body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-fieldLayout-help,
+	body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-inline-help {
 		display: block;
 		margin-top: 0.35rem;
 	}
