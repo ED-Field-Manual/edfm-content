@@ -1,0 +1,141 @@
+<!--
+EDFM current-content archive export.
+Title: Aisling Duval
+Namespace: 0
+Page ID: 1000
+Revision ID: 8707
+Timestamp: 2026-11-08T05:14:33Z
+Source URL: https://edfieldmanual.com/wiki/Aisling_Duval
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=An Imperial reformist Power combining anti-slavery politics with social and financial Powerplay methods.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Powerplay 2.0
+ |reviewed=2026-11-08
+ |reviewer=Sythan
+ |source_quality=Frontier biographies and GalNet history, supported by maintained current Powerplay data
+ |uncertainty=Perk values and module order are current community-maintained data and may change with balance updates.
+}}
+
+'''Aisling Duval''' is an [[Empire|Imperial]] princess, political reformer and active [[Powerplay]] leader headquartered in Cubeo. Known as the People's Princess, she has built her public identity around humanitarian causes, opposition to Imperial slavery and support for social change within the Empire.<ref name="meet-aisling">Frontier Developments, [https://community.elitedangerous.com/galnet/uid/55b220919657ba113ae7daa3 Meet the Powers — Aisling Duval].</ref>
+
+== Profile ==
+
+{| class="wikitable"
+! Field
+! Details
+|-
+| Leader
+| Princess Aisling Duval
+|-
+| Allegiance
+| [[Empire]]
+|-
+| Power headquarters
+| Cubeo
+|-
+| Born
+| 3276
+|-
+| Political identity
+| Reformist populist; anti-slavery and humanitarian campaigner
+|-
+| Associated organisation
+| Unchain
+|}
+
+Aisling is the eldest child of the late Prince Harold Duval and a granddaughter of Emperor Hengist Duval. Her formal residence is associated with Cemiess, while Cubeo serves as the headquarters of her Power.<ref name="meet-aisling" />
+
+== Background and political position ==
+
+Aisling's support comes from Imperial citizens who favour reform, public welfare and a less rigid interpretation of Imperial society. Her campaigns have opposed Imperial slavery, promoted humanitarian relief and criticised the narcotics trade. These positions distinguish her sharply from traditionalists who regard the Empire's established hierarchy and institutions as essential.
+
+Her political appeal is deliberately public-facing. Charitable campaigning, media visibility and direct appeals to ordinary citizens have given her a base that differs from the senatorial, military and industrial networks supporting the other Imperial Powers.
+
+== Powerplay ethos and methods ==
+
+Aisling's current Powerplay 2.0 ethos favours different approaches in each strategic context:<ref name="inara-aisling">INARA, [https://inara.cz/elite/power/2/ Aisling Duval — Power dossier], accessed 7 November 2026.</ref>
+
+{| class="wikitable"
+! Strategic context
+! Favoured ethos
+! Typical emphasis
+|-
+| Acquisition
+| Social
+| Rescue, humanitarian support and applicable settlement-support activity
+|-
+| Reinforcement
+| Finance
+| Trade, mining, Power commodity transport and eligible data sales
+|-
+| Undermining
+| Social
+| Rescue, recovery and support actions that weaken an eligible rival position
+|}
+
+These are preferred methods rather than a complete activity list. System state, range and the in-game Local Activities panel determine whether a particular action contributes. The shared rules for pledging, merits, acquisition, reinforcement, undermining and weekly resolution are covered on [[Powerplay]].
+
+== Maximum Power perks ==
+
+At maximum loyalty, Aisling's territory perks provide:<ref name="pp-guide">CMDR Hanchen, [https://inara.cz/elite/logbook/84502/ A comprehensive Odyssey guide about Powerplay 2.0], INARA, accessed 7 November 2026.</ref>
+
+* '''+200%''' Search and Rescue profits in Aisling-controlled systems;
+* '''+100%''' minor-faction reputation gain in Aisling-controlled systems.
+
+These sit alongside the common loyalty rewards available through Powerplay progression. Values are balance data and should be checked against the current in-game pledge screen after a major update.
+
+== Powerplay module order ==
+
+Every Power can eventually unlock every Powerplay module in Live Powerplay 2.0; the Power determines the order. Aisling's signature [[Prismatic Shield Generator]] is her first module reward.<ref name="ascendancy">Frontier Developments, [https://www.elitedangerous.com/news/updates/4-0-19-0 Elite Dangerous: Ascendancy — Available Now], 31 October 2024.</ref><ref name="pp-guide" />
+
+{| class="wikitable"
+! Loyalty rank
+! Module
+|-
+| 34 || [[Prismatic Shield Generator]]
+|-
+| 39 || [[Imperial Hammer]]
+|-
+| 44 || [[Advanced Plasma Accelerator]]
+|-
+| 50 || [[Mining Lance]]
+|-
+| 57 || [[Retributor Beam Laser|Retributor]]
+|-
+| 63 || Concord Cannon
+|-
+| 70 || [[Pack-Hound Missile Rack]]
+|-
+| 76 || Containment Missile
+|-
+| 83 || [[Enforcer Cannon]]
+|-
+| 88 || [[Pulse Disruptor]]
+|-
+| 91 || [[Pacifier Frag-Cannon]]
+|-
+| 97 || [[Cytoscrambler]]
+|}
+
+== History and relationships ==
+
+Aisling advanced a claim during the Imperial succession crisis of 3301. After the Senate selected Arissa Lavigny-Duval, she supported her aunt's accession rather than continuing the dispute. Her anti-slavery work, first associated with Stop Slavery Stupid and later with Unchain, remained central to her public role.
+
+[[Arissa Lavigny-Duval]] is both her aunt and a former succession rival. [[Denton Patreus]] was briefly her fiancé, linking two very different Imperial political bases before the engagement ended. [[Zemina Torval]] represents Aisling's clearest ideological contrast because of Torval's defence of Imperial slavery and traditional hierarchy.
+
+In February 3312, pilot groups aligned with Aisling, Arissa and Patreus joined an informal non-aggression coalition during the HIP 87621 hostilities. The agreement was organised by aligned commanders rather than issued as a formal declaration by the Imperial leaders.<ref name="hip-coalition">Frontier Developments, [https://www.elitedangerous.com/news/galnet/coalition-announces-non-aggression-pact-amid-hip-87621-hostilities Coalition Announces Non-Aggression Pact Amid HIP 87621 Hostilities], GalNet, February 3312.</ref>
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Powerplay]] [[Empire]] [[Arissa Lavigny-Duval]] [[Denton Patreus]] [[Zemina Torval]] [[Prismatic Shield Generator]]}}
+
+[[Category:Powerplay]]
+[[Category:Factions]]
+[[Category:Reference Entries]]

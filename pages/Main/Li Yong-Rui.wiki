@@ -1,0 +1,150 @@
+<!--
+EDFM current-content archive export.
+Title: Li Yong-Rui
+Namespace: 0
+Page ID: 1006
+Revision ID: 8713
+Timestamp: 2026-11-08T05:14:53Z
+Source URL: https://edfieldmanual.com/wiki/Li_Yong-Rui
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=The independent corporate Power led by Sirius Corporation's chief executive, using social expansion and financial leverage to extend its influence.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Powerplay 2.0
+ |reviewed=2026-11-08
+ |reviewer=Sythan
+ |source_quality=Frontier announcements and GalNet reporting for corporate history and Powerplay rules; current Inara dossiers and maintained community documentation for ethos, perks and module order
+ |uncertainty=Perk values and module ranks are current balance data and may change. The historical 15% Sirius ship and outfitting discount is not treated as a verified current loyalty perk; live territory totals and cycle priorities are intentionally omitted.
+}}
+
+'''Li Yong-Rui''' is the chief executive of Sirius Corporation and Sirius Gov, and leads an Independent [[Powerplay]] organisation from Lembava. His power base is corporate rather than superpower-aligned: Sirius combines its own government and security forces with subsidiaries, technology holdings, logistics networks and commercial relationships across inhabited space.<ref name="liInara">[https://inara.cz/elite/power/7/ Li Yong-Rui — Power], Inara. Accessed 7 November 2026.</ref><ref name="fourthPower">[https://web.archive.org/web/20210615160905id_/https://www.elitedangerous.com/news/galnet/sirius-corporation-fourth-superpower Sirius Corporation: The Fourth Superpower?], GalNet, Frontier Developments.</ref>
+
+{| class="wikitable"
+! Profile
+! Details
+|-
+| Leader
+| Dr Li Yong-Rui
+|-
+| Allegiance
+| Independent
+|-
+| Headquarters
+| Lembava
+|-
+| Corporate base
+| Sirius Corporation and Sirius Gov
+|-
+| Acquisition ethos
+| Social
+|-
+| Reinforcement ethos
+| Finance
+|-
+| Undermining ethos
+| Finance
+|-
+| First module unlock
+| [[Pack-Hound Missile Rack]] at loyalty rank 34
+|}
+
+== Biography and corporate base ==
+
+Li Yong-Rui belongs to the Li dynasty, a family with longstanding ties to Sirius. He holds doctorates in physics, politics and economics, and built his career around the view that markets and human behaviour can be modelled and forecast from sufficiently strong data.<ref name="liBio">[https://elite-dangerous.fandom.com/wiki/Li_Yong-Rui Li Yong-Rui], Elite Dangerous Wiki community. Accessed 7 November 2026.</ref> That forecasting reputation supported his rise through Sirius Corporation, where he remains chief executive in current official reporting.<ref name="historyJudge">[https://www.elitedangerous.com/news/galnet/yong-rui-history-will-judge-sirius Yong-Rui: “History Will Judge Sirius”], GalNet, Frontier Developments.</ref>
+
+Sirius Corporation and its governmental subsidiary, Sirius Gov, form his political and economic base. The organisation operates as a megacorporate polity with its own laws, administration and navy, while its wider network reaches into finance, logistics, terraforming, colonisation, technology and diplomacy. Sirius has openly pursued influence comparable to a fourth superpower, although Li remains classified as an Independent Power rather than an Alliance representative.<ref name="fourthPower" />
+
+== Ethos and territorial methods ==
+
+Li Yong-Rui uses '''Social''' activity for acquisition and '''Finance''' for both reinforcement and undermining.<ref name="liInara" /> His organisation therefore expands by building support and relationships, then uses investment, contracts, markets and other forms of financial pressure to consolidate its territory or weaken competitors.
+
+The correct activities and destinations depend on each system's current Powerplay state. Commanders should use the in-game Powerplay map and activity filters instead of relying on a static system list. Pledging, merits, territorial states and the common acquisition, reinforcement and undermining rules are explained on [[Powerplay]].<ref name="ppqa">[https://www.elitedangerous.com/news/powerplay-20-qa Powerplay 2.0 Q&amp;A], Frontier Developments.</ref>
+
+== Loyalty perks ==
+
+At the maximum currently documented levels, Li Yong-Rui's loyalty ladder provides:<ref name="liInara" /><ref name="communityGuide">[https://inara.cz/elite/logbook/84502/ A comprehensive Odyssey guide about Powerplay 2.0], Inara community logbook. Accessed 7 November 2026.</ref>
+
+* free rebuy when destroyed in Li Yong-Rui territory;
+* free rebuy when killed by a ship pledged to another Power outside his territory;
+* '''+100%''' payout when selling exploration data;
+* free rearm, refuel and repair services;
+* a '''+25%''' trade bond on sales;
+* access to the Li Yong-Rui rank decal; and
+* access to all Powerplay modules as their loyalty ranks are reached.
+
+These benefits unlock progressively and remain tied to the pledge. Leaving or defecting removes the active perks and resets loyalty progression, while modules already purchased are retained.<ref name="ppqa" />
+
+=== Historical Sirius discount ===
+
+Li Yong-Rui was historically associated with a '''15% discount on ships and outfitting''' at qualifying markets in Sirius-controlled space. That discount is not listed among the verified current Powerplay 2.0 loyalty perks above. Community reports after the Powerplay rework have described legacy discounts as continuing in some places or behaving inconsistently, but the available evidence does not establish a universal current rule.<ref name="discountDiscussion">[https://forums.frontier.co.uk/threads/15-discount-on-ships-and-modules-in-li-yong-space.629827/ 15% discount on ships and modules in Li Yong space?], Frontier Forums community discussion. Accessed 7 November 2026.</ref>
+
+Commanders should confirm the price shown by the individual market before planning a purchase around the historical discount.
+
+== Module unlock order ==
+
+Every Power can eventually unlock all twelve Powerplay modules. Li Yong-Rui's traditional [[Pack-Hound Missile Rack]] is his first reward, but it is no longer permanently exclusive to his supporters.<ref name="ascendancy">[https://www.elitedangerous.com/news/updates/4-0-19-0 Elite Dangerous: Ascendancy — Available Now], Frontier Developments.</ref>
+
+{| class="wikitable"
+! Loyalty rank
+! Module
+|-
+| 34
+| [[Pack-Hound Missile Rack]]
+|-
+| 39
+| [[Enforcer Cannon]]
+|-
+| 44
+| [[Retributor Beam Laser|Retributor]]
+|-
+| 50
+| Concord Cannon
+|-
+| 57
+| [[Pulse Disruptor]]
+|-
+| 63
+| [[Prismatic Shield Generator]]
+|-
+| 70
+| Containment Missile
+|-
+| 76
+| [[Imperial Hammer]]
+|-
+| 83
+| [[Mining Lance]]
+|-
+| 88
+| [[Cytoscrambler]]
+|-
+| 91
+| [[Pacifier Frag-Cannon]]
+|-
+| 97
+| [[Advanced Plasma Accelerator]]
+|}
+
+The order above follows the maintained Powerplay 2.0 reward matrix and should be checked after progression or balance updates.<ref name="communityGuide" />
+
+== History and relationships ==
+
+Sirius expanded its political reach through cross-superpower commerce, the Galactic Summit, Marlinist resettlement initiatives and major technology and infrastructure contracts. Li's most important Alliance relationship was with [[Edmund Mahon]], who supported a strategic anti-xeno defence pact between the Alliance and Sirius.
+
+[[Nakato Kaine]] became the pact's leading opponent. She argued that Sirius was using defence cooperation to gain excessive military and commercial influence, while Li dismissed her campaign as partisan. After an Assembly inquiry and prolonged political pressure, the Alliance ended the agreement in 3311 and directed Sirius to reduce its military and logistics role.<ref name="inquiry">[https://www.elitedangerous.com/news/galnet/sirius-ceo-faces-assembly-inquiry Sirius CEO Faces Assembly Inquiry], GalNet, Frontier Developments.</ref><ref name="pactEnds">[https://www.elitedangerous.com/news/galnet/alliance-assembly-votes-to-end-sirius-defence-pact Alliance Assembly Votes to End Sirius Defence Pact], GalNet, Frontier Developments.</ref> This ended the formal partnership but did not remove Sirius Corporation's extensive commercial relationships in Alliance space.
+
+Sirius also faces strategic competition from other technology companies. Achilles Aerospace's development of SCO Frame Shift Drive technology challenged Sirius's longstanding position in Frame Shift Drive production, prompting reports of market disruption and an attempted takeover of its competitor.<ref name="siriusStock">[https://elitedangerous.com/news/galnet/sirius-stock-price-fluctuates-after-unhinged-trading-patterns Sirius Stock Price Fluctuates After ‘Unhinged’ Trading Patterns], GalNet, Frontier Developments.</ref> The rivalry is important to Li's position because Sirius's political influence has always been closely tied to its technological and commercial reach.
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Powerplay]] [[Edmund Mahon]] [[Nakato Kaine]]}}
+
+[[Category:Powerplay]]
+[[Category:Factions]]
+[[Category:Reference Entries]]

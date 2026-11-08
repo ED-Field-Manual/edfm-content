@@ -1,0 +1,142 @@
+<!--
+EDFM current-content archive export.
+Title: Zemina Torval
+Namespace: 0
+Page ID: 1003
+Revision ID: 8710
+Timestamp: 2026-11-08T05:14:43Z
+Source URL: https://edfieldmanual.com/wiki/Zemina_Torval
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=An Imperial senator and industrial dynast whose Power combines traditional hierarchy, mining interests and economic influence.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Powerplay 2.0
+ |reviewed=2026-11-08
+ |reviewer=Sythan
+ |source_quality=Frontier biographies and GalNet corporate history, supported by maintained current Powerplay data
+ |uncertainty=Perk values and module order are current community-maintained data and may change with balance updates.
+}}
+
+'''Zemina Torval''' is a senior [[Empire|Imperial]] senator, matriarch of the Torval family and active [[Powerplay]] leader headquartered in Synteini. Her political identity is tied to traditional Imperial hierarchy, mining and transport interests, inherited wealth and a strong defence of Imperial slavery.<ref name="meet-torval">Frontier Developments, [https://community.elitedangerous.com/galnet/uid/55bf2cf49657ba951f237d68 Meet the Powers — Zemina Torval].</ref>
+
+== Profile ==
+
+{| class="wikitable"
+! Field
+! Details
+|-
+| Leader
+| Senator Zemina Torval
+|-
+| Allegiance
+| [[Empire]]
+|-
+| Power headquarters
+| Synteini
+|-
+| Born
+| 3177
+|-
+| Imperial office
+| Senator of Synteini
+|-
+| Political identity
+| Traditionalist; industrial and dynastic power broker
+|}
+
+Torval built much of her influence through the mining sector and the Imperial Senate. She formerly controlled Mastopolos Mining and later Torval Mining Ltd. In November 3309 she transferred her controlling interest in Torval Mining to her eldest daughter, Constantia Torval, who became the company's chief executive. Zemina therefore remains the dynasty's senior political figure but is not described here as the current CEO.<ref name="ownership-change">Frontier Developments, [https://www.elitedangerous.com/news/galnet/torval-mining-campaign-marks-ownership-change Torval Mining Campaign Marks Ownership Change], GalNet, 16 November 3309.</ref>
+
+== Background and political position ==
+
+Torval's base combines traditional Senate influence with mining, transport and corporate interests. She defends the Empire's class system and argues that Imperial slavery is a foundational institution whose obligations run both ways: slaves owe service, while owners are expected to provide proper care.
+
+Her methods favour patience, negotiation and economic pressure, but she also commands substantial military resources. This makes her less publicly martial than Denton Patreus without making her dependent on commerce alone.
+
+== Powerplay ethos and methods ==
+
+Torval's current Powerplay 2.0 ethos favours covert reinforcement and financial acquisition or undermining:<ref name="inara-torval">INARA, [https://inara.cz/elite/power/8/ Zemina Torval — Power dossier], accessed 7 November 2026.</ref>
+
+{| class="wikitable"
+! Strategic context
+! Favoured ethos
+! Typical emphasis
+|-
+| Acquisition
+| Finance
+| Trade, mining, Power commodity transport and eligible data sales
+|-
+| Reinforcement
+| Covert
+| Applicable scans, data retrieval, malware, holoscreen and settlement interference
+|-
+| Undermining
+| Finance
+| Trade, mining and Power commodity activity directed against an eligible rival position
+|}
+
+Only activities permitted by the current strategic context contribute. The shared mechanics belong on [[Powerplay]]; commanders should use the Galaxy Map and Local Activities panel to confirm the eligible work in a specific system.
+
+== Maximum Power perks ==
+
+At maximum loyalty, Torval's territory perks provide:<ref name="pp-guide">CMDR Hanchen, [https://inara.cz/elite/logbook/84502/ A comprehensive Odyssey guide about Powerplay 2.0], INARA, accessed 7 November 2026.</ref>
+
+* '''+45%''' payouts for mined commodities in Torval-controlled systems;
+* '''+50%''' trade profits for Imperial Slaves in Torval-controlled systems;
+* '''+20%''' general trade profits in Torval-controlled systems.
+
+These benefits are additional to the common loyalty rewards. Commodity coverage and values should be checked in-game after major balance updates.
+
+== Powerplay module order ==
+
+Every Live Power can eventually unlock every Powerplay module. Torval grants her signature [[Mining Lance]] first.<ref name="ascendancy">Frontier Developments, [https://www.elitedangerous.com/news/updates/4-0-19-0 Elite Dangerous: Ascendancy — Available Now], 31 October 2024.</ref><ref name="pp-guide" />
+
+{| class="wikitable"
+! Loyalty rank
+! Module
+|-
+| 34 || [[Mining Lance]]
+|-
+| 39 || [[Advanced Plasma Accelerator]]
+|-
+| 44 || [[Imperial Hammer]]
+|-
+| 50 || [[Prismatic Shield Generator]]
+|-
+| 57 || Containment Missile
+|-
+| 63 || [[Pack-Hound Missile Rack]]
+|-
+| 70 || [[Enforcer Cannon]]
+|-
+| 76 || [[Pacifier Frag-Cannon]]
+|-
+| 83 || [[Retributor Beam Laser|Retributor]]
+|-
+| 88 || [[Cytoscrambler]]
+|-
+| 91 || [[Pulse Disruptor]]
+|-
+| 97 || Concord Cannon
+|}
+
+== History and relationships ==
+
+Torval's influence grew through Mastopolos Mining, Imperial slavery and her Senate position. She later created Torval-Mastopolos Mining and separated her interests into Torval Mining Ltd before transferring control to Constantia. The corporate handover changed her formal business position without ending her role as a senator, family matriarch or Powerplay leader.<ref name="new-corporation">Frontier Developments, [https://www.elitedangerous.com/news/galnet/zemina-torval-creates-new-corporation Zemina Torval Creates New Corporation], GalNet.</ref><ref name="ownership-change" />
+
+[[Aisling Duval]] is her clearest ideological opponent within the Empire because Aisling campaigns against the institution Torval defends. Torval has historically cooperated with [[Denton Patreus]] when their political and economic interests aligned. Her relationship with the Mastopolos family has combined kinship, business partnership and corporate rivalry, while Constantia now leads Torval Mining.
+
+Torval-aligned forces were not listed among the members of the February 3312 informal non-aggression coalition around HIP 87621. That absence does not by itself establish hostility or a formal policy against the agreement.<ref name="hip-coalition">Frontier Developments, [https://www.elitedangerous.com/news/galnet/coalition-announces-non-aggression-pact-amid-hip-87621-hostilities Coalition Announces Non-Aggression Pact Amid HIP 87621 Hostilities], GalNet, February 3312.</ref>
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Powerplay]] [[Empire]] [[Aisling Duval]] [[Arissa Lavigny-Duval]] [[Denton Patreus]] [[Mining Lance]]}}
+
+[[Category:Powerplay]]
+[[Category:Factions]]
+[[Category:Reference Entries]]

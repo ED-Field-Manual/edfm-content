@@ -1,0 +1,146 @@
+<!--
+EDFM current-content archive export.
+Title: Nakato Kaine
+Namespace: 0
+Page ID: 1005
+Revision ID: 8712
+Timestamp: 2026-11-08T05:14:50Z
+Source URL: https://edfieldmanual.com/wiki/Nakato_Kaine
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=The Alliance councillor whose Powerplay movement promotes local autonomy, public accountability and resistance to megacorporate influence.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Powerplay 2.0
+ |reviewed=2026-11-08
+ |reviewer=Sythan
+ |source_quality=Frontier announcements and GalNet reporting for Kaine's political history; current Inara dossiers and maintained community documentation for ethos, perks and module order
+ |uncertainty=Perk values and module ranks are current balance data and may change; live territory totals and cycle priorities are intentionally omitted.
+}}
+
+'''Nakato Kaine''' is the Alliance Assembly councillor for Tionisla and one of the Alliance's two pledgeable [[Powerplay]] Powers. Her movement presents itself as a counterweight to centralisation and corporate influence, combining socially oriented expansion with covert reinforcement and political pressure against rivals.<ref name="kaineProfile">[https://cms.zaonce.net/en-GB/node/6066 Elite Dangerous: Ascendancy — Available Now], Frontier Developments CMS.</ref><ref name="kaineInara">[https://inara.cz/elite/power/13/ Nakato Kaine — Power], Inara. Accessed 7 November 2026.</ref>
+
+{| class="wikitable"
+! Profile
+! Details
+|-
+| Leader
+| Nakato Kaine
+|-
+| Allegiance
+| Alliance
+|-
+| Headquarters
+| Tionisla
+|-
+| Position
+| Alliance Assembly councillor for Tionisla
+|-
+| Acquisition ethos
+| Social
+|-
+| Reinforcement ethos
+| Covert
+|-
+| Undermining ethos
+| Social
+|-
+| First module unlock
+| Concord Cannon at loyalty rank 34
+|}
+
+== Biography and political base ==
+
+Kaine represents Tionisla in the Alliance Assembly and built strong support throughout the Old Worlds before challenging Edmund Mahon for Prime Minister in 3307.<ref name="kaineSupport">[https://www.elitedangerous.com/news/galnet/jerome-archer-and-nakato-kaine-increase-supporters Jerome Archer and Nakato Kaine Increase Supporters], GalNet, Frontier Developments.</ref> She was defeated after both candidates organised community initiatives to demonstrate their support.<ref name="election">[https://www.elitedangerous.com/news/galnet/alliance-election-candidates-announce-community-drives Alliance Election Candidates Announce Community Drives], GalNet, Frontier Developments.</ref>
+
+Her political base includes Old Worlds communities, local businesses and Assembly members who favour member-system autonomy, more direct public participation and reduced dependence on outside megacorporations. Frontier's Powerplay profile describes her as a defender of ordinary citizens against growing corporate influence.<ref name="kaineProfile" />
+
+== Ethos and territorial methods ==
+
+Kaine uses '''Social''' activity for acquisition and undermining, while '''Covert''' activity is her preferred reinforcement method.<ref name="kaineInara" /> This distinguishes her from Mahon's finance-led organisation: Kaine's territorial programme is framed around public support, local institutions and political mobilisation, with covert operations used to secure established holdings.
+
+Qualifying activity still depends on system state and strategic context. The in-game Powerplay map identifies where social or covert work can contribute, and commanders can also encounter relevant trade, exploration, combat, hacking, repair and data activities under the wider Powerplay rules. Shared mechanics belong on [[Powerplay]], rather than being repeated here.<ref name="ppqa">[https://www.elitedangerous.com/news/powerplay-20-qa Powerplay 2.0 Q&amp;A], Frontier Developments.</ref>
+
+== Loyalty perks ==
+
+At the maximum currently documented levels, Kaine's loyalty ladder provides:<ref name="kaineInara" /><ref name="communityGuide">[https://inara.cz/elite/logbook/84502/ A comprehensive Odyssey guide about Powerplay 2.0], Inara community logbook. Accessed 7 November 2026.</ref>
+
+* free rebuy when destroyed in Kaine territory;
+* free rebuy when killed by a ship pledged to another Power outside Kaine territory;
+* '''+50%''' profit from mining commodities;
+* '''+150%''' minor-faction reputation gain;
+* '''+120%''' Search and Rescue payout;
+* access to the Kaine rank decal; and
+* access to all Powerplay modules as their loyalty ranks are reached.
+
+The benefits unlock progressively and remain active only while pledged. Leaving or defecting removes the perks and resets loyalty progression, while previously purchased modules are retained.<ref name="ppqa" />
+
+== Module unlock order ==
+
+Every Power can eventually unlock all twelve Powerplay modules. Kaine's first reward is the Concord Cannon, but it is not permanently exclusive to her supporters.<ref name="ascendancy">[https://www.elitedangerous.com/news/updates/4-0-19-0 Elite Dangerous: Ascendancy — Available Now], Frontier Developments.</ref>
+
+{| class="wikitable"
+! Loyalty rank
+! Module
+|-
+| 34
+| Concord Cannon
+|-
+| 39
+| [[Retributor Beam Laser|Retributor]]
+|-
+| 44
+| [[Pack-Hound Missile Rack]]
+|-
+| 50
+| [[Pulse Disruptor]]
+|-
+| 57
+| [[Enforcer Cannon]]
+|-
+| 63
+| Containment Missile
+|-
+| 70
+| [[Prismatic Shield Generator]]
+|-
+| 76
+| [[Imperial Hammer]]
+|-
+| 83
+| [[Advanced Plasma Accelerator]]
+|-
+| 88
+| [[Pacifier Frag-Cannon]]
+|-
+| 91
+| [[Cytoscrambler]]
+|-
+| 97
+| [[Mining Lance]]
+|}
+
+The order above follows the maintained Powerplay 2.0 reward matrix and should be checked after progression or balance updates.<ref name="communityGuide" />
+
+== History and relationships ==
+
+[[Edmund Mahon]] is Kaine's principal political and Powerplay rival. She challenged his expansionist administration in the 3307 election and continued to oppose what she regarded as excessive centralisation, weak member-system consent and dependence on corporate partners.
+
+Her defining campaign concerned the strategic defence pact between the Alliance and Sirius Corporation. Kaine argued that the pact allowed Sirius to gain military, logistical and commercial leverage over Alliance systems, and she pressed for scrutiny after disputes surrounding Reorte and the pact's performance.<ref name="reorte">[https://www.elitedangerous.com/news/galnet/mahon-reprimanded-over-reorte-conflict Mahon Reprimanded over Reorte Conflict], GalNet, Frontier Developments.</ref><ref name="inquiry">[https://www.elitedangerous.com/news/galnet/sirius-ceo-faces-assembly-inquiry Sirius CEO Faces Assembly Inquiry], GalNet, Frontier Developments.</ref> Her motion ultimately succeeded in 3311, when the Assembly ended the agreement and ordered Sirius to reduce its military and logistics presence.<ref name="pactEnds">[https://www.elitedangerous.com/news/galnet/alliance-assembly-votes-to-end-sirius-defence-pact Alliance Assembly Votes to End Sirius Defence Pact], GalNet, Frontier Developments.</ref>
+
+[[Li Yong-Rui]] is therefore Kaine's most significant corporate opponent. He publicly rejected her initiatives as partisan, while she treated Sirius Corporation's cross-superpower reach as a threat to Alliance independence. After the pact ended, rival trade blocs formed around Kaine and Mahon; Mahon's coalition won the June 3311 contest, but Kaine retained her own Powerplay organisation and political base.<ref name="tradeWin">[https://web.archive.org/web/20250610095152id_/https://www.elitedangerous.com/news/galnet/mahon-gains-advantage-alliance-trade-boom Mahon Gains Advantage in Alliance Trade Boom], GalNet, Frontier Developments.</ref>
+
+The rivalry with Mahon does not prevent temporary cooperation. Both Powers joined an informal non-aggression coalition during the HIP 87621 enclave conflict when they shared a wider security interest.<ref name="coalition">[https://www.elitedangerous.com/news/galnet/coalition-announces-non-aggression-pact-amid-hip-87621-hostilities Coalition Announces Non-Aggression Pact Amid HIP 87621 Hostilities], GalNet, Frontier Developments.</ref>
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Powerplay]] [[Edmund Mahon]] [[Li Yong-Rui]]}}
+
+[[Category:Powerplay]]
+[[Category:Factions]]
+[[Category:Reference Entries]]

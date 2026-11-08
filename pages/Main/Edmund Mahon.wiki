@@ -1,0 +1,144 @@
+<!--
+EDFM current-content archive export.
+Title: Edmund Mahon
+Namespace: 0
+Page ID: 1004
+Revision ID: 8711
+Timestamp: 2026-11-08T05:14:46Z
+Source URL: https://edfieldmanual.com/wiki/Edmund_Mahon
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=The Alliance Prime Minister whose Powerplay network combines finance-led expansion, commercial reinforcement and military pressure against rivals.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Powerplay 2.0
+ |reviewed=2026-11-08
+ |reviewer=Sythan
+ |source_quality=Frontier announcements and GalNet reporting for Powerplay rules and political history; current Inara dossiers and maintained community documentation for ethos, perks and module order
+ |uncertainty=Perk values and module ranks are current balance data and may change; live territory totals and cycle priorities are intentionally omitted.
+}}
+
+'''Edmund Mahon''' is the Prime Minister of the Alliance and one of its two pledgeable [[Powerplay]] Powers. His organisation reflects the commercial and diplomatic priorities of his government: trade, investment and contracts drive expansion and consolidation, while combat is used to weaken opposing Powers.<ref name="mahonInara">[https://inara.cz/elite/power/3/ Edmund Mahon — Power], Inara. Accessed 7 November 2026.</ref>
+
+{| class="wikitable"
+! Profile
+! Details
+|-
+| Leader
+| Edmund Mahon
+|-
+| Allegiance
+| Alliance
+|-
+| Headquarters
+| Gateway
+|-
+| Position
+| Alliance Prime Minister
+|-
+| Acquisition ethos
+| Finance
+|-
+| Reinforcement ethos
+| Finance
+|-
+| Undermining ethos
+| Combat
+|-
+| First module unlock
+| [[Retributor Beam Laser|Retributor]] at loyalty rank 34
+|}
+
+== Biography and political base ==
+
+Mahon is a career politician from Diso with an academic and public-service background. He became Prime Minister in 3301 and defeated Nakato Kaine in the 3307 election to secure a second six-year term.<ref name="mahonBio">[https://elite-dangerous.fandom.com/wiki/Edmund_Mahon Edmund Mahon], Elite Dangerous Wiki community. Accessed 7 November 2026.</ref><ref name="election">[https://www.elitedangerous.com/news/galnet/alliance-election-candidates-announce-community-drives Alliance Election Candidates Announce Community Drives], GalNet, Frontier Developments.</ref> Current GalNet reporting continues to identify him as the Alliance's head of government.<ref name="tradeBlocs">[https://web.archive.org/web/20250602012658id_/https://www.elitedangerous.com/news/galnet/trading-blocs-compete-alliance-space Trading Blocs Compete in Alliance Space], GalNet, Frontier Developments.</ref>
+
+His political base lies in the Alliance administration and the Assembly coalition supporting the sitting Prime Minister. Economically, Mahon's supporters favour high-volume trade, industrial growth and agreements that connect businesses across Alliance space. This makes his Power a natural fit for commanders who want their Powerplay activity to overlap with commerce and conventional political influence.
+
+== Ethos and territorial methods ==
+
+Mahon uses '''Finance''' for both acquisition and reinforcement, and '''Combat''' for undermining.<ref name="mahonInara" /> Finance-oriented work is therefore his defining approach to extending and strengthening territory, while hostile military activity is the preferred way to reduce a rival's control.
+
+The applicable systems and activities depend on the current strategic map. Commanders should use the in-game Powerplay map and activity filters rather than treating any fixed list of systems as permanent. The shared rules for pledging, merits, acquisition, reinforcement and undermining are covered on [[Powerplay]].<ref name="ppqa">[https://www.elitedangerous.com/news/powerplay-20-qa Powerplay 2.0 Q&amp;A], Frontier Developments.</ref>
+
+== Loyalty perks ==
+
+At the maximum currently documented levels, Mahon's loyalty ladder provides:<ref name="mahonInara" /><ref name="communityGuide">[https://inara.cz/elite/logbook/84502/ A comprehensive Odyssey guide about Powerplay 2.0], Inara community logbook. Accessed 7 November 2026.</ref>
+
+* free rebuy when destroyed in Mahon territory;
+* free rebuy when killed by a ship pledged to another Power outside Mahon territory;
+* '''+100%''' minor-faction reputation gain;
+* a '''+50%''' trade bond for rare-goods sales;
+* a '''+25%''' trade bond on other sales;
+* access to the Mahon rank decal; and
+* access to all Powerplay modules as their loyalty ranks are reached.
+
+These benefits unlock progressively and remain tied to the pledge. Leaving or defecting removes the active perks and resets loyalty progression, although modules already purchased remain in the commander's possession.<ref name="ppqa" />
+
+== Module unlock order ==
+
+Every Power can eventually unlock all twelve Powerplay modules. The Power determines their order; the first reward is no longer permanently exclusive.<ref name="ascendancy">[https://www.elitedangerous.com/news/updates/4-0-19-0 Elite Dangerous: Ascendancy — Available Now], Frontier Developments.</ref>
+
+{| class="wikitable"
+! Loyalty rank
+! Module
+|-
+| 34
+| [[Retributor Beam Laser|Retributor]]
+|-
+| 39
+| Concord Cannon
+|-
+| 44
+| [[Pack-Hound Missile Rack]]
+|-
+| 50
+| [[Enforcer Cannon]]
+|-
+| 57
+| [[Prismatic Shield Generator]]
+|-
+| 63
+| Containment Missile
+|-
+| 70
+| [[Pulse Disruptor]]
+|-
+| 76
+| [[Advanced Plasma Accelerator]]
+|-
+| 83
+| [[Mining Lance]]
+|-
+| 88
+| [[Imperial Hammer]]
+|-
+| 91
+| [[Pacifier Frag-Cannon]]
+|-
+| 97
+| [[Cytoscrambler]]
+|}
+
+The order above follows the maintained Powerplay 2.0 reward matrix and should be checked after progression or balance updates.<ref name="communityGuide" />
+
+== History and relationships ==
+
+Mahon's principal internal rival is [[Nakato Kaine]]. Kaine challenged him in the 3307 election and has opposed his preference for central coordination, corporate partnerships and the Alliance's indirect electoral model. Their disagreement became especially visible over Mahon's strategic anti-xeno partnership with Sirius Corporation.
+
+Kaine argued that the Alliance–Sirius defence pact gave a megacorporation too much influence over member systems. The Assembly ended the agreement in 3311 and directed Sirius to reduce its military and logistics role.<ref name="pactEnds">[https://www.elitedangerous.com/news/galnet/alliance-assembly-votes-to-end-sirius-defence-pact Alliance Assembly Votes to End Sirius Defence Pact], GalNet, Frontier Developments.</ref> The resulting contract competition produced rival trading blocs aligned with Mahon and Kaine; Mahon's bloc won the June 3311 trade contest.<ref name="tradeBlocs" /><ref name="tradeWin">[https://web.archive.org/web/20250610095152id_/https://www.elitedangerous.com/news/galnet/mahon-gains-advantage-alliance-trade-boom Mahon Gains Advantage in Alliance Trade Boom], GalNet, Frontier Developments.</ref>
+
+[[Li Yong-Rui]] was Mahon's main corporate partner during the defence pact. Its termination weakened their formal strategic relationship, but Sirius Corporation remains an important commercial actor across Alliance space. Mahon and Kaine have also shown that their rivalry is not absolute: both joined an informal non-aggression coalition during the HIP 87621 enclave conflict when wider security interests aligned.<ref name="coalition">[https://www.elitedangerous.com/news/galnet/coalition-announces-non-aggression-pact-amid-hip-87621-hostilities Coalition Announces Non-Aggression Pact Amid HIP 87621 Hostilities], GalNet, Frontier Developments.</ref>
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Powerplay]] [[Nakato Kaine]] [[Li Yong-Rui]]}}
+
+[[Category:Powerplay]]
+[[Category:Factions]]
+[[Category:Reference Entries]]

@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Module:Data/PageSections
 Namespace: 828
 Page ID: 728
-Revision ID: 6369
-Timestamp: 2026-10-07T11:19:05Z
+Revision ID: 8704
+Timestamp: 2026-11-08T05:13:45Z
 Source URL: https://edfieldmanual.com/wiki/Module:Data/PageSections
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -229,6 +229,18 @@ return {
 		["Reduced Tool Battery Consumption"] = "Odyssey",
 		["Weapon Component"] = "Odyssey",
 		["Powerplay"] = "Powerplay",
+		["Aisling Duval"] = "Powerplay",
+		["Archon Delaine"] = "Powerplay",
+		["Arissa Lavigny-Duval"] = "Powerplay",
+		["Denton Patreus"] = "Powerplay",
+		["Edmund Mahon"] = "Powerplay",
+		["Felicia Winters"] = "Powerplay",
+		["Jerome Archer"] = "Powerplay",
+		["Li Yong-Rui"] = "Powerplay",
+		["Nakato Kaine"] = "Powerplay",
+		["Pranav Antal"] = "Powerplay",
+		["Yuri Grom"] = "Powerplay",
+		["Zemina Torval"] = "Powerplay",
 		["Colonisation"] = "Colonisation",
 		["Trailblazers"] = "Colonisation",
 		["Operations"] = "Operations",

@@ -1,5 +1,5 @@
 {
-  "exported_at_utc": "November 7, 2026 at 21:33:06 UTC",
+  "exported_at_utc": "November 8, 2026 at 05:17:53 UTC",
   "source_api": "https://edfieldmanual.com/api.php",
   "export_type": "current public wikitext only",
   "excluded": [
@@ -24,7 +24,7 @@
     "14": "Category",
     "828": "Module"
   },
-  "page_count": 967,
+  "page_count": 979,
   "pages": [
     {
       "title": "AX Missile Rack",
@@ -70,6 +70,15 @@
       "timestamp": "2026-09-20T15:00:59Z",
       "fullurl": "https://edfieldmanual.com/wiki/Advanced_Plasma_Accelerator",
       "path": "pages/Main/Advanced Plasma Accelerator.wiki"
+    },
+    {
+      "title": "Aisling Duval",
+      "ns": 0,
+      "pageid": 1000,
+      "rev_id": 8707,
+      "timestamp": "2026-11-08T05:14:33Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Aisling_Duval",
+      "path": "pages/Main/Aisling Duval.wiki"
     },
     {
       "title": "Albidum Sinuous Tubers",
@@ -142,6 +151,24 @@
       "timestamp": "2026-11-07T21:28:48Z",
       "fullurl": "https://edfieldmanual.com/wiki/Anaconda_Mk_II",
       "path": "pages/Main/Anaconda Mk II.wiki"
+    },
+    {
+      "title": "Archon Delaine",
+      "ns": 0,
+      "pageid": 1008,
+      "rev_id": 8715,
+      "timestamp": "2026-11-08T05:14:59Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Archon_Delaine",
+      "path": "pages/Main/Archon Delaine.wiki"
+    },
+    {
+      "title": "Arissa Lavigny-Duval",
+      "ns": 0,
+      "pageid": 1001,
+      "rev_id": 8708,
+      "timestamp": "2026-11-08T05:14:37Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Arissa_Lavigny-Duval",
+      "path": "pages/Main/Arissa Lavigny-Duval.wiki"
     },
     {
       "title": "Armour",
@@ -720,6 +747,15 @@
       "path": "pages/Main/Demolition Unlimited.wiki"
     },
     {
+      "title": "Denton Patreus",
+      "ns": 0,
+      "pageid": 1002,
+      "rev_id": 8709,
+      "timestamp": "2026-11-08T05:14:40Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Denton_Patreus",
+      "path": "pages/Main/Denton Patreus.wiki"
+    },
+    {
       "title": "Detailed Surface Scanner",
       "ns": 0,
       "pageid": 366,
@@ -799,6 +835,15 @@
       "timestamp": "2026-09-15T01:34:32Z",
       "fullurl": "https://edfieldmanual.com/wiki/Economy_Class_Passenger_Cabin",
       "path": "pages/Main/Economy Class Passenger Cabin.wiki"
+    },
+    {
+      "title": "Edmund Mahon",
+      "ns": 0,
+      "pageid": 1004,
+      "rev_id": 8711,
+      "timestamp": "2026-11-08T05:14:46Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Edmund_Mahon",
+      "path": "pages/Main/Edmund Mahon.wiki"
     },
     {
       "title": "Eleanor Bresa",
@@ -1060,6 +1105,15 @@
       "timestamp": "2026-09-13T02:00:19Z",
       "fullurl": "https://edfieldmanual.com/wiki/Faster_Boot_Sequence",
       "path": "pages/Main/Faster Boot Sequence.wiki"
+    },
+    {
+      "title": "Felicia Winters",
+      "ns": 0,
+      "pageid": 999,
+      "rev_id": 8706,
+      "timestamp": "2026-11-08T05:14:30Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Felicia_Winters",
+      "path": "pages/Main/Felicia Winters.wiki"
     },
     {
       "title": "Felicity Farseer",
@@ -1620,6 +1674,15 @@
       "path": "pages/Main/Iridium.wiki"
     },
     {
+      "title": "Jerome Archer",
+      "ns": 0,
+      "pageid": 998,
+      "rev_id": 8705,
+      "timestamp": "2026-11-08T05:13:47Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Jerome_Archer",
+      "path": "pages/Main/Jerome Archer.wiki"
+    },
+    {
       "title": "Jude Navarro",
       "ns": 0,
       "pageid": 130,
@@ -1735,6 +1798,15 @@
       "timestamp": "2026-09-24T15:18:40Z",
       "fullurl": "https://edfieldmanual.com/wiki/Lei_Cheung",
       "path": "pages/Main/Lei Cheung.wiki"
+    },
+    {
+      "title": "Li Yong-Rui",
+      "ns": 0,
+      "pageid": 1006,
+      "rev_id": 8713,
+      "timestamp": "2026-11-08T05:14:53Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Li_Yong-Rui",
+      "path": "pages/Main/Li Yong-Rui.wiki"
     },
     {
       "title": "Life Support",
@@ -2133,6 +2205,15 @@
       "path": "pages/Main/Multicannon.wiki"
     },
     {
+      "title": "Nakato Kaine",
+      "ns": 0,
+      "pageid": 1005,
+      "rev_id": 8712,
+      "timestamp": "2026-11-08T05:14:50Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Nakato_Kaine",
+      "path": "pages/Main/Nakato Kaine.wiki"
+    },
+    {
       "title": "Nanite Torpedo Pylon",
       "ns": 0,
       "pageid": 545,
@@ -2433,10 +2514,19 @@
       "title": "Powerplay",
       "ns": 0,
       "pageid": 59,
-      "rev_id": 2098,
-      "timestamp": "2026-08-24T21:27:25Z",
+      "rev_id": 8719,
+      "timestamp": "2026-11-08T05:17:20Z",
       "fullurl": "https://edfieldmanual.com/wiki/Powerplay",
       "path": "pages/Main/Powerplay.wiki"
+    },
+    {
+      "title": "Pranav Antal",
+      "ns": 0,
+      "pageid": 1007,
+      "rev_id": 8714,
+      "timestamp": "2026-11-08T05:14:56Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Pranav_Antal",
+      "path": "pages/Main/Pranav Antal.wiki"
     },
     {
       "title": "Prasinum Metallic Crystals",
@@ -3717,6 +3807,15 @@
       "path": "pages/Main/Yi Shen.wiki"
     },
     {
+      "title": "Yuri Grom",
+      "ns": 0,
+      "pageid": 1009,
+      "rev_id": 8716,
+      "timestamp": "2026-11-08T05:15:03Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Yuri_Grom",
+      "path": "pages/Main/Yuri Grom.wiki"
+    },
+    {
       "title": "Zacariah Nemo",
       "ns": 0,
       "pageid": 117,
@@ -3724,6 +3823,15 @@
       "timestamp": "2026-09-24T15:19:34Z",
       "fullurl": "https://edfieldmanual.com/wiki/Zacariah_Nemo",
       "path": "pages/Main/Zacariah Nemo.wiki"
+    },
+    {
+      "title": "Zemina Torval",
+      "ns": 0,
+      "pageid": 1003,
+      "rev_id": 8710,
+      "timestamp": "2026-11-08T05:14:43Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Zemina_Torval",
+      "path": "pages/Main/Zemina Torval.wiki"
     },
     {
       "title": "Elite Dangerous Field Manual:About the Field Manual",
@@ -5151,8 +5259,8 @@
       "title": "Template:GalNet Archive",
       "ns": 10,
       "pageid": 736,
-      "rev_id": 8674,
-      "timestamp": "2026-11-07T21:20:02Z",
+      "rev_id": 8703,
+      "timestamp": "2026-11-08T05:00:03Z",
       "fullurl": "https://edfieldmanual.com/wiki/Template:GalNet_Archive",
       "path": "pages/Template/Template__GalNet Archive.wiki"
     },
@@ -5214,8 +5322,8 @@
       "title": "Template:Homepage Recent Updates",
       "ns": 10,
       "pageid": 738,
-      "rev_id": 7503,
-      "timestamp": "2026-10-22T16:57:29Z",
+      "rev_id": 8682,
+      "timestamp": "2026-11-07T22:00:16Z",
       "fullurl": "https://edfieldmanual.com/wiki/Template:Homepage_Recent_Updates",
       "path": "pages/Template/Template__Homepage Recent Updates.wiki"
     },
@@ -6627,8 +6735,8 @@
       "title": "Category:Powerplay",
       "ns": 14,
       "pageid": 11,
-      "rev_id": 11,
-      "timestamp": "2026-08-06T19:51:21Z",
+      "rev_id": 8718,
+      "timestamp": "2026-11-08T05:15:09Z",
       "fullurl": "https://edfieldmanual.com/wiki/Category:Powerplay",
       "path": "pages/Category/Category__Powerplay.wiki"
     },
@@ -7509,8 +7617,8 @@
       "title": "Module:Data/PageSections",
       "ns": 828,
       "pageid": 728,
-      "rev_id": 6369,
-      "timestamp": "2026-10-07T11:19:05Z",
+      "rev_id": 8704,
+      "timestamp": "2026-11-08T05:13:45Z",
       "fullurl": "https://edfieldmanual.com/wiki/Module:Data/PageSections",
       "path": "pages/Module/Module__Data∕PageSections.wiki"
     },

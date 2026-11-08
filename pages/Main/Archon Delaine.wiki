@@ -1,0 +1,131 @@
+<!--
+EDFM current-content archive export.
+Title: Archon Delaine
+Namespace: 0
+Page ID: 1008
+Revision ID: 8715
+Timestamp: 2026-11-08T05:14:59Z
+Source URL: https://edfieldmanual.com/wiki/Archon_Delaine
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=The Pirate King of the Kumo Crew, an independent criminal Power built on piracy, intimidation and protection rackets.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Current Powerplay 2.0 profile
+ |reviewed=2026-11-08
+ |reviewer=Sythan
+ |source_quality=Frontier Powerplay documentation and GalNet history, supported by current INARA and maintained community module data
+ |uncertainty=Accounts of Delaine's childhood conflict with one another, alleged financial links with Sirius remain unproven, and reward details or module order may change through balance updates.
+}}
+
+'''Archon Delaine''' is the self-styled '''Pirate King''' and sovereign of the '''Kumo nation'''. He rules through the '''Kumo Crew''', a criminal syndicate that combines piracy and black-market trade with territorial government, tribute and protection arrangements.<ref name="delaineProfile">[https://community.elitedangerous.com/galnet/uid/556dde899657ba087533fa1c Galaxy's Most Wanted: Who is Archon Delaine?], Frontier Developments / GalNet Community Archive. Accessed 8 November 2026.</ref>
+
+{| class="wikitable"
+|+ Power profile
+! Field
+! Details
+|-
+| Leader
+| Archon Delaine
+|-
+| Organisation
+| Kumo Crew and Kumo nation
+|-
+| Allegiance
+| Independent
+|-
+| Powerplay headquarters
+| Harma<ref name="delaineInara">[https://inara.cz/elite/power/10/ Archon Delaine – Power], INARA. Accessed 8 November 2026.</ref>
+|-
+| Political character
+| Criminal syndicate and territorial polity
+|-
+| Acquisition ethos
+| Combat
+|-
+| Reinforcement ethos
+| Combat
+|-
+| Undermining ethos
+| Combat
+|-
+| Signature module
+| [[Cytoscrambler]]
+|}
+
+== Biography and the Kumo Crew ==
+
+Delaine was born in 3249 and took control of the Kumo Crew in 3264, when he was fifteen. The established account states that he killed the preceding Pirate Lord with his bare hands and then survived repeated challenges to his authority. He reorganised a loose collection of pirate crews into one of the galaxy's major criminal organisations.<ref name="delaineProfile" />
+
+Stories about Delaine's childhood and upbringing are inconsistent and often read as criminal folklore. They should not be treated with the same certainty as his documented seizure of the Kumo Crew or his later public campaigns. The legend surrounding his early life nevertheless forms part of the image through which he maintains fear and personal authority.<ref name="delaineWiki">[https://elite-dangerous.fandom.com/wiki/Archon_Delaine Archon Delaine], Elite Dangerous Wiki. Accessed 8 November 2026.</ref>
+
+The Kumo Crew profits from piracy, narcotics, illicit markets, tribute and protection rackets. Settlements that submit and pay tribute are promised protection from unauthorised Kumo attacks, while pirates who disobey Delaine's rules face escalating punishment. Regional corsairs and arch-corsairs administer parts of the organisation through the Kumo Council, but Delaine remains its central ruler.<ref name="kumoCouncil">[https://www.elitedangerous.com/news/galnet/kumo-crew-appoints-new-council-leader Kumo Crew Appoints New Council Leader], Frontier Developments / GalNet. Accessed 8 November 2026.</ref>
+
+Harma is the Powerplay headquarters and historic centre of Kumo territory in the Pegasi sector. The organisation has also projected influence through the ''Mictlan'' megaship and remote Kumo-operated starports. Individual mobile assets and local starport control can change independently of the Power's permanent profile.<ref name="kumoPorts">[https://web.archive.org/web/20210508072527id_/https://www.elitedangerous.com/news/galnet/kumo-crew-starports-open-business Kumo Crew Starports Open for Business], Frontier Developments / GalNet. Accessed 8 November 2026.</ref>
+
+== Ethos and territorial methods ==
+
+Delaine uses the '''Combat''' ethos for acquisition, reinforcement and undermining.<ref name="delaineInara" />
+
+* '''Acquisition''' builds and exploits criminal networks through contacts, bribery, blackmail and armed support until local institutions become dependent on the Kumo Crew.
+* '''Reinforcement''' uses intimidation and violence to divide or suppress resistance within Kumo territory.
+* '''Undermining''' encourages infighting and armed insurrection after criminal networks have been established in an opponent's systems.<ref name="delaineWiki" />
+
+These methods favour combat-oriented Powerplay work, but the eligible activities and strategic rules belong to [[Powerplay]].
+
+Delaine's territorial effect reinforces the Kumo Crew's illicit economy: his Powerplay systems open black markets where one is not already available.<ref name="update1901">[https://www.elitedangerous.com/news/updates/4-0-19-01 Update Notes – 19.01], Frontier Developments. Accessed 8 November 2026.</ref>
+
+== Power-specific perks ==
+
+At their maximum Power-specific values, Delaine's loyalty rewards provide pledged commanders with:
+
+* '''+30% black-market profits''';
+* a '''100% reduction in the value of bounties placed on the commander''' while in Delaine territory.<ref name="delaineInara" />
+
+The bounty benefit reduces the value assessed under the Power's applicable territorial perk; it does not make criminal conduct consequence-free. Universal Powerplay rewards and loyalty progression are covered by [[Powerplay]].
+
+== Powerplay modules ==
+
+Delaine's signature module is the [[Cytoscrambler]], a small fixed burst laser with exceptional shield damage, very short effective range and negligible armour penetration. It is specialised for stripping shields rather than damaging hull.<ref name="moduleGuide">[https://newp.io/ppmodules Powerplay Modules Guide], New Pilots Initiative. Accessed 8 November 2026.</ref>
+
+Delaine pledges unlock the Powerplay modules in this order:
+
+# [[Cytoscrambler]]
+# Containment Missile
+# [[Pacifier Frag-Cannon]]
+# [[Pulse Disruptor]]
+# [[Advanced Plasma Accelerator]]
+# [[Pack-Hound Missile Rack]]
+# [[Mining Lance]]
+# [[Enforcer Cannon]]
+# [[Prismatic Shield Generator]]
+# Concord Cannon
+# [[Imperial Hammer]]
+# [[Retributor Beam Laser|Retributor]]
+
+The loyalty requirements shared by all Powers are listed on [[Powerplay]] rather than repeated here.
+
+== History and relationships ==
+
+Delaine expanded the Kumo Crew from a local cartel into a recognised Power and fought Imperial forces during the Pegasi Pirate War. He later demanded that the Kumo nation receive diplomatic recognition at the Galactic Summit, presenting his rule as a functioning state rather than ordinary piracy.<ref name="declaration">[https://www.elitedangerous.com/news/galnet/the-declaration-of-archon-delaine The Declaration of Archon Delaine], Frontier Developments / GalNet. Accessed 8 November 2026.</ref> That claim was rejected by representatives including [[Aisling Duval]] and [[Felicia Winters]].
+
+In 3308, Vidar Trask led an internal rebellion against Delaine. The coup failed, Trask was killed and Delaine retained control of the Kumo Crew.<ref name="rebellion">[https://www.elitedangerous.com/news/galnet/kumo-crew-crushes-rebellion Kumo Crew Crushes Rebellion], Frontier Developments / GalNet. Accessed 8 November 2026.</ref>
+
+Delaine's most durable external rivalry is with the [[Empire]], which regards him as a pirate, slaver and security threat. Imperial forces attacked the ''Mictlan'' in Beta-3 Tucani in 3311, prompting a Kumo counter-attack.<ref name="mictlanAttack">[https://www.elitedangerous.com/news/galnet/imperial-forces-target-delaine-flagship Imperial Forces Target Delaine Flagship], Frontier Developments / GalNet. Accessed 8 November 2026.</ref>
+
+Sirius subsidiaries have appeared near Kumo-operated ports, leading to speculation about financial links between Sirius Corporation and the Kumo Crew. No reviewed official source conclusively establishes such an arrangement, so it remains an allegation rather than a confirmed alliance.<ref name="kumoPorts" />
+
+In 3312 the Kumo Crew organised anti-xeno defence around its California Nebula holdings after Thargoid attacks. Delaine attempted to convert that emergency security role into lasting control, but local and Alliance-backed resistance expelled Kumo forces from the affected ports.<ref name="kumoRebuffed">[https://www.elitedangerous.com/news/galnet/kumo-crew-rebuffed-after-anti-xeno-campaign Kumo Crew Rebuffed after Anti-Xeno Campaign], Frontier Developments / GalNet. Accessed 8 November 2026.</ref>
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Powerplay]] [[Cytoscrambler]] [[Empire]]}}
+
+[[Category:Powerplay]]
+[[Category:Factions]]
+[[Category:Reference Entries]]

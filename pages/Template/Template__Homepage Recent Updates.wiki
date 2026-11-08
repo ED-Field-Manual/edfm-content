@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:Homepage Recent Updates
 Namespace: 10
 Page ID: 738
-Revision ID: 7503
-Timestamp: 2026-10-22T16:57:29Z
+Revision ID: 8682
+Timestamp: 2026-11-07T22:00:16Z
 Source URL: https://edfieldmanual.com/wiki/Template:Homepage_Recent_Updates
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -13,6 +13,15 @@ This is current wikitext only; no revision history, user database, logs, deleted
 === New on EDFM ===
 {| class="edfm-home-recent-group edfm-home-recent-group-new"
 | class="edfm-home-recent-subtitle" | ''The newest published EDFM pages and guides.''
+|-
+|
+{| class="edfm-home-recent-item"
+| class="edfm-home-recent-title" | [[Lady Zi's Counter-Megacorporation Assault]]
+| class="edfm-home-recent-badge" | '''NEW ARTICLE'''
+| class="edfm-home-recent-date" | Published 7 Nov 2026
+|-
+| class="edfm-home-recent-summary" colspan="3" | Lady Zi's Fire Lotus Coalition campaign against corporate forces in Exphiay and Sorbago.
+|}
 |-
 |
 {| class="edfm-home-recent-item"
@@ -31,15 +40,6 @@ This is current wikitext only; no revision history, user database, logs, deleted
 |-
 | class="edfm-home-recent-summary" colspan="3" | An overview of on-foot contracts, settlement objectives, equipment, legality, and mission selection.
 |}
-|-
-|
-{| class="edfm-home-recent-item"
-| class="edfm-home-recent-title" | [[Passenger Missions]]
-| class="edfm-home-recent-badge" | '''NEW ARTICLE'''
-| class="edfm-home-recent-date" | Published 4 Oct 2026
-|-
-| class="edfm-home-recent-summary" colspan="3" | Contracts to transport groups or VIP parties in Passenger Cabins.
-|}
 |}
 
 
@@ -47,6 +47,15 @@ This is current wikitext only; no revision history, user database, logs, deleted
 === Recently Updated ===
 {| class="edfm-home-recent-group edfm-home-recent-group-updated"
 | class="edfm-home-recent-subtitle" | ''Existing EDFM pages most recently revised.''
+|-
+|
+{| class="edfm-home-recent-item"
+| class="edfm-home-recent-title" | [[Wreaken Mining Rig Field Tests]]
+| class="edfm-home-recent-badge" | '''UPDATED ARTICLE'''
+| class="edfm-home-recent-date" | Updated 7 Nov 2026
+|-
+| class="edfm-home-recent-summary" colspan="3" | Wreaken and Vodel's concluded three-part mining field-test programme at Metz Enterprise in Ega.
+|}
 |-
 |
 {| class="edfm-home-recent-item"
@@ -64,15 +73,6 @@ This is current wikitext only; no revision history, user database, logs, deleted
 | class="edfm-home-recent-date" | Updated 22 Oct 2026
 |-
 | class="edfm-home-recent-summary" colspan="3" | The optional internal module that provides a ship's cargo capacity.
-|}
-|-
-|
-{| class="edfm-home-recent-item"
-| class="edfm-home-recent-title" | [[Armour]]
-| class="edfm-home-recent-badge" | '''UPDATED REFERENCE'''
-| class="edfm-home-recent-date" | Updated 22 Oct 2026
-|-
-| class="edfm-home-recent-summary" colspan="3" | The mandatory core armour installation that determines a ship's hull integrity and its kinetic, thermal and explosive resistance profile.
 |}
 |}
 

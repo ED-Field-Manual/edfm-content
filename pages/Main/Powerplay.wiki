@@ -3,17 +3,380 @@ EDFM current-content archive export.
 Title: Powerplay
 Namespace: 0
 Page ID: 59
-Revision ID: 2098
-Timestamp: 2026-08-24T21:27:25Z
+Revision ID: 8719
+Timestamp: 2026-11-08T05:17:20Z
 Source URL: https://edfieldmanual.com/wiki/Powerplay
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-{{Article header|deck=Index for Powerplay content and mechanics.}}
-{{Article status|status=Draft|mode=Live|noindex=yes}}
+{{Article header|deck=A current reference to Powerplay 2.0: the Powers, personal progression, territorial warfare, rewards, and the weekly cycle.}}
 
-Index for Powerplay content — see [[:Category:Powerplay]].
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Powerplay 2.0; reviewed through Live update 4.4.2.0
+ |reviewed=2026-11-08
+ |reviewer=Sythan
+ |source_quality=Core rules are drawn from Frontier's Powerplay 2.0 announcements and subsequent update notes; the roster, ethos mappings, rank thresholds, and territorial details are cross-checked against maintained community references and live trackers.
+ |uncertainty=Activity values, balance modifiers, assignment pools, perk values, module order, carrier placement, and live territory can change.
+ |legacy_differences=Legacy retains the original Powerplay rating, decay, exclusivity, and territorial systems; its instructions do not apply to current Live play.
+}}
 
-No individual Powerplay articles exist yet. Powerplay mechanics have changed substantially over time (Powerplay 2.0); nothing on this page states specific mechanics yet, to avoid recording stale rules as current.
+'''Powerplay''' is the galaxy-wide competition between political Powers in ''Elite Dangerous''. A commander pledges to one Power, performs eligible activities for that Power, earns personal '''Merits''' and loyalty ranks, and helps acquire, reinforce, or undermine territory. Powerplay 2.0 replaced the original system in the Live game with broader activity support, persistent personal progression, a new territorial structure, and a common pool of Powerplay modules.<ref name="ascendancy">[https://www.elitedangerous.com/news/updates/4-0-19-0 Elite Dangerous: Ascendancy – Available Now], Frontier Developments, 31 October 2024.</ref><ref name="powerplayqa">[https://www.elitedangerous.com/news/powerplay-20-qa Powerplay 2.0 Q&A], Frontier Developments, 26 September 2024.</ref>
 
-{{Related articles|[[Operations]] [[Game Reference]]}}
+Powerplay is not a separate game mode. Qualifying actions in Open, Private Group, and Solo affect the shared galaxy, and Frontier did not make Powerplay 2.0 Open-only.<ref name="powerplayqa" /> The Galaxy Map's Powerplay views and activity filters are the main in-game reference for finding relevant systems, current strategic states, and work that can be performed there.
+
+== Current Powers ==
+
+Powerplay 2.0 has twelve active Powers. Jerome Archer occupies the Federal position formerly held by Zachary Hudson, and Nakato Kaine provides a second Alliance-aligned Power alongside Edmund Mahon.<ref name="ascendancy" /> Territory totals, standings, participation figures, and system ownership are live values and are not fixed on this page.
+
+Each Power has an '''Acquisition''', '''Reinforcement''', and '''Undermining''' ethos. The four ethos archetypes are Social, Finance, Combat, and Covert. Ethos identifies the activities a Power prefers in each strategic context; preferred work receives better Merit treatment than otherwise comparable actions. The exact bonus is balance data rather than a safe permanent value.
+
+{| class="wikitable"
+! Power
+! Allegiance
+! Headquarters
+! Acquisition
+! Reinforcement
+! Undermining
+|-
+| [[Aisling Duval]]
+| Empire
+| Cubeo
+| Social
+| Finance
+| Social<ref name="inaraaisling">[https://inara.cz/elite/power/2/ Aisling Duval – Power dossier], INARA; accessed 7 November 2026.</ref>
+|-
+| [[Archon Delaine]]
+| Independent
+| Harma
+| Combat
+| Combat
+| Combat<ref name="inaraarchon">[https://inara.cz/elite/power/10/ Archon Delaine – Power dossier], INARA; accessed 7 November 2026.</ref>
+|-
+| [[Arissa Lavigny-Duval]]
+| Empire
+| Kamadhenu
+| Social
+| Combat
+| Combat<ref name="inaraarissa">[https://inara.cz/elite/power/4/ Arissa Lavigny-Duval – Power dossier], INARA; accessed 7 November 2026.</ref>
+|-
+| [[Denton Patreus]]
+| Empire
+| Eotienses
+| Finance
+| Combat
+| Combat<ref name="inaradenton">[https://inara.cz/elite/power/1/ Denton Patreus – Power dossier], INARA; accessed 7 November 2026.</ref>
+|-
+| [[Edmund Mahon]]
+| Alliance
+| Gateway
+| Finance
+| Finance
+| Combat<ref name="inaramahon">[https://inara.cz/elite/power/3/ Edmund Mahon – Power dossier], INARA; accessed 7 November 2026.</ref>
+|-
+| [[Felicia Winters]]
+| Federation
+| Rhea
+| Social
+| Finance
+| Finance<ref name="inarawinters">[https://inara.cz/elite/power/5/ Felicia Winters – Power dossier], INARA; accessed 7 November 2026.</ref>
+|-
+| [[Jerome Archer]]
+| Federation
+| Nanomam
+| Combat
+| Combat
+| Covert<ref name="inaraarcher">[https://inara.cz/elite/power/12/ Jerome Archer – Power dossier], INARA; accessed 7 November 2026.</ref>
+|-
+| [[Li Yong-Rui]]
+| Independent
+| Lembava
+| Social
+| Finance
+| Finance<ref name="inaraliyongrui">[https://inara.cz/elite/power/7/ Li Yong-Rui – Power dossier], INARA; accessed 7 November 2026.</ref>
+|-
+| [[Nakato Kaine]]
+| Alliance
+| Tionisla
+| Social
+| Covert
+| Social<ref name="inarakaine">[https://inara.cz/elite/power/13/ Nakato Kaine – Power dossier], INARA; accessed 7 November 2026.</ref>
+|-
+| [[Pranav Antal]]
+| Independent
+| Polevnic
+| Social
+| Covert
+| Social<ref name="inaraantal">[https://inara.cz/elite/power/9/ Pranav Antal – Power dossier], INARA; accessed 7 November 2026.</ref>
+|-
+| [[Yuri Grom]]
+| Independent
+| Clayakarma
+| Covert
+| Combat
+| Covert<ref name="inaragrom">[https://inara.cz/elite/power/11/ Yuri Grom – Power dossier], INARA; accessed 7 November 2026.</ref>
+|-
+| [[Zemina Torval]]
+| Empire
+| Synteini
+| Finance
+| Covert
+| Finance<ref name="inaratorval">[https://inara.cz/elite/power/8/ Zemina Torval – Power dossier], INARA; accessed 7 November 2026.</ref>
+|}
+
+A Power's allegiance does not require the commander to hold the same superpower reputation or naval rank. The practical choice is usually based on the Power's territory, ethos, community objectives, perks, and reward order rather than the commander's existing political reputation.
+
+== Pledging and leaving ==
+
+A commander must pledge before ordinary activities can earn Powerplay Merits or change a Power's strategic position. Only one pledge can be active at a time.
+
+To begin:
+
+# Open the Powerplay interface and inspect the Powers, territories, ethos, perks, and reward tracks.
+# Pledge to the chosen Power.
+# Complete the five initial assignments shown by the interface.
+# Use the Galaxy Map's Powerplay filters to locate eligible acquisition, reinforcement, or undermining work.
+
+Current in-game and maintained community documentation place the first normal loyalty rank behind those five initial assignments. Assignments are an onboarding route, not the only form of contribution once normal progression is available.<ref name="edwikipowerplay">[https://elite-dangerous.fandom.com/wiki/Powerplay Powerplay], Elite Dangerous Wiki community; accessed 7 November 2026.</ref>
+
+A commander may leave and pledge elsewhere at any time. Leaving or changing Power:
+
+* removes the former Power's active perks;
+* resets that Power's loyalty-rank and Merit progression;
+* does not apply the older additional defection penalties; and
+* does not remove Powerplay modules that have already been purchased.<ref name="powerplayqa" />
+
+Changing allegiance is therefore a full progression reset, not a way to preserve rank while selecting a different reward track. Stored and fitted modules remain ordinary owned equipment, but purchase access must be unlocked again through the active pledge where applicable.
+
+== Assignments and eligible activities ==
+
+Powers issue weekly assignments based on a commander's rank and current location. Examples include earning bounty vouchers, moving Powerplay material, transferring data, hacking or repairing holoscreens, uploading malware or data at settlements, and completing relevant salvage work.<ref name="ascendancy" /><ref name="dodec">[https://www.elitedangerous.com/news/updates/4-2-2-0 Elite Dangerous: Dodec Update], Frontier Developments.</ref>
+
+Powerplay 2.0 also recognises a broad range of normal activities when they are performed in the correct strategic context. Depending on the system and Power, qualifying work can include:
+
+* combat, bounty hunting, and Power Conflict Zones;
+* commodity trade and Powerplay commodity transport;
+* mining and delivery of mined goods;
+* salvage recovery;
+* exploration-data sales;
+* megaship interactions;
+* holoscreen hacking or repair;
+* settlement actions and Powerplay data transfer; and
+* Powerplay-mode [[Operations]].
+
+Location and direction matter. Cargo, data, vouchers, or salvage may need to be collected in one type of system and delivered in another. An activity that is valid for acquisition may not be valid for reinforcement or undermining, and an ethos-preferred action for one Power may be ordinary work for another. Check the current Galaxy Map activity filter and the in-game Powerplay interface before committing a large load or long journey.
+
+Frontier has repeatedly adjusted Merit awards, modifiers, assignment pools, and anti-exploit rules. Fixed per-unit or per-action Merit yields become stale quickly and are deliberately not reproduced here.<ref name="trailblazers3">[https://www.elitedangerous.com/news/updates/4-1-2-0 Elite Dangerous: Trailblazers – Update 3], Frontier Developments.</ref><ref name="trailblazers34">[https://www.elitedangerous.com/news/updates/4-1-2-103 Elite Dangerous: Trailblazers – Update 3.4], Frontier Developments.</ref><ref name="dodec" />
+
+== Merits and loyalty ranks ==
+
+'''Merits''' are the commander's personal Powerplay progression currency. They are awarded immediately for qualifying activity and build a persistent loyalty rank with the active Power. Unlike the original Powerplay system, Powerplay 2.0 does not remove a portion of earned Merits each week.<ref name="ascendancy" /><ref name="powerplayqa" />
+
+Personal Merits and a system's strategic control score are related outputs, but they are not safely treated as the same number. Activity type, ethos, offensive or defensive context, and other balance modifiers can affect personal and territorial progress differently.
+
+The current community-documented progression is:<ref name="edwikipowerplay" />
+
+{| class="wikitable"
+! Loyalty rank
+! Cumulative requirement
+! Note
+|-
+| Rank 1
+| Complete the five initial assignments
+| Opens normal rank progression
+|-
+| Rank 2
+| 2,000 Merits
+|-
+| Rank 3
+| 5,000 Merits
+|-
+| Rank 4
+| 9,000 Merits
+|-
+| Rank 5
+| 15,000 Merits
+|-
+| Rank 6 and above
+| A further 8,000 cumulative Merits per rank
+| Progression continues beyond Rank 100
+|}
+
+Useful reference points under that progression are Rank 10 at 55,000 cumulative Merits, Rank 20 at 135,000, Rank 50 at 375,000, and Rank 100 at 775,000. These are progression thresholds, not Merit yields for any particular activity, and should be checked after a major Powerplay balance update.
+
+Ranks unlock Power-specific perks, care packages, decals, rebuy-related benefits, and module-purchase access. Leaving the Power resets the progression.
+
+== Territorial warfare ==
+
+Powerplay territory is built from controlled systems and the support ranges projected by higher territorial tiers. The same broad activity can have a different strategic purpose depending on where it is performed.
+
+=== Acquisition ===
+
+'''Acquisition''' extends a Power into an uncontrolled system. An eligible target must lie within the acquisition range of one of the Power's territorial anchors:
+
+* a '''Fortified''' system projects up to 20 light-years; or
+* a '''Stronghold''' projects up to 30 light-years.
+
+More than one Power may attempt to acquire the same system. If competing Powers meet the conflict conditions, the system becomes Contested and the competition must be resolved. A successful acquisition becomes an Exploited system at the weekly turn.<ref name="edpowerplayguide">[https://edpowerplay.com/guide Elite Dangerous Powerplay 2.0 Guide], EDPowerPlay; accessed 7 November 2026.</ref>
+
+Population, distance, surrounding territorial structure, and current balance rules can affect the effort required. The in-game strategic view should be treated as authoritative for the current target rather than relying on a universal static target copied from an older guide.
+
+=== Reinforcement ===
+
+'''Reinforcement''' supports territory already controlled by the commander's own Power. It opposes hostile undermining and can build enough control for an Exploited system to become Fortified or a Fortified system to become a Stronghold.
+
+Reinforcement rewards may use dynamic modifiers based on recent hostile pressure, and designated defence systems can receive additional feature-specific treatment. These modifiers have changed since launch and should be read from the current interface and update notes rather than assumed from an old route sheet.<ref name="trailblazers34" />
+
+=== Undermining ===
+
+'''Undermining''' weakens a system controlled by another Power. It can demote a Stronghold to Fortified, a Fortified system to Exploited, or remove an Exploited system from the controlling Power. A system can move only one territorial state at a weekly resolution.
+
+Loss or demotion of an anchor can also remove support from nearby Exploited systems. Those systems become vulnerable because an Exploited system depends on a Fortified system within 20 light-years or a Stronghold within 30 light-years.
+
+Undermining can be performed through eligible ordinary activity, hostile interactions around Power assets, Power Conflict Zones where present, and eligible Powerplay-mode Operations. Offensive Merit modifiers and designated attack-system bonuses are balance-sensitive and are not treated as universal constants on this page.<ref name="caspian">[https://www.elitedangerous.com/news/updates/4-3-0-0 Elite Dangerous: Caspian Explorer Update], Frontier Developments.</ref>
+
+== Territorial states ==
+
+{| class="wikitable"
+! State
+! Meaning
+|-
+| Uncontrolled
+| No Power controls the system. It may become an acquisition target if it lies within a valid support range.
+|-
+| Expansion
+| A Power is actively attempting to acquire the uncontrolled system.
+|-
+| Contested
+| Multiple Powers are competing to acquire the same system.
+|-
+| Exploited
+| The lowest controlled tier. It depends on support from a nearby Fortified or Stronghold system.
+|-
+| Fortified
+| A territorial anchor that projects acquisition and support range up to 20 light-years.
+|-
+| Stronghold
+| The highest controlled tier. It projects range up to 30 light-years and may host a Stronghold Carrier.
+|}
+
+A Power's headquarters is a permanent Stronghold and is immune to ordinary reinforcement and undermining.<ref name="powerplayqa" /> Other systems accumulate reinforcement and undermining during the cycle, then resolve their net strategic change at the weekly turn. A system can change by no more than one tier per cycle.
+
+Exact control scores, ownership, expansion targets, conflict progress, and carrier locations are live data. Crowd-sourced trackers are useful for planning, but rarely visited systems can lag until fresh journal data is submitted.
+
+== Stronghold Carriers ==
+
+Selected Stronghold systems may contain a Power-owned '''Stronghold Carrier''' and supporting vessels. Only commanders pledged to the controlling Power may dock at that carrier. Frontier describes its market and outfitting access as comparable to Jameson Memorial, making it a major service and module-purchase location for the Power's agents.<ref name="ascendancy" />
+
+Friendly agents can defend, repair, and support the carrier group. Hostile pledged commanders can attack or interact with relevant targets, including disabling turrets and scanning data links, as undermining work.
+
+Not every Stronghold necessarily receives a carrier. Community documentation indicates that placement favours selected high-rated Strongholds and avoids unnecessary overlap between a Power's own carrier spheres, but Frontier has not published a complete placement or relocation algorithm. Use the Galaxy Map and current system information to locate one.
+
+== Weekly cycle ==
+
+Powerplay resolves on a weekly cycle with the turn on Thursday. At the turn:
+
+* reinforcement and undermining totals are resolved;
+* eligible acquisitions and acquisition conflicts resolve;
+* systems can be promoted, demoted, gained, or lost;
+* control-score decay is applied; and
+* the next cycle's territorial activity begins.
+
+Control-score decay is nonlinear: systems near the top of their present tier lose more score than systems near its lower floor. Frontier's current documented model prevents decay from taking a system below 25% of its present state band, and decay alone cannot demote a system; hostile undermining is required for a downgrade.<ref name="trailblazers34" />
+
+Personal Merit progression does not reset at the turn. Weekly assignments, leaderboards, territorial scores, and reward processing have weekly elements, but a commander's accumulated loyalty rank persists until the commander leaves the Power.
+
+Maintenance can shift the practical completion time of the turn. Check the in-game interface or a maintained live tracker before making a time-critical final delivery.
+
+== Perks, leaderboards, and care packages ==
+
+Each Power has its own loyalty-rank reward track. Perks can affect areas such as bounty payouts, trade, exploration or biological-data value, salvage, reputation gains, service prices, and commodity prices within the Power's territory. The exact perk, value, territory condition, and unlock rank belong to the individual Power page and the current in-game reward track.
+
+Ranks can also award decals, rebuy-related benefits, Power-specific rewards, and '''care packages'''. Care packages contain credits and Engineering materials. They expire after 30 days; at the following maintenance they are automatically opened, and materials that cannot be stored are converted to credits. Odyssey-specific materials are converted to credits for commanders who are not running Odyssey.<ref name="dodec" />
+
+Powerplay also has weekly leaderboards. Frontier's launch documentation states that participants receive credit rewards and leading contributors are displayed during the following week.<ref name="ascendancy" /> Leaderboard position is separate from the persistent loyalty-rank ladder.
+
+== Powerplay modules ==
+
+In Live Powerplay 2.0, module access is no longer permanently exclusive to one Power. Every Power eventually unlocks the complete Powerplay module set, but in a different order. Each Power grants its signature module first, and reaching the applicable loyalty rank grants purchase access rather than a free one-off module.<ref name="powerplayqa" />
+
+The current module set is:
+
+* [[Advanced Plasma Accelerator]];
+* Concord Cannon;
+* Containment Missile;
+* [[Cytoscrambler]];
+* [[Enforcer Cannon]];
+* [[Imperial Hammer]];
+* [[Mining Lance]];
+* [[Pacifier Frag-Cannon]];
+* [[Pack-Hound Missile Rack]];
+* [[Prismatic Shield Generator]];
+* [[Pulse Disruptor]]; and
+* [[Retributor Beam Laser|Retributor]].
+
+Current community documentation places the twelve module slots at loyalty ranks 34, 39, 44, 50, 57, 63, 70, 76, 83, 88, 91, and 97, with the order varying by Power.<ref name="edwikipowerplay" /> Check the active Power's in-game reward track before beginning a long unlock route, because the order and thresholds are balance data. Frontier's update 4.4.2.0 included a fix for modules not unlocking at the required rank, confirming that rank-gated purchase access remains the current model.<ref name="anacondamkii">[https://www.elitedangerous.com/news/updates/4-4-2-0 Elite Dangerous: Anaconda Mk II Update 4.4.2.0], Frontier Developments, 20 October 2026.</ref>
+
+Already purchased modules remain owned after leaving a Power. Further purchases depend on having the necessary access under the current pledge.
+
+== Operations ==
+
+[[Operations]] added a squad-focused route for Powerplay undermining in June 2026. An Operation may be launched in Mercenary Mode or Powerplay Mode. Powerplay Mode allows an eligible squad to undermine a selected Power and awards Merits alongside the Operation's ordinary rewards.<ref name="operations4400">[https://www.elitedangerous.com/news/updates/4-4-0-0 Elite Dangerous: Operations – Available Now], Frontier Developments, 30 June 2026.</ref>
+
+A squad cannot target a Power represented by one of its members. Unaligned commanders may participate, but they do not earn Powerplay Merits. Operations are an additional undermining route; they do not replace acquisition, reinforcement, ordinary undermining work, or the weekly territorial cycle.
+
+== Differences from legacy Powerplay ==
+
+Live and Legacy use substantially different Powerplay systems. Legacy instructions should not be mixed into a current Live route.
+
+{| class="wikitable"
+! Subject
+! Powerplay 2.0 in Live
+! Original Powerplay in Legacy
+|-
+| Personal progression
+| Persistent loyalty ranks; Merits do not degrade each week
+| Weekly ratings with Merit decay
+|-
+| Activities
+| Many ordinary space and on-foot activities can contribute in the correct context
+| Narrower Power-specific preparation, expansion, and control loops
+|-
+| Expansion selection
+| Territorial acquisition is driven by activity and strategic range
+| Player voting affected preparation and expansion selection
+|-
+| Changing Power
+| Resets progression and perks without the former additional defection penalties
+| Uses the older defection framework
+|-
+| Government compatibility
+| Government type does not determine whether a Power can optimally acquire or maintain a system
+| Government compatibility affected Powerplay economics and suitability
+|-
+| Modules
+| Every Power eventually unlocks every Powerplay module in a different order
+| Modules are exclusive to their associated Power and use pledge-time/rating requirements
+|-
+| Territory
+| Exploited, Fortified, and Stronghold tiers with support ranges, explicit reinforcement and undermining, and Stronghold Carriers
+| Preparation, expansion, control systems, and exploited spheres under the original model
+|-
+| Assignments and rewards
+| Weekly assignments, care packages, persistent perks, and loyalty rewards
+| Original weekly rating rewards
+|}
+
+Powerplay 2.0 also expanded Galaxy Map strategy tools, station branding, Power-aligned ambient traffic, leaderboards, and the visibility of territorial conflict.<ref name="ascendancy" /><ref name="powerplayqa" />
+
+== References ==
+
+<references />
+
+{{Related articles|label=Browse Powers|[[Aisling Duval]] [[Archon Delaine]] [[Arissa Lavigny-Duval]] [[Denton Patreus]] [[Edmund Mahon]] [[Felicia Winters]] [[Jerome Archer]] [[Li Yong-Rui]] [[Nakato Kaine]] [[Pranav Antal]] [[Yuri Grom]] [[Zemina Torval]]}}
+
+{{Related articles|[[Operations]] [[Tools and Resources]] [[Engineering]] [[Ship Modules]] [[Game Reference]]}}
+
+[[Category:Powerplay]]
+[[Category:Reference Entries]]

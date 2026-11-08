@@ -1,0 +1,126 @@
+<!--
+EDFM current-content archive export.
+Title: Pranav Antal
+Namespace: 0
+Page ID: 1007
+Revision ID: 8714
+Timestamp: 2026-11-08T05:14:56Z
+Source URL: https://edfieldmanual.com/wiki/Pranav_Antal
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=The Simguru of Utopia, an independent Power pursuing communal advancement through technology, knowledge and self-mastery.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Current Powerplay 2.0 profile
+ |reviewed=2026-11-08
+ |reviewer=Sythan
+ |source_quality=Frontier Powerplay documentation and GalNet history, supported by current INARA and maintained community module data
+ |uncertainty=The full capabilities of the Sim-Archive, the exact limits of some territorial perks and future balance changes to rewards or module order are not completely documented by Frontier.
+}}
+
+'''Simguru Pranav Antal''' is the leader of '''Utopia''', an independent technological commune and social movement. Utopia promotes a planned future based on shared knowledge, advanced technology and personal development rather than allegiance to the Federation, Empire or Alliance.<ref name="antalProfile">[https://www.elitedangerous.com/news/galnet/galaxy-s-most-powerful-people-simguru-pranav-antal Galaxy's Most Powerful People: Simguru Pranav Antal], Frontier Developments / GalNet. Accessed 8 November 2026.</ref>
+
+{| class="wikitable"
+|+ Power profile
+! Field
+! Details
+|-
+| Leader
+| Simguru Pranav Antal
+|-
+| Organisation
+| Utopia
+|-
+| Allegiance
+| Independent
+|-
+| Powerplay headquarters
+| Polevnic<ref name="antalInara">[https://inara.cz/elite/power/9/ Pranav Antal – Power], INARA. Accessed 8 November 2026.</ref>
+|-
+| Historic and cultural centre
+| Antal system
+|-
+| Acquisition ethos
+| Social
+|-
+| Reinforcement ethos
+| Covert
+|-
+| Undermining ethos
+| Social
+|-
+| Signature module
+| [[Enforcer Cannon]]
+|}
+
+== Biography and Utopia ==
+
+Pranav inherited leadership from his father, Utopia's founder Simguru Rishi Antal. Contemporary observers expected the commune to fracture after Rishi's death, but Pranav retained its cohesion and expanded its influence. His public programme presents innovation, understanding and mastery of the self as routes toward peace and prosperity.<ref name="antalProfile" />
+
+Utopia shares advanced technology among its adherents and seeks to replace competition for basic resources with communal provision. Its best-known undertaking is the '''Sim-Archive''', a repository associated with the preservation of human memories and personalities. The archive is located in the '''Antal system''', which remains Utopia's deeper spiritual and technological centre. This is distinct from '''Polevnic''', Antal's current [[Powerplay]] headquarters.<ref name="antalWiki">[https://elite-dangerous.fandom.com/wiki/Pranav_Antal Pranav Antal], Elite Dangerous Wiki. Accessed 8 November 2026.</ref>
+
+The precise operation and limits of the Sim-Archive have never been fully disclosed. When similarities were alleged between Utopian work and Salvation's Nemesis Failsafe, Antal invited Aegis-linked specialists to inspect Utopia's technology. The reported assessment found no Guardian molecular markers in examined inventions such as Vitadyne nanomedicines, but did not provide a complete technical account of the archive itself.<ref name="utopiaSalvation">[https://www.elitedangerous.com/news/galnet/salvation-utopia-link-raises-concerns Salvation-Utopia Link Raises Concerns], Frontier Developments / GalNet. Accessed 8 November 2026.</ref>
+
+== Ethos and territorial methods ==
+
+Utopia's Powerplay ethos is '''Social''' for acquisition, '''Covert''' for reinforcement and '''Social''' for undermining.<ref name="antalInara" />
+
+* '''Acquisition''' promotes the scientific and social benefits of joining a free technological movement.
+* '''Reinforcement''' cultivates Antal's public image and distributes Utopian ambitions and ideology within friendly territory.
+* '''Undermining''' offers knowledge-sharing and communal ideals as alternatives to credit-driven institutions in rival territory.<ref name="antalWiki" />
+
+These descriptions express Utopia's political method rather than a complete list of eligible activities. Target selection, activity routing, merits and territorial state changes are covered by [[Powerplay]].
+
+Utopian territorial policy also affects local services. Antal closes black markets in Fortified and Stronghold systems under his control.<ref name="update1901">[https://www.elitedangerous.com/news/updates/4-0-19-01 Update Notes – 19.01], Frontier Developments. Accessed 8 November 2026.</ref>
+
+== Power-specific perks ==
+
+Antal's loyalty rewards emphasise reputation, scientific discovery and advanced commerce. At their maximum Power-specific values, pledged commanders can receive:
+
+* '''+150% minor-faction reputation gain''';
+* '''+30% value from organic-data sales''';
+* '''+50% profit from technology commodities'''.<ref name="antalInara" />
+
+These benefits depend on loyalty progression and applicable territory. Universal Powerplay rewards and the progression system are described on [[Powerplay]].
+
+== Powerplay modules ==
+
+Antal's signature module is the [[Enforcer Cannon]], a small fixed multicannon variant that fires heavier, higher-damage rounds at a slower rate than a conventional multicannon and retains useful damage over a longer range.<ref name="moduleGuide">[https://newp.io/ppmodules Powerplay Modules Guide], New Pilots Initiative. Accessed 8 November 2026.</ref>
+
+Antal pledges unlock the Powerplay modules in this order:
+
+# [[Enforcer Cannon]]
+# [[Pack-Hound Missile Rack]]
+# Containment Missile
+# [[Pulse Disruptor]]
+# [[Mining Lance]]
+# [[Retributor Beam Laser|Retributor]]
+# Concord Cannon
+# [[Cytoscrambler]]
+# [[Pacifier Frag-Cannon]]
+# [[Prismatic Shield Generator]]
+# [[Imperial Hammer]]
+# [[Advanced Plasma Accelerator]]
+
+The loyalty requirements shared by all Powers are listed on [[Powerplay]] rather than repeated here.
+
+== History and relationships ==
+
+Utopia's survival after Rishi Antal's death established Pranav as more than a caretaker. Under his leadership the movement became a durable independent Power while retaining the commune, the Sim-Archive and technological self-improvement as its defining institutions.<ref name="antalProfile" />
+
+Antal has an enduring rivalry with [[Li Yong-Rui]]. Utopia and Sirius Corporation competed to host the Galactic Summit, which Sirius ultimately hosted.<ref name="summit">[https://elite-dangerous.fandom.com/wiki/Pranav_Antal Pranav Antal], Elite Dangerous Wiki community. Accessed 8 November 2026.</ref> Antal has also barred Sirius personnel from Utopian communes despite the corporation's interest in Utopian prototypes.<ref name="siriusAntal">[https://www.elitedangerous.com/news/galnet/sirius-stock-price-fluctuates-after-unhinged-trading-patterns Sirius Stock Price Fluctuates After 'Unhinged' Trading Patterns], Frontier Developments / GalNet. Accessed 8 November 2026.</ref>
+
+Utopian forces later retained influence in the HIP 87621 enclave but were not included in the pilot-organised non-aggression pact announced in February 3312. Reports offered rumours about the exclusion, not an official declaration from Antal, so its motive remains unsettled.<ref name="enclavePact">[https://www.elitedangerous.com/news/galnet/coalition-announces-non-aggression-pact-amid-hip-87621-hostilities Coalition Announces Non-Aggression Pact Amid HIP 87621 Hostilities], Frontier Developments / GalNet. Accessed 8 November 2026.</ref>
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Powerplay]] [[Enforcer Cannon]] [[Li Yong-Rui]]}}
+
+[[Category:Powerplay]]
+[[Category:Factions]]
+[[Category:Reference Entries]]

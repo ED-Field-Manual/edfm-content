@@ -1,0 +1,127 @@
+<!--
+EDFM current-content archive export.
+Title: Yuri Grom
+Namespace: 0
+Page ID: 1009
+Revision ID: 8716
+Timestamp: 2026-11-08T05:15:03Z
+Source URL: https://edfieldmanual.com/wiki/Yuri_Grom
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=The former Federal admiral who leads EG Union as an independent militarist Power opposed to superpower control and political corruption.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Current Powerplay 2.0 profile
+ |reviewed=2026-11-08
+ |reviewer=Sythan
+ |source_quality=Frontier Powerplay documentation and GalNet history, supported by current INARA and maintained community module data
+ |uncertainty=Grom has not publicly given a complete account of his resignation from the Federal Navy, supporter and opponent descriptions of his rule differ sharply, and reward details or module order may change through balance updates.
+}}
+
+'''Yuri Grom''' is a former Federal Navy admiral and the self-proclaimed '''Dictator of the EG Pilots'''. He leads '''EG Union''' as an independent militarist Power whose public doctrine combines opposition to corruption, separation from the superpowers and strict central authority.<ref name="egPilots">[https://community.elitedangerous.com/galnet/uid/5811d0f29657badc4b76ebaa Introducing the EG Pilots], Frontier Developments / GalNet Community Archive. Accessed 8 November 2026.</ref>
+
+{| class="wikitable"
+|+ Power profile
+! Field
+! Details
+|-
+| Leader
+| Yuri Grom
+|-
+| Organisation
+| EG Union and the EG Pilots
+|-
+| Allegiance
+| Independent
+|-
+| Powerplay headquarters
+| Clayakarma<ref name="gromInara">[https://inara.cz/elite/power/11/ Yuri Grom – Power], INARA. Accessed 8 November 2026.</ref>
+|-
+| Place of origin
+| Euryale
+|-
+| Acquisition ethos
+| Covert
+|-
+| Reinforcement ethos
+| Combat
+|-
+| Undermining ethos
+| Covert
+|-
+| Signature module
+| Containment Missile
+|}
+
+== Biography and EG Union ==
+
+Grom was born in 3256 and rose to admiral in the Federal Navy. He resigned in 3301 and formed EG Union with loyal followers. Contemporary accounts commonly connect his departure to disgust with corruption among senior Federal figures, although Grom did not publish a complete explanation of his decision.<ref name="egPilots" /><ref name="gromWiki">[https://elite-dangerous.fandom.com/wiki/Yuri_Grom Yuri Grom], Elite Dangerous Wiki. Accessed 8 November 2026.</ref>
+
+The movement began in '''Euryale'''. After the EG Pilots won the Dangerous Games in 3302, Grom became a major Power and established '''Clayakarma''' as his Powerplay headquarters. Euryale is therefore the organisation's place of origin, while Clayakarma is the current strategic centre.<ref name="gromWiki" /><ref name="gromInara" />
+
+EG Union presents itself as an independent alternative to superpower politics, organised around military discipline, resistance to corruption and Grom's personal authority. Supporters describe Grom as a liberator and protector who restored order. Other reports describe him as a dictator whose authority is effectively absolute. Those are political characterisations from opposing viewpoints; the durable facts are that he uses the title Dictator, commands EG Union and concentrates leadership in his own office.<ref name="egPilots" /><ref name="newDawn">[https://web.archive.org/web/20241107140230id_/https://www.elitedangerous.com/news/galnet/new-dawn-humanity A New Dawn for Humanity?], Frontier Developments / GalNet. Accessed 8 November 2026.</ref>
+
+== Ethos and territorial methods ==
+
+Grom's Powerplay ethos is '''Covert''' for acquisition, '''Combat''' for reinforcement and '''Covert''' for undermining.<ref name="gromInara" />
+
+* '''Acquisition''' uses undercover operatives to assist insurgent forces in systems regarded as potential allies.
+* '''Reinforcement''' relies on counterintelligence and military strength to prevent hostile groups from breaking Grom's control.
+* '''Undermining''' covertly supports opposition movements, which can call on Grom's battlefleet when they begin an uprising.<ref name="gromWiki" />
+
+This combination makes clandestine activity central to expansion and attack while using open force to secure existing territory. Eligible activities, target selection and system-state mechanics are explained on [[Powerplay]].
+
+== Power-specific perks ==
+
+At their maximum Power-specific values, Grom's loyalty rewards provide pledged commanders with:
+
+* '''+60% bounty payouts''';
+* '''+15% exploration-data sale value''';
+* a '''+15% trade bond on sales''';
+* a '''30% reduction in weapon-module costs'''.<ref name="gromInara" />
+
+These effects depend on loyalty progression and the applicable services or markets in Grom territory. Universal rewards and shared progression rules are covered by [[Powerplay]].
+
+== Powerplay modules ==
+
+Grom's signature module is the '''Containment Missile''', commonly called the ''Grom Bomb''. It is a medium fixed dumbfire missile whose special effect disrupts or reboots a target's Frame Shift Drive, preventing an immediate escape for a limited period.<ref name="moduleGuide">[https://newp.io/ppmodules Powerplay Modules Guide], New Pilots Initiative. Accessed 8 November 2026.</ref>
+
+Grom pledges unlock the Powerplay modules in this order:
+
+# Containment Missile
+# [[Pack-Hound Missile Rack]]
+# [[Advanced Plasma Accelerator]]
+# [[Enforcer Cannon]]
+# [[Pacifier Frag-Cannon]]
+# [[Pulse Disruptor]]
+# [[Prismatic Shield Generator]]
+# [[Imperial Hammer]]
+# [[Retributor Beam Laser|Retributor]]
+# Concord Cannon
+# [[Mining Lance]]
+# [[Cytoscrambler]]
+
+The loyalty requirements shared by all Powers are listed on [[Powerplay]] rather than repeated here.
+
+== History and relationships ==
+
+The player-backed EG Pilots won the Dangerous Games and entered the Powerplay roster on 27 October 3302. This victory transformed Grom's regional movement into a galactic Power.<ref name="dangerousGames">[https://elite-dangerous.fandom.com/wiki/Dangerous_Games Dangerous Games], Elite Dangerous Wiki. Accessed 8 November 2026.</ref>
+
+Grom's defining rivalry is with the Federation he once served. In 3307 he entered negotiations over Delta Pavonis, one of the Federation's founding systems. Federal agents attempted to arrest him during the conference, triggering open conflict. EG Union forces prevailed, captured the ''Freedom's Foundation'' megaship and retained an independent presence.<ref name="deltaTalks">[https://www.elitedangerous.com/news/galnet/progress-between-federation-and-yuri-grom Progress Between Federation and Yuri Grom], Frontier Developments / GalNet. Accessed 8 November 2026.</ref><ref name="deltaVictory">[https://www.elitedangerous.com/en-US/news/galnet/yuri-grom-victorious-against-federation Yuri Grom Victorious Against Federation], Frontier Developments / GalNet. Accessed 8 November 2026.</ref>
+
+The failed arrest hardened the conflict, although the preceding negotiations also showed that Grom could establish working respect with individual Federal diplomats. His suspicion extends beyond the Federation to concentrated military and technological power: he warned that Salvation's Proteus Wave might be turned against humans after being used against the Thargoids.<ref name="proteusReaction">[https://community.elitedangerous.com/galnet/uid/62cfd6b4c4d9887b7865e2ff Azimuth's Plan Elicits Further Reactions], Frontier Developments / GalNet Community Archive. Accessed 8 November 2026.</ref>
+
+In February 3312, Grom-aligned forces joined supporters of [[Aisling Duval]], [[Arissa Lavigny-Duval]], [[Nakato Kaine]], [[Edmund Mahon]] and [[Denton Patreus]] in a non-aggression pact limited to the HIP 87621 enclave. It was a pilot-organised arrangement intended to contain local escalation, not a permanent alliance or a treaty personally signed by every Power leader.<ref name="enclavePact">[https://www.elitedangerous.com/news/galnet/coalition-announces-non-aggression-pact-amid-hip-87621-hostilities Coalition Announces Non-Aggression Pact Amid HIP 87621 Hostilities], Frontier Developments / GalNet. Accessed 8 November 2026.</ref>
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Powerplay]] [[Combat]] [[Lore and History]]}}
+
+[[Category:Powerplay]]
+[[Category:Factions]]
+[[Category:Reference Entries]]

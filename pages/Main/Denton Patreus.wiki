@@ -1,0 +1,142 @@
+<!--
+EDFM current-content archive export.
+Title: Denton Patreus
+Namespace: 0
+Page ID: 1002
+Revision ID: 8709
+Timestamp: 2026-11-08T05:14:40Z
+Source URL: https://edfieldmanual.com/wiki/Denton_Patreus
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=An Imperial senator, financier and naval commander whose Power favours military force and economic leverage.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Powerplay 2.0
+ |reviewed=2026-11-08
+ |reviewer=Sythan
+ |source_quality=Frontier biographies and GalNet history, supported by maintained current Powerplay data
+ |uncertainty=Perk values and module order are current community-maintained data and may change with balance updates.
+}}
+
+'''Denton Patreus''' is an [[Empire|Imperial]] senator, financier, Admiral of the Fleet and active [[Powerplay]] leader headquartered in Eotienses. His influence rests on military prestige, personal wealth and a long-standing willingness to combine financial pressure with armed force.<ref name="meet-patreus">Frontier Developments, [https://community.elitedangerous.com/en/galnet/uid/55bb377b9657bafe5a2ff021 Meet the Powers — Denton Patreus].</ref>
+
+== Profile ==
+
+{| class="wikitable"
+! Field
+! Details
+|-
+| Leader
+| Senator Denton Patreus
+|-
+| Allegiance
+| [[Empire]]
+|-
+| Power headquarters
+| Eotienses
+|-
+| Born
+| 3253
+|-
+| Imperial offices
+| Senator of Eotienses; Admiral of the Fleet
+|-
+| Political identity
+| Militarist, financier and advocate of decisive Imperial power
+|}
+
+Patreus was born in Eotienses, which remains both his senatorial base and Powerplay headquarters. He controls substantial private wealth and military assets in addition to his formal authority within the Imperial Navy.<ref name="meet-patreus" />
+
+== Background and political position ==
+
+Patreus's support comes from military loyalists, corporate interests and Imperial citizens who value decisive action. He has historically extended influence by lending to financially vulnerable governments and using defaults, asset seizures or military intervention to bring them into his sphere. Supporters regard this as disciplined leadership backed by real resources; critics regard it as coercive debt imperialism.
+
+His position is more openly martial than those of the other Imperial Powers. Finance remains important to his expansion, but combat and fleet power define both his public reputation and his Powerplay methods.
+
+== Powerplay ethos and methods ==
+
+Patreus's current Powerplay 2.0 ethos uses finance to acquire new territory and combat to defend or attack controlled systems:<ref name="inara-patreus">INARA, [https://inara.cz/elite/power/1/ Denton Patreus — Power dossier], accessed 7 November 2026.</ref>
+
+{| class="wikitable"
+! Strategic context
+! Favoured ethos
+! Typical emphasis
+|-
+| Acquisition
+| Finance
+| Trade, mining, Power commodity transport and eligible data sales
+|-
+| Reinforcement
+| Combat
+| Bounty hunting, eligible hostile kills and Power Conflict Zones
+|-
+| Undermining
+| Combat
+| Attacking eligible rival forces and fighting in Power Conflict Zones
+|}
+
+The strategic context still controls whether an action counts. [[Powerplay]] explains the common pledge, territory, merit and weekly-cycle rules; the in-game Local Activities panel is the final check for a particular system.
+
+== Maximum Power perks ==
+
+At maximum loyalty, Patreus's territory perks provide:<ref name="pp-guide">CMDR Hanchen, [https://inara.cz/elite/logbook/84502/ A comprehensive Odyssey guide about Powerplay 2.0], INARA, accessed 7 November 2026.</ref>
+
+* '''+80%''' bounty payouts in Patreus-controlled systems;
+* '''−40%''' ship-weapon purchase costs in Patreus-controlled systems;
+* '''−90%''' rearm prices in Patreus-controlled systems.
+
+These benefits are additional to the common loyalty rewards and remain subject to future balance changes.
+
+== Powerplay module order ==
+
+Every Live Power can eventually unlock all Powerplay modules. Patreus grants his signature [[Advanced Plasma Accelerator]] first.<ref name="ascendancy">Frontier Developments, [https://www.elitedangerous.com/news/updates/4-0-19-0 Elite Dangerous: Ascendancy — Available Now], 31 October 2024.</ref><ref name="pp-guide" />
+
+{| class="wikitable"
+! Loyalty rank
+! Module
+|-
+| 34 || [[Advanced Plasma Accelerator]]
+|-
+| 39 || [[Mining Lance]]
+|-
+| 44 || [[Imperial Hammer]]
+|-
+| 50 || [[Prismatic Shield Generator]]
+|-
+| 57 || [[Pack-Hound Missile Rack]]
+|-
+| 63 || Containment Missile
+|-
+| 70 || [[Retributor Beam Laser|Retributor]]
+|-
+| 76 || [[Enforcer Cannon]]
+|-
+| 83 || Concord Cannon
+|-
+| 88 || [[Pacifier Frag-Cannon]]
+|-
+| 91 || [[Pulse Disruptor]]
+|-
+| 97 || [[Cytoscrambler]]
+|}
+
+== History and relationships ==
+
+Patreus was a contender during the Imperial succession crisis of 3301 but ultimately supported Arissa Lavigny-Duval. His campaign against Emperor's Dawn helped establish him as a central military figure, and he later led forces against the Nova Imperium insurrection. His naval role remained important during the Thargoid war.
+
+[[Arissa Lavigny-Duval]] is his sovereign and principal political ally within the Imperial state. Patreus was briefly engaged to [[Aisling Duval]], though their political styles and support bases remained distinct. He has also cooperated with [[Zemina Torval]] when their interests aligned.
+
+Powerplay rivalries can cut across superpower boundaries. Patreus-aligned and Jerome Archer-aligned forces clashed during the tensions reported in 3311.<ref name="rising-tensions">Frontier Developments, [https://www.elitedangerous.com/news/galnet/rising-tensions-between-galactic-powers Rising Tensions Between Galactic Powers], GalNet, 3311.</ref> In February 3312, Patreus-aligned pilots joined Aisling-, Arissa- and several non-Imperial groups in an informal non-aggression coalition around HIP 87621.<ref name="hip-coalition">Frontier Developments, [https://www.elitedangerous.com/news/galnet/coalition-announces-non-aggression-pact-amid-hip-87621-hostilities Coalition Announces Non-Aggression Pact Amid HIP 87621 Hostilities], GalNet, February 3312.</ref>
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Powerplay]] [[Empire]] [[Arissa Lavigny-Duval]] [[Aisling Duval]] [[Zemina Torval]] [[Advanced Plasma Accelerator]]}}
+
+[[Category:Powerplay]]
+[[Category:Factions]]
+[[Category:Reference Entries]]

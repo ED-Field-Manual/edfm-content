@@ -3,10 +3,40 @@ EDFM current-content archive export.
 Title: Category:Powerplay
 Namespace: 14
 Page ID: 11
-Revision ID: 11
-Timestamp: 2026-08-06T19:51:21Z
+Revision ID: 8718
+Timestamp: 2026-11-08T05:15:09Z
 Source URL: https://edfieldmanual.com/wiki/Category:Powerplay
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
-Content related to the Powerplay metagame.
+Articles covering the current [[Powerplay]] system, its political Powers, territorial mechanics, progression and rewards.
+
+== Powers ==
+
+=== Federation ===
+* [[Jerome Archer]]
+* [[Felicia Winters]]
+
+=== Empire ===
+* [[Aisling Duval]]
+* [[Arissa Lavigny-Duval]]
+* [[Denton Patreus]]
+* [[Zemina Torval]]
+
+=== Alliance ===
+* [[Edmund Mahon]]
+* [[Nakato Kaine]]
+
+=== Independent ===
+* [[Li Yong-Rui]]
+* [[Pranav Antal]]
+* [[Archon Delaine]]
+* [[Yuri Grom]]
+
+== Related content ==
+
+* [[:Category:Powerplay modules|Powerplay modules]]
+* [[Operations]]
+* [[Background Simulation]]
+
+[[Category:Game mechanics]]

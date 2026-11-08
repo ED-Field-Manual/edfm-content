@@ -1,0 +1,141 @@
+<!--
+EDFM current-content archive export.
+Title: Arissa Lavigny-Duval
+Namespace: 0
+Page ID: 1001
+Revision ID: 8708
+Timestamp: 2026-11-08T05:14:37Z
+Source URL: https://edfieldmanual.com/wiki/Arissa_Lavigny-Duval
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=The reigning Emperor and an Imperial Power focused on law, military strength and opposition to corruption.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Powerplay 2.0
+ |reviewed=2026-11-08
+ |reviewer=Sythan
+ |source_quality=Frontier biographies and GalNet history, supported by maintained current Powerplay data
+ |uncertainty=Perk values and module order are current community-maintained data and may change with balance updates.
+}}
+
+'''Arissa Lavigny-Duval''' is the 16th Emperor of the [[Empire]] and an active [[Powerplay]] leader headquartered in Kamadhenu. Her political authority is associated with Imperial honour, law, military power and campaigns against corruption.<ref name="meet-arissa">Frontier Developments, [https://community.elitedangerous.com/en/galnet/uid/55b6350b9657bae31e2ff021 Meet the Powers — Arissa Lavigny-Duval].</ref>
+
+== Profile ==
+
+{| class="wikitable"
+! Field
+! Details
+|-
+| Leader
+| Emperor Arissa Lavigny-Duval
+|-
+| Allegiance
+| [[Empire]]
+|-
+| Power headquarters
+| Kamadhenu
+|-
+| Born
+| 3243
+|-
+| Imperial office
+| 16th Emperor of the Empire
+|-
+| Political identity
+| Imperial loyalist; law, honour and anti-corruption
+|}
+
+Arissa is the daughter of Emperor Hengist Duval and Florence Lavigny. She served as a senator before the succession crisis of 3301 and was crowned Emperor on 18 October 3301. Achenar remains the centre of the Imperial throne, while Kamadhenu is her Powerplay headquarters.<ref name="meet-arissa" />
+
+== Background and political position ==
+
+Arissa presents traditional Imperial authority as a responsibility to enforce law, confront corruption and defend the state. Her support spans loyalists who value the Duval monarchy, the Imperial military and a strong response to internal threats. This platform is conservative in its defence of Imperial institutions, but it is not simply passive traditionalism: her rise was driven by a promise to address abuses that had flourished within them.
+
+As Emperor, she is both a Powerplay leader and the head of the Imperial state. Powerplay rivalry therefore does not map cleanly onto formal allegiance. Other Imperial Powers retain their own territories, supporters and methods while remaining figures within the same superpower.
+
+== Powerplay ethos and methods ==
+
+Arissa's current Powerplay 2.0 ethos combines social acquisition with combat-led control of existing territory:<ref name="inara-arissa">INARA, [https://inara.cz/elite/power/4/ Arissa Lavigny-Duval — Power dossier], accessed 7 November 2026.</ref>
+
+{| class="wikitable"
+! Strategic context
+! Favoured ethos
+! Typical emphasis
+|-
+| Acquisition
+| Social
+| Rescue, humanitarian support and applicable settlement-support activity
+|-
+| Reinforcement
+| Combat
+| Bounty hunting, eligible hostile kills and Power Conflict Zones
+|-
+| Undermining
+| Combat
+| Attacking eligible rival forces and fighting in Power Conflict Zones
+|}
+
+Favoured ethos does not make every activity valid in every system. The Galaxy Map, system state and Local Activities panel determine what contributes. [[Powerplay]] covers the common territory, merit and weekly-cycle mechanics.
+
+== Maximum Power perks ==
+
+At maximum loyalty, Arissa's territory perks provide:<ref name="pp-guide">CMDR Hanchen, [https://inara.cz/elite/logbook/84502/ A comprehensive Odyssey guide about Powerplay 2.0], INARA, accessed 7 November 2026.</ref>
+
+* '''+100%''' bounty payouts in Lavigny-Duval-controlled systems;
+* '''−30%''' ship-weapon purchase costs in Lavigny-Duval-controlled systems.
+
+These are Power-specific benefits in addition to the common loyalty rewards. As balance data, they should be checked in-game after major Powerplay changes.
+
+== Powerplay module order ==
+
+Every Live Power can unlock all Powerplay modules, but in a different sequence. Arissa grants her signature [[Imperial Hammer]] first.<ref name="ascendancy">Frontier Developments, [https://www.elitedangerous.com/news/updates/4-0-19-0 Elite Dangerous: Ascendancy — Available Now], 31 October 2024.</ref><ref name="pp-guide" />
+
+{| class="wikitable"
+! Loyalty rank
+! Module
+|-
+| 34 || [[Imperial Hammer]]
+|-
+| 39 || [[Advanced Plasma Accelerator]]
+|-
+| 44 || [[Mining Lance]]
+|-
+| 50 || [[Prismatic Shield Generator]]
+|-
+| 57 || [[Enforcer Cannon]]
+|-
+| 63 || [[Pack-Hound Missile Rack]]
+|-
+| 70 || [[Retributor Beam Laser|Retributor]]
+|-
+| 76 || Concord Cannon
+|-
+| 83 || Containment Missile
+|-
+| 88 || [[Cytoscrambler]]
+|-
+| 91 || [[Pulse Disruptor]]
+|-
+| 97 || [[Pacifier Frag-Cannon]]
+|}
+
+== History and relationships ==
+
+Arissa emerged as the successful claimant from the Imperial succession crisis of 3301 and became the first woman to hold the Imperial throne. Her reign has included campaigns against Emperor's Dawn, Nova Imperium and other movements that challenged the Duval monarchy or Imperial unity.
+
+[[Aisling Duval]] is her niece and was a rival claimant before supporting Arissa's accession. [[Denton Patreus]] became one of the principal military defenders of her reign, while [[Zemina Torval]] remains a senior traditionalist senator with an independent Power base.
+
+In February 3312, pilot groups aligned with Arissa, Aisling and Patreus joined an informal non-aggression coalition during the HIP 87621 hostilities. The coalition represented cooperation between aligned commanders, not a formal Imperial decree.<ref name="hip-coalition">Frontier Developments, [https://www.elitedangerous.com/news/galnet/coalition-announces-non-aggression-pact-amid-hip-87621-hostilities Coalition Announces Non-Aggression Pact Amid HIP 87621 Hostilities], GalNet, February 3312.</ref>
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Powerplay]] [[Empire]] [[Aisling Duval]] [[Denton Patreus]] [[Zemina Torval]] [[Imperial Hammer]]}}
+
+[[Category:Powerplay]]
+[[Category:Factions]]
+[[Category:Reference Entries]]

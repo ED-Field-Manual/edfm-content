@@ -1,0 +1,150 @@
+<!--
+EDFM current-content archive export.
+Title: Felicia Winters
+Namespace: 0
+Page ID: 999
+Revision ID: 8706
+Timestamp: 2026-11-08T05:14:30Z
+Source URL: https://edfieldmanual.com/wiki/Felicia_Winters
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=The President of the Federation and a Liberal Power focused on humanitarian expansion, economic support and civil liberties.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Powerplay 2.0
+ |reviewed=2026-11-08
+ |reviewer=Sythan
+ |source_quality=Political history and current office are documented by Frontier; headquarters, ethos, perks and module order use maintained community records where Frontier does not publish a complete current table.
+ |uncertainty=Eligible activities, merit balance and territorial conditions can change between updates and weekly cycles. Check the in-game Powerplay map before committing to an operation.
+}}
+
+'''Felicia Winters''' is President of the Federation, leader of the Liberal Party and one of its two active [[Powerplay]] leaders. Her Power combines a humanitarian and civil-liberties platform with Social acquisition and Finance-led reinforcement and undermining from its headquarters in Rhea.<ref name="wintersOffice">[https://www.elitedangerous.com/news/galnet/president-winters-assumes-office President Winters Assumes Office], ''GalNet'', Frontier Developments, accessed 7 November 2026.</ref><ref name="wintersInara">[https://inara.cz/elite/power/5/ Felicia Winters - power], INARA, accessed 7 November 2026. Maintained community Powerplay record.</ref>
+
+{| class="wikitable"
+! Profile
+! Details
+|-
+| Leader
+| Felicia Winters
+|-
+| Political position
+| President of the Federation; leader of the Liberal Party
+|-
+| Allegiance
+| Federation
+|-
+| Headquarters
+| Rhea
+|-
+| Acquisition ethos
+| Social
+|-
+| Reinforcement ethos
+| Finance
+|-
+| Undermining ethos
+| Finance
+|-
+| Signature module
+| [[Pulse Disruptor]]
+|}
+
+== Background and political position ==
+
+Winters was born and raised on Taylor Colony. She was pushed into the leadership of the Liberal Party in 3301 after the disappearance of President Jasmina Halsey, following the earlier murder of President Nigel Smeaton. She inherited a party in crisis and rebuilt it around humanitarian relief, civil liberties and a socially focused interpretation of Federal government.<ref name="meetWinters">[https://community.elitedangerous.com/en/galnet/uid/55b8b0659657bafb5a2ff022 Meet the Powers – Felicia Winters], ''GalNet'' community archive, Frontier Developments, accessed 7 November 2026.</ref><ref name="futurePresidency">[https://www.elitedangerous.com/news/galnet/winters-outlines-her-future-presidency Winters Outlines Her Future Presidency], ''GalNet'', Frontier Developments, accessed 7 November 2026.</ref>
+
+She defeated Jerome Archer in the October 3309 presidential election by four percentage points. Her inauguration was delayed after earthquakes on Rhea 3 killed members of her family and many friends, but she formally assumed office on 31 October 3310 with Isolde Rochester as vice president.<ref name="wintersElection">[https://web.archive.org/web/20231018134059id_/https://www.elitedangerous.com/news/galnet/felicia-winters-elected-federal-president Felicia Winters Elected as Federal President], ''GalNet'', Frontier Developments, accessed 7 November 2026.</ref><ref name="rheaDisaster">[https://www.elitedangerous.com/news/galnet/winters-pauses-inauguration-after-rhea-disaster Winters Pauses Inauguration After Rhea Disaster], ''GalNet'', Frontier Developments, accessed 7 November 2026.</ref><ref name="wintersOffice" />
+
+Winters's first presidential act ordered the shutdown of the Proactive Detection Bureau, the surveillance organisation established under Archer's Domestic Counter-Terrorism Act. The decision placed civil liberties at the centre of the new administration while preserving a commitment to Federal defence and continued resistance to the Thargoids.<ref name="wintersOffice" />
+
+== Powerplay identity and ethos ==
+
+Winters represents the Liberal, humanitarian wing of Federal Powerplay. Her stated priorities include healthcare, housing, public services, social welfare, independent systems and reduced corporate dominance. In Powerplay 2.0 this appears as a '''Social''' acquisition ethos and a '''Finance''' ethos for both reinforcement and undermining.<ref name="futurePresidency" /><ref name="wintersInara" />
+
+The ethos labels describe preferred activity families rather than a guarantee that every matching action is eligible in every location. The in-game Powerplay map and local activity panel remain the practical authority. Powerplay 2.0 also removed the old dependency between a Power and favourable minor-faction government types, so Winters no longer needs Corporate, Democracy or any other government form to control a system effectively.<ref name="ppqa">[https://www.elitedangerous.com/news/powerplay-20-qa Powerplay 2.0 Q&A], Frontier Developments, accessed 7 November 2026.</ref>
+
+== Territorial methods ==
+
+Winters's durable territorial approach reflects her Social and Finance roles:
+
+* '''Acquisition:''' search and rescue, aid and humanitarian missions, settlement support and reactivation, retrieval work and other eligible community-support activities can help establish the Power in an uncontrolled system.
+* '''Reinforcement:''' profitable trade, mined-resource sales, Power commodity transport and eligible exploration or exobiology data can support Winters-controlled systems and help maintain or improve their control state.
+* '''Undermining:''' eligible economic actions and Power commodities can place financial pressure on rival territory. Powerplay-mode Operations provide an additional route where squad and target restrictions permit them.
+
+The exact assignment pool and activity list are balance-sensitive. Frontier has replaced specific Winters assignments after launch, including escape-pod tasks, so this page keeps to the strategic pattern and leaves the changing activity matrix to [[Powerplay]] and the in-game interface.<ref name="ascendancy">[https://www.elitedangerous.com/news/updates/4-0-19-0 Elite Dangerous: Ascendancy – Available Now], Frontier Developments, accessed 7 November 2026.</ref><ref name="trailblazers3">[https://elitedangerous.com/news/updates/4-1-2-0 Elite Dangerous: Trailblazers - Update 3], Frontier Developments, accessed 7 November 2026.</ref><ref name="operations">[https://www.elitedangerous.com/news/updates/4-4-0-0 Elite Dangerous: Operations - Available Now], Frontier Developments, accessed 7 November 2026.</ref><ref name="communityGuide">[https://inara.cz/elite/logbook/84502/ A comprehensive Odyssey guide about Powerplay 2.0], CMDR Hanchen via INARA, accessed 7 November 2026. Maintained community guide based on the in-game handbook and testing.</ref>
+
+== Power-specific perks ==
+
+At their maximum unlocked levels, Winters's territorial perks provide:<ref name="wintersInara" />
+
+* '''+100% minor-faction reputation gain''' in Winters territory;
+* '''+60% profit on food and medicine''' in Winters territory;
+* '''+100% salvage profit''' in Winters territory.
+
+These percentages unlock progressively through loyalty ranks rather than applying in full immediately after pledging. General merit progression, care packages, rebuy benefits, defection rules and other shared rank rewards are covered on [[Powerplay]].
+
+== Module unlock order ==
+
+Every Power can eventually unlock all twelve Powerplay modules in Live; the Power determines the order, with its signature module first. Frontier confirms the shared-access model, while the exact order below is maintained from current community and in-game records.<ref name="ppqa" /><ref name="communityGuide" /><ref name="newpModules">[https://newp.io/ppmodules Elite Dangerous Powerplay Modules Guide], New Pilots Initiative, accessed 7 November 2026. Maintained community unlock table.</ref>
+
+{| class="wikitable"
+! Loyalty rank
+! Module
+|-
+| 34
+| [[Pulse Disruptor]]
+|-
+| 39
+| [[Pacifier Frag-Cannon]]
+|-
+| 44
+| [[Retributor Beam Laser|Retributor]]
+|-
+| 50
+| Concord Cannon
+|-
+| 57
+| [[Prismatic Shield Generator]]
+|-
+| 63
+| [[Pack-Hound Missile Rack]]
+|-
+| 70
+| Containment Missile
+|-
+| 76
+| [[Enforcer Cannon]]
+|-
+| 83
+| [[Advanced Plasma Accelerator]]
+|-
+| 88
+| [[Imperial Hammer]]
+|-
+| 91
+| [[Mining Lance]]
+|-
+| 97
+| [[Cytoscrambler]]
+|}
+
+== History and relationships ==
+
+Winters entered the original Powerplay era as the Liberal counterweight to Zachary Hudson. Her organisation survived the transition to Powerplay 2.0 and continued under her presidential title after her election and delayed inauguration.<ref name="ascendancy" /><ref name="wintersOffice" />
+
+Her principal domestic rival is Shadow President Jerome Archer. Their disagreement centres on surveillance, security policy, corporate influence and the balance between state authority and social provision. The rivalry is reflected in their Powerplay methods: Archer's organisation favours combat and covert pressure, while Winters builds support through social and economic activity.<ref name="futurePresidency" />
+
+Winters has also argued that the Federation should defend independent systems and maintain support for Aegis. In 3312 her government condemned its exclusion from the October Accords' Radicoida unica research, warning that a strategic scientific disadvantage could become a threat to the Federation. These positions place humanitarian cooperation alongside a willingness to adopt a harder line when Federal security is at stake.<ref name="protectIndependents">[https://www.elitedangerous.com/news/galnet/winters-federation-must-protect-independents Winters: ‘Federation Must Protect Independents’], ''GalNet'', Frontier Developments, accessed 7 November 2026.</ref><ref name="octoberAccords">[https://elitedangerous.com/news/galnet/federation-condemns-ongoing-october-accords-exclusion Federation Condemns Ongoing October Accords Exclusion], ''GalNet'', Frontier Developments, accessed 7 November 2026.</ref>
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Powerplay]] [[Jerome Archer]] [[Pulse Disruptor]]}}
+
+[[Category:Powerplay]]
+[[Category:Factions]]
+[[Category:Reference Entries]]

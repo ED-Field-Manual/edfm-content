@@ -1,0 +1,149 @@
+<!--
+EDFM current-content archive export.
+Title: Jerome Archer
+Namespace: 0
+Page ID: 998
+Revision ID: 8705
+Timestamp: 2026-11-08T05:13:47Z
+Source URL: https://edfieldmanual.com/wiki/Jerome_Archer
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+{{Article header|deck=The Federation's Republican shadow president and a security-focused Power built around combat, enforcement and covert pressure.}}
+
+{{Article status
+ |status=Partially verified
+ |mode=Live
+ |version=Powerplay 2.0
+ |reviewed=2026-11-08
+ |reviewer=Sythan
+ |source_quality=Political history and current office are documented by Frontier; headquarters, ethos, perks and module order use maintained community records where Frontier does not publish a complete current table.
+ |uncertainty=Eligible activities, merit balance and territorial conditions can change between updates and weekly cycles. Check the in-game Powerplay map before committing to an operation.
+}}
+
+'''Jerome Archer''' is the Federation's Republican shadow president and one of its two active [[Powerplay]] leaders. He succeeded Zachary Hudson as the Power based in Nanomam, combining a security-first political platform with combat-led acquisition and reinforcement and covert undermining.<ref name="ascendancy">[https://www.elitedangerous.com/news/updates/4-0-19-0 Elite Dangerous: Ascendancy – Available Now], Frontier Developments, accessed 7 November 2026.</ref><ref name="archerInara">[https://inara.cz/elite/power/12/ Jerome Archer - power], INARA, accessed 7 November 2026. Maintained community Powerplay record.</ref>
+
+{| class="wikitable"
+! Profile
+! Details
+|-
+| Leader
+| Jerome Archer
+|-
+| Political position
+| Shadow President of the Federation; leader of the Republican Party and Federal opposition
+|-
+| Allegiance
+| Federation
+|-
+| Headquarters
+| Nanomam
+|-
+| Acquisition ethos
+| Combat
+|-
+| Reinforcement ethos
+| Combat
+|-
+| Undermining ethos
+| Covert
+|-
+| Signature module
+| [[Pacifier Frag-Cannon]]
+|}
+
+== Background and political position ==
+
+Archer's career has consistently centred on policing, intelligence and internal security. He has described a path from law enforcement in Nueva Vista through Congress, the directorship of the Federal Intelligence Agency and the office of Secretary of Security. He became vice president on 24 March 3307 after Brad Mitchell was killed in the Nine Martyrs attack.<ref name="vicePresident">[https://www.elitedangerous.com/news/galnet/new-federal-vice-president-selected New Federal Vice President Selected], ''GalNet'', Frontier Developments, accessed 7 November 2026.</ref><ref name="campaign">[https://www.elitedangerous.com/news/galnet/archer-launches-presidential-campaign Archer Launches Presidential Campaign], ''GalNet'', Frontier Developments, accessed 7 November 2026.</ref>
+
+His defining policy in government was the Domestic Counter-Terrorism Act and its Proactive Detection Bureau. Archer defended the surveillance programme as a necessary response to terrorism and foreign threats, making public safety, intelligence gathering and military readiness central to his political identity.<ref name="terrorNetwork">[https://www.elitedangerous.com/news/galnet/federal-terrorist-network-exposed Federal Terrorist Network Exposed], ''GalNet'', Frontier Developments, accessed 7 November 2026.</ref>
+
+Archer lost the 3309 presidential election to Felicia Winters by four percentage points. During the delayed transfer of power he took control of the Republican Party and inherited Hudson's political and Powerplay constituency. When Winters assumed office on 31 October 3310, Archer became shadow president and leader of the formal opposition.<ref name="wintersElection">[https://web.archive.org/web/20231018134059id_/https://www.elitedangerous.com/news/galnet/felicia-winters-elected-federal-president Felicia Winters Elected as Federal President], ''GalNet'', Frontier Developments, accessed 7 November 2026.</ref><ref name="wintersOffice">[https://www.elitedangerous.com/news/galnet/president-winters-assumes-office President Winters Assumes Office], ''GalNet'', Frontier Developments, accessed 7 November 2026.</ref>
+
+== Powerplay identity and ethos ==
+
+Archer is the security and enforcement wing of Federal Powerplay. His political programme stresses defence spending, stronger law enforcement, surveillance and resistance to foreign influence. In Powerplay 2.0 this is represented by a '''Combat''' ethos for both acquisition and reinforcement, followed by a '''Covert''' ethos for undermining.<ref name="shadowFuture">[https://www.elitedangerous.com/news/galnet/archer-outlines-shadow-presidency-future Archer Outlines Shadow Presidency Future], ''GalNet'', Frontier Developments, accessed 7 November 2026.</ref><ref name="archerInara" />
+
+The ethos labels identify the activity families best aligned with the Power; they do not make every combat or covert action valid in every system. The in-game Powerplay map and local activity panel remain the practical authority for eligible targets and routes. Powerplay 2.0 also removed the old requirement to match a Power with favourable minor-faction government types, so Archer has no preferred-government condition for controlling territory.<ref name="ppqa">[https://www.elitedangerous.com/news/powerplay-20-qa Powerplay 2.0 Q&A], Frontier Developments, accessed 7 November 2026.</ref>
+
+== Territorial methods ==
+
+Archer's durable territorial pattern follows the normal Powerplay structure while leaning into his two Combat roles:
+
+* '''Acquisition:''' bounty hunting, hostile Power-ship destruction and Power Conflict Zones can support expansion into eligible uncontrolled systems when the in-game panel marks them as valid activities.
+* '''Reinforcement:''' similar combat work in Archer-controlled territory can defend systems against undermining and help maintain or improve their control state.
+* '''Undermining:''' covert work applies pressure to rival territory through eligible data theft and transfer, malware uploads, holoscreen hacking, sabotage, megaship or Stronghold Carrier data-link scans and other clandestine objectives.
+
+Fortified systems and Strongholds anchor surrounding territory, while Strongholds can provide facilities and defensive opportunities around a Power's carrier group. Exact activity availability and merit treatment have changed in balance updates, so this page summarises Archer's method rather than duplicating the live activity matrix owned by [[Powerplay]].<ref name="ascendancy" /><ref name="operations">[https://www.elitedangerous.com/news/updates/4-4-0-0 Elite Dangerous: Operations - Available Now], Frontier Developments, accessed 7 November 2026.</ref><ref name="communityGuide">[https://inara.cz/elite/logbook/84502/ A comprehensive Odyssey guide about Powerplay 2.0], CMDR Hanchen via INARA, accessed 7 November 2026. Maintained community guide based on the in-game handbook and testing.</ref>
+
+== Power-specific perks ==
+
+At their maximum unlocked levels, Archer's territorial perks provide:<ref name="archerInara" />
+
+* '''+100% bounty payouts''' in Archer territory;
+* '''-30% weapon-module cost''' in Archer territory.
+
+These percentages unlock progressively through loyalty ranks rather than applying in full immediately after pledging. General merit progression, care packages, rebuy benefits, defection rules and other shared rank rewards are covered on [[Powerplay]].
+
+== Module unlock order ==
+
+Every Power can eventually unlock all twelve Powerplay modules in Live; the Power determines the order, with its signature module first. Frontier confirms the shared-access model, while the exact order below is maintained from current community and in-game records.<ref name="ppqa" /><ref name="communityGuide" /><ref name="newpModules">[https://newp.io/ppmodules Elite Dangerous Powerplay Modules Guide], New Pilots Initiative, accessed 7 November 2026. Maintained community unlock table.</ref>
+
+{| class="wikitable"
+! Loyalty rank
+! Module
+|-
+| 34
+| [[Pacifier Frag-Cannon]]
+|-
+| 39
+| [[Pulse Disruptor]]
+|-
+| 44
+| Containment Missile
+|-
+| 50
+| [[Enforcer Cannon]]
+|-
+| 57
+| [[Pack-Hound Missile Rack]]
+|-
+| 63
+| Concord Cannon
+|-
+| 70
+| [[Advanced Plasma Accelerator]]
+|-
+| 76
+| [[Cytoscrambler]]
+|-
+| 83
+| [[Prismatic Shield Generator]]
+|-
+| 88
+| [[Imperial Hammer]]
+|-
+| 91
+| [[Retributor Beam Laser|Retributor]]
+|-
+| 97
+| [[Mining Lance]]
+|}
+
+== History and relationships ==
+
+Archer is Zachary Hudson's political protégé and successor, but his Power is not simply a renamed legacy organisation. Ascendancy established him as a separate pledgeable leader under the Powerplay 2.0 rules, while Hudson left the active roster.<ref name="ascendancy" />
+
+His principal domestic rival is President Felicia Winters. Their division is both partisan and practical: Archer favours surveillance, security spending and forceful Federal authority, while Winters places greater weight on civil liberties, welfare and social investment. That rivalry shapes their competing Federal Powerplay identities even when both oppose threats to the Federation.<ref name="shadowFuture" />
+
+Archer has also resisted Imperial influence close to the Federal heartland. His supporters opposed Aisling Duval's growing presence around Sol, and in April 3311 they defeated Denton Patreus's side in a proxy conflict in Chi Eridani. Such individual fronts are temporary, but they illustrate the Power's established preference for direct military contests backed by intelligence activity.<ref name="solInfluence">[https://web.archive.org/web/20250111042810id_/https://www.elitedangerous.com/news/galnet/empire-accused-power-grab-federations-heart Empire Accused of Power Grab in Federation’s Heart], ''GalNet'', Frontier Developments, accessed 7 November 2026.</ref><ref name="chiEridani">[https://web.archive.org/web/20250410141847id_/https://www.elitedangerous.com/news/galnet/heavy-combat-chi-eridani-subsides Heavy Combat in Chi Eridani Subsides], ''GalNet'', Frontier Developments, accessed 7 November 2026.</ref>
+
+== Sources ==
+
+<references />
+
+{{Related articles|[[Powerplay]] [[Felicia Winters]] [[Pacifier Frag-Cannon]]}}
+
+[[Category:Powerplay]]
+[[Category:Factions]]
+[[Category:Reference Entries]]
