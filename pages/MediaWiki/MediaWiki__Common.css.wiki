@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: MediaWiki:Common.css
 Namespace: 8
 Page ID: 69
-Revision ID: 8754
-Timestamp: 2026-11-08T15:51:15Z
+Revision ID: 8756
+Timestamp: 2026-11-08T16:00:26Z
 Source URL: https://edfieldmanual.com/wiki/MediaWiki:Common.css
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -4395,6 +4395,8 @@ body.mediawiki.mw-special-Preferences #mw-prefsection-personal-commander .edfm-f
 /* CMDR public/private toggle: real checkbox, styled as a switch, laid out
    via the shared .edfm-setting-row(--inline) pattern above. */
 body.mediawiki.mw-special-Preferences #mw-input-wpedfm-commander-name-public {
+	position: relative;
+	display: inline-block;
 	flex: 0 0 auto;
 	width: 2.65rem;
 	height: 1.5rem;
@@ -4414,6 +4416,9 @@ body.mediawiki.mw-special-Preferences #mw-input-wpedfm-commander-name-public inp
 	height: 1.5rem !important;
 }
 body.mediawiki.mw-special-Preferences #mw-input-wpedfm-commander-name-public input[ type='checkbox' ] + span {
+	position: absolute !important;
+	inset: 0 !important;
+	box-sizing: border-box;
 	width: 2.65rem !important;
 	height: 1.5rem !important;
 	border: 1px solid var( --edfm-border ) !important;
@@ -4740,7 +4745,7 @@ body.mediawiki.mw-special-Preferences .edfm-status-badge--neutral {
 	color: var( --edfm-text-muted );
 }
 
-body.mediawiki.mw-special-Preferences .edfm-account-setting {
+body.mediawiki.mw-special-Preferences .oo-ui-fieldLayout.edfm-account-setting {
 	position: absolute;
 	/* Anchor to #mw-htmlform-commander so the toggle aligns to the card, not the section legend. */
 	top: 50%;
@@ -4755,17 +4760,18 @@ body.mediawiki.mw-special-Preferences .edfm-account-setting {
 	background: transparent;
 }
 
-body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-fieldLayout-body {
+body.mediawiki.mw-special-Preferences .oo-ui-fieldLayout.edfm-account-setting .oo-ui-fieldLayout-body {
 	display: inline-flex !important;
+	flex-direction: row !important;
 	align-items: center !important;
 	justify-content: flex-end !important;
-	gap: 2.75rem;
+	gap: 1rem;
 	width: max-content;
 	max-width: none;
 }
 
-body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-fieldLayout-header,
-body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-fieldLayout-field {
+body.mediawiki.mw-special-Preferences .oo-ui-fieldLayout.edfm-account-setting .oo-ui-fieldLayout-header,
+body.mediawiki.mw-special-Preferences .oo-ui-fieldLayout.edfm-account-setting .oo-ui-fieldLayout-field {
 	display: inline-flex !important;
 	align-items: center !important;
 	width: auto !important;
@@ -4776,16 +4782,16 @@ body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-fieldLayout-f
 	clear: none !important;
 }
 
-body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-fieldLayout-header {
+body.mediawiki.mw-special-Preferences .oo-ui-fieldLayout.edfm-account-setting .oo-ui-fieldLayout-header {
 	order: 1;
 }
 
-body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-fieldLayout-field {
+body.mediawiki.mw-special-Preferences .oo-ui-fieldLayout.edfm-account-setting .oo-ui-fieldLayout-field {
 	order: 2;
 }
 
-body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-fieldLayout-header label,
-body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-labelElement-label {
+body.mediawiki.mw-special-Preferences .oo-ui-fieldLayout.edfm-account-setting .oo-ui-fieldLayout-header label,
+body.mediawiki.mw-special-Preferences .oo-ui-fieldLayout.edfm-account-setting .oo-ui-labelElement-label {
 	font-family: var( --edfm-mono );
 	font-size: var( --edfm-fs-utility );
 	font-weight: 850;
@@ -4795,8 +4801,8 @@ body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-labelElement-
 	white-space: nowrap;
 }
 
-body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-fieldLayout-help,
-body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-inline-help {
+body.mediawiki.mw-special-Preferences .oo-ui-fieldLayout.edfm-account-setting .oo-ui-fieldLayout-help,
+body.mediawiki.mw-special-Preferences .oo-ui-fieldLayout.edfm-account-setting .oo-ui-inline-help {
 	display: none;
 }
 
@@ -4891,21 +4897,43 @@ body.mediawiki.mw-special-Preferences .edfm-integration-card__meta .edfm-account
 	body.mediawiki.mw-special-Preferences .edfm-account-card {
 		padding-right: 0.85rem;
 	}
-	body.mediawiki.mw-special-Preferences .edfm-account-setting {
+	body.mediawiki.mw-special-Preferences .oo-ui-fieldLayout.edfm-account-setting {
 		position: static;
 		transform: none;
-		max-width: none;
+		width: 100%;
+		max-width: 100%;
+		box-sizing: border-box;
 		margin-top: 0.7rem !important;
 		padding: 0.75rem 0 0 !important;
 		border-top: 1px solid var( --edfm-border-soft );
 	}
-	body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-fieldLayout-body {
+	body.mediawiki.mw-special-Preferences .oo-ui-fieldLayout.edfm-account-setting .oo-ui-fieldLayout-body {
+		flex-direction: column !important;
+		align-items: flex-start !important;
 		justify-content: flex-start;
+		gap: 0.5rem;
+		width: 100%;
+		max-width: 100%;
 	}
-	body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-fieldLayout-help,
-	body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-inline-help {
+	body.mediawiki.mw-special-Preferences .oo-ui-fieldLayout.edfm-account-setting .oo-ui-fieldLayout-header {
+		display: flex !important;
+		flex-direction: column;
+		align-items: flex-start !important;
+		width: 100% !important;
+		max-width: 100% !important;
+		gap: 0.35rem;
+	}
+	body.mediawiki.mw-special-Preferences .oo-ui-fieldLayout.edfm-account-setting .oo-ui-fieldLayout-header label {
+		max-width: 100%;
+		white-space: normal;
+	}
+	body.mediawiki.mw-special-Preferences .oo-ui-fieldLayout.edfm-account-setting .oo-ui-fieldLayout-help,
+	body.mediawiki.mw-special-Preferences .oo-ui-fieldLayout.edfm-account-setting .oo-ui-inline-help {
 		display: block;
-		margin-top: 0.35rem;
+		width: 100%;
+		max-width: 100%;
+		margin-top: 0;
+		white-space: normal;
 	}
 	body.mediawiki.mw-special-Preferences .edfm-integration-card__meta .edfm-account-action--destructive,
 	body.mediawiki.mw-special-Preferences .edfm-integration-card__meta .edfm-account-action {
