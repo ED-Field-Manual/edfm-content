@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: MediaWiki:Common.css
 Namespace: 8
 Page ID: 69
-Revision ID: 8753
-Timestamp: 2026-11-08T15:47:15Z
+Revision ID: 8754
+Timestamp: 2026-11-08T15:51:15Z
 Source URL: https://edfieldmanual.com/wiki/MediaWiki:Common.css
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -4759,7 +4759,7 @@ body.mediawiki.mw-special-Preferences .edfm-account-setting .oo-ui-fieldLayout-b
 	display: inline-flex !important;
 	align-items: center !important;
 	justify-content: flex-end !important;
-	gap: 1rem;
+	gap: 2.75rem;
 	width: max-content;
 	max-width: none;
 }
