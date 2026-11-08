@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:Homepage Recent Updates
 Namespace: 10
 Page ID: 738
-Revision ID: 8682
-Timestamp: 2026-11-07T22:00:16Z
+Revision ID: 8722
+Timestamp: 2026-11-08T05:54:11Z
 Source URL: https://edfieldmanual.com/wiki/Template:Homepage_Recent_Updates
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -16,29 +16,29 @@ This is current wikitext only; no revision history, user database, logs, deleted
 |-
 |
 {| class="edfm-home-recent-item"
-| class="edfm-home-recent-title" | [[Lady Zi's Counter-Megacorporation Assault]]
+| class="edfm-home-recent-title" | [[Yuri Grom]]
 | class="edfm-home-recent-badge" | '''NEW ARTICLE'''
-| class="edfm-home-recent-date" | Published 7 Nov 2026
+| class="edfm-home-recent-date" | Published 8 Nov 2026
 |-
-| class="edfm-home-recent-summary" colspan="3" | Lady Zi's Fire Lotus Coalition campaign against corporate forces in Exphiay and Sorbago.
+| class="edfm-home-recent-summary" colspan="3" | The former Federal admiral who leads EG Union as an independent militarist Power opposed to superpower control and political corruption.
 |}
 |-
 |
 {| class="edfm-home-recent-item"
-| class="edfm-home-recent-title" | [[EDFM Companion]]
+| class="edfm-home-recent-title" | [[Archon Delaine]]
 | class="edfm-home-recent-badge" | '''NEW ARTICLE'''
-| class="edfm-home-recent-date" | Published 7 Oct 2026
+| class="edfm-home-recent-date" | Published 8 Nov 2026
 |-
-| class="edfm-home-recent-summary" colspan="3" | An upcoming desktop companion and optional in-game overlay that combines familiar journal-driven tools with deeper links to the Elite Dangerous Field Manual.
+| class="edfm-home-recent-summary" colspan="3" | The Pirate King of the Kumo Crew, an independent criminal Power built on piracy, intimidation and protection rackets.
 |}
 |-
 |
 {| class="edfm-home-recent-item"
-| class="edfm-home-recent-title" | [[Odyssey Missions]]
+| class="edfm-home-recent-title" | [[Pranav Antal]]
 | class="edfm-home-recent-badge" | '''NEW ARTICLE'''
-| class="edfm-home-recent-date" | Published 4 Oct 2026
+| class="edfm-home-recent-date" | Published 8 Nov 2026
 |-
-| class="edfm-home-recent-summary" colspan="3" | An overview of on-foot contracts, settlement objectives, equipment, legality, and mission selection.
+| class="edfm-home-recent-summary" colspan="3" | The Simguru of Utopia, an independent Power pursuing communal advancement through technology, knowledge and self-mastery.
 |}
 |}
 
@@ -47,6 +47,15 @@ This is current wikitext only; no revision history, user database, logs, deleted
 === Recently Updated ===
 {| class="edfm-home-recent-group edfm-home-recent-group-updated"
 | class="edfm-home-recent-subtitle" | ''Existing EDFM pages most recently revised.''
+|-
+|
+{| class="edfm-home-recent-item"
+| class="edfm-home-recent-title" | [[Powerplay]]
+| class="edfm-home-recent-badge" | '''UPDATED ARTICLE'''
+| class="edfm-home-recent-date" | Updated 8 Nov 2026
+|-
+| class="edfm-home-recent-summary" colspan="3" | A current reference to Powerplay 2.0: the Powers, personal progression, territorial warfare, rewards, and the weekly cycle.
+|}
 |-
 |
 {| class="edfm-home-recent-item"
@@ -59,20 +68,11 @@ This is current wikitext only; no revision history, user database, logs, deleted
 |-
 |
 {| class="edfm-home-recent-item"
-| class="edfm-home-recent-title" | [[Mining Laser]]
-| class="edfm-home-recent-badge" | '''UPDATED REFERENCE'''
-| class="edfm-home-recent-date" | Updated 22 Oct 2026
+| class="edfm-home-recent-title" | [[Lady Zi's Counter-Megacorporation Assault]]
+| class="edfm-home-recent-badge" | '''UPDATED ARTICLE'''
+| class="edfm-home-recent-date" | Updated 7 Nov 2026
 |-
-| class="edfm-home-recent-summary" colspan="3" | A continuous-beam hardpoint that cuts ordinary fragments from mineable asteroids.
-|}
-|-
-|
-{| class="edfm-home-recent-item"
-| class="edfm-home-recent-title" | [[Cargo Rack]]
-| class="edfm-home-recent-badge" | '''UPDATED REFERENCE'''
-| class="edfm-home-recent-date" | Updated 22 Oct 2026
-|-
-| class="edfm-home-recent-summary" colspan="3" | The optional internal module that provides a ship's cargo capacity.
+| class="edfm-home-recent-summary" colspan="3" | Lady Zi's Fire Lotus Coalition campaign against corporate forces in Exphiay and Sorbago.
 |}
 |}
 

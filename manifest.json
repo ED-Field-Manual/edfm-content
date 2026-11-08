@@ -1,5 +1,5 @@
 {
-  "exported_at_utc": "November 8, 2026 at 05:17:53 UTC",
+  "exported_at_utc": "November 8, 2026 at 05:54:49 UTC",
   "source_api": "https://edfieldmanual.com/api.php",
   "export_type": "current public wikitext only",
   "excluded": [
@@ -5259,8 +5259,8 @@
       "title": "Template:GalNet Archive",
       "ns": 10,
       "pageid": 736,
-      "rev_id": 8703,
-      "timestamp": "2026-11-08T05:00:03Z",
+      "rev_id": 8721,
+      "timestamp": "2026-11-08T05:40:02Z",
       "fullurl": "https://edfieldmanual.com/wiki/Template:GalNet_Archive",
       "path": "pages/Template/Template__GalNet Archive.wiki"
     },
@@ -5322,8 +5322,8 @@
       "title": "Template:Homepage Recent Updates",
       "ns": 10,
       "pageid": 738,
-      "rev_id": 8682,
-      "timestamp": "2026-11-07T22:00:16Z",
+      "rev_id": 8722,
+      "timestamp": "2026-11-08T05:54:11Z",
       "fullurl": "https://edfieldmanual.com/wiki/Template:Homepage_Recent_Updates",
       "path": "pages/Template/Template__Homepage Recent Updates.wiki"
     },
