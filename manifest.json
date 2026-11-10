@@ -1,5 +1,5 @@
 {
-  "exported_at_utc": "November 9, 2026 at 07:01:07 UTC",
+  "exported_at_utc": "November 10, 2026 at 07:01:04 UTC",
   "source_api": "https://edfieldmanual.com/api.php",
   "export_type": "current public wikitext only",
   "excluded": [
@@ -24,7 +24,7 @@
     "14": "Category",
     "828": "Module"
   },
-  "page_count": 979,
+  "page_count": 981,
   "pages": [
     {
       "title": "AX Missile Rack",
@@ -52,6 +52,15 @@
       "timestamp": "2026-09-12T20:34:02Z",
       "fullurl": "https://edfieldmanual.com/wiki/Abrasion_Blaster",
       "path": "pages/Main/Abrasion Blaster.wiki"
+    },
+    {
+      "title": "Adder",
+      "ns": 0,
+      "pageid": 1011,
+      "rev_id": 8831,
+      "timestamp": "2026-11-09T15:12:36Z",
+      "fullurl": "https://edfieldmanual.com/wiki/Adder",
+      "path": "pages/Main/Adder.wiki"
     },
     {
       "title": "Advanced Docking Computer",
@@ -147,8 +156,8 @@
       "title": "Anaconda Mk II",
       "ns": 0,
       "pageid": 847,
-      "rev_id": 8676,
-      "timestamp": "2026-11-07T21:28:48Z",
+      "rev_id": 8822,
+      "timestamp": "2026-11-09T12:20:06Z",
       "fullurl": "https://edfieldmanual.com/wiki/Anaconda_Mk_II",
       "path": "pages/Main/Anaconda Mk II.wiki"
     },
@@ -4617,6 +4626,15 @@
       "path": "pages/File/File__Screenshot 2026-10-03 111136.png.wiki"
     },
     {
+      "title": "File:Screenshot 2026-11-09 at 12.06.32.png",
+      "ns": 6,
+      "pageid": 1010,
+      "rev_id": 8810,
+      "timestamp": "2026-11-09T09:06:57Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Screenshot_2026-11-09_at_12.06.32.png",
+      "path": "pages/File/File__Screenshot 2026-11-09 at 12.06.32.png.wiki"
+    },
+    {
       "title": "File:Screenshot menu.png",
       "ns": 6,
       "pageid": 993,
@@ -5259,8 +5277,8 @@
       "title": "Template:GalNet Archive",
       "ns": 10,
       "pageid": 736,
-      "rev_id": 8803,
-      "timestamp": "2026-11-09T07:00:02Z",
+      "rev_id": 8880,
+      "timestamp": "2026-11-10T07:00:02Z",
       "fullurl": "https://edfieldmanual.com/wiki/Template:GalNet_Archive",
       "path": "pages/Template/Template__GalNet Archive.wiki"
     },
@@ -5322,8 +5340,8 @@
       "title": "Template:Homepage Recent Updates",
       "ns": 10,
       "pageid": 738,
-      "rev_id": 8722,
-      "timestamp": "2026-11-08T05:54:11Z",
+      "rev_id": 8834,
+      "timestamp": "2026-11-09T15:54:32Z",
       "fullurl": "https://edfieldmanual.com/wiki/Template:Homepage_Recent_Updates",
       "path": "pages/Template/Template__Homepage Recent Updates.wiki"
     },

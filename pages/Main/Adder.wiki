@@ -1,0 +1,15 @@
+<!--
+EDFM current-content archive export.
+Title: Adder
+Namespace: 0
+Page ID: 1011
+Revision ID: 8831
+Timestamp: 2026-11-09T15:12:36Z
+Source URL: https://edfieldmanual.com/wiki/Adder
+This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
+-->
+
+[[File:Screenshot 2026-11-09 at 12.06.32.png|thumb|'''Adder''']]
+<blockquote>A compact, adaptable ship, the Adder has a larger cargo hold than other ships of similar size, and its base jump range of over 30 light years makes it a viable choice for explorers. The ship can also hold its own in a dogfight, when properly outfitted.
+
+— In-Game Description</blockquote>The '''Adder''' is a small [[Ships|ship]] manufactured by [[Zorgon Peterson]]. The original model debuted in 2914 as a product of Outworld Workshops, but Zorgon Peterson subsequently acquired the rights. The multirole ship is known for its sturdiness and reliability. As the cheapest ship with a Class 2 hardpoint and a base Armour Hardness on par with the [[Cobra Mk III]], the Adder is a viable early choice for combat. The singular hardpoint also gives the Adder the distinction of being the cheapest ship capable of mounting a Class 2 Mining Laser or Seismic Charge Launcher, making it a usable vessel for mining. Furthermore, it has a relatively high jump range potential for its size and price range, and can carry up to 30 tonnes of cargo, allowing it to tackle exploration and trading respectively with ease. The Adder's adaptability and price make it ideal for new pilots seeking to upgrade from the Sidewinder Mk I.
