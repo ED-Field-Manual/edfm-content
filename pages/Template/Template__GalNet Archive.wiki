@@ -3,14 +3,20 @@ EDFM current-content archive export.
 Title: Template:GalNet Archive
 Namespace: 10
 Page ID: 736
-Revision ID: 9311
-Timestamp: 2026-11-16T07:00:02Z
+Revision ID: 9384
+Timestamp: 2026-11-17T07:00:02Z
 Source URL: https://edfieldmanual.com/wiki/Template:GalNet_Archive
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 <noinclude>This template is generated automatically by the EDFM GalNet updater. Manual edits will be replaced.</noinclude><includeonly><div class="edfm-galnet-panel edfm-galnet-panel-archive">
 <div class="edfm-galnet-archive-list">
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">16 NOV 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6afae8d7332752e16601ad23 Hacking Concerns Grow in Major Systems]</div>
+<div class="edfm-galnet-summary">Lady Zi’s continued belligerence in Sorbago and Exphiay is inspiring sympathetic action far from the fighting, claims Vox Galactica. Gwendolyn Nash writes that small, nimble vessels bearing the mark of the Fire Lotus Coalition have been sighted in systems such as Facece, Nanomam and Lave: “Dozens of starport networks, and at least three…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6afae8d7332752e16601ad23 Read the official GalNet transmission]</div>
+</div>
 <div class="edfm-galnet-archive-entry">
 <div class="edfm-galnet-date">05 NOV 3312</div>
 <div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6aec65d651264090e304a455 Corporate Forces Trigger Counterattack Against Lady Zi]</div>
@@ -95,12 +101,6 @@ This is current wikitext only; no revision history, user database, logs, deleted
 <div class="edfm-galnet-summary">Vodel confirmed in a joint press statement with Wreaken Mining that recent early release trials of the new Rhino SRV had been a huge success. Telemetry data received from independent pilots taking part in the recent initiative showed that the new surface vehicle performed across even the roughest planetary terrain. "We're extremely…</div>
 <div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6aabab6897c785e696068649 Read the official GalNet transmission]</div>
 </div>
-<div class="edfm-galnet-archive-entry">
-<div class="edfm-galnet-date">14 SEP 3312</div>
-<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6aa7cf45038160636b0a9e05 Increased Traffic Near Prison Ships Sparks Concern]</div>
-<div class="edfm-galnet-summary">Governing authorities of several star systems have reported unusually high traffic around prison reformatories during recent inmate transfers. Known affiliates of local pirate factions have been spotted flying in formation near the prison ships, but so far have not engaged with local security forces or prisoner transports. "Although no…</div>
-<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6aa7cf45038160636b0a9e05 Read the official GalNet transmission]</div>
 </div>
-</div>
-<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 16 Nov 2026 07:00 UTC.</div>
+<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 17 Nov 2026 07:00 UTC.</div>
 </div></includeonly>
