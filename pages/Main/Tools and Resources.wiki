@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Tools and Resources
 Namespace: 0
 Page ID: 63
-Revision ID: 3754
-Timestamp: 2026-09-10T19:52:05Z
+Revision ID: 9511
+Timestamp: 2026-11-19T01:06:04Z
 Source URL: https://edfieldmanual.com/wiki/Tools_and_Resources
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -76,6 +76,13 @@ Several tools above draw their data from the game's own journal files and Fronti
  |url=https://github.com/EDCD/EDMarketConnector
  |description=PC application maintained by EDCD that reads game journals and Frontier companion data, then forwards selected data to services such as EDSM, Inara, and EDDN. Supports plugins.
  |tag1=Journal|tag2=API|tag3=Data sync|tag4=Plugins
+}}
+{{Resource card
+ |name=EDCC
+ |fullname=Elite Dangerous Command Center
+ |url=https://edcc.lol/
+ |description=Windows companion application by CMDR Mubloxi that brings commander journal information, fleet and material tracking, ship-build management, galaxy exploration tools, and in-game overlays together with access to community resources. Integration capabilities vary by service. Downloads and release notes are available on [https://github.com/Mubloxi/EDCC/releases GitHub Releases].
+ |tag1=Windows|tag2=Companion app|tag3=Fleet management|tag4=Ship builds|tag5=Exploration
 }}
 }}
 

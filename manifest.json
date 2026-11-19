@@ -1,5 +1,5 @@
 {
-  "exported_at_utc": "November 18, 2026 at 07:01:06 UTC",
+  "exported_at_utc": "November 19, 2026 at 01:07:18 UTC",
   "source_api": "https://edfieldmanual.com/api.php",
   "export_type": "current public wikitext only",
   "excluded": [
@@ -3252,8 +3252,8 @@
       "title": "Tools and Resources",
       "ns": 0,
       "pageid": 63,
-      "rev_id": 3754,
-      "timestamp": "2026-09-10T19:52:05Z",
+      "rev_id": 9511,
+      "timestamp": "2026-11-19T01:06:04Z",
       "fullurl": "https://edfieldmanual.com/wiki/Tools_and_Resources",
       "path": "pages/Main/Tools and Resources.wiki"
     },
@@ -5277,8 +5277,8 @@
       "title": "Template:GalNet Archive",
       "ns": 10,
       "pageid": 736,
-      "rev_id": 9456,
-      "timestamp": "2026-11-18T07:00:02Z",
+      "rev_id": 9510,
+      "timestamp": "2026-11-19T01:00:02Z",
       "fullurl": "https://edfieldmanual.com/wiki/Template:GalNet_Archive",
       "path": "pages/Template/Template__GalNet Archive.wiki"
     },
