@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:Homepage Recent Updates
 Namespace: 10
 Page ID: 738
-Revision ID: 8834
-Timestamp: 2026-11-09T15:54:32Z
+Revision ID: 9514
+Timestamp: 2026-11-19T01:49:01Z
 Source URL: https://edfieldmanual.com/wiki/Template:Homepage_Recent_Updates
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -50,6 +50,15 @@ This is current wikitext only; no revision history, user database, logs, deleted
 |-
 |
 {| class="edfm-home-recent-item"
+| class="edfm-home-recent-title" | [[Tools and Resources]]
+| class="edfm-home-recent-badge" | '''UPDATED ARTICLE'''
+| class="edfm-home-recent-date" | Updated 19 Nov 2026
+|-
+| class="edfm-home-recent-summary" colspan="3" | Community tools, databases, applications and services commonly used alongside Elite Dangerous.
+|}
+|-
+|
+{| class="edfm-home-recent-item"
 | class="edfm-home-recent-title" | [[Powerplay]]
 | class="edfm-home-recent-badge" | '''UPDATED ARTICLE'''
 | class="edfm-home-recent-date" | Updated 8 Nov 2026
@@ -64,15 +73,6 @@ This is current wikitext only; no revision history, user database, logs, deleted
 | class="edfm-home-recent-date" | Updated 7 Nov 2026
 |-
 | class="edfm-home-recent-summary" colspan="3" | Wreaken and Vodel's concluded three-part mining field-test programme at Metz Enterprise in Ega.
-|}
-|-
-|
-{| class="edfm-home-recent-item"
-| class="edfm-home-recent-title" | [[Lady Zi's Counter-Megacorporation Assault]]
-| class="edfm-home-recent-badge" | '''UPDATED ARTICLE'''
-| class="edfm-home-recent-date" | Updated 7 Nov 2026
-|-
-| class="edfm-home-recent-summary" colspan="3" | Lady Zi's Fire Lotus Coalition campaign against corporate forces in Exphiay and Sorbago.
 |}
 |}
 
