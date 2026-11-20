@@ -3,14 +3,20 @@ EDFM current-content archive export.
 Title: Template:GalNet Archive
 Namespace: 10
 Page ID: 736
-Revision ID: 9530
-Timestamp: 2026-11-19T07:00:03Z
+Revision ID: 9602
+Timestamp: 2026-11-20T07:00:02Z
 Source URL: https://edfieldmanual.com/wiki/Template:GalNet_Archive
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 <noinclude>This template is generated automatically by the EDFM GalNet updater. Manual edits will be replaced.</noinclude><includeonly><div class="edfm-galnet-panel edfm-galnet-panel-archive">
 <div class="edfm-galnet-archive-list">
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">19 NOV 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6afec818730e711e95049365 Fire Lotus Coalition Withdraws from Sorbago and Exphiay]</div>
+<div class="edfm-galnet-summary">Pirate forces in the Sorbago and Exphiay systems have withdrawn suddenly, according to war correspondents for the Federal Times and Imperial Herald. No warning was given prior to the retreat. The Fire Lotus Coalition assault on Sorbago Mastopolos Mining Inc and Gallant Investment Brokers started on November 5th, amid claims from Lady Zi…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6afec818730e711e95049365 Read the official GalNet transmission]</div>
+</div>
 <div class="edfm-galnet-archive-entry">
 <div class="edfm-galnet-date">16 NOV 3312</div>
 <div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6afae8d7332752e16601ad23 Hacking Concerns Grow in Major Systems]</div>
@@ -95,12 +101,6 @@ This is current wikitext only; no revision history, user database, logs, deleted
 <div class="edfm-galnet-summary">The Independent Detention Foundation confirmed yesterday that Riker-class Reformatory EVE-597 had failed to report in following its scheduled jump. The prison ship successfully jumped from the Nones system but has not arrived at Gliese 506.2. System authorities confirm that no signs of debris have been detected. The organisation said…</div>
 <div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6aabe5d81c30c815fd069e58 Read the official GalNet transmission]</div>
 </div>
-<div class="edfm-galnet-archive-entry">
-<div class="edfm-galnet-date">17 SEP 3312</div>
-<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6aabab6897c785e696068649 SRV and Surface Mining Trials Deemed Resounding Success]</div>
-<div class="edfm-galnet-summary">Vodel confirmed in a joint press statement with Wreaken Mining that recent early release trials of the new Rhino SRV had been a huge success. Telemetry data received from independent pilots taking part in the recent initiative showed that the new surface vehicle performed across even the roughest planetary terrain. "We're extremely…</div>
-<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6aabab6897c785e696068649 Read the official GalNet transmission]</div>
 </div>
-</div>
-<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 19 Nov 2026 07:00 UTC.</div>
+<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 20 Nov 2026 07:00 UTC.</div>
 </div></includeonly>
