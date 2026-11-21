@@ -1,5 +1,5 @@
 {
-  "exported_at_utc": "November 20, 2026 at 07:01:06 UTC",
+  "exported_at_utc": "November 21, 2026 at 07:01:07 UTC",
   "source_api": "https://edfieldmanual.com/api.php",
   "export_type": "current public wikitext only",
   "excluded": [
@@ -5277,8 +5277,8 @@
       "title": "Template:GalNet Archive",
       "ns": 10,
       "pageid": 736,
-      "rev_id": 9602,
-      "timestamp": "2026-11-20T07:00:02Z",
+      "rev_id": 9674,
+      "timestamp": "2026-11-21T07:00:03Z",
       "fullurl": "https://edfieldmanual.com/wiki/Template:GalNet_Archive",
       "path": "pages/Template/Template__GalNet Archive.wiki"
     },
