@@ -3,14 +3,20 @@ EDFM current-content archive export.
 Title: Template:GalNet Archive
 Namespace: 10
 Page ID: 736
-Revision ID: 10033
-Timestamp: 2026-11-26T07:00:02Z
+Revision ID: 10106
+Timestamp: 2026-11-27T07:00:03Z
 Source URL: https://edfieldmanual.com/wiki/Template:GalNet_Archive
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
 
 <noinclude>This template is generated automatically by the EDFM GalNet updater. Manual edits will be replaced.</noinclude><includeonly><div class="edfm-galnet-panel edfm-galnet-panel-archive">
 <div class="edfm-galnet-archive-list">
+<div class="edfm-galnet-archive-entry">
+<div class="edfm-galnet-date">26 NOV 3312</div>
+<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6b06f7d0c28c47dce104d7b3 Lady Zi Threatens ‘Reset of Social Order’]</div>
+<div class="edfm-galnet-summary">The criminal figurehead Lady Zi has released a new statement via hacked newsfeeds in Shinrarta Dezhra. Having recently instigated conflicts in the Sorbago and Exphiay systems, the Fire Lotus Coalition has now turned its attention to the home of the Pilots’ Federation. But, as Vox Galactica reports, the latest incident brings a message…</div>
+<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6b06f7d0c28c47dce104d7b3 Read the official GalNet transmission]</div>
+</div>
 <div class="edfm-galnet-archive-entry">
 <div class="edfm-galnet-date">19 NOV 3312</div>
 <div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6afec818730e711e95049365 Fire Lotus Coalition Withdraws from Sorbago and Exphiay]</div>
@@ -95,12 +101,6 @@ This is current wikitext only; no revision history, user database, logs, deleted
 <div class="edfm-galnet-summary">Multiple sightings have been reported of the missing prison megaship EVE-597 with system authorities confirming that the vessel has suffered damage. Pilots inspecting the Riker-class prison ship noted disabled defence turrets and a significant quantity of drifting debris. "This doesn't look like a mis-jump to me," stated one Commander…</div>
 <div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6ab2455883146685f4010f84 Read the official GalNet transmission]</div>
 </div>
-<div class="edfm-galnet-archive-entry">
-<div class="edfm-galnet-date">17 SEP 3312</div>
-<div class="edfm-galnet-headline">[https://community.elitedangerous.com/galnet/uid/6aabe5d81c30c815fd069e58 Prison Ship Reported Missing After Failing Scheduled Transit]</div>
-<div class="edfm-galnet-summary">The Independent Detention Foundation confirmed yesterday that Riker-class Reformatory EVE-597 had failed to report in following its scheduled jump. The prison ship successfully jumped from the Nones system but has not arrived at Gliese 506.2. System authorities confirm that no signs of debris have been detected. The organisation said…</div>
-<div class="edfm-galnet-source">[https://community.elitedangerous.com/galnet/uid/6aabe5d81c30c815fd069e58 Read the official GalNet transmission]</div>
 </div>
-</div>
-<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 26 Nov 2026 07:00 UTC.</div>
+<div class="edfm-galnet-footer">Source: Official GalNet / Frontier Developments. Cached locally; last checked 27 Nov 2026 07:00 UTC.</div>
 </div></includeonly>
