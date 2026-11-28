@@ -1,5 +1,5 @@
 {
-  "exported_at_utc": "November 27, 2026 at 07:01:01 UTC",
+  "exported_at_utc": "November 28, 2026 at 07:01:01 UTC",
   "source_api": "https://edfieldmanual.com/api.php",
   "export_type": "current public wikitext only",
   "excluded": [
@@ -24,7 +24,7 @@
     "14": "Category",
     "828": "Module"
   },
-  "page_count": 981,
+  "page_count": 982,
   "pages": [
     {
       "title": "AX Missile Rack",
@@ -4365,6 +4365,15 @@
       "path": "pages/File/File__Frontier News - elite-dangerous-may-dev-log-2026.png.wiki"
     },
     {
+      "title": "File:Frontier News - elite-dangerous-november-dev-log-2026-copperhead-first-visuals-law-dis.jpg",
+      "ns": 6,
+      "pageid": 1012,
+      "rev_id": 10113,
+      "timestamp": "2026-11-27T09:17:05Z",
+      "fullurl": "https://edfieldmanual.com/wiki/File:Frontier_News_-_elite-dangerous-november-dev-log-2026-copperhead-first-visuals-law-dis.jpg",
+      "path": "pages/File/File__Frontier News - elite-dangerous-november-dev-log-2026-copperhead-first-visuals-law-dis.jpg.wiki"
+    },
+    {
       "title": "File:Frontier News - elite-dangerous-october-dev-log-2026-law-disorder.jpg",
       "ns": 6,
       "pageid": 995,
@@ -5259,8 +5268,8 @@
       "title": "Template:Frontier News",
       "ns": 10,
       "pageid": 296,
-      "rev_id": 7400,
-      "timestamp": "2026-10-21T09:17:05Z",
+      "rev_id": 10114,
+      "timestamp": "2026-11-27T09:17:06Z",
       "fullurl": "https://edfieldmanual.com/wiki/Template:Frontier_News",
       "path": "pages/Template/Template__Frontier News.wiki"
     },
@@ -5277,8 +5286,8 @@
       "title": "Template:GalNet Archive",
       "ns": 10,
       "pageid": 736,
-      "rev_id": 10106,
-      "timestamp": "2026-11-27T07:00:03Z",
+      "rev_id": 10180,
+      "timestamp": "2026-11-28T07:00:02Z",
       "fullurl": "https://edfieldmanual.com/wiki/Template:GalNet_Archive",
       "path": "pages/Template/Template__GalNet Archive.wiki"
     },

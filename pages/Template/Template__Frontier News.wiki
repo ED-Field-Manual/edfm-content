@@ -3,8 +3,8 @@ EDFM current-content archive export.
 Title: Template:Frontier News
 Namespace: 10
 Page ID: 296
-Revision ID: 7400
-Timestamp: 2026-10-21T09:17:05Z
+Revision ID: 10114
+Timestamp: 2026-11-27T09:17:06Z
 Source URL: https://edfieldmanual.com/wiki/Template:Frontier_News
 This is current wikitext only; no revision history, user database, logs, deleted pages, or private data are included.
 -->
@@ -12,6 +12,14 @@ This is current wikitext only; no revision history, user database, logs, deleted
 <noinclude>This template is generated automatically by the Frontier news updater. Manual edits will be replaced.</noinclude><includeonly><div class="edfm-home-news edfm-frontier-news">
 <div class="edfm-news-feature-grid">
 <div class="edfm-news-card edfm-news-card-primary">
+<div class="edfm-news-card-art edfm-news-card-art-image">[[File:Frontier News - elite-dangerous-november-dev-log-2026-copperhead-first-visuals-law-dis.jpg|640px|frameless|alt=Elite Dangerous: November Dev Log 2026 | Copperhead & First Visuals of Law & Disorder]]</div>
+<div class="edfm-news-card-body">
+<div class="edfm-news-meta">26 Nov 2026 · Frontier Developments</div>
+<div class="edfm-news-title">[https://www.elitedangerous.com/news/elite-dangerous-november-dev-log-2026-copperhead-first-visuals-law-disorder Elite Dangerous: November Dev Log 2026 | Copperhead & First Visuals of Law & Disorder]</div>
+<div class="edfm-news-summary">Welcome to November's Dev Log. We've got lots to pack into this one, including your first look at some of the new UI bringing Law & Disorder to the galaxy on 9 December.</div>
+</div>
+</div>
+<div class="edfm-news-card">
 <div class="edfm-news-card-art edfm-news-card-art-image">[[File:Frontier News - anaconda-mk-ii-available-now-arx-early-access.jpg|640px|frameless|alt=Anaconda MK II – Available Now Via ARX Early Access ]]</div>
 <div class="edfm-news-card-body">
 <div class="edfm-news-meta">20 Oct 2026 · Frontier Developments</div>
@@ -25,14 +33,6 @@ This is current wikitext only; no revision history, user database, logs, deleted
 <div class="edfm-news-meta">14 Oct 2026 · Frontier Developments</div>
 <div class="edfm-news-title">[https://www.elitedangerous.com/news/elite-dangerous-october-dev-log-2026-law-disorder Elite Dangerous: October Dev Log 2026 | Law & Disorder]</div>
 <div class="edfm-news-summary">A deeper dive into Law & Disorder, the next free update coming to Elite Dangerous, more on the Anaconda Mk II and a step behind the scenes in this month's Elite Developer Log.</div>
-</div>
-</div>
-<div class="edfm-news-card">
-<div class="edfm-news-card-art edfm-news-card-art-image">[[File:Frontier News - september-2026-dev-log-law-disorder-first-details-anaconda-mk-ii-revea.jpg|640px|frameless|alt=September 2026 Dev Log | Law & Disorder First Details & Anaconda Mk II Revealed]]</div>
-<div class="edfm-news-card-body">
-<div class="edfm-news-meta">24 Sep 2026 · Frontier Developments</div>
-<div class="edfm-news-title">[https://www.elitedangerous.com/news/september-2026-dev-log-law-disorder-first-details-anaconda-mk-ii-revealed September 2026 Dev Log | Law & Disorder First Details & Anaconda Mk II Revealed]</div>
-<div class="edfm-news-summary">Your first information on Law & Disorder, a major feature re-work planned for later this year and how the Anaconda Mk II shaping up to make an impact on the galaxy.</div>
 </div>
 </div>
 </div>
